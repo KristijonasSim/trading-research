@@ -1,0 +1,84 @@
+### lookahead-analysis UniversalMACD 20250101-20260101 BTC/USDT ETH/USDT
+2026-11-08 23:17:53,250 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-31 21:30:00 up to 2025-02-28 02:40:00 (58 days).
+2026-11-08 23:17:53,566 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-31 21:30:00 up to 2025-02-28 13:35:00 (58 days).
+2026-11-08 23:17:53,910 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-31 21:30:00 up to 2025-03-03 19:20:00 (61 days).
+2026-11-08 23:17:54,246 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-31 21:30:00 up to 2025-03-04 20:25:00 (62 days).
+2026-11-08 23:17:54,614 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-31 21:30:00 up to 2025-03-07 01:00:00 (65 days).
+2026-11-08 23:17:54,882 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-31 21:30:00 up to 2025-03-07 02:00:00 (65 days).
+2026-11-08 23:17:55,174 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-31 21:30:00 up to 2025-03-10 14:45:00 (68 days).
+2026-11-08 23:17:55,544 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-31 21:30:00 up to 2025-03-19 11:15:00 (77 days).
+2026-11-08 23:17:56,029 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-31 21:30:00 up to 2025-04-02 23:10:00 (92 days).
+2026-11-08 23:17:56,551 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-31 21:30:00 up to 2025-04-03 01:55:00 (92 days).
+2026-11-08 23:17:57,092 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-31 21:30:00 up to 2025-04-06 18:15:00 (95 days).
+2026-11-08 23:17:57,626 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-31 21:30:00 up to 2025-04-09 18:15:00 (98 days).
+2026-11-08 23:17:58,226 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-31 21:30:00 up to 2025-04-10 15:55:00 (99 days).
+2026-11-08 23:17:58,819 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-31 21:30:00 up to 2025-04-10 18:40:00 (99 days).
+2026-11-08 23:17:59,446 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-31 21:30:00 up to 2025-05-18 20:15:00 (137 days).
+2026-11-08 23:18:00,206 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-31 21:30:00 up to 2025-05-18 23:00:00 (138 days).
+2026-11-08 23:18:00,942 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-31 21:30:00 up to 2025-05-23 12:25:00 (142 days).
+2026-11-08 23:18:01,705 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-31 21:30:00 up to 2025-05-23 15:10:00 (142 days).
+2026-11-08 23:18:02,467 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-31 21:30:00 up to 2025-06-05 20:50:00 (155 days).
+2026-11-08 23:18:03,247 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-31 21:30:00 up to 2025-06-05 23:35:00 (156 days).
+2026-11-08 23:18:04,057 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-31 21:30:00 up to 2025-06-13 00:50:00 (163 days).
+2026-11-08 23:18:04,861 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-31 21:30:00 up to 2025-06-13 07:35:00 (163 days).
+2026-11-08 23:18:05,700 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-31 21:30:00 up to 2025-06-21 22:05:00 (172 days).
+2026-11-08 23:18:06,515 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-31 21:30:00 up to 2025-06-22 00:50:00 (172 days).
+2026-11-08 23:18:07,320 - freqtrade.optimize.analysis.lookahead - INFO - Found targeted trade amount = 20 signals.
+2026-11-08 23:18:07,320 - freqtrade.loggers.set_log_levels - INFO - Restoring log verbosity.
+2026-11-08 23:18:07,321 - freqtrade.optimize.analysis.lookahead - INFO - UniversalMACD: no bias detected
+2026-11-08 23:18:07,321 - freqtrade.optimize.analysis.lookahead_helpers - INFO - Checking look ahead bias via backtests of UniversalMACD.py took 22 seconds.
+Analyzing trades ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 20/20 100% • 0:00:17 • 0:00:00
+Add {
+	"method": "AgeFilter",
+	"min_days_listed": 30
+},
+ to your pairlists in config (Under StaticPairList)
+                                                       Lookahead Analysis                                                       
+┏━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┓
+┃         filename ┃      strategy ┃ has_bias ┃ total_signals ┃ biased_entry_signals ┃ biased_exit_signals ┃ biased_indicators ┃
+┡━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━┩
+│ UniversalMACD.py │ UniversalMACD │       No │            20 │                    0 │                   0 │                   │
+└──────────────────┴───────────────┴──────────┴───────────────┴──────────────────────┴─────────────────────┴───────────────────┘
+
+### recursive-analysis UniversalMACD
+2026-11-08 23:18:11,267 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_umacd_min = -0.00707
+2026-11-08 23:18:11,327 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-31 21:30:00 up to 2026-01-01 00:00:00 (365 days).
+2026-11-08 23:18:11,985 - freqtrade.loggers.set_log_levels - INFO - Reducing verbosity for bias tester.
+2026-11-08 23:18:11,986 - freqtrade.optimize.analysis.recursive - INFO - Calculating indicators to test lookahead on indicators.
+2026-11-08 23:18:12,022 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-31 21:30:00 up to 2025-01-01 00:50:00 (0 days).
+2026-11-08 23:18:12,029 - freqtrade.optimize.analysis.recursive - INFO - Calculating indicators using startup candle of 30.
+2026-11-08 23:18:12,061 - freqtrade.optimize.backtesting - INFO - Loading data from 2025-12-31 21:25:00 up to 2026-01-01 00:00:00 (0 days).
+2026-11-08 23:18:12,066 - freqtrade.optimize.analysis.recursive - INFO - Calculating indicators using startup candle of 199.
+2026-11-08 23:18:12,099 - freqtrade.optimize.backtesting - INFO - Loading data from 2025-12-31 07:20:00 up to 2026-01-01 00:00:00 (0 days).
+2026-11-08 23:18:12,104 - freqtrade.optimize.analysis.recursive - INFO - Calculating indicators using startup candle of 399.
+2026-11-08 23:18:12,135 - freqtrade.optimize.backtesting - INFO - Loading data from 2025-12-30 14:40:00 up to 2026-01-01 00:00:00 (1 days).
+2026-11-08 23:18:12,142 - freqtrade.optimize.analysis.recursive - INFO - Calculating indicators using startup candle of 499.
+2026-11-08 23:18:12,175 - freqtrade.optimize.backtesting - INFO - Loading data from 2025-12-30 06:20:00 up to 2026-01-01 00:00:00 (1 days).
+2026-11-08 23:18:12,183 - freqtrade.optimize.analysis.recursive - INFO - Calculating indicators using startup candle of 999.
+2026-11-08 23:18:12,212 - freqtrade.optimize.backtesting - INFO - Loading data from 2025-12-28 12:40:00 up to 2026-01-01 00:00:00 (3 days).
+2026-11-08 23:18:12,223 - freqtrade.optimize.analysis.recursive - INFO - Calculating indicators using startup candle of 1999.
+2026-11-08 23:18:12,240 - freqtrade.exchange.exchange - WARNING - Using 2 calls to get OHLCV. This can result in slower operations for the bot. Please check if you really need 1999 candles for your 
+strategy.
+2026-11-08 23:18:12,257 - freqtrade.optimize.backtesting - INFO - Loading data from 2025-12-25 01:20:00 up to 2026-01-01 00:00:00 (6 days).
+2026-11-08 23:18:12,272 - freqtrade.loggers.set_log_levels - INFO - Restoring log verbosity.
+2026-11-08 23:18:12,273 - freqtrade.optimize.analysis.recursive - INFO - Start checking for recursive bias
+2026-11-08 23:18:12,276 - freqtrade.optimize.analysis.recursive - INFO - No variance on indicator(s) found due to recursive formula.
+2026-11-08 23:18:12,276 - freqtrade.optimize.analysis.recursive - INFO - Start checking for lookahead bias on indicators only
+2026-11-08 23:18:12,277 - freqtrade.optimize.analysis.recursive - INFO - Check indicators at 2025-01-01T00:50:00
+2026-11-08 23:18:12,278 - freqtrade.optimize.analysis.recursive - INFO - No lookahead bias on indicators found.
+2026-11-08 23:18:12,278 - freqtrade.optimize.analysis.recursive_helpers - INFO - Checking recursive and indicator-only lookahead bias of indicators of UniversalMACD.py took 2 seconds.
+Startup candle 1999 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6/6 100% • 0:00:00 • 0:00:00
+Add {
+	"method": "AgeFilter",
+	"min_days_listed": 30
+},
+ to your pairlists in config (Under StaticPairList)
+                         Recursive Analysis                          
+┏━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━┳━━━━━┳━━━━━┳━━━━━━┓
+┃ Indicators ┃ 30 (from strategy) ┃    199 ┃ 399 ┃ 499 ┃ 999 ┃ 1999 ┃
+┡━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━╇━━━━━╇━━━━━╇━━━━━━┩
+│       ma12 │             0.001% │      - │   - │   - │   - │    - │
+│       ma26 │             0.031% │ 0.000% │   - │   - │   - │    - │
+│      umacd │           160.786% │ 0.000% │   - │   - │   - │    - │
+└────────────┴────────────────────┴────────┴─────┴─────┴─────┴──────┘
+VALIDATION_DONE

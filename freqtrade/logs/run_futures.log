@@ -1,0 +1,15 @@
+14 backtests queued
+[1/14] futures__btc_eth__FAdxSmaStrategy: ok     -3.6%/yr  trades=183
+[2/14] futures__alts10__FAdxSmaStrategy: ok     -3.2%/yr  trades=882
+[3/14] futures__btc_eth__FOttStrategy: ok      0.0%/yr  trades=0
+[4/14] futures__alts10__FOttStrategy: ok      0.0%/yr  trades=0
+[5/14] futures__btc_eth__FReinforcedStrategy: FAILED
+[6/14] futures__alts10__FReinforcedStrategy: FAILED
+[7/14] futures__btc_eth__FSampleStrategy: skip (done)
+[8/14] futures__alts10__FSampleStrategy: ok    -14.4%/yr  trades=1028
+[9/14] futures__btc_eth__FSupertrendStrategy: ok     -1.9%/yr  trades=1210
+[10/14] futures__alts10__FSupertrendStrategy: ok     -5.8%/yr  trades=7063
+[11/14] futures__btc_eth__TrendFollowingStrategy: ok    -15.7%/yr  trades=259
+[12/14] futures__alts10__TrendFollowingStrategy: ok    -27.5%/yr  trades=2248
+[13/14] futures__btc_eth__VolatilitySystem: ok     69.8%/yr  trades=291
+[14/14] futures__alts10__VolatilitySystem: ok      0.6%/yr  trades=1132

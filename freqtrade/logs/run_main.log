@@ -1,0 +1,102 @@
+126 backtests queued
+[1/126] spot__btc_eth__AdxSmas: skip (done)
+[2/126] spot__alts10__ADXMomentum: skip (done)
+[3/126] spot__alts10__ASDTSRockwellTrading: skip (done)
+[4/126] spot__btc_eth__ASDTSRockwellTrading: skip (done)
+[5/126] spot__btc_eth__ADXMomentum: skip (done)
+[6/126] spot__alts10__AdxSmas: skip (done)
+[7/126] spot__btc_eth__AverageStrategy: skip (done)
+[8/126] spot__alts10__AverageStrategy: skip (done)
+[9/126] spot__btc_eth__AwesomeMacd: skip (done)
+[10/126] spot__alts10__AwesomeMacd: skip (done)
+[11/126] spot__btc_eth__Bandtastic: skip (done)
+[12/126] spot__alts10__Bandtastic: skip (done)
+[13/126] spot__btc_eth__BbandRsi: skip (done)
+[14/126] spot__alts10__BbandRsi: skip (done)
+[15/126] spot__btc_eth__BinHV27: skip (done)
+[16/126] spot__alts10__BinHV27: skip (done)
+[17/126] spot__btc_eth__BinHV45: skip (done)
+[18/126] spot__alts10__BinHV45: skip (done)
+[19/126] spot__btc_eth__BreakEven: skip (done)
+[20/126] spot__alts10__BreakEven: skip (done)
+[21/126] spot__btc_eth__CCIStrategy: skip (done)
+[22/126] spot__alts10__CCIStrategy: skip (done)
+[23/126] spot__btc_eth__CMCWinner: skip (done)
+[24/126] spot__alts10__CMCWinner: skip (done)
+[25/126] spot__btc_eth__ClucMay72018: skip (done)
+[26/126] spot__alts10__ClucMay72018: skip (done)
+[27/126] spot__btc_eth__CofiBitStrategy: skip (done)
+[28/126] spot__alts10__CofiBitStrategy: skip (done)
+[29/126] spot__btc_eth__CombinedBinHAndCluc: skip (done)
+[30/126] spot__alts10__CombinedBinHAndCluc: skip (done)
+[31/126] spot__btc_eth__CustomStoplossWithPSAR: skip (done)
+[32/126] spot__alts10__AlmgrenChrissStrategy: FAILED (rc=1)
+[33/126] spot__btc_eth__Diamond: skip (done)
+[34/126] spot__alts10__Diamond: skip (done)
+[35/126] spot__btc_eth__EMASkipPump: skip (done)
+[36/126] spot__alts10__EMASkipPump: skip (done)
+[37/126] spot__btc_eth__FixedRiskRewardLoss: skip (done)
+[38/126] spot__btc_eth__AlmgrenChrissStrategy: FAILED (rc=1)
+[39/126] spot__btc_eth__Freqtrade_backtest_validation_freqtrade1: skip (done)
+[40/126] spot__alts10__Freqtrade_backtest_validation_freqtrade1: ok    -61.4%/yr  trades=21130
+[41/126] spot__btc_eth__GodStra: FAILED (rc=2)
+[42/126] spot__alts10__GodStra: FAILED (rc=2)
+[43/126] spot__btc_eth__Heracles: FAILED (rc=2)
+[44/126] spot__alts10__Heracles: FAILED (rc=2)
+[45/126] spot__btc_eth__HourBasedStrategy: ok    -35.8%/yr  trades=1501
+[46/126] spot__alts10__HourBasedStrategy: ok    -46.0%/yr  trades=9236
+[47/126] spot__btc_eth__InformativeSample: ok    -45.5%/yr  trades=2349
+[48/126] spot__alts10__InformativeSample: ok    -51.0%/yr  trades=8395
+[49/126] spot__btc_eth__Low_BB: ok      5.6%/yr  trades=32
+[50/126] spot__alts10__Low_BB: ok      3.0%/yr  trades=543
+[51/126] spot__btc_eth__MACDStrategy: ok    -18.1%/yr  trades=710
+[52/126] spot__alts10__MACDStrategy: ok    -33.0%/yr  trades=5409
+[53/126] spot__btc_eth__MACDStrategy_crossed: ok    -20.8%/yr  trades=728
+[54/126] spot__alts10__MACDStrategy_crossed: ok    -35.2%/yr  trades=4448
+[55/126] spot__btc_eth__MultiMa: FAILED (rc=-9)
+[56/126] spot__alts10__MultiMa: FAILED (rc=-9)
+[57/126] spot__btc_eth__MultiRSI: ok    -60.9%/yr  trades=5331
+[58/126] spot__alts10__MultiRSI: ok    -48.9%/yr  trades=19464
+[59/126] spot__alts10__CustomStoplossWithPSAR: ok    -10.0%/yr  trades=112
+[60/126] spot__btc_eth__PatternRecognition: ok     -7.5%/yr  trades=155
+[61/126] spot__btc_eth__PowerTower: ok      0.0%/yr  trades=0
+[62/126] spot__alts10__PowerTower: ok     -5.9%/yr  trades=3036
+[63/126] spot__alts10__PatternRecognition: ok    -23.6%/yr  trades=1315
+[64/126] spot__btc_eth__Quickie: ok    -27.0%/yr  trades=872
+[65/126] spot__btc_eth__ReinforcedAverageStrategy: ok    -61.4%/yr  trades=4401
+[66/126] spot__alts10__ReinforcedAverageStrategy: ok    -56.5%/yr  trades=17885
+[67/126] spot__alts10__Quickie: ok    -38.3%/yr  trades=5888
+[68/126] spot__btc_eth__ReinforcedQuickie: ok    -47.1%/yr  trades=3603
+[69/126] spot__btc_eth__ReinforcedSmoothScalp: ok     -3.1%/yr  trades=363
+[70/126] spot__alts10__ReinforcedSmoothScalp: ok     -6.6%/yr  trades=2151
+[71/126] spot__alts10__ReinforcedQuickie: ok    -48.0%/yr  trades=17086
+[72/126] spot__btc_eth__Scalp: ok    -61.4%/yr  trades=5130
+[73/126] spot__btc_eth__Simple: ok    -46.8%/yr  trades=2548
+[74/126] spot__alts10__Scalp: ok    -50.4%/yr  trades=19143
+[75/126] spot__btc_eth__SmoothOperator: ok    -52.4%/yr  trades=2900
+[76/126] spot__alts10__Simple: ok    -49.7%/yr  trades=12547
+[77/126] spot__alts10__SmoothOperator: ok    -48.0%/yr  trades=12601
+[78/126] spot__btc_eth__SmoothScalp: ok    -20.6%/yr  trades=1530
+[79/126] spot__btc_eth__Strategy001: skip (done)
+[80/126] spot__alts10__SmoothScalp: ok    -23.6%/yr  trades=7982
+[81/126] spot__alts10__Strategy001: ok    -47.9%/yr  trades=9362
+[82/126] spot__btc_eth__Strategy001_custom_exit: ok    -47.1%/yr  trades=2603
+[83/126] spot__btc_eth__Strategy002: ok     -7.9%/yr  trades=204
+[84/126] spot__alts10__Strategy002: ok     -6.9%/yr  trades=1258
+[85/126] spot__btc_eth__Strategy003: ok    -12.8%/yr  trades=643
+[86/126] spot__alts10__Strategy003: ok    -18.8%/yr  trades=3251
+[87/126] spot__btc_eth__Strategy004: ok    -32.3%/yr  trades=1013
+[88/126] spot__alts10__Strategy004: ok    -19.7%/yr  trades=5241
+[89/126] spot__btc_eth__Strategy005: ok    -28.4%/yr  trades=799
+[90/126] spot__alts10__Strategy005: ok    -37.2%/yr  trades=4820
+[91/126] spot__btc_eth__Supertrend: ok    -61.4%/yr  trades=4913
+[92/126] spot__alts10__Supertrend: ok    -49.7%/yr  trades=14219
+[93/126] spot__btc_eth__SwingHighToSky: ok    -23.0%/yr  trades=1252
+[94/126] spot__alts10__FixedRiskRewardLoss: ok     -2.6%/yr  trades=10
+[95/126] spot__alts10__Strategy001_custom_exit: ok    -48.5%/yr  trades=11737
+[96/126] spot__btc_eth__TDSequentialStrategy: ok    -61.6%/yr  trades=4269
+[97/126] spot__btc_eth__TWAPStrategy: FAILED (rc=1)
+[98/126] spot__alts10__TWAPStrategy: FAILED (rc=1)
+[99/126] spot__btc_eth__TechnicalExampleStrategy: ok    -61.4%/yr  trades=5030
+[100/126] spot__alts10__SwingHighToSky: ok    -32.7%/yr  trades=6793
+[101/126] spot__btc_eth__TrendRiderStrategy: ok    -61.4%/yr  trades=4338

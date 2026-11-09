@@ -1,0 +1,84 @@
+### lookahead-analysis Low_BB 20250101-20250401 SOL/USDT XRP/USDT DOGE/USDT
+2026-11-08 23:17:22,810 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.015
+2026-11-08 23:17:22,810 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2026-11-08 23:17:22,810 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2026-11-08 23:17:22,810 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2026-11-08 23:17:22,811 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2026-11-08 23:17:22,811 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2026-11-08 23:17:22,811 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'market', 'exit': 'market', 'stoploss': 'market', 'stoploss_on_exchange': False}
+2026-11-08 23:17:22,811 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'GTC', 'exit': 'GTC'}
+2026-11-08 23:17:22,811 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2026-11-08 23:17:22,811 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: 10000
+2026-11-08 23:17:22,812 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 0
+2026-11-08 23:17:22,812 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2026-11-08 23:17:22,812 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2026-11-08 23:17:22,812 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2026-11-08 23:17:22,812 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2026-11-08 23:17:22,812 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2026-11-08 23:17:22,812 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2026-11-08 23:17:22,813 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2026-11-08 23:17:22,813 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2026-11-08 23:17:22,813 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_open_trades: -1
+2026-11-08 23:17:22,813 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2026-11-08 23:17:22,816 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist StaticPairList from 
+'/home/kristijonas/Desktop/trading-research/freqtrade/.venv/lib/python3.12/site-packages/freqtrade/plugins/pairlist/StaticPairList.py'...
+2026-11-08 23:17:22,821 - freqtrade.optimize.backtesting - INFO - Using fee 0.1000% from config.
+2026-11-08 23:17:23,019 - freqtrade.optimize.backtesting - INFO - Loading data from 2025-01-01 00:00:00 up to 2025-04-01 00:00:00 (90 days).
+2026-11-08 23:17:27,196 - freqtrade.loggers.set_log_levels - INFO - Reducing verbosity for bias tester.
+2026-11-08 23:17:27,197 - freqtrade.optimize.analysis.lookahead - INFO - found 6 trades which is less than minimum_trade_amount 10. Cancelling this backtest lookahead bias test.
+2026-11-08 23:17:27,197 - freqtrade.optimize.analysis.lookahead_helpers - INFO - Checking look ahead bias via backtests of Low_BB.py took 6 seconds.
+
+Add {
+	"method": "AgeFilter",
+	"min_days_listed": 30
+},
+ to your pairlists in config (Under StaticPairList)
+                                                                 Lookahead Analysis                                                                  
+┏━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┓
+┃  filename ┃ strategy ┃                                  has_bias ┃ total_signals ┃ biased_entry_signals ┃ biased_exit_signals ┃ biased_indicators ┃
+┡━━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━┩
+│ Low_BB.py │   Low_BB │ too few trades caught (0/10).Test failed. │               │                      │                     │                   │
+└───────────┴──────────┴───────────────────────────────────────────┴───────────────┴──────────────────────┴─────────────────────┴───────────────────┘
+
+### recursive-analysis Low_BB
+2026-11-08 23:17:31,429 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value from the configuration: USDT.
+2026-11-08 23:17:31,429 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value from the configuration: unlimited.
+2026-11-08 23:17:31,430 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'max_open_trades' with value from the configuration: 12.
+2026-11-08 23:17:31,430 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'0': 0.9, '1': 0.05, '10': 0.04, '15': 0.5}
+2026-11-08 23:17:31,430 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 1m
+2026-11-08 23:17:31,430 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.015
+2026-11-08 23:17:31,430 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2026-11-08 23:17:31,430 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2026-11-08 23:17:31,431 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2026-11-08 23:17:31,431 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2026-11-08 23:17:31,431 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2026-11-08 23:17:31,431 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'limit', 'stoploss_on_exchange': False, 
+'stoploss_on_exchange_interval': 60}
+2026-11-08 23:17:31,431 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'GTC', 'exit': 'GTC'}
+2026-11-08 23:17:31,431 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2026-11-08 23:17:31,431 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: unlimited
+2026-11-08 23:17:31,432 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 0
+2026-11-08 23:17:31,432 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2026-11-08 23:17:31,432 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2026-11-08 23:17:31,432 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2026-11-08 23:17:31,432 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2026-11-08 23:17:31,432 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2026-11-08 23:17:31,432 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2026-11-08 23:17:31,433 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2026-11-08 23:17:31,433 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2026-11-08 23:17:31,433 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_open_trades: 12
+2026-11-08 23:17:31,433 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2026-11-08 23:17:31,436 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist StaticPairList from 
+'/home/kristijonas/Desktop/trading-research/freqtrade/.venv/lib/python3.12/site-packages/freqtrade/plugins/pairlist/StaticPairList.py'...
+2026-11-08 23:17:31,440 - freqtrade.optimize.backtesting - INFO - Using fee 0.1000% from config.
+2026-11-08 23:17:31,441 - freqtrade.optimize.analysis.recursive - INFO - Using pair SOL/USDT only for recursive analysis. Replacing whitelist.
+
+2026-11-08 23:17:31,442 - freqtrade - ERROR - Configuration error: The strategy defines invalid startup candle count of 0. This will lead to recursive issues on some indicators. Please define a proper
+startup_candle_count in the strategy.
+Please make sure to review the documentation at https://www.freqtrade.io/en/stable.
+Add {
+	"method": "AgeFilter",
+	"min_days_listed": 30
+},
+ to your pairlists in config (Under StaticPairList)
+VALIDATION_DONE

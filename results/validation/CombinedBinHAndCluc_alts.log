@@ -1,0 +1,84 @@
+### lookahead-analysis CombinedBinHAndCluc 20250101-20260101 SOL/USDT XRP/USDT DOGE/USDT
+2026-11-08 23:17:01,153 - freqtrade.optimize.backtesting - INFO - Loading data from 2025-01-01 00:00:00 up to 2025-01-19 22:10:00 (18 days).
+2026-11-08 23:17:01,260 - freqtrade.optimize.backtesting - INFO - Loading data from 2025-01-01 00:00:00 up to 2025-01-19 23:35:00 (18 days).
+2026-11-08 23:17:01,373 - freqtrade.optimize.backtesting - INFO - Loading data from 2025-01-01 00:00:00 up to 2025-01-19 23:35:00 (18 days).
+2026-11-08 23:17:01,473 - freqtrade.optimize.backtesting - INFO - Loading data from 2025-01-01 00:00:00 up to 2025-01-20 00:20:00 (19 days).
+2026-11-08 23:17:01,593 - freqtrade.optimize.backtesting - INFO - Loading data from 2025-01-01 00:00:00 up to 2025-01-19 22:55:00 (18 days).
+2026-11-08 23:17:01,708 - freqtrade.optimize.backtesting - INFO - Loading data from 2025-01-01 00:00:00 up to 2025-01-20 02:25:00 (19 days).
+2026-11-08 23:17:01,832 - freqtrade.optimize.backtesting - INFO - Loading data from 2025-01-01 00:00:00 up to 2025-01-20 12:25:00 (19 days).
+2026-11-08 23:17:01,937 - freqtrade.optimize.backtesting - INFO - Loading data from 2025-01-01 00:00:00 up to 2025-01-20 13:55:00 (19 days).
+2026-11-08 23:17:02,056 - freqtrade.optimize.backtesting - INFO - Loading data from 2025-01-01 00:00:00 up to 2025-01-20 17:35:00 (19 days).
+2026-11-08 23:17:02,165 - freqtrade.optimize.backtesting - INFO - Loading data from 2025-01-01 00:00:00 up to 2025-01-20 17:45:00 (19 days).
+2026-11-08 23:17:02,294 - freqtrade.optimize.backtesting - INFO - Loading data from 2025-01-01 00:00:00 up to 2025-01-20 17:50:00 (19 days).
+2026-11-08 23:17:02,409 - freqtrade.optimize.backtesting - INFO - Loading data from 2025-01-01 00:00:00 up to 2025-01-20 18:40:00 (19 days).
+2026-11-08 23:17:02,529 - freqtrade.optimize.backtesting - INFO - Loading data from 2025-01-01 00:00:00 up to 2025-01-20 17:45:00 (19 days).
+2026-11-08 23:17:02,635 - freqtrade.optimize.backtesting - INFO - Loading data from 2025-01-01 00:00:00 up to 2025-01-20 18:50:00 (19 days).
+2026-11-08 23:17:02,760 - freqtrade.optimize.backtesting - INFO - Loading data from 2025-01-01 00:00:00 up to 2025-01-20 17:45:00 (19 days).
+2026-11-08 23:17:02,871 - freqtrade.optimize.backtesting - INFO - Loading data from 2025-01-01 00:00:00 up to 2025-01-20 18:50:00 (19 days).
+2026-11-08 23:17:02,994 - freqtrade.optimize.backtesting - INFO - Loading data from 2025-01-01 00:00:00 up to 2025-01-21 01:00:00 (20 days).
+2026-11-08 23:17:03,105 - freqtrade.optimize.backtesting - INFO - Loading data from 2025-01-01 00:00:00 up to 2025-01-21 03:10:00 (20 days).
+2026-11-08 23:17:03,235 - freqtrade.optimize.backtesting - INFO - Loading data from 2025-01-01 00:00:00 up to 2025-01-20 23:55:00 (19 days).
+2026-11-08 23:17:03,354 - freqtrade.optimize.backtesting - INFO - Loading data from 2025-01-01 00:00:00 up to 2025-01-21 06:05:00 (20 days).
+2026-11-08 23:17:03,487 - freqtrade.optimize.backtesting - INFO - Loading data from 2025-01-01 00:00:00 up to 2025-01-27 07:35:00 (26 days).
+2026-11-08 23:17:03,640 - freqtrade.optimize.backtesting - INFO - Loading data from 2025-01-01 00:00:00 up to 2025-01-27 07:50:00 (26 days).
+2026-11-08 23:17:03,806 - freqtrade.optimize.backtesting - INFO - Loading data from 2025-01-01 00:00:00 up to 2025-01-27 07:35:00 (26 days).
+2026-11-08 23:17:03,960 - freqtrade.optimize.backtesting - INFO - Loading data from 2025-01-01 00:00:00 up to 2025-01-27 07:50:00 (26 days).
+2026-11-08 23:17:04,089 - freqtrade.optimize.analysis.lookahead - INFO - Found targeted trade amount = 20 signals.
+2026-11-08 23:17:04,089 - freqtrade.loggers.set_log_levels - INFO - Restoring log verbosity.
+2026-11-08 23:17:04,090 - freqtrade.optimize.analysis.lookahead - INFO - CombinedBinHAndCluc: no bias detected
+2026-11-08 23:17:04,090 - freqtrade.optimize.analysis.lookahead_helpers - INFO - Checking look ahead bias via backtests of CombinedBinHAndCluc.py took 9 seconds.
+Analyzing trades ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 20/20 100% • 0:00:04 • 0:00:00
+Add {
+	"method": "AgeFilter",
+	"min_days_listed": 30
+},
+ to your pairlists in config (Under StaticPairList)
+                                                             Lookahead Analysis                                                             
+┏━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┓
+┃               filename ┃            strategy ┃ has_bias ┃ total_signals ┃ biased_entry_signals ┃ biased_exit_signals ┃ biased_indicators ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━┩
+│ CombinedBinHAndCluc.py │ CombinedBinHAndCluc │       No │            20 │                    0 │                   0 │                   │
+└────────────────────────┴─────────────────────┴──────────┴───────────────┴──────────────────────┴─────────────────────┴───────────────────┘
+
+### recursive-analysis CombinedBinHAndCluc
+2026-11-08 23:17:08,123 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value from the configuration: USDT.
+2026-11-08 23:17:08,123 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value from the configuration: unlimited.
+2026-11-08 23:17:08,123 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'max_open_trades' with value from the configuration: 12.
+2026-11-08 23:17:08,123 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'0': 0.05}
+2026-11-08 23:17:08,124 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 5m
+2026-11-08 23:17:08,124 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.05
+2026-11-08 23:17:08,124 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2026-11-08 23:17:08,124 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2026-11-08 23:17:08,124 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2026-11-08 23:17:08,124 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2026-11-08 23:17:08,125 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2026-11-08 23:17:08,125 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'limit', 'stoploss_on_exchange': False, 
+'stoploss_on_exchange_interval': 60}
+2026-11-08 23:17:08,125 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'GTC', 'exit': 'GTC'}
+2026-11-08 23:17:08,125 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2026-11-08 23:17:08,125 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: unlimited
+2026-11-08 23:17:08,125 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 0
+2026-11-08 23:17:08,125 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2026-11-08 23:17:08,126 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: True
+2026-11-08 23:17:08,126 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2026-11-08 23:17:08,126 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2026-11-08 23:17:08,126 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2026-11-08 23:17:08,126 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2026-11-08 23:17:08,126 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2026-11-08 23:17:08,126 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2026-11-08 23:17:08,127 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_open_trades: 12
+2026-11-08 23:17:08,127 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2026-11-08 23:17:08,130 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist StaticPairList from 
+'/home/kristijonas/Desktop/trading-research/freqtrade/.venv/lib/python3.12/site-packages/freqtrade/plugins/pairlist/StaticPairList.py'...
+2026-11-08 23:17:08,134 - freqtrade.optimize.backtesting - INFO - Using fee 0.1000% from config.
+2026-11-08 23:17:08,135 - freqtrade.optimize.analysis.recursive - INFO - Using pair SOL/USDT only for recursive analysis. Replacing whitelist.
+
+2026-11-08 23:17:08,135 - freqtrade - ERROR - Configuration error: The strategy defines invalid startup candle count of 0. This will lead to recursive issues on some indicators. Please define a proper
+startup_candle_count in the strategy.
+Please make sure to review the documentation at https://www.freqtrade.io/en/stable.
+Add {
+	"method": "AgeFilter",
+	"min_days_listed": 30
+},
+ to your pairlists in config (Under StaticPairList)
+VALIDATION_DONE

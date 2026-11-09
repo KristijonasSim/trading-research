@@ -1,0 +1,84 @@
+### lookahead-analysis NostalgiaForInfinityX8 20250101-20260101 XRP/USDT BNB/USDT SOL/USDT DOGE/USDT ADA/USDT TRX/USDT LINK/USDT AVAX/USDT LTC/USDT DOT/USDT
+2026-11-08 23:24:26,798 - freqtrade.data.dataprovider - INFO - Loading data for DOT/USDT 1h from 2024-11-28 16:00:00 to 2025-02-03 00:50:00
+2026-11-08 23:24:26,814 - freqtrade.data.dataprovider - INFO - Loading data for DOT/USDT 4h from 2024-08-20 16:00:00 to 2025-02-03 00:50:00
+2026-11-08 23:24:26,826 - freqtrade.data.dataprovider - INFO - Loading data for DOT/USDT 1d from 2022-10-24 00:00:00 to 2025-02-03 00:50:00
+2026-11-08 23:24:27,064 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-29 05:20:00 up to 2025-02-03 01:25:00 (35 days).
+2026-11-08 23:24:27,129 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 5m from 2024-12-29 05:20:00 to 2025-02-03 01:25:00
+2026-11-08 23:24:27,148 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 4h from 2024-08-20 16:00:00 to 2025-02-03 01:25:00
+2026-11-08 23:24:27,158 - freqtrade.data.dataprovider - INFO - Loading data for DOT/USDT 15m from 2024-12-23 16:00:00 to 2025-02-03 01:25:00
+2026-11-08 23:24:27,174 - freqtrade.data.dataprovider - INFO - Loading data for DOT/USDT 1h from 2024-11-28 16:00:00 to 2025-02-03 01:25:00
+2026-11-08 23:24:27,190 - freqtrade.data.dataprovider - INFO - Loading data for DOT/USDT 4h from 2024-08-20 16:00:00 to 2025-02-03 01:25:00
+2026-11-08 23:24:27,202 - freqtrade.data.dataprovider - INFO - Loading data for DOT/USDT 1d from 2022-10-24 00:00:00 to 2025-02-03 01:25:00
+2026-11-08 23:24:27,576 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-29 05:20:00 up to 2025-02-03 02:15:00 (35 days).
+2026-11-08 23:24:27,641 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 5m from 2024-12-29 05:20:00 to 2025-02-03 02:15:00
+2026-11-08 23:24:27,659 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 4h from 2024-08-20 16:00:00 to 2025-02-03 02:15:00
+2026-11-08 23:24:27,670 - freqtrade.data.dataprovider - INFO - Loading data for AVAX/USDT 15m from 2024-12-23 16:00:00 to 2025-02-03 02:15:00
+2026-11-08 23:24:27,685 - freqtrade.data.dataprovider - INFO - Loading data for AVAX/USDT 1h from 2024-11-28 16:00:00 to 2025-02-03 02:15:00
+2026-11-08 23:24:27,704 - freqtrade.data.dataprovider - INFO - Loading data for AVAX/USDT 4h from 2024-08-20 16:00:00 to 2025-02-03 02:15:00
+2026-11-08 23:24:27,715 - freqtrade.data.dataprovider - INFO - Loading data for AVAX/USDT 1d from 2022-10-24 00:00:00 to 2025-02-03 02:15:00
+2026-11-08 23:24:28,004 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-29 05:20:00 up to 2025-02-03 02:20:00 (35 days).
+2026-11-08 23:24:28,070 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 5m from 2024-12-29 05:20:00 to 2025-02-03 02:20:00
+2026-11-08 23:24:28,088 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 4h from 2024-08-20 16:00:00 to 2025-02-03 02:20:00
+2026-11-08 23:24:28,098 - freqtrade.data.dataprovider - INFO - Loading data for AVAX/USDT 15m from 2024-12-23 16:00:00 to 2025-02-03 02:20:00
+2026-11-08 23:24:28,113 - freqtrade.data.dataprovider - INFO - Loading data for AVAX/USDT 1h from 2024-11-28 16:00:00 to 2025-02-03 02:20:00
+2026-11-08 23:24:28,129 - freqtrade.data.dataprovider - INFO - Loading data for AVAX/USDT 4h from 2024-08-20 16:00:00 to 2025-02-03 02:20:00
+2026-11-08 23:24:28,141 - freqtrade.data.dataprovider - INFO - Loading data for AVAX/USDT 1d from 2022-10-24 00:00:00 to 2025-02-03 02:20:00
+2026-11-08 23:24:28,509 - freqtrade.optimize.analysis.lookahead - INFO - Found targeted trade amount = 20 signals.
+2026-11-08 23:24:28,509 - freqtrade.loggers.set_log_levels - INFO - Restoring log verbosity.
+2026-11-08 23:24:28,510 - freqtrade.optimize.analysis.lookahead - INFO -  => NostalgiaForInfinityX8 : bias detected!
+2026-11-08 23:24:28,510 - freqtrade.optimize.analysis.lookahead_helpers - INFO - Checking look ahead bias via backtests of NostalgiaForInfinityX8.py took 60 seconds.
+Analyzing trades ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 20/20 100% • 0:00:15 • 0:00:00
+Add {
+	"method": "AgeFilter",
+	"min_days_listed": 30
+},
+ to your pairlists in config (Under StaticPairList)
+                                                                Lookahead Analysis                                                                
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┓
+┃                  filename ┃               strategy ┃ has_bias ┃ total_signals ┃ biased_entry_signals ┃ biased_exit_signals ┃ biased_indicators ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━┩
+│ NostalgiaForInfinityX8.py │ NostalgiaForInfinityX8 │      Yes │            20 │                    0 │                   6 │                   │
+└───────────────────────────┴────────────────────────┴──────────┴───────────────┴──────────────────────┴─────────────────────┴───────────────────┘
+
+### recursive-analysis NostalgiaForInfinityX8
+│                         EMA_50_1d │    -0.016% │     0.000% │     0.000% │              0.000% │          - │         - │
+│                        EMA_200_1d │       nan% │     1.647% │    -0.550% │              0.002% │     0.000% │    0.000% │
+│                   RANGE_PCT_14_1d │     0.000% │     0.000% │     0.000% │              0.000% │          - │    0.000% │
+│                           ROC_288 │       nan% │          - │          - │                   - │          - │         - │
+│                           VOL_REL │       nan% │    -0.000% │    -0.000% │             -0.000% │    -0.000% │   -0.000% │
+│                       PH_BASE_POS │       nan% │          - │          - │                   - │          - │         - │
+│                        DC_HIGH_7D │       nan% │       nan% │       nan% │                nan% │       nan% │      nan% │
+│                         DC_LOW_7D │       nan% │       nan% │       nan% │                nan% │       nan% │      nan% │
+│                            RSI_14 │     0.000% │     0.000% │          - │                   - │          - │         - │
+│                            RSI_20 │     0.000% │     0.000% │    -0.000% │                   - │          - │         - │
+│                 RSI_14_change_pct │    -0.000% │    -0.000% │          - │                   - │          - │         - │
+│                            EMA_16 │    -0.000% │          - │          - │                   - │          - │         - │
+│                            EMA_20 │     0.000% │          - │          - │                   - │          - │         - │
+│                            EMA_26 │     0.000% │          - │          - │                   - │          - │         - │
+│                            EMA_50 │    -0.000% │     0.000% │     0.000% │                   - │          - │         - │
+│                           EMA_100 │     0.004% │     0.000% │     0.000% │              0.000% │     0.000% │         - │
+│                           EMA_200 │     0.257% │     0.016% │    -0.002% │              0.001% │    -0.000% │    0.000% │
+│                             SMA_9 │     0.000% │     0.000% │     0.000% │              0.000% │     0.000% │    0.000% │
+│                            SMA_16 │     0.000% │     0.000% │     0.000% │              0.000% │     0.000% │    0.000% │
+│                            SMA_21 │    -0.000% │    -0.000% │    -0.000% │             -0.000% │    -0.000% │   -0.000% │
+│                            SMA_30 │     0.000% │     0.000% │     0.000% │              0.000% │     0.000% │    0.000% │
+│                           SMA_200 │    -0.000% │    -0.000% │    -0.000% │             -0.000% │    -0.000% │   -0.000% │
+│                    SMA_200_dec_24 │       nan% │          - │          - │                   - │          - │         - │
+│                        BBL_20_2.0 │    -0.000% │    -0.000% │    -0.000% │             -0.000% │    -0.000% │   -0.000% │
+│                        BBU_20_2.0 │    -0.000% │    -0.000% │    -0.000% │             -0.000% │    -0.000% │   -0.000% │
+│                        BBB_20_2.0 │    -0.000% │    -0.000% │    -0.000% │             -0.000% │     0.000% │    0.000% │
+│                        BBL_40_2.0 │     0.000% │     0.000% │     0.000% │              0.000% │     0.000% │    0.000% │
+│                        BBD_40_2.0 │     0.000% │     0.000% │          - │              0.000% │     0.000% │    0.000% │
+│                        BBT_40_2.0 │    -0.000% │    -0.000% │    -0.000% │             -0.000% │    -0.000% │   -0.000% │
+│                            MFI_14 │     0.000% │     0.000% │     0.000% │              0.000% │     0.000% │    0.000% │
+│                            CMF_20 │     0.000% │     0.000% │     0.000% │              0.000% │     0.000% │    0.000% │
+│                         WILLR_480 │       nan% │       nan% │          - │                   - │          - │         - │
+│               STOCHRSIk_14_14_3_3 │    -0.000% │    -0.000% │          - │              0.000% │          - │    0.000% │
+│       KST_10_15_20_30_10_10_10_15 │     0.000% │     0.000% │     0.000% │              0.000% │     0.000% │    0.000% │
+│                            KSTs_9 │     0.000% │     0.000% │     0.000% │              0.000% │     0.000% │    0.000% │
+│                    OBV_change_pct │ 12979.133% │ 14924.207% │ 15966.239% │           8367.505% │ 11001.069% │ 8741.654% │
+│                     num_empty_288 │       nan% │          - │          - │                   - │          - │         - │
+│                  LARGE_BUBBLE_THR │    -0.000% │    -0.000% │    -0.000% │             -0.000% │    -0.000% │   -0.000% │
+│                   bt_agefilter_ok │       nan% │       nan% │       nan% │                nan% │          - │         - │
+└───────────────────────────────────┴────────────┴────────────┴────────────┴─────────────────────┴────────────┴───────────┘
+VALIDATION_DONE

@@ -1,0 +1,117 @@
+116 backtests queued
+[1/116] spot__btc_eth__ADXMomentum: skip (done)
+[2/116] spot__alts10__ADXMomentum: skip (done)
+[3/116] spot__btc_eth__ASDTSRockwellTrading: skip (done)
+[4/116] spot__alts10__ASDTSRockwellTrading: skip (done)
+[5/116] spot__btc_eth__AdxSmas: skip (done)
+[6/116] spot__alts10__AdxSmas: skip (done)
+[7/116] spot__btc_eth__AverageStrategy: skip (done)
+[8/116] spot__alts10__AverageStrategy: skip (done)
+[9/116] spot__btc_eth__AwesomeMacd: skip (done)
+[10/116] spot__alts10__AwesomeMacd: skip (done)
+[11/116] spot__btc_eth__Bandtastic: skip (done)
+[12/116] spot__alts10__Bandtastic: skip (done)
+[13/116] spot__btc_eth__BbandRsi: skip (done)
+[14/116] spot__alts10__BbandRsi: skip (done)
+[15/116] spot__btc_eth__BinHV27: skip (done)
+[16/116] spot__alts10__BinHV27: skip (done)
+[17/116] spot__btc_eth__BinHV45: skip (done)
+[18/116] spot__alts10__BinHV45: skip (done)
+[19/116] spot__btc_eth__BreakEven: skip (done)
+[20/116] spot__alts10__BreakEven: skip (done)
+[21/116] spot__btc_eth__CCIStrategy: skip (done)
+[22/116] spot__alts10__CCIStrategy: skip (done)
+[23/116] spot__btc_eth__CMCWinner: skip (done)
+[24/116] spot__alts10__CMCWinner: skip (done)
+[25/116] spot__btc_eth__ClucMay72018: skip (done)
+[26/116] spot__alts10__ClucMay72018: skip (done)
+[27/116] spot__btc_eth__CofiBitStrategy: skip (done)
+[28/116] spot__alts10__CofiBitStrategy: skip (done)
+[29/116] spot__btc_eth__CombinedBinHAndCluc: skip (done)
+[30/116] spot__alts10__CombinedBinHAndCluc: skip (done)
+[31/116] spot__btc_eth__CustomStoplossWithPSAR: skip (done)
+[32/116] spot__alts10__CustomStoplossWithPSAR: skip (done)
+[33/116] spot__btc_eth__Diamond: skip (done)
+[34/116] spot__alts10__Diamond: skip (done)
+[35/116] spot__btc_eth__EMASkipPump: skip (done)
+[36/116] spot__alts10__EMASkipPump: skip (done)
+[37/116] spot__btc_eth__Freqtrade_backtest_validation_freqtrade1: skip (done)
+[38/116] spot__alts10__Freqtrade_backtest_validation_freqtrade1: skip (done)
+[39/116] spot__btc_eth__HourBasedStrategy: skip (done)
+[40/116] spot__alts10__HourBasedStrategy: skip (done)
+[41/116] spot__btc_eth__InformativeSample: skip (done)
+[42/116] spot__alts10__InformativeSample: skip (done)
+[43/116] spot__btc_eth__Low_BB: skip (done)
+[44/116] spot__alts10__Low_BB: ok      6.3%/yr  trades=480  [yearly]
+[45/116] spot__btc_eth__MACDStrategy: skip (done)
+[46/116] spot__alts10__MACDStrategy: skip (done)
+[47/116] spot__btc_eth__MACDStrategy_crossed: skip (done)
+[48/116] spot__alts10__MACDStrategy_crossed: skip (done)
+[49/116] spot__btc_eth__MultiMa: ok     -3.9%/yr  trades=60
+[50/116] spot__alts10__MultiMa: ok     -4.1%/yr  trades=490
+[51/116] spot__btc_eth__MultiRSI: skip (done)
+[52/116] spot__alts10__MultiRSI: skip (done)
+[53/116] spot__btc_eth__PatternRecognition: ok     -1.8%/yr  trades=94
+[54/116] spot__alts10__PatternRecognition: ok    -14.5%/yr  trades=551
+[55/116] spot__btc_eth__PowerTower: skip (done)
+[56/116] spot__alts10__PowerTower: skip (done)
+[57/116] spot__btc_eth__Quickie: skip (done)
+[58/116] spot__alts10__Quickie: skip (done)
+[59/116] spot__btc_eth__ReinforcedAverageStrategy: ok     -0.8%/yr  trades=254
+[60/116] spot__alts10__ReinforcedAverageStrategy: ok      6.5%/yr  trades=1021
+[61/116] spot__btc_eth__ReinforcedQuickie: skip (done)
+[62/116] spot__alts10__ReinforcedQuickie: skip (done)
+[63/116] spot__btc_eth__ReinforcedSmoothScalp: ok    -33.3%/yr  trades=2524
+[64/116] spot__alts10__ReinforcedSmoothScalp: ok    -41.0%/yr  trades=15554  [yearly]
+[65/116] spot__btc_eth__Scalp: ok    -61.4%/yr  trades=5023
+[66/116] spot__alts10__Scalp: ok    -97.6%/yr  trades=98208  [yearly]
+[67/116] spot__btc_eth__Simple: skip (done)
+[68/116] spot__alts10__Simple: skip (done)
+[69/116] spot__btc_eth__SmoothOperator: skip (done)
+[70/116] spot__alts10__SmoothOperator: skip (done)
+[71/116] spot__btc_eth__SmoothScalp: ok    -61.4%/yr  trades=5052
+[72/116] spot__alts10__SmoothScalp: ok    -78.4%/yr  trades=40937  [yearly]
+[73/116] spot__btc_eth__Strategy001: skip (done)
+[74/116] spot__alts10__Strategy001: skip (done)
+[75/116] spot__btc_eth__Strategy001_custom_exit: skip (done)
+[76/116] spot__alts10__Strategy001_custom_exit: skip (done)
+[77/116] spot__btc_eth__Strategy002: skip (done)
+[78/116] spot__alts10__Strategy002: skip (done)
+[79/116] spot__btc_eth__Strategy003: skip (done)
+[80/116] spot__alts10__Strategy003: skip (done)
+[81/116] spot__btc_eth__Strategy004: skip (done)
+[82/116] spot__alts10__Strategy004: skip (done)
+[83/116] spot__btc_eth__Strategy005: skip (done)
+[84/116] spot__alts10__Strategy005: skip (done)
+[85/116] spot__btc_eth__Supertrend: ok    -19.2%/yr  trades=1082
+[86/116] spot__alts10__Supertrend: ok    -24.5%/yr  trades=5558
+[87/116] spot__btc_eth__SwingHighToSky: ok    -32.6%/yr  trades=793
+[88/116] spot__alts10__SwingHighToSky: ok    -30.2%/yr  trades=5079
+[89/116] spot__btc_eth__TDSequentialStrategy: ok    -30.1%/yr  trades=704
+[90/116] spot__alts10__TDSequentialStrategy: ok    -30.8%/yr  trades=4012
+[91/116] spot__btc_eth__TechnicalExampleStrategy: skip (done)
+[92/116] spot__alts10__TechnicalExampleStrategy: ok    -61.4%/yr  trades=23886
+[93/116] spot__btc_eth__TrendRiderStrategy: ok    -42.5%/yr  trades=2340
+[94/116] spot__alts10__TrendRiderStrategy: ok    -44.7%/yr  trades=9841
+[95/116] spot__btc_eth__UniversalMACD: ok      1.3%/yr  trades=116
+[96/116] spot__alts10__UniversalMACD: ok     -3.9%/yr  trades=1269
+[97/116] spot__btc_eth__hlhb: ok    -11.1%/yr  trades=135
+[98/116] spot__alts10__hlhb: ok     -6.3%/yr  trades=740
+[99/116] spot__btc_eth__mabStra: ok    -29.1%/yr  trades=559
+[100/116] spot__alts10__mabStra: ok    -41.7%/yr  trades=3408
+[101/116] spot__btc_eth__multi_tf: FAILED
+[102/116] spot__alts10__multi_tf: FAILED
+[103/116] futures__btc_eth__FAdxSmaStrategy: FAILED (summary: Directory '/home/kristijonas/Desktop/trading-research/freqtrade/results/raw/futures__btc_eth__FAdxSmaStrategy' does not seem to contain backtest statistics yet.)
+[104/116] futures__alts10__FAdxSmaStrategy: FAILED (summary: Directory '/home/kristijonas/Desktop/trading-research/freqtrade/results/raw/futures__alts10__FAdxSmaStrategy' does not seem to contain backtest statistics yet.)
+[105/116] futures__btc_eth__FOttStrategy: FAILED (summary: Directory '/home/kristijonas/Desktop/trading-research/freqtrade/results/raw/futures__btc_eth__FOttStrategy' does not seem to contain backtest statistics yet.)
+[106/116] futures__alts10__FOttStrategy: FAILED (summary: Directory '/home/kristijonas/Desktop/trading-research/freqtrade/results/raw/futures__alts10__FOttStrategy' does not seem to contain backtest statistics yet.)
+[107/116] futures__btc_eth__FReinforcedStrategy: FAILED (summary: Directory '/home/kristijonas/Desktop/trading-research/freqtrade/results/raw/futures__btc_eth__FReinforcedStrategy' does not seem to contain backtest statistics yet.)
+[108/116] futures__alts10__FReinforcedStrategy: FAILED (summary: Directory '/home/kristijonas/Desktop/trading-research/freqtrade/results/raw/futures__alts10__FReinforcedStrategy' does not seem to contain backtest statistics yet.)
+[109/116] futures__btc_eth__FSampleStrategy: FAILED (summary: Directory '/home/kristijonas/Desktop/trading-research/freqtrade/results/raw/futures__btc_eth__FSampleStrategy' does not seem to contain backtest statistics yet.)
+[110/116] futures__alts10__FSampleStrategy: FAILED (summary: Directory '/home/kristijonas/Desktop/trading-research/freqtrade/results/raw/futures__alts10__FSampleStrategy' does not seem to contain backtest statistics yet.)
+[111/116] futures__btc_eth__FSupertrendStrategy: FAILED (summary: Directory '/home/kristijonas/Desktop/trading-research/freqtrade/results/raw/futures__btc_eth__FSupertrendStrategy' does not seem to contain backtest statistics yet.)
+[112/116] futures__alts10__FSupertrendStrategy: FAILED (summary: Directory '/home/kristijonas/Desktop/trading-research/freqtrade/results/raw/futures__alts10__FSupertrendStrategy' does not seem to contain backtest statistics yet.)
+[113/116] futures__btc_eth__TrendFollowingStrategy: FAILED (summary: Directory '/home/kristijonas/Desktop/trading-research/freqtrade/results/raw/futures__btc_eth__TrendFollowingStrategy' does not seem to contain backtest statistics yet.)
+[114/116] futures__alts10__TrendFollowingStrategy: FAILED (summary: Directory '/home/kristijonas/Desktop/trading-research/freqtrade/results/raw/futures__alts10__TrendFollowingStrategy' does not seem to contain backtest statistics yet.)
+[115/116] futures__btc_eth__VolatilitySystem: FAILED (summary: Directory '/home/kristijonas/Desktop/trading-research/freqtrade/results/raw/futures__btc_eth__VolatilitySystem' does not seem to contain backtest statistics yet.)
+[116/116] futures__alts10__VolatilitySystem: FAILED (summary: Directory '/home/kristijonas/Desktop/trading-research/freqtrade/results/raw/futures__alts10__VolatilitySystem' does not seem to contain backtest statistics yet.)
