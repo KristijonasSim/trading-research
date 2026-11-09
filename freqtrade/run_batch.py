@@ -5,7 +5,7 @@ without network (freqtradeorg/freqtrade:stable, --network none, user_data read-o
 same rules as run_all.py: 2021-11-08..2026-11-08, Binance spot, 0.1 % fee, 1000 USDT,
 groups btc_eth and alts10. Resumable: finished runs (summary.json) are skipped.
 
-Usage: .venv/bin/python run_batch.py [-j 3]
+Usage: [BATCH=batch50b] .venv/bin/python run_batch.py [-j 3]
 Output: results/batch50/<group>__<strategy>/ and ../results/batch50_results.csv
 """
 import argparse, json, os, subprocess
@@ -15,9 +15,12 @@ import pandas as pd
 import run_all as ra
 
 ROOT = ra.ROOT
-OUT = ROOT / "results/batch50"
-LIST = json.loads((ROOT / "user_data/strategies/batch50/_list.json").read_text())
-IMAGE = "freqtradeorg/freqtrade:stable"
+import sys
+# which strategy folder to run: env BATCH (default batch50); folder user_data/strategies/<BATCH>/ with _list.json
+BATCH = os.environ.get("BATCH", "batch50")
+OUT = ROOT / "results" / BATCH
+LIST = json.loads((ROOT / "user_data/strategies" / BATCH / "_list.json").read_text())
+IMAGE = "freqtrade-research:latest"  # docker_image/Dockerfile: stable + ta, finta, arrow
 
 
 def run(strategy, group, cfg="config_spot.json"):
@@ -33,7 +36,7 @@ def run(strategy, group, cfg="config_spot.json"):
            "-v", f"{ROOT/'docker_offline'}:/offline:ro", "-e", "PYTHONPATH=/offline",
            "-v", f"{d}:/out", IMAGE, "backtesting",
            "--userdir", "/freqtrade/user_data", "-c", "/freqtrade/config.json",
-           "--strategy-path", "/freqtrade/user_data/strategies/batch50", "--strategy", strategy,
+           "--strategy-path", f"/freqtrade/user_data/strategies/{BATCH}", "--strategy", strategy,
            "--timerange", ra.TIMERANGE, "--pairs", *ra.GROUPS[group],
            "--max-open-trades", str(len(ra.GROUPS[group])),
            "--export", "trades", "--backtest-directory", "/out", "--cache", "none"]
@@ -69,7 +72,7 @@ def report():
         rows.append({**s, **{k: v for k, v in y.items()}})
     errs = [f.parent.name for f in OUT.glob("*/error.txt")]
     df = pd.DataFrame(rows).sort_values("cagr_pct", ascending=False)
-    df.to_csv(ROOT.parent / "results/batch50_results.csv", index=False)
+    df.to_csv(ROOT.parent / f"results/{BATCH}_results.csv", index=False)
     return df, errs
 
 

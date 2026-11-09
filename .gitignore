@@ -43,3 +43,7 @@ freqtrade/results/oos/
 freqtrade/docker_offline/binance_markets.json
 freqtrade/results/batch50/
 freqtrade/results/validate50/
+etf3x/data/
+etf3x/ft/
+etf3x/results/
+freqtrade/results/batch50b/
