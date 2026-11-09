@@ -1,0 +1,8 @@
+2026-11-09 18:26:19,187 - freqtrade.optimize.analysis.lookahead - INFO - E0V1E_DCA3: no bias detected
+2026-11-09 18:26:19,187 - freqtrade.optimize.analysis.lookahead_helpers - INFO - Checking look ahead bias via backtests of E0V1E_DCA3.py took 16 seconds.
+                                                    Lookahead Analysis                                                    
+┏━━━━━━━━━━━━━━━┳━━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┓
+┃      filename ┃   strategy ┃ has_bias ┃ total_signals ┃ biased_entry_signals ┃ biased_exit_signals ┃ biased_indicators ┃
+┡━━━━━━━━━━━━━━━╇━━━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━┩
+│ E0V1E_DCA3.py │ E0V1E_DCA3 │       No │            20 │                    0 │                   0 │                   │
+└───────────────┴────────────┴──────────┴───────────────┴──────────────────────┴─────────────────────┴───────────────────┘

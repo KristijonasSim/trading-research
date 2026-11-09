@@ -1,0 +1,63 @@
+### lookahead-analysis EI3v2_tag_cofi_green
+2026-11-09 18:08:05,399 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 5m
+2026-11-09 18:08:05,399 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.99
+2026-11-09 18:08:05,399 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: True
+2026-11-09 18:08:05,399 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive: 0.001
+2026-11-09 18:08:05,400 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.012
+2026-11-09 18:08:05,400 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: True
+2026-11-09 18:08:05,400 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2026-11-09 18:08:05,400 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2026-11-09 18:08:05,401 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'market', 'exit': 'market', 'stoploss': 'market', 'stoploss_on_exchange': False}
+2026-11-09 18:08:05,401 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'buy': 'gtc', 'sell': 'gtc'}
+2026-11-09 18:08:05,401 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2026-11-09 18:08:05,401 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: 10000
+2026-11-09 18:08:05,402 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 400
+2026-11-09 18:08:05,402 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2026-11-09 18:08:05,402 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: True
+2026-11-09 18:08:05,402 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2026-11-09 18:08:05,402 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.01
+2026-11-09 18:08:05,403 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2026-11-09 18:08:05,403 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2026-11-09 18:08:05,403 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2026-11-09 18:08:05,403 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2026-11-09 18:08:05,404 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_open_trades: -1
+2026-11-09 18:08:05,404 - freqtrade.configuration.config_validation - WARNING - DEPRECATED: Using 'buy' and 'sell' for time_in_force is deprecated.Please migrate your time_in_force settings to use 
+'entry' and 'exit'.
+2026-11-09 18:08:05,404 - freqtrade.configuration.deprecated_settings - WARNING - DEPRECATED: The `order_time_in_force.buy` setting is deprecated and will be removed in the next versions of Freqtrade.
+Please use the `order_time_in_force.entry` setting in your configuration instead.
+2026-11-09 18:08:05,405 - freqtrade.configuration.deprecated_settings - WARNING - DEPRECATED: The `order_time_in_force.sell` setting is deprecated and will be removed in the next versions of 
+Freqtrade. Please use the `order_time_in_force.exit` setting in your configuration instead.
+2026-11-09 18:08:05,405 - freqtrade - ERROR - Configuration error: Market entry orders require entry_pricing.price_side = "other".
+Please make sure to review the documentation at https://www.freqtrade.io/en/stable.
+### recursive-analysis EI3v2_tag_cofi_green
+2026-11-09 18:08:11,565 - freqtrade.optimize.analysis.recursive - INFO - Start checking for lookahead bias on indicators only
+2026-11-09 18:08:11,567 - freqtrade.optimize.analysis.recursive - INFO - Check indicators at 2025-01-01T00:50:00
+2026-11-09 18:08:11,568 - freqtrade.optimize.analysis.recursive - INFO - No lookahead bias on indicators found.
+2026-11-09 18:08:11,569 - freqtrade.optimize.analysis.recursive_helpers - INFO - Checking recursive and indicator-only lookahead bias of indicators of EI3v2_tag_cofi_green.py took 2 seconds.
+                                          Recursive Analysis                                          
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┓
+┃               Indicators ┃     199 ┃       399 ┃ 400 (from strategy) ┃     499 ┃     999 ┃    1999 ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━╇━━━━━━━━━╇━━━━━━━━━┩
+│             btc_rsi_8_1h │ -0.000% │         - │                   - │       - │       - │       - │
+│                ma_buy_12 │ -0.000% │         - │                   - │       - │       - │       - │
+│               ma_sell_22 │ -0.000% │         - │                   - │       - │       - │       - │
+│                   hma_50 │ -0.005% │   -0.000% │             -0.000% │ -0.000% │       - │       - │
+│                    sma_9 │  0.000% │    0.000% │              0.000% │  0.000% │  0.000% │  0.000% │
+│                      EWO │ 38.263% │   -3.902% │             -3.888% │ -1.076% │  0.004% │  0.000% │
+│                      rsi │ -0.000% │    0.000% │             -0.000% │       - │       - │       - │
+│                 rsi_slow │  0.001% │    0.000% │              0.000% │ -0.000% │       - │       - │
+│                   ema_14 │ -0.000% │         - │                   - │       - │       - │       - │
+│                   rsi_14 │ -0.000% │    0.000% │             -0.000% │       - │       - │       - │
+│                  zema_30 │  0.000% │    0.000% │              0.000% │ -0.000% │       - │       - │
+│                 zema_200 │    nan% │    1.038% │              1.025% │ -0.110% │  0.000% │  0.000% │
+│            pump_strength │    nan% │ -162.837% │           -160.879% │ 17.245% │ -0.007% │ -0.000% │
+│                    fastd │  0.000% │    0.000% │              0.000% │  0.000% │  0.000% │  0.000% │
+│                      adx │ -0.000% │    0.000% │             -0.000% │       - │       - │       - │
+│        volume_mean_short │ -0.000% │   -0.000% │             -0.000% │ -0.000% │ -0.000% │ -0.000% │
+│         volume_mean_long │    nan% │         - │             -0.000% │       - │       - │       - │
+│         volume_mean_base │    nan% │      nan% │                nan% │    nan% │       - │       - │
+│ volume_change_percentage │    nan% │      nan% │                nan% │    nan% │       - │       - │
+│                 rsi_mean │ -0.000% │    0.000% │             -0.000% │       - │  0.000% │  0.000% │
+│  btc_price_trend_long_5m │       - │         - │                   - │       - │       - │  0.000% │
+└──────────────────────────┴─────────┴───────────┴─────────────────────┴─────────┴─────────┴─────────┘
+VALIDATION_DONE

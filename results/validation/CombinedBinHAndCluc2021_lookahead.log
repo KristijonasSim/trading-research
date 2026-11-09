@@ -1,0 +1,8 @@
+2026-11-09 18:26:40,635 - freqtrade.optimize.analysis.lookahead - INFO - CombinedBinHAndCluc2021: no bias detected
+2026-11-09 18:26:40,635 - freqtrade.optimize.analysis.lookahead_helpers - INFO - Checking look ahead bias via backtests of CombinedBinHAndCluc2021.py took 11 seconds.
+                                                                 Lookahead Analysis                                                                 
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┓
+┃                   filename ┃                strategy ┃ has_bias ┃ total_signals ┃ biased_entry_signals ┃ biased_exit_signals ┃ biased_indicators ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━┩
+│ CombinedBinHAndCluc2021.py │ CombinedBinHAndCluc2021 │       No │            20 │                    0 │                   0 │                   │
+└────────────────────────────┴─────────────────────────┴──────────┴───────────────┴──────────────────────┴─────────────────────┴───────────────────┘

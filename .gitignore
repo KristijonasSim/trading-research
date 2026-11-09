@@ -40,3 +40,6 @@ volbreakout/data/
 etf-rotation/data/
 quantconnect-lean/raw/
 freqtrade/results/oos/
+freqtrade/docker_offline/binance_markets.json
+freqtrade/results/batch50/
+freqtrade/results/validate50/

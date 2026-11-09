@@ -1,0 +1,8 @@
+2026-11-09 18:27:17,394 - freqtrade.optimize.analysis.lookahead - INFO - ElliotV5_SMA: no bias detected
+2026-11-09 18:27:17,394 - freqtrade.optimize.analysis.lookahead_helpers - INFO - Checking look ahead bias via backtests of ElliotV5_SMA.py took 17 seconds.
+                                                      Lookahead Analysis                                                      
+┏━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┓
+┃        filename ┃     strategy ┃ has_bias ┃ total_signals ┃ biased_entry_signals ┃ biased_exit_signals ┃ biased_indicators ┃
+┡━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━┩
+│ ElliotV5_SMA.py │ ElliotV5_SMA │       No │            18 │                    0 │                   0 │                   │
+└─────────────────┴──────────────┴──────────┴───────────────┴──────────────────────┴─────────────────────┴───────────────────┘

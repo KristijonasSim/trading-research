@@ -1,0 +1,63 @@
+### lookahead-analysis ichiV1
+2026-11-09 18:07:53,436 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'ignore_roi_if_buy_signal' moved to 'ignore_roi_if_entry_signal'.
+2026-11-09 18:07:53,436 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'order_types' with value from the configuration: {'entry': 'market', 'exit': 'market', 'stoploss': 'market', 
+'stoploss_on_exchange': False}.
+2026-11-09 18:07:53,437 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value from the configuration: USDT.
+2026-11-09 18:07:53,437 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value from the configuration: 10000.
+2026-11-09 18:07:53,437 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'max_open_trades' with value from the configuration: -1.
+2026-11-09 18:07:53,437 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'0': 0.059, '10': 0.037, '41': 0.012, '114': 0}
+2026-11-09 18:07:53,438 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 5m
+2026-11-09 18:07:53,438 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.275
+2026-11-09 18:07:53,438 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2026-11-09 18:07:53,438 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2026-11-09 18:07:53,438 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2026-11-09 18:07:53,439 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2026-11-09 18:07:53,439 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: False
+2026-11-09 18:07:53,439 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'market', 'exit': 'market', 'stoploss': 'market', 'stoploss_on_exchange': False}
+2026-11-09 18:07:53,439 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'GTC', 'exit': 'GTC'}
+2026-11-09 18:07:53,439 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2026-11-09 18:07:53,440 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: 10000
+2026-11-09 18:07:53,440 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 96
+2026-11-09 18:07:53,440 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2026-11-09 18:07:53,440 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2026-11-09 18:07:53,441 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2026-11-09 18:07:53,441 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2026-11-09 18:07:53,441 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2026-11-09 18:07:53,441 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2026-11-09 18:07:53,442 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2026-11-09 18:07:53,442 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2026-11-09 18:07:53,442 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_open_trades: -1
+2026-11-09 18:07:53,442 - freqtrade - ERROR - Configuration error: Market entry orders require entry_pricing.price_side = "other".
+Please make sure to review the documentation at https://www.freqtrade.io/en/stable.
+### recursive-analysis ichiV1
+strategy.
+2026-11-09 18:08:00,496 - freqtrade.optimize.backtesting - INFO - Loading data from 2025-02-22 01:20:00 up to 2025-03-01 00:00:00 (6 days).
+2026-11-09 18:08:00,654 - freqtrade.loggers.set_log_levels - INFO - Restoring log verbosity.
+2026-11-09 18:08:00,655 - freqtrade.optimize.analysis.recursive - INFO - Start checking for recursive bias
+2026-11-09 18:08:00,674 - freqtrade.optimize.analysis.recursive - INFO - No variance on indicator(s) found due to recursive formula.
+2026-11-09 18:08:00,674 - freqtrade.optimize.analysis.recursive - INFO - Start checking for lookahead bias on indicators only
+2026-11-09 18:08:00,675 - freqtrade.optimize.analysis.recursive - INFO - Check indicators at 2025-01-01T00:50:00
+2026-11-09 18:08:00,677 - freqtrade.optimize.analysis.recursive - INFO - => found lookahead in indicator chikou_span
+2026-11-09 18:08:00,678 - freqtrade.optimize.analysis.recursive_helpers - INFO - Checking recursive and indicator-only lookahead bias of indicators of ichiV1.py took 3 seconds.
+                                     Recursive Analysis                                      
+┏━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━┓
+┃            Indicators ┃ 96 (from strategy) ┃     199 ┃     399 ┃     499 ┃     999 ┃ 1999 ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━╇━━━━━━━━━╇━━━━━━━━━╇━━━━━━━━━╇━━━━━━┩
+│        trend_close_1h │            -0.000% │       - │       - │       - │       - │    - │
+│        trend_close_2h │             0.000% │ -0.000% │       - │       - │       - │    - │
+│        trend_close_4h │             0.026% │ -0.001% │ -0.000% │  0.000% │       - │    - │
+│        trend_close_6h │             0.176% │ -0.012% │  0.000% │  0.000% │  0.000% │    - │
+│        trend_close_8h │             0.397% │ -0.081% │  0.000% │  0.000% │ -0.000% │    - │
+│         trend_open_1h │             0.000% │       - │       - │       - │       - │    - │
+│         trend_open_2h │             0.000% │  0.000% │       - │       - │       - │    - │
+│         trend_open_4h │             0.031% │ -0.001% │ -0.000% │  0.000% │       - │    - │
+│         trend_open_6h │             0.186% │ -0.012% │  0.000% │  0.000% │  0.000% │    - │
+│         trend_open_8h │             0.421% │ -0.077% │  0.000% │  0.000% │ -0.000% │    - │
+│         fan_magnitude │            -0.396% │  0.081% │ -0.000% │ -0.000% │  0.000% │    - │
+│    fan_magnitude_gain │             0.008% │ -0.002% │  0.000% │  0.000% │ -0.000% │    - │
+│              senkou_b │               nan% │       - │       - │       - │       - │    - │
+│ leading_senkou_span_b │               nan% │       - │       - │       - │       - │    - │
+│           cloud_green │                NaN │       - │       - │       - │       - │    - │
+│                   atr │            -0.041% │ -0.000% │  0.000% │       - │       - │    - │
+└───────────────────────┴────────────────────┴─────────┴─────────┴─────────┴─────────┴──────┘
+VALIDATION_DONE

@@ -1,0 +1,8 @@
+2026-11-09 18:26:57,473 - freqtrade.optimize.analysis.lookahead - INFO - found 3 trades which is less than minimum_trade_amount 10. Cancelling this backtest lookahead bias test.
+2026-11-09 18:26:57,473 - freqtrade.optimize.analysis.lookahead_helpers - INFO - Checking look ahead bias via backtests of BigTrader.py took 4 seconds.
+                                                                   Lookahead Analysis                                                                    
+┏━━━━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┓
+┃     filename ┃  strategy ┃                                  has_bias ┃ total_signals ┃ biased_entry_signals ┃ biased_exit_signals ┃ biased_indicators ┃
+┡━━━━━━━━━━━━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━┩
+│ BigTrader.py │ BigTrader │ too few trades caught (0/10).Test failed. │               │                      │                     │                   │
+└──────────────┴───────────┴───────────────────────────────────────────┴───────────────┴──────────────────────┴─────────────────────┴───────────────────┘
