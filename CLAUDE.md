@@ -53,6 +53,12 @@ Komandos (paleisti iš `freqtrade/`):
 - QuantConnect: biblioteka (25 strategijos) + forumas (60 versijų), Lean Docker lokaliai → `results/quantconnect_ranking.md`.
 - **Dvi geriausios: `best_strategies/README.md`. Ką testuoti toliau (216 kandidatų): `results/TESTUOTI_TOLIAU.md`.**
 
+## 2026-11-09 vakaras: patikros ir nauji testai
+- **In & Out TQQQ/TMF atmesta.** Ankstesnis rezultatas (+13,1 %/m., 2022 +35 %) neatsikartoja. Lean perpaleidus: 2022 −55 %, kritimas 68 %. Pandas versija (`quantconnect-lean/scripts/inout_pandas.py`, rezultatai `quantconnect-lean/results/inout/`): 2021–2026 visos versijos (su klaida ir ištaisytos) pralaimi SPY; 2015–2021 puiku, bet tai autoriaus kūrimo laikotarpis. Priežastis: „išėjus“ laiko obligacijas su svertu, 2022 jos krito kartu su akcijomis. IBKR valandinių testas nebereikalingas.
+- **CombinedBinHAndCluc išgyveno nematytą 2018–2021** (altcoin'ai): +12,1 %/m., teigiama kasmet, bet kritimas 38 % (ne 15 %). BTC+ETH netinka (−7 %/m.). Skriptas `freqtrade/run_oos.py`, rezultatai `results/oos_freqtrade.json`. Kitas žingsnis: dry-run.
+- **Vartotojo TradingView „Volatility Breakout“** (`volbreakout/`): kaip parašytas, nelenkia laikymo nė viename rėme. Geriausias pritaikymas NAS100 1h +7 %/m., kritimas 8 %. Vartotojo paklausta, kaip TradingView matė pranašumą (laukiama atsakymo).
+- **25 ETF strategijos** (`etf-rotation/`, 2008–2026): nė viena saugi nelenkia SPY/QQQ grąža, bet LAA, HAA, BAA-G12, Permanent Portfolio turi 2–3 kartus mažesnius kritimus (13–20 %) ir veikė po paskelbimo. Su svertu: TQQQ kai QQQ > 200 d. +24,5 %/m., kritimas 61 %.
+
 ## Dar nepradėta
 Aplankai `ib_async/`, `vectorbt/`, `backtesting-py/` tušti.
 

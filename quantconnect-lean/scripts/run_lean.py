@@ -7,14 +7,17 @@ The algorithm code is used as published; only dates, cash, fee and the data reso
 
 Usage: .venv/bin/python scripts/run_lean.py "<strategy folder>" <variant> <daily|hour>
 """
-import json, re, shutil, subprocess, sys, datetime as dt
+import json, os, re, shutil, subprocess, sys, datetime as dt
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SRC = ROOT / "sources/strategies"
 WORK = ROOT / "work"
 RAW = ROOT / "results/raw"
-START, END = dt.datetime(2021, 11, 8), dt.datetime(2026, 11, 8)
+# test window; override with env LEAN_START=YYYY-MM-DD LEAN_END=YYYY-MM-DD (e.g. the unseen 2015-2021)
+START = dt.datetime.fromisoformat(os.environ.get("LEAN_START", "2021-11-08"))
+END = dt.datetime.fromisoformat(os.environ.get("LEAN_END", "2026-11-08"))
+SUFFIX = "" if (START, END) == (dt.datetime(2021, 11, 8), dt.datetime(2026, 11, 8)) else f"_{START:%Y}-{END:%Y}"
 CASH = 100000  # Lean buys whole shares; a bigger account avoids rounding. Results are scaled to 1000.
 
 WRAPPER = '''from AlgorithmImports import *
@@ -36,8 +39,8 @@ class PctFee(FeeModel):
 class ResearchWrapper(_Base):
     def Initialize(self):
         _Base.Initialize(self)
-        self.SetStartDate(2021, 11, 8)
-        self.SetEndDate(2026, 11, 8)
+        self.SetStartDate(%d, %d, %d)
+        self.SetEndDate(%d, %d, %d)
         self.SetCash(%d)
         for sec in self.Securities.Values:
             sec.SetFeeModel(PctFee())
@@ -48,7 +51,7 @@ class ResearchWrapper(_Base):
         parent = getattr(_Base, "OnSecuritiesChanged", None)
         if parent is not None and parent is not QCAlgorithm.OnSecuritiesChanged:
             parent(self, changes)
-''' % CASH
+''' % (START.year, START.month, START.day, END.year, END.month, END.day, CASH)
 
 
 COMPAT = [  # old Lean API -> current Lean, logic unchanged
@@ -63,8 +66,8 @@ def patch(code, res):
         code = re.sub(a, b, code)
     # research window and account size are set where the author set them (before any History calls)
     arg = r"\((?:[^()]|\([^()]*\))*\)"
-    code = re.sub(r"self\.SetStartDate" + arg, "self.SetStartDate(2021, 11, 8)", code)
-    code = re.sub(r"self\.SetEndDate" + arg, "self.SetEndDate(2026, 11, 8)", code)
+    code = re.sub(r"self\.SetStartDate" + arg, f"self.SetStartDate({START.year}, {START.month}, {START.day})", code)
+    code = re.sub(r"self\.SetEndDate" + arg, f"self.SetEndDate({END.year}, {END.month}, {END.day})", code)
     code = re.sub(r"self\.SetCash" + arg, f"self.SetCash({CASH})", code)
     code = code.expandtabs(4)
     # intraday data we do not have: any minute/second/tick subscription runs on the chosen resolution
@@ -115,7 +118,7 @@ def equity_stats(result_json):
 
 def main():
     folder, variant, res = sys.argv[1], sys.argv[2], sys.argv[3]
-    name = f"{folder.split(' ')[0]}_{variant}_{res}"
+    name = f"{folder.split(' ')[0]}_{variant}_{res}{SUFFIX}"
     src = SRC / folder / variant
     algo = WORK / name / "algo"
     results = WORK / name / "results"

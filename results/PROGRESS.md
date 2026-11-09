@@ -50,3 +50,10 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 2026-11-09: trailing stop virš TP2 patikrintas – nepagerina.
 - 2026-11-09: platus trailing toli virš TP2 – lygu su „laikyti iki SELL“.
 - 2026-11-09: Trend Konsensusas B ištestuotas 22 ETF.
+
+## 2026-11-09 vakaras (kitas Claude seansas)
+- In & Out perrašyta į pandas (`quantconnect-lean/scripts/inout_pandas.py`), 2015–2021 ir 2021–2026, 4 variantai. Lean perpaleidimas (originalus kodas, 2021–2026): +12,5 %/m., bet 2022 −55 %, kritimas 68 % (`quantconnect-lean/results/inout/lean_rerun_2021_2026.json`). Atmesta.
+- `run_lean.py`: testavimo langas keičiamas per LEAN_START / LEAN_END.
+- Freqtrade nematytas 2018–2021 (`freqtrade/run_oos.py`): CombinedBinHAndCluc alts +12,1 %/m. (kritimas 38 %), btc_eth −7,3 %; ReinforcedAverage alts +49 %/m.; UniversalMACD btc_eth +20,8 %/m.
+- Volatility Breakout (vartotojo Pine) 5 rinkos × 4 rėmai, Dukascopy 15m 2017–2026 → `volbreakout/README.md`.
+- 25 ETF strategijos 2008–2026 → `etf-rotation/README.md`.

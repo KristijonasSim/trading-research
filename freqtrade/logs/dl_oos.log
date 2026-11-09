@@ -1,0 +1,117 @@
+2026-11-09 17:52:59,946 - freqtrade - INFO - freqtrade 2026.10
+2026-11-09 17:53:00,281 - numexpr.utils - INFO - NumExpr defaulting to 16 threads.
+2026-11-09 17:53:00,881 - freqtrade.configuration.load_config - INFO - Using config: config_spot.json ...
+2026-11-09 17:53:00,883 - freqtrade.loggers - INFO - Enabling colorized output.
+2026-11-09 17:53:00,884 - freqtrade.loggers - INFO - Logfile configured
+2026-11-09 17:53:00,884 - freqtrade.loggers - INFO - Verbosity set to 0
+2026-11-09 17:53:00,884 - freqtrade.configuration.configuration - INFO - Parameter --timerange detected: 20171101-20211108 ...
+2026-11-09 17:53:00,884 - freqtrade.configuration.configuration - INFO - Using user-data directory: user_data ...
+2026-11-09 17:53:00,885 - freqtrade.configuration.configuration - INFO - Using data directory: user_data/data/binance ...
+2026-11-09 17:53:00,885 - freqtrade.configuration.configuration - INFO - Prepend detected. Allowing data prepending.
+2026-11-09 17:53:00,885 - freqtrade.configuration.configuration - INFO - timeframes --timeframes: ['5m', '1d']
+2026-11-09 17:53:00,885 - freqtrade.configuration.configuration - INFO - Filter trades by timerange: 20171101-20211108
+2026-11-09 17:53:00,886 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2026-11-09 17:53:00,891 - freqtrade.exchange.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2026-11-09 17:53:00,891 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2026-11-09 17:53:00,892 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2026-11-09 17:53:01,490 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2026-11-09 17:53:01,491 - freqtrade.exchange.exchange - INFO - Using CCXT 4.5.92
+2026-11-09 17:53:01,495 - freqtrade.exchange.exchange - INFO - Using Exchange "Binance"
+2026-11-09 17:53:01,496 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange class 'Binance' ...
+2026-11-09 17:53:01,496 - freqtrade.exchange.exchange - INFO - Markets were not loaded. Loading them now..
+2026-11-09 17:53:02,865 - freqtrade.data.history.history_utils - INFO - About to download pairs: ['BTC/USDT', 'ETH/USDT', 'XRP/USDT', 'BNB/USDT', 'SOL/USDT', 'DOGE/USDT', 'ADA/USDT', 'TRX/USDT', 
+'LINK/USDT', 'AVAX/USDT', 'LTC/USDT', 'DOT/USDT'], intervals: ['5m', '1d'] to user_data/data/binance
+2026-11-09 17:53:03,026 - freqtrade.data.history.history_utils - INFO - Download history data for "BTC/USDT", 5m, spot and store in user_data/data/binance. From 2017-11-01T00:00:00 to 
+2021-08-01T00:00:00
+2026-11-09 17:53:11,492 - freqtrade.data.history.history_utils - INFO - Downloaded data for BTC/USDT, 5m, spot with length 392734.
+2026-11-09 17:53:16,468 - freqtrade.data.history.history_utils - INFO - Download history data for "BTC/USDT", 1d, spot and store in user_data/data/binance. From 2017-11-01T00:00:00 to 
+2021-08-01T00:00:00
+2026-11-09 17:53:17,898 - freqtrade.data.history.history_utils - INFO - Downloaded data for BTC/USDT, 1d, spot with length 1999.
+2026-11-09 17:53:18,005 - freqtrade.data.history.history_utils - INFO - Download history data for "ETH/USDT", 5m, spot and store in user_data/data/binance. From 2017-11-01T00:00:00 to 
+2021-08-01T00:00:00
+2026-11-09 17:53:26,415 - freqtrade.data.history.history_utils - INFO - Downloaded data for ETH/USDT, 5m, spot with length 392734.
+2026-11-09 17:53:31,485 - freqtrade.data.history.history_utils - INFO - Download history data for "ETH/USDT", 1d, spot and store in user_data/data/binance. From 2017-11-01T00:00:00 to 
+2021-08-01T00:00:00
+2026-11-09 17:53:32,045 - freqtrade.data.history.history_utils - INFO - Downloaded data for ETH/USDT, 1d, spot with length 1999.
+2026-11-09 17:53:32,156 - freqtrade.data.history.history_utils - INFO - Download history data for "XRP/USDT", 5m, spot and store in user_data/data/binance. From 2017-11-01T00:00:00 to 
+2021-08-01T00:00:00
+2026-11-09 17:53:33,189 - freqtrade.exchange.binance_public_data - WARNING - Fast download is unavailable due to missing data: 
+https://data.binance.vision/data/spot/daily/klines/XRPUSDT/5m/XRPUSDT-5m-2017-11-01.zip. Falling back to the slower REST API, which may take more time.
+2026-11-09 17:53:44,527 - freqtrade.data.history.history_utils - INFO - Downloaded data for XRP/USDT, 5m, spot with length 340827.
+2026-11-09 17:53:49,019 - freqtrade.data.history.history_utils - INFO - Download history data for "XRP/USDT", 1d, spot and store in user_data/data/binance. From 2017-11-01T00:00:00 to 
+2021-08-01T00:00:00
+2026-11-09 17:53:49,449 - freqtrade.data.history.history_utils - INFO - Downloaded data for XRP/USDT, 1d, spot with length 1815.
+2026-11-09 17:53:49,551 - freqtrade.data.history.history_utils - INFO - Download history data for "BNB/USDT", 5m, spot and store in user_data/data/binance. From 2017-11-01T00:00:00 to 
+2021-08-01T00:00:00
+2026-11-09 17:53:50,091 - freqtrade.exchange.binance_public_data - WARNING - Fast download is unavailable due to missing data: 
+https://data.binance.vision/data/spot/daily/klines/BNBUSDT/5m/BNBUSDT-5m-2017-11-01.zip. Falling back to the slower REST API, which may take more time.
+2026-11-09 17:54:01,019 - freqtrade.data.history.history_utils - INFO - Downloaded data for BNB/USDT, 5m, spot with length 391975.
+2026-11-09 17:54:06,192 - freqtrade.data.history.history_utils - INFO - Download history data for "BNB/USDT", 1d, spot and store in user_data/data/binance. From 2017-11-01T00:00:00 to 
+2021-08-01T00:00:00
+2026-11-09 17:54:06,754 - freqtrade.data.history.history_utils - INFO - Downloaded data for BNB/USDT, 1d, spot with length 1994.
+2026-11-09 17:54:06,863 - freqtrade.data.history.history_utils - INFO - Download history data for "SOL/USDT", 5m, spot and store in user_data/data/binance. From 2017-11-01T00:00:00 to 
+2021-08-01T00:00:00
+2026-11-09 17:54:07,941 - freqtrade.exchange.binance_public_data - WARNING - Fast download is unavailable due to missing data: 
+https://data.binance.vision/data/spot/daily/klines/SOLUSDT/5m/SOLUSDT-5m-2017-11-01.zip. Falling back to the slower REST API, which may take more time.
+2026-11-09 17:54:20,168 - freqtrade.data.history.history_utils - INFO - Downloaded data for SOL/USDT, 5m, spot with length 102702.
+2026-11-09 17:54:23,928 - freqtrade.data.history.history_utils - INFO - Download history data for "SOL/USDT", 1d, spot and store in user_data/data/binance. From 2017-11-01T00:00:00 to 
+2021-08-01T00:00:00
+2026-11-09 17:54:24,260 - freqtrade.data.history.history_utils - INFO - Downloaded data for SOL/USDT, 1d, spot with length 999.
+2026-11-09 17:54:24,362 - freqtrade.data.history.history_utils - INFO - Download history data for "DOGE/USDT", 5m, spot and store in user_data/data/binance. From 2017-11-01T00:00:00 to 
+2021-08-01T00:00:00
+2026-11-09 17:54:25,350 - freqtrade.exchange.binance_public_data - WARNING - Fast download is unavailable due to missing data: 
+https://data.binance.vision/data/spot/daily/klines/DOGEUSDT/5m/DOGEUSDT-5m-2017-11-01.zip. Falling back to the slower REST API, which may take more time.
+2026-11-09 17:54:36,623 - freqtrade.data.history.history_utils - INFO - Downloaded data for DOGE/USDT, 5m, spot with length 218367.
+2026-11-09 17:54:40,712 - freqtrade.data.history.history_utils - INFO - Download history data for "DOGE/USDT", 1d, spot and store in user_data/data/binance. From 2017-11-01T00:00:00 to 
+2021-08-01T00:00:00
+2026-11-09 17:54:41,041 - freqtrade.data.history.history_utils - INFO - Downloaded data for DOGE/USDT, 1d, spot with length 1388.
+2026-11-09 17:54:41,140 - freqtrade.data.history.history_utils - INFO - Download history data for "ADA/USDT", 5m, spot and store in user_data/data/binance. From 2017-11-01T00:00:00 to 
+2021-08-01T00:00:00
+2026-11-09 17:54:41,654 - freqtrade.exchange.binance_public_data - WARNING - Fast download is unavailable due to missing data: 
+https://data.binance.vision/data/spot/daily/klines/ADAUSDT/5m/ADAUSDT-5m-2017-11-01.zip. Falling back to the slower REST API, which may take more time.
+2026-11-09 17:54:52,779 - freqtrade.data.history.history_utils - INFO - Downloaded data for ADA/USDT, 5m, spot with length 345773.
+2026-11-09 17:54:57,493 - freqtrade.data.history.history_utils - INFO - Download history data for "ADA/USDT", 1d, spot and store in user_data/data/binance. From 2017-11-01T00:00:00 to 
+2021-08-01T00:00:00
+2026-11-09 17:54:58,288 - freqtrade.data.history.history_utils - INFO - Downloaded data for ADA/USDT, 1d, spot with length 1832.
+2026-11-09 17:54:58,390 - freqtrade.data.history.history_utils - INFO - Download history data for "TRX/USDT", 5m, spot and store in user_data/data/binance. From 2017-11-01T00:00:00 to 
+2021-08-01T00:00:00
+2026-11-09 17:54:59,435 - freqtrade.exchange.binance_public_data - WARNING - Fast download is unavailable due to missing data: 
+https://data.binance.vision/data/spot/daily/klines/TRXUSDT/5m/TRXUSDT-5m-2017-11-01.zip. Falling back to the slower REST API, which may take more time.
+2026-11-09 17:55:09,873 - freqtrade.data.history.history_utils - INFO - Downloaded data for TRX/USDT, 5m, spot with length 329843.
+2026-11-09 17:55:14,684 - freqtrade.data.history.history_utils - INFO - Download history data for "TRX/USDT", 1d, spot and store in user_data/data/binance. From 2017-11-01T00:00:00 to 
+2021-08-01T00:00:00
+2026-11-09 17:55:15,495 - freqtrade.data.history.history_utils - INFO - Downloaded data for TRX/USDT, 1d, spot with length 1777.
+2026-11-09 17:55:15,628 - freqtrade.data.history.history_utils - INFO - Download history data for "LINK/USDT", 5m, spot and store in user_data/data/binance. From 2017-11-01T00:00:00 to 
+2021-08-01T00:00:00
+2026-11-09 17:55:16,741 - freqtrade.exchange.binance_public_data - WARNING - Fast download is unavailable due to missing data: 
+https://data.binance.vision/data/spot/daily/klines/LINKUSDT/5m/LINKUSDT-5m-2017-11-01.zip. Falling back to the slower REST API, which may take more time.
+2026-11-09 17:55:27,177 - freqtrade.data.history.history_utils - INFO - Downloaded data for LINK/USDT, 5m, spot with length 267147.
+2026-11-09 17:55:31,651 - freqtrade.data.history.history_utils - INFO - Download history data for "LINK/USDT", 1d, spot and store in user_data/data/binance. From 2017-11-01T00:00:00 to 
+2021-08-01T00:00:00
+2026-11-09 17:55:31,981 - freqtrade.data.history.history_utils - INFO - Downloaded data for LINK/USDT, 1d, spot with length 1558.
+2026-11-09 17:55:32,086 - freqtrade.data.history.history_utils - INFO - Download history data for "AVAX/USDT", 5m, spot and store in user_data/data/binance. From 2017-11-01T00:00:00 to 
+2021-08-01T00:00:00
+2026-11-09 17:55:32,641 - freqtrade.exchange.binance_public_data - WARNING - Fast download is unavailable due to missing data: 
+https://data.binance.vision/data/spot/daily/klines/AVAXUSDT/5m/AVAXUSDT-5m-2017-11-01.zip. Falling back to the slower REST API, which may take more time.
+2026-11-09 17:55:42,479 - freqtrade.data.history.history_utils - INFO - Downloaded data for AVAX/USDT, 5m, spot with length 90600.
+2026-11-09 17:55:46,118 - freqtrade.data.history.history_utils - INFO - Download history data for "AVAX/USDT", 1d, spot and store in user_data/data/binance. From 2017-11-01T00:00:00 to 
+2021-08-01T00:00:00
+2026-11-09 17:55:46,448 - freqtrade.data.history.history_utils - INFO - Downloaded data for AVAX/USDT, 1d, spot with length 999.
+2026-11-09 17:55:46,550 - freqtrade.data.history.history_utils - INFO - Download history data for "LTC/USDT", 5m, spot and store in user_data/data/binance. From 2017-11-01T00:00:00 to 
+2021-08-01T00:00:00
+2026-11-09 17:55:47,331 - freqtrade.exchange.binance_public_data - WARNING - Fast download is unavailable due to missing data: 
+https://data.binance.vision/data/spot/daily/klines/LTCUSDT/5m/LTCUSDT-5m-2017-11-01.zip. Falling back to the slower REST API, which may take more time.
+2026-11-09 17:55:58,573 - freqtrade.data.history.history_utils - INFO - Downloaded data for LTC/USDT, 5m, spot with length 381331.
+2026-11-09 17:56:04,177 - freqtrade.data.history.history_utils - INFO - Download history data for "LTC/USDT", 1d, spot and store in user_data/data/binance. From 2017-11-01T00:00:00 to 
+2021-08-01T00:00:00
+2026-11-09 17:56:04,523 - freqtrade.data.history.history_utils - INFO - Downloaded data for LTC/USDT, 1d, spot with length 1957.
+2026-11-09 17:56:04,631 - freqtrade.data.history.history_utils - INFO - Download history data for "DOT/USDT", 5m, spot and store in user_data/data/binance. From 2017-11-01T00:00:00 to 
+2021-08-01T00:00:00
+2026-11-09 17:56:05,381 - freqtrade.exchange.binance_public_data - WARNING - Fast download is unavailable due to missing data: 
+https://data.binance.vision/data/spot/daily/klines/DOTUSDT/5m/DOTUSDT-5m-2017-11-01.zip. Falling back to the slower REST API, which may take more time.
+2026-11-09 17:56:17,174 - freqtrade.data.history.history_utils - INFO - Downloaded data for DOT/USDT, 5m, spot with length 100482.
+2026-11-09 17:56:21,321 - freqtrade.data.history.history_utils - INFO - Download history data for "DOT/USDT", 1d, spot and store in user_data/data/binance. From 2017-11-01T00:00:00 to 
+2021-08-01T00:00:00
+2026-11-09 17:56:22,120 - freqtrade.data.history.history_utils - INFO - Downloaded data for DOT/USDT, 1d, spot with length 999.
+Timeframe            ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2/2   100% • 0:00:15 • 0:00:00
+Downloading DOT/USDT ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12/12 100% • 0:03:19 • 0:00:00

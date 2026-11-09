@@ -1,0 +1,4 @@
+CombinedBinHAndCluc__alts10 12.1 %/m, kritimas 38.4 metai {'2018': 3.6, '2019': 1.4, '2020': 7.7, '2021': 37.1} | laikyti: {'final': np.float64(33288.2), 'cagr_pct': np.float64(148.4)}
+CombinedBinHAndCluc__btc_eth -7.3 %/m, kritimas 55.4 metai {'2018': -26.1, '2019': -2.1, '2020': -15.8, '2021': 22.6} | laikyti: {'final': np.float64(5408.4), 'cagr_pct': np.float64(55.0)}
+ReinforcedAverageStrategy__alts10 49.0 %/m, kritimas 20.9 metai {'2018': -4.0, '2019': 19.0, '2020': 74.8, '2021': 132.8} | laikyti: {'final': np.float64(33288.2), 'cagr_pct': np.float64(148.4)}
+UniversalMACD__btc_eth 20.8 %/m, kritimas 42.5 metai {'2018': 23.7, '2019': 14.0, '2020': -7.4, '2021': 58.3} | laikyti: {'final': np.float64(5408.4), 'cagr_pct': np.float64(55.0)}

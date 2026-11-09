@@ -1,0 +1,110 @@
+{
+  "CombinedBinHAndCluc__alts10": {
+    "strategy": "CombinedBinHAndCluc",
+    "mode": "spot",
+    "group": "alts10",
+    "timeframe": "5m",
+    "style": "day trading",
+    "avg_trade_hours": 1.3,
+    "trades": 3971,
+    "trades_per_year": 1030.9,
+    "total_return_pct": 55.2,
+    "cagr_pct": 12.1,
+    "yearly_pct": {
+      "2018": 3.6,
+      "2019": 1.4,
+      "2020": 7.7,
+      "2021": 37.1
+    },
+    "max_drawdown_pct": 38.4,
+    "win_rate_pct": 70.3,
+    "profit_factor": 1.07,
+    "market_change_pct": 3171.7,
+    "timerange": "20180101-20211108",
+    "hold": {
+      "final": 33288.2,
+      "cagr_pct": 148.4
+    }
+  },
+  "CombinedBinHAndCluc__btc_eth": {
+    "strategy": "CombinedBinHAndCluc",
+    "mode": "spot",
+    "group": "btc_eth",
+    "timeframe": "5m",
+    "style": "day trading",
+    "avg_trade_hours": 2.4,
+    "trades": 550,
+    "trades_per_year": 142.8,
+    "total_return_pct": -25.4,
+    "cagr_pct": -7.3,
+    "yearly_pct": {
+      "2018": -26.1,
+      "2019": -2.1,
+      "2020": -15.8,
+      "2021": 22.6
+    },
+    "max_drawdown_pct": 55.4,
+    "win_rate_pct": 70.9,
+    "profit_factor": 0.92,
+    "market_change_pct": 449.6,
+    "timerange": "20180101-20211108",
+    "hold": {
+      "final": 5408.4,
+      "cagr_pct": 55.0
+    }
+  },
+  "ReinforcedAverageStrategy__alts10": {
+    "strategy": "ReinforcedAverageStrategy",
+    "mode": "spot",
+    "group": "alts10",
+    "timeframe": "4h",
+    "style": "swing",
+    "avg_trade_hours": 81.8,
+    "trades": 683,
+    "trades_per_year": 177.3,
+    "total_return_pct": 364.9,
+    "cagr_pct": 49.0,
+    "yearly_pct": {
+      "2018": -4.0,
+      "2019": 19.0,
+      "2020": 74.8,
+      "2021": 132.8
+    },
+    "max_drawdown_pct": 20.9,
+    "win_rate_pct": 31.5,
+    "profit_factor": 1.68,
+    "market_change_pct": 3381.7,
+    "timerange": "20180101-20211108",
+    "hold": {
+      "final": 33288.2,
+      "cagr_pct": 148.4
+    }
+  },
+  "UniversalMACD__btc_eth": {
+    "strategy": "UniversalMACD",
+    "mode": "spot",
+    "group": "btc_eth",
+    "timeframe": "5m",
+    "style": "day trading",
+    "avg_trade_hours": 21.6,
+    "trades": 329,
+    "trades_per_year": 85.4,
+    "total_return_pct": 106.8,
+    "cagr_pct": 20.8,
+    "yearly_pct": {
+      "2018": 23.7,
+      "2019": 14.0,
+      "2020": -7.4,
+      "2021": 58.3
+    },
+    "max_drawdown_pct": 42.5,
+    "win_rate_pct": 75.1,
+    "profit_factor": 1.51,
+    "market_change_pct": 449.6,
+    "timerange": "20180101-20211108",
+    "hold": {
+      "final": 5408.4,
+      "cagr_pct": 55.0
+    }
+  }
+}

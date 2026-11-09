@@ -34,3 +34,9 @@ quantconnect-lean/sources/embedded/
 quantconnect-lean/*.log
 quantconnect-lean/logs_*.txt
 freqtrade/sources_more/*/
+
+# Dukascopy / Yahoo duomenys (atkuriama: volbreakout/fetch.py, etf-rotation/etf.py antraštė)
+volbreakout/data/
+etf-rotation/data/
+quantconnect-lean/raw/
+freqtrade/results/oos/
