@@ -51,7 +51,7 @@ Komandos (paleisti iš `freqtrade/`):
 ## OctoBot ir QuantConnect (2026-11-09, kitas agentas)
 - OctoBot: 18 robotų + grid ant indeksų/aukso. Nė vienas neverta → `results/octobot_ranking.md`.
 - QuantConnect: biblioteka (25 strategijos) + forumas (60 versijų), Lean Docker lokaliai → `results/quantconnect_ranking.md`.
-- **Dvi geriausios ir ką daryti toliau: `best_strategies/README.md`. Pradėk nuo jo.**
+- **Dvi geriausios: `best_strategies/README.md`. Ką testuoti toliau (216 kandidatų): `results/TESTUOTI_TOLIAU.md`.**
 
 ## Dar nepradėta
 Aplankai `ib_async/`, `vectorbt/`, `backtesting-py/` tušti.

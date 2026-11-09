@@ -33,3 +33,4 @@ quantconnect-lean/sources/Tutorials/
 quantconnect-lean/sources/embedded/
 quantconnect-lean/*.log
 quantconnect-lean/logs_*.txt
+freqtrade/sources_more/*/
