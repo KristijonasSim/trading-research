@@ -51,7 +51,7 @@ Komandos (paleisti iš `freqtrade/`):
 ## OctoBot ir QuantConnect (2026-11-09, kitas agentas)
 - OctoBot: 18 robotų + grid ant indeksų/aukso. Nė vienas neverta → `results/octobot_ranking.md`.
 - QuantConnect: biblioteka (25 strategijos) + forumas (60 versijų), Lean Docker lokaliai → `results/quantconnect_ranking.md`.
-- **Dvi geriausios: `best_strategies/README.md`. Ką testuoti toliau (216 kandidatų): `results/TESTUOTI_TOLIAU.md`.**
+- **Atrinkti botai (≥14 %/m.): `best_strategies/ATRINKTI_BOTAI.md`.** Senas perdavimas: `best_strategies/README.md` (In & Out ten jau atmesta). Ką testuoti toliau (216 kandidatų): `results/TESTUOTI_TOLIAU.md`.**
 
 ## 2026-11-09 vakaras: patikros ir nauji testai
 - **In & Out TQQQ/TMF atmesta.** Ankstesnis rezultatas (+13,1 %/m., 2022 +35 %) neatsikartoja. Lean perpaleidus: 2022 −55 %, kritimas 68 %. Pandas versija (`quantconnect-lean/scripts/inout_pandas.py`, rezultatai `quantconnect-lean/results/inout/`): 2021–2026 visos versijos (su klaida ir ištaisytos) pralaimi SPY; 2015–2021 puiku, bet tai autoriaus kūrimo laikotarpis. Priežastis: „išėjus“ laiko obligacijas su svertu, 2022 jos krito kartu su akcijomis. IBKR valandinių testas nebereikalingas.
