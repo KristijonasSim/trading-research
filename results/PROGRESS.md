@@ -57,3 +57,8 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - Freqtrade nematytas 2018–2021 (`freqtrade/run_oos.py`): CombinedBinHAndCluc alts +12,1 %/m. (kritimas 38 %), btc_eth −7,3 %; ReinforcedAverage alts +49 %/m.; UniversalMACD btc_eth +20,8 %/m.
 - Volatility Breakout (vartotojo Pine) 5 rinkos × 4 rėmai, Dukascopy 15m 2017–2026 → `volbreakout/README.md`.
 - 25 ETF strategijos 2008–2026 → `etf-rotation/README.md`.
+
+## 2026-11-10 naktis: batch50c (tarpiniai, 63/100 baigta)
+- NOTankAi_15 (+884 %/m., 100 % laimi) atmesta: `argrelextrema` žiūri 5 žvakes į ateitį.
+- Rsiqui (+54,6 %/m. BTC+ETH) atmesta: `np.gradient` (centrinis skirtumas) naudoja kitos žvakės RSI.
+- PrawnstarOBV (+42,6 %/m. alts10) atmesta: kritimas 63 %, 4 nuostolingi metai, viską neša 2023–2024.
