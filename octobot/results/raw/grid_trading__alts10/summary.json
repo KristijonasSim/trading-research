@@ -1,0 +1,28 @@
+{
+  "strategy": "grid_trading",
+  "group": "alts10",
+  "engine": "octobot 2.1.1",
+  "trades": 3611,
+  "trades_per_year": 722.3,
+  "final_usdt": 138.8,
+  "total_return_pct": -86.1,
+  "cagr_pct": -32.6,
+  "yearly_pct": {
+    "2021": -6.9,
+    "2022": -80.6,
+    "2023": 145.9,
+    "2024": 42.1,
+    "2025": -58.9,
+    "2026": -46.5
+  },
+  "max_drawdown_pct": 89.9,
+  "equity_days": 1826,
+  "end_holdings": {
+    "USDT": 2.887479,
+    "ADA": 718.396163,
+    "AVAX": 0.362379,
+    "BNB": 5e-06,
+    "DOGE": 0.023062
+  },
+  "runtime_min": 1.0
+}

@@ -1,0 +1,12 @@
+grid_trading us30
+trailing_grid_trading us30
+staggered_orders_trading us30
+grid_trading nas100
+trailing_grid_trading nas100
+staggered_orders_trading nas100
+grid_trading spx500
+trailing_grid_trading spx500
+staggered_orders_trading spx500
+grid_trading xau
+trailing_grid_trading xau
+staggered_orders_trading xau

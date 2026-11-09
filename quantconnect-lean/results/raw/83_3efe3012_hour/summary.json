@@ -1,0 +1,21 @@
+{
+  "strategy": "83 Pre-Holiday Effect",
+  "variant": "3efe3012",
+  "resolution": "hour",
+  "final_usdt": 1044.9,
+  "total_return_pct": 4.5,
+  "cagr_pct": 0.9,
+  "yearly_pct": {
+    "2021": -1.1,
+    "2022": 3.7,
+    "2023": 0.3,
+    "2024": 4.8,
+    "2025": -3.5,
+    "2026": 0.4
+  },
+  "max_drawdown_pct": 5.8,
+  "trades": 68,
+  "fees": "$6951.00",
+  "first_day": "2021-11-08",
+  "last_day": "2026-11-06"
+}

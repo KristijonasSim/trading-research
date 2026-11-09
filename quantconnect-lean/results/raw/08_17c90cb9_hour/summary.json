@@ -1,0 +1,21 @@
+{
+  "strategy": "08 The Momentum Strategy Based on the Low Frequency Component of Forex Market",
+  "variant": "17c90cb9",
+  "resolution": "hour",
+  "final_usdt": 566.2,
+  "total_return_pct": -43.4,
+  "cagr_pct": -10.8,
+  "yearly_pct": {
+    "2021": -1.6,
+    "2022": -14.6,
+    "2023": -4.9,
+    "2024": -15.1,
+    "2025": -7.4,
+    "2026": -9.9
+  },
+  "max_drawdown_pct": 44.4,
+  "trades": 128,
+  "fees": "$18532.05",
+  "first_day": "2021-11-08",
+  "last_day": "2026-11-09"
+}

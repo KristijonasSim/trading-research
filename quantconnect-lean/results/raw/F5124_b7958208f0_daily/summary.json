@@ -1,0 +1,21 @@
+{
+  "strategy": "F5124 forum 3X ETF Short Hedge Algorithm - QuantConnect.com",
+  "variant": "b7958208f0",
+  "resolution": "daily",
+  "final_usdt": 937.1,
+  "total_return_pct": -6.3,
+  "cagr_pct": -1.3,
+  "yearly_pct": {
+    "2021": 0.0,
+    "2022": -5.0,
+    "2023": 1.8,
+    "2024": -13.0,
+    "2025": -12.0,
+    "2026": 26.7
+  },
+  "max_drawdown_pct": 34.6,
+  "trades": 113,
+  "fees": "$529.73",
+  "first_day": "2021-11-08",
+  "last_day": "2026-11-06"
+}

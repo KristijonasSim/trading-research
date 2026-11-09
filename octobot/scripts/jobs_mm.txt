@@ -1,0 +1,2 @@
+market_making btc_eth
+market_making alts10

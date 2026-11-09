@@ -1,0 +1,26 @@
+{
+  "strategy": "trailing_grid_trading",
+  "group": "btc_eth",
+  "engine": "octobot 2.1.1",
+  "trades": 2736,
+  "trades_per_year": 547.3,
+  "final_usdt": 1289.5,
+  "total_return_pct": 28.9,
+  "cagr_pct": 5.2,
+  "yearly_pct": {
+    "2021": -19.5,
+    "2022": -64.8,
+    "2023": 153.0,
+    "2024": 119.8,
+    "2025": -4.6,
+    "2026": -14.4
+  },
+  "max_drawdown_pct": 73.2,
+  "equity_days": 1826,
+  "end_holdings": {
+    "USDT": 0.489328,
+    "BTC": 0.016892,
+    "ETH": 0.003502
+  },
+  "runtime_min": 0.2
+}

@@ -1,0 +1,26 @@
+{
+  "strategy": "index_trading",
+  "group": "btc_eth",
+  "engine": "octobot 2.1.1",
+  "trades": 58,
+  "trades_per_year": 11.6,
+  "final_usdt": 791.6,
+  "total_return_pct": -20.8,
+  "cagr_pct": -4.6,
+  "yearly_pct": {
+    "2021": -24.3,
+    "2022": -66.0,
+    "2023": 121.0,
+    "2024": 81.2,
+    "2025": -5.2,
+    "2026": -18.9
+  },
+  "max_drawdown_pct": 76.5,
+  "equity_days": 1826,
+  "end_holdings": {
+    "USDT": 0.001034,
+    "BTC": 0.005478,
+    "ETH": 0.168103
+  },
+  "runtime_min": 0.1
+}

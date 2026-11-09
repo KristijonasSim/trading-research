@@ -1,0 +1,21 @@
+{
+  "strategy": "14 Sector Momentum",
+  "variant": "a20b3eef",
+  "resolution": "daily",
+  "final_usdt": 1283.0,
+  "total_return_pct": 28.3,
+  "cagr_pct": 5.1,
+  "yearly_pct": {
+    "2021": 3.6,
+    "2022": -9.3,
+    "2023": 18.5,
+    "2024": -4.2,
+    "2025": 6.9,
+    "2026": 12.6
+  },
+  "max_drawdown_pct": 24.5,
+  "trades": 238,
+  "fees": "$5269.38",
+  "first_day": "2021-11-08",
+  "last_day": "2026-11-06"
+}

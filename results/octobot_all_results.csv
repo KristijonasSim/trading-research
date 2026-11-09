@@ -1,0 +1,49 @@
+strategy,group,engine,trades,trades_per_year,final_usdt,total_return_pct,cagr_pct,max_drawdown_pct,equity_days,runtime_min,2021,2022,2023,2024,2025,2026,bot
+daily_trading+DeathAndGoldenCrossEvaluator,alts10,octobot 2.1.1,2856,571.3,841.4,-15.9,-3.4,77.2,1825,1.9,-23.3,-44.2,156.9,115.5,-49.3,-29.9,Daily Trading: DeathAndGoldenCross
+index_trading,alts10,octobot 2.1.1,470,94.0,485.8,-51.4,-13.4,80.4,1826,0.7,-28.1,-71.1,153.2,101.6,-35.3,-29.1,Index (rebalance)
+daily_trading+DoubleMovingAverageTrendEvaluator,alts10,octobot 2.1.1,3998,799.7,456.4,-54.4,-14.5,74.8,1825,28.5,-21.1,-67.0,77.4,47.7,-21.5,-14.7,Daily Trading: DoubleMovingAverageTrend
+daily_trading+RSIMomentumEvaluator,alts10,octobot 2.1.1,4695,939.1,386.6,-61.3,-17.3,80.3,1825,3.5,-35.3,-67.2,111.2,31.3,-22.8,-14.8,Daily Trading: RSIMomentum
+dip_analyser,alts10,octobot 2.1.1,8987,1797.6,380.8,-61.9,-17.6,77.7,1826,3.4,-26.2,-69.8,112.4,57.1,-35.0,-21.2,Dip Analyser
+daily_trading,alts10,octobot 2.1.1,3725,745.1,305.4,-69.5,-21.1,76.8,1825,24.4,-30.0,-61.7,72.8,11.8,-25.0,-21.4,Daily Trading
+daily_trading+SuperTrendEvaluator,alts10,octobot 2.1.1,5462,1092.5,298.5,-70.2,-21.5,83.0,1825,10.0,-22.7,-71.8,126.4,71.6,-51.9,-26.9,Daily Trading: SuperTrend
+daily_trading+EMAMomentumEvaluator,alts10,octobot 2.1.1,5488,1097.8,296.1,-70.4,-21.6,75.7,1825,2.3,-18.2,-70.0,74.9,1.5,-27.3,-6.6,Daily Trading: EMAMomentum
+daily_trading+EMADivergenceTrendEvaluator,alts10,octobot 2.1.1,4300,860.1,294.8,-70.5,-21.7,78.3,1825,2.4,-29.9,-66.4,97.9,17.7,-29.9,-23.4,Daily Trading: EMADivergenceTrend
+daily_trading+KlingerOscillatorMomentumEvaluator,alts10,octobot 2.1.1,4713,942.7,185.1,-81.5,-28.6,83.2,1825,11.3,-25.5,-71.0,96.2,-18.1,-26.3,-27.8,Daily Trading: KlingerOscillatorMomentum
+daily_trading+BBMomentumEvaluator,alts10,octobot 2.1.1,2899,579.9,170.5,-82.9,-29.8,86.1,1825,2.5,-25.7,-73.7,57.4,-10.5,-30.5,-10.8,Daily Trading: BBMomentum
+daily_trading+MACDMomentumEvaluator,alts10,octobot 2.1.1,3412,682.5,157.0,-84.3,-30.9,86.8,1825,15.5,-21.4,-72.8,60.5,-17.7,-28.6,-22.2,Daily Trading: MACDMomentum
+daily_trading+ADXMomentumEvaluator,alts10,octobot 2.1.1,3537,707.5,154.2,-84.6,-31.2,87.3,1825,3.8,-30.9,-72.7,44.5,-6.8,-29.5,-14.0,Daily Trading: ADXMomentum
+smart_dca,alts10,octobot 2.1.1,4785,957.1,140.9,-85.9,-32.4,88.7,1826,1.3,-35.5,-76.2,93.0,72.2,-55.3,-38.3,Smart DCA
+grid_trading,alts10,octobot 2.1.1,3611,722.3,138.8,-86.1,-32.6,89.9,1826,1.0,-6.9,-80.6,145.9,42.1,-58.9,-46.5,Grid
+staggered_orders_trading,alts10,octobot 2.1.1,976,195.2,116.5,-88.4,-35.0,91.2,1826,0.6,-20.0,-81.3,148.9,38.8,-58.8,-45.5,Staggered Orders
+daily_trading+StochasticRSIVolatilityEvaluator,alts10,octobot 2.1.1,2091,418.3,108.2,-89.2,-35.9,90.4,1825,3.5,-28.7,-76.4,38.4,-24.4,-26.9,-15.8,Daily Trading: StochasticRSIVolatility
+trailing_grid_trading,alts10,octobot 2.1.1,1473,294.6,101.6,-89.8,-36.7,92.3,1826,0.8,-26.8,-81.7,145.3,41.9,-58.9,-46.9,Trailing Grid
+staggered_orders_trading,btc_eth,octobot 2.1.1,485,97.0,1626.1,62.6,10.2,71.4,1826,0.1,-13.2,-64.8,151.2,91.5,0.2,10.4,Staggered Orders
+grid_trading,btc_eth,octobot 2.1.1,2681,536.3,1400.6,40.1,7.0,65.4,1826,0.2,-4.6,-61.6,156.0,43.1,0.2,4.0,Grid
+trailing_grid_trading,btc_eth,octobot 2.1.1,2736,547.3,1289.5,28.9,5.2,73.2,1826,0.2,-19.5,-64.8,153.0,119.8,-4.6,-14.4,Trailing Grid
+dip_analyser,btc_eth,octobot 2.1.1,3453,690.7,1012.0,1.2,0.2,64.7,1826,0.7,-3.6,-60.1,115.5,44.4,3.5,-18.2,Dip Analyser
+daily_trading+DeathAndGoldenCrossEvaluator,btc_eth,octobot 2.1.1,586,117.2,941.4,-5.9,-1.2,52.8,1825,0.4,-18.3,-39.6,40.7,53.8,-4.6,-7.4,Daily Trading: DeathAndGoldenCross
+daily_trading+MACDMomentumEvaluator,btc_eth,octobot 2.1.1,2075,415.1,897.6,-10.2,-2.1,48.3,1825,3.7,-4.2,-40.8,38.1,17.4,14.9,-15.0,Daily Trading: MACDMomentum
+daily_trading,btc_eth,octobot 2.1.1,1361,272.2,856.5,-14.3,-3.1,60.1,1825,5.6,-18.1,-41.5,41.6,49.4,-3.3,-12.7,Daily Trading
+smart_dca,btc_eth,octobot 2.1.1,4214,842.9,838.7,-16.1,-3.5,72.8,1826,0.3,-18.1,-64.3,141.9,51.7,-2.6,-19.7,Smart DCA
+index_trading,btc_eth,octobot 2.1.1,58,11.6,791.6,-20.8,-4.6,76.5,1826,0.1,-24.3,-66.0,121.0,81.2,-5.2,-18.9,Index (rebalance)
+daily_trading+BBMomentumEvaluator,btc_eth,octobot 2.1.1,2805,561.1,737.3,-26.3,-5.9,55.7,1825,0.5,0.4,-49.1,40.8,9.0,15.9,-18.8,Daily Trading: BBMomentum
+daily_trading+DoubleMovingAverageTrendEvaluator,btc_eth,octobot 2.1.1,1176,235.2,731.0,-26.9,-6.1,52.3,1825,7.3,-2.0,-44.2,36.5,19.1,8.3,-24.1,Daily Trading: DoubleMovingAverageTrend
+daily_trading+KlingerOscillatorMomentumEvaluator,btc_eth,octobot 2.1.1,2559,511.9,699.7,-30.0,-6.9,52.4,1825,2.4,-9.5,-40.8,22.4,-2.8,20.6,-9.1,Daily Trading: KlingerOscillatorMomentum
+daily_trading+SuperTrendEvaluator,btc_eth,octobot 2.1.1,1616,323.2,688.1,-31.2,-7.2,55.0,1825,2.4,-30.7,-34.9,41.5,19.0,-11.8,2.6,Daily Trading: SuperTrend
+daily_trading+ADXMomentumEvaluator,btc_eth,octobot 2.1.1,2094,418.9,553.2,-44.7,-11.2,61.3,1825,0.8,-0.1,-51.6,31.7,10.3,-2.9,-18.9,Daily Trading: ADXMomentum
+daily_trading+EMAMomentumEvaluator,btc_eth,octobot 2.1.1,1929,385.9,531.0,-46.9,-11.9,60.2,1825,0.5,-9.7,-50.9,34.4,15.4,5.5,-26.8,Daily Trading: EMAMomentum
+daily_trading+StochasticRSIVolatilityEvaluator,btc_eth,octobot 2.1.1,2251,450.3,470.7,-52.9,-14.0,66.0,1825,0.8,-12.3,-56.3,28.6,10.6,16.0,-25.6,Daily Trading: StochasticRSIVolatility
+daily_trading+EMADivergenceTrendEvaluator,btc_eth,octobot 2.1.1,1791,358.2,446.7,-55.3,-14.9,74.4,1825,0.5,-20.7,-60.2,61.9,14.2,-11.4,-13.5,Daily Trading: EMADivergenceTrend
+daily_trading+RSIMomentumEvaluator,btc_eth,octobot 2.1.1,2415,483.1,340.7,-65.9,-19.4,73.5,1825,0.7,-25.7,-58.1,41.3,36.5,-32.2,-16.4,Daily Trading: RSIMomentum
+trailing_grid_trading,nas100,octobot 2.1.1,673,134.6,1540.5,54.0,9.0,27.9,1291,0.1,1.2,-26.0,43.9,2.9,32.5,4.8,Trailing Grid
+staggered_orders_trading,nas100,octobot 2.1.1,78,15.6,1142.5,14.2,2.7,22.0,1291,0.1,1.4,-17.6,36.7,0.0,0.0,0.0,Staggered Orders
+grid_trading,nas100,octobot 2.1.1,378,75.6,1132.7,13.3,2.5,13.2,1291,0.1,0.6,-8.3,22.8,0.0,0.0,0.0,Grid
+trailing_grid_trading,spx500,octobot 2.1.1,1200,240.0,1163.4,16.3,3.1,17.8,1291,0.1,0.9,-10.0,18.3,2.8,4.3,1.0,Trailing Grid
+staggered_orders_trading,spx500,octobot 2.1.1,66,13.2,1130.7,13.1,2.5,11.0,1291,0.1,0.9,-0.3,12.3,0.0,0.0,0.0,Staggered Orders
+grid_trading,spx500,octobot 2.1.1,260,52.0,1082.5,8.2,1.6,6.9,1291,0.1,0.3,1.0,6.9,0.0,0.0,0.0,Grid
+trailing_grid_trading,us30,octobot 2.1.1,895,179.0,1176.5,17.7,3.3,13.5,1291,0.1,0.5,2.3,7.6,2.7,3.6,0.0,Trailing Grid
+staggered_orders_trading,us30,octobot 2.1.1,60,12.0,1130.5,13.0,2.5,9.3,1291,0.1,0.9,5.7,6.0,0.0,0.0,0.0,Staggered Orders
+grid_trading,us30,octobot 2.1.1,208,41.6,1063.4,6.3,1.2,5.6,1291,0.1,0.3,3.1,2.8,0.0,0.0,0.0,Grid
+trailing_grid_trading,xau,octobot 2.1.1,465,93.0,1073.6,7.4,1.4,9.0,1291,0.1,0.4,1.8,4.9,0.2,0.0,-0.0,Trailing Grid
+staggered_orders_trading,xau,octobot 2.1.1,12,2.4,1026.9,2.7,0.5,2.5,1291,0.1,0.5,2.2,0.0,0.0,0.0,-0.0,Staggered Orders
+grid_trading,xau,octobot 2.1.1,54,10.8,1014.9,1.5,0.3,1.2,1291,0.1,0.2,1.3,0.0,0.0,0.0,-0.0,Grid

@@ -1,0 +1,25 @@
+{
+  "strategy": "simple_dca",
+  "group": "btc_eth",
+  "engine": "octobot 2.1.1",
+  "trades": 1,
+  "trades_per_year": 0.2,
+  "final_usdt": 973.9,
+  "total_return_pct": -2.6,
+  "cagr_pct": -0.5,
+  "yearly_pct": {
+    "2021": -1.1,
+    "2022": -2.7,
+    "2023": 1.2,
+    "2024": 1.2,
+    "2025": -0.4,
+    "2026": -0.8
+  },
+  "max_drawdown_pct": 4.1,
+  "octobot_portfolio_value_check": 972.7,
+  "end_holdings": {
+    "USDT": 950.000044,
+    "ETH": 0.010654
+  },
+  "runtime_min": 0.1
+}

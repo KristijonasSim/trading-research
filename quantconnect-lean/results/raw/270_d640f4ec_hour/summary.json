@@ -1,0 +1,21 @@
+{
+  "strategy": "270 Risk Premia in Forex Markets",
+  "variant": "d640f4ec",
+  "resolution": "hour",
+  "final_usdt": 938.9,
+  "total_return_pct": -6.1,
+  "cagr_pct": -1.3,
+  "yearly_pct": {
+    "2021": -2.5,
+    "2022": 1.9,
+    "2023": -6.5,
+    "2024": 4.3,
+    "2025": -0.8,
+    "2026": -2.2
+  },
+  "max_drawdown_pct": 12.7,
+  "trades": 371,
+  "fees": "$21261.25",
+  "first_day": "2021-11-08",
+  "last_day": "2026-11-09"
+}

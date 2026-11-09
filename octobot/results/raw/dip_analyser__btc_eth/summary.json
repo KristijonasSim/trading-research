@@ -1,0 +1,26 @@
+{
+  "strategy": "dip_analyser",
+  "group": "btc_eth",
+  "engine": "octobot 2.1.1",
+  "trades": 3453,
+  "trades_per_year": 690.7,
+  "final_usdt": 1012.0,
+  "total_return_pct": 1.2,
+  "cagr_pct": 0.2,
+  "yearly_pct": {
+    "2021": -3.6,
+    "2022": -60.1,
+    "2023": 115.5,
+    "2024": 44.4,
+    "2025": 3.5,
+    "2026": -18.2
+  },
+  "max_drawdown_pct": 64.7,
+  "equity_days": 1826,
+  "end_holdings": {
+    "USDT": 17.905778,
+    "BTC": 0.007274,
+    "ETH": 0.197697
+  },
+  "runtime_min": 0.7
+}

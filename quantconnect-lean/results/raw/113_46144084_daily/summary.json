@@ -1,0 +1,21 @@
+{
+  "strategy": "113 January Barometer",
+  "variant": "46144084",
+  "resolution": "daily",
+  "final_usdt": 1931.3,
+  "total_return_pct": 93.1,
+  "cagr_pct": 14.1,
+  "yearly_pct": {
+    "2021": 0.0,
+    "2022": -4.1,
+    "2023": 26.3,
+    "2024": 25.2,
+    "2025": 18.1,
+    "2026": 7.8
+  },
+  "max_drawdown_pct": 18.7,
+  "trades": 6,
+  "fees": "$478.66",
+  "first_day": "2021-11-08",
+  "last_day": "2026-11-06"
+}

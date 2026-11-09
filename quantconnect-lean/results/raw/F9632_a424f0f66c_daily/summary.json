@@ -1,0 +1,21 @@
+{
+  "strategy": "F9632 forum Amazing returns  superior stock selection strateg",
+  "variant": "a424f0f66c",
+  "resolution": "daily",
+  "final_usdt": 167.4,
+  "total_return_pct": -83.3,
+  "cagr_pct": -30.1,
+  "yearly_pct": {
+    "2021": -2.9,
+    "2022": -81.1,
+    "2023": 13.9,
+    "2024": 29.1,
+    "2025": -15.9,
+    "2026": -26.4
+  },
+  "max_drawdown_pct": 87.3,
+  "trades": 107,
+  "fees": "$1377.88",
+  "first_day": "2021-11-08",
+  "last_day": "2026-11-06"
+}

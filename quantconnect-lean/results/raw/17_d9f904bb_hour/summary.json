@@ -1,0 +1,21 @@
+{
+  "strategy": "17 Forex Momentum",
+  "variant": "d9f904bb",
+  "resolution": "hour",
+  "final_usdt": 1005.6,
+  "total_return_pct": 0.6,
+  "cagr_pct": 0.1,
+  "yearly_pct": {
+    "2021": 0.0,
+    "2022": 5.7,
+    "2023": -2.5,
+    "2024": -1.0,
+    "2025": -1.0,
+    "2026": -0.5
+  },
+  "max_drawdown_pct": 17.7,
+  "trades": 31,
+  "fees": "$1633.77",
+  "first_day": "2021-11-08",
+  "last_day": "2026-11-09"
+}

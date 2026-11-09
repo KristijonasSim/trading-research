@@ -1,0 +1,34 @@
+{
+  "strategy": "daily_trading+StochasticRSIVolatilityEvaluator",
+  "group": "alts10",
+  "engine": "octobot 2.1.1",
+  "trades": 2091,
+  "trades_per_year": 418.3,
+  "final_usdt": 108.2,
+  "total_return_pct": -89.2,
+  "cagr_pct": -35.9,
+  "yearly_pct": {
+    "2021": -28.7,
+    "2022": -76.4,
+    "2023": 38.4,
+    "2024": -24.4,
+    "2025": -26.9,
+    "2026": -15.8
+  },
+  "max_drawdown_pct": 90.4,
+  "equity_days": 1825,
+  "end_holdings": {
+    "USDT": 40.172456,
+    "ADA": 26.448154,
+    "AVAX": 0.0,
+    "BNB": 0.017842,
+    "DOT": 15.121076,
+    "LINK": 0.0,
+    "LTC": 0.146812,
+    "SOL": 0.026398,
+    "XRP": 12.897248,
+    "DOGE": 164.478938,
+    "TRX": 0.0
+  },
+  "runtime_min": 3.5
+}

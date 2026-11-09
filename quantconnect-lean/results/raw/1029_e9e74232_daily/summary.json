@@ -1,0 +1,21 @@
+{
+  "strategy": "1029 Optimal Pairs Trading",
+  "variant": "e9e74232",
+  "resolution": "daily",
+  "final_usdt": 994.8,
+  "total_return_pct": -0.5,
+  "cagr_pct": -0.1,
+  "yearly_pct": {
+    "2021": 0.0,
+    "2022": -10.0,
+    "2023": 6.7,
+    "2024": 5.6,
+    "2025": -0.3,
+    "2026": -1.6
+  },
+  "max_drawdown_pct": 21.0,
+  "trades": 28,
+  "fees": "$1430.01",
+  "first_day": "2021-11-08",
+  "last_day": "2026-11-06"
+}

@@ -1,0 +1,34 @@
+{
+  "strategy": "daily_trading+DeathAndGoldenCrossEvaluator",
+  "group": "alts10",
+  "engine": "octobot 2.1.1",
+  "trades": 2856,
+  "trades_per_year": 571.3,
+  "final_usdt": 841.4,
+  "total_return_pct": -15.9,
+  "cagr_pct": -3.4,
+  "yearly_pct": {
+    "2021": -23.3,
+    "2022": -44.2,
+    "2023": 156.9,
+    "2024": 115.5,
+    "2025": -49.3,
+    "2026": -29.9
+  },
+  "max_drawdown_pct": 77.2,
+  "equity_days": 1825,
+  "end_holdings": {
+    "USDT": 169.248545,
+    "TRX": 1144.943351,
+    "SOL": 0.274047,
+    "BNB": 0.106723,
+    "AVAX": 3.766556,
+    "LTC": 0.07864,
+    "DOGE": 0.766966,
+    "LINK": 6.521649,
+    "XRP": 52.809217,
+    "DOT": 21.286466,
+    "ADA": 100.536075
+  },
+  "runtime_min": 1.9
+}

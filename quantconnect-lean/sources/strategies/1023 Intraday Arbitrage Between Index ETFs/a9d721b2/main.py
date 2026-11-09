@@ -1,0 +1,60 @@
+# QUANTCONNECT.COM - Democratizing Finance, Empowering Individuals.
+# Lean Algorithmic Trading Engine v2.0. Copyright 2014 QuantConnect Corporation.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+from clr import AddReference
+AddReference("System")
+AddReference("QuantConnect.Algorithm")
+AddReference("QuantConnect.Common")
+
+from System import *
+from QuantConnect import *
+from QuantConnect.Algorithm import *
+
+from ArbitrageAlphaModel import ArbitrageAlphaModel
+
+class IntradayIndexETFArbitrageAlgorithm(QCAlgorithm):
+
+    def Initialize(self):
+        self.SetStartDate(2015, 8, 11)
+        self.SetEndDate(2020, 8, 11)
+        
+        self.SetCash(50000)
+        
+        tickers = ['IVV', 'SPY']
+        symbols = [ Symbol.Create(t, SecurityType.Equity, Market.USA) for t in tickers ]
+        self.SetUniverseSelection( ManualUniverseSelectionModel(symbols) )
+        self.UniverseSettings.Resolution = Resolution.Second
+        
+        self.AddAlpha(ArbitrageAlphaModel())
+        
+        self.SetPortfolioConstruction(EqualWeightingPortfolioConstructionModel(lambda time: None))
+        self.Settings.RebalancePortfolioOnSecurityChanges = False
+        
+        self.SetExecution(ImmediateExecutionModel())
+        
+        self.SetSecurityInitializer(self.CustomSecurityInitializer)
+
+    def CustomSecurityInitializer(self, security):
+        security.SetFeeModel(ConstantFeeModel(0))
+        security.SetSlippageModel(ConstantSlippageModel(0))
+        security.SetFillModel(NoBidAskSpreadModel())       
+    
+class NoBidAskSpreadModel(FillModel):
+
+    def MarketFill(self, asset, order):
+        fill = super().MarketFill(asset, order)
+
+        # Set fill price to last traded price
+        fill.FillPrice = asset.Price
+
+        return fill

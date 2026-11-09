@@ -12,3 +12,24 @@ __pycache__/
 *.pyc
 *.sqlite*
 .env
+
+# OctoBot (atkuriama: pip install octobot==2.1.1, OctoBot tentacles --install --all, scripts/collect.py)
+octobot/.venv/
+octobot/backtesting/
+octobot/tentacles/
+octobot/work/
+octobot/logs/
+octobot/user/
+octobot/results/old_try1/
+octobot/results/raw/*/trades.json
+
+# QuantConnect Lean (atkuriama: docker pull quantconnect/lean, scripts/fetch_*.py, scripts/build_lean_data.py)
+quantconnect-lean/.venv/
+quantconnect-lean/data/
+quantconnect-lean/raw/
+quantconnect-lean/work/
+quantconnect-lean/sources/lean-repo/
+quantconnect-lean/sources/Tutorials/
+quantconnect-lean/sources/embedded/
+quantconnect-lean/*.log
+quantconnect-lean/logs_*.txt

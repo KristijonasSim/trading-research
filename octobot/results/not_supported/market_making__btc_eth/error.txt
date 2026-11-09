@@ -1,0 +1,59 @@
+Traceback (most recent call last):
+  File "/home/kris/Desktop/trading-research/octobot/scripts/run_bt.py", line 201, in main
+    trades, portfolio, hist, secs = asyncio.run(run(profile, group))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/kris/Desktop/trading-research/octobot/scripts/run_bt.py", line 146, in run
+    await ob_api.initialize_and_run_independent_backtesting(bt)
+  File "/home/kris/Desktop/trading-research/octobot/.venv/lib/python3.12/site-packages/octobot/api/backtesting.py", line 60, in initialize_and_run_independent_backtesting
+    await independent_backtesting.initialize_and_run(log_errors=log_errors)
+  File "/home/kris/Desktop/trading-research/octobot/.venv/lib/python3.12/site-packages/octobot/backtesting/independent_backtesting.py", line 129, in initialize_and_run
+    raise e
+  File "/home/kris/Desktop/trading-research/octobot/.venv/lib/python3.12/site-packages/octobot/backtesting/independent_backtesting.py", line 121, in initialize_and_run
+    await self.octobot_backtesting.initialize_and_run()
+  File "/home/kris/Desktop/trading-research/octobot/.venv/lib/python3.12/site-packages/octobot/backtesting/octobot_backtesting.py", line 131, in initialize_and_run
+    await self._init_exchanges()
+  File "/home/kris/Desktop/trading-research/octobot/.venv/lib/python3.12/site-packages/octobot/backtesting/octobot_backtesting.py", line 490, in _init_exchanges
+    await exchange_builder.build()
+  File "/home/kris/Desktop/trading-research/octobot/.venv/lib/python3.12/site-packages/octobot_trading/exchanges/exchange_builder.py", line 52, in build
+    raise e
+  File "/home/kris/Desktop/trading-research/octobot/.venv/lib/python3.12/site-packages/octobot_trading/exchanges/exchange_builder.py", line 48, in build
+    await self._build_exchange_manager()
+  File "/home/kris/Desktop/trading-research/octobot/.venv/lib/python3.12/site-packages/octobot_trading/exchanges/exchange_builder.py", line 82, in _build_exchange_manager
+    await self._build_trading_modes_if_required(
+  File "/home/kris/Desktop/trading-research/octobot/.venv/lib/python3.12/site-packages/octobot_trading/exchanges/exchange_builder.py", line 137, in _build_trading_modes_if_required
+    self.exchange_manager.trading_modes = await self.build_trading_modes(trading_mode_class)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kris/Desktop/trading-research/octobot/.venv/lib/python3.12/site-packages/octobot_trading/exchanges/exchange_builder.py", line 160, in build_trading_modes
+    raise e
+  File "/home/kris/Desktop/trading-research/octobot/.venv/lib/python3.12/site-packages/octobot_trading/exchanges/exchange_builder.py", line 148, in build_trading_modes
+    return await modes.create_trading_modes(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kris/Desktop/trading-research/octobot/.venv/lib/python3.12/site-packages/octobot_trading/modes/modes_factory.py", line 34, in create_trading_modes
+    return await _create_trading_modes(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kris/Desktop/trading-research/octobot/.venv/lib/python3.12/site-packages/octobot_trading/modes/modes_factory.py", line 65, in _create_trading_modes
+    await create_trading_mode(
+  File "/home/kris/Desktop/trading-research/octobot/.venv/lib/python3.12/site-packages/octobot_trading/modes/modes_factory.py", line 99, in create_trading_mode
+    await trading_mode.initialize(trading_config=trading_config, auto_start=auto_start)
+  File "/home/kris/Desktop/trading-research/octobot/.venv/lib/python3.12/site-packages/octobot_trading/modes/abstract_trading_mode.py", line 240, in initialize
+    self.producers = await self.create_producers(auto_start)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kris/Desktop/trading-research/octobot/.venv/lib/python3.12/site-packages/octobot_trading/modes/abstract_trading_mode.py", line 275, in create_producers
+    await self._create_mode_producer(mode_producer_class, auto_start)
+  File "/home/kris/Desktop/trading-research/octobot/.venv/lib/python3.12/site-packages/octobot_trading/modes/abstract_trading_mode.py", line 285, in _create_mode_producer
+    mode_producer = mode_producer_class(
+                    ^^^^^^^^^^^^^^^^^^^^
+  File "/home/kris/Desktop/trading-research/octobot/tentacles/Trading/Mode/market_making_trading_mode/market_making_trading.py", line 511, in __init__
+    self.read_config()
+  File "/home/kris/Desktop/trading-research/octobot/tentacles/Trading/Mode/market_making_trading_mode/market_making_trading.py", line 538, in read_config
+    raise ValueError(error)
+ValueError: Multiple trading pair is not supported on MarketMakingTradingMode. Please select only one trading pair in configuration.

@@ -1,0 +1,1107 @@
+[
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/10039/0d613d724b/",
+  "tickers": [
+   "DBB",
+   "FDN",
+   "FXA",
+   "FXF",
+   "GLD",
+   "IGE",
+   "QQQ",
+   "SHY",
+   "SLV",
+   "SPY",
+   "TLH",
+   "TLT",
+   "UUP",
+   "XLI",
+   "XLU"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/10039/13b678fa1b/",
+  "tickers": [
+   "FXA",
+   "FXF",
+   "GLD",
+   "IGV",
+   "IYC",
+   "IYK",
+   "QQQ",
+   "SLV",
+   "SPY",
+   "TLH",
+   "TLT",
+   "XLI",
+   "XLU"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/10039/18bc21a9ac/",
+  "tickers": [
+   "DBB",
+   "FDN",
+   "GLD",
+   "QQQ",
+   "SLV",
+   "SPY",
+   "TLH",
+   "TLT",
+   "UUP",
+   "XLI",
+   "XLU"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/10039/2b1fc4cda1/",
+  "tickers": [
+   "DBB",
+   "FDN",
+   "FXA",
+   "FXF",
+   "GLD",
+   "IGE",
+   "QQQ",
+   "SHY",
+   "SLV",
+   "SPY",
+   "TLH",
+   "TLT",
+   "UUP",
+   "XLI",
+   "XLU"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/10039/2b6b24696d/",
+  "tickers": [
+   "DBB",
+   "GLD",
+   "IEF",
+   "QQQ",
+   "SLV",
+   "SPY",
+   "TLT",
+   "UUP",
+   "XLI",
+   "XLU"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/10039/2d96c1b584/",
+  "tickers": [
+   "DBB",
+   "FDN",
+   "FXA",
+   "FXF",
+   "GLD",
+   "IGE",
+   "QQQ",
+   "SHY",
+   "SLV",
+   "SPY",
+   "TLH",
+   "TLT",
+   "UUP",
+   "XLI",
+   "XLU"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/10039/36bb0852c1/",
+  "tickers": [
+   "DBB",
+   "FDN",
+   "FXA",
+   "FXF",
+   "GLD",
+   "IGE",
+   "QQQ",
+   "RINF",
+   "SHY",
+   "SLV",
+   "SPY",
+   "TLH",
+   "TLT",
+   "UUP",
+   "XLI",
+   "XLU"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/10039/3aa1830197/",
+  "tickers": [
+   "FXA",
+   "FXF",
+   "GLD",
+   "IGV",
+   "IYC",
+   "IYK",
+   "QQQ",
+   "SLV",
+   "SPY",
+   "TLH",
+   "TLT",
+   "XLI",
+   "XLU"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/10039/47f1fd3355/",
+  "tickers": [
+   "FDN",
+   "QQQ",
+   "SPY",
+   "TLH",
+   "TLT",
+   "UUP"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/10039/5343b054aa/",
+  "tickers": [
+   "DBB",
+   "FDN",
+   "GLD",
+   "QQQ",
+   "SLV",
+   "SPY",
+   "TLH",
+   "TLT",
+   "UUP",
+   "XLI",
+   "XLU"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/10039/636462c941/",
+  "tickers": [
+   "DBB",
+   "FDN",
+   "FXA",
+   "FXF",
+   "GLD",
+   "IGE",
+   "QQQ",
+   "SHY",
+   "SLV",
+   "SPY",
+   "TLH",
+   "TLT",
+   "UUP",
+   "XLI",
+   "XLU"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/10039/758574589e/",
+  "tickers": [
+   "FDN",
+   "GLD",
+   "QQQ",
+   "SLV",
+   "SPY",
+   "TLH",
+   "TLT",
+   "XLI",
+   "XLU"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/10039/785bd73267/",
+  "tickers": [
+   "DBB",
+   "FDN",
+   "FXA",
+   "FXF",
+   "GLD",
+   "IGE",
+   "QQQ",
+   "RINF",
+   "SHY",
+   "SLV",
+   "TLH",
+   "TLT",
+   "UUP",
+   "XLI",
+   "XLU"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/10039/8689604307/",
+  "tickers": [
+   "DBB",
+   "FDN",
+   "GLD",
+   "QQQ",
+   "SLV",
+   "SPY",
+   "TLH",
+   "TLT",
+   "UUP",
+   "XLI",
+   "XLU"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/10039/94c1b405ec/",
+  "tickers": [
+   "DBB",
+   "FDN",
+   "FXA",
+   "FXF",
+   "GLD",
+   "IGE",
+   "QQQ",
+   "RINF",
+   "SHY",
+   "SLV",
+   "SPY",
+   "TLH",
+   "TLT",
+   "UUP",
+   "XLI",
+   "XLU"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/10039/99127018c3/",
+  "tickers": [
+   "DBB",
+   "FDN",
+   "FXA",
+   "FXF",
+   "GLD",
+   "IGE",
+   "QQQ",
+   "SHY",
+   "SLV",
+   "SPY",
+   "TLH",
+   "TLT",
+   "UUP",
+   "XLI",
+   "XLU"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/10039/b1be3ade25/",
+  "tickers": [
+   "DBB",
+   "FDN",
+   "FXA",
+   "FXF",
+   "GLD",
+   "IGE",
+   "QQQ",
+   "SHY",
+   "SLV",
+   "SPY",
+   "TLH",
+   "TLT",
+   "UUP",
+   "XLI",
+   "XLU"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/10039/b3e5c2897b/",
+  "tickers": [
+   "DBB",
+   "FXA",
+   "FXF",
+   "GLD",
+   "IEF",
+   "IGE",
+   "IWF",
+   "QQQ",
+   "SHY",
+   "SLV",
+   "SPY",
+   "TLT",
+   "UUP",
+   "XLI",
+   "XLU"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/10039/b506967692/",
+  "tickers": [
+   "DBB",
+   "FDN",
+   "FXA",
+   "FXF",
+   "GLD",
+   "IGE",
+   "QQQ",
+   "SHY",
+   "SLV",
+   "SPY",
+   "TLH",
+   "TLT",
+   "UUP",
+   "XLI",
+   "XLU"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/10039/c66e80139b/",
+  "tickers": [
+   "DBB",
+   "FDN",
+   "GLD",
+   "QQQ",
+   "SLV",
+   "SPY",
+   "TLH",
+   "TLT",
+   "UUP",
+   "XLI",
+   "XLU"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/10039/d71833616f/",
+  "tickers": [
+   "DBB",
+   "FDN",
+   "GLD",
+   "IEF",
+   "QQQ",
+   "SLV",
+   "SPY",
+   "TLH",
+   "TLT",
+   "UUP",
+   "XLI",
+   "XLU"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/10039/da872fd8d4/",
+  "tickers": [
+   "DBB",
+   "FDN",
+   "FXA",
+   "FXF",
+   "GLD",
+   "IGE",
+   "QQQ",
+   "SHY",
+   "SLV",
+   "SPY",
+   "TLH",
+   "TLT",
+   "UUP",
+   "XLI",
+   "XLU"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/5124/25166e99bf/",
+  "tickers": [
+   "DGAZ",
+   "DUST",
+   "JDST",
+   "JNUG",
+   "NUGT",
+   "UGAZ"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/5124/b7958208f0/",
+  "tickers": [
+   "DGAZ",
+   "DUST",
+   "JDST",
+   "JNUG",
+   "NUGT",
+   "UGAZ"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/5124/caa0495f22/",
+  "tickers": [
+   "DGAZ",
+   "FAS",
+   "FAZ",
+   "JDST",
+   "JNUG",
+   "SQQQ",
+   "SVXY",
+   "TNA",
+   "TQQQ",
+   "TZA",
+   "UGAZ",
+   "UVXY"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/7708/316dcfe1c5/",
+  "tickers": [
+   "TQQQ",
+   "UBT",
+   "UST"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/7708/9fc9eff0f1/",
+  "tickers": [
+   "QQQ",
+   "TLT",
+   "TMF",
+   "TQQQ",
+   "TYD"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/7708/b4e2139e17/",
+  "tickers": [
+   "GLD",
+   "IWM",
+   "QQQ",
+   "SCO",
+   "SPY",
+   "TLT",
+   "TMF",
+   "TQQQ",
+   "UPRO",
+   "URTY",
+   "UVXY"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/7708/bfe58a2e21/",
+  "tickers": [
+   "QQQ",
+   "STD",
+   "TLT",
+   "TMF",
+   "TQQQ",
+   "TYD"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/7708/c0caa05e49/",
+  "tickers": [
+   "TQQQ",
+   "TVIX",
+   "UBT",
+   "UST"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/7708/f0d8f50c73/",
+  "tickers": [
+   "AGG",
+   "SPY",
+   "TQQQ",
+   "UBT",
+   "UST"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/9632/1bb502e471/",
+  "tickers": [
+   "DBB",
+   "DEBT",
+   "GLD",
+   "IGE",
+   "METL",
+   "MRKT",
+   "NRES",
+   "PRDC",
+   "QQQ",
+   "SHY",
+   "SLV",
+   "SPY",
+   "TLT",
+   "TQQQ",
+   "USDX",
+   "UUP",
+   "XLI",
+   "XLU"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/9632/1c1cbe327d/",
+  "tickers": [
+   "DBB",
+   "FXA",
+   "FXF",
+   "GLD",
+   "IEF",
+   "IGE",
+   "QQQ",
+   "SHY",
+   "SLV",
+   "SPY",
+   "TLT",
+   "UUP",
+   "XLI",
+   "XLU"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/9632/2b54135926/",
+  "tickers": [
+   "DBB",
+   "FXA",
+   "FXF",
+   "GLD",
+   "IGE",
+   "SHY",
+   "SLV",
+   "SPY",
+   "TMF",
+   "TQQQ",
+   "TYD",
+   "UUP",
+   "XLI",
+   "XLU"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/9632/4115ee0aa3/",
+  "tickers": [
+   "DBB",
+   "FXA",
+   "FXF",
+   "GLD",
+   "IGE",
+   "SHY",
+   "SLV",
+   "SPY",
+   "TMF",
+   "TQQQ",
+   "TYD",
+   "UUP",
+   "XLI",
+   "XLU"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/9632/42cb0e7aea/",
+  "tickers": [
+   "DBB",
+   "FXA",
+   "FXF",
+   "GLD",
+   "IGE",
+   "SHY",
+   "SLV",
+   "SPY",
+   "TMF",
+   "TQQQ",
+   "TYD",
+   "UUP",
+   "XLI",
+   "XLU"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/9632/48048a5d47/",
+  "tickers": [
+   "BIL",
+   "BND",
+   "DBB",
+   "DBC",
+   "DEBT",
+   "EEM",
+   "EFA",
+   "GLD",
+   "IEF",
+   "IGE",
+   "LQD",
+   "METL",
+   "MRKT",
+   "NRES",
+   "PRDC",
+   "QQQ",
+   "SHY",
+   "SLV",
+   "SPY",
+   "TBT",
+   "TIP",
+   "TLT",
+   "TQQQ",
+   "USDX",
+   "UUP",
+   "XLI",
+   "XLP",
+   "XLU"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/9632/4d3c02f3fc/",
+  "tickers": [
+   "ARKK",
+   "DBB",
+   "FXA",
+   "FXF",
+   "GLD",
+   "IEF",
+   "IGE",
+   "SHY",
+   "SLV",
+   "SPY",
+   "TLT",
+   "UUP",
+   "XLI",
+   "XLU"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/9632/55ba6bdbeb/",
+  "tickers": [
+   "DBB",
+   "FXA",
+   "FXF",
+   "GLD",
+   "IGE",
+   "SHY",
+   "SLV",
+   "SPY",
+   "TMF",
+   "TQQQ",
+   "TYD",
+   "UUP",
+   "XLI",
+   "XLU"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/9632/665fbb24e9/",
+  "tickers": [
+   "DBB",
+   "DEBT",
+   "GLD",
+   "IGE",
+   "METL",
+   "MRKT",
+   "NRES",
+   "PRDC",
+   "QQQ",
+   "SHY",
+   "SLV",
+   "SPY",
+   "TBT",
+   "TLT",
+   "TQQQ",
+   "USDX",
+   "UUP",
+   "XLI",
+   "XLU"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/9632/668f08eb95/",
+  "tickers": [
+   "DBB",
+   "DEBT",
+   "GLD",
+   "IGE",
+   "METL",
+   "MRKT",
+   "NRES",
+   "PRDC",
+   "QQQ",
+   "SHY",
+   "SLV",
+   "SPY",
+   "TBT",
+   "TLT",
+   "TQQQ",
+   "USDX",
+   "UUP",
+   "XLI",
+   "XLU"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/9632/68267ac216/",
+  "tickers": [
+   "BIL",
+   "DBB",
+   "DEBT",
+   "GLD",
+   "IGE",
+   "METL",
+   "MRKT",
+   "NRES",
+   "PRDC",
+   "QLD",
+   "QQQ",
+   "SHY",
+   "SLV",
+   "SPY",
+   "TQQQ",
+   "USDX",
+   "UUP",
+   "XLI",
+   "XLU"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/9632/6c7e6f68cf/",
+  "tickers": [
+   "DBB",
+   "DEBT",
+   "GLD",
+   "IGE",
+   "METL",
+   "MRKT",
+   "NRES",
+   "PRDC",
+   "QLD",
+   "QQQ",
+   "SHY",
+   "SLV",
+   "SPY",
+   "TMF",
+   "TQQQ",
+   "USDX",
+   "UUP",
+   "XLI",
+   "XLU"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/9632/73c23e66bd/",
+  "tickers": [
+   "DBB",
+   "DEBT",
+   "GLD",
+   "IGE",
+   "METL",
+   "MRKT",
+   "NRES",
+   "PRDC",
+   "QLD",
+   "QQQ",
+   "SHY",
+   "SLV",
+   "SPY",
+   "TMF",
+   "TQQQ",
+   "USDX",
+   "UUP",
+   "XLI",
+   "XLU"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/9632/84f8a4778f/",
+  "tickers": [
+   "AGQ",
+   "DBB",
+   "FXA",
+   "FXF",
+   "GLD",
+   "IGE",
+   "SHY",
+   "SLV",
+   "SPY",
+   "SQQQ",
+   "TMF",
+   "TQQQ",
+   "UUP",
+   "XLI",
+   "XLU"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/9632/8937472c3f/",
+  "tickers": [
+   "AGQ",
+   "DBB",
+   "FXA",
+   "FXF",
+   "GLD",
+   "IGE",
+   "SHY",
+   "SLV",
+   "SPY",
+   "TMF",
+   "TQQQ",
+   "TYD",
+   "UUP",
+   "XLI",
+   "XLU"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/9632/8e5ac08df2/",
+  "tickers": [
+   "DBB",
+   "FXA",
+   "FXF",
+   "GLD",
+   "IGE",
+   "SHY",
+   "SLV",
+   "SPY",
+   "TMF",
+   "TQQQ",
+   "TYD",
+   "UUP",
+   "XLI",
+   "XLU"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/9632/9edefa25d1/",
+  "tickers": [
+   "DBB",
+   "FXA",
+   "FXF",
+   "GLD",
+   "IGE",
+   "SHY",
+   "SLV",
+   "SPY",
+   "TMF",
+   "TQQQ",
+   "TYD",
+   "UUP",
+   "XLI",
+   "XLU"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/9632/a424f0f66c/",
+  "tickers": [
+   "DBB",
+   "FXA",
+   "FXF",
+   "GLD",
+   "IGE",
+   "SHY",
+   "SLV",
+   "SPY",
+   "TMF",
+   "TQQQ",
+   "TYD",
+   "UUP",
+   "XLI",
+   "XLU"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/9632/b34d9b7dda/",
+  "tickers": [
+   "DBB",
+   "FXA",
+   "FXF",
+   "GLD",
+   "IGE",
+   "SHY",
+   "SLV",
+   "SPY",
+   "TMF",
+   "TQQQ",
+   "TYD",
+   "UUP",
+   "XLI",
+   "XLU"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/9632/c316bceaaa/",
+  "tickers": [
+   "DBB",
+   "FXA",
+   "FXF",
+   "GLD",
+   "IEF",
+   "IGE",
+   "LTPZ",
+   "SHY",
+   "SLV",
+   "SPY",
+   "UUP",
+   "XLI",
+   "XLU"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/9632/ca58686291/",
+  "tickers": [
+   "DBB",
+   "FXA",
+   "FXF",
+   "GLD",
+   "IEF",
+   "IGE",
+   "SHY",
+   "SLV",
+   "SPY",
+   "TMF",
+   "TQQQ",
+   "UUP",
+   "XLI",
+   "XLU"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/9632/cc18cfc59f/",
+  "tickers": [
+   "DBB",
+   "FXA",
+   "FXF",
+   "GLD",
+   "IEF",
+   "IGE",
+   "MTUM",
+   "SHY",
+   "SLV",
+   "SPY",
+   "TLT",
+   "UUP",
+   "XLI",
+   "XLU"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/9632/cca9a02d5b/",
+  "tickers": [
+   "ARKK",
+   "EEM",
+   "EWG",
+   "EWY",
+   "GXC",
+   "IEF",
+   "IVV",
+   "QQQ",
+   "SPXL",
+   "SPY",
+   "TMF"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/9632/d510466b31/",
+  "tickers": [
+   "DBB",
+   "FXA",
+   "FXF",
+   "GLD",
+   "IGE",
+   "SHY",
+   "SLV",
+   "SPY",
+   "TMF",
+   "TQQQ",
+   "TYD",
+   "UUP",
+   "XLI",
+   "XLU"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/9632/d7eb6b2089/",
+  "tickers": [
+   "DBB",
+   "FXA",
+   "FXF",
+   "GLD",
+   "IGE",
+   "SHY",
+   "SLV",
+   "SPY",
+   "TMF",
+   "TQQQ",
+   "TYD",
+   "UUP",
+   "XLI",
+   "XLU"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/9632/daaa3c540b/",
+  "tickers": [
+   "DBB",
+   "FXA",
+   "FXF",
+   "GLD",
+   "IEF",
+   "IGE",
+   "SHY",
+   "SLV",
+   "SOXX",
+   "SPY",
+   "TLT",
+   "UUP",
+   "XLI",
+   "XLU"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/9632/eb5bf1f328/",
+  "tickers": [
+   "ARKK",
+   "DBB",
+   "FXA",
+   "FXF",
+   "GLD",
+   "IEF",
+   "IGE",
+   "SHY",
+   "SLV",
+   "SPY",
+   "TLT",
+   "UUP",
+   "XLI",
+   "XLU"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/9632/ed03383e2f/",
+  "tickers": [
+   "DBB",
+   "FXA",
+   "FXF",
+   "GLD",
+   "IEF",
+   "IGE",
+   "SHY",
+   "SLV",
+   "SPY",
+   "TMF",
+   "TQQQ",
+   "UUP",
+   "XLI",
+   "XLU"
+  ]
+ },
+ {
+  "dir": "/home/kris/Desktop/trading-research/quantconnect-lean/sources/forum/9632/fe719d4b67/",
+  "tickers": [
+   "BIL",
+   "DBB",
+   "DEBT",
+   "EEM",
+   "EFA",
+   "GLD",
+   "IGE",
+   "METL",
+   "MRKT",
+   "NRES",
+   "PRDC",
+   "QQQ",
+   "SHY",
+   "SLV",
+   "SPY",
+   "TLT",
+   "TQQQ",
+   "USDX",
+   "UUP",
+   "VEU",
+   "VNQ",
+   "VOO",
+   "VTI",
+   "XLI",
+   "XLU"
+  ]
+ }
+]

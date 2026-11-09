@@ -1,0 +1,21 @@
+{
+  "strategy": "01 CAPM Alpha Ranking Strategy on Dow 30 Companies",
+  "variant": "269807fc",
+  "resolution": "hour",
+  "final_usdt": 1953.5,
+  "total_return_pct": 95.4,
+  "cagr_pct": 14.3,
+  "yearly_pct": {
+    "2021": 17.6,
+    "2022": -15.0,
+    "2023": 81.3,
+    "2024": 22.9,
+    "2025": 88.4,
+    "2026": -53.5
+  },
+  "max_drawdown_pct": 58.6,
+  "trades": 166,
+  "fees": "$19999.57",
+  "first_day": "2021-11-08",
+  "last_day": "2026-11-06"
+}

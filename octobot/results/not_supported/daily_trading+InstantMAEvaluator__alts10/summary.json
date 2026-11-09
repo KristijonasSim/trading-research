@@ -1,0 +1,32 @@
+{
+  "strategy": "daily_trading+InstantMAEvaluator",
+  "group": "alts10",
+  "engine": "octobot 2.1.1",
+  "trades": 18,
+  "trades_per_year": 3.6,
+  "final_usdt": 976.1,
+  "total_return_pct": -2.4,
+  "cagr_pct": -0.5,
+  "yearly_pct": {
+    "2021": 0.0,
+    "2022": -32.8,
+    "2023": 125.3,
+    "2024": 51.6,
+    "2025": -38.9,
+    "2026": -30.4
+  },
+  "max_drawdown_pct": 73.7,
+  "equity_days": 1825,
+  "end_holdings": {
+    "USDT": 97.684942,
+    "DOGE": 970.88726,
+    "AVAX": 9.534888,
+    "DOT": 48.892542,
+    "SOL": 5.669737,
+    "XRP": 92.533478,
+    "ADA": 124.446195,
+    "LINK": 2.222091,
+    "LTC": 0.323579
+  },
+  "runtime_min": 1.7
+}

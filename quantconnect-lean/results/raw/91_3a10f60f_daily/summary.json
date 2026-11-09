@@ -1,0 +1,21 @@
+{
+  "strategy": "91 Momentum and Style Rotation Effect",
+  "variant": "3a10f60f",
+  "resolution": "daily",
+  "final_usdt": 985.3,
+  "total_return_pct": -1.5,
+  "cagr_pct": -0.3,
+  "yearly_pct": {
+    "2021": -1.9,
+    "2022": -7.1,
+    "2023": 3.6,
+    "2024": 0.5,
+    "2025": -4.1,
+    "2026": 8.2
+  },
+  "max_drawdown_pct": 12.7,
+  "trades": 155,
+  "fees": "$3628.37",
+  "first_day": "2021-11-08",
+  "last_day": "2026-11-06"
+}

@@ -1,0 +1,28 @@
+{
+  "strategy": "staggered_orders_trading",
+  "group": "alts10",
+  "engine": "octobot 2.1.1",
+  "trades": 976,
+  "trades_per_year": 195.2,
+  "final_usdt": 116.5,
+  "total_return_pct": -88.4,
+  "cagr_pct": -35.0,
+  "yearly_pct": {
+    "2021": -20.0,
+    "2022": -81.3,
+    "2023": 148.9,
+    "2024": 38.8,
+    "2025": -58.8,
+    "2026": -45.5
+  },
+  "max_drawdown_pct": 91.2,
+  "equity_days": 1826,
+  "end_holdings": {
+    "USDT": 4.986801,
+    "ADA": 570.811799,
+    "AVAX": 0.701537,
+    "BNB": 1e-06,
+    "DOGE": 0.110403
+  },
+  "runtime_min": 0.6
+}

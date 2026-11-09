@@ -48,8 +48,13 @@ Komandos (paleisti iš `freqtrade/`):
 2. **Dry-run** 2–3 švarioms strategijoms (siūloma: CombinedBinHAndCluc, Low_BB, ReinforcedAverage ant altcoin'ų).
 3. **VolatilitySystem** išbandyti saugesnę versiją (be sverto, su stop-loss).
 
+## OctoBot ir QuantConnect (2026-11-09, kitas agentas)
+- OctoBot: 18 robotų + grid ant indeksų/aukso. Nė vienas neverta → `results/octobot_ranking.md`.
+- QuantConnect: biblioteka (25 strategijos) + forumas (60 versijų), Lean Docker lokaliai → `results/quantconnect_ranking.md`.
+- **Dvi geriausios ir ką daryti toliau: `best_strategies/README.md`. Pradėk nuo jo.**
+
 ## Dar nepradėta
-Aplankai `octobot/`, `quantconnect-lean/`, `ib_async/`, `vectorbt/`, `backtesting-py/` tušti. Kitas logiškas žingsnis: QuantConnect Lean akcijoms per IBKR.
+Aplankai `ib_async/`, `vectorbt/`, `backtesting-py/` tušti.
 
 ## Darbo tvarka
 - Kiekvieną atliktą darbą įrašyk į `results/PROGRESS.md` su data.

@@ -1,0 +1,21 @@
+{
+  "strategy": "1024 Forecasting Stock Prices using a Temporal CNN Model",
+  "variant": "e8157014",
+  "resolution": "daily",
+  "final_usdt": 69.8,
+  "total_return_pct": -93.0,
+  "cagr_pct": -41.3,
+  "yearly_pct": {
+    "2021": -3.1,
+    "2022": -48.7,
+    "2023": -39.1,
+    "2024": -28.0,
+    "2025": -48.9,
+    "2026": -37.3
+  },
+  "max_drawdown_pct": 93.3,
+  "trades": 4944,
+  "fees": "$70798.29",
+  "first_day": "2021-11-08",
+  "last_day": "2026-11-06"
+}

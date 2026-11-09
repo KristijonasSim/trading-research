@@ -1,0 +1,26 @@
+{
+  "strategy": "daily_trading+EMADivergenceTrendEvaluator",
+  "group": "btc_eth",
+  "engine": "octobot 2.1.1",
+  "trades": 1791,
+  "trades_per_year": 358.2,
+  "final_usdt": 446.7,
+  "total_return_pct": -55.3,
+  "cagr_pct": -14.9,
+  "yearly_pct": {
+    "2021": -20.7,
+    "2022": -60.2,
+    "2023": 61.9,
+    "2024": 14.2,
+    "2025": -11.4,
+    "2026": -13.5
+  },
+  "max_drawdown_pct": 74.4,
+  "equity_days": 1825,
+  "end_holdings": {
+    "USDT": 11.376419,
+    "BTC": 0.001533,
+    "ETH": 0.142604
+  },
+  "runtime_min": 0.5
+}

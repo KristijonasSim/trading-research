@@ -1,0 +1,21 @@
+{
+  "strategy": "22 Momentum Effect in Country Equity Indexes",
+  "variant": "fb12003d",
+  "resolution": "daily",
+  "final_usdt": 1306.0,
+  "total_return_pct": 30.6,
+  "cagr_pct": 5.5,
+  "yearly_pct": {
+    "2021": -2.1,
+    "2022": -6.8,
+    "2023": 10.6,
+    "2024": 2.5,
+    "2025": 23.2,
+    "2026": 2.5
+  },
+  "max_drawdown_pct": 16.2,
+  "trades": 21,
+  "fees": "$62.67",
+  "first_day": "2021-11-08",
+  "last_day": "2026-11-06"
+}

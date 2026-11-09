@@ -1,0 +1,26 @@
+{
+  "strategy": "daily_trading+ADXMomentumEvaluator",
+  "group": "btc_eth",
+  "engine": "octobot 2.1.1",
+  "trades": 2094,
+  "trades_per_year": 418.9,
+  "final_usdt": 553.2,
+  "total_return_pct": -44.7,
+  "cagr_pct": -11.2,
+  "yearly_pct": {
+    "2021": -0.1,
+    "2022": -51.6,
+    "2023": 31.7,
+    "2024": 10.3,
+    "2025": -2.9,
+    "2026": -18.9
+  },
+  "max_drawdown_pct": 61.3,
+  "equity_days": 1825,
+  "end_holdings": {
+    "USDT": 148.480342,
+    "BTC": 0.002969,
+    "ETH": 0.08024
+  },
+  "runtime_min": 0.8
+}

@@ -1,0 +1,21 @@
+{
+  "strategy": "35 Turn of the Month in Equity Indexes",
+  "variant": "9135d988",
+  "resolution": "hour",
+  "final_usdt": 878.0,
+  "total_return_pct": -12.2,
+  "cagr_pct": -2.6,
+  "yearly_pct": {
+    "2021": -1.4,
+    "2022": -1.4,
+    "2023": -1.6,
+    "2024": -4.3,
+    "2025": -2.7,
+    "2026": -1.4
+  },
+  "max_drawdown_pct": 12.2,
+  "trades": 120,
+  "fees": "$11193.50",
+  "first_day": "2021-11-08",
+  "last_day": "2026-11-06"
+}

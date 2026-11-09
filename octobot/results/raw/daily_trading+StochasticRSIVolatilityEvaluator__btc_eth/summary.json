@@ -1,0 +1,26 @@
+{
+  "strategy": "daily_trading+StochasticRSIVolatilityEvaluator",
+  "group": "btc_eth",
+  "engine": "octobot 2.1.1",
+  "trades": 2251,
+  "trades_per_year": 450.3,
+  "final_usdt": 470.7,
+  "total_return_pct": -52.9,
+  "cagr_pct": -14.0,
+  "yearly_pct": {
+    "2021": -12.3,
+    "2022": -56.3,
+    "2023": 28.6,
+    "2024": 10.6,
+    "2025": 16.0,
+    "2026": -25.6
+  },
+  "max_drawdown_pct": 66.0,
+  "equity_days": 1825,
+  "end_holdings": {
+    "USDT": 233.087051,
+    "BTC": 0.001864,
+    "ETH": 0.042973
+  },
+  "runtime_min": 0.8
+}

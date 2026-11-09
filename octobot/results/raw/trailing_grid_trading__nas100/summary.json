@@ -1,0 +1,25 @@
+{
+  "strategy": "trailing_grid_trading",
+  "group": "nas100",
+  "engine": "octobot 2.1.1",
+  "trades": 673,
+  "trades_per_year": 134.6,
+  "final_usdt": 1540.5,
+  "total_return_pct": 54.0,
+  "cagr_pct": 9.0,
+  "yearly_pct": {
+    "2021": 1.2,
+    "2022": -26.0,
+    "2023": 43.9,
+    "2024": 2.9,
+    "2025": 32.5,
+    "2026": 4.8
+  },
+  "max_drawdown_pct": 27.9,
+  "equity_days": 1291,
+  "end_holdings": {
+    "USDT": 295.017346,
+    "NAS100": 0.046147
+  },
+  "runtime_min": 0.1
+}

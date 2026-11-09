@@ -1,0 +1,21 @@
+{
+  "strategy": "04 The Dynamic Breakout II Strategy",
+  "variant": "5d238a74",
+  "resolution": "daily",
+  "final_usdt": 980.4,
+  "total_return_pct": -2.0,
+  "cagr_pct": -0.4,
+  "yearly_pct": {
+    "2021": 0.0,
+    "2022": 0.0,
+    "2023": -2.0,
+    "2024": 0.0,
+    "2025": 0.0,
+    "2026": 0.0
+  },
+  "max_drawdown_pct": 2.7,
+  "trades": 2,
+  "fees": "$197.54",
+  "first_day": "2021-11-08",
+  "last_day": "2026-11-10"
+}

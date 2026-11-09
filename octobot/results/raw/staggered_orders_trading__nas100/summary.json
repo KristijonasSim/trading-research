@@ -1,0 +1,25 @@
+{
+  "strategy": "staggered_orders_trading",
+  "group": "nas100",
+  "engine": "octobot 2.1.1",
+  "trades": 78,
+  "trades_per_year": 15.6,
+  "final_usdt": 1142.5,
+  "total_return_pct": 14.2,
+  "cagr_pct": 2.7,
+  "yearly_pct": {
+    "2021": 1.4,
+    "2022": -17.6,
+    "2023": 36.7,
+    "2024": 0.0,
+    "2025": 0.0,
+    "2026": 0.0
+  },
+  "max_drawdown_pct": 22.0,
+  "equity_days": 1291,
+  "end_holdings": {
+    "USDT": 1142.452321,
+    "NAS100": 0.0
+  },
+  "runtime_min": 0.1
+}

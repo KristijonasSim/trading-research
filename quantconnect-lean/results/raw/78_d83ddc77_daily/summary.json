@@ -1,0 +1,21 @@
+{
+  "strategy": "78 Beta Factor in Country Equity Indexes",
+  "variant": "d83ddc77",
+  "resolution": "daily",
+  "final_usdt": 903.8,
+  "total_return_pct": -9.6,
+  "cagr_pct": -2.0,
+  "yearly_pct": {
+    "2021": 0.3,
+    "2022": -3.2,
+    "2023": -4.9,
+    "2024": -4.3,
+    "2025": 1.6,
+    "2026": 0.7
+  },
+  "max_drawdown_pct": 18.9,
+  "trades": 548,
+  "fees": "$1307.92",
+  "first_day": "2021-11-08",
+  "last_day": "2026-11-06"
+}

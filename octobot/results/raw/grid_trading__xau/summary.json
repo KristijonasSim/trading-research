@@ -1,0 +1,25 @@
+{
+  "strategy": "grid_trading",
+  "group": "xau",
+  "engine": "octobot 2.1.1",
+  "trades": 54,
+  "trades_per_year": 10.8,
+  "final_usdt": 1014.9,
+  "total_return_pct": 1.5,
+  "cagr_pct": 0.3,
+  "yearly_pct": {
+    "2021": 0.2,
+    "2022": 1.3,
+    "2023": 0.0,
+    "2024": 0.0,
+    "2025": 0.0,
+    "2026": -0.0
+  },
+  "max_drawdown_pct": 1.2,
+  "equity_days": 1291,
+  "end_holdings": {
+    "USDT": 1014.881648,
+    "XAU": 0.0
+  },
+  "runtime_min": 0.1
+}

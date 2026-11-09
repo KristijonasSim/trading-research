@@ -1,0 +1,25 @@
+{
+  "strategy": "staggered_orders_trading",
+  "group": "xau",
+  "engine": "octobot 2.1.1",
+  "trades": 12,
+  "trades_per_year": 2.4,
+  "final_usdt": 1026.9,
+  "total_return_pct": 2.7,
+  "cagr_pct": 0.5,
+  "yearly_pct": {
+    "2021": 0.5,
+    "2022": 2.2,
+    "2023": 0.0,
+    "2024": 0.0,
+    "2025": 0.0,
+    "2026": -0.0
+  },
+  "max_drawdown_pct": 2.5,
+  "equity_days": 1291,
+  "end_holdings": {
+    "USDT": 1026.903717,
+    "XAU": 0.0
+  },
+  "runtime_min": 0.1
+}

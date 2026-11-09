@@ -1,0 +1,21 @@
+{
+  "strategy": "23 Mean Reversion Effect in Country Equity Indexes",
+  "variant": "ef28d712",
+  "resolution": "daily",
+  "final_usdt": 931.2,
+  "total_return_pct": -6.9,
+  "cagr_pct": -1.4,
+  "yearly_pct": {
+    "2021": -2.5,
+    "2022": 12.1,
+    "2023": -1.9,
+    "2024": -9.2,
+    "2025": -6.9,
+    "2026": 2.8
+  },
+  "max_drawdown_pct": 20.4,
+  "trades": 16,
+  "fees": "$162.75",
+  "first_day": "2021-11-08",
+  "last_day": "2026-11-06"
+}

@@ -1,0 +1,21 @@
+{
+  "strategy": "19 Pairs Trading with Stocks",
+  "variant": "696b4b24",
+  "resolution": "daily",
+  "final_usdt": 968.5,
+  "total_return_pct": -3.1,
+  "cagr_pct": -0.6,
+  "yearly_pct": {
+    "2021": -3.0,
+    "2022": 2.2,
+    "2023": -6.1,
+    "2024": 1.5,
+    "2025": -0.9,
+    "2026": 3.5
+  },
+  "max_drawdown_pct": 16.4,
+  "trades": 434,
+  "fees": "$10814.28",
+  "first_day": "2021-11-08",
+  "last_day": "2026-11-06"
+}

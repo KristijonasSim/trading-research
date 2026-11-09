@@ -1,0 +1,21 @@
+{
+  "strategy": "16 Overnight Anomaly",
+  "variant": "0c606c13",
+  "resolution": "daily",
+  "final_usdt": 437.3,
+  "total_return_pct": -56.3,
+  "cagr_pct": -15.2,
+  "yearly_pct": {
+    "2021": -0.6,
+    "2022": -34.0,
+    "2023": -1.9,
+    "2024": -12.3,
+    "2025": -14.8,
+    "2026": -9.0
+  },
+  "max_drawdown_pct": 57.6,
+  "trades": 1255,
+  "fees": "$77860.86",
+  "first_day": "2021-11-08",
+  "last_day": "2026-11-06"
+}

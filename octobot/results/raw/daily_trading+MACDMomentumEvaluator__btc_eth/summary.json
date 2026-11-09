@@ -1,0 +1,26 @@
+{
+  "strategy": "daily_trading+MACDMomentumEvaluator",
+  "group": "btc_eth",
+  "engine": "octobot 2.1.1",
+  "trades": 2075,
+  "trades_per_year": 415.1,
+  "final_usdt": 897.6,
+  "total_return_pct": -10.2,
+  "cagr_pct": -2.1,
+  "yearly_pct": {
+    "2021": -4.2,
+    "2022": -40.8,
+    "2023": 38.1,
+    "2024": 17.4,
+    "2025": 14.9,
+    "2026": -15.0
+  },
+  "max_drawdown_pct": 48.3,
+  "equity_days": 1825,
+  "end_holdings": {
+    "USDT": 430.468638,
+    "BTC": 0.004198,
+    "ETH": 0.066491
+  },
+  "runtime_min": 3.7
+}

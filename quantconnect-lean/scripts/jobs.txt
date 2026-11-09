@@ -1,0 +1,42 @@
+01 CAPM Alpha Ranking Strategy on Dow 30 Companies|269807fc|daily
+01 CAPM Alpha Ranking Strategy on Dow 30 Companies|269807fc|hour
+01 CAPM Alpha Ranking Strategy on Dow 30 Companies|63ecf025|daily
+01 CAPM Alpha Ranking Strategy on Dow 30 Companies|63ecf025|hour
+02 Combining Mean Reversion and Momentum in Forex Market|83b5f8ca|daily
+02 Combining Mean Reversion and Momentum in Forex Market|83b5f8ca|hour
+04 The Dynamic Breakout II Strategy|5d238a74|daily
+04 The Dynamic Breakout II Strategy|5d238a74|hour
+04 The Dynamic Breakout II Strategy|9b315be0|daily
+04 The Dynamic Breakout II Strategy|9b315be0|hour
+05 Dual Thrust Trading Algorithm|b3c3d8da|daily
+05 Dual Thrust Trading Algorithm|b3c3d8da|hour
+08 The Momentum Strategy Based on the Low Frequency Component of Forex Market|17c90cb9|daily
+08 The Momentum Strategy Based on the Low Frequency Component of Forex Market|17c90cb9|hour
+12 Asset Class Trend Following|b7f463f6|daily
+13 Asset Class Momentum|661605c1|daily
+14 Sector Momentum|a20b3eef|daily
+16 Overnight Anomaly|0c606c13|daily
+16 Overnight Anomaly|0c606c13|hour
+17 Forex Momentum|d9f904bb|daily
+17 Forex Momentum|d9f904bb|hour
+19 Pairs Trading with Stocks|696b4b24|daily
+22 Momentum Effect in Country Equity Indexes|65aa7511|daily
+22 Momentum Effect in Country Equity Indexes|fb12003d|daily
+23 Mean Reversion Effect in Country Equity Indexes|ef28d712|daily
+33 Paired Switching|672254ea|daily
+35 Turn of the Month in Equity Indexes|9135d988|daily
+35 Turn of the Month in Equity Indexes|9135d988|hour
+40 Pairs Trading with Country ETFs|6d54f129|daily
+78 Beta Factor in Country Equity Indexes|d83ddc77|daily
+83 Pre-Holiday Effect|3efe3012|daily
+83 Pre-Holiday Effect|3efe3012|hour
+91 Momentum and Style Rotation Effect|3a10f60f|daily
+113 January Barometer|46144084|daily
+1024 Forecasting Stock Prices using a Temporal CNN Model|e8157014|daily
+1025 Leveraged ETFs with Systematic Risk Management|aeec93d6|daily
+1029 Optimal Pairs Trading|e9e74232|daily
+1029 Optimal Pairs Trading|e9e74232|hour
+1031 SVM Wavelet Forecasting|638b6281|daily
+1031 SVM Wavelet Forecasting|638b6281|hour
+270 Risk Premia in Forex Markets|d640f4ec|daily
+270 Risk Premia in Forex Markets|d640f4ec|hour

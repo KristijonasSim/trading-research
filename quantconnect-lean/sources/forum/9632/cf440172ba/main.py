@@ -1,0 +1,308 @@
+"""
+SEL(stock selection part)
+Based on the 'Momentum Strategy with Market Cap and EV/EBITDA' strategy introduced by Jing Wu, 6 Feb 2018
+adapted and recoded by Jack Simonson, Goldie Yalamanchi, Vladimir, Peter Guenther, Leandro Maia and Simone Pantaleoni
+https://www.quantconnect.com/forum/discussion/3377/momentum-strategy-with-market-cap-and-ev-ebitda/p1
+https://www.quantconnect.com/forum/discussion/9678/quality-companies-in-an-uptrend/p1
+https://www.quantconnect.com/forum/discussion/9632/amazing-returns-superior-stock-selection-strategy-superior-in-amp-out-strategy/p1
+
+I/O(in & out part)
+The Distilled Bear in & out algo
+based on Dan Whitnable's 22 Oct 2020 algo on Quantopian. 
+Dan's original notes: 
+"This is based on Peter Guenther great “In & Out” algo.
+Included Tentor Testivis recommendation to use volatility adaptive calculation of WAIT_DAYS and RET.
+Included Vladimir's ideas to eliminate fixed constants
+Help from Thomas Chang"
+
+https://www.quantopian.com/posts/new-strategy-in-and-out
+https://www.quantconnect.com/forum/discussion/9597/the-in-amp-out-strategy-continued-from-quantopian/
+"""
+
+from QuantConnect.Data.UniverseSelection import *
+import math
+import numpy as np
+import pandas as pd
+import scipy as sp
+
+class EarningsFactorWithMomentum_InOut(QCAlgorithm):
+
+    def Initialize(self):
+
+        self.SetStartDate(2008, 1, 1)  #Set Start Date
+        #self.SetEndDate(2008, 7, 31)  #Set Start Date
+        self.cap = 100000
+        self.SetCash(self.cap)
+        
+        res = Resolution.Hour
+        
+        # Holdings
+        ### 'Out' holdings and weights
+        self.BND1 = self.AddEquity('TLT', res).Symbol #TLT; TMF for 3xlev
+        self.quantity = {self.BND1: 0}
+        
+        ##### In & Out parameters #####
+        # Feed-in constants
+        self.INI_WAIT_DAYS = 15  # out for 3 trading weeks
+        self.wait_days = self.INI_WAIT_DAYS
+        
+        # Market and list of signals based on ETFs
+        self.MRKT = self.AddEquity('SPY', res).Symbol  # market
+        self.GOLD = self.AddEquity('GLD', res).Symbol  # gold
+        self.SLVA = self.AddEquity('SLV', res).Symbol  # vs silver
+        self.UTIL = self.AddEquity('XLU', res).Symbol  # utilities
+        self.INDU = self.AddEquity('XLI', res).Symbol  # vs industrials
+        self.METL = self.AddEquity('DBB', res).Symbol  # input prices (metals)
+        self.USDX = self.AddEquity('UUP', res).Symbol  # safe haven (USD)
+        
+        self.FORPAIRS = [self.GOLD, self.SLVA, self.UTIL, self.INDU, self.METL, self.USDX]
+        
+        # Specific variables
+        self.DISTILLED_BEAR = 1#999
+        self.BE_IN = 1#999
+        self.BE_IN_PRIOR = 0
+        self.VOLA_LOOKBACK = 126
+        self.WAITD_CONSTANT = 85
+        self.DCOUNT = 0 # count of total days since start
+        self.OUTDAY = (-self.INI_WAIT_DAYS+1) # dcount when self.be_in=0, initial setting ensures trading right away
+        
+        # set a warm-up period to initialize the indicator
+        self.SetWarmUp(timedelta(350))
+        
+        ##### Momentum & fundamentals strategy parameters #####
+        self.UniverseSettings.Resolution = res
+        self.AddUniverse(self.UniverseCoarseFilter, self.UniverseFundamentalsFilter)
+        self.num_coarse = 100#200
+        self.num_screener = 20#100  # changed from 15
+        self.num_stocks = 5 # lowered from 10
+        self.formation_days = 126
+        self.lowmom = False
+        self.data = {}
+        self.setrebalancefreq = 60 # X days, update universe and momentum calculation
+        self.updatefinefilter = 0
+        self.symbols = None
+        self.reb_count = 0
+        
+        self.Schedule.On(
+            self.DateRules.EveryDay(),
+            self.TimeRules.AfterMarketOpen('SPY', 30), # reduced time 
+            self.rebalance_when_out_of_the_market)
+        
+        self.Schedule.On(
+            self.DateRules.EveryDay(), 
+            self.TimeRules.BeforeMarketClose('SPY', 0), 
+            self.record_vars)  
+        
+        # Benchmark = record SPY
+        self.spy = []
+        
+        # Setup daily consolidation
+        symbols = [self.MRKT] + self.FORPAIRS
+        for symbol in symbols:
+            self.consolidator = TradeBarConsolidator(timedelta(days=1))
+            self.consolidator.DataConsolidated += self.consolidation_handler
+            self.SubscriptionManager.AddConsolidator(symbol, self.consolidator)
+        
+        # Warm up history
+        self.lookback = 126
+        self.history = self.History(symbols, self.lookback, Resolution.Daily)
+        if self.history.empty or 'close' not in self.history.columns:
+            return
+        self.history = self.history['close'].unstack(level=0).dropna()
+        
+    def UniverseCoarseFilter(self, coarse):
+        
+        if not (((self.DCOUNT-self.reb_count)==self.setrebalancefreq) or (self.DCOUNT == self.OUTDAY + self.wait_days - 1)):
+            self.updatefinefilter = 0
+            return Universe.Unchanged
+        
+        self.updatefinefilter = 1
+            
+        # drop stocks which have no fundamental data or have too low prices
+        selected = [x for x in coarse if (x.HasFundamentalData) and (float(x.Price) > 5)]
+        # rank the stocks by dollar volume 
+        filtered = sorted(selected, key=lambda x: x.DollarVolume, reverse=True)
+        return [x.Symbol for x in filtered[:self.num_coarse]]
+        
+        
+    def UniverseFundamentalsFilter(self, fundamental):
+        if self.updatefinefilter == 0:
+            return Universe.Unchanged
+            
+        filtered_fundamental = [x for x in fundamental if (x.ValuationRatios.EVToEBITDA > 0) 
+                                        and (x.EarningReports.BasicAverageShares.ThreeMonths > 0) 
+                                        and float(x.EarningReports.BasicAverageShares.ThreeMonths) * x.Price > 2e9
+                                        and x.SecurityReference.IsPrimaryShare
+                                        and x.SecurityReference.SecurityType == "ST00000001"
+                                        and x.SecurityReference.IsDepositaryReceipt == 0
+                                        and x.CompanyReference.IsLimitedPartnership == 0]
+
+        top = sorted(filtered_fundamental, key = lambda x: x.ValuationRatios.EVToEBITDA, reverse=True)[:self.num_screener]
+        self.symbols = [x.Symbol for x in top]
+        self.updatefinefilter = 0
+        self.reb_count = self.DCOUNT
+        return self.symbols
+
+    
+    def OnSecuritiesChanged(self, changes):
+        
+        #for security in changes.RemovedSecurities:
+        #    symbol_data = self.data.pop(security.Symbol, None)
+        #    if symbol_data:
+        #        symbol_data.dispose()
+        
+        #for security in changes.AddedSecurities:
+        #    if security.Symbol not in self.data:
+        #        self.data[security.Symbol] = SymbolData(security.Symbol, self.formation_days, self)
+    
+        addedSymbols = []
+        for security in changes.AddedSecurities:
+            addedSymbols.append(security.Symbol)
+            if security.Symbol not in self.data:
+                self.data[security.Symbol] = SymbolData(security.Symbol, self.formation_days, self)
+   
+        if len(addedSymbols) > 0:
+            history = self.History(addedSymbols, 1 + self.formation_days, Resolution.Daily).loc[addedSymbols]
+            for symbol in addedSymbols:
+                try:
+                    self.data[symbol].Warmup(history.loc[symbol])
+                except:
+                    self.Debug(str(symbol))
+                    continue
+    
+    def consolidation_handler(self, sender, consolidated):
+        self.history.loc[consolidated.EndTime, consolidated.Symbol] = consolidated.Close
+        self.history = self.history.iloc[-self.lookback:]
+
+        
+    def derive_vola_waitdays(self):
+        volatility = 0.6 * np.log1p(self.history[[self.MRKT]].pct_change()).std() * np.sqrt(252)
+        wait_days = int(volatility * self.WAITD_CONSTANT)
+        returns_lookback = int((1.0 - volatility) * self.WAITD_CONSTANT)
+        return wait_days, returns_lookback
+ 
+        
+    def rebalance_when_out_of_the_market(self):
+        self.wait_days, returns_lookback = self.derive_vola_waitdays()
+        
+        ## Check for Bears
+        returns = self.history.pct_change(returns_lookback).iloc[-1]
+    
+        silver_returns = returns[self.SLVA]
+        gold_returns = returns[self.GOLD]
+        industrials_returns = returns[self.INDU]
+        utilities_returns = returns[self.UTIL]
+        metals_returns = returns[self.METL]
+        dollar_returns = returns[self.USDX]
+        
+        self.DISTILLED_BEAR = (((gold_returns > silver_returns) and
+                       (utilities_returns > industrials_returns)) and 
+                       (metals_returns < dollar_returns)
+                       )
+        
+        # Determine whether 'in' or 'out' of the market
+        if self.DISTILLED_BEAR:
+            self.BE_IN = False
+            self.OUTDAY = self.DCOUNT
+            
+            if self.quantity[self.BND1] == 0:
+                for symbol in self.quantity.copy().keys():
+                    if symbol == self.BND1: continue
+                    self.Order(symbol, - self.quantity[symbol])
+                    self.Debug([str(self.Time), str(symbol), str(-self.quantity[symbol])])
+                    del self.quantity[symbol]
+                quantity = self.Portfolio.TotalPortfolioValue / self.Securities[self.BND1].Close
+                self.quantity[self.BND1] = math.floor(quantity)
+                self.Order(self.BND1, self.quantity[self.BND1])
+                self.Debug([str(self.Time), str(self.BND1), str(self.quantity[self.BND1])])
+        
+            
+        if (self.DCOUNT >= self.OUTDAY + self.wait_days):
+            self.BE_IN = True
+        
+        # Update stock ranking/holdings, when swithing from 'out' to 'in' plus every X days when 'in' (set rebalance frequency)
+        if (self.BE_IN and not self.BE_IN_PRIOR) or (self.BE_IN and (self.DCOUNT==self.reb_count)):
+            self.rebalance()
+                
+        self.BE_IN_PRIOR = self.BE_IN
+        self.DCOUNT += 1
+
+
+    def rebalance(self):
+            
+        if self.symbols is None: return
+        chosen_df = self.calc_return(self.symbols)
+        chosen_df = chosen_df.iloc[:self.num_stocks]
+        
+        if self.quantity[self.BND1] > 0:
+            self.Order(self.BND1, - self.quantity[self.BND1])
+            self.Debug([str(self.Time), str(self.BND1), str(-self.quantity[self.BND1])])
+            self.quantity[self.BND1] = 0
+            
+        weight = 1 / self.num_stocks
+        for symbol in self.quantity.copy().keys():
+            if symbol == self.BND1: continue
+            if not self.CurrentSlice.ContainsKey(symbol) or self.CurrentSlice[symbol] is None:
+                continue
+            if symbol not in chosen_df.index:
+                self.Order(symbol, - self.quantity[symbol])
+                self.Debug([str(self.Time), str(symbol), str(-self.quantity[symbol])])
+                del self.quantity[symbol]
+            else:
+                quantity = self.Portfolio.TotalPortfolioValue * weight / self.Securities[symbol].Close
+                if math.floor(quantity) != self.quantity[symbol]:
+                    self.Order(symbol, math.floor(quantity) - self.quantity[symbol])
+                    self.Debug([str(self.Time), str(symbol), str(math.floor(quantity) -self.quantity[symbol])])
+                    self.quantity[symbol] = math.floor(quantity)
+        
+        for symbol in chosen_df.index:
+            if not self.CurrentSlice.ContainsKey(symbol) or self.CurrentSlice[symbol] is None:
+                continue
+            if symbol not in self.quantity.keys():
+                quantity = self.Portfolio.TotalPortfolioValue * weight / self.Securities[symbol].Close
+                self.quantity[symbol] = math.floor(quantity)
+                self.Order(symbol, self.quantity[symbol])
+                self.Debug([str(self.Time), str(symbol), str(self.quantity[symbol])])
+ 
+        
+    def calc_return(self, stocks):
+        #ready = [self.data[symbol] for symbol in stocks if self.data[symbol].Roc.IsReady]
+        #sorted_by_roc = sorted(ready, key=lambda x: x.Roc.Current.Value, reverse = not self.lowmom)
+        #return [symbol_data.Symbol for symbol_data in sorted_by_roc[:self.num_stocks] ]
+
+        ret = {}
+        for symbol in stocks:
+            try:
+                ret[symbol] = self.data[symbol].Roc.Current.Value
+            except:
+                self.Debug(str(symbol))
+                continue
+            
+        df_ret = pd.DataFrame.from_dict(ret, orient='index')
+        df_ret.columns = ['return']
+        sort_return = df_ret.sort_values(by = ['return'], ascending = self.lowmom)
+        
+        return sort_return
+    
+        
+    def record_vars(self): 
+        self.spy.append(self.history[self.MRKT].iloc[-1])
+        spy_perf = self.spy[-1] / self.spy[0] * self.cap
+        self.Plot('Strategy Equity', 'SPY', spy_perf)
+        
+        account_leverage = self.Portfolio.TotalHoldingsValue / self.Portfolio.TotalPortfolioValue
+        self.Plot('Holdings', 'leverage', round(account_leverage, 2))
+    
+        
+class SymbolData(object):
+    def __init__(self, symbol, roc, algorithm):
+        self.Symbol = symbol
+        self.Roc = RateOfChange(roc)
+        self.algorithm = algorithm
+        
+        self.consolidator = algorithm.ResolveConsolidator(symbol, Resolution.Daily)
+        algorithm.RegisterIndicator(symbol, self.Roc, self.consolidator)
+        
+    def Warmup(self, history):
+        for index, row in history.iterrows():
+            self.Roc.Update(index, row['close'])

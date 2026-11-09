@@ -1,0 +1,34 @@
+{
+  "strategy": "daily_trading+MACDMomentumEvaluator",
+  "group": "alts10",
+  "engine": "octobot 2.1.1",
+  "trades": 3412,
+  "trades_per_year": 682.5,
+  "final_usdt": 157.0,
+  "total_return_pct": -84.3,
+  "cagr_pct": -30.9,
+  "yearly_pct": {
+    "2021": -21.4,
+    "2022": -72.8,
+    "2023": 60.5,
+    "2024": -17.7,
+    "2025": -28.6,
+    "2026": -22.2
+  },
+  "max_drawdown_pct": 86.8,
+  "equity_days": 1825,
+  "end_holdings": {
+    "USDT": 38.55391,
+    "ADA": 44.085185,
+    "AVAX": 1.513951,
+    "BNB": 0.047898,
+    "DOGE": 55.298117,
+    "DOT": 31.461592,
+    "LINK": 0.267613,
+    "LTC": 0.249003,
+    "SOL": 0.017875,
+    "TRX": 40.396071,
+    "XRP": 0.967157
+  },
+  "runtime_min": 15.5
+}

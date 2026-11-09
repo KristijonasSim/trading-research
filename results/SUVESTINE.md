@@ -50,3 +50,16 @@ Surinkau **469 papildomas strategijas** iš kitų GitHub rinkinių. Jos guli `fr
 1. **Dry-run:** 2–3 švarias strategijas paleisti demo režimu 1–2 mėn. Siūlyčiau CombinedBinHAndCluc, Low_BB ir ReinforcedAverageStrategy ant altcoin'ų.
 2. **VolatilitySystem:** įdomi, bet su svertu ir be stop-loss. Prieš bet kokį naudojimą reikėtų išbandyti saugesnę versiją, pvz. be sverto.
 3. **Kiti įrankiai:** pereiti prie kitų įrankių aplankų. Kitas logiškas žingsnis: QuantConnect Lean akcijoms per IBKR.
+
+## OctoBot (2026-11-09)
+Pilna lentelė: `octobot_ranking.md`. 7 OctoBot robotai, OctoBot backtesteris, tos pačios taisyklės.
+- BTC+ETH: Staggered Orders +10,2 %/m. (1626), Grid +7,0 %/m. (1401), Trailing Grid +5,2 %/m. (1290). Bet max kritimas 65–73 %, beveik kaip pirkti ir laikyti.
+- Altcoin'ai: **visi pralaimi** „pirkti ir laikyti“. Grid tipo robotai prarado 86–90 %.
+- Papildomai 11 Daily Trading versijų su atskirais indikatoriais: nė viena neuždirbo per 5 m. Geriausia DeathAndGoldenCross (BTC+ETH 941, alts 841, abu virš „pirkti ir laikyti“, bet vis tiek nuostolis).
+- Išvada: OctoBot robotai nėra geresni už Freqtrade atrinktas strategijas. Grid tinka tik BTC+ETH ir tik su didele rizika.
+
+## QuantConnect (2026-11-09)
+Pilna lentelė: `quantconnect_ranking.md`. SPY „pirkti ir laikyti“: 1676 (+10,9 %/m., kritimas 24,5 %).
+- SPY aplenkė tik 2: CAPM Dow 30 (valandinė 1954, bet kritimas 59 %) ir January Barometer (1931, kritimas 19 %, tik 6 sandoriai per 5 m.).
+- Asset Class Momentum 1617 (kritimas 32 %), beveik kaip SPY.
+- Kitos ~30 paleidimų: mažiau nei SPY, daug nuostolingų.

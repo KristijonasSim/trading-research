@@ -1,0 +1,21 @@
+{
+  "strategy": "F7708 forum Using Levered ETFs in IRA - 10 years - 24% CAGR, 1",
+  "variant": "316dcfe1c5",
+  "resolution": "daily",
+  "final_usdt": 815.3,
+  "total_return_pct": -18.5,
+  "cagr_pct": -4.0,
+  "yearly_pct": {
+    "2021": -1.7,
+    "2022": -55.9,
+    "2023": 45.0,
+    "2024": 9.6,
+    "2025": 21.3,
+    "2026": -2.4
+  },
+  "max_drawdown_pct": 58.5,
+  "trades": 367,
+  "fees": "$518.24",
+  "first_day": "2021-11-08",
+  "last_day": "2026-11-06"
+}

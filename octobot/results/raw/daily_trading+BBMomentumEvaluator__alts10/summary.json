@@ -1,0 +1,34 @@
+{
+  "strategy": "daily_trading+BBMomentumEvaluator",
+  "group": "alts10",
+  "engine": "octobot 2.1.1",
+  "trades": 2899,
+  "trades_per_year": 579.9,
+  "final_usdt": 170.5,
+  "total_return_pct": -82.9,
+  "cagr_pct": -29.8,
+  "yearly_pct": {
+    "2021": -25.7,
+    "2022": -73.7,
+    "2023": 57.4,
+    "2024": -10.5,
+    "2025": -30.5,
+    "2026": -10.8
+  },
+  "max_drawdown_pct": 86.1,
+  "equity_days": 1825,
+  "end_holdings": {
+    "USDT": 31.9751,
+    "AVAX": 3.567423,
+    "BNB": 0.021912,
+    "DOGE": 133.62758,
+    "DOT": 29.559071,
+    "LINK": 0.408193,
+    "LTC": 0.237649,
+    "SOL": 0.040401,
+    "TRX": 2.797408,
+    "XRP": 9.803206,
+    "ADA": 128.755358
+  },
+  "runtime_min": 2.5
+}

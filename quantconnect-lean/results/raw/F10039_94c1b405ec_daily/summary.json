@@ -1,0 +1,21 @@
+{
+  "strategy": "F10039 forum Dual Momentum with Out Days - QuantConnect.com",
+  "variant": "94c1b405ec",
+  "resolution": "daily",
+  "final_usdt": 523.9,
+  "total_return_pct": -47.6,
+  "cagr_pct": -12.1,
+  "yearly_pct": {
+    "2021": 3.1,
+    "2022": 41.3,
+    "2023": -45.5,
+    "2024": -17.9,
+    "2025": -19.8,
+    "2026": 0.2
+  },
+  "max_drawdown_pct": 73.0,
+  "trades": 34113,
+  "fees": "$6060.67",
+  "first_day": "2021-11-08",
+  "last_day": "2026-11-06"
+}

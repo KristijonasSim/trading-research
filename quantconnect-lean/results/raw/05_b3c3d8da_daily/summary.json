@@ -1,0 +1,21 @@
+{
+  "strategy": "05 Dual Thrust Trading Algorithm",
+  "variant": "b3c3d8da",
+  "resolution": "daily",
+  "final_usdt": 657.4,
+  "total_return_pct": -34.3,
+  "cagr_pct": -8.0,
+  "yearly_pct": {
+    "2021": -5.4,
+    "2022": 11.7,
+    "2023": -1.0,
+    "2024": -7.5,
+    "2025": -26.9,
+    "2026": -7.0
+  },
+  "max_drawdown_pct": 49.0,
+  "trades": 413,
+  "fees": "$23809.04",
+  "first_day": "2021-11-08",
+  "last_day": "2026-11-06"
+}

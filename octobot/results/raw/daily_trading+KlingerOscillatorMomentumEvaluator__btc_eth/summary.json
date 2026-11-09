@@ -1,0 +1,26 @@
+{
+  "strategy": "daily_trading+KlingerOscillatorMomentumEvaluator",
+  "group": "btc_eth",
+  "engine": "octobot 2.1.1",
+  "trades": 2559,
+  "trades_per_year": 511.9,
+  "final_usdt": 699.7,
+  "total_return_pct": -30.0,
+  "cagr_pct": -6.9,
+  "yearly_pct": {
+    "2021": -9.5,
+    "2022": -40.8,
+    "2023": 22.4,
+    "2024": -2.8,
+    "2025": 20.6,
+    "2026": -9.1
+  },
+  "max_drawdown_pct": 52.4,
+  "equity_days": 1825,
+  "end_holdings": {
+    "USDT": 283.241961,
+    "BTC": 0.002065,
+    "ETH": 0.116109
+  },
+  "runtime_min": 2.4
+}

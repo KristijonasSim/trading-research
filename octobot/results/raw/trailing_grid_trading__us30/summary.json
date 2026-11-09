@@ -1,0 +1,25 @@
+{
+  "strategy": "trailing_grid_trading",
+  "group": "us30",
+  "engine": "octobot 2.1.1",
+  "trades": 895,
+  "trades_per_year": 179.0,
+  "final_usdt": 1176.5,
+  "total_return_pct": 17.7,
+  "cagr_pct": 3.3,
+  "yearly_pct": {
+    "2021": 0.5,
+    "2022": 2.3,
+    "2023": 7.6,
+    "2024": 2.7,
+    "2025": 3.6,
+    "2026": 0.0
+  },
+  "max_drawdown_pct": 13.5,
+  "equity_days": 1291,
+  "end_holdings": {
+    "USDT": 1176.504108,
+    "US30": 1e-06
+  },
+  "runtime_min": 0.1
+}
