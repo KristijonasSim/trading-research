@@ -46,3 +46,7 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - Trend Konsensusas: 8 metodai, 22 instrumentai, nematytas laikotarpis. Detalės `results/trend_konsensusas.md`. AI kNN indikatorius atmestas (50 %).
 - 2026-11-09: QuantConnect forumas: 5 populiarios temos (9632 In & Out, 10039 Dual Momentum Out Days, 7708 Levered ETFs IRA, 5124 3X ETF Short Hedge, 2278 TQQQ/SQQQ volatility). 104 versijos → 60 paleidžiamų (tik ETF kainos), tik dieninės (valandinių šiems ETF nėra nemokamai). 11 neprekiavo (reikia dienos vidurio kainų), 2 nepasileido. Kodas: `quantconnect-lean/sources/forum/`, skriptas `scripts/scrape_forum.py`.
 - 2026-11-09: Trend Konsensusas patikrintas 1h/4h/15m/5m NAS100 (NQ). Netinka dienos prekybai.
+- 2026-11-09: patikrinta „BUY ties TP2 po SELL“ idėja – pagerina (77 % instrumentų).
+- 2026-11-09: trailing stop virš TP2 patikrintas – nepagerina.
+- 2026-11-09: platus trailing toli virš TP2 – lygu su „laikyti iki SELL“.
+- 2026-11-09: Trend Konsensusas B ištestuotas 22 ETF.
