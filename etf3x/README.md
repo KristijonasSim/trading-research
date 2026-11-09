@@ -18,5 +18,19 @@ Ar atrinkti kripto botai (EI3v2_tag_cofi_green, E0V1E_DCA3) veikia su 3x sverto 
 
 Geriausiai sekėsi aukso kasyklų fondams (NUGT, JNUG): jie juda kaip altcoin'ai.
 
+## Didesni grafikai (strategijos timeframe pakeistas, stop'ai tikrinami 5m žvakėmis)
+Be 5m detalumo rezultatai buvo per geri (pvz. EI3v2 1h +18,9 %/m.), nes siauras trailing stop ant didelių žvakių „parduoda“ geriausia kaina.
+
+| Grafikas | EI3v2 %/m | kritimas | E0V1E_DCA3 %/m | kritimas |
+|---|---|---|---|---|
+| 5m | 4,0 | 18,6 % | 3,5 | 9,8 % |
+| 1h | 12,1 | 12,4 % | 2,9 | 15,9 % |
+| 4h | 7,3 | 11,4 % | −1,1 | 26,6 % |
+| **1d** | **13,5** | 14,5 % | 8,3 | 14,3 % |
+
+EI3v2 1d pagal metus: 2022 +12,9 %, 2023 +3,6 %, 2024 +15,0 %, 2025 +17,6 %, 2026 +6,1 % (visi teigiami, laimi 80 % sandorių).
+Daugiausia pelno: JNUG, NUGT (aukso kasyklos), TQQQ, UPRO. Nuostolingi: YINN, UDOW, TMF.
+Atsargiai: grafikas parinktas iš 4 bandytų, todėl dalis rezultato gali būti sėkmė. Strategijos failas `strategies_tf/`.
+
 ## Išvada
-Veikia daug silpniau nei su kripto (+4 %/m. vietoj +25 %/m.). Kritimų ir atšokimų per mažai, o pelnas didžiąja dalimi iš 2025 m. Netinka.
+5m grafike netinka (+4 %/m.). Dienos grafike EI3v2 duoda +13,5 %/m., kasmet teigiama, kritimas 14,5 %: arti 14 % ribos, verta stebėti, bet į atrinktus nededama.

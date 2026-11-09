@@ -72,11 +72,11 @@ def main():
             continue
         one = load(base)
         three = lever(one)
-        for tf in ("5m", "1h"):
+        for tf in ("5m", "1h", "4h", "1d"):
             to_ft(three, f"{lev}/USDT", tf)
         pairs.append(f"{lev}/USDT")
         if base == "SPY":  # 1x SPY is the market filter (replaces BTC in the strategies)
-            for tf in ("5m", "1h"):
+            for tf in ("5m", "1h", "4h", "1d"):
                 to_ft(one, "SPY/USDT", tf)
         print(lev, len(three), f"{three['close'].iloc[0]:.1f} -> {three['close'].iloc[-1]:.1f}")
     # offline market list: Binance markets + fake ETF pairs (fine price/amount precision)
