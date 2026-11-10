@@ -54,5 +54,20 @@ Patikros:
 - ichiV1: perka Heikin-Ashi kainomis + žiūri į ateitį; ištaisyta versija −58,6 %.
 - In & Out TQQQ/TMF: 2021–2026 pralaimi SPY, 2022 m. −55 %.
 
+## Patikra su nematytais 2018–2021 m. (2026-11-10)
+Tos pačios taisyklės, mokestis 0,1 %, `freqtrade/results/oos_ei3/`. 2018 m. altcoin'ai krito ~80 %.
+
+| | Monetos | %/m | Max kritimas | 2018 | 2019 | 2020 | 2021* |
+|---|---|---|---|---|---|---|---|
+| EI3v2_tag_cofi_green | dabartinis top 10 | 134,7 | 16,4 % | +30 % | +30 % | +81 % | +780 % |
+| EI3v2_tag_cofi_green | 2018 m. top 9 (be išgyvenusiųjų iškraipymo) | 71,3 | 17,4 % | +46 % | +6 % | +61 % | +220 % |
+| E0V1E_DCA3 | dabartinis top 10 | 91,3 | – | +37 % | +22 % | +55 % | +360 % |
+| E0V1E_DCA3 | 2018 m. top 9 | 70,0 | 4,9 % | +64 % | +15 % | +54 % | +170 % |
+
+\* 2021 iki lapkričio 8 d. 2018 m. top 9: XRP, LTC, XLM, ADA, TRX, NEO, IOTA, BNB, ETC (EOS duomenų nėra).
+Su 1 min. detalumu (2020 m.): EI3v2 +81 % → +61 %, E0V1E_DCA3 +56 % → +46 % (~¼ mažiau).
+**Išvada: abu botai išlaikė nematytą laikotarpį ir be išgyvenusiųjų iškraipymo, kiekvienais metais pliuse.**
+Realistiškai 2021–26: EI3v2 ~18 %/m., E0V1E_DCA3 ~13 %/m. Kitas žingsnis – dry-run.
+
 ## Kitas žingsnis
 Dry-run (demo) 1–2 mėn. abiem botams ant tų pačių 10 altcoin'ų. Tik tada maža reali suma.

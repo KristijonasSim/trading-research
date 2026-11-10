@@ -62,3 +62,55 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - NOTankAi_15 (+884 %/m., 100 % laimi) atmesta: `argrelextrema` žiūri 5 žvakes į ateitį.
 - Rsiqui (+54,6 %/m. BTC+ETH) atmesta: `np.gradient` (centrinis skirtumas) naudoja kitos žvakės RSI.
 - PrawnstarOBV (+42,6 %/m. alts10) atmesta: kritimas 63 %, 4 nuostolingi metai, viską neša 2023–2024.
+
+## 2026-11-10: EI3v2 TradingView indikatorius
+- `tradingview/EI3v2_tag_cofi_green.pine` (Pine v6): BUY su TP (trailing įsijungimo kaina ~+1,4 %), SELL su rezultatu ir priežastimi (TP / signalas / unclog). Freqtrade apsaugos (MaxDrawdown, LowProfitPairs ir kt.) neperkeltos. TradingView neišbandyta (MCP neprisijungė).
+- Indikatorius pritaikytas bet kuriai rinkai (vartotojo prašymu NAS100): % ribos dauginamos iš mastelio k = grafiko 5m žvakės mediana / 0,26 % (altcoin'ų mediana 2024–2026). Rinkos filtras ne kripto rinkoms = pats grafikas (1h RSI8). Ištaisyta klaida: TP išėjimas įėjimo žvakėje rodė −0,2 %. Su k ≠ 1 tai jau pritaikymas, netestuotas.
+
+## 2026-11-10: scalping ant indeksų (NAS100/SPX500/US30, 5m)
+- EI3v2 ant NAS100 netinka (−2,4 %/m.; geriausias iš 480 variantų +3,4 %/m.). ORB ir intraday momentum netinka.
+- **Noise Breakout (Zarattini, Aziz, Barbon 2024) NAS100: +12 %/m., kritimas 10 %, kasmet teigiama**, bet 2025+ tik +6 %/m. ir labai jautri spread'ui. SPX500/US30 silpna.
+- TradingView: `tradingview/Noise_Breakout_NAS100.pine`. Detalės: `tradingview/scalp_test/REZULTATAI.md`.
+- Noise Breakout indikatorius: vietoj skaičių žymės BUY/SELL ir „✓ Pelnas / ✗ Nuostolis“ (skaičiai užvedus pelę), SL linija (pasislenka kas 30 min.) ir TP linija (0,5 % = vid. pelningas sandoris; pagal nutylėjimą tik orientyras, galima įjungti uždarymą pasiekus TP, netestuota).
+- Noise Breakout v3: patikrinimai kas 60 min. (2025–26: +7,7 %/m., kritimas 6,5 % vs 6,2 % ir 10,2 %), viena SL ir viena TP linija, ribos paslėptos, 15m = 5m. Trendo filtras ir platesnės ribos nepadėjo.
+- Noise Breakout v3 patikrintas TradingView (Pepperstone NAS100 15m, per Chrome): kompiliuojasi be klaidų, rodo BUY/SELL, vieną SL ir vieną TP liniją, „✓ Pelnas / ✗ Nuostolis“. TV istorijoje: 72 sandoriai, laimi 37,5 %, iš viso +0,27 % (silpnas 2026 m., atitinka backtestą).
+- Atšokimo scalperis RSI(2)+VWAP ant NAS100/SPX500 5m/15m: laimi 55–60 %, bet nuostolingas visuose variantuose. Netinka.
+- Kitos rinkos: Noise Breakout GER40 ~+4 %/m., auksas ~0 %. Dydis pagal svyravimą nepagerino. QQQ3 + 200 d. vidurkis: 2000–10 −90 % (sintetinis 3x nuo 1999), nesaugu.
+- **Galutinis įrankis: `tradingview/GERIAUSIAS_IRANKIS.md`** (Noise Breakout NAS100, kas 60 min.).
+
+## 2026-11-10: QuantConnect forumas, 2 partija
+- 17 naujų temų, 74 versijos per Lean. Geriausios (In & Out +12,4 %/m.) – dėl paslėpto 2x sverto klaidos; ištaisius +0,5…+1,6 %/m.
+- In & Out signalas pandas 2008–26: po paskelbimo (2021–26) su grynaisiais +6,5 %/m. (kritimas 17 %) vs QQQ +11,2 % (35 %). 3x versija +6 %, kritimas 50 %.
+- `run_lean.py` palaiko naują QuantConnect API. Detalės: `results/quantconnect_forum2.md`.
+
+## 2026-11-10: Concretum kripto trendai (tikslas ≥ 20 %/m.)
+- Catching Crypto Trends (Binance, 530 porų, be išgyvenusiųjų iškraipymo): 2018–21 +12,5 %/m., 2021–26 +2,4 %/m., po paskelbimo +0,7 %/m.; su 2x rizika +4,7 %/m. Netinka.
+- Noise Breakout ant BTC/ETH/SOL 5m: nuostolinga. Detalės: `crypto-trend/REZULTATAI.md`.
+
+## 2026-11-10: EI3v2 ir E0V1E_DCA3 – nematytas 2018–2021
+- Dabartinis top 10: EI3v2 +134,7 %/m. (kritimas 16 %), E0V1E_DCA3 +91 %/m.; kiekvienais metais pliuse, net 2018.
+- 2018 m. top 9 (be išgyvenusiųjų iškraipymo): EI3v2 +71 %/m. (17 %), E0V1E_DCA3 +70 %/m. (5 %).
+- 1 min. detalumas 2020 m. sumažina pelną ~¼. Išlaikė. Detalės `best_strategies/ATRINKTI_BOTAI.md`.
+
+## 2026-11-10: Industry Trends (Zarattini & Antonacci 2024)
+- Ken French 48 šakų, 1926–2026. Kopija atitinka straipsnį (+17,5 vs +18,5 %/m. 1926–2024), bet nuo 2015 m. +6–7 %/m. vs rinka +13 %, po paskelbimo +2–3 % vs +17 %. Netinka. `industry-trends/REZULTATAI.md`.
+
+## 2026-11-10: akcijų strategijų ratas (momentum, Clenow, VIX, Connors)
+- Nė viena po kaštų patikimai nelenkia SPY 2015–26. Artimiausios: S&P 500 momentum top 50 kas sav. (≈ rinka), Connors RSI(2) 2x (rinkos grąža, kritimas perpus mažesnis, bet 2011–18 silpna), SVXY+VIX filtras (≈ SPY po 2018). `industry-trends/AKCIJOS_REZULTATAI.md`.
+- RSI(2) ant 17 ETF: ~+7 %/m., kritimas 10–13 %, 2011–18 +2 %. Nelenkia rinkos.
+- 2026-11-10: E0V1E_DCA3 su svertu (futures): 1x +16 %/m. krit. 6 %; 3x +42 %/m. krit. 52 %; 10x +53 %/m. krit. 71 %, likvidacijos 2025-10-10. → `freqtrade/results/lev/REZULTATAI.md`. Bybit demo konfigas paruoštas (`~/trading/bybit_demo/`, ne repo).
+- 2026-11-10: EI3v2 + E0V1E_DCA3 po 50 %: 2021–26 +21,3 %/m., kritimas 6,4 %; 2018–21 +70,5 %/m., kritimas 7,8 %. → `freqtrade/results/combo/REZULTATAI.md`
+- 2026-11-10 14:03: Bybit demo paleistas E0V1E_DCA3, 15x, isolated, 49 % iš 500 USDT (`~/trading/bybit_demo/`, log bot.log). EI3v2 laukia antro (subaccount) API rakto.
+
+## 2026-11-10: batch50d (4-a partija, 50 strategijų iš `extra/`, A–B)
+- 100 testų: 59 pavyko, 41 nepasileido (10 – nėra 1m duomenų, 8 – trūksta bibliotekų, kiti – kodo klaidos).
+- Geriausios: BigZ0407HO alts10 +7,6 %/m. (kritimas 6,5 %), BinClucMadV1 alts10 +6,9 %/m. (3,7 %). Naujų atrinktų nėra.
+- `run_batch.py` dabar perduoda `--timeframe` (senos strategijos turi tik `ticker_interval`); 15m duomenys sudaryti iš 5m; atkurtas `docker_offline/binance_markets.json` ir Docker vaizdas.
+- 2026-11-10: batch50e (5-a partija) sustabdyta vartotojo prašymu, baigta 50/100 testų. Geriausia ClucHAnix_5m alts10 +16,4 %/m., kritimas 22 %, 2025 −10,6 % – silpnesnė už atrinktus. Tęsti: `BATCH=batch50e run_batch.py` (baigtus praleidžia).
+- 2026-11-10: Swing Trend Pullback indikatorius (RSI(2) atšokimas / 20 d. lūžis + Chandelier stop, tik kai EMA50 > EMA200): 19 rinkų 2005–14 +6,4 %/m. (kritimas 29 % vs laikant 58 %), 2015–26 +6,8 % vs laikant +13,4 %. `tradingview/swing/REZULTATAI.md`.
+- 2026-11-10: Swing Trend Pullback patobulinta (RSI(2)<25, 5 ATR stop, be trendo išėjimo): 2005–14 +8,1 %/m. (krit. 35 % vs 58 %), 2015–26 +10,4 % (32 % vs 41 %). Patikrinta TradingView SPY: 81 sandoris, laimi 59 %, +1704 % vs laikant +1523 %.
+- 2026-11-10: Swing Trend Pullback palygintas su 7 populiariais indikatoriais (Supertrend, Golden cross, MACD, PSAR, Turtle, EMA 9/21): 1 vieta abiem laikotarpiais. Išsaugota TradingView.
+- 2026-11-10: AI Forecast Cone (save kalibruojanti kainos ribų vėduoklė, online kvantiliai). 4 AI krypties modeliai pranašumo neturėjo; ribos pataiko 80 % visose 19 rinkų, TradingView SPY 81 % / 50 %. `tradingview/ai/REZULTATAI.md`
+- 2026-11-10: 5 žvakių + volume panašumo paieška (6-os žvakės spėjimas), 25 rinkos/rėmai (1d, 1h, 5m): atspėja kryptį 50,7 % (monetos metimas). `tradingview/ai/pattern5.py`
+- 2026-11-10: Box Breakout POC (ramios dėžės + POC + Fibonacci, `tradingview/Box_Breakout_POC.pine`). 12 rinkų 1d 2005–26: lūžis aukštyn su POC viršuje +0,37R/sandorį abiem laikotarpiais; žemyn −0,38R; kripto 15m/1h nuostolinga, apgaulingo lūžio strategija −0,4…−1R. TradingView dar nepatikrinta. `tradingview/ai/boxes.py`
+- 2026-11-10: Box Breakout POC v2: dėžės nepersidengia, signalas tik iš ≥ 20 žvakių dėžių (+0,58R/sandorį, abiem laikotarpiais; 12 ž. +0,34R), nesignalinės dėžės paslepiamos.

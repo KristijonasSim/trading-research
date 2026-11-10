@@ -1,0 +1,21 @@
+{
+  "strategy": "F8996 forum Strategy Library Addition: Leveraged ETFs with Sys",
+  "variant": "b669b12c36",
+  "resolution": "daily",
+  "final_usdt": 1527.5,
+  "total_return_pct": 52.8,
+  "cagr_pct": 8.8,
+  "yearly_pct": {
+    "2021": -1.0,
+    "2022": -37.6,
+    "2023": 80.9,
+    "2024": 59.8,
+    "2025": 1.7,
+    "2026": -15.8
+  },
+  "max_drawdown_pct": 44.7,
+  "trades": 155,
+  "fees": "$2763.32",
+  "first_day": "2021-11-08",
+  "last_day": "2026-11-06"
+}

@@ -1,0 +1,99 @@
+//@version=6
+// Swing Trend Pullback (dienos grafikui, tinka ir 4h)
+// Paimta iš žinomų taisyklių: Connors RSI(2) atšokimas + Turtle 20 d. lūžis,
+// leidžiama tik kylančioje rinkoje (EMA50 > EMA200), išėjimas – Chandelier stop (LeBeau, 5 x ATR22).
+// Signalai skaičiuojami uždarius žvakę (neperpiešia). Pirkti/parduoti kitos žvakės atidaryme.
+indicator("Swing Trend Pullback", shorttitle="STP", overlay=true, max_labels_count=500)
+
+// ── Nustatymai
+fastLen  = input.int(50,  "Trendo EMA greita")
+slowLen  = input.int(200, "Trendo EMA lėta")
+rsiLen   = input.int(2,   "RSI ilgis (atšokimas)")
+rsiLvl   = input.float(25, "RSI riba (pirkti žemiau)")
+brkLen   = input.int(20,  "Lūžio dienų skaičius")
+atrLen   = input.int(22,  "ATR ilgis")
+atrMult  = input.float(5.0, "Stop atstumas (x ATR)", step=0.5)
+useBrk   = input.bool(true, "Pirkti ir lūžiui")
+trendExit = input.bool(false, "Parduoti, kai trendas apsisuka")
+showEma  = input.bool(true, "Rodyti EMA")
+showTbl  = input.bool(true, "Rodyti rezultatų lentelę")
+feePct   = input.float(0.1, "Mokestis už sandorį, %", step=0.05)
+
+// ── Skaičiavimai
+emaF   = ta.ema(close, fastLen)
+emaS   = ta.ema(close, slowLen)
+upTrend = emaF > emaS
+r2     = ta.rsi(close, rsiLen)
+brk    = close > ta.highest(high, brkLen)[1]
+atr    = ta.rma(ta.tr(true), atrLen)
+pullSig = r2 < rsiLvl
+entrySig = upTrend and (pullSig or (useBrk and brk))
+
+// ── Būsena
+var bool  inPos   = false
+var float stopLvl = na
+var float hiC     = na
+var float entryPx = na
+var int   nTr     = 0
+var int   nWin    = 0
+var float eq      = 1.0
+var float firstPx = na
+if na(firstPx) and not na(emaS)
+    firstPx := close
+
+buyNow  = false
+sellNow = false
+string why = ""
+
+if inPos
+    hiC     := math.max(hiC, close)
+    stopLvl := math.max(stopLvl, hiC - atrMult * atr)
+    if close < stopLvl or (trendExit and not upTrend)
+        sellNow := true
+        why := close < stopLvl ? "stop" : "trendas"
+else if entrySig and not na(atr)
+    buyNow := true
+
+// ── Įvykdymas (rezultatas skaičiuojamas pagal uždarymo kainą – apytikslis)
+if buyNow
+    inPos   := true
+    entryPx := close
+    hiC     := close
+    stopLvl := close - atrMult * atr
+    label.new(bar_index, low, pullSig ? "BUY\natšokimas" : "BUY\nlūžis", style=label.style_label_up, color=color.new(color.teal, 0), textcolor=color.white, size=size.small)
+if sellNow
+    ret = close / entryPx * (1 - feePct / 100) * (1 - feePct / 100) - 1
+    eq  *= 1 + ret
+    nTr += 1
+    nWin += ret > 0 ? 1 : 0
+    label.new(bar_index, high, (ret > 0 ? "✓ " : "✗ ") + str.tostring(ret * 100, "#.#") + "%", style=label.style_label_down,
+         color=ret > 0 ? color.new(color.green, 0) : color.new(color.red, 0), textcolor=color.white, size=size.small,
+         tooltip="Išėjimas: " + why)
+    inPos := false
+
+// ── Grafikas
+plot(showEma ? emaF : na, "EMA greita", color=color.new(color.orange, 20))
+plot(showEma ? emaS : na, "EMA lėta",  color=color.new(color.gray, 20), linewidth=2)
+plot(inPos ? stopLvl : na, "Stop", color=color.red, style=plot.style_linebr, linewidth=2)
+bgcolor(upTrend ? color.new(color.green, 94) : color.new(color.red, 96))
+
+// ── Lentelė
+var table tb = table.new(position.top_right, 2, 5, bgcolor=color.new(color.black, 20), border_width=1)
+if showTbl and barstate.islast
+    openRet = inPos ? close / entryPx - 1 : 0.0
+    tot = (eq * (1 + openRet) - 1) * 100
+    hold = (close / firstPx - 1) * 100
+    table.cell(tb, 0, 0, "Sandoriai",  text_color=color.white)
+    table.cell(tb, 1, 0, str.tostring(nTr), text_color=color.white)
+    table.cell(tb, 0, 1, "Laimi",      text_color=color.white)
+    table.cell(tb, 1, 1, nTr > 0 ? str.tostring(nWin * 100.0 / nTr, "#") + " %" : "-", text_color=color.white)
+    table.cell(tb, 0, 2, "Iš viso",    text_color=color.white)
+    table.cell(tb, 1, 2, str.tostring(tot, "#") + " %", text_color=tot >= 0 ? color.lime : color.red)
+    table.cell(tb, 0, 3, "Laikant",    text_color=color.white)
+    table.cell(tb, 1, 3, str.tostring(hold, "#") + " %", text_color=color.silver)
+    table.cell(tb, 0, 4, "Dabar",      text_color=color.white)
+    table.cell(tb, 1, 4, inPos ? "pozicijoje" : (upTrend ? "laukia signalo" : "trendas žemyn"), text_color=inPos ? color.lime : color.silver)
+
+// ── Įspėjimai
+alertcondition(buyNow,  "STP BUY",  "Swing Trend Pullback: BUY")
+alertcondition(sellNow, "STP SELL", "Swing Trend Pullback: SELL")

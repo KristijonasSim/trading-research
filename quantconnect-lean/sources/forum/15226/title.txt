@@ -1,0 +1,1 @@
+Fade The Trend Strategy - Mean Reversion Algorithm  by Perry J Kaufman - QuantConnect.com

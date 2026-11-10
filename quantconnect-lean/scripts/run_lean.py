@@ -36,9 +36,18 @@ class PctFee(FeeModel):
         return OrderFee(CashAmount(0.001 * value, "USD"))
 
 
+_init = _Base.__dict__.get("initialize") or next((c.__dict__["initialize"] for c in _Base.__mro__ if "initialize" in c.__dict__ and c.__module__ == "strategy_main"), None) or _Base.Initialize
+
+
 class ResearchWrapper(_Base):
+    def initialize(self):
+        self.Initialize()
+
     def Initialize(self):
-        _Base.Initialize(self)
+        if getattr(self, "_rw_done", False):
+            return
+        self._rw_done = True
+        _init(self)
         self.SetStartDate(%d, %d, %d)
         self.SetEndDate(%d, %d, %d)
         self.SetCash(%d)
@@ -69,11 +78,19 @@ def patch(code, res):
     code = re.sub(r"self\.SetStartDate" + arg, f"self.SetStartDate({START.year}, {START.month}, {START.day})", code)
     code = re.sub(r"self\.SetEndDate" + arg, f"self.SetEndDate({END.year}, {END.month}, {END.day})", code)
     code = re.sub(r"self\.SetCash" + arg, f"self.SetCash({CASH})", code)
+    # new snake_case API
+    code = re.sub(r"self\.set_start_date" + arg, f"self.set_start_date({START.year}, {START.month}, {START.day})", code)
+    code = re.sub(r"self\.set_end_date" + arg, f"self.set_end_date({END.year}, {END.month}, {END.day})", code)
+    code = re.sub(r"self\.set_cash" + arg, f"self.set_cash({CASH})", code)
+    code = re.sub(r"Resolution\.(MINUTE|SECOND|TICK)\b", f"Resolution.{target.upper()}", code)
     code = code.expandtabs(4)
     # intraday data we do not have: any minute/second/tick subscription runs on the chosen resolution
     code = re.sub(r"Resolution\.(Minute|Second|Tick)\b", f"Resolution.{target}", code)
     out = []
     for line in code.splitlines():
+        if re.search(r"add_(equity|forex|security)\(", line):
+            line = re.sub(r"Resolution\.(DAILY|MINUTE|HOUR|SECOND|TICK)", f"Resolution.{target.upper()}", line)
+            line = re.sub(r"add_(equity|forex)\(([^,()]+)\)", rf"add_\1(\2, Resolution.{target.upper()})", line)
         if re.search(r"Add(Equity|Forex|Security)\(|UniverseSettings\.Resolution", line):
             line = re.sub(r"Resolution\.(Daily|Minute|Hour|Second|Tick)", f"Resolution.{target}", line)
             # AddEquity("X") without resolution defaults to minute data

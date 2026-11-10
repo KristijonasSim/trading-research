@@ -40,62 +40,124 @@ Forex strategijas lyginti su 0 % (grynieji), nes valiutų „pirkti ir laikyti�
 
 ## forumas
 
-| name                                                     | variant    | resolution   |   cagr_pct |   2021 |   2022 |   2023 |   2024 |   2025 |   2026 |   final_usdt |   max_drawdown_pct |   trades |
-|:---------------------------------------------------------|:-----------|:-------------|-----------:|-------:|-------:|-------:|-------:|-------:|-------:|-------------:|-------------------:|---------:|
-| forum Amazing returns  superior stock selection strateg  | cca9a02d5b | daily        |       14.3 |    4.7 |  -31.2 |   47.9 |   18.2 |   41.9 |    9.2 |       1949.4 |               47.8 |      155 |
-| forum Amazing returns  superior stock selection strateg  | b34d9b7dda | daily        |       13.1 |   -0.8 |   35.3 |   15   |   13.2 |    5.1 |    0.8 |       1851.4 |               31   |       71 |
-| forum Amazing returns  superior stock selection strateg  | daaa3c540b | daily        |        7   |    0.5 |  -38.6 |   58   |    2.5 |   29.2 |    8.4 |       1400.2 |               41.9 |      466 |
-| forum Dual Momentum with Out Days - QuantConnect.com     | 47f1fd3355 | daily        |        3.4 |    0.9 |   75   |  -31.5 |    5   |   -9.9 |    3.6 |       1184   |               41.1 |     1684 |
-| forum 3X ETF Short Hedge Algorithm - QuantConnect.com    | caa0495f22 | daily        |        1.2 |    1.7 |    0.5 |    4.9 |   -5.4 |    2.3 |    2.3 |       1061   |               16   |     5626 |
-| forum Using Levered ETFs in IRA - 10 years - 24% CAGR, 1 | f0d8f50c73 | daily        |        0.2 |    2.6 |  -32.2 |   19.6 |   25.2 |   11.3 |  -12.9 |       1009   |               38.8 |       63 |
-| forum Dual Momentum with Out Days - QuantConnect.com     | 3aa1830197 | daily        |        0   |    0   |  nan   |  nan   |  nan   |  nan   |  nan   |       1000   |                0   |        0 |
-| forum Amazing returns  superior stock selection strateg  | 8e5ac08df2 | daily        |        0   |    0   |    0   |    0   |    0   |    0   |    0   |       1000   |                0   |        0 |
-| forum Amazing returns  superior stock selection strateg  | 4d3c02f3fc | daily        |        0   |    0   |    0   |    0   |    0   |    0   |    0   |       1000   |                0   |        0 |
-| forum Amazing returns  superior stock selection strateg  | 665fbb24e9 | daily        |        0   |    0   |    0   |    0   |    0   |    0   |    0   |       1000   |                0   |        0 |
-| forum Amazing returns  superior stock selection strateg  | 73c23e66bd | daily        |        0   |    0   |    0   |    0   |    0   |    0   |    0   |       1000   |                0   |        0 |
-| forum Amazing returns  superior stock selection strateg  | 1bb502e471 | daily        |        0   |    0   |    0   |    0   |    0   |    0   |    0   |       1000   |                0   |        0 |
-| forum Amazing returns  superior stock selection strateg  | 1c1cbe327d | daily        |       -0   |    0.5 |  -34.8 |   33.3 |   11.8 |    8.6 |   -5.9 |        998.2 |               37.9 |      462 |
-| forum Amazing returns  superior stock selection strateg  | 6c7e6f68cf | daily        |        0   |    0   |    0   |    0   |    0   |    0   |    0   |       1000   |                0   |        0 |
-| forum Amazing returns  superior stock selection strateg  | d7eb6b2089 | daily        |        0   |    0   |    0   |    0   |    0   |    0   |    0   |       1000   |                0   |        0 |
-| forum Amazing returns  superior stock selection strateg  | 668f08eb95 | daily        |        0   |    0   |    0   |    0   |    0   |    0   |    0   |       1000   |                0   |        0 |
-| forum Amazing returns  superior stock selection strateg  | 9edefa25d1 | daily        |        0   |    0   |    0   |    0   |    0   |    0   |    0   |       1000   |                0   |        0 |
-| forum Amazing returns  superior stock selection strateg  | 68267ac216 | daily        |        0   |    0   |    0   |    0   |    0   |    0   |    0   |       1000   |                0   |        0 |
-| forum Amazing returns  superior stock selection strateg  | c316bceaaa | daily        |       -0.1 |   -0.3 |  -22.8 |   13   |   10.3 |    4   |   -0.5 |        993.7 |               26.5 |       61 |
-| forum Dual Momentum with Out Days - QuantConnect.com     | c66e80139b | daily        |       -0.9 |   -1   |   77.3 |  -33   |   -7.9 |  -16.2 |    5.4 |        957.2 |               54.4 |      417 |
-| forum 3X ETF Short Hedge Algorithm - QuantConnect.com    | b7958208f0 | daily        |       -1.3 |    0   |   -5   |    1.8 |  -13   |  -12   |   26.7 |        937.1 |               34.6 |      113 |
-| forum 3X ETF Short Hedge Algorithm - QuantConnect.com    | 25166e99bf | daily        |       -1.3 |    0   |   -5   |    1.8 |  -13   |  -12   |   26.7 |        937.1 |               34.6 |      113 |
-| forum Dual Momentum with Out Days - QuantConnect.com     | 636462c941 | daily        |       -1.6 |    3.1 |   42.6 |  -23.9 |    4.4 |  -16.3 |   -5.9 |        920.6 |               53.9 |    22321 |
-| forum Dual Momentum with Out Days - QuantConnect.com     | 758574589e | daily        |       -1.6 |   -0.6 |   46   |  -14.8 |  -16.7 |  -15   |    5.4 |        923.2 |               49.1 |      107 |
-| forum Amazing returns  superior stock selection strateg  | cc18cfc59f | daily        |       -2.2 |   -0.3 |  -23.5 |    8.8 |   14.5 |   -1   |   -4.9 |        894.7 |               28.9 |       86 |
-| forum Amazing returns  superior stock selection strateg  | eb5bf1f328 | daily        |       -2.2 |   -0.3 |  -52.8 |   60   |   19.6 |   13.5 |  -12.5 |        893.3 |               56.7 |       85 |
-| forum Dual Momentum with Out Days - QuantConnect.com     | 8689604307 | daily        |       -2.9 |   -4.2 |   29.2 |  -32.1 |    7   |   -8.1 |    4.2 |        861.6 |               40.2 |      502 |
-| forum Dual Momentum with Out Days - QuantConnect.com     | 0d613d724b | daily        |       -3.4 |    1.5 |   17.6 |  -26.9 |    4.1 |  -10.5 |    3.4 |        839.3 |               49.7 |     4611 |
-| forum Using Levered ETFs in IRA - 10 years - 24% CAGR, 1 | c0caa05e49 | daily        |       -4   |    0.4 |  -55.6 |   44.3 |    8.1 |   17.9 |   -0.5 |        816.6 |               58.1 |      165 |
-| forum Using Levered ETFs in IRA - 10 years - 24% CAGR, 1 | 316dcfe1c5 | daily        |       -4   |   -1.7 |  -55.9 |   45   |    9.6 |   21.3 |   -2.4 |        815.3 |               58.5 |      367 |
-| forum Dual Momentum with Out Days - QuantConnect.com     | b3e5c2897b | daily        |       -5.9 |   -0.6 |   22   |  -31.5 |   -6.6 |   -5.4 |    0.2 |        736.5 |               44.3 |    23344 |
-| forum Dual Momentum with Out Days - QuantConnect.com     | 36bb0852c1 | daily        |       -6.2 |    5.6 |   62.1 |  -28.3 |  -17   |  -20.7 |  -10   |        727.8 |               62.5 |    19968 |
-| forum Using Levered ETFs in IRA - 10 years - 24% CAGR, 1 | 9fc9eff0f1 | daily        |       -7.8 |   -0.3 |  -68.7 |   69.3 |    9.9 |   25.7 |   -8.7 |        666.4 |               70.7 |      703 |
-| forum Dual Momentum with Out Days - QuantConnect.com     | b506967692 | daily        |       -8   |   -0.6 |   83.6 |  -29.5 |  -28.8 |  -26.1 |   -2.8 |        657.4 |               70.1 |      242 |
-| forum Dual Momentum with Out Days - QuantConnect.com     | da872fd8d4 | daily        |       -8   |   -0.6 |   83.6 |  -29.5 |  -28.8 |  -26.1 |   -2.8 |        657.4 |               70.1 |      242 |
-| forum Dual Momentum with Out Days - QuantConnect.com     | b1be3ade25 | daily        |      -10   |   -0.6 |   22   |  -31.5 |  -21.2 |  -15.4 |    6.3 |        589.2 |               59.8 |   116784 |
-| forum Using Levered ETFs in IRA - 10 years - 24% CAGR, 1 | bfe58a2e21 | daily        |      -10.2 |    1.4 |  -73.2 |   74.1 |   32.1 |    2.6 |   -8.7 |        585.3 |               75.2 |      580 |
-| forum Dual Momentum with Out Days - QuantConnect.com     | 2d96c1b584 | daily        |      -10.7 |   -0.6 |   22   |  -31.5 |  -26.5 |  -13   |    6.7 |        567.4 |               61.3 |   115800 |
-| forum Dual Momentum with Out Days - QuantConnect.com     | 2b1fc4cda1 | daily        |      -10.7 |   -0.6 |   22   |  -31.5 |  -26.5 |  -13   |    6.7 |        567.4 |               61.3 |   115800 |
-| forum Dual Momentum with Out Days - QuantConnect.com     | 785bd73267 | daily        |      -12.1 |    3.1 |   41.3 |  -45.5 |  -17.9 |  -19.8 |    0.2 |        523.9 |               73   |    34113 |
-| forum Dual Momentum with Out Days - QuantConnect.com     | 94c1b405ec | daily        |      -12.1 |    3.1 |   41.3 |  -45.5 |  -17.9 |  -19.8 |    0.2 |        523.9 |               73   |    34113 |
-| forum Dual Momentum with Out Days - QuantConnect.com     | 18bc21a9ac | daily        |      -13.9 |   -0.4 |   66.2 |  -44.3 |  -25.7 |  -25.7 |   -7.2 |        472.6 |               77.8 |      675 |
-| forum Amazing returns  superior stock selection strateg  | fe719d4b67 | daily        |      -17.4 |   -5.4 |   -8   |  -21   |  -18.1 |  -10.3 |  -23.9 |        384.4 |               61.6 |     1783 |
-| forum Amazing returns  superior stock selection strateg  | 8937472c3f | daily        |      -17.5 |   -1.6 |  -76.2 |   96.6 |   21.6 |   -7.1 |  -26.6 |        382   |               79.6 |       90 |
-| forum Amazing returns  superior stock selection strateg  | 55ba6bdbeb | daily        |      -18.2 |    1.5 |  -86   |   71.4 |   29.7 |   27.8 |   -9.3 |        365.5 |               91.5 |      156 |
-| forum Amazing returns  superior stock selection strateg  | ed03383e2f | daily        |      -19.2 |    2.1 |  -53.5 |  -18.9 |   25.8 |  -19.4 |  -11.7 |        344.8 |               77.3 |       59 |
-| forum Dual Momentum with Out Days - QuantConnect.com     | d71833616f | daily        |      -21.1 |   -5.3 |    7.1 |  -39.1 |  -30.6 |  -22.6 |   -7.8 |        305.9 |               74.1 |      306 |
-| forum Amazing returns  superior stock selection strateg  | 42cb0e7aea | daily        |      -22.7 |    3.4 |  -62.6 |   -8.4 |  -13   |    5.6 |  -15.2 |        276.1 |               78.3 |       13 |
-| forum Amazing returns  superior stock selection strateg  | 4115ee0aa3 | daily        |      -25.3 |   -2.8 |  -57.5 |  -22.3 |  -37.7 |   -5.8 |   23.3 |        232.5 |               85.6 |      358 |
-| forum Amazing returns  superior stock selection strateg  | 2b54135926 | daily        |      -25.3 |   -2.8 |  -57.5 |  -22.3 |  -37.7 |   -5.8 |   23.3 |        232.5 |               85.6 |      358 |
-| forum Amazing returns  superior stock selection strateg  | a424f0f66c | daily        |      -30.1 |   -2.9 |  -81.1 |   13.9 |   29.1 |  -15.9 |  -26.4 |        167.4 |               87.3 |      107 |
-| forum Amazing returns  superior stock selection strateg  | d510466b31 | daily        |      -30.2 |   -2.9 |  -81.6 |   13.9 |   29.1 |  -13.5 |  -27.2 |        165.2 |               87.3 |      112 |
-| forum Amazing returns  superior stock selection strateg  | ca58686291 | daily        |      -35.2 |    2.1 |  -71.7 |  -37.2 |  -21   |   -2.3 |  -18.3 |        114.6 |               91.8 |        7 |
-| forum Amazing returns  superior stock selection strateg  | 84f8a4778f | daily        |      -39.1 |   -6.2 |  -60.2 |    3.1 |  -30.5 |  -43   |  -44.9 |         84   |               97.6 |       70 |
+| name                                                     | variant            | resolution   |   cagr_pct |   2021 |   2022 |   2023 |   2024 |   2025 |   2026 |   final_usdt |   max_drawdown_pct |   trades |
+|:---------------------------------------------------------|:-------------------|:-------------|-----------:|-------:|-------:|-------:|-------:|-------:|-------:|-------------:|-------------------:|---------:|
+| forum Amazing returns  superior stock selection strateg  | cca9a02d5b         | daily        |       14.3 |    4.7 |  -31.2 |   47.9 |   18.2 |   41.9 |    9.2 |       1949.4 |               47.8 |      155 |
+| forum Amazing returns  superior stock selection strateg  | b34d9b7dda         | daily        |       13.1 |   -0.8 |   35.3 |   15   |   13.2 |    5.1 |    0.8 |       1851.4 |               31   |       71 |
+| forum The In  Out Strategy - Continued from Quantopian - | b99c4d7ebb         | daily        |       12.4 |    0.5 |   -2.3 |   19.5 |   25   |   12.7 |    8.6 |       1795.7 |               18.4 |      854 |
+| forum Amazing returns  superior stock selection strategy | b34d9b7dda_fixspy  | daily        |       11.2 |    0.7 |   17.2 |   17.9 |   14   |    7.5 |   -0.3 |       1698.3 |               17.6 |       46 |
+| forum The In  Out Strategy - Continued from Quantopian - | 7aa1cbe215         | daily        |       11   |   -0.9 |  -11.8 |   33.7 |   16.5 |   30.6 |   -5.4 |       1682.8 |               23.2 |       51 |
+| forum The In  Out Strategy - Continued from Quantopian - | b99c4d7ebb_fix     | daily        |        8.9 |   -4.1 |   -3.7 |   31.7 |   16.5 |    9.5 |   -1.4 |       1530.5 |               16   |       35 |
+| forum Strategy Library Addition: Leveraged ETFs with Sys | b669b12c36         | daily        |        8.8 |   -1   |  -37.6 |   80.9 |   59.8 |    1.7 |  -15.8 |       1527.5 |               44.7 |      155 |
+| forum Amazing returns  superior stock selection strateg  | daaa3c540b         | daily        |        7   |    0.5 |  -38.6 |   58   |    2.5 |   29.2 |    8.4 |       1400.2 |               41.9 |      466 |
+| forum The In  Out Strategy - Continued from Quantopian - | 2be2581648         | daily        |        6   |    5.9 |  -32   |   42.6 |   31.5 |    6.6 |   -7.2 |       1336.9 |               35.8 |      288 |
+| forum The In  Out Strategy - Continued from Quantopian - | cdc2caaee4         | daily        |        5.9 |    7.6 |  -35.6 |   42.6 |   35.2 |    6.5 |   -6.5 |       1329.5 |               38.1 |      317 |
+| forum The In  Out Strategy - Continued from Quantopian - | 1346975448         | daily        |        5.3 |   -0.5 |   -9.6 |    7.9 |   -1.5 |   17.1 |   15.9 |       1297   |               14.5 |      121 |
+| forum QQQSPY Momentum Rotation System  - QuantConnect.co | e2616e5ac9         | daily        |        5   |    4.5 |  -29.7 |   42.3 |   22.4 |  -10   |   11   |       1278   |               32.4 |       68 |
+| forum The In  Out Strategy - Continued from Quantopian - | 7b83c06c21         | daily        |        4.6 |   -0.6 |  -28.3 |   35.9 |   22.2 |   10.6 |   -4.1 |       1254.9 |               32.7 |      244 |
+| forum Dual Momentum with Out Days - QuantConnect.com     | 47f1fd3355         | daily        |        3.4 |    0.9 |   75   |  -31.5 |    5   |   -9.9 |    3.6 |       1184   |               41.1 |     1684 |
+| forum The In  Out Strategy - Continued from Quantopian - | 86522c818a         | daily        |        3   |   -0.8 |  -29.5 |   39.9 |   15.8 |   15   |  -11.2 |       1157.4 |               32   |      110 |
+| forum The In  Out Strategy - Continued from Quantopian - | 45faaf81f5         | daily        |        2.8 |   -0.2 |  -22.4 |   30.9 |    6   |   10.3 |   -3.4 |       1145.8 |               25.7 |       28 |
+| forum The In  Out Strategy - Continued from Quantopian - | 9e2389d33b         | daily        |        2.4 |   -0.4 |  -28.5 |   39.1 |   13.5 |   13.1 |  -11.5 |       1127   |               31.1 |      114 |
+| forum The In  Out Strategy - Continued from Quantopian - | 3cd0380d64         | daily        |        2.2 |   -0.1 |  -31.4 |   31.6 |   13.2 |   20.2 |   -9   |       1115.5 |               34.3 |       90 |
+| forum The In  Out Strategy - Continued from Quantopian - | f388ceaa32         | daily        |        1.9 |    2   |  -21.1 |   32.3 |   18   |    0.1 |  -12.6 |       1097.7 |               22   |      137 |
+| forum The In  Out Strategy - Continued from Quantopian - | 7aa1cbe215_fix     | daily        |        1.6 |   -0.5 |  -11.6 |   25.6 |    2.8 |   -9.7 |    5.5 |       1081.2 |               25.1 |      115 |
+| forum 3X ETF Short Hedge Algorithm - QuantConnect.com    | caa0495f22         | daily        |        1.2 |    1.7 |    0.5 |    4.9 |   -5.4 |    2.3 |    2.3 |       1061   |               16   |     5626 |
+| forum The In  Out Strategy - Continued from Quantopian - | d7b1c2a2fe         | daily        |        0.9 |   -1.3 |  -25.6 |   26.2 |   10.6 |   13.9 |  -10.6 |       1043.9 |               30.6 |      151 |
+| forum The In  Out Strategy - Continued from Quantopian - | e866c1e218         | daily        |        0.3 |    1.3 |  -18.6 |   26.3 |   -5.3 |   -2.1 |    5.3 |       1017.1 |               24.7 |      112 |
+| forum The In  Out Strategy - Continued from Quantopian - | 946150fa79         | daily        |        0.2 |    6.5 |  -32.7 |   26.2 |   10.5 |   13.9 |  -11.3 |       1010   |               34.8 |      159 |
+| forum Using Levered ETFs in IRA - 10 years - 24% CAGR, 1 | f0d8f50c73         | daily        |        0.2 |    2.6 |  -32.2 |   19.6 |   25.2 |   11.3 |  -12.9 |       1009   |               38.8 |       63 |
+| forum Weekly Sector rotation Trend Following Strategy -  | b815ea5629         | daily        |        0.1 |    0.8 |  -13.3 |    8.4 |    7.8 |    1.1 |   -2.8 |       1002.6 |               22   |      141 |
+| forum The In  Out Strategy - Continued from Quantopian - | d3f191d476         | daily        |        0   |    0   |    0   |    0   |    0   |    0   |    0   |       1000   |                0   |        0 |
+| forum The In  Out Strategy - Continued from Quantopian - | 970bcfd738         | daily        |        0   |    0   |    0   |    0   |    0   |    0   |    0   |       1000   |                0   |        0 |
+| forum The In  Out Strategy - Continued from Quantopian - | bb54bd49c6         | daily        |        0   |    0   |    0   |    0   |    0   |    0   |    0   |       1000   |                0   |        0 |
+| forum The In  Out Strategy - Continued from Quantopian - | 1ff7d20ba3         | daily        |        0   |    0   |    0   |    0   |    0   |    0   |    0   |       1000   |                0   |        0 |
+| forum The In  Out Strategy - Continued from Quantopian - | 06385dea1a         | daily        |        0   |    0   |  nan   |  nan   |  nan   |  nan   |  nan   |       1000   |                0   |        0 |
+| forum Amazing returns  superior stock selection strateg  | 73c23e66bd         | daily        |        0   |    0   |    0   |    0   |    0   |    0   |    0   |       1000   |                0   |        0 |
+| forum The In  Out Strategy - Continued from Quantopian - | 5148fcd389         | daily        |        0   |    0   |    0   |    0   |    0   |    0   |    0   |       1000   |                0   |        0 |
+| forum The In  Out Strategy - Continued from Quantopian - | 177ff7b2bc         | daily        |        0   |    0   |    0   |    0   |    0   |    0   |    0   |       1000   |                0   |        0 |
+| forum The In  Out Strategy - Continued from Quantopian - | 7aded014ab         | daily        |        0   |    0   |    0   |    0   |    0   |    0   |    0   |       1000   |                0   |        0 |
+| forum The In  Out Strategy - Continued from Quantopian - | 1c99cfb9ef         | daily        |        0   |    0   |    0   |    0   |    0   |    0   |    0   |       1000   |                0   |        0 |
+| forum The In  Out Strategy - Continued from Quantopian - | af722427fb         | daily        |        0   |    0   |    0   |    0   |    0   |    0   |    0   |       1000   |                0   |        0 |
+| forum Amazing returns  superior stock selection strateg  | 668f08eb95         | daily        |        0   |    0   |    0   |    0   |    0   |    0   |    0   |       1000   |                0   |        0 |
+| forum The In  Out Strategy - Continued from Quantopian - | f674d1b7c6         | daily        |        0   |    0   |    0   |    0   |    0   |    0   |    0   |       1000   |                0   |        0 |
+| forum The In  Out Strategy - Continued from Quantopian - | 546342930b         | daily        |        0   |    0   |  nan   |  nan   |  nan   |  nan   |  nan   |       1000   |                0   |        0 |
+| forum Amazing returns  superior stock selection strateg  | 665fbb24e9         | daily        |        0   |    0   |    0   |    0   |    0   |    0   |    0   |       1000   |                0   |        0 |
+| forum The In  Out Strategy - Continued from Quantopian - | 865e01ff32         | daily        |        0   |    0   |    0   |    0   |    0   |    0   |    0   |       1000   |                0   |        0 |
+| forum Amazing returns  superior stock selection strateg  | 9edefa25d1         | daily        |        0   |    0   |    0   |    0   |    0   |    0   |    0   |       1000   |                0   |        0 |
+| forum Amazing returns  superior stock selection strateg  | d7eb6b2089         | daily        |        0   |    0   |    0   |    0   |    0   |    0   |    0   |       1000   |                0   |        0 |
+| forum The In  Out Strategy - Continued from Quantopian - | 5381a5db93         | daily        |        0   |    0   |    0   |    0   |    0   |    0   |    0   |       1000   |                0   |        0 |
+| forum The In  Out Strategy - Continued from Quantopian - | c4743ed8e3         | daily        |        0   |    0   |    0   |    0   |    0   |    0   |    0   |       1000   |                0   |        0 |
+| forum The In  Out Strategy - Continued from Quantopian - | c2c5ed51c9         | daily        |        0   |    0   |    0   |    0   |    0   |    0   |    0   |       1000   |                0   |        0 |
+| forum The In  Out Strategy - Continued from Quantopian - | d0ffb8e49e         | daily        |        0   |    0   |    0   |    0   |    0   |    0   |    0   |       1000   |                0   |        0 |
+| forum Dual Momentum with Out Days - QuantConnect.com     | 3aa1830197         | daily        |        0   |    0   |  nan   |  nan   |  nan   |  nan   |  nan   |       1000   |                0   |        0 |
+| forum The In  Out Strategy - Continued from Quantopian - | 5038648359         | daily        |       -0   |    0.5 |  -34.8 |   33.3 |   11.8 |    8.6 |   -5.9 |        998.2 |               37.9 |      462 |
+| forum Amazing returns  superior stock selection strateg  | 1bb502e471         | daily        |        0   |    0   |    0   |    0   |    0   |    0   |    0   |       1000   |                0   |        0 |
+| forum Amazing returns  superior stock selection strateg  | 68267ac216         | daily        |        0   |    0   |    0   |    0   |    0   |    0   |    0   |       1000   |                0   |        0 |
+| forum Beat the Market: An Effective Intraday Momentum St | af74081228         | hour         |        0   |    0   |  nan   |  nan   |  nan   |  nan   |  nan   |       1000   |                0   |        0 |
+| forum Price Action Long Short SPY ETF Algo - QuantConnec | e9d33cc4ec         | daily        |        0   |    0   |    0   |    0   |    0   |    0   |    0   |       1000   |                0   |        0 |
+| forum Simple Global Market Rotation Strategy - QuantConn | 1e53a047e8         | daily        |        0   |    0   |  nan   |  nan   |  nan   |  nan   |  nan   |       1000   |                0   |        0 |
+| forum Amazing returns  superior stock selection strateg  | 1c1cbe327d         | daily        |       -0   |    0.5 |  -34.8 |   33.3 |   11.8 |    8.6 |   -5.9 |        998.2 |               37.9 |      462 |
+| forum Amazing returns  superior stock selection strateg  | 6c7e6f68cf         | daily        |        0   |    0   |    0   |    0   |    0   |    0   |    0   |       1000   |                0   |        0 |
+| forum The In  Out Strategy - Continued from Quantopian - | a8ce82604d         | daily        |        0   |    0   |    0   |    0   |    0   |    0   |    0   |       1000   |                0   |        0 |
+| forum The In  Out Strategy - Continued from Quantopian - | 18f8ed7c67         | daily        |        0   |    0   |    0   |    0   |    0   |    0   |    0   |       1000   |                0   |        0 |
+| forum Amazing returns  superior stock selection strateg  | 8e5ac08df2         | daily        |        0   |    0   |    0   |    0   |    0   |    0   |    0   |       1000   |                0   |        0 |
+| forum Who's Wrong - Me or Amibroker? - QuantConnect.com  | af05ca12b4         | daily        |        0   |    0   |  nan   |  nan   |  nan   |  nan   |  nan   |       1000   |                0   |        0 |
+| forum Amazing returns  superior stock selection strateg  | 4d3c02f3fc         | daily        |        0   |    0   |    0   |    0   |    0   |    0   |    0   |       1000   |                0   |        0 |
+| forum Amazing returns  superior stock selection strateg  | c316bceaaa         | daily        |       -0.1 |   -0.3 |  -22.8 |   13   |   10.3 |    4   |   -0.5 |        993.7 |               26.5 |       61 |
+| forum The In  Out Strategy - Continued from Quantopian - | 4b41e95e93         | daily        |       -0.3 |    2.5 |   62.8 |  -18.2 |  -35.4 |  -10.4 |   24.4 |        983.7 |               62   |      702 |
+| forum The In  Out Strategy - Continued from Quantopian - | 95412d991e         | daily        |       -0.4 |    0.4 |  -27   |   17.9 |    7.8 |   11.6 |   -5.8 |        978.6 |               30.6 |      461 |
+| forum The In  Out Strategy - Continued from Quantopian - | 7545aceec5         | daily        |       -0.4 |    0.4 |  -27   |   17.9 |    7.8 |   11.6 |   -5.8 |        978.6 |               30.6 |      461 |
+| forum The In  Out Strategy - Continued from Quantopian - | cae2722137         | daily        |       -0.6 |   -0.2 |  -24.6 |   12.3 |   11.7 |    4.1 |   -1.2 |        971.1 |               30.1 |       63 |
+| forum The In  Out Strategy - Continued from Quantopian - | 0c15d6a0d0         | daily        |       -0.9 |   -0.3 |  -32.8 |   33   |    8   |    5.8 |   -6.4 |        953.7 |               36   |       81 |
+| forum Dual Momentum with Out Days - QuantConnect.com     | c66e80139b         | daily        |       -0.9 |   -1   |   77.3 |  -33   |   -7.9 |  -16.2 |    5.4 |        957.2 |               54.4 |      417 |
+| forum The In  Out Strategy - Continued from Quantopian - | 0ed8e6d4e3         | daily        |       -1.1 |    0.4 |  -30.9 |   17.9 |   14.1 |    7.4 |   -5.8 |        944.1 |               33.7 |      453 |
+| forum 3X ETF Short Hedge Algorithm - QuantConnect.com    | b7958208f0         | daily        |       -1.3 |    0   |   -5   |    1.8 |  -13   |  -12   |   26.7 |        937.1 |               34.6 |      113 |
+| forum The In  Out Strategy - Continued from Quantopian - | fa31491612         | daily        |       -1.3 |   -0.3 |  -34.8 |   33   |    9.4 |    5.3 |   -6   |        937   |               38   |       86 |
+| forum 3X ETF Short Hedge Algorithm - QuantConnect.com    | 25166e99bf         | daily        |       -1.3 |    0   |   -5   |    1.8 |  -13   |  -12   |   26.7 |        937.1 |               34.6 |      113 |
+| forum The In  Out Strategy - Continued from Quantopian - | bcf802a60b         | daily        |       -1.5 |   -0.3 |  -34.8 |   33   |    9.4 |    5.3 |   -6.8 |        928.7 |               38   |       85 |
+| forum QQQSPY Momentum Rotation System  - QuantConnect.co | 307c83721d         | daily        |       -1.5 |   -4.4 |   -7.2 |    1.2 |    0.1 |    5.5 |   -2.1 |        927.4 |               20.8 |       62 |
+| forum Dual Momentum with Out Days - QuantConnect.com     | 758574589e         | daily        |       -1.6 |   -0.6 |   46   |  -14.8 |  -16.7 |  -15   |    5.4 |        923.2 |               49.1 |      107 |
+| forum Dual Momentum with Out Days - QuantConnect.com     | 636462c941         | daily        |       -1.6 |    3.1 |   42.6 |  -23.9 |    4.4 |  -16.3 |   -5.9 |        920.6 |               53.9 |    22321 |
+| forum Amazing returns  superior stock selection strateg  | cc18cfc59f         | daily        |       -2.2 |   -0.3 |  -23.5 |    8.8 |   14.5 |   -1   |   -4.9 |        894.7 |               28.9 |       86 |
+| forum Amazing returns  superior stock selection strateg  | eb5bf1f328         | daily        |       -2.2 |   -0.3 |  -52.8 |   60   |   19.6 |   13.5 |  -12.5 |        893.3 |               56.7 |       85 |
+| forum The In  Out Strategy - Continued from Quantopian - | ea14b6d1ec         | daily        |       -2.3 |   -5.8 |  -29.6 |   19.7 |    6.7 |   10.1 |   -4.5 |        891   |               36.5 |      462 |
+| forum The In  Out Strategy - Continued from Quantopian - | 639947c7d5         | daily        |       -2.6 |   -0.3 |  -60.3 |  104.1 |    9.9 |   19   |  -17.1 |        876.6 |               64   |       80 |
+| forum Dual Momentum with Out Days - QuantConnect.com     | 8689604307         | daily        |       -2.9 |   -4.2 |   29.2 |  -32.1 |    7   |   -8.1 |    4.2 |        861.6 |               40.2 |      502 |
+| forum Dual Momentum with Out Days - QuantConnect.com     | 0d613d724b         | daily        |       -3.4 |    1.5 |   17.6 |  -26.9 |    4.1 |  -10.5 |    3.4 |        839.3 |               49.7 |     4611 |
+| forum Using Levered ETFs in IRA - 10 years - 24% CAGR, 1 | 316dcfe1c5         | daily        |       -4   |   -1.7 |  -55.9 |   45   |    9.6 |   21.3 |   -2.4 |        815.3 |               58.5 |      367 |
+| forum Using Levered ETFs in IRA - 10 years - 24% CAGR, 1 | c0caa05e49         | daily        |       -4   |    0.4 |  -55.6 |   44.3 |    8.1 |   17.9 |   -0.5 |        816.6 |               58.1 |      165 |
+| forum Dual Momentum with Out Days - QuantConnect.com     | b3e5c2897b         | daily        |       -5.9 |   -0.6 |   22   |  -31.5 |   -6.6 |   -5.4 |    0.2 |        736.5 |               44.3 |    23344 |
+| forum Dual Momentum with Out Days - QuantConnect.com     | 36bb0852c1         | daily        |       -6.2 |    5.6 |   62.1 |  -28.3 |  -17   |  -20.7 |  -10   |        727.8 |               62.5 |    19968 |
+| forum The In  Out Strategy - Continued from Quantopian - | 47235ae4e0         | daily        |       -6.7 |    0.7 |  -29   |   11.3 |    4   |   -9   |   -6   |        708.7 |               34.5 |       76 |
+| forum Using Levered ETFs in IRA - 10 years - 24% CAGR, 1 | 9fc9eff0f1         | daily        |       -7.8 |   -0.3 |  -68.7 |   69.3 |    9.9 |   25.7 |   -8.7 |        666.4 |               70.7 |      703 |
+| forum Dual Momentum with Out Days - QuantConnect.com     | da872fd8d4         | daily        |       -8   |   -0.6 |   83.6 |  -29.5 |  -28.8 |  -26.1 |   -2.8 |        657.4 |               70.1 |      242 |
+| forum Dual Momentum with Out Days - QuantConnect.com     | b506967692         | daily        |       -8   |   -0.6 |   83.6 |  -29.5 |  -28.8 |  -26.1 |   -2.8 |        657.4 |               70.1 |      242 |
+| forum The In  Out Strategy - Continued from Quantopian - | b22e9072da         | daily        |       -9.6 |   -4.2 |   24.5 |  -19.7 |  -26.8 |  -10.9 |   -3.5 |        602.9 |               57.9 |      610 |
+| forum The In  Out Strategy - Continued from Quantopian - | 38b6a2c222         | daily        |       -9.6 |   -4.2 |   24.5 |  -19.7 |  -26.8 |  -10.9 |   -3.5 |        602.9 |               57.9 |      610 |
+| forum Dual Momentum with Out Days - QuantConnect.com     | b1be3ade25         | daily        |      -10   |   -0.6 |   22   |  -31.5 |  -21.2 |  -15.4 |    6.3 |        589.2 |               59.8 |   116784 |
+| forum The In  Out Strategy - Continued from Quantopian - | 0e209a5b52         | daily        |      -10.2 |   -0.9 |  -25.8 |  -10   |    0.1 |  -13.6 |    2.1 |        583.7 |               47.7 |       53 |
+| forum Using Levered ETFs in IRA - 10 years - 24% CAGR, 1 | bfe58a2e21         | daily        |      -10.2 |    1.4 |  -73.2 |   74.1 |   32.1 |    2.6 |   -8.7 |        585.3 |               75.2 |      580 |
+| forum Dual Momentum with Out Days - QuantConnect.com     | 2d96c1b584         | daily        |      -10.7 |   -0.6 |   22   |  -31.5 |  -26.5 |  -13   |    6.7 |        567.4 |               61.3 |   115800 |
+| forum Dual Momentum with Out Days - QuantConnect.com     | 2b1fc4cda1         | daily        |      -10.7 |   -0.6 |   22   |  -31.5 |  -26.5 |  -13   |    6.7 |        567.4 |               61.3 |   115800 |
+| forum Dual Momentum with Out Days - QuantConnect.com     | 94c1b405ec         | daily        |      -12.1 |    3.1 |   41.3 |  -45.5 |  -17.9 |  -19.8 |    0.2 |        523.9 |               73   |    34113 |
+| forum Dual Momentum with Out Days - QuantConnect.com     | 785bd73267         | daily        |      -12.1 |    3.1 |   41.3 |  -45.5 |  -17.9 |  -19.8 |    0.2 |        523.9 |               73   |    34113 |
+| forum Dual Momentum with Out Days - QuantConnect.com     | 18bc21a9ac         | daily        |      -13.9 |   -0.4 |   66.2 |  -44.3 |  -25.7 |  -25.7 |   -7.2 |        472.6 |               77.8 |      675 |
+| forum The In  Out Strategy - Continued from Quantopian - | b3852c997f         | daily        |      -17.2 |   -1   |  -19.5 |   -7.2 |  -10.2 |  -33   |  -12.7 |        388.6 |               63   |      619 |
+| forum Amazing returns  superior stock selection strateg  | fe719d4b67         | daily        |      -17.4 |   -5.4 |   -8   |  -21   |  -18.1 |  -10.3 |  -23.9 |        384.4 |               61.6 |     1783 |
+| forum Amazing returns  superior stock selection strateg  | 8937472c3f         | daily        |      -17.5 |   -1.6 |  -76.2 |   96.6 |   21.6 |   -7.1 |  -26.6 |        382   |               79.6 |       90 |
+| forum Amazing returns  superior stock selection strateg  | 55ba6bdbeb         | daily        |      -18.2 |    1.5 |  -86   |   71.4 |   29.7 |   27.8 |   -9.3 |        365.5 |               91.5 |      156 |
+| forum Amazing returns  superior stock selection strateg  | ed03383e2f         | daily        |      -19.2 |    2.1 |  -53.5 |  -18.9 |   25.8 |  -19.4 |  -11.7 |        344.8 |               77.3 |       59 |
+| forum Dual Momentum with Out Days - QuantConnect.com     | d71833616f         | daily        |      -21.1 |   -5.3 |    7.1 |  -39.1 |  -30.6 |  -22.6 |   -7.8 |        305.9 |               74.1 |      306 |
+| forum Amazing returns  superior stock selection strateg  | 42cb0e7aea         | daily        |      -22.7 |    3.4 |  -62.6 |   -8.4 |  -13   |    5.6 |  -15.2 |        276.1 |               78.3 |       13 |
+| forum Amazing returns  superior stock selection strateg  | 2b54135926         | daily        |      -25.3 |   -2.8 |  -57.5 |  -22.3 |  -37.7 |   -5.8 |   23.3 |        232.5 |               85.6 |      358 |
+| forum Amazing returns  superior stock selection strateg  | 4115ee0aa3         | daily        |      -25.3 |   -2.8 |  -57.5 |  -22.3 |  -37.7 |   -5.8 |   23.3 |        232.5 |               85.6 |      358 |
+| forum Amazing returns  superior stock selection strategy | b34d9b7dda_fixtqqq | daily        |      -25.9 |    0.2 |  -57.4 |  -22.6 |  -40.8 |   -8.4 |   25.2 |        223.9 |               86.3 |      354 |
+| forum Amazing returns  superior stock selection strateg  | a424f0f66c         | daily        |      -30.1 |   -2.9 |  -81.1 |   13.9 |   29.1 |  -15.9 |  -26.4 |        167.4 |               87.3 |      107 |
+| forum Amazing returns  superior stock selection strateg  | d510466b31         | daily        |      -30.2 |   -2.9 |  -81.6 |   13.9 |   29.1 |  -13.5 |  -27.2 |        165.2 |               87.3 |      112 |
+| forum Amazing returns  superior stock selection strateg  | ca58686291         | daily        |      -35.2 |    2.1 |  -71.7 |  -37.2 |  -21   |   -2.3 |  -18.3 |        114.6 |               91.8 |        7 |
+| forum Amazing returns  superior stock selection strateg  | 84f8a4778f         | daily        |      -39.1 |   -6.2 |  -60.2 |    3.1 |  -30.5 |  -43   |  -44.9 |         84   |               97.6 |       70 |
+| forum Simple RSI mean reversion failed to match Composer | 0f293ac87e         | daily        |      -44.4 |  -25.8 |  -73.2 |   59.9 |  -35.2 |  -48.3 |  -50.2 |         53   |               96.3 |     1604 |
 
 ## forex
 
@@ -117,18 +179,41 @@ Forex strategijas lyginti su 0 % (grynieji), nes valiutų „pirkti ir laikyti�
 Dažniausia priežastis: strategija prekiauja dienos viduryje ir tikrina minutines/valandines kainas, kurių šiems ETF neturime (reikėtų IBKR duomenų).
 
 - F9632 forum Amazing returns  superior stock selection strateg 68267ac216 daily
+- F9597 forum The In  Out Strategy - Continued from Quantopian - c2c5ed51c9 daily
 - F9632 forum Amazing returns  superior stock selection strateg 9edefa25d1 daily
+- F9597 forum The In  Out Strategy - Continued from Quantopian - 865e01ff32 daily
 - 1029 Optimal Pairs Trading e9e74232 hour
+- F9597 forum The In  Out Strategy - Continued from Quantopian - c4743ed8e3 daily
+- F9597 forum The In  Out Strategy - Continued from Quantopian - f674d1b7c6 daily
+- F9597 forum The In  Out Strategy - Continued from Quantopian - af722427fb daily
+- F9597 forum The In  Out Strategy - Continued from Quantopian - 5381a5db93 daily
 - F9632 forum Amazing returns  superior stock selection strateg 668f08eb95 daily
+- F9597 forum The In  Out Strategy - Continued from Quantopian - d0ffb8e49e daily
 - F9632 forum Amazing returns  superior stock selection strateg d7eb6b2089 daily
 - F10039 forum Dual Momentum with Out Days - QuantConnect.com 3aa1830197 daily
 - F9632 forum Amazing returns  superior stock selection strateg 1bb502e471 daily
 - F9632 forum Amazing returns  superior stock selection strateg 8e5ac08df2 daily
+- F12403 forum Who's Wrong - Me or Amibroker? - QuantConnect.com af05ca12b4 daily
+- F9597 forum The In  Out Strategy - Continued from Quantopian - bb54bd49c6 daily
+- F9597 forum The In  Out Strategy - Continued from Quantopian - d3f191d476 daily
 - F9632 forum Amazing returns  superior stock selection strateg 4d3c02f3fc daily
+- F9597 forum The In  Out Strategy - Continued from Quantopian - 1c99cfb9ef daily
+- F9597 forum The In  Out Strategy - Continued from Quantopian - 546342930b daily
+- F9597 forum The In  Out Strategy - Continued from Quantopian - 5148fcd389 daily
+- F9597 forum The In  Out Strategy - Continued from Quantopian - 1ff7d20ba3 daily
+- F9597 forum The In  Out Strategy - Continued from Quantopian - 970bcfd738 daily
 - F9632 forum Amazing returns  superior stock selection strateg 665fbb24e9 daily
+- F9597 forum The In  Out Strategy - Continued from Quantopian - 177ff7b2bc daily
+- F9597 forum The In  Out Strategy - Continued from Quantopian - 7aded014ab daily
+- F9597 forum The In  Out Strategy - Continued from Quantopian - 18f8ed7c67 daily
 - F9632 forum Amazing returns  superior stock selection strateg 6c7e6f68cf daily
+- F9597 forum The In  Out Strategy - Continued from Quantopian - a8ce82604d daily
 - 04 The Dynamic Breakout II Strategy 9b315be0 daily
+- F2403 forum Simple Global Market Rotation Strategy - QuantConn 1e53a047e8 daily
 - F9632 forum Amazing returns  superior stock selection strateg 73c23e66bd daily
+- F9597 forum The In  Out Strategy - Continued from Quantopian - 06385dea1a daily
+- F17091 forum Beat the Market: An Effective Intraday Momentum St af74081228 hour
+- F11895 forum Price Action Long Short SPY ETF Algo - QuantConnec e9d33cc4ec daily
 
 ## Nepavyko paleisti
 

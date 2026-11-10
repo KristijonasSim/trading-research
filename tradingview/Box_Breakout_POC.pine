@@ -1,0 +1,125 @@
+//@version=6
+// Box Breakout POC – ramios kainos dėžės, kurios plečiasi, kol kaina uždaro už jų ribos.
+// Dėžės viduje skaičiuojamas POC (kaina, kur prasuko daugiausiai prekybos apimties) ir Fibonacci lygiai.
+// BUY: uždarymas virš dėžės IR POC viršutinėje dėžės pusėje (pirkėjai jau kaupė aukščiau).
+// Stop – dėžės apačia, tikslas – 2 kartus rizika. Signalas tik iš ilgų (≥ 20 žvakių) dėžių, dėžės nepersidengia.
+// Patikra 12 rinkų (akcijos, ETF, auksas, obligacijos) dienos grafike 2005–2026:
+// BUY (≥ 20 ž. dėžės) vidutiniškai +0,58 rizikos vieneto per sandorį, abiem laikotarpiais vienodai. Lūžiai žemyn buvo nuostolingi,
+// todėl SELL pagal nutylėjimą išjungtas (raudona dėžė = įspėjimas / išėjimas). Kripto 15m/1h – netinka.
+indicator("Box Breakout POC", shorttitle="Box POC", overlay=true, max_boxes_count=200, max_lines_count=400, max_labels_count=200, max_bars_back=500)
+
+W        = input.int(12,   "Dėžės pradžia: žvakių skaičius", minval=4)
+mult     = input.float(2.5, "Dėžė rami, jei aukštis < x ATR", step=0.1)
+atrLen   = input.int(50,   "ATR ilgis")
+rr       = input.float(2.0, "Tikslas (x rizika)", step=0.5)
+minLen   = input.int(20, "Min. dėžės ilgis signalui (žvakės)", minval=5, tooltip="Ilgesnės dėžės – retesni, bet geresni signalai: 12 ž. +0,34R, 15 ž. +0,44R, 20 ž. +0,58R, 25 ž. +0,68R")
+onlyGood = input.bool(true, "Rodyti tik dėžes su signalu")
+needPoc  = input.bool(true, "BUY tik kai POC viršutinėje pusėje")
+showSell = input.bool(false, "Rodyti SELL (short) signalus")
+showFib  = input.bool(true, "Rodyti Fibonacci lygius dėžėje")
+cBox     = input.color(color.new(#9E9E9E, 85), "Formuojama dėžė")
+cUp      = input.color(color.new(#26A69A, 80), "Lūžis aukštyn")
+cDn      = input.color(color.new(#EF5350, 80), "Lūžis žemyn")
+
+atr  = ta.atr(atrLen)
+vAvg = ta.sma(volume, 50)
+hiW  = ta.highest(high, W)
+loW  = ta.lowest(low, W)
+
+var bool  inBox = false
+var int   bStart = na
+var float bHi = na
+var float bLo = na
+var box   bx = na
+var line  pocLn = na
+var line  f382 = na
+var line  f618 = na
+var int   lastEnd = -1
+
+// POC: kainos lygis su didžiausia apimtimi dėžėje (20 lygių)
+calcPoc(int n, float top, float bot) =>
+    bins = array.new_float(20, 0.0)
+    step = (top - bot) / 20
+    for k = 1 to math.min(n, 450)
+        idx = step > 0 ? math.min(19, math.max(0, int((hlc3[k] - bot) / step))) : 0
+        array.set(bins, idx, array.get(bins, idx) + nz(volume[k]))
+    bot + (array.indexof(bins, array.max(bins)) + 0.5) * step
+
+drawInside(int s, float top, float bot, float poc) =>
+    a = line.new(s, poc, bar_index, poc, color=color.new(#FFD54F, 0), style=line.style_dashed, width=2)
+    b = showFib ? line.new(s, bot + (top - bot) * 0.382, bar_index, bot + (top - bot) * 0.382, color=color.new(color.silver, 70), style=line.style_dotted) : na
+    c = showFib ? line.new(s, bot + (top - bot) * 0.618, bar_index, bot + (top - bot) * 0.618, color=color.new(color.silver, 70), style=line.style_dotted) : na
+    [a, b, c]
+
+buySig  = false
+sellSig = false
+
+if inBox
+    if close > bHi or close < bLo
+        n    = bar_index - bStart
+        poc  = calcPoc(n, bHi, bLo)
+        pPos = (poc - bLo) / math.max(bHi - bLo, syminfo.mintick)
+        up   = close > bHi
+        vr   = volume / math.max(vAvg, 1)
+        box.set_right(bx, bar_index)
+        box.set_bgcolor(bx, up ? cUp : cDn)
+        box.set_border_color(bx, up ? color.new(#26A69A, 30) : color.new(#EF5350, 30))
+        line.delete(pocLn)
+        line.delete(f382)
+        line.delete(f618)
+        [a1, b1, c1] = drawInside(bStart, bHi, bLo, poc)
+        info = "POC " + (pPos > 0.5 ? "▲" : "▼") + " · " + str.tostring(n) + " žv. · apimtis x" + str.tostring(vr, "#.#")
+        box.set_text(bx, info)
+        box.set_text_color(bx, color.new(color.white, 40))
+        box.set_text_size(bx, size.tiny)
+        box.set_text_halign(bx, text.align_left)
+        box.set_text_valign(bx, text.align_top)
+        good = up and (not needPoc or pPos > 0.5) and n >= minLen
+        goodS = not up and showSell and (not needPoc or pPos < 0.5) and n >= minLen
+        if good
+            buySig := true
+            risk = close - bLo
+            line.new(bar_index, bLo, bar_index + math.max(n, 10), bLo, color=color.new(#EF5350, 20), width=1)
+            line.new(bar_index, close + rr * risk, bar_index + math.max(n, 10), close + rr * risk, color=color.new(#26A69A, 20), width=1)
+            label.new(bar_index, low, "BUY", style=label.style_label_up, color=#26A69A, textcolor=color.white, size=size.small,
+                 tooltip="Stop " + str.tostring(bLo, format.mintick) + " · tikslas " + str.tostring(close + rr * risk, format.mintick))
+        else if goodS
+            sellSig := true
+            risk = bHi - close
+            line.new(bar_index, bHi, bar_index + math.max(n, 10), bHi, color=color.new(#EF5350, 20), width=1)
+            line.new(bar_index, close - rr * risk, bar_index + math.max(n, 10), close - rr * risk, color=color.new(#26A69A, 20), width=1)
+            label.new(bar_index, high, "SELL", style=label.style_label_down, color=#EF5350, textcolor=color.white, size=size.small,
+                 tooltip="Stop " + str.tostring(bHi, format.mintick) + " · tikslas " + str.tostring(close - rr * risk, format.mintick))
+        if onlyGood and not good and not goodS
+            box.delete(bx)
+            line.delete(a1)
+            line.delete(b1)
+            line.delete(c1)
+        inBox := false
+        lastEnd := bar_index
+        pocLn := na
+        f382 := na
+        f618 := na
+    else
+        bHi := math.max(bHi, high)
+        bLo := math.min(bLo, low)
+        box.set_top(bx, bHi)
+        box.set_bottom(bx, bLo)
+        box.set_right(bx, bar_index)
+        if barstate.islast
+            line.delete(pocLn)
+            line.delete(f382)
+            line.delete(f618)
+            [a2, b2, c2] = drawInside(bStart, bHi, bLo, calcPoc(bar_index - bStart + 1, bHi, bLo))
+            pocLn := a2
+            f382 := b2
+            f618 := c2
+else if not na(atr) and hiW - loW < mult * atr and not buySig and not sellSig and bar_index - W + 1 > lastEnd
+    inBox  := true
+    bStart := bar_index - W + 1
+    bHi    := hiW
+    bLo    := loW
+    bx     := box.new(bStart, bHi, bar_index, bLo, border_color=color.new(#9E9E9E, 50), bgcolor=cBox)
+
+alertcondition(buySig,  "Box BUY",  "Box Breakout POC: BUY – lūžis virš dėžės")
+alertcondition(sellSig, "Box SELL", "Box Breakout POC: SELL – lūžis žemiau dėžės")

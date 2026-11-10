@@ -1,0 +1,1 @@
+A simple vix etf strategy - QuantConnect.com

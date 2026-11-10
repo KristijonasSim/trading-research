@@ -1,0 +1,108 @@
+//@version=6
+// AI Forecast Cone – save kalibruojanti kainos prognozės vėduoklė
+// Ką daro: nubrėžia į ateitį, kur kaina bus per artimiausias N žvakių su 50 % ir 80 % tikimybe.
+// AI dalis: modelis mokosi iš kiekvienos naujos žvakės (online kvantilių mokymasis / conformal prediction):
+// jei kaina išėjo už ribos – riba platėja, jei liko viduje – siaurėja. Viršutinė ir apatinė ribos mokosi atskirai,
+// todėl vėduoklė pasvyra pagal tai, kur rinka iš tikrųjų juda. Ateities duomenų nenaudoja.
+// Patikra 19 rinkų (akcijos, ETF, auksas, BTC, ETH), 2008–2026: 80 % riba pataikė 78–83 % kiekvienoje rinkoje.
+indicator("AI Forecast Cone", shorttitle="AI Cone", overlay=true, max_polylines_count=10, max_labels_count=50, max_lines_count=50)
+
+H        = input.int(10, "Prognozės horizontas (žvakės)", minval=2, maxval=60)
+atrLen   = input.int(14, "Svyravimo ilgis (ATR)")
+learn    = input.float(0.01, "Mokymosi greitis", step=0.005, minval=0.001)
+showGhost = input.bool(true, "Rodyti senas prognozes (ar pataikė)")
+showBadge = input.bool(false, "Rodyti AI tikslumą")
+cOuter   = input.color(color.new(#7E57C2, 82), "80 % zona")
+cInner   = input.color(color.new(#7E57C2, 62), "50 % zona")
+cMid     = input.color(color.new(#B39DDB, 0),  "Tikėtiniausias kelias")
+
+// ── Mastelis: kiek kaina paprastai pajuda per H žvakių
+base = ta.atr(atrLen) / close * math.sqrt(H)
+
+// ── Online mokymasis (kvantiliai): 4 ribos – 80 % ir 50 %, viršus ir apačia atskirai
+var float kU80 = 1.28
+var float kD80 = 1.28
+var float kU50 = 0.67
+var float kD50 = 0.67
+var int   nAll = 0
+var int   n80  = 0
+var int   n50  = 0
+
+if bar_index > H + atrLen and not na(base[H])
+    z = math.log(close / close[H]) / base[H]         // kaip toli nuėjo kaina, lyginant su prognoze
+    // ar pataikė prognozė, padaryta prieš H žvakių (su tuometinėmis ribomis)
+    nAll += 1
+    n80  += (z < kU80[H] and z > -kD80[H]) ? 1 : 0
+    n50  += (z < kU50[H] and z > -kD50[H]) ? 1 : 0
+    // mokymasis: išėjo už ribos -> platinti, liko viduje -> siaurinti
+    kU80 += learn * ((z >  kU80 ? 1 : 0) - 0.10)
+    kD80 += learn * ((z < -kD80 ? 1 : 0) - 0.10)
+    kU50 += learn * ((z >  kU50 ? 1 : 0) - 0.25)
+    kD50 += learn * ((z < -kD50 ? 1 : 0) - 0.25)
+    kU80 := math.max(kU80, kU50 + 0.05)
+    kD80 := math.max(kD80, kD50 + 0.05)
+    kU50 := math.max(kU50, 0.05)
+    kD50 := math.max(kD50, 0.05)
+
+// ── Senos prognozės: kur prieš H žvakių AI sakė būsiant 80 % ribas (taškai)
+ghostU = close[H] * math.exp( kU80[H] * base[H])
+ghostD = close[H] * math.exp(-kD80[H] * base[H])
+plot(showGhost ? ghostU : na, "Sena prognozė: viršus", color=color.new(#7E57C2, 55), style=plot.style_circles, linewidth=1)
+plot(showGhost ? ghostD : na, "Sena prognozė: apačia", color=color.new(#7E57C2, 55), style=plot.style_circles, linewidth=1)
+
+// ── Vėduoklė į ateitį (piešiama tik ant paskutinės žvakės)
+f(k, h) => close * math.exp(k * base * math.sqrt(float(h) / H))
+
+var polyline pOuter = na
+var polyline pInner = na
+var polyline pMid   = na
+var label    lU     = na
+var label    lD     = na
+var label    lM     = na
+var label    lB     = na
+
+if barstate.islast
+    polyline.delete(pOuter)
+    polyline.delete(pInner)
+    polyline.delete(pMid)
+    label.delete(lU)
+    label.delete(lD)
+    label.delete(lM)
+    label.delete(lB)
+    outer = array.new<chart.point>()
+    inner = array.new<chart.point>()
+    mid   = array.new<chart.point>()
+    for h = 0 to H
+        array.push(outer, chart.point.from_index(bar_index + h, f(kU80, h)))
+        array.push(inner, chart.point.from_index(bar_index + h, f(kU50, h)))
+        array.push(mid,   chart.point.from_index(bar_index + h, f((kU50 - kD50) / 2, h)))
+    for h = H to 0
+        array.push(outer, chart.point.from_index(bar_index + h, f(-kD80, h)))
+        array.push(inner, chart.point.from_index(bar_index + h, f(-kD50, h)))
+    pOuter := polyline.new(outer, curved=true, closed=true, line_color=color.new(#7E57C2, 40), fill_color=cOuter, line_width=1)
+    pInner := polyline.new(inner, curved=true, closed=true, line_color=color.new(#7E57C2, 100), fill_color=cInner)
+    pMid   := polyline.new(mid, curved=true, line_color=cMid, line_style=line.style_dashed, line_width=2)
+    up80 = f(kU80, H)
+    dn80 = f(-kD80, H)
+    md   = f((kU50 - kD50) / 2, H)
+    lU := label.new(bar_index + H, up80, "▲ " + str.tostring(up80, format.mintick) + "  (" + str.tostring((up80 / close - 1) * 100, "+#.#") + " %)",
+         style=label.style_label_left, color=color.new(color.black, 100), textcolor=#B39DDB, size=size.small,
+         tooltip="Su 80 % tikimybe per " + str.tostring(H) + " žvakių kaina nebus aukščiau (10 % šansas būti virš)")
+    lD := label.new(bar_index + H, dn80, "▼ " + str.tostring(dn80, format.mintick) + "  (" + str.tostring((dn80 / close - 1) * 100, "#.#") + " %)",
+         style=label.style_label_left, color=color.new(color.black, 100), textcolor=#B39DDB, size=size.small,
+         tooltip="10 % šansas, kad per " + str.tostring(H) + " žvakių kaina bus žemiau – tinka stop vietai")
+    lM := label.new(bar_index + H, md, "◆ " + str.tostring(md, format.mintick),
+         style=label.style_label_left, color=color.new(color.black, 100), textcolor=color.white, size=size.small,
+         tooltip="Tikėtiniausia kaina (vidurys tarp 50 % ribų)")
+    if showBadge and nAll > 0
+        hit80 = n80 * 100.0 / nAll
+        hit50 = n50 * 100.0 / nAll
+        skew  = kU50 - kD50
+        lean  = skew > 0.05 ? "pasvirusi aukštyn" : skew < -0.05 ? "pasvirusi žemyn" : "simetriška"
+        lB := label.new(bar_index + H + 2, (up80 + dn80) / 2,
+             "AI\n80 % zona pataikė " + str.tostring(hit80, "#") + " %\n50 % zona pataikė " + str.tostring(hit50, "#") + " %\nVėduoklė " + lean,
+             style=label.style_label_left, color=color.new(#311B92, 15), textcolor=color.white, size=size.small,
+             tooltip="Kiek kartų praeityje šio grafiko kaina iš tikrųjų liko AI zonoje (" + str.tostring(nAll) + " patikrinimų). Arti 80 % / 50 % = AI sukalibruotas.")
+
+alertcondition(close > ghostU, "Kaina virš AI 80 % ribos", "Kaina išėjo virš AI prognozės – neįprastai stiprus judesys aukštyn")
+alertcondition(close < ghostD, "Kaina žemiau AI 80 % ribos", "Kaina išėjo žemiau AI prognozės – neįprastai stiprus kritimas")

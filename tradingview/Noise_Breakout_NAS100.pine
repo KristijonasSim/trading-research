@@ -1,0 +1,173 @@
+//@version=6
+// Noise Breakout (triukšmo zonos proveržis) – dienos prekyba NAS100, 15 min. (arba 5 min.) grafikas.
+// Šaltinis: Zarattini, Aziz, Barbon (2024) "Beat the Market: An Effective Intraday Momentum
+// Strategy for SPY", SSRN 4824172. Perkelta be pakeitimų, tik JAV prekybos valandos.
+// Testas (Dukascopy NAS100 5m, 2021-03 – 2026-11, 1x, spread 0,003 % į pusę):
+//   kas 30 min.: +12 %/m., kritimas 10 %. Kas 60 min.: 2021–24 +15 %/m. (kritimas 5,6 %), 2025–26 +7,7 %/m. (6,5 %).
+//   Laikyti NAS100: +14 %/m., kritimas 38 %. Žr. tradingview/scalp_test/REZULTATAI.md
+//
+// Taisyklės:
+//  - Ribos: viršutinė = max(dienos open, vakar close) × (1 + σ), apatinė = min(...) × (1 − σ),
+//    σ = vidutinis |kaina / dienos open − 1| tuo pačiu dienos laiku per 14 dienų.
+//  - Tikrinama kas 60 min. (10:00, 11:00, … NY laiku; straipsnyje kas 30): uždarymas virš viršutinės → BUY, žemiau apatinės → SELL (short).
+//  - Stop seka: long – max(viršutinė riba, VWAP), short – min(apatinė riba, VWAP); tikrinama tik kas 30 min.
+//  - Visos pozicijos uždaromos 16:00 NY. Raudona linija = SL (pasislenka patikrinimo metu), žalia = TP orientyras.
+indicator("Noise Breakout NAS100", overlay = true, max_labels_count = 500, max_lines_count = 500)
+
+sessStr   = input.session("0930-1600", "Prekybos valandos (NY laikas)")
+lookback  = input.int(14, "Dienų vidurkiui (σ)", minval = 2)
+step      = input.int(60, "Tikrinti kas min.", minval = 5, tooltip = "60 = stabiliau (mažiau klaidingų signalų). Straipsnio originalas 30.")
+firstChk  = input.int(30, "Pirmas tikrinimas po atidarymo, min.", minval = 5)
+longOnly  = input.bool(false, "Tik BUY (be short)")
+tpPct     = input.float(0.5, "TP linija, % nuo įėjimo", step = 0.05, tooltip = "0,5 % = vidutinis pelningas sandoris 2021–2026") / 100
+tpExit    = input.bool(false, "Uždaryti pasiekus TP", tooltip = "Išjungta = kaip testuota: TP linija tik orientyras, uždaro sekantis SL arba 16:00. Įjungta = netestuota.")
+feePct    = input.float(0.003, "Spread/mokestis % į vieną pusę", step = 0.001) / 100
+showBands = input.bool(false, "Rodyti ribas ir VWAP")
+showTable = input.bool(true, "Rodyti suvestinę")
+
+tz      = "America/New_York"
+tfMin   = timeframe.in_seconds() / 60
+nCols   = math.max(1, int(math.round(390 / tfMin)))
+inS     = not na(time(timeframe.period, sessStr, tz))
+dayNY   = dayofmonth(time, tz)
+newDay  = inS and (not inS[1] or dayNY != dayNY[1])
+openMin = hour(time, tz) * 60 + minute(time, tz)
+closeMin = hour(time_close, tz) * 60 + minute(time_close, tz)
+isLast  = inS and closeMin >= 960
+j       = math.min(nCols - 1, math.max(0, int((openMin - 570) / tfMin)))
+
+var array<float> hist  = array.new_float()
+var array<float> today = array.new_float()
+var int   nDays    = 0
+var float dayOpen  = na
+var float prevClose = na
+var float lastSess = na
+var float cumPV    = 0.0
+var float cumV     = 0.0
+var bool  fullDay  = false
+
+if newDay
+    // vakar dienos judėjimai į istoriją
+    if today.size() == nCols and fullDay
+        hist.concat(today)
+        nDays += 1
+        if nDays > lookback
+            for _i = 0 to nCols - 1
+                hist.shift()
+            nDays -= 1
+    today    := array.new_float(nCols, na)
+    fullDay  := openMin == 570
+    prevClose := lastSess
+    dayOpen  := open
+    cumPV    := 0.0
+    cumV     := 0.0
+
+float sigma = na
+float upB   = na
+float loB   = na
+float vwap  = na
+if inS and not na(dayOpen)
+    today.set(j, math.abs(close / dayOpen - 1))
+    lastSess := close
+    v = nz(volume) > 0 ? volume : 1.0
+    cumPV += hlc3 * v
+    cumV  += v
+    vwap := cumPV / cumV
+    if nDays >= lookback and not na(prevClose)
+        float sum = 0.0
+        int cnt = 0
+        for d = 0 to nDays - 1
+            x = hist.get(d * nCols + j)
+            if not na(x)
+                sum += x
+                cnt += 1
+        if cnt > 0
+            sigma := sum / cnt
+            upB := math.max(dayOpen, prevClose) * (1 + sigma)
+            loB := math.min(dayOpen, prevClose) * (1 - sigma)
+
+// ---------- Pozicija ----------
+var int   pos     = 0
+var float entry   = na
+var int   nTrades = 0
+var int   nWins   = 0
+var float equity  = 1.0
+
+isCheck = inS and ((closeMin % step == 0 and closeMin >= 570 + firstChk) or isLast)
+
+var line  slL   = na
+var line  tpL   = na
+var float slVal = na
+var float tpLvl = na
+
+doExit(float px) =>
+    r = pos * (px / entry - 1) - 2 * feePct
+    win = r > 0
+    label.new(bar_index, pos == 1 ? high : low, win ? "✓ Pelnas" : "✗ Nuostolis", style = pos == 1 ? label.style_label_down : label.style_label_up, color = win ? color.new(color.teal, 0) : color.new(color.red, 0), textcolor = color.white, size = size.small, tooltip = (r >= 0 ? "+" : "") + str.tostring(r * 100, "#.##") + "%  @ " + str.tostring(px, format.mintick))
+    line.set_x2(slL, bar_index)
+    line.set_x2(tpL, bar_index)
+    r
+
+// TP tarp patikrinimų (tik jei įjungta)
+if pos != 0 and tpExit and barstate.isconfirmed and not isCheck
+    hit = pos == 1 ? high >= tpLvl : low <= tpLvl
+    if hit
+        px = pos == 1 ? math.max(open, tpLvl) : math.min(open, tpLvl)
+        r = doExit(px)
+        nTrades += 1
+        nWins   += r > 0 ? 1 : 0
+        equity  *= 1 + r
+        pos := 0
+
+if pos != 0
+    line.set_x2(slL, bar_index)
+    line.set_x2(tpL, bar_index)
+
+if isCheck and barstate.isconfirmed and not na(upB)
+    // uždarymas: sekantis stop, TP (jei įjungta) arba 16:00
+    tpHit = tpExit and pos != 0 and (pos == 1 ? high >= tpLvl : low <= tpLvl)
+    if (pos == 1 and (close < math.max(upB, vwap) or isLast or tpHit)) or (pos == -1 and (close > math.min(loB, vwap) or isLast or tpHit))
+        r = doExit(tpHit ? tpLvl : close)
+        nTrades += 1
+        nWins   += r > 0 ? 1 : 0
+        equity  *= 1 + r
+        pos := 0
+    // įėjimas
+    if pos == 0 and not isLast
+        if close > upB
+            pos := 1
+        else if close < loB and not longOnly
+            pos := -1
+        if pos != 0
+            entry := close
+            slVal := pos == 1 ? math.max(upB, vwap) : math.min(loB, vwap)
+            tpLvl := entry * (1 + pos * tpPct)
+            label.new(bar_index, pos == 1 ? low : high, pos == 1 ? "BUY" : "SELL", style = pos == 1 ? label.style_label_up : label.style_label_down, color = pos == 1 ? color.green : color.red, textcolor = color.white, size = size.small, tooltip = "Įėjimas " + str.tostring(entry, format.mintick) + "\nSL " + str.tostring(slVal, format.mintick) + "\nTP " + str.tostring(tpLvl, format.mintick))
+            slL := line.new(bar_index, slVal, bar_index, slVal, color = color.red, width = 2)
+            tpL := line.new(bar_index, tpLvl, bar_index, tpLvl, color = color.lime, width = 2)
+    // stop'as pasislenka tik patikrinimo metu
+    else if pos != 0
+        nst = pos == 1 ? math.max(upB, vwap) : math.min(loB, vwap)
+        if nst != slVal
+            slVal := nst
+            line.set_y1(slL, slVal)
+            line.set_y2(slL, slVal)
+
+// ---------- Vaizdas ----------
+plot(showBands and inS ? upB : na, "Viršutinė riba", color.new(color.green, 70), style = plot.style_linebr)
+plot(showBands and inS ? loB : na, "Apatinė riba", color.new(color.red, 70), style = plot.style_linebr)
+plot(showBands and inS ? vwap : na, "VWAP", color.new(color.orange, 60), style = plot.style_linebr)
+
+alertcondition(isCheck and pos[1] == 0 and pos == 1, "BUY", "Noise Breakout BUY {{ticker}} {{close}}")
+alertcondition(isCheck and pos[1] == 0 and pos == -1, "SELL", "Noise Breakout SELL {{ticker}} {{close}}")
+
+if showTable and barstate.islast
+    var table t = table.new(position.top_right, 2, 4, bgcolor = color.new(color.black, 20), border_width = 1)
+    table.cell(t, 0, 0, "Sandoriai", text_color = color.white)
+    table.cell(t, 1, 0, str.tostring(nTrades), text_color = color.white)
+    table.cell(t, 0, 1, "Laimi %", text_color = color.white)
+    table.cell(t, 1, 1, nTrades > 0 ? str.tostring(nWins * 100.0 / nTrades, "#.#") : "-", text_color = color.white)
+    table.cell(t, 0, 2, "Iš viso %", text_color = color.white)
+    table.cell(t, 1, 2, str.tostring((equity - 1) * 100, "#.##"), text_color = equity >= 1 ? color.lime : color.red)
+    okTf = timeframe.period == "5" or timeframe.period == "15"
+    table.cell(t, 0, 3, not okTf ? "Įjunk 15m!" : nDays >= lookback ? "Paruošta ✓" : "Kaupia " + str.tostring(nDays) + "/" + str.tostring(lookback) + " d.", text_color = okTf and nDays >= lookback ? color.lime : color.orange)

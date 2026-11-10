@@ -71,3 +71,13 @@ Išvada: dienos prekybai netinka. Short pusė visada blogina. 15m/5m duomenų ti
 ## 22 ETF / indeksai, variantas B (2026-11-09) → `results/trend_konsensusas_etf.csv`
 - 10 m. laimi prieš laikymą 9/22: XLK, QQQ, NAS100, SPY, VTI, S&P500, EWJ, FXI, TLT. Visada mažesnis kritimas JAV indeksuose (−25 % vs −35 %).
 - Pralaimi: SMH, ARKK, XBI, XLE, XLF, XLV, Europa, besivystančios. Tinka stipriai kylantiems JAV indeksams.
+
+## Svertiniai ETF, signalas iš QQQ/SPY, 10 m. (2026-11-09; supaprastinta – uždarymo kainomis)
+| ETF | Ind. %/m. | Kritimas | Laikant %/m. | Kritimas |
+|---|---|---|---|---|
+| QQQ | 20,6 | −28 | 19,7 | −35 |
+| QLD 2x | 35,2 | −50 | 30,7 | −64 |
+| TQQQ 3x | 46,7 | −66 | 36,2 | −82 |
+| SPY | 15,3 | −28 | 15,0 | −34 |
+| SSO 2x | 25,1 | −50 | 22,9 | −59 |
+| UPRO 3x | 33,2 | −66 | 27,9 | −77 |

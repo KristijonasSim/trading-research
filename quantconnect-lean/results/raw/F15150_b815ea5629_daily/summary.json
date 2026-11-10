@@ -1,0 +1,21 @@
+{
+  "strategy": "F15150 forum Weekly Sector rotation Trend Following Strategy - ",
+  "variant": "b815ea5629",
+  "resolution": "daily",
+  "final_usdt": 1002.6,
+  "total_return_pct": 0.3,
+  "cagr_pct": 0.1,
+  "yearly_pct": {
+    "2021": 0.8,
+    "2022": -13.3,
+    "2023": 8.4,
+    "2024": 7.8,
+    "2025": 1.1,
+    "2026": -2.8
+  },
+  "max_drawdown_pct": 22.0,
+  "trades": 141,
+  "fees": "$4477.54",
+  "first_day": "2021-11-08",
+  "last_day": "2026-11-06"
+}

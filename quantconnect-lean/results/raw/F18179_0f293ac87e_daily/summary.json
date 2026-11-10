@@ -1,0 +1,21 @@
+{
+  "strategy": "F18179 forum Simple RSI mean reversion failed to match Composer",
+  "variant": "0f293ac87e",
+  "resolution": "daily",
+  "final_usdt": 53.0,
+  "total_return_pct": -94.7,
+  "cagr_pct": -44.4,
+  "yearly_pct": {
+    "2021": -25.8,
+    "2022": -73.2,
+    "2023": 59.9,
+    "2024": -35.2,
+    "2025": -48.3,
+    "2026": -50.2
+  },
+  "max_drawdown_pct": 96.3,
+  "trades": 1604,
+  "fees": "$2546.99",
+  "first_day": "2021-11-08",
+  "last_day": "2026-11-06"
+}

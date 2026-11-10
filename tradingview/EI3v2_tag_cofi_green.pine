@@ -1,0 +1,198 @@
+//@version=6
+// EI3v2_tag_cofi_green: Freqtrade strategijos perkėlimas į TradingView (tik peržiūrai).
+// Originalas: keithorange/HUGE_FreqTrade_Strategy_Collection (@Rallipanos, IcHiAT).
+// Naudoti 5 min. grafike. Rodo BUY su tikėtinu TP ir SELL su rezultatu. Viena pozicija vienu metu.
+// Visos % ribos (kritimas nuo vidurkio, TP, unclog) dauginamos iš „mastelio“ k:
+//   k = tipinis šio grafiko 5m žvakės dydis / altcoin'ų 5m žvakės dydis (0,26 %).
+//   Altcoin'ams k ≈ 1 (originalas), NAS100 ≈ 0,3. Tai pritaikymas, NE testuotas originalas.
+indicator("EI3v2 BUY/SELL", overlay = true, max_labels_count = 500, max_lines_count = 500, max_bars_back = 1500)
+
+// ---------- Rinka ----------
+g0 = "Rinka"
+kMode    = input.string("Auto", "Mastelis", options = ["Auto", "Originalas (kripto)", "Rankinis"], group = g0)
+kManual  = input.float(0.3, "Rankinis mastelis", step = 0.05, group = g0)
+refRange = input.float(0.26, "Altcoin'ų 5m žvakė % (atskaita)", step = 0.01, group = g0)
+fltMode  = input.string("Auto", "Rinkos filtras", options = ["Auto", "BTC", "Pats grafikas", "Išjungtas"], group = g0, tooltip = "Auto: kripto – BTC, kita – pats grafikas")
+btcSym   = input.symbol("BINANCE:BTCUSDT", "BTC simbolis", group = g0)
+feeIn    = input.float(-1, "Mokestis % vienai pusei (-1 = auto)", step = 0.01, group = g0, tooltip = "Auto: kripto 0,1 %, kita 0,02 %")
+
+isCrypto = syminfo.type == "crypto"
+rngPct   = (high - low) / close * 100
+medRange = ta.percentile_nearest_rank(rngPct, 1000, 50)
+kAuto    = na(medRange) ? ta.sma(rngPct, 50) / refRange : medRange / refRange
+k        = kMode == "Originalas (kripto)" ? 1.0 : kMode == "Rankinis" ? kManual : math.max(0.05, math.min(2.0, nz(kAuto, 1.0)))
+sc(float off) => 1 + (off - 1) * k
+
+// ---------- Nustatymai (originalo reikšmės, kai k = 1) ----------
+g1 = "Pirkimas"
+baseBuy  = input.int(12, "EMA pirkimui", group = g1)
+baseSell = input.int(22, "EMA pardavimui", group = g1)
+lowOff0  = input.float(0.987, "low_offset", step = 0.001, group = g1)
+highOff0 = input.float(1.014, "high_offset", step = 0.001, group = g1)
+highOf20 = input.float(1.01, "high_offset_2", step = 0.001, group = g1)
+ewoHigh0 = input.float(3.001, "ewo_high", group = g1)
+ewoLow0  = input.float(-10.289, "ewo_low", group = g1)
+rsiBuy   = input.int(58, "rsi_buy", group = g1)
+l2Ema0   = input.float(0.981, "lambo2 EMA14 koef.", step = 0.001, group = g1)
+l2Rsi4   = input.int(44, "lambo2 RSI4 riba", group = g1)
+l2Rsi14  = input.int(39, "lambo2 RSI14 riba", group = g1)
+cofiEma0 = input.float(0.98, "cofi EMA8 koef.", step = 0.001, group = g1)
+cofiK    = input.int(22, "cofi fastk", group = g1)
+cofiD    = input.int(20, "cofi fastd", group = g1)
+cofiAdx  = input.int(20, "cofi ADX", group = g1)
+cofiEwo0 = input.float(4.179, "cofi EWO", group = g1)
+
+g2 = "Apsaugos"
+fltRsiMin = input.float(35, "Nepirkti, jei filtro 1h RSI(8) žemiau", group = g2)
+pndMult  = input.float(5.0, "Pump/dump: apimties šuolis kartų", group = g2)
+cooldown = input.int(5, "Pauzė po pardavimo (žvakės)", group = g2)
+
+g3 = "Pardavimas"
+trailOff0  = input.float(1.2, "Trailing įsijungia nuo pelno %", step = 0.1, group = g3)
+trailDist0 = input.float(0.1, "Trailing atstumas %", step = 0.05, group = g3)
+sigMin0    = input.float(1.0, "SELL signalas tik nuo pelno %", step = 0.1, group = g3)
+unclog0    = input.float(-4.0, "Unclog: nuostolis %", step = 0.5, group = g3)
+unclogDays = input.int(4, "Unclog: po dienų", group = g3)
+showTable  = input.bool(true, "Rodyti suvestinę", group = g3)
+
+// Pritaikytos ribos
+lowOff   = sc(lowOff0)
+highOff  = sc(highOff0)
+highOff2 = sc(highOf20)
+l2Ema    = sc(l2Ema0)
+cofiEma  = sc(cofiEma0)
+ewoHigh  = ewoHigh0 * k
+ewoLow   = ewoLow0 * k
+cofiEwo  = cofiEwo0 * k
+trailOff  = trailOff0 * k / 100
+trailDist = trailDist0 * k / 100
+sigMinPft = sigMin0 * k / 100
+unclogPct = unclog0 * k / 100
+feePct    = (feeIn >= 0 ? feeIn : isCrypto ? 0.1 : 0.02) / 100
+
+// ---------- Indikatoriai ----------
+emaBuy  = ta.ema(close, baseBuy)
+emaSell = ta.ema(close, baseSell)
+hma50   = ta.hma(close, 50)
+ewo     = (ta.ema(close, 50) - ta.ema(close, 200)) / close * 100
+rsi14   = ta.rsi(close, 14)
+rsi4    = ta.rsi(close, 4)
+rsi20   = ta.rsi(close, 20)
+ema14   = ta.ema(close, 14)
+ema8    = ta.ema(close, 8)
+fastk   = ta.stoch(close, high, low, 5)
+fastd   = ta.sma(fastk, 3)
+[_dip, _dim, adx] = ta.dmi(14, 14)
+
+// Apimtis: jei šaltinis jos neduoda (kai kurie CFD), apimties sąlygos išjungiamos
+noVol    = ta.cum(nz(volume)) == 0
+volOk    = noVol or volume > 0
+volShort = ta.sma(volume, 4)
+volLong  = ta.sma(volume, 48)[288]
+pndWarn  = not noVol and volLong > 0 and volShort / volLong > pndMult
+
+// Rinkos filtras: 1h RSI(8), tik užsidariusi valanda (be žvilgsnio į ateitį)
+useFlt = fltMode != "Išjungtas"
+fltSym = fltMode == "BTC" or (fltMode == "Auto" and isCrypto) ? btcSym : syminfo.tickerid
+fltRsi = request.security(fltSym, "60", ta.rsi(close, 8)[1], lookahead = barmerge.lookahead_on)
+
+// ---------- Pirkimo sąlygos ----------
+lambo2 = close < ema14 * l2Ema and rsi4 < l2Rsi4 and rsi14 < l2Rsi14
+buy1 = rsi4 < 35 and close < emaBuy * lowOff and ewo > ewoHigh and rsi14 < rsiBuy and volOk and close < emaSell * highOff
+buy2 = rsi4 < 35 and close < emaBuy * lowOff and ewo < ewoLow and volOk and close < emaSell * highOff
+kUp  = fastk > fastd and fastk[1] <= fastd[1]
+cofi = open < ema8 * cofiEma and kUp and fastk < cofiK and fastd < cofiD and adx > cofiAdx and ewo > cofiEwo
+
+rawSig = lambo2 or buy1 or buy2 or cofi
+buySig = rawSig and not pndWarn and not (useFlt and fltRsi < fltRsiMin)
+// Pilkas trikampis: signalas buvo, bet jį užblokavo rinkos filtras arba pump/dump filtras
+plotshape(rawSig and not buySig, "Užblokuotas signalas", shape.triangleup, location.belowbar, color.new(color.gray, 30), size = size.tiny)
+
+// ---------- Pardavimo signalas ----------
+sellSig = volOk and rsi4 > rsi20 and ((close > hma50 and close > emaSell * highOff2 and rsi14 > 50) or (close < hma50 and close > emaSell * highOff))
+
+// ---------- Pozicijos sekimas ----------
+pft(float p, float e) =>
+    (p * (1 - feePct) - e * (1 + feePct)) / (e * (1 + feePct))
+
+var bool  inPos    = false
+var bool  pending  = false
+var float entry    = na
+var int   entryT   = na
+var float maxP     = na
+var float tpPrice  = na
+var int   lastExit = -100000
+var line  tpLine   = na
+var int   nTrades  = 0
+var int   nWins    = 0
+var float equity   = 1.0
+
+// Įėjimas kitos žvakės atidarymo kaina (kaip Freqtrade)
+if pending
+    pending := false
+    inPos   := true
+    entry   := open
+    entryT  := time
+    maxP    := open
+    tpPrice := entry * (1 + feePct) * (1 + trailOff) / (1 - feePct)
+    label.new(bar_index, low, "BUY " + str.tostring(entry, format.mintick) + "\nTP " + str.tostring(tpPrice, format.mintick) + " (+" + str.tostring((tpPrice / entry - 1) * 100, "#.##") + "%)", style = label.style_label_up, color = color.new(color.green, 0), textcolor = color.white, size = size.small)
+    tpLine := line.new(bar_index, tpPrice, bar_index, tpPrice, color = color.green, style = line.style_dashed, width = 1)
+
+if inPos
+    bool  doExit = false
+    float exitP  = na
+    string why   = ""
+    line.set_x2(tpLine, bar_index)
+    // 1) Trailing stop, kai pelnas pasiekė ribą
+    // a) jau įsijungęs anksčiau, o žvakė atsidarė žemiau stop'o
+    if maxP >= tpPrice and open <= maxP * (1 - trailDist)
+        doExit := true
+        exitP  := open
+        why    := "TP"
+    // b) šios žvakės metu pasiektas naujas aukštis ir atšokta
+    if not doExit
+        maxP := math.max(maxP, high)
+        if maxP >= tpPrice
+            stopP = maxP * (1 - trailDist)
+            if low <= stopP
+                doExit := true
+                exitP  := stopP
+                why    := "TP"
+    // 2) Pardavimo signalas, jei pelnas pakankamas
+    if not doExit and sellSig and pft(close, entry) >= sigMinPft
+        doExit := true
+        exitP  := close
+        why    := "signalas"
+    // 3) Unclog: ilgai laikoma nuostolinga pozicija
+    if not doExit and pft(close, entry) < unclogPct and time - entryT >= unclogDays * 86400000
+        doExit := true
+        exitP  := close
+        why    := "unclog"
+    if doExit
+        r = pft(exitP, entry)
+        nTrades += 1
+        nWins   += r > 0 ? 1 : 0
+        equity  *= 1 + r
+        label.new(bar_index, high, "SELL " + str.tostring(exitP, format.mintick) + "\n" + (r >= 0 ? "+" : "") + str.tostring(r * 100, "#.##") + "% " + why, style = label.style_label_down, color = r >= 0 ? color.new(color.teal, 0) : color.new(color.red, 0), textcolor = color.white, size = size.small)
+        inPos    := false
+        lastExit := bar_index
+
+newBuy = buySig and barstate.isconfirmed and not inPos and not pending and bar_index - lastExit > cooldown
+if newBuy
+    pending := true
+
+// ---------- Pagalbiniai vaizdai ----------
+plot(emaSell * highOff, "Pardavimo riba", color = color.new(color.orange, 60))
+alertcondition(newBuy, "EI3v2 BUY", "EI3v2 BUY {{ticker}} {{close}}")
+
+if showTable and barstate.islast
+    var table t = table.new(position.top_right, 2, 5, bgcolor = color.new(color.black, 20), border_width = 1)
+    table.cell(t, 0, 0, "Sandoriai", text_color = color.white)
+    table.cell(t, 1, 0, str.tostring(nTrades), text_color = color.white)
+    table.cell(t, 0, 1, "Laimi %", text_color = color.white)
+    table.cell(t, 1, 1, nTrades > 0 ? str.tostring(nWins * 100.0 / nTrades, "#.#") : "-", text_color = color.white)
+    table.cell(t, 0, 2, "Iš viso %", text_color = color.white)
+    table.cell(t, 1, 2, str.tostring((equity - 1) * 100, "#.##"), text_color = equity >= 1 ? color.lime : color.red)
+    table.cell(t, 0, 4, "Mastelis k", text_color = color.white)
+    table.cell(t, 1, 4, str.tostring(k, "#.##"), text_color = color.white)
+    table.cell(t, 0, 3, timeframe.period == "5" ? "Grafikas 5m ✓" : "Įjunk 5m!", text_color = timeframe.period == "5" ? color.lime : color.orange)

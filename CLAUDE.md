@@ -59,6 +59,18 @@ Komandos (paleisti iš `freqtrade/`):
 - **Vartotojo TradingView „Volatility Breakout“** (`volbreakout/`): kaip parašytas, nelenkia laikymo nė viename rėme. Geriausias pritaikymas NAS100 1h +7 %/m., kritimas 8 %. Vartotojo paklausta, kaip TradingView matė pranašumą (laukiama atsakymo).
 - **25 ETF strategijos** (`etf-rotation/`, 2008–2026): nė viena saugi nelenkia SPY/QQQ grąža, bet LAA, HAA, BAA-G12, Permanent Portfolio turi 2–3 kartus mažesnius kritimus (13–20 %) ir veikė po paskelbimo. Su svertu: TQQQ kai QQQ > 200 d. +24,5 %/m., kritimas 61 %.
 
+## 2026-11-10: TradingView įrankiai (NAS100 scalping)
+- **Geriausias: `tradingview/GERIAUSIAS_IRANKIS.md`** → `tradingview/Noise_Breakout_NAS100.pine` (Zarattini ir kt. 2024, kas 60 min.): 2021–24 +15 %/m., 2025–26 +7,7 %/m., kritimas ~6 %. Patikrinta TradingView.
+- Atmesta: EI3v2 ant indeksų, ORB, intraday momentum, RSI(2)+VWAP, GER40, auksas, QQQ3+200 d. (2000–10 −90 %). Testai: `tradingview/scalp_test/`, `tradingview/qqq3_trend/`.
+
+- QuantConnect forumas, 2 partija (17 temų, 74 versijos): nieko naujo, geri rezultatai buvo dėl paslėpto sverto klaidų → `results/quantconnect_forum2.md`. `run_lean.py` dabar palaiko ir naują QC API (snake_case).
+
+- **EI3v2 ir E0V1E_DCA3 išlaikė nematytą 2018–2021** (ir su 2018 m. top 9 monetomis): +70 %/m., kasmet pliuse. Lieka dry-run. `best_strategies/ATRINKTI_BOTAI.md`.
+
+- Akcijos (Industry Trends, S&P 500 momentum, Clenow, VIX/SVXY, Connors): nė viena patikimai nelenkia SPY 2015–26 → `industry-trends/AKCIJOS_REZULTATAI.md`. Kripto trendai (Concretum) netinka → `crypto-trend/REZULTATAI.md`.
+
+- **E0V1E_DCA3 su svertu:** 3x +42 %/m., 10x +53 %/m., bet kritimai 52–71 % (2025-10-10 likvidacijos) → `freqtrade/results/lev/REZULTATAI.md`. Bybit demo botas paruoštas `~/trading/bybit_demo/` (raktai tik ten, ne repo; paleisti `./start.sh <svertas>`), 2026-11-10 paleistas E0V1E_DCA3 15x (demo, 49 % balanso); EI3v2 reikia atskiro Bybit subaccount rakto.
+
 ## Dar nepradėta
 Aplankai `ib_async/`, `vectorbt/`, `backtesting-py/` tušti.
 

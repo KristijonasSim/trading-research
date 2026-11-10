@@ -1,0 +1,10 @@
+F11879 forum A simple vix etf strategy - QuantConnect.com|853ae8652c|daily
+F11879 forum A simple vix etf strategy - QuantConnect.com|bb80f1269a|daily
+F12403 forum Who's Wrong - Me or Amibroker? - QuantConnect.com|af05ca12b4|daily
+F15150 forum Weekly Sector rotation Trend Following Strategy - |b815ea5629|daily
+F15226 forum Fade The Trend Strategy - Mean Reversion Algorithm|43579cc668|daily
+F17868 forum Strategy: mean reversion - QuantConnect.com|1289233c0b|daily
+F18179 forum Simple RSI mean reversion failed to match Composer|0f293ac87e|daily
+F2403 forum Simple Global Market Rotation Strategy - QuantConn|1e53a047e8|daily
+F2657 forum A simple VIX Strategy - QuantConnect.com|65ce132fbe|daily
+F4440 forum An Intermarket Approach to Beta Rotation - QuantCo|9279188df9|daily

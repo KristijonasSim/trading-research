@@ -1,0 +1,1 @@
+Simple Global Market Rotation Strategy - QuantConnect.com

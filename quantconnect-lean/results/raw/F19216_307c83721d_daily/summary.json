@@ -1,0 +1,21 @@
+{
+  "strategy": "F19216 forum QQQSPY Momentum Rotation System  - QuantConnect.co",
+  "variant": "307c83721d",
+  "resolution": "daily",
+  "final_usdt": 927.4,
+  "total_return_pct": -7.3,
+  "cagr_pct": -1.5,
+  "yearly_pct": {
+    "2021": -4.4,
+    "2022": -7.2,
+    "2023": 1.2,
+    "2024": 0.1,
+    "2025": 5.5,
+    "2026": -2.1
+  },
+  "max_drawdown_pct": 20.8,
+  "trades": 62,
+  "fees": "$3190.69",
+  "first_day": "2021-11-08",
+  "last_day": "2026-11-06"
+}

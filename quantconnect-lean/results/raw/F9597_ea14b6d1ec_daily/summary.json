@@ -1,0 +1,21 @@
+{
+  "strategy": "F9597 forum The In  Out Strategy - Continued from Quantopian -",
+  "variant": "ea14b6d1ec",
+  "resolution": "daily",
+  "final_usdt": 891.0,
+  "total_return_pct": -10.9,
+  "cagr_pct": -2.3,
+  "yearly_pct": {
+    "2021": -5.8,
+    "2022": -29.6,
+    "2023": 19.7,
+    "2024": 6.7,
+    "2025": 10.1,
+    "2026": -4.5
+  },
+  "max_drawdown_pct": 36.5,
+  "trades": 462,
+  "fees": "$3994.08",
+  "first_day": "2021-11-08",
+  "last_day": "2026-11-06"
+}

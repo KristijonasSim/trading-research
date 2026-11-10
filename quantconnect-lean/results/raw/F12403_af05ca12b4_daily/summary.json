@@ -1,0 +1,16 @@
+{
+  "strategy": "F12403 forum Who's Wrong - Me or Amibroker? - QuantConnect.com",
+  "variant": "af05ca12b4",
+  "resolution": "daily",
+  "final_usdt": 1000.0,
+  "total_return_pct": 0.0,
+  "cagr_pct": 0.0,
+  "yearly_pct": {
+    "2021": 0.0
+  },
+  "max_drawdown_pct": 0,
+  "trades": 0,
+  "fees": "$0.00",
+  "first_day": "2021-11-08",
+  "last_day": "2021-11-08"
+}

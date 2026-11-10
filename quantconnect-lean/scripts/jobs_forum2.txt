@@ -1,0 +1,64 @@
+F11895 forum Price Action Long Short SPY ETF Algo - QuantConnec|e9d33cc4ec|daily
+F17091 forum Beat the Market: An Effective Intraday Momentum St|26b41f0638|daily
+F17091 forum Beat the Market: An Effective Intraday Momentum St|39c8150371|daily
+F17091 forum Beat the Market: An Effective Intraday Momentum St|af74081228|daily
+F17091 forum Beat the Market: An Effective Intraday Momentum St|ce1ee30597|daily
+F19216 forum QQQSPY Momentum Rotation System  - QuantConnect.co|307c83721d|daily
+F19216 forum QQQSPY Momentum Rotation System  - QuantConnect.co|e2616e5ac9|daily
+F8996 forum Strategy Library Addition: Leveraged ETFs with Sys|24e24709bb|daily
+F8996 forum Strategy Library Addition: Leveraged ETFs with Sys|b669b12c36|daily
+F9597 forum The In  Out Strategy - Continued from Quantopian -|06385dea1a|daily
+F9597 forum The In  Out Strategy - Continued from Quantopian -|0c15d6a0d0|daily
+F9597 forum The In  Out Strategy - Continued from Quantopian -|0e209a5b52|daily
+F9597 forum The In  Out Strategy - Continued from Quantopian -|0ed8e6d4e3|daily
+F9597 forum The In  Out Strategy - Continued from Quantopian -|129a471700|daily
+F9597 forum The In  Out Strategy - Continued from Quantopian -|1346975448|daily
+F9597 forum The In  Out Strategy - Continued from Quantopian -|177ff7b2bc|daily
+F9597 forum The In  Out Strategy - Continued from Quantopian -|18f8ed7c67|daily
+F9597 forum The In  Out Strategy - Continued from Quantopian -|1c99cfb9ef|daily
+F9597 forum The In  Out Strategy - Continued from Quantopian -|1ff7d20ba3|daily
+F9597 forum The In  Out Strategy - Continued from Quantopian -|2be2581648|daily
+F9597 forum The In  Out Strategy - Continued from Quantopian -|38b6a2c222|daily
+F9597 forum The In  Out Strategy - Continued from Quantopian -|3cd0380d64|daily
+F9597 forum The In  Out Strategy - Continued from Quantopian -|45faaf81f5|daily
+F9597 forum The In  Out Strategy - Continued from Quantopian -|47235ae4e0|daily
+F9597 forum The In  Out Strategy - Continued from Quantopian -|4b41e95e93|daily
+F9597 forum The In  Out Strategy - Continued from Quantopian -|5038648359|daily
+F9597 forum The In  Out Strategy - Continued from Quantopian -|5148fcd389|daily
+F9597 forum The In  Out Strategy - Continued from Quantopian -|5381a5db93|daily
+F9597 forum The In  Out Strategy - Continued from Quantopian -|546342930b|daily
+F9597 forum The In  Out Strategy - Continued from Quantopian -|639947c7d5|daily
+F9597 forum The In  Out Strategy - Continued from Quantopian -|68d0c1576d|daily
+F9597 forum The In  Out Strategy - Continued from Quantopian -|7545aceec5|daily
+F9597 forum The In  Out Strategy - Continued from Quantopian -|7aa1cbe215|daily
+F9597 forum The In  Out Strategy - Continued from Quantopian -|7aded014ab|daily
+F9597 forum The In  Out Strategy - Continued from Quantopian -|7b83c06c21|daily
+F9597 forum The In  Out Strategy - Continued from Quantopian -|86522c818a|daily
+F9597 forum The In  Out Strategy - Continued from Quantopian -|865e01ff32|daily
+F9597 forum The In  Out Strategy - Continued from Quantopian -|946150fa79|daily
+F9597 forum The In  Out Strategy - Continued from Quantopian -|95412d991e|daily
+F9597 forum The In  Out Strategy - Continued from Quantopian -|970bcfd738|daily
+F9597 forum The In  Out Strategy - Continued from Quantopian -|98fff40ced|daily
+F9597 forum The In  Out Strategy - Continued from Quantopian -|9e2389d33b|daily
+F9597 forum The In  Out Strategy - Continued from Quantopian -|a8ce82604d|daily
+F9597 forum The In  Out Strategy - Continued from Quantopian -|af722427fb|daily
+F9597 forum The In  Out Strategy - Continued from Quantopian -|b22e9072da|daily
+F9597 forum The In  Out Strategy - Continued from Quantopian -|b3852c997f|daily
+F9597 forum The In  Out Strategy - Continued from Quantopian -|b99c4d7ebb|daily
+F9597 forum The In  Out Strategy - Continued from Quantopian -|bb54bd49c6|daily
+F9597 forum The In  Out Strategy - Continued from Quantopian -|bcf802a60b|daily
+F9597 forum The In  Out Strategy - Continued from Quantopian -|c2c5ed51c9|daily
+F9597 forum The In  Out Strategy - Continued from Quantopian -|c4743ed8e3|daily
+F9597 forum The In  Out Strategy - Continued from Quantopian -|cae2722137|daily
+F9597 forum The In  Out Strategy - Continued from Quantopian -|cdc2caaee4|daily
+F9597 forum The In  Out Strategy - Continued from Quantopian -|d0ffb8e49e|daily
+F9597 forum The In  Out Strategy - Continued from Quantopian -|d3f191d476|daily
+F9597 forum The In  Out Strategy - Continued from Quantopian -|d7b1c2a2fe|daily
+F9597 forum The In  Out Strategy - Continued from Quantopian -|e1e7ee81f1|daily
+F9597 forum The In  Out Strategy - Continued from Quantopian -|e866c1e218|daily
+F9597 forum The In  Out Strategy - Continued from Quantopian -|ea14b6d1ec|daily
+F9597 forum The In  Out Strategy - Continued from Quantopian -|f388ceaa32|daily
+F9597 forum The In  Out Strategy - Continued from Quantopian -|f674d1b7c6|daily
+F9597 forum The In  Out Strategy - Continued from Quantopian -|fa31491612|daily
+F9632 forum Amazing returns  superior stock selection strategy|b34d9b7dda_fixspy|daily
+F9632 forum Amazing returns  superior stock selection strategy|b34d9b7dda_fixtqqq|daily

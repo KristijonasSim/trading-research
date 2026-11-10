@@ -47,3 +47,10 @@ etf3x/data/
 etf3x/ft/
 etf3x/results/
 freqtrade/results/batch50b/
+freqtrade/results/batch50c/
+freqtrade/results/batch50d/
+freqtrade/results/batch50e/
+freqtrade/results/**/*.zip
+freqtrade/logs/
+tradingview/**/*.pkl
+freqtrade/results/**/*.log

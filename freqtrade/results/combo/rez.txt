@@ -1,0 +1,14 @@
+## 2021-11 – 2026-11 (dabartinis top 10)
+EI3v2 vienas:         25.1%/m  kritimas 14.8%  metai {2021: np.int64(7), 2022: np.int64(15), 2023: np.int64(27), 2024: np.int64(55), 2025: np.int64(16), 2026: np.int64(8)}
+E0V1E_DCA3 vienas:    17.0%/m  kritimas  4.4%  metai {2021: np.int64(7), 2022: np.int64(24), 2023: np.int64(9), 2024: np.int64(30), 2025: np.int64(11), 2026: np.int64(4)}
+50/50 be perbalans.:  21.3%/m  kritimas  6.4%  metai {2021: np.int64(7), 2022: np.int64(20), 2023: np.int64(18), 2024: np.int64(43), 2025: np.int64(14), 2026: np.int64(6)}
+50/50 kas mėnesį:     21.2%/m  kritimas  6.3%  metai {2021: np.int64(7), 2022: np.int64(20), 2023: np.int64(18), 2024: np.int64(42), 2025: np.int64(14), 2026: np.int64(6)}
+dienų koreliacija: 0.13
+
+## 2018 – 2021-11 (nematyti, 2018 m. top 9)
+EI3v2 vienas:         71.0%/m  kritimas 16.5%  metai {2018: np.int64(46), 2019: np.int64(6), 2020: np.int64(61), 2021: np.int64(220)}
+E0V1E_DCA3 vienas:    69.9%/m  kritimas  2.7%  metai {2018: np.int64(64), 2019: np.int64(15), 2020: np.int64(53), 2021: np.int64(168)}
+50/50 be perbalans.:  70.5%/m  kritimas  7.8%  metai {2018: np.int64(55), 2019: np.int64(10), 2020: np.int64(57), 2021: np.int64(192)}
+50/50 kas mėnesį:     71.3%/m  kritimas  7.9%  metai {2018: np.int64(55), 2019: np.int64(10), 2020: np.int64(58), 2021: np.int64(195)}
+dienų koreliacija: 0.21
+

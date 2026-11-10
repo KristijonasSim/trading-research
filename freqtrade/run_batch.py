@@ -20,6 +20,7 @@ import sys
 BATCH = os.environ.get("BATCH", "batch50")
 OUT = ROOT / "results" / BATCH
 LIST = json.loads((ROOT / "user_data/strategies" / BATCH / "_list.json").read_text())
+TF = {s: tf for s, _, tf in LIST}  # old strategies only set ticker_interval -> pass timeframe explicitly
 IMAGE = "freqtrade-research:latest"  # docker_image/Dockerfile: stable + ta, finta, arrow
 
 
@@ -37,7 +38,7 @@ def run(strategy, group, cfg="config_spot.json"):
            "-v", f"{d}:/out", IMAGE, "backtesting",
            "--userdir", "/freqtrade/user_data", "-c", "/freqtrade/config.json",
            "--strategy-path", f"/freqtrade/user_data/strategies/{BATCH}", "--strategy", strategy,
-           "--timerange", ra.TIMERANGE, "--pairs", *ra.GROUPS[group],
+           "--timerange", ra.TIMERANGE, "--timeframe", TF[strategy], "--pairs", *ra.GROUPS[group],
            "--max-open-trades", str(len(ra.GROUPS[group])),
            "--export", "trades", "--backtest-directory", "/out", "--cache", "none"]
     try:

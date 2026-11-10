@@ -1,0 +1,1 @@
+Trading strategies based on Vix Term Structure (Research Paper Backtest)  - QuantConnect.com
