@@ -43,9 +43,29 @@ Patikros:
 
 \* 2021 ir 2026 metai daliniai (lapkr.–gruod. ir saus.–lapkr.).
 
+## 3. NASOSv5_mod3 (Freqtrade, kripto) – pridėta 2026-11-11
+- Failas: `NASOSv5_mod3.py`. Šaltinis: HUGE_FreqTrade_Strategy_Collection (NASOS šeima, Rallipanos).
+- Rinka: top 10 altcoin'ų, spot, 5m žvakės (+1h informacinės). Ant BTC+ETH beveik neprekiauja (8 sandoriai per 5 m.).
+- Kas tai: perka kritimus pagal EWO ir nuokrypį nuo MA, išeina pagal MA/ROI; stop-loss −30 %.
+
+| %/m | Vid. metų % | Iš viso | Max kritimas | Sandorių/m | Laimi % | Vid. sandoris | Profit factor |
+|---|---|---|---|---|---|---|---|
+| **18,3** | 15,4 | +131 % (1000 → 2312) | 3,3 % | 48 | 97,5 % | 36 val. | 6,1 |
+
+| 2021* | 2022 | 2023 | 2024 | 2025 | 2026* |
+|---|---|---|---|---|---|
+| +6,3 % | +29,4 % | +8,7 % | +16,6 % | +27,3 % | +4,1 % |
+
+Patikros:
+- ✅ `lookahead-analysis` (10 altcoin'ų, 2024–2025): 0 iš 20 signalų.
+- ✅ `recursive-analysis`: be ateities duomenų (EWO priklauso nuo pradinių žvakių skaičiaus, bet su numatytu startup – stabilus).
+- ✅ Nematytas 2018-01 – 2021-11: +89 %/m., kritimas 20,7 %, kasmet pliuse (2018 +14,8 %, 2019 +28 %, 2020 +74 %, 2021 +356 %).
+- ⚠️ 1m detalumu netikrinta. Kitas žingsnis – dry-run.
+
 ## Potencialūs, bet rizikingi
 | Strategija | Rinka | %/m | Max kritimas | Kodėl ne pagrindiniame sąraše |
 |---|---|---|---|---|
+| Ichimoku_v37 | BTC+ETH spot, 4h | 15,9 | 16,1 % | 2022–2024 visi metai minuse, laimi 16 % sandorių, ~19 sandorių/m. (tik trendo bangos). Švari; nematytame 2018–21 +89 %/m. |
 | VolatilitySystem | BTC+ETH futures, 1h | 69,8 | 53,4 % | 2x svertas, be stop-loss; ant altcoin'ų tik +0,6 %/m.; 2026 m. −0,2 %. Lookahead švari. Failas `VolatilitySystem.py`. |
 | EI3v2_tag_cofi_green ant 3x ETF, 1d | 18 sintetinių 3x ETF (TQQQ, UPRO, NUGT, JNUG…) | 13,5 | 14,5 % | Žemiau 14 %; grafikas parinktas iš 4 bandytų. Kasmet teigiama. Žr. `etf3x/README.md`. |
 

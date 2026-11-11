@@ -54,3 +54,6 @@ freqtrade/results/**/*.zip
 freqtrade/logs/
 tradingview/**/*.pkl
 freqtrade/results/**/*.log
+freqtrade/results/batch50*/
+freqtrade/results/oos_batch50*/
+results/rerun_list.txt

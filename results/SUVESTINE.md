@@ -63,3 +63,8 @@ Pilna lentelė: `quantconnect_ranking.md`. SPY „pirkti ir laikyti“: 1676 (+1
 - SPY aplenkė tik 2: CAPM Dow 30 (valandinė 1954, bet kritimas 59 %) ir January Barometer (1931, kritimas 19 %, tik 6 sandoriai per 5 m.).
 - Asset Class Momentum 1617 (kritimas 32 %), beveik kaip SPY.
 - Kitos ~30 paleidimų: mažiau nei SPY, daug nuostolingų.
+
+## 2026-11-11: `extra/` partijos (batch50–batch50f, ~300 iš 469)
+- Iš `extra/` atrinkti tik EI3v2 ir E0V1E_DCA3 (žr. `best_strategies/ATRINKTI_BOTAI.md`). batch50d–f naujų nedavė: geriausios ClucHAnix_5m +16,4 %/m. (bet 2025 −10,6 %), CombinedBinHAndClucV5Hyperoptable +10,8 %/m.
+- 1m strategijos ant 10 altcoin'ų netestuotos (reikia > 10 GB RAM). Kitą partiją sudaro `freqtrade/make_batch.py batch50g`.
+- 2026-11-11 batch50g: **NASOSv5_mod3** atrinkta (alts10 +18,3 %/m., kritimas 3,3 %, nematytame 2018–21 +89 %/m.) → `best_strategies/ATRINKTI_BOTAI.md` nr. 3.

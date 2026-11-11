@@ -8,7 +8,7 @@ groups btc_eth and alts10. Resumable: finished runs (summary.json) are skipped.
 Usage: [BATCH=batch50b] .venv/bin/python run_batch.py [-j 3]
 Output: results/batch50/<group>__<strategy>/ and ../results/batch50_results.csv
 """
-import argparse, json, os, subprocess
+import argparse, json, os, subprocess, time
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 import pandas as pd
@@ -30,7 +30,7 @@ def run(strategy, group, cfg="config_spot.json"):
     if (d / "summary.json").exists() or (d / "error.txt").exists():
         return name, "skip"
     d.mkdir(parents=True, exist_ok=True)
-    cmd = ["docker", "run", "--rm", "--network", "none", "--memory", "6g",
+    cmd = ["docker", "run", "--rm", "--network", "none", "--memory", os.environ.get("MEM", "6g"),
            "--user", f"{os.getuid()}:{os.getgid()}",
            "-v", f"{ROOT/'user_data'}:/freqtrade/user_data:ro",
            "-v", f"{ROOT/cfg}:/freqtrade/config.json:ro",
@@ -41,18 +41,33 @@ def run(strategy, group, cfg="config_spot.json"):
            "--timerange", ra.TIMERANGE, "--timeframe", TF[strategy], "--pairs", *ra.GROUPS[group],
            "--max-open-trades", str(len(ra.GROUPS[group])),
            "--export", "trades", "--backtest-directory", "/out", "--cache", "none"]
-    try:
-        p = subprocess.run(cmd, capture_output=True, text=True, timeout=3 * 3600)
-        (d / "backtest.log").write_text(p.stdout + p.stderr)
-        rc = p.returncode
-    except subprocess.TimeoutExpired:
-        (d / "error.txt").write_text("timeout 3h")
-        return name, "timeout"
-    if "price_side = \"other\"" in p.stdout + p.stderr and cfg == "config_spot.json":
+    # stream the log to a file (a strategy erroring on every candle can print >10 GB);
+    # stop the run if the log passes 200 MB
+    log = d / "backtest.log"
+    cname = f"bt_{BATCH}_{name}".replace(".", "_")[:60]
+    cmd[2:2] = ["--name", cname]
+    with open(log, "w") as f:
+        p = subprocess.Popen(cmd, stdout=f, stderr=subprocess.STDOUT)
+        t0, rc = time.time(), None
+        while rc is None:
+            time.sleep(10)
+            rc = p.poll()
+            big = log.stat().st_size > 200e6
+            if rc is None and (big or time.time() - t0 > 3 * 3600):
+                subprocess.run(["docker", "stop", cname], capture_output=True)
+                p.wait()
+                (d / "error.txt").write_text("log > 200 MB (errors every candle)" if big else "timeout 3h")
+                with open(log, "r+") as g:
+                    g.truncate(1_000_000)
+                return name, "killed"
+    with open(log, errors="replace") as g:
+        head = g.read(5_000_000)
+    out = head
+    if "price_side = \"other\"" in out and cfg == "config_spot.json":
         # strategy uses market orders: same test with entry/exit price_side = other
         return run(strategy, group, "config_spot_market.json")
     if rc != 0:
-        (d / "error.txt").write_text("\n".join((p.stdout + p.stderr).splitlines()[-20:]))
+        (d / "error.txt").write_text("\n".join(subprocess.run(["tail", "-20", str(log)], capture_output=True, text=True).stdout.splitlines()))
         return name, "error"
     try:
         s = ra.summarize(d, strategy, "spot", group)

@@ -1,0 +1,63 @@
+### lookahead-analysis Ichimoku_v37
+2026-11-11 06:36:57,259 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-07 00:00:00 up to 2025-06-06 20:00:00 (181 days).
+2026-11-11 06:36:57,277 - freqtrade.data.dataprovider - INFO - Loading data for ETH/USDT 1d from 2024-08-04 00:00:00 to 2025-06-06 20:00:00
+2026-11-11 06:36:57,421 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'sell_profit_only' moved to 'exit_profit_only'.
+2026-11-11 06:36:57,421 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-11 06:36:57,422 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'ignore_roi_if_buy_signal' moved to 'ignore_roi_if_entry_signal'.
+2026-11-11 06:36:57,457 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-07 00:00:00 up to 2025-06-21 04:00:00 (196 days).
+2026-11-11 06:36:57,472 - freqtrade.data.dataprovider - INFO - Loading data for ETH/USDT 1d from 2024-08-04 00:00:00 to 2025-06-21 04:00:00
+2026-11-11 06:36:57,644 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'sell_profit_only' moved to 'exit_profit_only'.
+2026-11-11 06:36:57,645 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-11 06:36:57,645 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'ignore_roi_if_buy_signal' moved to 'ignore_roi_if_entry_signal'.
+2026-11-11 06:36:57,674 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-07 00:00:00 up to 2025-06-21 08:00:00 (196 days).
+2026-11-11 06:36:57,689 - freqtrade.data.dataprovider - INFO - Loading data for ETH/USDT 1d from 2024-08-04 00:00:00 to 2025-06-21 08:00:00
+2026-11-11 06:36:57,829 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'sell_profit_only' moved to 'exit_profit_only'.
+2026-11-11 06:36:57,830 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-11 06:36:57,830 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'ignore_roi_if_buy_signal' moved to 'ignore_roi_if_entry_signal'.
+2026-11-11 06:36:57,859 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-07 00:00:00 up to 2025-06-22 00:00:00 (197 days).
+2026-11-11 06:36:57,872 - freqtrade.data.dataprovider - INFO - Loading data for ETH/USDT 1d from 2024-08-04 00:00:00 to 2025-06-22 00:00:00
+2026-11-11 06:36:58,022 - freqtrade.optimize.analysis.lookahead - INFO - found force-exit in pair: BTC/USDT, timerange:2025-04-24 20:00:00+00:00-2025-07-01 00:00:00+00:00, idx: 11, skipping this one 
+to avoid a false-positive.
+2026-11-11 06:36:58,022 - freqtrade.optimize.analysis.lookahead - INFO - found force-exit in pair: ETH/USDT, timerange:2025-06-24 16:00:00+00:00-2025-07-01 00:00:00+00:00, idx: 12, skipping this one 
+to avoid a false-positive.
+2026-11-11 06:36:58,022 - freqtrade.loggers.set_log_levels - INFO - Restoring log verbosity.
+2026-11-11 06:36:58,023 - freqtrade.optimize.analysis.lookahead - INFO - Ichimoku_v37: no bias detected
+2026-11-11 06:36:58,023 - freqtrade.optimize.analysis.lookahead_helpers - INFO - Checking look ahead bias via backtests of Ichimoku_v37.py took 4 seconds.
+                                                      Lookahead Analysis                                                      
+┏━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┓
+┃        filename ┃     strategy ┃ has_bias ┃ total_signals ┃ biased_entry_signals ┃ biased_exit_signals ┃ biased_indicators ┃
+┡━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━┩
+│ Ichimoku_v37.py │ Ichimoku_v37 │       No │            11 │                    0 │                   0 │                   │
+└─────────────────┴──────────────┴──────────┴───────────────┴──────────────────────┴─────────────────────┴───────────────────┘
+### recursive-analysis Ichimoku_v37
+2026-11-11 06:37:03,024 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'ignore_roi_if_buy_signal' moved to 'ignore_roi_if_entry_signal'.
+2026-11-11 06:37:03,025 - freqtrade.configuration.config_validation - WARNING - DEPRECATED: Using 'buy' and 'sell' for order_types is deprecated.Please migrate your order_types settings to use 'entry'
+and 'exit' wording.
+2026-11-11 06:37:03,025 - freqtrade.configuration.deprecated_settings - WARNING - DEPRECATED: The `order_types.buy` setting is deprecated and will be removed in the next versions of Freqtrade. Please 
+use the `order_types.entry` setting in your configuration instead.
+2026-11-11 06:37:03,025 - freqtrade.configuration.deprecated_settings - WARNING - DEPRECATED: The `order_types.sell` setting is deprecated and will be removed in the next versions of Freqtrade. Please
+use the `order_types.exit` setting in your configuration instead.
+2026-11-11 06:37:03,052 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-09-15 08:00:00 up to 2025-03-01 00:00:00 (166 days).
+2026-11-11 06:37:03,068 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 1d from 2022-06-05 20:00:00 to 2025-03-01 00:00:00
+2026-11-11 06:37:03,190 - freqtrade.optimize.analysis.recursive - INFO - Calculating indicators using startup candle of 1999.
+2026-11-11 06:37:03,193 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'sell_profit_only' moved to 'exit_profit_only'.
+2026-11-11 06:37:03,194 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-11 06:37:03,194 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'ignore_roi_if_buy_signal' moved to 'ignore_roi_if_entry_signal'.
+2026-11-11 06:37:03,195 - freqtrade.configuration.config_validation - WARNING - DEPRECATED: Using 'buy' and 'sell' for order_types is deprecated.Please migrate your order_types settings to use 'entry'
+and 'exit' wording.
+2026-11-11 06:37:03,195 - freqtrade.configuration.deprecated_settings - WARNING - DEPRECATED: The `order_types.buy` setting is deprecated and will be removed in the next versions of Freqtrade. Please 
+use the `order_types.entry` setting in your configuration instead.
+2026-11-11 06:37:03,195 - freqtrade.configuration.deprecated_settings - WARNING - DEPRECATED: The `order_types.sell` setting is deprecated and will be removed in the next versions of Freqtrade. Please
+use the `order_types.exit` setting in your configuration instead.
+2026-11-11 06:37:03,209 - freqtrade.exchange.exchange - WARNING - Using 2 calls to get OHLCV. This can result in slower operations for the bot. Please check if you really need 1999 candles for your 
+strategy.
+2026-11-11 06:37:03,225 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-04-01 16:00:00 up to 2025-03-01 00:00:00 (333 days).
+2026-11-11 06:37:03,245 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 1d from 2019-09-09 20:00:00 to 2025-03-01 00:00:00
+2026-11-11 06:37:03,452 - freqtrade.loggers.set_log_levels - INFO - Restoring log verbosity.
+2026-11-11 06:37:03,452 - freqtrade.optimize.analysis.recursive - INFO - Start checking for recursive bias
+2026-11-11 06:37:03,455 - freqtrade.optimize.analysis.recursive - INFO - No variance on indicator(s) found due to recursive formula.
+2026-11-11 06:37:03,456 - freqtrade.optimize.analysis.recursive - INFO - Start checking for lookahead bias on indicators only
+2026-11-11 06:37:03,457 - freqtrade.optimize.analysis.recursive - INFO - Check indicators at 2025-01-02T16:00:00
+2026-11-11 06:37:03,460 - freqtrade.optimize.analysis.recursive - INFO - No lookahead bias on indicators found.
+2026-11-11 06:37:03,461 - freqtrade.optimize.analysis.recursive_helpers - INFO - Checking recursive and indicator-only lookahead bias of indicators of Ichimoku_v37.py took 2 seconds.
+VALIDATION_DONE
