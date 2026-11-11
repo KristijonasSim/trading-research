@@ -1,0 +1,63 @@
+### lookahead-analysis Ichimoku_v16
+2026-11-11 23:07:11,077 - freqtrade.optimize.backtesting - INFO - Loading data from 2023-01-01 00:00:00 up to 2024-07-06 00:00:00 (552 days).
+2026-11-11 23:07:11,178 - freqtrade.optimize.backtesting - INFO - Loading data from 2023-01-01 00:00:00 up to 2024-07-30 00:00:00 (576 days).
+2026-11-11 23:07:11,264 - freqtrade.optimize.backtesting - INFO - Loading data from 2023-01-01 00:00:00 up to 2024-08-07 00:00:00 (584 days).
+2026-11-11 23:07:11,370 - freqtrade.optimize.backtesting - INFO - Loading data from 2023-01-01 00:00:00 up to 2024-08-28 00:00:00 (605 days).
+2026-11-11 23:07:11,458 - freqtrade.optimize.backtesting - INFO - Loading data from 2023-01-01 00:00:00 up to 2024-09-08 00:00:00 (616 days).
+2026-11-11 23:07:11,562 - freqtrade.optimize.backtesting - INFO - Loading data from 2023-01-01 00:00:00 up to 2024-10-05 00:00:00 (643 days).
+2026-11-11 23:07:11,648 - freqtrade.optimize.backtesting - INFO - Loading data from 2023-01-01 00:00:00 up to 2025-01-09 00:00:00 (739 days).
+2026-11-11 23:07:11,758 - freqtrade.optimize.backtesting - INFO - Loading data from 2023-01-01 00:00:00 up to 2024-09-28 00:00:00 (636 days).
+2026-11-11 23:07:11,848 - freqtrade.optimize.backtesting - INFO - Loading data from 2023-01-01 00:00:00 up to 2025-01-13 00:00:00 (743 days).
+2026-11-11 23:07:11,963 - freqtrade.optimize.backtesting - INFO - Loading data from 2023-01-01 00:00:00 up to 2025-02-04 00:00:00 (765 days).
+2026-11-11 23:07:12,063 - freqtrade.optimize.backtesting - INFO - Loading data from 2023-01-01 00:00:00 up to 2025-02-11 00:00:00 (772 days).
+2026-11-11 23:07:12,181 - freqtrade.optimize.backtesting - INFO - Loading data from 2023-01-01 00:00:00 up to 2025-04-29 00:00:00 (849 days).
+2026-11-11 23:07:12,284 - freqtrade.optimize.backtesting - INFO - Loading data from 2023-01-01 00:00:00 up to 2025-07-08 00:00:00 (919 days).
+2026-11-11 23:07:12,407 - freqtrade.optimize.backtesting - INFO - Loading data from 2023-01-01 00:00:00 up to 2025-05-10 00:00:00 (860 days).
+2026-11-11 23:07:12,501 - freqtrade.optimize.backtesting - INFO - Loading data from 2023-01-01 00:00:00 up to 2025-07-09 00:00:00 (920 days).
+2026-11-11 23:07:12,618 - freqtrade.optimize.backtesting - INFO - Loading data from 2023-01-01 00:00:00 up to 2025-07-14 00:00:00 (925 days).
+2026-11-11 23:07:12,727 - freqtrade.optimize.backtesting - INFO - Loading data from 2023-01-01 00:00:00 up to 2025-09-05 00:00:00 (978 days).
+2026-11-11 23:07:12,856 - freqtrade.optimize.backtesting - INFO - Loading data from 2023-01-01 00:00:00 up to 2025-07-14 00:00:00 (925 days).
+2026-11-11 23:07:12,963 - freqtrade.optimize.backtesting - INFO - Loading data from 2023-01-01 00:00:00 up to 2025-10-06 00:00:00 (1009 days).
+2026-11-11 23:07:13,088 - freqtrade.optimize.backtesting - INFO - Loading data from 2023-01-01 00:00:00 up to 2025-10-05 00:00:00 (1008 days).
+2026-11-11 23:07:13,201 - freqtrade.optimize.backtesting - INFO - Loading data from 2023-01-01 00:00:00 up to 2025-10-28 00:00:00 (1031 days).
+2026-11-11 23:07:13,302 - freqtrade.loggers.set_log_levels - INFO - Restoring log verbosity.
+2026-11-11 23:07:13,303 - freqtrade.optimize.analysis.lookahead - INFO - Ichimoku_v16: no bias detected
+2026-11-11 23:07:13,303 - freqtrade.optimize.analysis.lookahead_helpers - INFO - Checking look ahead bias via backtests of Ichimoku_v16_1d.py took 4 seconds.
+                                                       Lookahead Analysis                                                        
+┏━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┓
+┃           filename ┃     strategy ┃ has_bias ┃ total_signals ┃ biased_entry_signals ┃ biased_exit_signals ┃ biased_indicators ┃
+┡━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━┩
+│ Ichimoku_v16_1d.py │ Ichimoku_v16 │       No │            20 │                    0 │                   0 │                   │
+└────────────────────┴──────────────┴──────────┴───────────────┴──────────────────────┴─────────────────────┴───────────────────┘
+### recursive-analysis Ichimoku_v16
+2026-11-11 23:07:17,217 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'0': 10}
+2026-11-11 23:07:17,217 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 1d
+2026-11-11 23:07:17,217 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -1
+2026-11-11 23:07:17,217 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2026-11-11 23:07:17,218 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2026-11-11 23:07:17,218 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2026-11-11 23:07:17,218 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2026-11-11 23:07:17,218 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2026-11-11 23:07:17,218 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'limit', 'stoploss_on_exchange': False, 
+'stoploss_on_exchange_interval': 60}
+2026-11-11 23:07:17,219 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'GTC', 'exit': 'GTC'}
+2026-11-11 23:07:17,219 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2026-11-11 23:07:17,219 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: unlimited
+2026-11-11 23:07:17,219 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 0
+2026-11-11 23:07:17,219 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2026-11-11 23:07:17,220 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2026-11-11 23:07:17,220 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2026-11-11 23:07:17,220 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2026-11-11 23:07:17,220 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2026-11-11 23:07:17,220 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2026-11-11 23:07:17,221 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2026-11-11 23:07:17,221 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2026-11-11 23:07:17,221 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_open_trades: 12
+2026-11-11 23:07:17,221 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2026-11-11 23:07:17,225 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist StaticPairList from '/freqtrade/freqtrade/plugins/pairlist/StaticPairList.py'...
+2026-11-11 23:07:17,233 - freqtrade.optimize.backtesting - INFO - Using fee 0.1000% from config.
+2026-11-11 23:07:17,233 - freqtrade.optimize.analysis.recursive - INFO - Using pair BTC/USDT only for recursive analysis. Replacing whitelist.
+2026-11-11 23:07:17,234 - freqtrade - ERROR - Configuration error: The strategy defines invalid startup candle count of 0. This will lead to recursive issues on some indicators. Please define a proper
+startup_candle_count in the strategy.
+Please make sure to review the documentation at https://www.freqtrade.io/en/stable.
+VALIDATION_DONE

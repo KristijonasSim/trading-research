@@ -1,0 +1,63 @@
+### lookahead-analysis GodStraNew7
+2026-11-11 23:07:58,658 - freqtrade.optimize.analysis.lookahead - INFO - found lookahead-bias in trade pair: ADA/USDT, timerange:2025-04-06 22:45:00+00:00 - 2025-04-09 17:30:00+00:00, idx: 12
+2026-11-11 23:07:58,759 - freqtrade.optimize.backtesting - INFO - Loading data from 2025-01-01 00:00:00 up to 2025-04-07 17:00:00 (96 days).
+2026-11-11 23:07:59,344 - freqtrade.optimize.backtesting - INFO - Loading data from 2025-01-01 00:00:00 up to 2025-04-09 17:35:00 (98 days).
+2026-11-11 23:07:59,989 - freqtrade.optimize.backtesting - INFO - Loading data from 2025-01-01 00:00:00 up to 2025-04-07 06:40:00 (96 days).
+2026-11-11 23:08:00,609 - freqtrade.optimize.backtesting - INFO - Loading data from 2025-01-01 00:00:00 up to 2025-04-09 17:40:00 (98 days).
+2026-11-11 23:08:01,345 - freqtrade.optimize.backtesting - INFO - Loading data from 2025-01-01 00:00:00 up to 2025-04-06 22:05:00 (95 days).
+2026-11-11 23:08:01,888 - freqtrade.optimize.backtesting - INFO - Loading data from 2025-01-01 00:00:00 up to 2025-04-09 18:00:00 (98 days).
+2026-11-11 23:08:02,442 - freqtrade.optimize.analysis.lookahead - INFO - found lookahead-bias in trade pair: LTC/USDT, timerange:2025-04-06 22:00:00+00:00 - 2025-04-09 17:55:00+00:00, idx: 15
+2026-11-11 23:08:02,528 - freqtrade.optimize.backtesting - INFO - Loading data from 2025-01-01 00:00:00 up to 2025-04-03 10:50:00 (92 days).
+2026-11-11 23:08:03,465 - freqtrade.optimize.backtesting - INFO - Loading data from 2025-01-01 00:00:00 up to 2025-04-12 13:00:00 (101 days).
+2026-11-11 23:08:04,153 - freqtrade.optimize.analysis.lookahead - INFO - found lookahead-bias in trade pair: SOL/USDT, timerange:2025-04-03 10:45:00+00:00 - 2025-04-12 12:55:00+00:00, idx: 16
+2026-11-11 23:08:04,244 - freqtrade.optimize.backtesting - INFO - Loading data from 2025-01-01 00:00:00 up to 2025-04-06 17:40:00 (95 days).
+2026-11-11 23:08:05,062 - freqtrade.optimize.backtesting - INFO - Loading data from 2025-01-01 00:00:00 up to 2025-04-12 13:45:00 (101 days).
+2026-11-11 23:08:05,676 - freqtrade.optimize.analysis.lookahead - INFO - found lookahead-bias in trade pair: LINK/USDT, timerange:2025-04-06 17:35:00+00:00 - 2025-04-12 13:40:00+00:00, idx: 17
+2026-11-11 23:08:05,762 - freqtrade.optimize.backtesting - INFO - Loading data from 2025-01-01 00:00:00 up to 2025-04-03 12:40:00 (92 days).
+2026-11-11 23:08:06,579 - freqtrade.optimize.backtesting - INFO - Loading data from 2025-01-01 00:00:00 up to 2025-04-12 14:10:00 (101 days).
+2026-11-11 23:08:07,352 - freqtrade.optimize.analysis.lookahead - INFO - found lookahead-bias in trade pair: AVAX/USDT, timerange:2025-04-03 12:35:00+00:00 - 2025-04-12 14:05:00+00:00, idx: 18
+2026-11-11 23:08:07,436 - freqtrade.optimize.backtesting - INFO - Loading data from 2025-01-01 00:00:00 up to 2025-04-07 04:55:00 (96 days).
+2026-11-11 23:08:08,165 - freqtrade.optimize.backtesting - INFO - Loading data from 2025-01-01 00:00:00 up to 2025-04-13 18:10:00 (102 days).
+2026-11-11 23:08:08,794 - freqtrade.optimize.analysis.lookahead - INFO - found lookahead-bias in trade pair: DOT/USDT, timerange:2025-04-07 04:50:00+00:00 - 2025-04-13 18:05:00+00:00, idx: 19
+2026-11-11 23:08:08,828 - freqtrade.optimize.analysis.lookahead - INFO - Found targeted trade amount = 20 signals.
+2026-11-11 23:08:08,828 - freqtrade.loggers.set_log_levels - INFO - Restoring log verbosity.
+2026-11-11 23:08:08,828 - freqtrade.optimize.analysis.lookahead - INFO -  => GodStraNew7 : bias detected!
+2026-11-11 23:08:08,829 - freqtrade.optimize.analysis.lookahead_helpers - INFO - Checking look ahead bias via backtests of GodStraNew7.py took 34 seconds.
+                                                                 Lookahead Analysis                                                                  
+┏━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃       filename ┃    strategy ┃ has_bias ┃ total_signals ┃ biased_entry_signals ┃ biased_exit_signals ┃                          biased_indicators ┃
+┡━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
+│ GodStraNew7.py │ GodStraNew7 │      Yes │            20 │                   18 │                  12 │ EMA-55, EMA-5, EMA-100, enter_long, EMA-15 │
+└────────────────┴─────────────┴──────────┴───────────────┴──────────────────────┴─────────────────────┴────────────────────────────────────────────┘
+### recursive-analysis GodStraNew7
+2026-11-11 23:08:13,064 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist StaticPairList from '/freqtrade/freqtrade/plugins/pairlist/StaticPairList.py'...
+2026-11-11 23:08:13,073 - freqtrade.optimize.backtesting - INFO - Using fee 0.1000% from config.
+2026-11-11 23:08:13,074 - freqtrade.optimize.analysis.recursive - INFO - Using pair XRP/USDT only for recursive analysis. Replacing whitelist.
+2026-11-11 23:08:13,074 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_crossed_indicator0 = EMA-12
+2026-11-11 23:08:13,075 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_crossed_indicator1 = EMA-100
+2026-11-11 23:08:13,075 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_crossed_indicator2 = EMA-5
+2026-11-11 23:08:13,075 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_indicator0 = EMA-55
+2026-11-11 23:08:13,075 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_indicator1 = EMA-5
+2026-11-11 23:08:13,075 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_indicator2 = EMA-55
+2026-11-11 23:08:13,076 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_operator0 = />R
+2026-11-11 23:08:13,076 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_operator1 = D
+2026-11-11 23:08:13,076 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_operator2 = <R
+2026-11-11 23:08:13,076 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_real_num0 = 0.6
+2026-11-11 23:08:13,077 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_real_num1 = 0.7
+2026-11-11 23:08:13,077 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_real_num2 = 0.1
+2026-11-11 23:08:13,077 - freqtrade.strategy.hyper - INFO - Strategy Parameter: sell_crossed_indicator0 = EMA-15
+2026-11-11 23:08:13,077 - freqtrade.strategy.hyper - INFO - Strategy Parameter: sell_crossed_indicator1 = EMA-15
+2026-11-11 23:08:13,077 - freqtrade.strategy.hyper - INFO - Strategy Parameter: sell_crossed_indicator2 = EMA-12
+2026-11-11 23:08:13,078 - freqtrade.strategy.hyper - INFO - Strategy Parameter: sell_indicator0 = EMA-12
+2026-11-11 23:08:13,078 - freqtrade.strategy.hyper - INFO - Strategy Parameter: sell_indicator1 = EMA-50
+2026-11-11 23:08:13,078 - freqtrade.strategy.hyper - INFO - Strategy Parameter: sell_indicator2 = EMA-12
+2026-11-11 23:08:13,078 - freqtrade.strategy.hyper - INFO - Strategy Parameter: sell_operator0 = OT
+2026-11-11 23:08:13,078 - freqtrade.strategy.hyper - INFO - Strategy Parameter: sell_operator1 = COT
+2026-11-11 23:08:13,079 - freqtrade.strategy.hyper - INFO - Strategy Parameter: sell_operator2 = D
+2026-11-11 23:08:13,079 - freqtrade.strategy.hyper - INFO - Strategy Parameter: sell_real_num0 = 1.0
+2026-11-11 23:08:13,079 - freqtrade.strategy.hyper - INFO - Strategy Parameter: sell_real_num1 = 0.0
+2026-11-11 23:08:13,079 - freqtrade.strategy.hyper - INFO - Strategy Parameter: sell_real_num2 = 1.0
+2026-11-11 23:08:13,079 - freqtrade - ERROR - Configuration error: The strategy defines invalid startup candle count of 0. This will lead to recursive issues on some indicators. Please define a proper
+startup_candle_count in the strategy.
+Please make sure to review the documentation at https://www.freqtrade.io/en/stable.
+VALIDATION_DONE

@@ -66,6 +66,8 @@ Patikros:
 | Strategija | Rinka | %/m | Max kritimas | Kodėl ne pagrindiniame sąraše |
 |---|---|---|---|---|
 | Ichimoku_v37 | BTC+ETH spot, 4h | 15,9 | 16,1 % | 2022–2024 visi metai minuse, laimi 16 % sandorių, ~19 sandorių/m. (tik trendo bangos). Švari; nematytame 2018–21 +89 %/m. |
+| Ichimoku_v2 | BTC+ETH spot, 4h | 17,3 | 27 % (balanso 42 %) | 2022 −24 %, ~14 sandorių/m., beveik visas pelnas 2024–25. Švari (lookahead 0/20), 5m detalumas tas pats, nematytame 2018–21 +89 %/m. (2018 −24 %). `Ichimoku_v2.py` |
+| Ichimoku_v16 | BTC+ETH spot, 1d | 22,4 | 29 % (balanso 44 %) | tik ~6 sandoriai/m., 2025 +98 % sudaro didžiąją pelno dalį. Švari, 2018–21 +91 %/m., bet 2018 −33 %. `Ichimoku_v16_1d.py` |
 | VolatilitySystem | BTC+ETH futures, 1h | 69,8 | 53,4 % | 2x svertas, be stop-loss; ant altcoin'ų tik +0,6 %/m.; 2026 m. −0,2 %. Lookahead švari. Failas `VolatilitySystem.py`. |
 | EI3v2_tag_cofi_green ant 3x ETF, 1d | 18 sintetinių 3x ETF (TQQQ, UPRO, NUGT, JNUG…) | 13,5 | 14,5 % | Žemiau 14 %; grafikas parinktas iš 4 bandytų. Kasmet teigiama. Žr. `etf3x/README.md`. |
 
@@ -74,6 +76,7 @@ Patikros:
 - NowoIchimoku1hV2 (batch50h): 1h testas +35 %/m. (alts10), +32 %/m. (BTC+ETH), švari, išlaikė 2018–21, bet su 5m detalumu tik +6,5 / +10,9 %/m., kritimas 29 / 21 %. Rezultatas buvo išpūstas 1h žvakių.
 - NostalgiaForInfinityX8: naudoja ateities duomenis.
 - MomentumRegimeBasket (batchM2, 1d): BTC+ETH +17,1 %/m., bet lookahead-analysis rado ateities duomenis (10/10 įėjimų ir 10/10 išėjimų), 2018–21 „+101 %/m.“ – neįmanomai gerai. Atmesta.
+- GodStraNew7 (batchM6, 5m): alts10 +16,8 %/m., bet lookahead-analysis 18/20 įėjimų su ateities duomenimis. Atmesta.
 - ichiV1: perka Heikin-Ashi kainomis + žiūri į ateitį; ištaisyta versija −58,6 %.
 - In & Out TQQQ/TMF: 2021–2026 pralaimi SPY, 2022 m. −55 %.
 

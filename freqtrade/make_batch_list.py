@@ -9,7 +9,7 @@ done = set()
 for b in list(S.glob("batch50*/_list.json")) + list(S.glob("batchM*/_list.json")):
     done |= {s for s, _, _ in json.loads(b.read_text())}
 todo = []
-for line in (ROOT / "sources_more/new_strategies.txt").read_text().splitlines():
+for line in (ROOT / __import__("os").environ.get("LIST", "sources_more/new_strategies.txt")).read_text().splitlines():
     name, path = line.split("\t")
     if name in done: continue
     src = (ROOT / path).read_text(errors="replace")

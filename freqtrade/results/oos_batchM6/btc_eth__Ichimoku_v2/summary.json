@@ -1,0 +1,23 @@
+{
+  "strategy": "Ichimoku_v2",
+  "mode": "spot",
+  "group": "btc_eth",
+  "timeframe": "4h",
+  "style": "position",
+  "avg_trade_hours": 708.5,
+  "trades": 52,
+  "trades_per_year": 13.5,
+  "total_return_pct": 1060.8,
+  "cagr_pct": 89.0,
+  "yearly_pct": {
+    "2018": -23.8,
+    "2019": 21.5,
+    "2020": 182.9,
+    "2021": 343.4
+  },
+  "max_drawdown_pct": 15.5,
+  "win_rate_pct": 50.0,
+  "profit_factor": 4.11,
+  "market_change_pct": 464.4,
+  "timerange": "20180101-20211108"
+}
