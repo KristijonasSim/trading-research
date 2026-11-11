@@ -73,6 +73,7 @@ Patikros:
 - TheForce (batch50i, 15m): 0,1 % mokesčiu BTC+ETH +89 %/m., alts10 +362 %/m. (išlaiko ir 1m detalumą, lookahead 0/20), bet ~10 tūkst. sandorių/m. po +0,04 %. Su 0,15 % mokesčiu (realus slippage) BTC+ETH −55 %/m., kritimas 99 %. Netinka.
 - NowoIchimoku1hV2 (batch50h): 1h testas +35 %/m. (alts10), +32 %/m. (BTC+ETH), švari, išlaikė 2018–21, bet su 5m detalumu tik +6,5 / +10,9 %/m., kritimas 29 / 21 %. Rezultatas buvo išpūstas 1h žvakių.
 - NostalgiaForInfinityX8: naudoja ateities duomenis.
+- MomentumRegimeBasket (batchM2, 1d): BTC+ETH +17,1 %/m., bet lookahead-analysis rado ateities duomenis (10/10 įėjimų ir 10/10 išėjimų), 2018–21 „+101 %/m.“ – neįmanomai gerai. Atmesta.
 - ichiV1: perka Heikin-Ashi kainomis + žiūri į ateitį; ištaisyta versija −58,6 %.
 - In & Out TQQQ/TMF: 2021–2026 pralaimi SPY, 2022 m. −55 %.
 

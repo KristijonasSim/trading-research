@@ -1,0 +1,63 @@
+### lookahead-analysis MomentumRegimeBasket
+2026-11-11 19:58:39,393 - freqtrade.optimize.backtesting - INFO - Loading data from 2021-09-23 00:00:00 up to 2023-06-09 00:00:00 (624 days).
+2026-11-11 19:58:39,403 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 1d from 2021-09-23 00:00:00 to 2023-06-09 00:00:00
+2026-11-11 19:58:39,489 - freqtrade.optimize.backtesting - INFO - Loading data from 2021-09-23 00:00:00 up to 2023-06-08 00:00:00 (623 days).
+2026-11-11 19:58:39,498 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 1d from 2021-09-23 00:00:00 to 2023-06-08 00:00:00
+2026-11-11 19:58:39,510 - freqtrade.data.dataprovider - INFO - Loading data for ETH/USDT 1d from 2021-09-23 00:00:00 to 2023-06-08 00:00:00
+2026-11-11 19:58:39,588 - freqtrade.optimize.backtesting - INFO - Loading data from 2021-09-23 00:00:00 up to 2023-06-09 00:00:00 (624 days).
+2026-11-11 19:58:39,597 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 1d from 2021-09-23 00:00:00 to 2023-06-09 00:00:00
+2026-11-11 19:58:39,610 - freqtrade.data.dataprovider - INFO - Loading data for ETH/USDT 1d from 2021-09-23 00:00:00 to 2023-06-09 00:00:00
+2026-11-11 19:58:39,665 - freqtrade.optimize.analysis.lookahead - INFO - found lookahead-bias in trade pair: ETH/USDT, timerange:2023-06-07 00:00:00+00:00 - 2023-06-08 00:00:00+00:00, idx: 17
+2026-11-11 19:58:39,706 - freqtrade.optimize.backtesting - INFO - Loading data from 2021-09-23 00:00:00 up to 2023-06-22 00:00:00 (637 days).
+2026-11-11 19:58:39,716 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 1d from 2021-09-23 00:00:00 to 2023-06-22 00:00:00
+2026-11-11 19:58:39,787 - freqtrade.optimize.backtesting - INFO - Loading data from 2021-09-23 00:00:00 up to 2023-08-19 00:00:00 (695 days).
+2026-11-11 19:58:39,797 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 1d from 2021-09-23 00:00:00 to 2023-08-19 00:00:00
+2026-11-11 19:58:39,886 - freqtrade.optimize.backtesting - INFO - Loading data from 2021-09-23 00:00:00 up to 2023-06-22 00:00:00 (637 days).
+2026-11-11 19:58:39,896 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 1d from 2021-09-23 00:00:00 to 2023-06-22 00:00:00
+2026-11-11 19:58:39,907 - freqtrade.data.dataprovider - INFO - Loading data for ETH/USDT 1d from 2021-09-23 00:00:00 to 2023-06-22 00:00:00
+2026-11-11 19:58:39,986 - freqtrade.optimize.backtesting - INFO - Loading data from 2021-09-23 00:00:00 up to 2023-08-19 00:00:00 (695 days).
+2026-11-11 19:58:39,996 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 1d from 2021-09-23 00:00:00 to 2023-08-19 00:00:00
+2026-11-11 19:58:40,007 - freqtrade.data.dataprovider - INFO - Loading data for ETH/USDT 1d from 2021-09-23 00:00:00 to 2023-08-19 00:00:00
+2026-11-11 19:58:40,065 - freqtrade.optimize.analysis.lookahead - INFO - found lookahead-bias in trade pair: ETH/USDT, timerange:2023-06-21 00:00:00+00:00 - 2023-08-18 00:00:00+00:00, idx: 19
+2026-11-11 19:58:40,079 - freqtrade.optimize.analysis.lookahead - INFO - Found targeted trade amount = 20 signals.
+2026-11-11 19:58:40,080 - freqtrade.loggers.set_log_levels - INFO - Restoring log verbosity.
+2026-11-11 19:58:40,080 - freqtrade.optimize.analysis.lookahead - INFO -  => MomentumRegimeBasket : bias detected!
+2026-11-11 19:58:40,080 - freqtrade.optimize.analysis.lookahead_helpers - INFO - Checking look ahead bias via backtests of MomentumRegimeBasket.py took 4 seconds.
+                                                                   Lookahead Analysis                                                                   
+┏━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃                filename ┃             strategy ┃ has_bias ┃ total_signals ┃ biased_entry_signals ┃ biased_exit_signals ┃           biased_indicators ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
+│ MomentumRegimeBasket.py │ MomentumRegimeBasket │      Yes │            20 │                   10 │                  10 │ hold, enter_long, exit_long │
+└─────────────────────────┴──────────────────────┴──────────┴───────────────┴──────────────────────┴─────────────────────┴─────────────────────────────┘
+### recursive-analysis MomentumRegimeBasket
+2026-11-11 19:58:44,246 - freqtrade.optimize.analysis.recursive - INFO - Calculating indicators to test lookahead on indicators.
+2026-11-11 19:58:44,272 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-09-23 00:00:00 up to 2025-01-11 00:00:00 (110 days).
+2026-11-11 19:58:44,278 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 1d from 2024-09-23 00:00:00 to 2025-01-11 00:00:00
+2026-11-11 19:58:44,294 - freqtrade.optimize.analysis.recursive - INFO - Calculating indicators using startup candle of 100.
+2026-11-11 19:58:44,319 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-11-20 00:00:00 up to 2025-03-01 00:00:00 (101 days).
+2026-11-11 19:58:44,325 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 1d from 2024-11-20 00:00:00 to 2025-03-01 00:00:00
+2026-11-11 19:58:44,340 - freqtrade.optimize.analysis.recursive - INFO - Calculating indicators using startup candle of 199.
+2026-11-11 19:58:44,365 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-08-13 00:00:00 up to 2025-03-01 00:00:00 (200 days).
+2026-11-11 19:58:44,371 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 1d from 2024-08-13 00:00:00 to 2025-03-01 00:00:00
+2026-11-11 19:58:44,386 - freqtrade.optimize.analysis.recursive - INFO - Calculating indicators using startup candle of 399.
+2026-11-11 19:58:44,412 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-01-26 00:00:00 up to 2025-03-01 00:00:00 (400 days).
+2026-11-11 19:58:44,420 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 1d from 2024-01-26 00:00:00 to 2025-03-01 00:00:00
+2026-11-11 19:58:44,435 - freqtrade.optimize.analysis.recursive - INFO - Calculating indicators using startup candle of 499.
+2026-11-11 19:58:44,461 - freqtrade.optimize.backtesting - INFO - Loading data from 2023-10-18 00:00:00 up to 2025-03-01 00:00:00 (500 days).
+2026-11-11 19:58:44,469 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 1d from 2023-10-18 00:00:00 to 2025-03-01 00:00:00
+2026-11-11 19:58:44,484 - freqtrade.optimize.analysis.recursive - INFO - Calculating indicators using startup candle of 999.
+2026-11-11 19:58:44,510 - freqtrade.optimize.backtesting - INFO - Loading data from 2022-06-05 00:00:00 up to 2025-03-01 00:00:00 (1000 days).
+2026-11-11 19:58:44,521 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 1d from 2022-06-05 00:00:00 to 2025-03-01 00:00:00
+2026-11-11 19:58:44,537 - freqtrade.optimize.analysis.recursive - INFO - Calculating indicators using startup candle of 1999.
+2026-11-11 19:58:44,551 - freqtrade.exchange.exchange - WARNING - Using 2 calls to get OHLCV. This can result in slower operations for the bot. Please check if you really need 1999 candles for your 
+strategy.
+2026-11-11 19:58:44,563 - freqtrade.optimize.backtesting - INFO - Loading data from 2019-09-09 00:00:00 up to 2025-03-01 00:00:00 (2000 days).
+2026-11-11 19:58:44,581 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 1d from 2019-09-09 00:00:00 to 2025-03-01 00:00:00
+2026-11-11 19:58:44,601 - freqtrade.loggers.set_log_levels - INFO - Restoring log verbosity.
+2026-11-11 19:58:44,601 - freqtrade.optimize.analysis.recursive - INFO - Start checking for recursive bias
+2026-11-11 19:58:44,603 - freqtrade.optimize.analysis.recursive - INFO - No variance on indicator(s) found due to recursive formula.
+2026-11-11 19:58:44,603 - freqtrade.optimize.analysis.recursive - INFO - Start checking for lookahead bias on indicators only
+2026-11-11 19:58:44,604 - freqtrade.optimize.analysis.recursive - INFO - Check indicators at 2025-01-11T00:00:00
+2026-11-11 19:58:44,605 - freqtrade.optimize.analysis.recursive - INFO - No lookahead bias on indicators found.
+2026-11-11 19:58:44,606 - freqtrade.optimize.analysis.recursive_helpers - INFO - Checking recursive and indicator-only lookahead bias of indicators of MomentumRegimeBasket.py took 1 seconds.
+VALIDATION_DONE

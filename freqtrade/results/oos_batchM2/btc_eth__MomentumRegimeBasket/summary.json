@@ -1,0 +1,23 @@
+{
+  "strategy": "MomentumRegimeBasket",
+  "mode": "spot",
+  "group": "btc_eth",
+  "timeframe": "1d",
+  "style": "position",
+  "avg_trade_hours": 789.9,
+  "trades": 46,
+  "trades_per_year": 11.9,
+  "total_return_pct": 1379.7,
+  "cagr_pct": 101.3,
+  "yearly_pct": {
+    "2018": -34.8,
+    "2019": 74.6,
+    "2020": 33.4,
+    "2021": 874.3
+  },
+  "max_drawdown_pct": 7.4,
+  "win_rate_pct": 30.4,
+  "profit_factor": 7.22,
+  "market_change_pct": 562.9,
+  "timerange": "20180101-20211108"
+}

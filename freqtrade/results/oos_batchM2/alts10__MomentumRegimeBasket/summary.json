@@ -1,0 +1,23 @@
+{
+  "strategy": "MomentumRegimeBasket",
+  "mode": "spot",
+  "group": "alts10",
+  "timeframe": "1d",
+  "style": "position",
+  "avg_trade_hours": 520.4,
+  "trades": 178,
+  "trades_per_year": 46.2,
+  "total_return_pct": 629.6,
+  "cagr_pct": 67.5,
+  "yearly_pct": {
+    "2018": -17.7,
+    "2019": 41.1,
+    "2020": 39.6,
+    "2021": 349.8
+  },
+  "max_drawdown_pct": 18.8,
+  "win_rate_pct": 50.0,
+  "profit_factor": 6.39,
+  "market_change_pct": 3191.9,
+  "timerange": "20180101-20211108"
+}
