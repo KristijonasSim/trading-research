@@ -70,6 +70,7 @@ Patikros:
 | EI3v2_tag_cofi_green ant 3x ETF, 1d | 18 sintetinių 3x ETF (TQQQ, UPRO, NUGT, JNUG…) | 13,5 | 14,5 % | Žemiau 14 %; grafikas parinktas iš 4 bandytų. Kasmet teigiama. Žr. `etf3x/README.md`. |
 
 ## Atmesti (kad netestuotume iš naujo)
+- TheForce (batch50i, 15m): 0,1 % mokesčiu BTC+ETH +89 %/m., alts10 +362 %/m. (išlaiko ir 1m detalumą, lookahead 0/20), bet ~10 tūkst. sandorių/m. po +0,04 %. Su 0,15 % mokesčiu (realus slippage) BTC+ETH −55 %/m., kritimas 99 %. Netinka.
 - NowoIchimoku1hV2 (batch50h): 1h testas +35 %/m. (alts10), +32 %/m. (BTC+ETH), švari, išlaikė 2018–21, bet su 5m detalumu tik +6,5 / +10,9 %/m., kritimas 29 / 21 %. Rezultatas buvo išpūstas 1h žvakių.
 - NostalgiaForInfinityX8: naudoja ateities duomenis.
 - ichiV1: perka Heikin-Ashi kainomis + žiūri į ateitį; ištaisyta versija −58,6 %.

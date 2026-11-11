@@ -1,0 +1,63 @@
+### lookahead-analysis TheForce
+2026-11-11 16:02:59,778 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'sell_profit_only' moved to 'exit_profit_only'.
+2026-11-11 16:02:59,779 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-11 16:02:59,779 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'ignore_roi_if_buy_signal' moved to 'ignore_roi_if_entry_signal'.
+2026-11-11 16:02:59,779 - freqtrade.configuration.config_validation - WARNING - DEPRECATED: Using 'buy' and 'sell' for time_in_force is deprecated.Please migrate your time_in_force settings to use 
+'entry' and 'exit'.
+2026-11-11 16:02:59,780 - freqtrade.configuration.deprecated_settings - WARNING - DEPRECATED: The `order_time_in_force.buy` setting is deprecated and will be removed in the next versions of Freqtrade.
+Please use the `order_time_in_force.entry` setting in your configuration instead.
+2026-11-11 16:02:59,780 - freqtrade.configuration.deprecated_settings - WARNING - DEPRECATED: The `order_time_in_force.sell` setting is deprecated and will be removed in the next versions of 
+Freqtrade. Please use the `order_time_in_force.exit` setting in your configuration instead.
+2026-11-11 16:02:59,809 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-31 16:30:00 up to 2025-01-01 13:15:00 (0 days).
+2026-11-11 16:02:59,838 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'sell_profit_only' moved to 'exit_profit_only'.
+2026-11-11 16:02:59,838 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-11 16:02:59,838 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'ignore_roi_if_buy_signal' moved to 'ignore_roi_if_entry_signal'.
+2026-11-11 16:02:59,839 - freqtrade.configuration.config_validation - WARNING - DEPRECATED: Using 'buy' and 'sell' for time_in_force is deprecated.Please migrate your time_in_force settings to use 
+'entry' and 'exit'.
+2026-11-11 16:02:59,839 - freqtrade.configuration.deprecated_settings - WARNING - DEPRECATED: The `order_time_in_force.buy` setting is deprecated and will be removed in the next versions of Freqtrade.
+Please use the `order_time_in_force.entry` setting in your configuration instead.
+2026-11-11 16:02:59,839 - freqtrade.configuration.deprecated_settings - WARNING - DEPRECATED: The `order_time_in_force.sell` setting is deprecated and will be removed in the next versions of 
+Freqtrade. Please use the `order_time_in_force.exit` setting in your configuration instead.
+2026-11-11 16:02:59,869 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-31 16:30:00 up to 2025-01-01 15:00:00 (0 days).
+2026-11-11 16:02:59,910 - freqtrade.optimize.analysis.lookahead - INFO - Found targeted trade amount = 20 signals.
+2026-11-11 16:02:59,912 - freqtrade.loggers.set_log_levels - INFO - Restoring log verbosity.
+2026-11-11 16:02:59,913 - freqtrade.optimize.analysis.lookahead - INFO -  => TheForce : bias detected!
+2026-11-11 16:02:59,913 - freqtrade.optimize.analysis.lookahead_helpers - INFO - Checking look ahead bias via backtests of TheForce.py took 9 seconds.
+                                                                  Lookahead Analysis                                                                  
+┏━━━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃    filename ┃ strategy ┃ has_bias ┃ total_signals ┃ biased_entry_signals ┃ biased_exit_signals ┃                                 biased_indicators ┃
+┡━━━━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
+│ TheForce.py │ TheForce │      Yes │            20 │                    0 │                   0 │ macd, macdsignal, macdhist, enter_long, exit_long │
+└─────────────┴──────────┴──────────┴───────────────┴──────────────────────┴─────────────────────┴───────────────────────────────────────────────────┘
+### recursive-analysis TheForce
+2026-11-11 16:03:04,142 - freqtrade.configuration.deprecated_settings - WARNING - DEPRECATED: The `order_time_in_force.sell` setting is deprecated and will be removed in the next versions of 
+Freqtrade. Please use the `order_time_in_force.exit` setting in your configuration instead.
+2026-11-11 16:03:04,142 - freqtrade.configuration.config_validation - WARNING - DEPRECATED: Using 'buy' and 'sell' for order_types is deprecated.Please migrate your order_types settings to use 'entry'
+and 'exit' wording.
+2026-11-11 16:03:04,142 - freqtrade.configuration.deprecated_settings - WARNING - DEPRECATED: The `order_types.buy` setting is deprecated and will be removed in the next versions of Freqtrade. Please 
+use the `order_types.entry` setting in your configuration instead.
+2026-11-11 16:03:04,142 - freqtrade.configuration.deprecated_settings - WARNING - DEPRECATED: The `order_types.sell` setting is deprecated and will be removed in the next versions of Freqtrade. Please
+use the `order_types.exit` setting in your configuration instead.
+2026-11-11 16:03:04,154 - freqtrade.exchange.exchange - WARNING - Using 2 calls to get OHLCV. This can result in slower operations for the bot. Please check if you really need 1999 candles for your 
+strategy.
+2026-11-11 16:03:04,172 - freqtrade.optimize.backtesting - INFO - Loading data from 2025-02-08 04:00:00 up to 2025-03-01 00:00:00 (20 days).
+2026-11-11 16:03:04,192 - freqtrade.loggers.set_log_levels - INFO - Restoring log verbosity.
+2026-11-11 16:03:04,192 - freqtrade.optimize.analysis.recursive - INFO - Start checking for recursive bias
+2026-11-11 16:03:04,202 - freqtrade.optimize.analysis.recursive - INFO - Start checking for lookahead bias on indicators only
+2026-11-11 16:03:04,202 - freqtrade.optimize.analysis.recursive - INFO - Check indicators at 2025-01-01T02:30:00
+2026-11-11 16:03:04,204 - freqtrade.optimize.analysis.recursive - INFO - => found lookahead in indicator macdsignal
+2026-11-11 16:03:04,204 - freqtrade.optimize.analysis.recursive - INFO - => found lookahead in indicator macdhist
+2026-11-11 16:03:04,204 - freqtrade.optimize.analysis.recursive_helpers - INFO - Checking recursive and indicator-only lookahead bias of indicators of TheForce.py took 1 seconds.
+                                                                            Recursive Analysis                                                                             
+┏━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━┓
+┃ Indicators ┃                                                                                30 (from strategy) ┃      199 ┃       399 ┃      499 ┃      999 ┃      1999 ┃
+┡━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━━┩
+│      fastd │                                                                                           -0.000% │        - │         - │        - │        - │         - │
+│  fastd_rsi │                                                                                            0.454% │  -0.000% │    0.000% │   0.000% │   0.000% │    0.000% │
+│       macd │                                                                                          -78.216% │   0.000% │   -0.000% │        - │        - │         - │
+│ macdsignal │                                                                                          -98.000% │ -25.414% │ -100.000% │        - │ -37.760% │ -100.000% │
+│   macdhist │ 73732368483102530654551927598829467761396768682581664308428477083689573274867909488141139968.000% │ -96.454% │      inf% │ -91.187% │ -82.409% │      inf% │
+│      ema5c │                                                                                            0.000% │        - │         - │        - │        - │         - │
+│      ema5o │                                                                                           -0.000% │        - │         - │        - │        - │         - │
+└────────────┴───────────────────────────────────────────────────────────────────────────────────────────────────┴──────────┴───────────┴──────────┴──────────┴───────────┘
+VALIDATION_DONE
