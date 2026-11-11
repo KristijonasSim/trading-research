@@ -1,0 +1,63 @@
+### lookahead-analysis NowoIchimoku1hV2
+2026-11-11 07:36:29,451 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-11 07:36:29,486 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-27 20:00:00 up to 2025-01-11 23:00:00 (15 days).
+2026-11-11 07:36:29,769 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-11 07:36:29,802 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-27 20:00:00 up to 2025-01-14 10:00:00 (17 days).
+2026-11-11 07:36:30,224 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-11 07:36:30,255 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-27 20:00:00 up to 2025-01-14 02:00:00 (17 days).
+2026-11-11 07:36:30,570 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-11 07:36:30,602 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-27 20:00:00 up to 2025-01-14 18:00:00 (17 days).
+2026-11-11 07:36:30,977 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-11 07:36:31,008 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-27 20:00:00 up to 2025-01-14 11:00:00 (17 days).
+2026-11-11 07:36:31,328 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-11 07:36:31,357 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-27 20:00:00 up to 2025-01-15 14:00:00 (18 days).
+2026-11-11 07:36:31,760 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-11 07:36:31,795 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-27 20:00:00 up to 2025-01-15 15:00:00 (18 days).
+2026-11-11 07:36:32,221 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-11 07:36:32,251 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-27 20:00:00 up to 2025-01-15 20:00:00 (19 days).
+2026-11-11 07:36:32,682 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-11 07:36:32,716 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-27 20:00:00 up to 2025-01-20 10:00:00 (23 days).
+2026-11-11 07:36:33,189 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-11 07:36:33,221 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-27 20:00:00 up to 2025-01-20 11:00:00 (23 days).
+2026-11-11 07:36:33,705 - freqtrade.optimize.analysis.lookahead - INFO - Found targeted trade amount = 20 signals.
+2026-11-11 07:36:33,706 - freqtrade.loggers.set_log_levels - INFO - Restoring log verbosity.
+2026-11-11 07:36:33,707 - freqtrade.optimize.analysis.lookahead - INFO - NowoIchimoku1hV2: no bias detected
+2026-11-11 07:36:33,708 - freqtrade.optimize.analysis.lookahead_helpers - INFO - Checking look ahead bias via backtests of NowoIchimoku1hV2.py took 40 seconds.
+                                                          Lookahead Analysis                                                          
+┏━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┓
+┃            filename ┃         strategy ┃ has_bias ┃ total_signals ┃ biased_entry_signals ┃ biased_exit_signals ┃ biased_indicators ┃
+┡━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━┩
+│ NowoIchimoku1hV2.py │ NowoIchimoku1hV2 │       No │            20 │                    0 │                   0 │                   │
+└─────────────────────┴──────────────────┴──────────┴───────────────┴──────────────────────┴─────────────────────┴───────────────────┘
+### recursive-analysis NowoIchimoku1hV2
+2026-11-11 07:36:39,058 - freqtrade.optimize.backtesting - INFO - Loading data from 2025-02-20 16:00:00 up to 2025-03-01 00:00:00 (8 days).
+2026-11-11 07:36:39,077 - freqtrade.optimize.analysis.recursive - INFO - Calculating indicators using startup candle of 399.
+2026-11-11 07:36:39,081 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-11 07:36:39,112 - freqtrade.optimize.backtesting - INFO - Loading data from 2025-02-12 08:00:00 up to 2025-03-01 00:00:00 (16 days).
+2026-11-11 07:36:39,132 - freqtrade.optimize.analysis.recursive - INFO - Calculating indicators using startup candle of 499.
+2026-11-11 07:36:39,136 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-11 07:36:39,168 - freqtrade.optimize.backtesting - INFO - Loading data from 2025-02-08 04:00:00 up to 2025-03-01 00:00:00 (20 days).
+2026-11-11 07:36:39,189 - freqtrade.optimize.analysis.recursive - INFO - Calculating indicators using startup candle of 999.
+2026-11-11 07:36:39,192 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-11 07:36:39,223 - freqtrade.optimize.backtesting - INFO - Loading data from 2025-01-18 08:00:00 up to 2025-03-01 00:00:00 (41 days).
+2026-11-11 07:36:39,249 - freqtrade.optimize.analysis.recursive - INFO - Calculating indicators using startup candle of 1999.
+2026-11-11 07:36:39,253 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-11 07:36:39,268 - freqtrade.exchange.exchange - WARNING - Using 2 calls to get OHLCV. This can result in slower operations for the bot. Please check if you really need 1999 candles for your 
+strategy.
+2026-11-11 07:36:39,287 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-07 16:00:00 up to 2025-03-01 00:00:00 (83 days).
+2026-11-11 07:36:39,323 - freqtrade.loggers.set_log_levels - INFO - Restoring log verbosity.
+2026-11-11 07:36:39,324 - freqtrade.optimize.analysis.recursive - INFO - Start checking for recursive bias
+2026-11-11 07:36:39,339 - freqtrade.optimize.analysis.recursive - INFO - Start checking for lookahead bias on indicators only
+2026-11-11 07:36:39,340 - freqtrade.optimize.analysis.recursive - INFO - Check indicators at 2025-01-01T10:00:00
+2026-11-11 07:36:39,342 - freqtrade.optimize.analysis.recursive - INFO - No lookahead bias on indicators found.
+2026-11-11 07:36:39,342 - freqtrade.optimize.analysis.recursive_helpers - INFO - Checking recursive and indicator-only lookahead bias of indicators of NowoIchimoku1hV2.py took 1 seconds.
+                                  Recursive Analysis                                  
+┏━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┓
+┃ Indicators ┃ 100 (from strategy) ┃     199 ┃     399 ┃     499 ┃     999 ┃    1999 ┃
+┡━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━╇━━━━━━━━━╇━━━━━━━━━╇━━━━━━━━━╇━━━━━━━━━┩
+│        rsi │             -0.023% │  0.000% │  0.000% │ -0.000% │       - │       - │
+│     srsi_k │              0.025% │ -0.000% │ -0.000% │ -0.000% │ -0.000% │ -0.000% │
+│     srsi_d │              0.018% │ -0.000% │ -0.000% │ -0.000% │  0.000% │  0.000% │
+│      upper │                   - │ -0.000% │ -0.000% │ -0.000% │ -0.000% │ -0.000% │
+└────────────┴─────────────────────┴─────────┴─────────┴─────────┴─────────┴─────────┘
+VALIDATION_DONE
