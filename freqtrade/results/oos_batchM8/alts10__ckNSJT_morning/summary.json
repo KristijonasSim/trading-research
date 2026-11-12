@@ -1,0 +1,23 @@
+{
+  "strategy": "ckNSJT_morning",
+  "mode": "spot",
+  "group": "alts10",
+  "timeframe": "5m",
+  "style": "swing",
+  "avg_trade_hours": 25.7,
+  "trades": 2205,
+  "trades_per_year": 572.4,
+  "total_return_pct": 1083.5,
+  "cagr_pct": 89.9,
+  "yearly_pct": {
+    "2018": 36.5,
+    "2019": 29.5,
+    "2020": 51.7,
+    "2021": 341.4
+  },
+  "max_drawdown_pct": 39.2,
+  "win_rate_pct": 93.2,
+  "profit_factor": 1.92,
+  "market_change_pct": 3171.7,
+  "timerange": "20180101-20211108"
+}

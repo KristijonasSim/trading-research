@@ -68,3 +68,4 @@ Pilna lentelė: `quantconnect_ranking.md`. SPY „pirkti ir laikyti“: 1676 (+1
 - Iš `extra/` atrinkti tik EI3v2 ir E0V1E_DCA3 (žr. `best_strategies/ATRINKTI_BOTAI.md`). batch50d–f naujų nedavė: geriausios ClucHAnix_5m +16,4 %/m. (bet 2025 −10,6 %), CombinedBinHAndClucV5Hyperoptable +10,8 %/m.
 - 1m strategijos ant 10 altcoin'ų netestuotos (reikia > 10 GB RAM). Kitą partiją sudaro `freqtrade/make_batch.py batch50g`.
 - 2026-11-11 batch50g: **NASOSv5_mod3** atrinkta (alts10 +18,3 %/m., kritimas 3,3 %, nematytame 2018–21 +89 %/m.) → `best_strategies/ATRINKTI_BOTAI.md` nr. 3.
+- 2026-11-12 batchM8: **ckNSJT_morning** atrinkta (alts10 5m +21,2 %/m., su 0,15 % mokesčiu +19 %, 2018–21 +90 %/m.; 2022 −14 %, balanso kritimas 37 %) → nr. 4. Ichimoku_v2/v5/v8/v16 – rizikingų sąraše.

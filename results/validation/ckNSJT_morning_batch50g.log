@@ -1,0 +1,63 @@
+### lookahead-analysis ckNSJT_morning
+  dataframe['dca_buy_signal'] = (
+/freqtrade/user_data/strategies/validate50/ckNSJT_morning.py:369: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  dataframe['dca_buy_signal2'] = (
+2026-11-12 02:02:55,011 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-31 14:00:00 up to 2025-01-20 18:40:00 (20 days).
+/freqtrade/user_data/strategies/validate50/ckNSJT_morning.py:332: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  dataframe[f'{i}_offset_sell'] = self.ma_map[f'{i}']['calculate'](
+/freqtrade/user_data/strategies/validate50/ckNSJT_morning.py:338: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  dataframe['fastd'] = stoch_fast['fastd']
+/freqtrade/user_data/strategies/validate50/ckNSJT_morning.py:339: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  dataframe['fastk'] = stoch_fast['fastk']
+/freqtrade/user_data/strategies/validate50/ckNSJT_morning.py:343: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  dataframe['fastd_rsi'] = stoch_rsi['fastd']
+/freqtrade/user_data/strategies/validate50/ckNSJT_morning.py:344: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  dataframe['fastk_rsi'] = stoch_rsi['fastk']
+/freqtrade/user_data/strategies/validate50/ckNSJT_morning.py:348: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  dataframe['goodloss'] = (
+/freqtrade/user_data/strategies/validate50/ckNSJT_morning.py:355: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  dataframe['dca_buy_signal'] = (
+/freqtrade/user_data/strategies/validate50/ckNSJT_morning.py:369: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  dataframe['dca_buy_signal2'] = (
+2026-11-12 02:02:55,573 - freqtrade.optimize.analysis.lookahead - INFO - Found targeted trade amount = 20 signals.
+2026-11-12 02:02:55,573 - freqtrade.loggers.set_log_levels - INFO - Restoring log verbosity.
+2026-11-12 02:02:55,574 - freqtrade.optimize.analysis.lookahead - INFO - ckNSJT_morning: no bias detected
+2026-11-12 02:02:55,574 - freqtrade.optimize.analysis.lookahead_helpers - INFO - Checking look ahead bias via backtests of ckNSJT_morning.py took 145 seconds.
+                                                        Lookahead Analysis                                                        
+┏━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┓
+┃          filename ┃       strategy ┃ has_bias ┃ total_signals ┃ biased_entry_signals ┃ biased_exit_signals ┃ biased_indicators ┃
+┡━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━┩
+│ ckNSJT_morning.py │ ckNSJT_morning │       No │            20 │                    0 │                   0 │                   │
+└───────────────────┴────────────────┴──────────┴───────────────┴──────────────────────┴─────────────────────┴───────────────────┘
+### recursive-analysis ckNSJT_morning
+│     trend_close_4h │              0.014% │  -0.001% │  -0.000% │  0.000% │       - │       - │
+│     trend_close_6h │              0.092% │  -0.010% │  -0.000% │  0.000% │  0.000% │       - │
+│     trend_close_8h │              0.239% │  -0.098% │  -0.000% │  0.000% │ -0.000% │       - │
+│      trend_open_1h │              0.000% │        - │        - │       - │       - │       - │
+│      trend_open_2h │              0.000% │  -0.000% │  -0.000% │       - │       - │       - │
+│      trend_open_4h │              0.013% │  -0.001% │  -0.000% │  0.000% │       - │       - │
+│      trend_open_6h │              0.088% │  -0.010% │  -0.000% │  0.000% │  0.000% │       - │
+│      trend_open_8h │              0.230% │  -0.096% │  -0.000% │  0.000% │ -0.000% │       - │
+│      fan_magnitude │             -0.238% │   0.098% │   0.000% │ -0.000% │  0.000% │       - │
+│ fan_magnitude_gain │              0.005% │  -0.002% │  -0.000% │  0.000% │ -0.000% │       - │
+│           senkou_b │                nan% │        - │        - │       - │       - │       - │
+│        cloud_green │                 NaN │        - │        - │       - │       - │       - │
+│             ema_14 │              0.000% │   0.000% │        - │       - │       - │       - │
+│              rsi_4 │              0.000% │        - │        - │       - │       - │       - │
+│             rsi_14 │              0.011% │  -0.000% │   0.000% │       - │       - │       - │
+│                mfi │             -0.000% │  -0.000% │  -0.000% │ -0.000% │ -0.000% │ -0.000% │
+│                ewo │                nan% │ 108.183% │ -13.469% │ -1.827% │  0.025% │  0.000% │
+│     sma_offset_buy │             -0.000% │  -0.000% │  -0.000% │ -0.000% │ -0.000% │ -0.000% │
+│    sma_offset_sell │             -0.000% │  -0.000% │  -0.000% │ -0.000% │ -0.000% │ -0.000% │
+│     ema_offset_buy │              0.000% │  -0.000% │        - │       - │       - │       - │
+│    ema_offset_sell │              0.000% │  -0.000% │        - │       - │       - │       - │
+│   trima_offset_buy │             -0.000% │  -0.000% │  -0.000% │ -0.000% │ -0.000% │ -0.000% │
+│  trima_offset_sell │             -0.000% │  -0.000% │  -0.000% │ -0.000% │ -0.000% │ -0.000% │
+│      t3_offset_buy │              0.002% │   0.000% │   0.000% │       - │       - │       - │
+│     t3_offset_sell │              0.002% │   0.000% │   0.000% │       - │       - │       - │
+│    kama_offset_buy │              0.170% │   0.000% │   0.000% │  0.000% │       - │       - │
+│   kama_offset_sell │              0.170% │   0.000% │   0.000% │  0.000% │       - │       - │
+│          fastd_rsi │             -0.014% │   0.000% │  -0.000% │  0.000% │ -0.000% │ -0.000% │
+│              zvwap │                   - │        - │        - │  0.000% │       - │  0.000% │
+└────────────────────┴─────────────────────┴──────────┴──────────┴─────────┴─────────┴─────────┘
+VALIDATION_DONE

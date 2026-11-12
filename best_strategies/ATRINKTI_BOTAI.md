@@ -62,6 +62,24 @@ Patikros:
 - ✅ Nematytas 2018-01 – 2021-11: +89 %/m., kritimas 20,7 %, kasmet pliuse (2018 +14,8 %, 2019 +28 %, 2020 +74 %, 2021 +356 %).
 - ⚠️ 1m detalumu netikrinta. Kitas žingsnis – dry-run.
 
+## 4. ckNSJT_morning (Freqtrade, kripto) – pridėta 2026-11-12
+- Failas: `ckNSJT_morning.py`. Šaltinis: RoboticAutomations/freqtradestrategies (rinkinys „AIRA – open code v2“, aplankas ichimoku).
+- Rinka: top 10 altcoin'ų, spot, 5m žvakės.
+
+| %/m | Iš viso | Max kritimas | Sandorių/m | Laimi % | Vid. sandoris | Profit factor |
+|---|---|---|---|---|---|---|
+| **21,2** | +161 % (1000 → 2611) | 17,2 % (balanso 37 %) | 256 | 93,4 % | 39 val. | 1,64 |
+
+| 2021* | 2022 | 2023 | 2024 | 2025 | 2026* |
+|---|---|---|---|---|---|
+| +11,7 % | −14,0 % | +28,7 % | +92,7 % | +20,4 % | −8,9 % |
+
+Patikros:
+- ✅ `lookahead-analysis`: 0 iš 20 signalų.
+- ✅ Su 0,15 % mokesčiu: +19,0 %/m. (vos krenta).
+- ✅ Nematytas 2018–2021: +89,9 %/m., visi metai pliuse (+37, +30, +52, +341 %), kritimas 39 %.
+- ⚠️ 2022 ir 2026 minuse, didžioji pelno dalis – 2024. Balanso kritimas iki 37 % – didesnis nei EI3v2.
+
 ## Potencialūs, bet rizikingi
 | Strategija | Rinka | %/m | Max kritimas | Kodėl ne pagrindiniame sąraše |
 |---|---|---|---|---|
