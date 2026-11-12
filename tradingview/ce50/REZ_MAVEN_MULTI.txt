@@ -1,0 +1,79 @@
+Maven Omo 2-Step $10k, 2025-01-01..2026-11-08 (22 mėn.). k = svertas (CE50: rizika % sandoriui).
+
+CE50 (long+short), 1 % rizika:
+  k= 1: sąskaitų   5, funded  3 (0.13/mėn.), išmokėta   1498 $, grynai   1308 $
+  k= 2: sąskaitų  22, funded  5 (0.22/mėn.), išmokėta   5349 $, grynai   4513 $
+  k= 3: sąskaitų  32, funded  7 (0.31/mėn.), išmokėta   8374 $, grynai   7158 $
+  k= 4: sąskaitų 237, funded  0 (0.00/mėn.), išmokėta      0 $, grynai  -9006 $
+  k= 5: sąskaitų 247, funded  0 (0.00/mėn.), išmokėta      0 $, grynai  -9386 $
+  k= 6: sąskaitų 257, funded  0 (0.00/mėn.), išmokėta      0 $, grynai  -9766 $
+  k= 8: sąskaitų 267, funded  0 (0.00/mėn.), išmokėta      0 $, grynai -10146 $
+  k=10: sąskaitų 272, funded  0 (0.00/mėn.), išmokėta      0 $, grynai -10336 $
+
+Noise Breakout NAS100, 1x:
+  k= 1: sąskaitų   1, funded  0 (0.00/mėn.), išmokėta      0 $, grynai    -38 $
+  k= 2: sąskaitų   2, funded  1 (0.04/mėn.), išmokėta      0 $, grynai    -76 $
+  k= 3: sąskaitų   7, funded  2 (0.09/mėn.), išmokėta    836 $, grynai    570 $
+  k= 4: sąskaitų  10, funded  2 (0.09/mėn.), išmokėta    552 $, grynai    172 $
+  k= 5: sąskaitų  22, funded  2 (0.09/mėn.), išmokėta   1366 $, grynai    530 $
+  k= 6: sąskaitų  27, funded  2 (0.09/mėn.), išmokėta   1631 $, grynai    605 $
+  k= 8: sąskaitų  40, funded  2 (0.09/mėn.), išmokėta    337 $, grynai  -1183 $
+  k=10: sąskaitų  52, funded  2 (0.09/mėn.), išmokėta      0 $, grynai  -1976 $
+
+E0V1E_DCA3 (kripto), 1x:
+  k= 1: sąskaitų   1, funded  1 (0.04/mėn.), išmokėta      0 $, grynai    -38 $
+  k= 2: sąskaitų   1, funded  1 (0.04/mėn.), išmokėta    252 $, grynai    214 $
+  k= 3: sąskaitų   1, funded  1 (0.04/mėn.), išmokėta   2188 $, grynai   2150 $
+  k= 4: sąskaitų   1, funded  1 (0.04/mėn.), išmokėta   3398 $, grynai   3360 $
+  k= 5: sąskaitų   1, funded  1 (0.04/mėn.), išmokėta   4431 $, grynai   4393 $
+  k= 6: sąskaitų   1, funded  1 (0.04/mėn.), išmokėta   3655 $, grynai   3617 $
+  k= 8: sąskaitų   1, funded  1 (0.04/mėn.), išmokėta   7068 $, grynai   7030 $
+  k=10: sąskaitų   1, funded  1 (0.04/mėn.), išmokėta   9496 $, grynai   9458 $
+
+EI3v2_tag_cofi_green (kripto), 1x:
+  k= 1: sąskaitų   2, funded  2 (0.09/mėn.), išmokėta    869 $, grynai    793 $
+  k= 2: sąskaitų   9, funded  2 (0.09/mėn.), išmokėta   1741 $, grynai   1399 $
+  k= 3: sąskaitų  16, funded  6 (0.27/mėn.), išmokėta    395 $, grynai   -213 $
+  k= 4: sąskaitų  19, funded  7 (0.31/mėn.), išmokėta   2462 $, grynai   1740 $
+  k= 5: sąskaitų  21, funded  7 (0.31/mėn.), išmokėta   3695 $, grynai   2897 $
+  k= 6: sąskaitų  22, funded  8 (0.36/mėn.), išmokėta   3995 $, grynai   3159 $
+  k= 8: sąskaitų  24, funded  9 (0.40/mėn.), išmokėta   3708 $, grynai   2796 $
+  k=10: sąskaitų  26, funded  9 (0.40/mėn.), išmokėta   5606 $, grynai   4618 $
+
+NASOSv5_mod3 (kripto), 1x:
+  k= 1: sąskaitų   1, funded  1 (0.04/mėn.), išmokėta      0 $, grynai    -38 $
+  k= 2: sąskaitų   2, funded  1 (0.04/mėn.), išmokėta    369 $, grynai    293 $
+  k= 3: sąskaitų   2, funded  1 (0.04/mėn.), išmokėta    554 $, grynai    478 $
+  k= 4: sąskaitų   2, funded  1 (0.04/mėn.), išmokėta    738 $, grynai    662 $
+  k= 5: sąskaitų   2, funded  1 (0.04/mėn.), išmokėta    923 $, grynai    847 $
+  k= 6: sąskaitų   2, funded  1 (0.04/mėn.), išmokėta   2530 $, grynai   2454 $
+  k= 8: sąskaitų   2, funded  1 (0.04/mėn.), išmokėta   3374 $, grynai   3298 $
+  k=10: sąskaitų   2, funded  1 (0.04/mėn.), išmokėta   4217 $, grynai   4141 $
+
+ckNSJT_morning (kripto), 1x:
+  k= 1: sąskaitų   5, funded  1 (0.04/mėn.), išmokėta      0 $, grynai   -190 $
+  k= 2: sąskaitų   7, funded  1 (0.04/mėn.), išmokėta    452 $, grynai    186 $
+  k= 3: sąskaitų   7, funded  3 (0.13/mėn.), išmokėta   3834 $, grynai   3568 $
+  k= 4: sąskaitų   7, funded  3 (0.13/mėn.), išmokėta   5169 $, grynai   4903 $
+  k= 5: sąskaitų   7, funded  4 (0.18/mėn.), išmokėta   6828 $, grynai   6562 $
+  k= 6: sąskaitų   8, funded  4 (0.18/mėn.), išmokėta   9287 $, grynai   8983 $
+  k= 8: sąskaitų   8, funded  4 (0.18/mėn.), išmokėta  13127 $, grynai  12823 $
+  k=10: sąskaitų  10, funded  4 (0.18/mėn.), išmokėta  16399 $, grynai  16019 $
+
+Noise + CE50 kartu:
+  k= 1: sąskaitų   3, funded  2 (0.09/mėn.), išmokėta    821 $, grynai    707 $
+  k= 2: sąskaitų  11, funded  4 (0.18/mėn.), išmokėta   2028 $, grynai   1610 $
+  k= 3: sąskaitų  19, funded  4 (0.18/mėn.), išmokėta   4032 $, grynai   3310 $
+  k= 4: sąskaitų  32, funded  4 (0.18/mėn.), išmokėta   3205 $, grynai   1989 $
+  k= 5: sąskaitų  40, funded  4 (0.18/mėn.), išmokėta   2875 $, grynai   1355 $
+  k= 6: sąskaitų  45, funded  3 (0.13/mėn.), išmokėta   3049 $, grynai   1339 $
+  k= 8: sąskaitų  54, funded  5 (0.22/mėn.), išmokėta   2969 $, grynai    917 $
+  k=10: sąskaitų  60, funded  5 (0.22/mėn.), išmokėta   1144 $, grynai  -1136 $
+
+Daugiausia funded per mėnesį:
+  EI3v2_tag_cofi_green (kripto), 1x, k=10: 0.40/mėn., grynai 4618 $
+  EI3v2_tag_cofi_green (kripto), 1x, k=8: 0.40/mėn., grynai 2796 $
+  EI3v2_tag_cofi_green (kripto), 1x, k=6: 0.36/mėn., grynai 3159 $
+  CE50 (long+short), 1 % rizika, k=3: 0.31/mėn., grynai 7158 $
+  EI3v2_tag_cofi_green (kripto), 1x, k=5: 0.31/mėn., grynai 2897 $
+  EI3v2_tag_cofi_green (kripto), 1x, k=4: 0.31/mėn., grynai 1740 $

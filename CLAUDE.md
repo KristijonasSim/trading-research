@@ -75,6 +75,8 @@ Komandos (paleisti iš `freqtrade/`):
 
 - 2026-11-12: `sources_more2` (25 repo, 425 strategijos) → batchM5–M13; **ckNSJT_morning atrinkta** (nr. 4), Ichimoku_v2/v5/v8/v16 rizikingų sąraše. Pristabdyta ties batchM10, tęsti `freqtrade/queue2.sh`.
 
+- 2026-11-12/13: 10 Instagram įrašų patikrinta, vienintelis vertas – **CE 50% Model** (NQ) → `tradingview/ce50/REZULTATAI.md`, indikatorius `tradingview/CE50_NAS100_indikatorius.pine`. batchM10–M13 baigtos, tinkamų nėra. 89 naujos strategijos (`freqtrade/sources_more3`, partijos dar nesukurtos) laukia leidimo. Ataskaita: `results/ATASKAITA_2026-11-13.md`.
+
 ## Dar nepradėta
 Aplankai `ib_async/`, `vectorbt/`, `backtesting-py/` tušti.
 

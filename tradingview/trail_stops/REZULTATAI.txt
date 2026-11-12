@@ -1,0 +1,26 @@
+bp = 0,01 % per sandorį (po 0,01 % kaštų). 'none' = tik pradinis 2 ATR stop, laikyti iki uždarymo.
+
+A) Atsitiktiniai įėjimai: 5880 sandorių
+būdas         vid. bp  laimi %  2019-24 bp  2025-26 bp   viso %
+none            -0.21     52.1       -0.06       -0.71    -12.6
+fixed           -0.81     49.7       -0.37       -2.23    -47.7
+chandelier      -0.33     50.9        0.10       -1.70    -19.3
+supertrend      -0.17     51.5        0.12       -1.10    -10.1
+ema20           -0.83     45.4       -0.82       -0.84    -48.5
+psar            -1.02     47.7       -0.79       -1.80    -60.2
+swing_low        0.67     51.4        0.39        1.55     39.2
+candle_low      -0.96     46.6       -0.90       -1.16    -56.4
+steps           -0.26     42.5        0.12       -1.49    -15.3
+
+B) Noise Breakout įėjimai: 1344 sandorių
+būdas         vid. bp  laimi %  2019-24 bp  2025-26 bp   viso %
+none             1.67     53.9        0.58        5.26     22.4
+fixed            0.66     51.1        1.13       -0.92      8.8
+chandelier       1.26     53.3        0.79        2.80     17.0
+supertrend       1.07     53.2        0.40        3.28     14.4
+ema20           -1.51     46.2       -1.15       -2.72    -20.3
+psar            -1.61     46.9       -1.68       -1.40    -21.7
+swing_low        1.82     51.7        0.86        5.00     24.5
+candle_low      -2.02     47.4       -2.02       -2.01    -27.1
+steps            1.26     46.2        0.25        4.57     16.9
+originalus       4.80     45.5        4.98        4.20     64.5

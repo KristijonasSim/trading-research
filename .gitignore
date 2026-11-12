@@ -60,3 +60,16 @@ results/rerun_list.txt
 tradingview/ny_first5/data/
 freqtrade/results/batchM*/
 freqtrade/sources_more2/
+
+# 2026-11-12: Instagram patikrų duomenys (atkuriami: fetch.py / fetch.sh kiekviename aplanke)
+freqtrade/.venv
+freqtrade/sources_more3/
+freqtrade/results/maven/
+tradingview/ovn_box/data/
+tradingview/ce50/data1m/
+day-trader-skill/data/
+day-trader-skill/src/
+absorption/data/
+ma30_rule/data/
+kronos/.venv/
+kronos/src/

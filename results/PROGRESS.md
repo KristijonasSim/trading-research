@@ -130,3 +130,24 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 2026-11-12: batchM7: Ichimoku_v5 (alts10 4h) +17,1 %/m., kritimas 20/32 %, Ichimoku_v8 (BTC+ETH 4h) +15,1 %/m. – švarios, išlaikė 2018–21, bet nelygūs metai → rizikingų sąraše. EI3v2_tag_cofi_green_2 = EI3v2 kopija.
 - 2026-11-12: **ckNSJT_morning atrinkta** (batchM8, alts10 5m): +21,2 %/m., lookahead 0/20, su 0,15 % mokesčiu +19 %/m., 2018–21 +90 %/m. (visi metai pliuse); 2022 −14 %, balanso kritimas 37 %.
 - 2026-11-12: testai pristabdyti vartotojo prašymu batchM10 viduryje (36/100). Tęsti: `cd freqtrade && nohup ./queue2.sh` (baigti testai praleidžiami; batchM10–M13).
+- 2026-11-12: testai tęsiami nuo batchM10 (`freqtrade/queue2.sh`, dabar M10–M13). Šioje kopijoje `.venv` → `~/trading/ft-venv` (tas pats freqtrade 2026.10). Vartotojo tikslas: ≥5 %/mėn.
+- 2026-11-12: Instagram „nakties dėžės pusė“ (NQ) patikrinta: 81 %/75 % tiesa, bet prekiaujant pralaimi (−3,7 t./sandorį). Atmesta → `tradingview/ovn_box/REZULTATAI.md`
+- 2026-11-12: Instagram „day-trader-skill“ (ORB akcijose) patikrinta ant 20 JAV akcijų 2021–26: −0,044 R/sandorį, kasmet minuse. Atmesta → `day-trader-skill/REZULTATAI.md`
+- 2026-11-12: Instagram „8 trailing stop būdai“ (NQ) patikrinta: nė vienas nepagerina Noise Breakout (orig. +4,8 bp, geriausias trailing +1,8 bp), siauri stopai kenkia → `tradingview/trail_stops/REZULTATAI.md`
+- 2026-11-12: Instagram „efektyvi riba“ (Markowitz) patikrinta su 12 ETF 2009–26: optimizavimas pagal praeitį nelenkia paprasto 60/40 → `efficient-frontier/REZULTATAI.md`
+- 2026-11-12: Instagram „absorbcija“ (delta + volume) patikrinta ant BTC/ETH futures 5 min. 2021–26: filtras nieko neprideda prie paprasto atšokimo, su kaštais minuse → `absorption/REZULTATAI.md`
+- 2026-11-12: Instagram „CE 50% Model“ (NQ) patikrinta 2016–26: veikia (+0,115 R, 10/11 m. pliuse, 2022–26 +17 %/m. prie 1 % rizikos, kritimas 25 %), žadėta 59 %/m. ne → `tradingview/ce50/REZULTATAI.md`
+- 2026-11-12: CE50 tik long su 3x ETP: TQQQ (iki 16:00) +7,2 %/m., kritimas 35 %; QQQ3 (LSE, iki 11:30 ET) −0,9 %/m. Neverta.
+- 2026-11-12: CE50 tik long NAS100 CFD 3x: +17,5 %/m. 2016–26, kritimas 29 %; 2022–26 +23,4 %/m.
+- 2026-11-12: sukurtas TradingView skriptas `tradingview/CE50_NAS100.pine` (CE50 long, 3x, pranešimai)
+- 2026-11-12: CE50 indikatoriaus versija `tradingview/CE50_NAS100_indikatorius.pine`
+- 2026-11-12: CE50 Maven Omo 2-Step simuliacija 2025–26: tik long 1 % −27 $, long+short 1 % +1308 $, 2 % +4513 $ (Maven rodo „not available in your region“) → `tradingview/ce50/REZULTATAI.md`
+- 2026-11-12: atrinktos strategijos per Maven 2025–26: max ~0,4 funded/mėn. (EI3v2 kripto, nepatikima), CE50 3 % 0,31/mėn.; 1/mėn. nepasiekia nė viena → `tradingview/ce50/REZULTATAI.md`
+- 2026-11-12: Instagram „composite profilis“ (kestradess) patikrinta NAS100 2019–26: plonos/storos zonos greičio beveik nekeičia (20,2 vs 19,3 bp), prekyba −0,19 R. Atmesta → `tradingview/composite_profile/REZULTATAI.md`
+- 2026-11-12: Instagram faiz.smc „GPT6 Astra prekiauja už mane (DeepCharts + GEX)“: tik vienas demo sandoris, jokių taisyklių, netestuojama. GEX reikia mokamų opcionų duomenų.
+- 2026-11-12: Instagram „30 d. vidurkio taisyklė“ (nuo 1926) patikrinta: atsikartoja, bet pranašumas tik 1926–74; 2013–26 7,4 %/m. vs laikymas 14,9 %. Atmesta → `ma30_rule/REZULTATAI.md`
+- 2026-11-12 16:15: queue2 (batchM10–M13) paleista iš naujo
+- 2026-11-12: batchM10 tarpiniai: NOTankAi_vX/NOTankAi_5 (+869 %/m.) atmesta – argrelextrema per visą duomenų masyvą (ateities duomenys). lw_tdw_tdm_btc_eth_v1 (+75 %/m., 15m kalendoriaus dienos) atmesta – 2017–19 neveikia, o dienas renkant tik pagal praeitį (walk-forward 2020–26) pranašumo nėra; dienos pritaikytos prie istorijos (repo RoboticAutomations, 2026-05).
+- 2026-11-12: batchM10 baigta. Peekaboo/V2/V4/V4002 (+28…+134 %/m., kritimas 0,5–3 %) atmesta – scipy find_peaks per visą masyvą (ateities duomenys). Kitų tinkamų nėra.
+- 2026-11-12: batchM11 baigta. HurstCycleV6/HurstCycle7 (+289…+371 %/m.) atmesta – rolling(center=True) ir FFT per visą seriją (ateities duomenys).
+- 2026-11-12: batchM12 baigta. grad (+54 %/m., kritimas 3,5 %) atmesta – np.gradient naudoja kitą žvakę (ateities duomenys).

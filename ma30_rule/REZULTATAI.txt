@@ -1,0 +1,19 @@
+Patikra 1926-2026, be kaštų: taisyklė 1000 -> 315,802,403 $, laikymas -> 17,004,212 $ (įraše 339 873 578 ir 17 677 632), sandorių 1946, kritimas 39.5 % vs 84.1 %
+
+%/m. pagal laikotarpius (MA30, sprendimas uždaryme):
+laikotarpis   laikyti  be kaštų   0,02 %   0,1 %   0,2 %  kitą d. 0,02 %   kritimas laik./MA30
+1926-1949        5.1     12.2     11.8     10.2      8.1            7.1       84 / 40
+1950-1974        9.3     16.4     16.1     14.8     13.2           11.5       48 / 7
+1975-1999       17.4     18.0     17.5     15.7     13.6           12.4       33 / 12
+2000-2012        2.2      3.8      3.4      1.5     -0.7            1.8       55 / 37
+2013-2026       14.9      7.9      7.4      5.4      2.9            6.7       34 / 20
+1993-2026       11.0      7.7      7.3      5.3      3.0            5.4       55 / 37
+
+Kiti vidurkiai, 2000-2026, 0,02 % kaštai (%/m., kritimas):
+  MA 10:   2.3 %/m., kritimas 42 %
+  MA 30:   5.4 %/m., kritimas 37 %
+  MA 50:   5.0 %/m., kritimas 34 %
+  MA100:   6.1 %/m., kritimas 39 %
+  MA150:   5.8 %/m., kritimas 41 %
+  MA200:   6.7 %/m., kritimas 30 %
+  laikyti:   8.5 %/m., kritimas 55 %

@@ -1,0 +1,29 @@
+Vid. grąža po signalo, bp (0,01 %), BE kaštų. 'visi' = vidurkis visoms žvakėms. Sandoris = su 0,1 % kaštais, be persidengimų.
+
+BTCUSDT: 613440 žvakių, visi: 1 val. +0.4 bp, 4 val. +1.5 bp
+  Z=1.5 absorbcija long  :   4281 sig., 1 val.   +1.0 bp (laimi 55 %), 4 val.   +1.8 bp | sandoriai 2216:   -9.3 bp (2021-23 -7.5, 2024-26 -11.1)
+  Z=1.5 pardavėjai laimi :  19858 sig., 1 val.   +5.1 bp (laimi 55 %), 4 val.   +6.7 bp | sandoriai 5527:   -5.4 bp (2021-23 -3.8, 2024-26 -7.1)
+  Z=1.5 absorbcija short :   3754 sig., 1 val.   -2.7 bp (laimi 52 %), 4 val.   -5.1 bp | sandoriai 1953:  -12.2 bp (2021-23 -14.0, 2024-26 -10.3)
+  Z=1.5 pirkėjai laimi   :  18127 sig., 1 val.   +0.0 bp (laimi 54 %), 4 val.   -2.9 bp | sandoriai 5150:   -9.5 bp (2021-23 -9.2, 2024-26 -9.7)
+  Z=2.0 absorbcija long  :   2455 sig., 1 val.   +0.6 bp (laimi 55 %), 4 val.   +3.1 bp | sandoriai 1300:  -10.1 bp (2021-23 -9.5, 2024-26 -10.8)
+  Z=2.0 pardavėjai laimi :  12361 sig., 1 val.   +6.3 bp (laimi 55 %), 4 val.   +9.6 bp | sandoriai 3498:   -7.2 bp (2021-23 -5.5, 2024-26 -9.0)
+  Z=2.0 absorbcija short :   2114 sig., 1 val.   -4.8 bp (laimi 51 %), 4 val.   -9.7 bp | sandoriai 1133:  -13.5 bp (2021-23 -14.4, 2024-26 -12.5)
+  Z=2.0 pirkėjai laimi   :  11166 sig., 1 val.   -1.7 bp (laimi 53 %), 4 val.   -5.8 bp | sandoriai 3246:  -10.4 bp (2021-23 -10.5, 2024-26 -10.4)
+  Z=3.0 absorbcija long  :   1069 sig., 1 val.   +1.6 bp (laimi 54 %), 4 val.   +2.6 bp | sandoriai 570:   -7.7 bp (2021-23 -7.6, 2024-26 -7.7)
+  Z=3.0 pardavėjai laimi :   5540 sig., 1 val.  +10.9 bp (laimi 56 %), 4 val.  +15.9 bp | sandoriai 1648:   -2.8 bp (2021-23 +1.9, 2024-26 -8.1)
+  Z=3.0 absorbcija short :    831 sig., 1 val.  -12.2 bp (laimi 48 %), 4 val.  -21.3 bp | sandoriai 451:  -18.3 bp (2021-23 -19.6, 2024-26 -16.8)
+  Z=3.0 pirkėjai laimi   :   4893 sig., 1 val.   -5.0 bp (laimi 51 %), 4 val.  -12.9 bp | sandoriai 1489:  -12.3 bp (2021-23 -12.0, 2024-26 -12.6)
+
+ETHUSDT: 613440 žvakių, visi: 1 val. +0.6 bp, 4 val. +2.2 bp
+  Z=1.5 absorbcija long  :   5294 sig., 1 val.   +6.3 bp (laimi 56 %), 4 val.   +8.5 bp | sandoriai 2651:   -6.3 bp (2021-23 -7.3, 2024-26 -5.2)
+  Z=1.5 pardavėjai laimi :  21525 sig., 1 val.   +5.7 bp (laimi 56 %), 4 val.  +11.4 bp | sandoriai 5850:   -7.3 bp (2021-23 -6.0, 2024-26 -8.7)
+  Z=1.5 absorbcija short :   3549 sig., 1 val.   -5.1 bp (laimi 52 %), 4 val.   -0.0 bp | sandoriai 1903:  -15.3 bp (2021-23 -15.2, 2024-26 -15.5)
+  Z=1.5 pirkėjai laimi   :  16439 sig., 1 val.   -2.4 bp (laimi 54 %), 4 val.   -6.3 bp | sandoriai 4794:  -11.7 bp (2021-23 -12.2, 2024-26 -11.2)
+  Z=2.0 absorbcija long  :   3113 sig., 1 val.   +8.9 bp (laimi 58 %), 4 val.  +11.9 bp | sandoriai 1570:   -4.1 bp (2021-23 -6.3, 2024-26 -1.9)
+  Z=2.0 pardavėjai laimi :  13525 sig., 1 val.   +6.6 bp (laimi 56 %), 4 val.  +13.4 bp | sandoriai 3879:   -7.4 bp (2021-23 -5.5, 2024-26 -9.4)
+  Z=2.0 absorbcija short :   1918 sig., 1 val.   -7.5 bp (laimi 50 %), 4 val.   +0.6 bp | sandoriai 1035:  -21.1 bp (2021-23 -23.8, 2024-26 -18.3)
+  Z=2.0 pirkėjai laimi   :   9993 sig., 1 val.   -3.9 bp (laimi 54 %), 4 val.   -8.9 bp | sandoriai 3035:  -12.6 bp (2021-23 -13.7, 2024-26 -11.4)
+  Z=3.0 absorbcija long  :   1314 sig., 1 val.   +6.0 bp (laimi 57 %), 4 val.  +11.0 bp | sandoriai 670:   -4.9 bp (2021-23 -5.3, 2024-26 -4.6)
+  Z=3.0 pardavėjai laimi :   5833 sig., 1 val.  +10.6 bp (laimi 57 %), 4 val.  +19.5 bp | sandoriai 1756:   -6.0 bp (2021-23 -5.9, 2024-26 -6.1)
+  Z=3.0 absorbcija short :    706 sig., 1 val.  -12.8 bp (laimi 47 %), 4 val.   -6.2 bp | sandoriai 390:  -21.8 bp (2021-23 -31.3, 2024-26 -11.0)
+  Z=3.0 pirkėjai laimi   :   4010 sig., 1 val.   -9.1 bp (laimi 53 %), 4 val.  -13.8 bp | sandoriai 1280:  -18.1 bp (2021-23 -19.7, 2024-26 -16.2)

@@ -1,7 +1,7 @@
 #!/bin/bash
 # overnight: batchM5..M13 (sources_more2), 2 tests at a time; candidate list after each batch
 cd "$(dirname "$0")"
-for k in 5 6 7 8 9 10 11 12 13; do b=batchM$k
+for k in 10 11 12 13; do b=batchM$k
   BATCH=$b .venv/bin/python run_batch.py -j 2 > results/${b}_run.log 2>&1
   .venv/bin/python - "$b" >> results/candidates_M.txt <<'P'
 import json,glob,sys

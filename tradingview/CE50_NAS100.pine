@@ -1,0 +1,89 @@
+// CE 50% Model (cemarketsolutions, Instagram) - patikrinta tradingview/ce50/REZULTATAI.md
+// Taisyklės:
+//  1) 8:30-9:30 (Niujorko laiku) rėžis: max, min, vidurys 50 %.
+//  2) Pirmoji 3 min. žvakė nuo 9:30 (9:30-9:33) užsidaro VIRŠ vidurio -> PIRKTI kitos žvakės atidarymu.
+//     (Žemiau vidurio -> parduoti; išjungta pagal nutylėjimą, nes testuose silpnesnė.)
+//  3) Stop: rėžio min. Kai užsidaro nauja patvirtinta 15 min. swing low (nuo 10:00), stop pakeliamas iki jos.
+//  4) Viską uždaryti 16:00.
+// Grafikas: NAS100 arba NQ1!/MNQ1!, 1 min. arba 3 min.
+// Pranešimai: Alert -> Condition: CE50 NAS100 -> "alert() function calls only".
+// Pagal nutylėjimą 300 % kapitalo (3x svertas), 0,005 % komisinis + 1 tick slydimas.
+//@version=6
+strategy("CE50 NAS100 (long)", overlay = true, initial_capital = 10000,
+     default_qty_type = strategy.percent_of_equity, default_qty_value = 300,
+     margin_long = 33, margin_short = 33,
+     commission_type = strategy.commission.percent, commission_value = 0.005, slippage = 1,
+     calc_on_every_tick = false, max_lines_count = 500)
+
+allowShort = input.bool(false, "Leisti short (parduoti)")
+showRange  = input.bool(true, "Rodyti 8:30-9:30 rėžį")
+
+TZ = "America/New_York"
+mins(t) => hour(t, TZ) * 60 + minute(t, TZ)
+nowM   = mins(time)
+closeM = mins(time_close)
+
+if not (timeframe.isminutes and timeframe.multiplier <= 3)
+    runtime.error("Naudok 1 min. arba 3 min. grafiką")
+
+// 1) 8:30-9:30 rėžis
+inRange = nowM >= 510 and nowM < 570
+var float rh = na
+var float rl = na
+if inRange and not inRange[1]
+    rh := high
+    rl := low
+else if inRange
+    rh := math.max(rh, high)
+    rl := math.min(rl, low)
+mid = (rh + rl) / 2
+rangeDone = nowM >= 570 and nowM < 960
+
+// 2) Signalas: žvakė, kuri užsidaro 9:33 (1 min. grafike 9:32 žvakė, 3 min. - 9:30)
+sigBar    = closeM == 573 and not na(rh)
+longSig   = sigBar and close > mid
+shortSig  = sigBar and close < mid and allowShort
+
+// 3) 15 min. swing low / high, tik patvirtinti (be ateities duomenų)
+pl  = request.security(syminfo.tickerid, "15", ta.pivotlow(low, 1, 1)[1], lookahead = barmerge.lookahead_on)
+ph  = request.security(syminfo.tickerid, "15", ta.pivothigh(high, 1, 1)[1], lookahead = barmerge.lookahead_on)
+q15 = request.security(syminfo.tickerid, "15", time[1], lookahead = barmerge.lookahead_on)
+new15  = ta.change(q15) != 0
+pivOk  = mins(q15) >= 600 and dayofmonth(q15, TZ) == dayofmonth(time, TZ)
+
+var float stopL = na
+var float stopS = na
+
+if longSig
+    strategy.entry("L", strategy.long)
+    stopL := rl
+    alert("CE50 PIRKTI " + syminfo.ticker + " | stop " + str.tostring(rl, format.mintick), alert.freq_once_per_bar_close)
+if shortSig
+    strategy.entry("S", strategy.short)
+    stopS := rh
+    alert("CE50 PARDUOTI " + syminfo.ticker + " | stop " + str.tostring(rh, format.mintick), alert.freq_once_per_bar_close)
+
+if strategy.position_size > 0 and new15 and pivOk and not na(pl) and pl > stopL
+    stopL := pl
+    alert("CE50 stop pakeltas iki " + str.tostring(pl, format.mintick), alert.freq_once_per_bar_close)
+if strategy.position_size < 0 and new15 and pivOk and not na(ph) and ph < stopS
+    stopS := ph
+    alert("CE50 stop nuleistas iki " + str.tostring(ph, format.mintick), alert.freq_once_per_bar_close)
+
+strategy.exit("XL", "L", stop = stopL)
+strategy.exit("XS", "S", stop = stopS)
+
+// 4) Uždaryti 16:00
+if closeM >= 960 and strategy.position_size != 0
+    strategy.close_all(comment = "16:00", immediately = true)
+    alert("CE50 UŽDARYTI " + syminfo.ticker + " (16:00)", alert.freq_once_per_bar_close)
+
+// Vaizdas
+plot(showRange and rangeDone ? rh : na, "Rėžio max", color.new(color.gray, 0), 1, plot.style_linebr)
+plot(showRange and rangeDone ? rl : na, "Rėžio min", color.new(color.gray, 0), 1, plot.style_linebr)
+plot(showRange and rangeDone ? mid : na, "50 %", color.new(color.orange, 0), 2, plot.style_linebr)
+plot(strategy.position_size > 0 ? stopL : strategy.position_size < 0 ? stopS : na, "Stop", color.red, 2, plot.style_linebr)
+plotshape(longSig, "Pirkti", shape.triangleup, location.belowbar, color.green, size = size.small, text = "BUY")
+plotshape(shortSig, "Parduoti", shape.triangledown, location.abovebar, color.red, size = size.small, text = "SELL")
+bgcolor(showRange and inRange ? color.new(color.blue, 92) : na, title = "8:30-9:30")
+

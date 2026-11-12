@@ -1,0 +1,18 @@
+Dienų: 1957, atidarymas dėžės viduje: 1947, už dėžės ribų: 10
+upper: 1092 d., artimas kraštas pasiektas 81.0 % (Instagram: 80.8 %), tolimas 40.8 %, vid. atstumas iki artimo 37 t., dėžės plotis 172 t.
+lower: 855 d., artimas kraštas pasiektas 74.6 % (Instagram: 75.7 %), tolimas 42.6 %, vid. atstumas iki artimo 44 t., dėžės plotis 183 t.
+
+Prekyba (taškais NAS100, po 2 t. kaštų), pagal metus:
+         n       hit      rr1      far  rr1_win  far_win
+y                                                       
+2019   248  0.729839  -506.33  -745.48     0.45     0.65
+2020   246  0.768293  -970.39 -1146.38     0.46     0.71
+2021   251  0.788845 -1119.28 -1598.97     0.44     0.71
+2022   250     0.852  -564.63   956.33     0.47     0.80
+2023   247  0.793522 -1567.70 -2119.55     0.40     0.68
+2024   245  0.812245 -1110.32 -2172.57     0.41     0.73
+2025   245  0.767347   533.02    66.83     0.48     0.73
+2026   215  0.734884 -1815.49  -251.07     0.41     0.70
+VISO  1947  0.781715 -7121.12 -7010.87     0.44     0.71
+
+Vidutinis sandoris: 1:1 stop -3.7 t., stop už tolimo krašto -3.6 t.
