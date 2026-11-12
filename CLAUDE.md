@@ -73,6 +73,8 @@ Komandos (paleisti iš `freqtrade/`):
 
 - 2026-11-11: `extra/` partijos iki batch50g (~350 iš 469). **NASOSv5_mod3 atrinkta** (alts10 +18,3 %/m., kritimas 3,3 %, išlaikė 2018–21). Kitą partiją: `freqtrade/make_batch.py batch50h`; 1m strategijos ant alts10 netelpa į RAM, praleidžiamos.
 
+- 2026-11-12: `sources_more2` (25 repo, 425 strategijos) → batchM5–M13; **ckNSJT_morning atrinkta** (nr. 4), Ichimoku_v2/v5/v8/v16 rizikingų sąraše. Pristabdyta ties batchM10, tęsti `freqtrade/queue2.sh`.
+
 ## Dar nepradėta
 Aplankai `ib_async/`, `vectorbt/`, `backtesting-py/` tušti.
 

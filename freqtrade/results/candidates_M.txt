@@ -9,3 +9,4 @@ batchM7 EI3v2_tag_cofi_green_2 alts10 5m 25.1 14.9 1838 {"2021": 7.3, "2022": 15
 batchM7 DONE
 batchM8 ckNSJT_morning alts10 5m 21.2 17.2 1281 {"2021": 11.7, "2022": -14.0, "2023": 28.7, "2024": 92.7, "2025": 20.4, "2026": -8.9}
 batchM8 DONE
+batchM9 DONE
