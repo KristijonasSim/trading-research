@@ -68,6 +68,8 @@ Patikros:
 | Ichimoku_v37 | BTC+ETH spot, 4h | 15,9 | 16,1 % | 2022–2024 visi metai minuse, laimi 16 % sandorių, ~19 sandorių/m. (tik trendo bangos). Švari; nematytame 2018–21 +89 %/m. |
 | Ichimoku_v2 | BTC+ETH spot, 4h | 17,3 | 27 % (balanso 42 %) | 2022 −24 %, ~14 sandorių/m., beveik visas pelnas 2024–25. Švari (lookahead 0/20), 5m detalumas tas pats, nematytame 2018–21 +89 %/m. (2018 −24 %). `Ichimoku_v2.py` |
 | Ichimoku_v16 | BTC+ETH spot, 1d | 22,4 | 29 % (balanso 44 %) | tik ~6 sandoriai/m., 2025 +98 % sudaro didžiąją pelno dalį. Švari, 2018–21 +91 %/m., bet 2018 −33 %. `Ichimoku_v16_1d.py` |
+| Ichimoku_v5 | alts10 spot, 4h | 17,1 | 20 % (balanso 32 %) | 2022 −16 %, 2025 −14 %, 2024 +110 % (pelnas bangomis), ~97 sandoriai/m. Švari, 5m detalumas tas pats, 2018–21 +105 %/m. (2018 −7,5 %). `Ichimoku_v5.py` |
+| Ichimoku_v8 | BTC+ETH spot, 4h | 15,1 | 30 % (balanso 40 %) | 2022 −9 %, 2023 −15 %, 2018 −45 %. Švari, 2018–21 +63 %/m. `Ichimoku_v8.py` |
 | VolatilitySystem | BTC+ETH futures, 1h | 69,8 | 53,4 % | 2x svertas, be stop-loss; ant altcoin'ų tik +0,6 %/m.; 2026 m. −0,2 %. Lookahead švari. Failas `VolatilitySystem.py`. |
 | EI3v2_tag_cofi_green ant 3x ETF, 1d | 18 sintetinių 3x ETF (TQQQ, UPRO, NUGT, JNUG…) | 13,5 | 14,5 % | Žemiau 14 %; grafikas parinktas iš 4 bandytų. Kasmet teigiama. Žr. `etf3x/README.md`. |
 

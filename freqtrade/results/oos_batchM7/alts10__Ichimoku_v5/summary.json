@@ -1,0 +1,23 @@
+{
+  "strategy": "Ichimoku_v5",
+  "mode": "spot",
+  "group": "alts10",
+  "timeframe": "4h",
+  "style": "swing",
+  "avg_trade_hours": 231.9,
+  "trades": 278,
+  "trades_per_year": 72.2,
+  "total_return_pct": 1484.9,
+  "cagr_pct": 104.9,
+  "yearly_pct": {
+    "2018": -7.5,
+    "2019": 35.9,
+    "2020": 101.8,
+    "2021": 525.0
+  },
+  "max_drawdown_pct": 9.4,
+  "win_rate_pct": 52.2,
+  "profit_factor": 3.8,
+  "market_change_pct": 3381.7,
+  "timerange": "20180101-20211108"
+}

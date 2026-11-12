@@ -1,0 +1,23 @@
+{
+  "strategy": "GodStraNew7",
+  "mode": "spot",
+  "group": "alts10",
+  "timeframe": "5m",
+  "style": "position",
+  "avg_trade_hours": 640.6,
+  "trades": 216,
+  "trades_per_year": 56.1,
+  "total_return_pct": 546.2,
+  "cagr_pct": 62.3,
+  "yearly_pct": {
+    "2018": 29.3,
+    "2019": 51.3,
+    "2020": 51.9,
+    "2021": 117.4
+  },
+  "max_drawdown_pct": 0.0,
+  "win_rate_pct": 100.0,
+  "profit_factor": 0.0,
+  "market_change_pct": 3171.7,
+  "timerange": "20180101-20211108"
+}

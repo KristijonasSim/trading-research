@@ -1,0 +1,22 @@
+{
+  "strategy": "GodStraNew7",
+  "mode": "spot",
+  "group": "btc_eth",
+  "timeframe": "5m",
+  "style": "position",
+  "avg_trade_hours": 2577.6,
+  "trades": 16,
+  "trades_per_year": 4.2,
+  "total_return_pct": 93.2,
+  "cagr_pct": 18.6,
+  "yearly_pct": {
+    "2018": 23.5,
+    "2019": 22.9,
+    "2020": 27.3
+  },
+  "max_drawdown_pct": 0.0,
+  "win_rate_pct": 100.0,
+  "profit_factor": 0.0,
+  "market_change_pct": 449.6,
+  "timerange": "20180101-20211108"
+}
