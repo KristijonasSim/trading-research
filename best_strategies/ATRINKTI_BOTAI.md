@@ -101,6 +101,14 @@ Patikros:
 - ⚠️ Tik ~8 sandoriai per metus, pelnas bangomis (kaip Ichimoku), kritimas didesnis nei MACDVStrategy. Koreliuoja su MACDV (abi BTC+ETH trendo).
 - ⚠️ Parametrų jautrumas (SMA 20–60, σ 1,5–2,5): 2021–26 nuo +1,6 iki +24,7 %/m., mediana ~12 %. Originalūs 35/2 – virš vidurkio, realistiškai tikėtina ~12 %/m. (`papers/21_pruitt/REZULTATAI_aberration_jautrumas.txt`). 2018–21 visos kombinacijos +44…+114 %/m.
 
+## 7. EMAPriceCrossoverWithTreshold (Freqtrade, BTC+ETH, 1h) – pridėta 2026-11-13
+- Labai paprasta: perka, kai kaina kerta 800 val. EMA iš apačios; parduoda, kai nukrenta 1 % po ja; stop-loss −15 %.
+- 2022–26: **+21,4 %/m.**, kritimas 23,9 %, 241 sandoris (2022 −14 %, 2023 +23 %, 2024 +109 %, 2025 +11 %, 2026 +7 %).
+- Nematytas 2018–21: **+89,8 %/m.**, kritimas 13,2 % (2018 −22 %, 2019 +114 %, 2020 +146 %, 2021 +186 %). Altcoin'ams +42 %/m., kritimas 23,5 %.
+- Ateities duomenų nenaudoja (lookahead 0/20, `results/validation/EMAPriceCrossoverWithTreshold_batchM24.log`).
+- Minusas: krentančiais metais (2018, 2022) praranda 14–22 %, laimi tik ~20 % sandorių.
+- Šaltinis: erdincyasar/freqtrade_kanaxe. Failas `best_strategies/EMAPriceCrossoverWithThreshold.py`.
+
 ## Potencialūs, bet rizikingi
 | Strategija | Rinka | %/m | Max kritimas | Kodėl ne pagrindiniame sąraše |
 |---|---|---|---|---|

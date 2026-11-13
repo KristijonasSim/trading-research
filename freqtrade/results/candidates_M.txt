@@ -50,3 +50,5 @@ batchM21 DONE
 batchM22 MACDVStrategy btc_eth 1d 16.0 14.7 59 {"2021": -6.9, "2022": -8.4, "2023": 47.2, "2024": 25.4, "2025": 36.2, "2026": -2.2}
 batchM22 DONE
 batchM23 DONE
+batchM24 EMAPriceCrossoverWithTreshold btc_eth 1h 21.4 23.9 241 {"2022": -14.0, "2023": 23.3, "2024": 109.2, "2025": 10.6, "2026": 7.4}
+batchM24 DONE
