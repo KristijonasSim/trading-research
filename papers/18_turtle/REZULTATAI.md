@@ -19,3 +19,5 @@ Binance spot dienos žvakės, tik long, kiekviena moneta po lygią dalį, mokest
 - ⚠️ Jautrus mokesčiui: su 0,15 % tik +7,5 %/m. (2022 −2 %). Reikia maker / žemo mokesčio (BNB nuolaida).
 
 **Turtle BTC+ETH:** +14 %/m., bet kritimas 30–37 % ir 2022 m. −18…−24 %.
+
+**Dual Thrust ant indeksų ir aukso** (SPY, QQQ, IWM, GLD, Yahoo dienos OHLC, mokestis 0,02 %, `dt_idx.py`): 2005–15 ir 2016–26 visi variantai −6…+1 %/m. Pranašumas yra tik kripto rinkoje (24 val. prekyba, stiprūs dienos trendai).
