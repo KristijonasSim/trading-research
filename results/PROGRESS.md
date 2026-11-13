@@ -232,3 +232,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - #34 Volatilumu valdomas kripto ❌ → `papers/34_crypto_volmanaged/`.
 - #35 Noise Breakout kripto ❌ → `papers/35_noise_crypto/`.
 - #36 Kripto TSMOM savaitės ❌ → `papers/36_tsmom_crypto/`.
+- #37 TTM / Bollinger squeeze ❌ → `papers/37_squeeze/`.

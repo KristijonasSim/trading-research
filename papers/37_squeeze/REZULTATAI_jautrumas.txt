@@ -1,0 +1,7 @@
+kc=1.25: +6.9%/m. DD -25% | -2.1%/m. DD -30% | atskirai 2021–26 BTC:-1.4 ETH:-3.3 | rinkoje 6%
+kc=1.5: +39.4%/m. DD -19% | +3.4%/m. DD -24% | atskirai 2021–26 BTC:+2.3 ETH:+3.4 | rinkoje 10%
+kc=1.75: +37.6%/m. DD -27% | +9.6%/m. DD -24% | atskirai 2021–26 BTC:+20.5 ETH:-1.3 | rinkoje 11%
+kc=2.0: +52.7%/m. DD -32% | +14.6%/m. DD -12% | atskirai 2021–26 BTC:+19.5 ETH:+9.0 | rinkoje 11%
+kc=2.25: +45.0%/m. DD -32% | +7.6%/m. DD -15% | atskirai 2021–26 BTC:+10.8 ETH:+3.6 | rinkoje 10%
+kc=2.5: +41.3%/m. DD -30% | +11.1%/m. DD -14% | atskirai 2021–26 BTC:+17.6 ETH:+4.2 | rinkoje 9%
+kc=3.0: +19.5%/m. DD -31% | +8.7%/m. DD -13% | atskirai 2021–26 BTC:+10.1 ETH:+6.8 | rinkoje 7%
