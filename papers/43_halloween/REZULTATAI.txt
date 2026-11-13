@@ -1,0 +1,13 @@
+SPY laikyti: 2005–15 +7.1%/m. DD -55% | 2016–26 +14.6%/m. DD -34%
+  SPY žiemą / BIL vasarą: 2005–15 +6.5%/m. DD -33% | 2016–26 +7.3%/m. DD -34%
+  SPY žiemą / IEF vasarą: 2005–15 +9.6%/m. DD -33% | 2016–26 +6.2%/m. DD -34%
+QQQ laikyti: 2005–15 +10.8%/m. DD -53% | 2016–26 +18.9%/m. DD -35%
+  QQQ žiemą / BIL vasarą: 2005–15 +6.5%/m. DD -30% | 2016–26 +8.5%/m. DD -29%
+  QQQ žiemą / IEF vasarą: 2005–15 +9.6%/m. DD -30% | 2016–26 +7.5%/m. DD -30%
+TQQQ laikyti: 2005–15 +24.4%/m. DD -44% | 2016–26 +34.7%/m. DD -82%
+  TQQQ žiemą / BIL vasarą: 2005–15 +16.5%/m. DD -28% | 2016–26 +10.4%/m. DD -70%
+  TQQQ žiemą / IEF vasarą: 2005–15 +19.8%/m. DD -28% | 2016–26 +9.3%/m. DD -70%
+IWM laikyti: 2005–15 +6.7%/m. DD -59% | 2016–26 +10.2%/m. DD -41%
+  IWM žiemą / BIL vasarą: 2005–15 +7.6%/m. DD -41% | 2016–26 +4.5%/m. DD -41%
+  IWM žiemą / IEF vasarą: 2005–15 +10.6%/m. DD -41% | 2016–26 +3.5%/m. DD -41%
+BTC žiemą: 2018–21 +26.2%/m. DD -77% | 2021–26 +3.3%/m. DD -56% (laikyti +1.7%/m. DD -77%)

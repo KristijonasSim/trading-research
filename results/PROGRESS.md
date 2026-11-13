@@ -244,3 +244,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - #40 BTC→altai lead-lag ❌ → `papers/40_leadlag/`.
 - #41 Spot grid botas ❌ → `papers/41_grid/`.
 - #42 Opcionų galiojimo efektas ❌ → `papers/42_expiry/`.
+- #43 Halloween ❌ → `papers/43_halloween/`.

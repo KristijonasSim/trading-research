@@ -47,3 +47,4 @@ Kripto duomenys: Binance (spot/futures, 1h/1d, visos USDT poros su istorija). Ak
 | 40 | BTC → altcoin'ų vėlavimas (lead-lag), 1h | kripto | ❌ atmesta (koreliacija −0,03; su mokesčiais minusas) → `40_leadlag/REZULTATAI.md` |
 | 41 | Spot grid botas (Binance/Pionex Spot Grid), BTC/ETH 5m | kripto | ❌ atmesta (0,1 %: −18…+9 %/m., kritimai 54–93 %) → `41_grid/REZULTATAI.md` |
 | 42 | BTC/ETH mėnesinio opcionų galiojimo efektas (Deribit) | kripto | ❌ atmesta (2019–22 veikė, 2023–26 BTC +4 %/m., ETH −2 %) → `42_expiry/REZULTATAI.md` |
+| 43 | Halloween / Sell in May (Bouman, Jacobsen 2002), ETF ir BTC | ETF / kripto | ❌ atmesta (2016–26 perpus mažiau už laikymą, kritimai tie patys) → `43_halloween/REZULTATAI.md` |
