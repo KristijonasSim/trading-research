@@ -87,6 +87,7 @@ Patikros:
 - 2021-11 – 2026-11, BTC+ETH: **+16,0 %/m., kritimas 14,7 %**, 59 sandoriai (rinka per tą laiką −22,5 %). Metai: 2021 −7 %, 2022 −8 %, 2023 +47 %, 2024 +25 %, 2025 +36 %, 2026 −2 %.
 - Nematytas 2018–2021: **+72,6 %/m., kritimas 12 %** (2019 +44 %, 2020 +109 %, 2021 +172 %). Altcoin'ai: +48 %/m., kritimas 7 %.
 - Lookahead-analysis: 0/20 šališkų signalų (`results/validation/MACDVStrategy_batchM22.log`).
+- ✅ Su 5m detalumu (2026-11-13): +15,7 %/m. (be detalumo +16,0 %), balanso kritimas 21 %. `freqtrade/results/validate50/detail_MACDVStrategy_btc_eth_*_full`
 - ⚠️ Kylančioje rinkoje atsilieka nuo „pirkti ir laikyti“ (2018–21 BTC+ETH laikymas +823 %); vertė – maži kritimai. Ant altcoin'ų 2021–26 tik +10,5 %/m.
 
 ## Potencialūs, bet rizikingi
