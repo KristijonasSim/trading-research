@@ -200,3 +200,8 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 2026-11-13: 23 (Darvas, Raschke Holy Grail/Turtle Soup, PSAR, Alligator, Seykota kripto 1d) atmesti: 2021–26 BTC+ETH −19…+7 %/m.
 - 2026-11-13: Aberration parametrų jautrumas: 2021–26 +1,6…+24,7 %/m. (mediana ~12 %), 35/2 virš vidurkio
 - 2026-11-13: 24 (BTC Mayer daugiklis, Pi Cycle, 200W) atmesti: signalai reti, kritimai 53–83 %
+
+## 2026-11-13 – 1m detalumo patikra: ckNSJT_morning, EI3v2
+- ckNSJT_morning alts10 (none → 1m): 2022 −9,5 → −0,3; 2023 29,2 → 31,2; 2024 88,8 → 85,3; 2025 20,4 → 31,1. ✅ išlaiko.
+- EI3v2_tag_cofi_green alts10: 2022 15,4 → 5,5; 2023 27,4 → 25,9; 2024 54,1 → 43,9; 2025 15,8 → 11,8. ⚠️ ~¼ mažiau, bet kasmet pliuse.
+- E0V1E_DCA3 nepavyko (market orderiai), perleista su `config_spot_market.json` (`freqtrade/detail_q4.sh`).

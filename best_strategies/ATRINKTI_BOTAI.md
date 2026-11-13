@@ -22,7 +22,7 @@ Palyginimui: altcoin'ų „pirkti ir laikyti“ per tą patį laiką 1000 → 62
 Patikros:
 - ✅ `lookahead-analysis`: 0 iš 20 signalų naudoja ateities duomenis.
 - ✅ `recursive-analysis`: be ateities duomenų indikatoriuose.
-- ⚠️ Su 1m detalumu (tikslesnis trailing stop) 2025 m.: +11,8 % vietoj +15,8 %. Realiai tikėtina **~+18 %/m.**
+- ⚠️ Su 1m detalumu (tikslesnis trailing stop, 2026-11-13 visi metai): 2022 +5,5 % (vietoj +15,4), 2023 +25,9 (+27,4), 2024 +43,9 (+54,1), 2025 +11,8 (+15,8). Vidurkis ~21 %/m. vietoj ~28 %, visi metai pliuse. Realiai tikėtina **~+18 %/m.**
 - ⚠️ Stop-loss −99 % (praktiškai nėra). Didžiausi pavieniai nuostoliai −43 %, −39 %.
 
 ## 2. E0V1E_DCA3 (Freqtrade, kripto)
@@ -79,6 +79,7 @@ Patikros:
 - ✅ `lookahead-analysis`: 0 iš 20 signalų.
 - ✅ Su 0,15 % mokesčiu: +19,0 %/m. (vos krenta).
 - ✅ Nematytas 2018–2021: +89,9 %/m., visi metai pliuse (+37, +30, +52, +341 %), kritimas 39 %.
+- ✅ Su 1m detalumu (2026-11-13, `config_spot_market.json`): 2022 −0,3 % (vietoj −9,5), 2023 +31,2 (+29,2), 2024 +85,3 (+88,8), 2025 +31,1 (+20,4). Nepablogėja.
 - ⚠️ 2022 ir 2026 minuse, didžioji pelno dalis – 2024. Balanso kritimas iki 37 % – didesnis nei EI3v2.
 
 ## 5. MACDVStrategy (Freqtrade, BTC+ETH, 1d) – pridėta 2026-11-13
