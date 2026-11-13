@@ -9,6 +9,8 @@ Docker atvaizdas `passivbot:stamped` (Rust plėtinys sukompiliuotas, pažymėtas
 | default_trailing_martingale_long, autoriaus 40 monetų | 40 (šiandienos top – išgyvenusiųjų iškraipymas) | 1,5 | +108 %/m. | 78 % | — | — |
 | **trailing martingale, 12 monetų (BTC, ETH + alts10)** | 12 | 1,5 | +48,8 %/m. | 51 % | +191 %/m. | 73 % |
 | **ta pati** | 12 | **0,75** | **+21,1 %/m.** (kasmet pliuse: +5, +21, +23, +36, +13, +9) | **25 %** | **+69,8 %/m.** | 37 % |
+| ema_anchor (long+short) | 12 | 2,5 / 2,5 | +38,3 %/m. (2025 −34 %) | 70 % | (2019-12 – 2021-11) +173 % | 41 % |
+| hsl_npos1 (trailing martingale, 10 poz., stop pagal kritimą) | 12 | 1,25 | +14,7 %/m. (2022 −21 %) | 45 % | (2019-12 – 2021-11) +236 % | 36 % |
 | ta pati | 12 | 0,4 | +11,3 %/m. | 14 % | (iki 2021-11) +35 % | 19 % |
 
 Patikros (TWEL 0,75):
@@ -17,4 +19,4 @@ Patikros (TWEL 0,75):
 - Funding backteste neįskaičiuotas; įvertis (`funding_cost.py`, pozicija × funding istorija) ±1–2 % balanso per metus – vidutinė ekspozicija tik ~11 %, perka per kritimus, kai funding dažnai neigiamas.
 - ⚠️ Martingale rizika: kritimuose dvigubina pozicijas (iki 0,75 balanso, be sverto virš 1x nėra likvidacijos). Kritimas nematytame periode 37 %.
 - Išgyvenusiųjų patikra: 2021-11 top 20 (su FTT, kuris žlugo 2022-11; LUNA futures duomenų Binance nebeturi, todėl 18 monetų): **+26,3 %/m., kritimas 24 %**, kasmet pliuse.
-- Kiti konfigai atmesti: btc_long sunaikina sąskaitą, 5 monetų – kritimai 74–78 %.
+- Kiti konfigai atmesti: btc_long sunaikina sąskaitą, 5 monetų – kritimai 74–78 %, ema_anchor – 70 %, hsl_npos1 – 45 %.

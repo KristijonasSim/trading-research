@@ -249,3 +249,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - #45 Paired Switching ❌ → `papers/45_paired_switch/`.
 - #46 3Commas DCA botas ❌ → `papers/46_dca_bot/`.
 - #47 52 sav. maksimumas kripto ❌ → `papers/47_52wh_crypto/`.
+- Passivbot ema_anchor (+38 %/m., kritimas 70 %) ir hsl_npos1 (+15 %/m., 45 %) ❌.

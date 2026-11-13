@@ -18,3 +18,7 @@ ADA_BTC_ETH_SOL_XRP_binance_708days      2019-12-01–2021-11-08: CAGR +175.9%  
 12_coins_binance_506days                 2019-12-01–2021-04-20: CAGR +190.7%  kritimas   -73%  galutinis 4.39x | 2019:+0 2020:+47 2021:+197
 12_coins_binance_1826days                2021-11-08–2026-11-08: CAGR  +17.8%  kritimas   -26%  galutinis 2.27x | 2021:+4 2022:+18 2023:+20 2024:+31 2025:+11 2026:+6
 18_coins_binance_1826days                2021-11-08–2026-11-08: CAGR  +26.3%  kritimas   -24%  galutinis 3.21x | 2021:+7 2022:+21 2023:+35 2024:+44 2025:+14 2026:+12
+12_coins_binance_1826days                2021-11-08–2026-11-08: CAGR  +38.3%  kritimas   -70%  galutinis 5.05x | 2021:+27 2022:+130 2023:+100 2024:+17 2025:-34 2026:+12
+12_coins_binance_708days                 2019-12-01–2021-11-08: CAGR +172.8%  kritimas   -41%  galutinis 6.99x | 2019:+0 2020:+207 2021:+127
+12_coins_binance_1826days                2021-11-08–2026-11-08: CAGR  +14.7%  kritimas   -45%  galutinis 1.99x | 2021:+13 2022:-21 2023:+42 2024:+59 2025:-17 2026:+19
+12_coins_binance_708days                 2019-12-01–2021-11-08: CAGR +235.7%  kritimas   -36%  galutinis 10.46x | 2019:-0 2020:+83 2021:+472
