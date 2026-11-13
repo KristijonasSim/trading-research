@@ -33,3 +33,4 @@ Kripto duomenys: Binance (spot/futures, 1h/1d, visos USDT poros su istorija). Ak
 | 26 | Dienos vidaus momentum: paskutinė valanda pagal dieną (Gao ir kt. 2018; Wen ir kt. 2022), kripto 1h | kripto | ❌ atmesta (efektas yra, bet su 0,05 % mokesčiu −14…−30 %/m.) → `26_intraday_mom/REZULTATAI.md` |
 | 27 | Trendo klasika III: KAMA (Kaufman), Supertrend, Hull MA, Chandelier exit (kripto 1d) | kripto | ❌ atmesta (2021–26 dauguma −9…+7 %/m., kritimai 31–68 %; HMA(100) +21 % – pavienė) → `27_trend3/REZULTATAI.md` |
 | 28 | Mėnesio sandūros efektas (Lakonishok, Smidt 1988; McConnell, Xu 2008), ETF ir kripto | ETF / kripto | ❌ atmesta (SPY +7,3 %/m. prieš 14,6; kripto po 2021 minuse) → `28_tom/REZULTATAI.md` |
+| 29 | Toby Crabel NR4/NR7/inside day pramušimas (kripto 1d) | kripto | ❌ atmesta (long ≤ +9 %/m.; long-short NR4 +17,9 % tik su 0,05 %, metai −5…+57, NR7 +5,8) → `29_crabel/REZULTATAI.md` |
