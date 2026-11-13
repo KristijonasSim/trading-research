@@ -168,3 +168,5 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 2026-11-13: EI3v2 2,2x/2,4x/2,5x (alts10 2020–26): 2,4x +267 %/m., kritimas 49,6 %; 2,5x jau 60 % → riba
 - 2026-11-13: savaitgalio testai: 141 naujas GitHub repo (`freqtrade/sources_more4`), 353 strategijos → batchM16–M23, paleista `freqtrade/queue4.sh` (Docker be interneto). Bybit demo botas paleistas iš naujo po perkrovimo (0 sandorių – atitinka backtestą, nuo 10-20 signalų nebuvo).
 - 2026-11-13: savaitgalio planas: kas 2 val. patikra (botas, queue4, straipsniai `papers/EILE.md`), kas 8 val. naujienos `results/SAVAITGALIS.md` į GitHub
+- 2026-11-13: straipsniai 1, 2, 5 (kripto momentum, atšokimas, mažos monetos): visos Binance USDT poros su išregistruotomis (700), `papers/xsec.py` – vyksta
+- 2026-11-13: batchM16–M17 baigtos. FakeoutStrategy (+26 %/m., kritimas 0,1 %) atmesta – argrelextrema per visą masyvą; Precognition (+800 %/m.) atmesta – shift(-8), tiesiogiai žiūri į ateitį. Kitų tinkamų nėra.
