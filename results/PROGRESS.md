@@ -174,3 +174,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 2026-11-13: straipsniai 3, 4 (funding carry, cash-and-carry): siunčiama funding istorija 659 kontraktams, `papers/carry.py` paleis automatiškai
 - 2026-11-13: straipsnis 6 (TSMOM, 25 ETF, Moskowitz ir kt. 2012) atmestas: 2016–26 long-short 2x −1,0 %/m. (kritimas 35 %), long-only 1x +3,6 %/m. vs SPY +14,7 % → `papers/06_tsmom/REZULTATAI.md`
 - 2026-11-13: straipsnis 10 (kripto valandų/dienų sezoniškumas, walk-forward, 8 monetos) atmestas: valandų efektas +1–2 bp/val., mokesčiai 20 bp suvalgo; dienų versija nelenkia laikymo → `papers/10_sezoniskumas/REZULTATAI.md`
+- 2026-11-13: straipsnis 7 (žemas volatilumas / BAB, S&P 500 su istorine sudėtimi) atmestas: 2014–26 +10,8 %/m. vs SPY +13,5 %, kritimas toks pat (35 %); BAB +2,5 %/m.; realūs USMV/SPLV patvirtina → `papers/07_lowvol/REZULTATAI.md`

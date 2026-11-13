@@ -11,7 +11,7 @@ Kripto duomenys: Binance (spot/futures, 1h/1d, visos USDT poros su istorija). Ak
 | 4 | Spot–futures bazės prekyba (cash-and-carry, delta neutrali) | kripto | vyksta (papers/carry.py) |
 | 5 | Kripto mažos kapitalizacijos / nelikvidumo premija (Liu, Tsyvinski, Wu 2022) | kripto | ❌ atmesta (po 2022 visi minuse) → `01_kripto_momentum/REZULTATAI.md` |
 | 6 | Laiko eilučių momentum su volatilumo taikymu, 20+ futures/ETF (Moskowitz, Ooi, Pedersen 2012) | ETF | ❌ atmesta (2016–26 long-short −1 %/m., long-only +3,6 %/m.) → `06_tsmom/REZULTATAI.md` |
-| 7 | Žemo volatilumo / betting-against-beta S&P 500 akcijose (Frazzini, Pedersen 2014) | akcijos | laukia |
+| 7 | Žemo volatilumo / betting-against-beta S&P 500 akcijose (Frazzini, Pedersen 2014) | akcijos | ❌ atmesta (2014–26 +10,8 %/m. vs SPY +13,5 %, kritimas toks pat) → `07_lowvol/REZULTATAI.md` |
 | 8 | Pelno anonsų dreifas (PEAD) – reikia nemokamų duomenų, tikrinti ar įmanoma | akcijos | laukia |
 | 9 | Porų prekyba (kointegracija) kripto, 5m–1h (Fil, Kristoufek 2020) | kripto | laukia |
 | 10 | Kripto savaitės dienų ir valandų sezoniškumas, walk-forward (ne visos istorijos) | kripto | ❌ atmesta (efektas 1–2 bp/val., mokestis 20 bp) → `10_sezoniskumas/REZULTATAI.md` |
