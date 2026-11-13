@@ -172,3 +172,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 2026-11-13: batchM16–M17 baigtos. FakeoutStrategy (+26 %/m., kritimas 0,1 %) atmesta – argrelextrema per visą masyvą; Precognition (+800 %/m.) atmesta – shift(-8), tiesiogiai žiūri į ateitį. Kitų tinkamų nėra.
 - 2026-11-13: straipsniai 1, 2, 5 atmesti: 2018–21 momentum long-short +29 %/m., bet 2022–26 visi variantai minuse (−15…−85 %/m.) → `papers/01_kripto_momentum/REZULTATAI.md`
 - 2026-11-13: straipsniai 3, 4 (funding carry, cash-and-carry): siunčiama funding istorija 659 kontraktams, `papers/carry.py` paleis automatiškai
+- 2026-11-13: straipsnis 6 (TSMOM, 25 ETF, Moskowitz ir kt. 2012) atmestas: 2016–26 long-short 2x −1,0 %/m. (kritimas 35 %), long-only 1x +3,6 %/m. vs SPY +14,7 % → `papers/06_tsmom/REZULTATAI.md`
