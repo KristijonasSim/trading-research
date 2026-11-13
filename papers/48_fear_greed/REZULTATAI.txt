@@ -1,0 +1,18 @@
+BTC laikyti: +69.6%/m. DD -72% | +1.7%/m. DD -77%
+  pirkti <10, parduoti >50: +17.4%/m. DD -34% | -6.5%/m. DD -50% | rinkoje 24%
+  pirkti <20, parduoti >60: +1.4%/m. DD -74% | -13.1%/m. DD -69% | rinkoje 43%
+  pirkti <25, parduoti >75: -0.1%/m. DD -73% | +0.6%/m. DD -73% | rinkoje 70%
+  pirkti <20, parduoti >80: +16.6%/m. DD -72% | +10.5%/m. DD -69% | rinkoje 84%
+  pirkti <30, parduoti >70: -1.2%/m. DD -75% | -7.3%/m. DD -73% | rinkoje 64%
+  pirkti <40, parduoti >90: +32.7%/m. DD -72% | +3.9%/m. DD -77% | rinkoje 95%
+  trendas FGI > 50: +74.7%/m. DD -39% | +4.0%/m. DD -45%
+  trendas FGI > 60: +74.1%/m. DD -34% | +19.9%/m. DD -25%
+ETH laikyti: +50.0%/m. DD -92% | -15.9%/m. DD -79%
+  pirkti <10, parduoti >50: +22.7%/m. DD -32% | -3.2%/m. DD -54% | rinkoje 24%
+  pirkti <20, parduoti >60: -6.2%/m. DD -87% | -22.5%/m. DD -82% | rinkoje 43%
+  pirkti <25, parduoti >75: -27.2%/m. DD -91% | -15.1%/m. DD -79% | rinkoje 70%
+  pirkti <20, parduoti >80: -7.9%/m. DD -91% | -2.7%/m. DD -78% | rinkoje 84%
+  pirkti <30, parduoti >70: -10.4%/m. DD -90% | -24.1%/m. DD -84% | rinkoje 64%
+  pirkti <40, parduoti >90: +15.6%/m. DD -92% | -10.9%/m. DD -79% | rinkoje 95%
+  trendas FGI > 50: +119.0%/m. DD -41% | +4.0%/m. DD -53%
+  trendas FGI > 60: +103.7%/m. DD -33% | +27.5%/m. DD -34%

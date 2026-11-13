@@ -250,3 +250,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - #46 3Commas DCA botas ❌ → `papers/46_dca_bot/`.
 - #47 52 sav. maksimumas kripto ❌ → `papers/47_52wh_crypto/`.
 - Passivbot ema_anchor (+38 %/m., kritimas 70 %) ir hsl_npos1 (+15 %/m., 45 %) ❌.
+- #48 Fear & Greed: kontrarinis ❌, trendas FGI > 60 ⚠️ (+24,5 %/m., kritimas 28 %) → rizikingų sąraše, `papers/48_fear_greed/`.

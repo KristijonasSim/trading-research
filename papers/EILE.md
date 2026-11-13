@@ -52,3 +52,4 @@ Kripto duomenys: Binance (spot/futures, 1h/1d, visos USDT poros su istorija). Ak
 | 45 | Paired Switching SPY/TLT, QQQ/IEF, SPY/GLD (Maewal 2017) | ETF | ❌ atmesta (2016–26 nelenkia laikymo) → `45_paired_switch/REZULTATAI.md` |
 | 46 | 3Commas stiliaus DCA botas (TP + apsauginiai orderiai), 12 monetų 5m | kripto | ❌ atmesta (geriausias +11 %/m., kritimas 43 %; 2022 −36…−65 %) → `46_dca_bot/REZULTATAI.md` |
 | 47 | Artumas metų maksimumui kripto skerspjūvyje (George, Hwang metodas) | kripto | ❌ atmesta (2021–26 −48 %/m.; long-short +2 %) → `47_52wh_crypto/REZULTATAI.md` |
+| 48 | Crypto Fear & Greed indeksas: kontrarinis ir trendo (FGI > 60) | kripto | ⚠️ kontrarinis ❌; trendas BTC+ETH +24,5 %/m., kritimas 28 %, zona +12…+25 → `48_fear_greed/REZULTATAI.md` |
