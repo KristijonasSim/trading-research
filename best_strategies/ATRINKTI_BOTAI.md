@@ -107,6 +107,7 @@ Patikros:
 - Nematytas 2018–21: **+89,8 %/m.**, kritimas 13,2 % (2018 −22 %, 2019 +114 %, 2020 +146 %, 2021 +186 %). Altcoin'ams +42 %/m., kritimas 23,5 %.
 - Ateities duomenų nenaudoja (lookahead 0/20, `results/validation/EMAPriceCrossoverWithTreshold_batchM24.log`).
 - Minusas: krentančiais metais (2018, 2022) praranda 14–22 %, laimi tik ~20 % sandorių.
+- ✅ Su 5m detalumu (2026-11-14): +21,4 %/m. – tas pats. Dry-run nuo 2026-11-14 (`freqtrade/dryrun/`).
 - Šaltinis: erdincyasar/freqtrade_kanaxe. Failas `best_strategies/EMAPriceCrossoverWithThreshold.py`.
 
 ## Potencialūs, bet rizikingi

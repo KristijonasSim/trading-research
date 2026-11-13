@@ -222,3 +222,7 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 2026-11-13 22:42 – laiškas apie EMAPriceCrossoverWithTreshold išsiųstas (vienas kartas).
 - 2026-11-14 01:30 – queue5 baigta (batchM24–M27). Kandidatai NASMAO, SMAO, abbas, ERMD_Strategy_risk (alts10) išlaikė nematytą 2018–21 (+41/+100/+63/+45 %/m., kritimai 15/36/12/13 %) ir lookahead 0/20. Tikrinama su minutiniu detalumu (`freqtrade/detail_check.sh`). NowoI2, NASOS7 – atsitiktinis 2026 m. pelnas, atmesta.
 - 2026-11-14 01:30 – sources_more6: 193 nauji repo, 387 strategijos → batchM28–M35, `freqtrade/queue6.sh` (paleidžiama po detalumo patikros).
+
+## 2026-11-14 – dry-run paleistas (vartotojo leidimas)
+- EMAPriceCrossoverWithTreshold 5m detalumas: +21,38 % = be detalumo (išlaiko).
+- 4 dry-run botai (Aberration, DualThrust, EMA800, FundingContrarian) Docker'yje, `freqtrade/dryrun/README.md`. Funding botas iškart atidarė ETH long.

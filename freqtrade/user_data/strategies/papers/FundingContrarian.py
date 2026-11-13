@@ -16,6 +16,9 @@ class FundingContrarian(IStrategy):
     N = 3
     TH = 0.0001
 
+    def informative_pairs(self):   # gyvai (dry-run) atsisiųsti funding istoriją
+        return [(p, "1h", CandleType.FUNDING_RATE) for p in self.dp.current_whitelist()]
+
     def populate_indicators(self, df, metadata):
         fr = self.dp.get_pair_dataframe(metadata["pair"], "1h", candle_type=CandleType.FUNDING_RATE)
         col = "open" if "open" in fr.columns else "funding_rate"
