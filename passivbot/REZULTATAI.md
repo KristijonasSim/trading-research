@@ -16,4 +16,5 @@ Patikros (TWEL 0,75):
 - Su 0,1 % maker ir taker mokesčiu: +17,8 %/m., kritimas 26 %.
 - Funding backteste neįskaičiuotas; įvertis (`funding_cost.py`, pozicija × funding istorija) ±1–2 % balanso per metus – vidutinė ekspozicija tik ~11 %, perka per kritimus, kai funding dažnai neigiamas.
 - ⚠️ Martingale rizika: kritimuose dvigubina pozicijas (iki 0,75 balanso, be sverto virš 1x nėra likvidacijos). Kritimas nematytame periode 37 %.
+- Išgyvenusiųjų patikra: 2021-11 top 20 (su FTT, kuris žlugo 2022-11; LUNA futures duomenų Binance nebeturi, todėl 18 monetų): **+26,3 %/m., kritimas 24 %**, kasmet pliuse.
 - Kiti konfigai atmesti: btc_long sunaikina sąskaitą, 5 monetų – kritimai 74–78 %.

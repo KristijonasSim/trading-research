@@ -2,3 +2,4 @@ caches/
 backtests/
 src/
 build.log
+out/
