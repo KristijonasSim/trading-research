@@ -7,8 +7,8 @@ Kripto duomenys: Binance (spot/futures, 1h/1d, visos USDT poros su istorija). Ak
 |---|---|---|---|
 | 1 | Kriptovaliutų skerspjūvio momentum, top 50 monetų, savaitinis perbalansavimas (Liu, Tsyvinski, Wu 2022, J. Finance) | kripto | ❌ atmesta (po 2022 visi minuse) → `01_kripto_momentum/REZULTATAI.md` |
 | 2 | Trumpalaikis atšokimas (short-term reversal) top 50 monetų, dieninis (Dobrynskaya 2023) | kripto | ❌ atmesta (po 2022 visi minuse) → `01_kripto_momentum/REZULTATAI.md` |
-| 3 | Funding rate carry: long mažiausio, short didžiausio funding (Schmeling, Schrimpf, Todorov 2023, BIS) | kripto futures | vyksta (papers/carry.py) |
-| 4 | Spot–futures bazės prekyba (cash-and-carry, delta neutrali) | kripto | vyksta (papers/carry.py) |
+| 3 | Funding rate carry: long mažiausio, short didžiausio funding (Schmeling, Schrimpf, Todorov 2023, BIS) | kripto futures | ❌ atmesta → `03_funding_carry/REZULTATAI.md` |
+| 4 | Spot–futures bazės prekyba (cash-and-carry, delta neutrali) | kripto | ❌ atmesta → `03_funding_carry/REZULTATAI.md` |
 | 5 | Kripto mažos kapitalizacijos / nelikvidumo premija (Liu, Tsyvinski, Wu 2022) | kripto | ❌ atmesta (po 2022 visi minuse) → `01_kripto_momentum/REZULTATAI.md` |
 | 6 | Laiko eilučių momentum su volatilumo taikymu, 20+ futures/ETF (Moskowitz, Ooi, Pedersen 2012) | ETF | ❌ atmesta (2016–26 long-short −1 %/m., long-only +3,6 %/m.) → `06_tsmom/REZULTATAI.md` |
 | 7 | Žemo volatilumo / betting-against-beta S&P 500 akcijose (Frazzini, Pedersen 2014) | akcijos | ❌ atmesta (2014–26 +10,8 %/m. vs SPY +13,5 %, kritimas toks pat) → `07_lowvol/REZULTATAI.md` |

@@ -1,0 +1,22 @@
+{
+  "strategy": "MACDVStrategy",
+  "mode": "spot",
+  "group": "alts10",
+  "timeframe": "1d",
+  "style": "swing",
+  "avg_trade_hours": 287.3,
+  "trades": 134,
+  "trades_per_year": 34.8,
+  "total_return_pct": 357.5,
+  "cagr_pct": 48.4,
+  "yearly_pct": {
+    "2019": 10.0,
+    "2020": 35.6,
+    "2021": 206.7
+  },
+  "max_drawdown_pct": 6.9,
+  "win_rate_pct": 55.2,
+  "profit_factor": 3.64,
+  "market_change_pct": 3320.6,
+  "timerange": "20180101-20211108"
+}

@@ -1,0 +1,23 @@
+{
+  "strategy": "esv9_fix",
+  "mode": "spot",
+  "group": "alts10",
+  "timeframe": "1h",
+  "style": "day trading",
+  "avg_trade_hours": 6.9,
+  "trades": 4030,
+  "trades_per_year": 1046.2,
+  "total_return_pct": -67.7,
+  "cagr_pct": -25.4,
+  "yearly_pct": {
+    "2018": -26.5,
+    "2019": -26.0,
+    "2020": -29.2,
+    "2021": -16.0
+  },
+  "max_drawdown_pct": 70.7,
+  "win_rate_pct": 31.0,
+  "profit_factor": 0.77,
+  "market_change_pct": 3295.6,
+  "timerange": "20180101-20211108"
+}

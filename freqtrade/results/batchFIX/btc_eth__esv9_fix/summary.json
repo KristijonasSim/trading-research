@@ -1,0 +1,25 @@
+{
+  "strategy": "esv9_fix",
+  "mode": "spot",
+  "group": "btc_eth",
+  "timeframe": "1h",
+  "style": "day trading",
+  "avg_trade_hours": 8.5,
+  "trades": 417,
+  "trades_per_year": 83.4,
+  "total_return_pct": -63.4,
+  "cagr_pct": -18.2,
+  "yearly_pct": {
+    "2021": 0.9,
+    "2022": -43.8,
+    "2023": 0.4,
+    "2024": -19.4,
+    "2025": -17.3,
+    "2026": -3.6
+  },
+  "max_drawdown_pct": 65.8,
+  "win_rate_pct": 33.3,
+  "profit_factor": 0.59,
+  "market_change_pct": -17.8,
+  "timerange": "20211108-20261108"
+}

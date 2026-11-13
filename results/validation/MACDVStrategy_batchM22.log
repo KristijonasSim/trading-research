@@ -1,0 +1,15 @@
+2026-11-13 18:42:26,592 - freqtrade.optimize.backtesting - INFO - Loading data from 2021-03-07 00:00:00 up to 2023-07-13 00:00:00 (858 days).
+2026-11-13 18:42:26,686 - freqtrade.optimize.backtesting - INFO - Loading data from 2021-03-07 00:00:00 up to 2023-07-16 00:00:00 (861 days).
+2026-11-13 18:42:26,741 - freqtrade.optimize.backtesting - INFO - Loading data from 2021-03-07 00:00:00 up to 2023-08-10 00:00:00 (886 days).
+2026-11-13 18:42:26,789 - freqtrade.optimize.analysis.lookahead - INFO - Found targeted trade amount = 20 signals.
+2026-11-13 18:42:26,789 - freqtrade.loggers.set_log_levels - INFO - Restoring log verbosity.
+2026-11-13 18:42:26,790 - freqtrade.optimize.analysis.lookahead - INFO - MACDVStrategy: no bias detected
+2026-11-13 18:42:26,790 - freqtrade.optimize.analysis.lookahead_helpers - INFO - Checking look ahead bias via backtests of MACDVStrategy.py took 3 seconds.
+Analyzing trades ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 20/20 100% • 0:00:02 • 0:00:00
+Could not import BitcoinTradingModel. ML features will be disabled.
+                                                       Lookahead Analysis                                                       
+┏━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┓
+┃         filename ┃      strategy ┃ has_bias ┃ total_signals ┃ biased_entry_signals ┃ biased_exit_signals ┃ biased_indicators ┃
+┡━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━┩
+│ MACDVStrategy.py │ MACDVStrategy │       No │            20 │                    0 │                   0 │                   │
+└──────────────────┴───────────────┴──────────┴───────────────┴──────────────────────┴─────────────────────┴───────────────────┘

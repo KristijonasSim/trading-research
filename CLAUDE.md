@@ -79,6 +79,8 @@ Komandos (paleisti iš `freqtrade/`):
 
 - 2026-11-13: svertas su 2020–21 (`freqtrade/results/lev3/`): EI3v2 3x ir NASOSv5 5x neatlaiko; EI3v2 1x/2x saugu, 2,4x riba. Aprašas GitHub: `best_strategies/EI3v2/README.md`.
 
+- 2026-11-13 vakaras: **MACDVStrategy atrinkta** (BTC+ETH 1d, +16 %/m., kritimas 15 %, 2018–21 +73 %/m.). Savaitgalio testai: `results/SAVAITGALIS.md`, straipsnių eilė `papers/EILE.md`.
+
 ## Dar nepradėta
 Aplankai `ib_async/`, `vectorbt/`, `backtesting-py/` tušti.
 

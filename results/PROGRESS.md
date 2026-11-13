@@ -181,3 +181,6 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 2026-11-13: straipsnis 12 (52 sav. maksimumo momentum, S&P 500) atmestas: 2014–26 long +10,5 %/m. vs lygiavertis +12,4 %, long-short −1,3 %/m. → `papers/12_52wh/REZULTATAI.md`
 - 2026-11-13: straipsnis 13 (volatilumu valdomas portfelis, Moreira-Muir 2017): QQQ tikslinis 15 % vol ≤2x 2016–26 +17,7 %/m., kritimas 21 % (laikymas +19,1 %, 35 %), 1994–2015 +9,1 % vs +5,4 %; rizikos mažinimas, ne pelnas → `papers/13_volmanaged/REZULTATAI.md`
 - 2026-11-13: straipsnis 14 (Heston-Sadka mėnesio sezoniškumas, S&P 500) atmestas: 2014–26 long top 10 % +10,3 %/m. vs lygiavertis 12,4 %, long-short −3,3 % → `papers/14_seasonality/REZULTATAI.md`
+- 2026-11-13: queue4 (batchM16–M23) baigta. esv9_1h_v6 (+58…+209 %/m., kritimas 3–4 %) atmesta – perrašo kainas Heikin-Ashi reikšmėmis; pataisius (tikros kainos) −18…−28 %/m.
+- 2026-11-13: **MACDVStrategy atrinkta** (nr. 5, BTC+ETH 1d): +16 %/m., kritimas 15 %; nematytas 2018–21 +73 %/m., kritimas 12 %; lookahead 0/20.
+- 2026-11-13: straipsniai 3, 4: funding carry kas d. 2022–26 +17 %/m., bet kritimas 53 % ir 2024 −26 %; cash-and-carry BTC+ETH 2022–26 tik +3 %/m. (mažiau nei indėlis); daugiau monetų – minuse. Atmesta → `papers/03_funding_carry/REZULTATAI.md`

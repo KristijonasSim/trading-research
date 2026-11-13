@@ -81,6 +81,14 @@ Patikros:
 - ✅ Nematytas 2018–2021: +89,9 %/m., visi metai pliuse (+37, +30, +52, +341 %), kritimas 39 %.
 - ⚠️ 2022 ir 2026 minuse, didžioji pelno dalis – 2024. Balanso kritimas iki 37 % – didesnis nei EI3v2.
 
+## 5. MACDVStrategy (Freqtrade, BTC+ETH, 1d) – pridėta 2026-11-13
+- Failas: `MACDVStrategy.py`. Šaltinis: github.com/thino-dev/Freqtrade_Strategies.
+- Taisyklė: perka, kai kaina virš 200 d. vidurkio ir MACD-V (MACD padalintas iš ATR) > 70; parduoda po +2,85 % dienos žvakės, MACD kirtimo žemyn arba po 15/77 d.
+- 2021-11 – 2026-11, BTC+ETH: **+16,0 %/m., kritimas 14,7 %**, 59 sandoriai (rinka per tą laiką −22,5 %). Metai: 2021 −7 %, 2022 −8 %, 2023 +47 %, 2024 +25 %, 2025 +36 %, 2026 −2 %.
+- Nematytas 2018–2021: **+72,6 %/m., kritimas 12 %** (2019 +44 %, 2020 +109 %, 2021 +172 %). Altcoin'ai: +48 %/m., kritimas 7 %.
+- Lookahead-analysis: 0/20 šališkų signalų (`results/validation/MACDVStrategy_batchM22.log`).
+- ⚠️ Kylančioje rinkoje atsilieka nuo „pirkti ir laikyti“ (2018–21 BTC+ETH laikymas +823 %); vertė – maži kritimai. Ant altcoin'ų 2021–26 tik +10,5 %/m.
+
 ## Potencialūs, bet rizikingi
 | Strategija | Rinka | %/m | Max kritimas | Kodėl ne pagrindiniame sąraše |
 |---|---|---|---|---|

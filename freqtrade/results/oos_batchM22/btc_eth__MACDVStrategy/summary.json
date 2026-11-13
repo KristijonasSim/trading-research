@@ -1,0 +1,22 @@
+{
+  "strategy": "MACDVStrategy",
+  "mode": "spot",
+  "group": "btc_eth",
+  "timeframe": "1d",
+  "style": "swing",
+  "avg_trade_hours": 294.4,
+  "trades": 56,
+  "trades_per_year": 14.5,
+  "total_return_pct": 718.4,
+  "cagr_pct": 72.6,
+  "yearly_pct": {
+    "2019": 43.8,
+    "2020": 109.4,
+    "2021": 171.7
+  },
+  "max_drawdown_pct": 12.0,
+  "win_rate_pct": 71.4,
+  "profit_factor": 3.81,
+  "market_change_pct": 822.8,
+  "timerange": "20180101-20211108"
+}
