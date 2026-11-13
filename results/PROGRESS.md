@@ -188,3 +188,5 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 2026-11-13: MACDVStrategy su 5m detalumu (BTC+ETH 2021–26): +15,7 %/m. (be detalumo +16,0 %), kritimas 21 % – išlaikė
 - 2026-11-13: straipsnis 17 (liekamasis momentum, FF3, S&P 500) atmestas: 2014–26 +13,8 %/m. = SPY (13,7 %), kritimas 39 % → `papers/17_resmom/REZULTATAI.md`
 - 2026-11-13: straipsnis 18 (Jesse klasika): Dual Thrust BTC+ETH 1d +11,9 %/m., kritimas 11 %, kasmet pliuse 2018–26, 5m vykdymas patvirtina, bet su 0,15 % mokesčiu +7,5 %; Turtle BTC+ETH +14 %/m., kritimas 30–37 % → abu į rizikingų sąrašą, `papers/18_turtle/REZULTATAI.md`
+- 2026-11-13 20:44: laiškas apie MACDVStrategy išsiųstas (Gmail)
+- 2026-11-13: sources_more5 (56 repo, 172 strategijos) → batchM24–M27, paleista `freqtrade/queue5.sh`. Straipsnius (papers/) tuo pačiu metu tęsia kitas seansas.
