@@ -21,3 +21,9 @@ Binance spot dienos žvakės, tik long, kiekviena moneta po lygią dalį, mokest
 **Turtle BTC+ETH:** +14 %/m., bet kritimas 30–37 % ir 2022 m. −18…−24 %.
 
 **Dual Thrust ant indeksų ir aukso** (SPY, QQQ, IWM, GLD, Yahoo dienos OHLC, mokestis 0,02 %, `dt_idx.py`): 2005–15 ir 2016–26 visi variantai −6…+1 %/m. Pranašumas yra tik kripto rinkoje (24 val. prekyba, stiprūs dienos trendai).
+
+**Dual Thrust ant Binance perp BTC/ETH** (tik long, mokestis 0,05 % taker, su funding, `dt_perp.py`, `REZULTATAI_dt_perp.txt`):
+- n=4, k=0,7: 2020–21 +38 %/m. (kritimas 18 %), **2021-11 – 2026-11 +13,8 %/m. (kritimas 12 %)**; metai 2020 +35, 2021 +35, 2022 +3, 2023 +15, 2024 +25, 2025 +17, 2026 +8 %.
+- Su 0,02 % (maker) +16,6 %/m.
+- Long+short (originali versija) blogiau: +5,6 %/m., kritimas 35 %. Short pusė kripto rinkoje neveikia.
+- Su 2x svertu teoriškai ~+27 %/m., kritimas ~24 %. Kandidatas į dry-run.

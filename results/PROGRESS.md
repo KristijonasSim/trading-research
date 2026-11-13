@@ -190,3 +190,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 2026-11-13: straipsnis 18 (Jesse klasika): Dual Thrust BTC+ETH 1d +11,9 %/m., kritimas 11 %, kasmet pliuse 2018–26, 5m vykdymas patvirtina, bet su 0,15 % mokesčiu +7,5 %; Turtle BTC+ETH +14 %/m., kritimas 30–37 % → abu į rizikingų sąrašą, `papers/18_turtle/REZULTATAI.md`
 - 2026-11-13 20:44: laiškas apie MACDVStrategy išsiųstas (Gmail)
 - 2026-11-13: sources_more5 (56 repo, 172 strategijos) → batchM24–M27, paleista `freqtrade/queue5.sh`. Straipsnius (papers/) tuo pačiu metu tęsia kitas seansas.
+- 2026-11-13: Dual Thrust ant Binance perp BTC/ETH (long, 0,05 %, su funding): 2021-11–26 +13,8 %/m., kritimas 12 %, kasmet pliuse 2020–26; long+short +5,6 %/m. → `papers/18_turtle/REZULTATAI.md`
