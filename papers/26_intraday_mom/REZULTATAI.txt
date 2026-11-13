@@ -1,0 +1,12 @@
+first koreliacija +0.008 | ls   mokestis 0.00%: 2018–21 +4.9%/m. DD -22% | 2021–26 +0.6%/m. DD -21%
+first koreliacija +0.008 | ls   mokestis 0.05%: 2018–21 -25.3%/m. DD -70% | 2021–26 -29.8%/m. DD -83%
+first koreliacija +0.008 | long mokestis 0.00%: 2018–21 +4.3%/m. DD -18% | 2021–26 -2.5%/m. DD -19%
+first koreliacija +0.008 | long mokestis 0.05%: 2018–21 -11.8%/m. DD -48% | 2021–26 -18.8%/m. DD -65%
+pre   koreliacija +0.110 | ls   mokestis 0.00%: 2018–21 +31.3%/m. DD -18% | 2021–26 +13.6%/m. DD -24%
+pre   koreliacija +0.110 | ls   mokestis 0.05%: 2018–21 -6.5%/m. DD -52% | 2021–26 -21.0%/m. DD -78%
+pre   koreliacija +0.110 | long mokestis 0.00%: 2018–21 +16.9%/m. DD -11% | 2021–26 +3.5%/m. DD -21%
+pre   koreliacija +0.110 | long mokestis 0.05%: 2018–21 -1.6%/m. DD -38% | 2021–26 -13.8%/m. DD -56%
+h22   koreliacija -0.006 | ls   mokestis 0.00%: 2018–21 -5.2%/m. DD -37% | 2021–26 +2.6%/m. DD -18%
+h22   koreliacija -0.006 | ls   mokestis 0.05%: 2018–21 -32.4%/m. DD -78% | 2021–26 -28.3%/m. DD -81%
+h22   koreliacija -0.006 | long mokestis 0.00%: 2018–21 -0.9%/m. DD -29% | 2021–26 -1.6%/m. DD -21%
+h22   koreliacija -0.006 | long mokestis 0.05%: 2018–21 -17.2%/m. DD -54% | 2021–26 -18.3%/m. DD -64%

@@ -29,3 +29,5 @@ Kripto duomenys: Binance (spot/futures, 1h/1d, visos USDT poros su istorija). Ak
 | 22 | Paprasti trendo filtrai (Faber 10 mėn., 50/200, SMA200) kripto | kripto | ❌ atmesta (2021–26 −4…+13 %/m., kritimai 36–65 %) → `22_trend_filters/REZULTATAI.md` |
 | 23 | Klasika II: Darvas, Raschke Holy Grail / Turtle Soup, Parabolic SAR, Alligator, Seykota (kripto 1d) | kripto | ❌ atmesta (2021–26 −19…+7 %/m.) → `23_classics2/REZULTATAI.md` |
 | 24 | BTC ciklo indikatoriai: Mayer daugiklis, Pi Cycle Top, 200 sav. vidurkis | kripto | ❌ atmesta (per mažai signalų, kritimai 53–83 %) → `24_btc_cycle/REZULTATAI.md` |
+| 25 | Larry Connors: RSI(2), kaupiamasis RSI, ConnorsRSI, dvigubas 7 d. (kripto 1d) | kripto | ❌ atmesta (BTC+ETH 2021–26 ≤ +11,7 %/m., bet 2018–21 ~0; alts10 po 2021 ~0) → `25_connors/REZULTATAI.md` |
+| 26 | Dienos vidaus momentum: paskutinė valanda pagal dieną (Gao ir kt. 2018; Wen ir kt. 2022), kripto 1h | kripto | ❌ atmesta (efektas yra, bet su 0,05 % mokesčiu −14…−30 %/m.) → `26_intraday_mom/REZULTATAI.md` |

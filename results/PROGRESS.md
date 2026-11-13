@@ -205,3 +205,7 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - ckNSJT_morning alts10 (none → 1m): 2022 −9,5 → −0,3; 2023 29,2 → 31,2; 2024 88,8 → 85,3; 2025 20,4 → 31,1. ✅ išlaiko.
 - EI3v2_tag_cofi_green alts10: 2022 15,4 → 5,5; 2023 27,4 → 25,9; 2024 54,1 → 43,9; 2025 15,8 → 11,8. ⚠️ ~¼ mažiau, bet kasmet pliuse.
 - E0V1E_DCA3 nepavyko (market orderiai), perleista su `config_spot_market.json` (`freqtrade/detail_q4.sh`).
+
+## 2026-11-13 – straipsniai 25–26
+- #25 Connors RSI(2)/ConnorsRSI kripto 1d ❌ (BTC+ETH ≤ +11,7 %/m., 2018–21 ~0; alts10 po 2021 ~0) → `papers/25_connors/`.
+- #26 Dienos vidaus momentum kripto 1h ❌ (koreliacija 0,11, bet mokesčiai suvalgo) → `papers/26_intraday_mom/`.
