@@ -10,6 +10,5 @@ run() { local n=$1 tf=$2 tr=$3 det=$4 tag=$5; mkdir -p results/detail/${n}_$tag
     -c /freqtrade/config.json --strategy-path /freqtrade/user_data/strategies/validate50 --export none 2>&1 \
     | grep -E "TOTAL|Absolute drawdown|Total profit %" | head -4 > results/detail/${n}_$tag.txt
   echo "$n $tag: $(tr -s ' ' < results/detail/${n}_$tag.txt | tr '\n' ' ')"; }
-for n in NASMAO SMAO abbas; do run $n 5m 20240101-20250101 "" plain; run $n 5m 20240101-20250101 "--timeframe-detail 1m" d1m; done
-run ERMD_Strategy_risk 1d 20230101-20250101 "" plain; run ERMD_Strategy_risk 1d 20230101-20250101 "--timeframe-detail 5m" d5m
-echo ALL_DONE
+for n in NASMAO SMAO abbas; do run $n 5m 20200201-20201231 "" plain20; run $n 5m 20200201-20201231 "--timeframe-detail 1m" d1m20; done
+echo ALL_DONE2
