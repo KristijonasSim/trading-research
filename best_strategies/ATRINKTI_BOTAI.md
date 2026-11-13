@@ -97,6 +97,7 @@ Patikros:
 - Nematytas 2018–2021 (pandas, `papers/21_pruitt/`): +88 %/m., kritimas 34 %. Altcoin'ai 2021–26 tik +11,6 %/m. (kritimas 42 %).
 - Lookahead-analysis: 0/20 (`results/validation/Aberration_lookahead.log`). Signalai dienos uždarymu, be stop'ų, todėl detalumas įtakos neturi.
 - ⚠️ Tik ~8 sandoriai per metus, pelnas bangomis (kaip Ichimoku), kritimas didesnis nei MACDVStrategy. Koreliuoja su MACDV (abi BTC+ETH trendo).
+- ⚠️ Parametrų jautrumas (SMA 20–60, σ 1,5–2,5): 2021–26 nuo +1,6 iki +24,7 %/m., mediana ~12 %. Originalūs 35/2 – virš vidurkio, realistiškai tikėtina ~12 %/m. (`papers/21_pruitt/REZULTATAI_aberration_jautrumas.txt`). 2018–21 visos kombinacijos +44…+114 %/m.
 
 ## Potencialūs, bet rizikingi
 | Strategija | Rinka | %/m | Max kritimas | Kodėl ne pagrindiniame sąraše |
