@@ -247,3 +247,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - #43 Halloween ❌ → `papers/43_halloween/`.
 - #44 Apyvartos šuolis kripto ❌ → `papers/44_volume_shock/`.
 - #45 Paired Switching ❌ → `papers/45_paired_switch/`.
+- #46 3Commas DCA botas ❌ → `papers/46_dca_bot/`.
