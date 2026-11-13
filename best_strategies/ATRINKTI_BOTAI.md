@@ -61,7 +61,7 @@ Patikros:
 - ✅ `lookahead-analysis` (10 altcoin'ų, 2024–2025): 0 iš 20 signalų.
 - ✅ `recursive-analysis`: be ateities duomenų (EWO priklauso nuo pradinių žvakių skaičiaus, bet su numatytu startup – stabilus).
 - ✅ Nematytas 2018-01 – 2021-11: +89 %/m., kritimas 20,7 %, kasmet pliuse (2018 +14,8 %, 2019 +28 %, 2020 +74 %, 2021 +356 %).
-- ⚠️ 1m detalumu netikrinta. Kitas žingsnis – dry-run.
+- ✅ Su 1m detalumu (2026-11-13, metai atskirai): 2022 +26,4 % (vietoj +27,9), 2023 +8,5 (+8,7), 2024 +15,6 (+16,5), 2025 +56,9 (+27,3). Rezultatas nepablogėja, `freqtrade/results/validate50/detail_q.log`. Kitas žingsnis – dry-run.
 
 ## 4. ckNSJT_morning (Freqtrade, kripto) – pridėta 2026-11-12
 - Failas: `ckNSJT_morning.py`. Šaltinis: RoboticAutomations/freqtradestrategies (rinkinys „AIRA – open code v2“, aplankas ichimoku).
