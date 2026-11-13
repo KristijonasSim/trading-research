@@ -130,6 +130,13 @@ Patikros:
 - ⚠️ Didžiausi kritimai iš šių trijų.
 - Šaltinis: flessner/freqtrade-stuff. Failas `best_strategies/SMAO.py`.
 
+## 11. Passivbot trailing martingale (TWEL 0,75; BTC, ETH + alts10, futures) – pridėta 2026-11-14
+- Autoriaus konfigas `configs/examples/default_trailing_martingale_long.json` (enarjord/passivbot), tik ekspozicija sumažinta iki 0,75 ir monetos – mūsų standartinės 12.
+- 2021–26: **+21,1 %/m., kritimas 25 %**, kasmet pliuse (2022 +21 %, 2026 +9 %). Su 0,1 % mokesčiu +17,8 %/m.
+- Nematytas 2019-12 – 2021-04 (autorius optimizavo nuo 2021-04): **+69,8 %/m., kritimas 37 %**.
+- Funding neįskaičiuotas, įvertis ±1–2 %/m. ⚠️ Martingale: kritimuose didina poziciją; 1,5 ekspozicija duoda +49 %/m., bet kritimas 51–73 %.
+- Aprašas ir skriptai `passivbot/REZULTATAI.md`; paleidimas – Docker `passivbot:stamped`.
+
 ## Potencialūs, bet rizikingi
 | Strategija | Rinka | %/m | Max kritimas | Kodėl ne pagrindiniame sąraše |
 |---|---|---|---|---|

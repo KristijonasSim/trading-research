@@ -236,3 +236,7 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - #38 UT Bot/WaveTrend/SSL/QQE ❌ → `papers/38_tv_popular/`.
 - #39 S&P 500 savaitinis atšokimas ❌ → `papers/39_st_reversal/`.
 - 2026 m. (iki 11-08) 1m detalumas (none → 1m): EI3v2 +9,6 → +8,3 %; NASOSv5_mod3 +4,9 → +5,0 %; abbas −0,6 → −1,0 %; NASMAO −0,3 → −0,3 %. Laikymas 2026: alts10 −28 %, BTC+ETH −19 %.
+
+## 2026-11-14 – Passivbot (vartotojo leidimas kompiliuoti)
+- Sukompiliuotas Docker (`passivbot:stamped`), backtestinti autoriaus konfigai 2021–26 ir 2019–21. btc_long ❌ (−45 %/m.), 5 monetų ❌ (kritimas 74–78 %).
+- **Trailing martingale 12 monetų, TWEL 0,75: +21,1 %/m., kritimas 25 %, nematytas 2019-12 – 2021-04 +69,8 %/m. (37 %), su 0,1 % mokesčiu +17,8 %** → ATRINKTI_BOTAI.md nr. 11. `passivbot/REZULTATAI.md`.
