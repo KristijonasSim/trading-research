@@ -110,6 +110,7 @@ Patikros:
 | Ichimoku_v8 | BTC+ETH spot, 4h | 15,1 | 30 % (balanso 40 %) | 2022 −9 %, 2023 −15 %, 2018 −45 %. Švari, 2018–21 +63 %/m. `Ichimoku_v8.py` |
 | Dual Thrust (n=4, k=0,7) | BTC+ETH spot, 1d (įėjimas dienos viduje) | 11,9 (perp 0,05 %: 13,8) | 11 % | Žemiau 14 %; bet kasmet pliuse 2018–2026 (perp 2020–26 taip pat). Freqtrade versija `freqtrade/user_data/strategies/papers/DualThrust.py`: +11,7 %/m., kritimas 11,5 %, lookahead 0/20, 2018–21 +30 %/m., 5m vykdymas patvirtina. Jautrus mokesčiui (0,15 % → 7,5 %/m.). `papers/18_turtle/` |
 | R-Breaker (tik trendas, long) | BTC+ETH perp, 1h | 15,2 (0,05 %) / 10,5 (0,1 %) | 13 % | Ta pati idėja kaip Dual Thrust (koreliacija 0,76), 2018–21 +38,5 %/m. (kritimas 9 %). Funding neįskaičiuotas. `papers/20_rbreaker/` |
+| Funding kontrarinis (long kai 3 d. funding < 0,01 %/d.) | BTC+ETH perp, 1d | 26 (0,05 %) / 22 (0,1 %) | 30 % | 2020–21 +31 %/m.; parametrų zona +13…+26 %/m.; ant alts10 neveikia, ETH 2020–21 tik +3,6 % – viską neša BTC. Rinkoje ~30 % laiko. `papers/32_funding_timing/` |
 | Turtle S2 (55/20) | BTC+ETH spot, 1d | 14,5 | 30 % | 2022 −18 %, 2018–21 +74 %/m. (kritimas 49 %). `papers/18_turtle/` |
 | VolatilitySystem | BTC+ETH futures, 1h | 69,8 | 53,4 % | 2x svertas, be stop-loss; ant altcoin'ų tik +0,6 %/m.; 2026 m. −0,2 %. Lookahead švari. Failas `VolatilitySystem.py`. |
 | EI3v2_tag_cofi_green ant 3x ETF, 1d | 18 sintetinių 3x ETF (TQQQ, UPRO, NUGT, JNUG…) | 13,5 | 14,5 % | Žemiau 14 %; grafikas parinktas iš 4 bandytų. Kasmet teigiama. Žr. `etf3x/README.md`. |

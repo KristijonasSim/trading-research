@@ -214,3 +214,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - #29 Crabel NR4/NR7 kripto ❌ (pirma versija turėjo ateities info short pusėje, ištaisyta) → `papers/29_crabel/`.
 - #30 Nakties grąžos ETF ❌ (kaštai suvalgo) → `papers/30_overnight/`.
 - #31 BTC CME gap ❌ → `papers/31_cme_gap/`.
+- #32 Funding kontrarinis BTC+ETH ⚠️ (+26 %/m., kritimas 30 %, bet alts neveikia) → `papers/32_funding_timing/`, įrašyta į rizikingų sąrašą.
