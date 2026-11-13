@@ -42,3 +42,4 @@ Kripto duomenys: Binance (spot/futures, 1h/1d, visos USDT poros su istorija). Ak
 | 35 | Noise Breakout (Zarattini ir kt. 2024) ant BTC/ETH 1h | kripto | ❌ atmesta (visi variantai minuse) → `35_noise_crypto/REZULTATAI.md` |
 | 36 | Kripto laiko eilučių momentum 1–4 sav. (Liu, Tsyvinski 2021 RFS) | kripto | ❌ atmesta (1 sav. 2021–26 −7…−21 %/m.; 8 sav. +15 % su 53 % kritimu) → `36_tsmom_crypto/REZULTATAI.md` |
 | 37 | TTM Squeeze (Carter) ir Bollinger Squeeze, kripto 1d | kripto | ❌ atmesta (originalas +3 %/m.; geriausias parametras +14,6 %, tipiškai ~9 %) → `37_squeeze/REZULTATAI.md` |
+| 38 | TradingView populiarieji: UT Bot, WaveTrend, SSL Channel, QQE (kripto 1d) | kripto | ❌ atmesta (2021–26 −5…+8 %/m., kritimai 37–67 %) → `38_tv_popular/REZULTATAI.md` |

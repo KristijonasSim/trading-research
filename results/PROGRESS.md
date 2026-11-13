@@ -233,3 +233,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - #35 Noise Breakout kripto ❌ → `papers/35_noise_crypto/`.
 - #36 Kripto TSMOM savaitės ❌ → `papers/36_tsmom_crypto/`.
 - #37 TTM / Bollinger squeeze ❌ → `papers/37_squeeze/`.
+- #38 UT Bot/WaveTrend/SSL/QQE ❌ → `papers/38_tv_popular/`.
