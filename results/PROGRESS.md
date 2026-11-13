@@ -194,3 +194,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 2026-11-13: straipsniai 15–16 (kripto žemas vol / MAX long-short) atmesti: spot kainomis 2022–26 +85 %/m., bet su tikrais perp ir funding −8,5 %/m., kritimas 80 % (shortų funding ~35 %/m.); 2018–21 minuse → `papers/15_kripto_lowvol/REZULTATAI.md`
 - 2026-11-13: straipsnis 19 (Larry Williams VB kripto) atmestas: 2021–26 BTC+ETH −9 %/m. (k=0,5); 20 (R-Breaker BTC/ETH 1h): tik trendas long +15,2 %/m. su 0,05 % (0,1 %: +10,5), kritimas 13 %, koreliacija su Dual Thrust 0,76 → į potencialių sąrašą
 - 2026-11-13: straipsnis 21 (Pruitt/Hill trendo sistemos kripto 1d): Aberration BTC+ETH +17,8 %/m., kritimas 27 %, 2018–21 +88 %/m. → rizikingų sąrašas; King Keltner +16,7 % (38 %), kitos silpnesnės
+- 2026-11-13: 22 (paprasti trendo filtrai kripto: Faber, 50/200, SMA200) atmesti: 2021–26 BTC+ETH −4…+13 %/m., kritimai 36–65 %
