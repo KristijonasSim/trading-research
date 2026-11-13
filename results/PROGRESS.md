@@ -242,3 +242,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - **Trailing martingale 12 monetų, TWEL 0,75: +21,1 %/m., kritimas 25 %, nematytas 2019-12 – 2021-04 +69,8 %/m. (37 %), su 0,1 % mokesčiu +17,8 %** → ATRINKTI_BOTAI.md nr. 11. `passivbot/REZULTATAI.md`.
 - Passivbot martingale su 2021-11 top 20 (FTT, be LUNA): +26,3 %/m., kritimas 24 % ✅.
 - #40 BTC→altai lead-lag ❌ → `papers/40_leadlag/`.
+- #41 Spot grid botas ❌ → `papers/41_grid/`.

@@ -45,3 +45,4 @@ Kripto duomenys: Binance (spot/futures, 1h/1d, visos USDT poros su istorija). Ak
 | 38 | TradingView populiarieji: UT Bot, WaveTrend, SSL Channel, QQE (kripto 1d) | kripto | ❌ atmesta (2021–26 −5…+8 %/m., kritimai 37–67 %) → `38_tv_popular/REZULTATAI.md` |
 | 39 | Savaitinis trumpalaikis atšokimas S&P 500 (Lehmann 1990, Jegadeesh 1990) | akcijos | ❌ atmesta (2014–26 ≤ +10,5 %/m. < SPY 13,5 %) → `39_st_reversal/REZULTATAI.md` |
 | 40 | BTC → altcoin'ų vėlavimas (lead-lag), 1h | kripto | ❌ atmesta (koreliacija −0,03; su mokesčiais minusas) → `40_leadlag/REZULTATAI.md` |
+| 41 | Spot grid botas (Binance/Pionex Spot Grid), BTC/ETH 5m | kripto | ❌ atmesta (0,1 %: −18…+9 %/m., kritimai 54–93 %) → `41_grid/REZULTATAI.md` |
