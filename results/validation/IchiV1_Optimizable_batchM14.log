@@ -1,0 +1,63 @@
+### lookahead-analysis IchiV1_Optimizable
+2026-11-13 13:03:50,722 - freqtrade.optimize.analysis.lookahead - INFO - found lookahead-bias in trade pair: SOL/USDT, timerange:2025-01-03 14:40:00+00:00 - 2025-01-03 15:25:00+00:00, idx: 11
+2026-11-13 13:03:50,753 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-31 16:00:00 up to 2025-01-03 16:30:00 (3 days).
+2026-11-13 13:03:50,823 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-31 16:00:00 up to 2025-01-03 17:10:00 (3 days).
+2026-11-13 13:03:50,903 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-31 16:00:00 up to 2025-01-04 02:10:00 (3 days).
+2026-11-13 13:03:50,978 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-31 16:00:00 up to 2025-01-04 02:55:00 (3 days).
+2026-11-13 13:03:51,063 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-31 16:00:00 up to 2025-01-04 03:20:00 (3 days).
+2026-11-13 13:03:51,137 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-31 16:00:00 up to 2025-01-04 03:50:00 (3 days).
+2026-11-13 13:03:51,223 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-31 16:00:00 up to 2025-01-06 02:15:00 (5 days).
+2026-11-13 13:03:51,319 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-31 16:00:00 up to 2025-01-06 03:30:00 (5 days).
+2026-11-13 13:03:51,428 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-31 16:00:00 up to 2025-01-06 15:00:00 (5 days).
+2026-11-13 13:03:51,531 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-31 16:00:00 up to 2025-01-06 15:45:00 (5 days).
+2026-11-13 13:03:51,644 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-31 16:00:00 up to 2025-01-06 14:55:00 (5 days).
+2026-11-13 13:03:51,745 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-31 16:00:00 up to 2025-01-06 16:00:00 (6 days).
+2026-11-13 13:03:51,824 - freqtrade.optimize.analysis.lookahead - INFO - found lookahead-bias in trade pair: XRP/USDT, timerange:2025-01-06 14:50:00+00:00 - 2025-01-06 15:55:00+00:00, idx: 17
+2026-11-13 13:03:51,855 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-31 16:00:00 up to 2025-01-08 12:20:00 (7 days).
+2026-11-13 13:03:51,972 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-31 16:00:00 up to 2025-01-08 13:15:00 (7 days).
+2026-11-13 13:03:52,107 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-31 16:00:00 up to 2025-01-10 18:00:00 (10 days).
+2026-11-13 13:03:52,245 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-31 16:00:00 up to 2025-01-10 18:35:00 (10 days).
+2026-11-13 13:03:52,362 - freqtrade.optimize.analysis.lookahead - INFO - found lookahead-bias in trade pair: XRP/USDT, timerange:2025-01-10 17:55:00+00:00 - 2025-01-10 18:30:00+00:00, idx: 19
+2026-11-13 13:03:52,373 - freqtrade.optimize.analysis.lookahead - INFO - Found targeted trade amount = 20 signals.
+2026-11-13 13:03:52,374 - freqtrade.loggers.set_log_levels - INFO - Restoring log verbosity.
+2026-11-13 13:03:52,374 - freqtrade.optimize.analysis.lookahead - INFO -  => IchiV1_Optimizable : bias detected!
+2026-11-13 13:03:52,374 - freqtrade.optimize.analysis.lookahead_helpers - INFO - Checking look ahead bias via backtests of IchiV1_Optimizable.py took 8 seconds.
+Analyzing trades ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 20/20 100% • 0:00:03 • 0:00:00
+                                                            Lookahead Analysis                                                            
+┏━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┓
+┃              filename ┃           strategy ┃ has_bias ┃ total_signals ┃ biased_entry_signals ┃ biased_exit_signals ┃ biased_indicators ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━┩
+│ IchiV1_Optimizable.py │ IchiV1_Optimizable │      Yes │            20 │                    6 │                   0 │                   │
+└───────────────────────┴────────────────────┴──────────┴───────────────┴──────────────────────┴─────────────────────┴───────────────────┘
+### recursive-analysis IchiV1_Optimizable
+2026-11-13 13:03:55,996 - freqtrade.optimize.backtesting - INFO - Loading data from 2025-02-22 01:20:00 up to 2025-03-01 00:00:00 (6 days).
+2026-11-13 13:03:56,056 - freqtrade.loggers.set_log_levels - INFO - Restoring log verbosity.
+2026-11-13 13:03:56,056 - freqtrade.optimize.analysis.recursive - INFO - Start checking for recursive bias
+2026-11-13 13:03:56,063 - freqtrade.optimize.analysis.recursive - INFO - No variance on indicator(s) found due to recursive formula.
+2026-11-13 13:03:56,064 - freqtrade.optimize.analysis.recursive - INFO - Start checking for lookahead bias on indicators only
+2026-11-13 13:03:56,064 - freqtrade.optimize.analysis.recursive - INFO - Check indicators at 2025-01-01T00:50:00
+2026-11-13 13:03:56,065 - freqtrade.optimize.analysis.recursive - INFO - No lookahead bias on indicators found.
+2026-11-13 13:03:56,065 - freqtrade.optimize.analysis.recursive_helpers - INFO - Checking recursive and indicator-only lookahead bias of indicators of IchiV1_Optimizable.py took 1 seconds.
+Startup candle 1999 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6/6 100% • 0:00:00 • 0:00:00
+                                     Recursive Analysis                                      
+┏━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━┓
+┃            Indicators ┃ 96 (from strategy) ┃     199 ┃     399 ┃     499 ┃     999 ┃ 1999 ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━╇━━━━━━━━━╇━━━━━━━━━╇━━━━━━━━━╇━━━━━━┩
+│        trend_close_1h │            -0.000% │       - │       - │       - │       - │    - │
+│        trend_close_2h │             0.000% │ -0.000% │       - │       - │       - │    - │
+│        trend_close_4h │             0.027% │ -0.001% │ -0.000% │  0.000% │       - │    - │
+│        trend_close_6h │             0.160% │ -0.010% │ -0.000% │  0.000% │  0.000% │    - │
+│        trend_close_8h │             0.390% │ -0.098% │ -0.000% │  0.000% │ -0.000% │    - │
+│         trend_open_1h │             0.000% │       - │       - │       - │       - │    - │
+│         trend_open_2h │             0.000% │ -0.000% │       - │       - │       - │    - │
+│         trend_open_4h │             0.036% │ -0.001% │ -0.000% │  0.000% │       - │    - │
+│         trend_open_6h │             0.185% │ -0.010% │ -0.000% │  0.000% │  0.000% │    - │
+│         trend_open_8h │             0.431% │ -0.093% │ -0.000% │  0.000% │  0.000% │    - │
+│         fan_magnitude │            -0.389% │  0.098% │  0.000% │ -0.000% │  0.000% │    - │
+│    fan_magnitude_gain │             0.008% │ -0.002% │ -0.000% │  0.000% │ -0.000% │    - │
+│              senkou_b │               nan% │       - │       - │       - │       - │    - │
+│ leading_senkou_span_b │               nan% │       - │       - │       - │       - │    - │
+│           cloud_green │               nan% │       - │       - │       - │       - │    - │
+│                   atr │            -0.018% │ -0.000% │  0.000% │       - │       - │    - │
+└───────────────────────┴────────────────────┴─────────┴─────────┴─────────┴─────────┴──────┘
+VALIDATION_DONE

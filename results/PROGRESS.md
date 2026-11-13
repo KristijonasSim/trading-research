@@ -151,3 +151,16 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 2026-11-12: batchM10 baigta. Peekaboo/V2/V4/V4002 (+28…+134 %/m., kritimas 0,5–3 %) atmesta – scipy find_peaks per visą masyvą (ateities duomenys). Kitų tinkamų nėra.
 - 2026-11-12: batchM11 baigta. HurstCycleV6/HurstCycle7 (+289…+371 %/m.) atmesta – rolling(center=True) ir FFT per visą seriją (ateities duomenys).
 - 2026-11-12: batchM12 baigta. grad (+54 %/m., kritimas 3,5 %) atmesta – np.gradient naudoja kitą žvakę (ateities duomenys).
+- 2026-11-13: perskaityti 16 DMC (Dumb Money Hunter) YouTube video transkriptai, strategija aprašyta → `dmc/STRATEGIJA.md`
+- 2026-11-13: sukurtas DMC TradingView indikatorius `tradingview/DMC_indikatorius.pine` (M/W/D/4H/1H kūnų lygiai, failure-to-gain/lose BUY/SELL, TP/SL linijos, pranešimai; nepatikrintas istorijoje)
+- 2026-11-13: DMC indikatorius: spalvos (M mėlyna, W geltona, D balta), artimų lygių sujungimas, didesni užrašai, žalia/raudona linija = laukiamas BUY/SELL
+- 2026-11-13: DMC indikatoriaus logika ištestuota NAS100 2016–26 (5/15 min., su/be filtro, long/short): visi variantai −0,09…−0,15 R/sandorį, nuostolinga → `dmc/REZULTATAI.md`
+- 2026-11-13: `tradingview/DMC_lygiai.pine` – tik M/W/D kūnų lygiai, be užrašų ir signalų
+- 2026-11-13: Trend Konsensusas + mėnesio/savaitės lygiai → `tradingview/Trend_Konsensusas_lygiai.pine`
+- 2026-11-13: Collective2 gyvų sistemų peržiūra: 12 iš 261 (≥3 m.) atitinka ≥15 %/m. ir kritimą ≤30 %; išsiskiria ares (32 %/m., DD 14 %, 6,2 m.) → `live-track-records/collective2.md`
+- 2026-11-13: Darwinex reikalauja prisijungimo; Myfxbook sąrašas – didelės rizikos forex/grid sistemos, neanalizuota.
+- 2026-11-13: svertas 2x/3x/5x: EI3v2 3x +107 %/m. (kritimas 29 %), NASOSv5_mod3 5x +87 %/m. (28 %), ckNSJT netinka → `freqtrade/results/lev2/REZULTATAI.md`
+- 2026-11-13: copy trading: Bybit nepasiekiamas (demo režimas); Binance 10 lyderių ≥2 m. su kritimu ≤30 %, išsiskiria MoneyBoxTM (+90 %/365 d., kritimas 16 %, kopijuotojai +47k $) → `live-track-records/copy_trading.md`
+- 2026-11-13: Quantpedia 10 strategijų (kalendoriaus efektai, SPY/TLT, nafta, trendas 8 ETF, BTC valandos, BTC/ETH perbalansavimas): nė viena nelenkia SPY 2016–26 → `quantpedia/REZULTATAI.md`
+- 2026-11-13: sources_more3 89 strategijos → batchM14 (50), batchM15 (39), paleista `freqtrade/queue3.sh` (Docker be interneto)
+- 2026-11-13: batchM14–M15 baigtos (178 testai): tinkamų nėra; IchiV1_Optimizable (+776 %/m.) atmesta – lookahead bias (`results/validation/IchiV1_Optimizable_batchM14.log`). Visa eilė → `results/EIGA.md`

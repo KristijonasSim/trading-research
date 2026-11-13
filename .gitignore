@@ -73,3 +73,6 @@ absorption/data/
 ma30_rule/data/
 kronos/.venv/
 kronos/src/
+dmc/*.parquet
+dmc/trades_*.csv
+quantpedia/data/

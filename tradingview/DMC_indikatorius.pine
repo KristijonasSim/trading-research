@@ -1,0 +1,329 @@
+// DMC (Dumb Money Concepts, "Dumb Money Hunter") - INDIKATORIUS. Aprašymas: dmc/STRATEGIJA.md
+// Lygiai: neišbandyti žvakių KŪNŲ kraštai iš mėnesio / savaitės / dienos / 4 val. / 1 val. žvakių.
+// Spalvos: mėnuo mėlyna, savaitė geltona, diena balta, 4 val. oranžinė, 1 val. pilka. Taškuota = dar neaktyvus.
+// ŽALIA linija = ten laukiamas BUY, RAUDONA = laukiamas SELL (pagal 4 val. kryptį). Artimi lygiai sujungiami.
+// Lygis „įsijungia“, kai kaina nuo jo nutolsta; kai kaina jį paliečia pirmą kartą, jis tampa „išbandytas“ ir dingsta.
+// Signalai (DMC „failure to gain / lose“):
+//   BUY  - kaina iš viršaus nusileido iki lygio, dagtis perlindo žemiau, bet žvakė UŽSIDARĖ virš lygio.
+//   SELL - kaina iš apačios pakilo iki lygio, dagtis perlindo aukščiau, bet žvakė UŽSIDARĖ žemiau lygio.
+//   (Jei žvakė užsidaro už lygio - lygis „pramuštas“, signalo nėra: kaina eis iki kito lygio, o grįžus jo patikrinti bus signalas nuo kito lygio.)
+// TP = artimiausias neišbandytas lygis signalo kryptimi (bent min. R). SL = už kito lygio už signalo lygio (DMC), arba už dagties.
+// Vienu metu vienas sandoris; uždaroma TP, SL arba 16:00 (Niujorko laiku).
+// Grafikas: NAS100 / NQ, 5 min. (įėjimams); lygiai imami iš M/W/D/4H/1H automatiškai. Pranešimai: Alert -> "DMC" -> "Any alert() function call".
+// Nepatikrinta istorijoje (backtesto nėra) - naudok demo.
+//@version=6
+indicator("DMC lygiai ir signalai", overlay = true, max_lines_count = 500, max_labels_count = 500)
+
+// ---------- Nustatymai ----------
+gL = "Lygiai"
+useM      = input.bool(true, "Mėnesio lygiai", group = gL)
+useW      = input.bool(true, "Savaitės lygiai", group = gL)
+useD      = input.bool(true, "Dienos lygiai", group = gL)
+use4      = input.bool(true, "4 val. lygiai", group = gL)
+use1      = input.bool(true, "1 val. lygiai", group = gL)
+maxPerTF  = input.int(6, "Kiek lygių laikyti kiekvienam rėmui", 2, 30, group = gL)
+armMult   = input.float(1.5, "Lygis įsijungia, kai kaina nutolsta (ATR kartai)", 0.1, 20, group = gL)
+mergeAtr  = input.float(0.5, "Sujungti artimesnius lygius nei (ATR kartai)", 0, 5, group = gL)
+lblSize   = input.string(size.normal, "Užrašų dydis", options = [size.small, size.normal, size.large], group = gL)
+
+gS = "Signalai"
+sigOn      = input.bool(true, "Rodyti BUY / SELL", group = gS)
+useSess    = input.bool(true, "Tik sesijos metu", group = gS)
+sess       = input.session("0930-1130", "Sesija (Niujorko laikas)", group = gS)
+useTrend   = input.bool(true, "Tik aukštesnio rėmo kryptimi", group = gS)
+trendTF    = input.timeframe("240", "Krypties rėmas (paskutinė užsidariusi žvakė)", group = gS)
+allowShort = input.bool(true, "Leisti SELL", group = gS)
+minRR      = input.float(1.0, "Min. pelno / rizikos santykis TP", 0.3, 10, group = gS)
+maxStopAtr = input.float(3.0, "Maks. SL atstumas (ATR kartai)", 0.5, 20, group = gS)
+fallbackRR = input.float(1.0, "Jei nėra lygio - TP = R x", 0.3, 10, group = gS)
+exitTime   = input.bool(true, "Uždaryti 16:00 (Niujorko laiku)", group = gS)
+
+TZ  = "America/New_York"
+atr = ta.atr(50)
+
+// ---------- Lygių saugykla ----------
+var lp    = array.new<float>()   // kaina
+var ltf   = array.new<int>()     // 5 mėnuo, 4 savaitė, 3 diena, 2 = 4 val., 1 = 1 val.
+var larm  = array.new<bool>()    // įsijungęs (kaina buvo nutolusi)
+var lln   = array.new<line>()
+var llb   = array.new<label>()   // užrašas prie lygio
+
+tfCol(int k) =>
+    k == 5 ? color.blue : k == 4 ? color.yellow : k == 3 ? color.white : k == 2 ? color.orange : color.gray
+
+tfName(int k) =>
+    k == 5 ? "mėnuo" : k == 4 ? "savaitė" : k == 3 ? "diena" : k == 2 ? "4 val." : "1 val."
+
+removeAt(int i) =>
+    line.delete(array.get(lln, i))
+    label.delete(array.get(llb, i))
+    array.remove(llb, i)
+    array.remove(lp, i)
+    array.remove(ltf, i)
+    array.remove(larm, i)
+    array.remove(lln, i)
+
+addLevel(float p, int k) =>
+    if not na(p) and not na(atr)
+        // persidengimai: jei šalia (< mergeAtr x ATR) jau yra lygis - paliekamas aukštesnio rėmo
+        bool skip = false
+        int n0 = array.size(lp)
+        if n0 > 0
+            for i = n0 - 1 to 0
+                if math.abs(array.get(lp, i) - p) < mergeAtr * atr
+                    if array.get(ltf, i) >= k
+                        skip := true
+                    else
+                        removeAt(i)
+        if not skip
+            // seniausią to paties rėmo lygį išmesti, jei per daug
+            int cnt = 0
+            int oldest = -1
+            int n = array.size(lp)
+            if n > 0
+                for i = 0 to n - 1
+                    if array.get(ltf, i) == k
+                        cnt += 1
+                        if oldest == -1
+                            oldest := i
+            if cnt >= maxPerTF and oldest >= 0
+                removeAt(oldest)
+            array.push(lp, p)
+            array.push(ltf, k)
+            array.push(larm, false)
+            array.push(lln, line.new(bar_index, p, bar_index + 1, p, extend = extend.right, color = tfCol(k), style = line.style_dotted, width = k >= 3 ? 2 : 1))
+            array.push(llb, label.new(bar_index + 5, p, tfName(k), style = label.style_label_lower_left, color = color.new(color.black, 100), textcolor = tfCol(k), size = lblSize))
+
+// ---------- Aukštesnių rėmų žvakės (tik užsidariusios, be ateities duomenų) ----------
+[mO, mC, mT] = request.security(syminfo.tickerid, "M",   [open[1], close[1], time[1]], lookahead = barmerge.lookahead_on)
+[wO, wC, wT] = request.security(syminfo.tickerid, "W",   [open[1], close[1], time[1]], lookahead = barmerge.lookahead_on)
+[dO, dC, dT] = request.security(syminfo.tickerid, "D",   [open[1], close[1], time[1]], lookahead = barmerge.lookahead_on)
+[hO, hC, hT] = request.security(syminfo.tickerid, "240", [open[1], close[1], time[1]], lookahead = barmerge.lookahead_on)
+[oO, oC, oT] = request.security(syminfo.tickerid, "60",  [open[1], close[1], time[1]], lookahead = barmerge.lookahead_on)
+[tO, tC]     = request.security(syminfo.tickerid, trendTF, [open[1], close[1]], lookahead = barmerge.lookahead_on)
+
+newM = ta.change(mT) != 0
+newW = ta.change(wT) != 0
+newD = ta.change(dT) != 0
+newH = ta.change(hT) != 0
+newO = ta.change(oT) != 0
+
+if useM and newM
+    addLevel(math.max(mO, mC), 5)
+    addLevel(math.min(mO, mC), 5)
+if useW and newW
+    addLevel(math.max(wO, wC), 4)
+    addLevel(math.min(wO, wC), 4)
+if useD and newD
+    addLevel(math.max(dO, dC), 3)
+    addLevel(math.min(dO, dC), 3)
+if use4 and newH
+    addLevel(math.max(hO, hC), 2)
+    addLevel(math.min(hO, hC), 2)
+if use1 and newO
+    addLevel(math.max(oO, oC), 1)
+    addLevel(math.min(oO, oC), 1)
+
+// ---------- Lygių palietimai: failure to gain / lose ----------
+int   buyK = 0
+float buyP = na
+int   sellK = 0
+float sellP = na
+var doneIdx = array.new<int>()
+array.clear(doneIdx)
+int n = array.size(lp)
+if n > 0
+    for i = 0 to n - 1
+        float p = array.get(lp, i)
+        int   k = array.get(ltf, i)
+        if array.get(larm, i)
+            bool fromAbove = close[1] > p and low <= p
+            bool fromBelow = close[1] < p and high >= p
+            if fromAbove
+                if close > p and k > buyK
+                    buyK := k
+                    buyP := p
+                array.push(doneIdx, i)
+            else if fromBelow
+                if close < p and k > sellK
+                    sellK := k
+                    sellP := p
+                array.push(doneIdx, i)
+        else if math.abs(close - p) > armMult * atr
+            array.set(larm, i, true)
+// išbandytus lygius pašalinti (nuo galo, kad nesimaišytų indeksai)
+int dn = array.size(doneIdx)
+if dn > 0
+    for j = dn - 1 to 0
+        removeAt(array.get(doneIdx, j))
+
+// artimiausias aktyvus lygis kryptimi (dir = 1 aukščiau, -1 žemiau), ne arčiau nei minDist
+nearest(float from, int dir, float minDist) =>
+    float best = na
+    int m = array.size(lp)
+    if m > 0
+        for i = 0 to m - 1
+            float p = array.get(lp, i)
+            float d = (p - from) * dir
+            if d >= minDist and (na(best) or d < (best - from) * dir)
+                best := p
+    best
+
+// ---------- Sandorio būsena ----------
+var int   tdir = 0
+var float tE = na
+var float tTP = na
+var float tSL = na
+var int   tBar = na
+var line  lnE = na
+var line  lnT = na
+var line  lnS = na
+var tradeLines = array.new<line>()
+var tradeLabels = array.new<label>()
+
+inSess  = not na(time(timeframe.period, sess, TZ))
+nyMin   = hour(time_close, TZ) * 60 + minute(time_close, TZ)
+bullTF  = tC > tO
+bearTF  = tC < tO
+
+keepLabel(label lb) =>
+    // senus sandorių užrašus trinti, kad neišstumtų lygių užrašų (limitas 500)
+    array.push(tradeLabels, lb)
+    while array.size(tradeLabels) > 300
+        label.delete(array.shift(tradeLabels))
+
+closeTrade(string why, color c) =>
+    keepLabel(label.new(bar_index, tdir > 0 ? high : low, why, style = tdir > 0 ? label.style_label_down : label.style_label_up, color = c, textcolor = color.white, size = size.small))
+    alert("DMC " + why + " " + syminfo.ticker, alert.freq_once_per_bar_close)
+
+// esamo sandorio valdymas
+if tdir != 0
+    line.set_x2(lnE, bar_index)
+    line.set_x2(lnT, bar_index)
+    line.set_x2(lnS, bar_index)
+    if bar_index > tBar
+        bool slHit = tdir > 0 ? low <= tSL : high >= tSL
+        bool tpHit = tdir > 0 ? high >= tTP : low <= tTP
+        if slHit
+            closeTrade("SL", color.red)
+            tdir := 0
+        else if tpHit
+            closeTrade("TP", color.green)
+            tdir := 0
+        else if exitTime and nyMin >= 960
+            closeTrade("16:00", color.gray)
+            tdir := 0
+
+// naujas signalas
+buySig  = false
+sellSig = false
+if sigOn and tdir == 0 and (not useSess or inSess)
+    if not na(buyP) and (not useTrend or bullTF)
+        float e = close
+        float below = nearest(buyP, -1, 0.1 * atr)
+        float sl = not na(below) and e - below <= maxStopAtr * atr ? below - 0.1 * atr : low - 0.25 * atr
+        float risk = e - sl
+        if risk > 0
+            float tp = nearest(e, 1, minRR * risk)
+            tp := na(tp) ? e + fallbackRR * risk : tp
+            buySig := true
+            tdir := 1
+            tE := e
+            tSL := sl
+            tTP := tp
+    if not buySig and allowShort and not na(sellP) and (not useTrend or bearTF)
+        float e = close
+        float above = nearest(sellP, 1, 0.1 * atr)
+        float sl = not na(above) and above - e <= maxStopAtr * atr ? above + 0.1 * atr : high + 0.25 * atr
+        float risk = sl - e
+        if risk > 0
+            float tp = nearest(e, -1, minRR * risk)
+            tp := na(tp) ? e - fallbackRR * risk : tp
+            sellSig := true
+            tdir := -1
+            tE := e
+            tSL := sl
+            tTP := tp
+    if buySig or sellSig
+        tBar := bar_index
+        lnE := line.new(bar_index, tE, bar_index + 1, tE, color = color.new(color.white, 30), style = line.style_dotted, width = 1)
+        lnT := line.new(bar_index, tTP, bar_index + 1, tTP, color = color.green, width = 2)
+        lnS := line.new(bar_index, tSL, bar_index + 1, tSL, color = color.red, width = 2)
+        // senų sandorių linijas trinti, kad neišstumtų lygių linijų (limitas 500)
+        array.push(tradeLines, lnE)
+        array.push(tradeLines, lnT)
+        array.push(tradeLines, lnS)
+        while array.size(tradeLines) > 300
+            line.delete(array.shift(tradeLines))
+        string txt = (buySig ? "BUY " : "SELL ") + str.tostring(tE, format.mintick) + "\nTP " + str.tostring(tTP, format.mintick) + "\nSL " + str.tostring(tSL, format.mintick)
+        keepLabel(label.new(bar_index, buySig ? low : high, txt, style = buySig ? label.style_label_up : label.style_label_down, color = buySig ? color.green : color.red, textcolor = color.white, size = size.small))
+        alert("DMC " + txt, alert.freq_once_per_bar_close)
+
+// ---------- Užrašai prie lygių ir užuominų lentelė (tik paskutinėje žvakėje) ----------
+// artimiausio ĮSIJUNGUSIO lygio indeksas kryptimi (dir = 1 aukščiau, -1 žemiau)
+nearestArmed(float from, int dir) =>
+    int bi = -1
+    int m = array.size(lp)
+    if m > 0
+        for i = 0 to m - 1
+            float d = (array.get(lp, i) - from) * dir
+            if array.get(larm, i) and d > 0 and (bi == -1 or d < (array.get(lp, bi) - from) * dir)
+                bi := i
+    bi
+
+var table hint = table.new(position.top_right, 1, 1, bgcolor = color.new(color.black, 40), border_width = 0)
+if barstate.islast
+    // spalvos: įsijungęs lygis, kur laukiamas pirkimas - žalias, pardavimas - raudonas; neįsijungęs - taškuotas rėmo spalvos
+    bool wantBuy  = tdir == 0 and (not useTrend or bullTF)
+    bool wantSell = tdir == 0 and (not useTrend or bearTF) and allowShort
+    int m = array.size(llb)
+    if m > 0
+        for i = 0 to m - 1
+            float p  = array.get(lp, i)
+            int   k  = array.get(ltf, i)
+            bool  ar = array.get(larm, i)
+            bool isBuy  = ar and wantBuy and p < close
+            bool isSell = ar and wantSell and p > close
+            // eilė: kelintas lygis nuo kainos (1 = pirmas, kurį kaina pasieks)
+            int rank = 1
+            if isBuy or isSell
+                for j = 0 to m - 1
+                    float q = array.get(lp, j)
+                    if j != i and array.get(larm, j) and (isBuy ? (q < close and q > p) : (q > close and q < p))
+                        rank += 1
+            color base = isBuy ? color.lime : isSell ? color.red : tfCol(k)
+            color c = (isBuy or isSell) and rank > 1 ? color.new(base, 55) : base
+            line ln = array.get(lln, i)
+            label lb = array.get(llb, i)
+            line.set_color(ln, c)
+            line.set_style(ln, ar ? line.style_solid : line.style_dotted)
+            line.set_width(ln, (isBuy or isSell) and rank == 1 ? 3 : k >= 3 ? 2 : 1)
+            label.set_x(lb, bar_index + 5)
+            label.set_textcolor(lb, c)
+            string act = isBuy ? "BUY" : "SELL"
+            string txt = tfName(k)
+            if isBuy or isSell
+                txt := rank == 1 ? txt + " · 1-AS: čia laukiam " + act : txt + " · " + str.tostring(rank) + "-as: " + act + " tik jei ankstesni pramušti"
+            else if not ar
+                txt := txt + " (dar neaktyvus)"
+            label.set_text(lb, txt)
+    int up = nearestArmed(close, 1)
+    int dw = nearestArmed(close, -1)
+    string upTxt = up >= 0 ? str.tostring(array.get(lp, up), format.mintick) + " (" + tfName(array.get(ltf, up)) + ")" : "nėra"
+    string dwTxt = dw >= 0 ? str.tostring(array.get(lp, dw), format.mintick) + " (" + tfName(array.get(ltf, dw)) + ")" : "nėra"
+    string bias = not useTrend ? "abi kryptys" : bullTF ? "PIRKIMAS ▲" : bearTF ? "PARDAVIMAS ▼" : "neaišku"
+    color biasC = not useTrend ? color.gray : bullTF ? color.green : bearTF ? color.red : color.gray
+    string wait = ""
+    if tdir != 0
+        wait := (tdir > 0 ? "BUY " : "SELL ") + "atidarytas: TP " + str.tostring(tTP, format.mintick) + ", SL " + str.tostring(tSL, format.mintick)
+    else if not useTrend or bullTF
+        wait := "Kaina nusileidžia iki " + dwTxt + ", dagtis žemiau, uždarymas VIRŠ → BUY"
+    else if bearTF
+        wait := "Kaina pakyla iki " + upTxt + ", dagtis aukščiau, uždarymas ŽEMIAU → SELL"
+    else
+        wait := "Laukti aiškesnės 4 val. žvakės"
+    string st = not useSess ? "Sesija: visą laiką" : inSess ? "Sesija ATIDARYTA" : "Sesija uždaryta (" + sess + " NY)"
+    table.cell(hint, 0, 0, st, text_color = inSess or not useSess ? color.lime : color.gray, text_size = size.tiny)
+
+alertcondition(buySig, "DMC BUY", "DMC BUY {{ticker}} {{close}}")
+alertcondition(sellSig, "DMC SELL", "DMC SELL {{ticker}} {{close}}")

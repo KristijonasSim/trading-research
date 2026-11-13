@@ -1,0 +1,89 @@
+// DMC lygiai: neišbandyti mėnesio / savaitės / dienos žvakių KŪNŲ kraštai. Be užrašų ir signalų.
+// Spalvos: mėnuo mėlyna, savaitė geltona, diena balta. Kai kaina lygį paliečia - jis dingsta.
+//@version=6
+indicator("DMC lygiai (M/W/D)", overlay = true, max_lines_count = 500)
+
+useM     = input.bool(true, "Mėnesio lygiai")
+useW     = input.bool(true, "Savaitės lygiai")
+useD     = input.bool(true, "Dienos lygiai")
+maxPerTF = input.int(6, "Kiek lygių laikyti kiekvienam rėmui", 1, 30)
+mergeAtr = input.float(0.5, "Sujungti artimesnius lygius nei (ATR kartai)", 0, 5)
+keepTested = input.bool(false, "Palikti paliestus lygius")
+colM = input.color(color.blue, "Mėnesio spalva")
+colW = input.color(color.yellow, "Savaitės spalva")
+colD = input.color(color.white, "Dienos spalva")
+
+atr = ta.atr(50)
+
+var lp  = array.new<float>()
+var ltf = array.new<int>()     // 3 mėnuo, 2 savaitė, 1 diena
+var lln = array.new<line>()
+var larm = array.new<bool>()   // kaina jau buvo nutolusi nuo lygio
+
+tfCol(int k) =>
+    k == 3 ? colM : k == 2 ? colW : colD
+
+removeAt(int i) =>
+    line.delete(array.get(lln, i))
+    array.remove(lp, i)
+    array.remove(ltf, i)
+    array.remove(lln, i)
+    array.remove(larm, i)
+
+addLevel(float p, int k) =>
+    if not na(p) and not na(atr)
+        bool skip = false
+        int n0 = array.size(lp)
+        if n0 > 0
+            for i = n0 - 1 to 0
+                if math.abs(array.get(lp, i) - p) < mergeAtr * atr
+                    if array.get(ltf, i) >= k
+                        skip := true
+                    else
+                        removeAt(i)
+        if not skip
+            int cnt = 0
+            int oldest = -1
+            int n = array.size(lp)
+            if n > 0
+                for i = 0 to n - 1
+                    if array.get(ltf, i) == k
+                        cnt += 1
+                        if oldest == -1
+                            oldest := i
+            if cnt >= maxPerTF and oldest >= 0
+                removeAt(oldest)
+            array.push(lp, p)
+            array.push(ltf, k)
+            array.push(larm, false)
+            array.push(lln, line.new(bar_index, p, bar_index + 1, p, extend = extend.right, color = tfCol(k), width = k == 3 ? 3 : 2))
+
+// tik užsidariusios žvakės (be ateities duomenų)
+[mO, mC, mT] = request.security(syminfo.tickerid, "M", [open[1], close[1], time[1]], lookahead = barmerge.lookahead_on)
+[wO, wC, wT] = request.security(syminfo.tickerid, "W", [open[1], close[1], time[1]], lookahead = barmerge.lookahead_on)
+[dO, dC, dT] = request.security(syminfo.tickerid, "D", [open[1], close[1], time[1]], lookahead = barmerge.lookahead_on)
+newM = ta.change(mT) != 0
+newW = ta.change(wT) != 0
+newD = ta.change(dT) != 0
+
+if useM and newM
+    addLevel(math.max(mO, mC), 3)
+    addLevel(math.min(mO, mC), 3)
+if useW and newW
+    addLevel(math.max(wO, wC), 2)
+    addLevel(math.min(wO, wC), 2)
+if useD and newD
+    addLevel(math.max(dO, dC), 1)
+    addLevel(math.min(dO, dC), 1)
+
+// paliestus lygius pašalinti: lygis „įsijungia“, kai kaina nuo jo nutolsta, ir dingsta, kai kaina grįžta jo paliesti
+if not keepTested
+    int n = array.size(lp)
+    if n > 0
+        for i = n - 1 to 0
+            float p = array.get(lp, i)
+            if array.get(larm, i)
+                if low <= p and high >= p
+                    removeAt(i)
+            else if math.abs(close - p) > 1.5 * atr
+                array.set(larm, i, true)
