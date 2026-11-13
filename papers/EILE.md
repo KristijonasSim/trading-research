@@ -40,3 +40,4 @@ Kripto duomenys: Binance (spot/futures, 1h/1d, visos USDT poros su istorija). Ak
 | 33 | BTC ↔ altcoin'ų rotacija (Altcoin Season Index, dvigubas momentum) | kripto | ❌ atmesta (2021–26 visi −6…−24 %/m.) → `33_altseason/REZULTATAI.md` |
 | 34 | Volatilumu valdomas kripto laikymas (Moreira, Muir metodas), BTC/ETH | kripto | ❌ atmesta (su trendo filtru ≤ +13 %/m., kritimas 36 %) → `34_crypto_volmanaged/REZULTATAI.md` |
 | 35 | Noise Breakout (Zarattini ir kt. 2024) ant BTC/ETH 1h | kripto | ❌ atmesta (visi variantai minuse) → `35_noise_crypto/REZULTATAI.md` |
+| 36 | Kripto laiko eilučių momentum 1–4 sav. (Liu, Tsyvinski 2021 RFS) | kripto | ❌ atmesta (1 sav. 2021–26 −7…−21 %/m.; 8 sav. +15 % su 53 % kritimu) → `36_tsmom_crypto/REZULTATAI.md` |
