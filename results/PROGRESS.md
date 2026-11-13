@@ -219,3 +219,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - #33 BTC/altų rotacija ❌ → `papers/33_altseason/`.
 - FundingContrarian freqtrade: +26,5 %/m., kritimas 21,9 %, lookahead 0/20 signalų; +1 d. vėlavimas → +15,6 %. 2025–26 silpsta.
 - 2026-11-13 22:50 – EMAPriceCrossoverWithTreshold (batchM24, BTC+ETH 1h) išlaikė visas patikras: 2022–26 +21,4 %/m. (kritimas 23,9 %), 2018–21 +89,8 %/m. (13,2 %), lookahead 0/20 → ATRINKTI_BOTAI.md nr. 7.
+- 2026-11-13 22:42 – laiškas apie EMAPriceCrossoverWithTreshold išsiųstas (vienas kartas).
