@@ -234,3 +234,5 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - #36 Kripto TSMOM savaitės ❌ → `papers/36_tsmom_crypto/`.
 - #37 TTM / Bollinger squeeze ❌ → `papers/37_squeeze/`.
 - #38 UT Bot/WaveTrend/SSL/QQE ❌ → `papers/38_tv_popular/`.
+- #39 S&P 500 savaitinis atšokimas ❌ → `papers/39_st_reversal/`.
+- 2026 m. (iki 11-08) 1m detalumas (none → 1m): EI3v2 +9,6 → +8,3 %; NASOSv5_mod3 +4,9 → +5,0 %; abbas −0,6 → −1,0 %; NASMAO −0,3 → −0,3 %. Laikymas 2026: alts10 −28 %, BTC+ETH −19 %.

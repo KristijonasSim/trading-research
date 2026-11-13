@@ -43,3 +43,4 @@ Kripto duomenys: Binance (spot/futures, 1h/1d, visos USDT poros su istorija). Ak
 | 36 | Kripto laiko eilučių momentum 1–4 sav. (Liu, Tsyvinski 2021 RFS) | kripto | ❌ atmesta (1 sav. 2021–26 −7…−21 %/m.; 8 sav. +15 % su 53 % kritimu) → `36_tsmom_crypto/REZULTATAI.md` |
 | 37 | TTM Squeeze (Carter) ir Bollinger Squeeze, kripto 1d | kripto | ❌ atmesta (originalas +3 %/m.; geriausias parametras +14,6 %, tipiškai ~9 %) → `37_squeeze/REZULTATAI.md` |
 | 38 | TradingView populiarieji: UT Bot, WaveTrend, SSL Channel, QQE (kripto 1d) | kripto | ❌ atmesta (2021–26 −5…+8 %/m., kritimai 37–67 %) → `38_tv_popular/REZULTATAI.md` |
+| 39 | Savaitinis trumpalaikis atšokimas S&P 500 (Lehmann 1990, Jegadeesh 1990) | akcijos | ❌ atmesta (2014–26 ≤ +10,5 %/m. < SPY 13,5 %) → `39_st_reversal/REZULTATAI.md` |
