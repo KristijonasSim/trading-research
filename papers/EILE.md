@@ -19,7 +19,7 @@ Kripto duomenys: Binance (spot/futures, 1h/1d, visos USDT poros su istorija). Ak
 | 12 | 52 savaičių maksimumo momentum S&P 500 (George, Hwang 2004) | akcijos | ❌ atmesta (long +10,5 %/m. < lygiavertis 12,4 %, long-short minuse) → `12_52wh/REZULTATAI.md` |
 | 13 | Volatilumu valdomas portfelis SPY/QQQ (Moreira, Muir 2017) | ETF | ⚠️ rizikos mažinimas: QQQ 2016–26 +17,7 %/m., kritimas 21 % (laikymas +19,1 %, 35 %) → `13_volmanaged/REZULTATAI.md` |
 | 14 | Akcijų kalendorinio mėnesio sezoniškumas S&P 500 (Heston, Sadka 2008) | akcijos | ❌ atmesta (2014–26 long +10,3 %/m., long-short −3,3 %) → `14_seasonality/REZULTATAI.md` |
-| 15 | Kripto žemo volatilumo anomalija (Burggraf, Rudolf 2021) | kripto | vyksta: long-short 2022–26 +85 %/m. (spot), tikrinama su perp ir funding |
-| 16 | Kripto MAX / loterijos efektas (Li ir kt. 2021) | kripto | vyksta kartu su 15 (long-short 2022–26 +72 %/m., 2018–21 −13 %) |
+| 15 | Kripto žemo volatilumo anomalija (Burggraf, Rudolf 2021) | kripto | ❌ atmesta (spot teoriškai +85 %/m., su perp ir funding −8,5 %/m.) → `15_kripto_lowvol/REZULTATAI.md` |
+| 16 | Kripto MAX / loterijos efektas (Li ir kt. 2021) | kripto | ❌ atmesta kartu su 15 (2018–21 −13 %/m., short neįgyvendinamas) |
 | 17 | Liekamasis momentum S&P 500 (Blitz, Huij, Martens 2011) | akcijos | ❌ atmesta (2014–26 +13,8 %/m. = SPY, kritimas 39 %) → `17_resmom/REZULTATAI.md` |
 | 18 | Jesse klasika: Turtle, Dual Thrust (kripto, 1d) | kripto | ⚠️ Dual Thrust BTC+ETH +11,9 %/m., kritimas 11 %, kasmet pliuse; Turtle +14 %/m., kritimas 30 % → `18_turtle/REZULTATAI.md` |
