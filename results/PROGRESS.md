@@ -228,3 +228,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 4 dry-run botai (Aberration, DualThrust, EMA800, FundingContrarian) Docker'yje, `freqtrade/dryrun/README.md`. Funding botas iškart atidarė ETH long.
 - 2026-11-14 02:20 – abbas, NASMAO, SMAO išlaikė ir 1 min. detalumą (2020) bei 2018 m. top 9 (+51/+28,5/+65 %/m.) → ATRINKTI_BOTAI.md nr. 8–10. ERMD_Strategy_risk atmesta (su 5 min. detalumu 2023–24 +222 % → +8,6 %). queue6 paleista.
 - 2026-11-14 – laiškas apie abbas, NASMAO, SMAO išsiųstas (vienas kartas).
+- 2026-11-14 – dry-run papildytas NASOSv5_mod3 ir EI3v2 (alts10 spot); kodas patikrintas (jokių os/subprocess/eval).

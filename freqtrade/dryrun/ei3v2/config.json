@@ -1,0 +1,50 @@
+{
+ "trading_mode": "spot",
+ "margin_mode": "",
+ "max_open_trades": 10,
+ "stake_currency": "USDT",
+ "stake_amount": "unlimited",
+ "tradable_balance_ratio": 0.99,
+ "dry_run": true,
+ "dry_run_wallet": 1000,
+ "fee": 0.001,
+ "entry_pricing": {
+  "price_side": "same",
+  "use_order_book": false,
+  "price_last_balance": 0.0
+ },
+ "exit_pricing": {
+  "price_side": "same",
+  "use_order_book": false
+ },
+ "exchange": {
+  "name": "binance",
+  "key": "",
+  "secret": "",
+  "pair_whitelist": [
+   "XRP/USDT",
+   "BNB/USDT",
+   "SOL/USDT",
+   "DOGE/USDT",
+   "ADA/USDT",
+   "TRX/USDT",
+   "LINK/USDT",
+   "AVAX/USDT",
+   "LTC/USDT",
+   "DOT/USDT"
+  ],
+  "pair_blacklist": []
+ },
+ "pairlists": [
+  {
+   "method": "StaticPairList"
+  }
+ ],
+ "bot_name": "dry_ei3v2",
+ "initial_state": "running",
+ "internals": {
+  "process_throttle_secs": 5
+ },
+ "strategy": "EI3v2_tag_cofi_green",
+ "db_url": "sqlite:////freqtrade/user_data/tradesv3.dryrun.sqlite"
+}
