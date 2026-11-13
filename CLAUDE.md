@@ -77,6 +77,8 @@ Komandos (paleisti iš `freqtrade/`):
 
 - 2026-11-12/13: 10 Instagram įrašų patikrinta, vienintelis vertas – **CE 50% Model** (NQ) → `tradingview/ce50/REZULTATAI.md`, indikatorius `tradingview/CE50_NAS100_indikatorius.pine`. batchM10–M13 baigtos, tinkamų nėra. 89 naujos strategijos (`freqtrade/sources_more3`, partijos dar nesukurtos) laukia leidimo. Ataskaita: `results/ATASKAITA_2026-11-13.md`.
 
+- 2026-11-13: svertas su 2020–21 (`freqtrade/results/lev3/`): EI3v2 3x ir NASOSv5 5x neatlaiko; EI3v2 1x/2x saugu, 2,4x riba. Aprašas GitHub: `best_strategies/EI3v2/README.md`.
+
 ## Dar nepradėta
 Aplankai `ib_async/`, `vectorbt/`, `backtesting-py/` tušti.
 

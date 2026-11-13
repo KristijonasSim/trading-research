@@ -76,3 +76,8 @@ kronos/src/
 dmc/*.parquet
 dmc/trades_*.csv
 quantpedia/data/
+
+# 2026-11-13: Dukascopy 5m (atkuriama: tradfi5m/fetch.py, convert.py)
+tradfi5m/raw/
+tradfi5m/ft_*/
+tradfi5m/fetch.log

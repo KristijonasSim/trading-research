@@ -6,6 +6,7 @@ Testavimo sąlygos visiems: 2021-11-08 – 2026-11-08, Binance, 0,1 % mokestis, 
 Palyginimui: altcoin'ų „pirkti ir laikyti“ per tą patį laiką 1000 → 620 (−9 %/m.), BTC+ETH 1000 → ~800.
 
 ## 1. EI3v2_tag_cofi_green (Freqtrade, kripto)
+- **Atskiras aprašas su svertu ir metų rezultatais: `EI3v2/README.md`.** Su 2020–21: 1x +81 %/m. (kritimas 17 %), 2x +210 % (49 %), 2,4x riba.
 - Failas: `EI3v2_tag_cofi_green.py`. Šaltinis: keithorange/HUGE_FreqTrade_Strategy_Collection.
 - Rinka: top 10 altcoin'ų (XRP, BNB, SOL, DOGE, ADA, TRX, LINK, AVAX, LTC, DOT), spot, 5m žvakės.
 - Kas tai: perka kritimus (EWO, RSI, MA nuokrypiai) su BTC trendo ir „pump/dump“ filtrais. Išeina trailing stop'u; nuostolingas pozicijas po kurio laiko uždaro „unclog“ taisyklė.

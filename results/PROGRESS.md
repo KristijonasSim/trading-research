@@ -164,3 +164,5 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 2026-11-13: Quantpedia 10 strategijų (kalendoriaus efektai, SPY/TLT, nafta, trendas 8 ETF, BTC valandos, BTC/ETH perbalansavimas): nė viena nelenkia SPY 2016–26 → `quantpedia/REZULTATAI.md`
 - 2026-11-13: sources_more3 89 strategijos → batchM14 (50), batchM15 (39), paleista `freqtrade/queue3.sh` (Docker be interneto)
 - 2026-11-13: batchM14–M15 baigtos (178 testai): tinkamų nėra; IchiV1_Optimizable (+776 %/m.) atmesta – lookahead bias (`results/validation/IchiV1_Optimizable_batchM14.log`). Visa eilė → `results/EIGA.md`
+- 2026-11-13: svertas su 2020–21: EI3v2 3x kritimas 94 %, NASOSv5 5x bankrotas 2021; saugu tik 1x (EI3v2 +81 %/m., kritimas 17 %; NASOSv5 +37 %/m., 30 %), EI3v2 2x ant ribos (49 %). Auksas/NAS100/S&P – neveikia → `freqtrade/results/lev3/REZULTATAI.md`
+- 2026-11-13: EI3v2 2,2x/2,4x/2,5x (alts10 2020–26): 2,4x +267 %/m., kritimas 49,6 %; 2,5x jau 60 % → riba
