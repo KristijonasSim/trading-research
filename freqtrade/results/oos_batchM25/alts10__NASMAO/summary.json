@@ -1,0 +1,23 @@
+{
+  "strategy": "NASMAO",
+  "mode": "spot",
+  "group": "alts10",
+  "timeframe": "5m",
+  "style": "day trading",
+  "avg_trade_hours": 6.4,
+  "trades": 1391,
+  "trades_per_year": 361.1,
+  "total_return_pct": 278.5,
+  "cagr_pct": 41.3,
+  "yearly_pct": {
+    "2018": 12.8,
+    "2019": 3.7,
+    "2020": 39.5,
+    "2021": 132.0
+  },
+  "max_drawdown_pct": 15.1,
+  "win_rate_pct": 48.6,
+  "profit_factor": 1.48,
+  "market_change_pct": 3171.7,
+  "timerange": "20180101-20211108"
+}

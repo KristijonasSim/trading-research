@@ -1,0 +1,23 @@
+{
+  "strategy": "SMAO",
+  "mode": "spot",
+  "group": "alts10",
+  "timeframe": "5m",
+  "style": "day trading",
+  "avg_trade_hours": 5.0,
+  "trades": 2828,
+  "trades_per_year": 734.1,
+  "total_return_pct": 1337.9,
+  "cagr_pct": 99.8,
+  "yearly_pct": {
+    "2018": 37.5,
+    "2019": 29.8,
+    "2020": 70.4,
+    "2021": 372.9
+  },
+  "max_drawdown_pct": 36.2,
+  "win_rate_pct": 68.7,
+  "profit_factor": 1.5,
+  "market_change_pct": 3171.7,
+  "timerange": "20180101-20211108"
+}

@@ -1,0 +1,23 @@
+{
+  "strategy": "EMAPriceCrossoverWithTreshold",
+  "mode": "spot",
+  "group": "alts10",
+  "timeframe": "1h",
+  "style": "swing",
+  "avg_trade_hours": 72.4,
+  "trades": 1008,
+  "trades_per_year": 261.7,
+  "total_return_pct": 286.0,
+  "cagr_pct": 42.0,
+  "yearly_pct": {
+    "2018": -12.2,
+    "2019": -1.0,
+    "2020": 73.4,
+    "2021": 156.0
+  },
+  "max_drawdown_pct": 23.5,
+  "win_rate_pct": 17.8,
+  "profit_factor": 1.7,
+  "market_change_pct": 3295.6,
+  "timerange": "20180101-20211108"
+}

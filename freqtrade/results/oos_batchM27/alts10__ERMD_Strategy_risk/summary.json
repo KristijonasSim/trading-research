@@ -1,0 +1,23 @@
+{
+  "strategy": "ERMD_Strategy_risk",
+  "mode": "spot",
+  "group": "alts10",
+  "timeframe": "1d",
+  "style": "swing",
+  "avg_trade_hours": 74.5,
+  "trades": 841,
+  "trades_per_year": 218.3,
+  "total_return_pct": 316.4,
+  "cagr_pct": 44.8,
+  "yearly_pct": {
+    "2018": -3.1,
+    "2019": 34.2,
+    "2020": 69.2,
+    "2021": 89.2
+  },
+  "max_drawdown_pct": 13.2,
+  "win_rate_pct": 55.4,
+  "profit_factor": 1.63,
+  "market_change_pct": 3320.6,
+  "timerange": "20180101-20211108"
+}
