@@ -209,3 +209,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 ## 2026-11-13 – straipsniai 25–26
 - #25 Connors RSI(2)/ConnorsRSI kripto 1d ❌ (BTC+ETH ≤ +11,7 %/m., 2018–21 ~0; alts10 po 2021 ~0) → `papers/25_connors/`.
 - #26 Dienos vidaus momentum kripto 1h ❌ (koreliacija 0,11, bet mokesčiai suvalgo) → `papers/26_intraday_mom/`.
+- #27 KAMA/Supertrend/HMA/Chandelier kripto 1d ❌ → `papers/27_trend3/`.
