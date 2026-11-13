@@ -54,3 +54,4 @@ Kripto duomenys: Binance (spot/futures, 1h/1d, visos USDT poros su istorija). Ak
 | 47 | Artumas metų maksimumui kripto skerspjūvyje (George, Hwang metodas) | kripto | ❌ atmesta (2021–26 −48 %/m.; long-short +2 %) → `47_52wh_crypto/REZULTATAI.md` |
 | 48 | Crypto Fear & Greed indeksas: kontrarinis ir trendo (FGI > 60) | kripto | ⚠️ kontrarinis ❌; trendas BTC+ETH +24,5 %/m., kritimas 28 %, zona +12…+25 → `48_fear_greed/REZULTATAI.md` |
 | 49 | Hash Ribbons (C. Edwards 2019), BTC | kripto | ❌ atmesta (2021–26 +4…+10 %/m., kritimai 48–74 %) → `49_hash_ribbons/REZULTATAI.md` |
+| 50 | Connors RSI(2) ant SPY/QQQ/IWM ir 3x ETF | ETF | ❌ atmesta (1x +2…+6 %/m.; 3x ≤ +14 %, 2010–15 +5 %) → `50_connors_etf/REZULTATAI.md` |

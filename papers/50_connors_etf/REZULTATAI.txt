@@ -1,0 +1,12 @@
+SPY laikyti: 2005–15 +7.5%/m. DD -55% | 2016–26 +14.6%/m. DD -34%
+  RSI2<5 MOC: 2005–15 +1.7%/m. DD -14% | 2016–26 +4.5%/m. DD -8% || atidarymu: 2016–26 +4.1%/m. DD -9% | rinkoje 6%
+  RSI2<10 MOC: 2005–15 +2.7%/m. DD -15% | 2016–26 +6.1%/m. DD -9% || atidarymu: 2016–26 +4.7%/m. DD -10% | rinkoje 11%
+  kaup.RSI2<35 MOC: 2005–15 +3.0%/m. DD -14% | 2016–26 +4.9%/m. DD -8% || atidarymu: 2016–26 +5.2%/m. DD -9% | rinkoje 12%
+QQQ laikyti: 2005–15 +10.5%/m. DD -53% | 2016–26 +18.9%/m. DD -35%
+  RSI2<5 MOC: 2005–15 +1.9%/m. DD -12% | 2016–26 +4.7%/m. DD -7% || atidarymu: 2016–26 +4.5%/m. DD -8% | rinkoje 6%
+  RSI2<10 MOC: 2005–15 +2.7%/m. DD -14% | 2016–26 +5.4%/m. DD -9% || atidarymu: 2016–26 +4.0%/m. DD -9% | rinkoje 13%
+  kaup.RSI2<35 MOC: 2005–15 +3.6%/m. DD -14% | 2016–26 +4.4%/m. DD -11% || atidarymu: 2016–26 +4.1%/m. DD -11% | rinkoje 13%
+IWM laikyti: 2005–15 +7.9%/m. DD -59% | 2016–26 +10.2%/m. DD -41%
+  RSI2<5 MOC: 2005–15 +1.5%/m. DD -19% | 2016–26 +3.6%/m. DD -14% || atidarymu: 2016–26 +3.4%/m. DD -13% | rinkoje 6%
+  RSI2<10 MOC: 2005–15 +3.0%/m. DD -19% | 2016–26 +2.2%/m. DD -18% || atidarymu: 2016–26 +3.6%/m. DD -17% | rinkoje 11%
+  kaup.RSI2<35 MOC: 2005–15 +3.0%/m. DD -19% | 2016–26 +2.3%/m. DD -17% || atidarymu: 2016–26 +2.9%/m. DD -14% | rinkoje 14%
