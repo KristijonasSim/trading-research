@@ -176,3 +176,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 2026-11-13: straipsnis 10 (kripto valandų/dienų sezoniškumas, walk-forward, 8 monetos) atmestas: valandų efektas +1–2 bp/val., mokesčiai 20 bp suvalgo; dienų versija nelenkia laikymo → `papers/10_sezoniskumas/REZULTATAI.md`
 - 2026-11-13: straipsnis 7 (žemas volatilumas / BAB, S&P 500 su istorine sudėtimi) atmestas: 2014–26 +10,8 %/m. vs SPY +13,5 %, kritimas toks pat (35 %); BAB +2,5 %/m.; realūs USMV/SPLV patvirtina → `papers/07_lowvol/REZULTATAI.md`
 - 2026-11-13: straipsnis 9 (kripto porų prekyba, kointegracija/atstumas, 1h ir 5m) atmestas: nuostolinga net be mokesčių (−1…−17 %/m.), su 0,1 % −15…−91 %/m. → `papers/09_poros/REZULTATAI.md`
+- 2026-11-13: straipsnis 8 (PEAD, S&P 500, 35,9 tūkst. Yahoo anonsų 2002–26) atmestas: long top 20 % +12,2 %/m. = lygiavertis krepšelis (+12,4 %), long-short +1,7 %/m. → `papers/08_pead/REZULTATAI.md`
