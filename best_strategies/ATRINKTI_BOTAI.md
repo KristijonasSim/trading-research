@@ -98,7 +98,7 @@ Patikros:
 | Ichimoku_v16 | BTC+ETH spot, 1d | 22,4 | 29 % (balanso 44 %) | tik ~6 sandoriai/m., 2025 +98 % sudaro didžiąją pelno dalį. Švari, 2018–21 +91 %/m., bet 2018 −33 %. `Ichimoku_v16_1d.py` |
 | Ichimoku_v5 | alts10 spot, 4h | 17,1 | 20 % (balanso 32 %) | 2022 −16 %, 2025 −14 %, 2024 +110 % (pelnas bangomis), ~97 sandoriai/m. Švari, 5m detalumas tas pats, 2018–21 +105 %/m. (2018 −7,5 %). `Ichimoku_v5.py` |
 | Ichimoku_v8 | BTC+ETH spot, 4h | 15,1 | 30 % (balanso 40 %) | 2022 −9 %, 2023 −15 %, 2018 −45 %. Švari, 2018–21 +63 %/m. `Ichimoku_v8.py` |
-| Dual Thrust (n=4, k=0,7) | BTC+ETH spot, 1d (įėjimas dienos viduje) | 11,9 (perp 0,05 %: 13,8) | 11 % | Žemiau 14 %; bet kasmet pliuse 2018–2026 (perp 2020–26 taip pat), 2018–21 +30 %/m., 5m vykdymas patvirtina. Jautrus mokesčiui (0,15 % → 7,5 %/m.). `papers/18_turtle/` |
+| Dual Thrust (n=4, k=0,7) | BTC+ETH spot, 1d (įėjimas dienos viduje) | 11,9 (perp 0,05 %: 13,8) | 11 % | Žemiau 14 %; bet kasmet pliuse 2018–2026 (perp 2020–26 taip pat). Freqtrade versija `freqtrade/user_data/strategies/papers/DualThrust.py`: +11,7 %/m., kritimas 11,5 %, lookahead 0/20, 2018–21 +30 %/m., 5m vykdymas patvirtina. Jautrus mokesčiui (0,15 % → 7,5 %/m.). `papers/18_turtle/` |
 | R-Breaker (tik trendas, long) | BTC+ETH perp, 1h | 15,2 (0,05 %) / 10,5 (0,1 %) | 13 % | Ta pati idėja kaip Dual Thrust (koreliacija 0,76), 2018–21 +38,5 %/m. (kritimas 9 %). Funding neįskaičiuotas. `papers/20_rbreaker/` |
 | Aberration (SMA35 ± 2σ) | BTC+ETH spot, 1d | 17,8 | 27 % | 2022 −15 %, pelnas bangomis (2023 +63 %); 2018–21 +88 %/m. (kritimas 34 %). `papers/21_pruitt/` |
 | Turtle S2 (55/20) | BTC+ETH spot, 1d | 14,5 | 30 % | 2022 −18 %, 2018–21 +74 %/m. (kritimas 49 %). `papers/18_turtle/` |
