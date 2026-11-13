@@ -83,6 +83,8 @@ Komandos (paleisti iš `freqtrade/`):
 
 - 2026-11-13 (antras kompiuteris): straipsniai 6–22 `papers/` (dauguma atmesti). **Aberration atrinkta** (nr. 6, BTC+ETH 1d +18,4 %/m., kritimas 28 %). Dual Thrust (BTC+ETH, kasdienis pramušimas, +11,7 %/m., kritimas 11 %, kasmet pliuse) ir R-Breaker – potencialių sąraše; freqtrade versijos `freqtrade/user_data/strategies/papers/`. NASOSv5_mod3 ir MACDV išlaikė detalumo patikrą. Passivbot nepaleistas (reikia leidimo kompiliuoti išorinį kodą).
 
+- 2026-11-13 naktis (antras kompiuteris): straipsniai 25–33 (Connors, dienos vidaus momentum, KAMA/Supertrend/HMA, mėnesio sandūra, Crabel NR4/7, nakties grąžos, CME gap, BTC/altų rotacija) atmesti. **Funding kontrarinis** (BTC+ETH perp, long kai funding žemiau neutralaus) +26,5 %/m., kritimas 22 % – rizikingų sąraše (alts neveikia, 2025–26 silpsta), `FundingContrarian.py`. 1m detalumas: ckNSJT išlaiko, EI3v2 −¼ (~21 %/m.), E0V1E_DCA3 −⅓ (~12 %/m.).
+
 ## Dar nepradėta
 Aplankai `ib_async/`, `vectorbt/`, `backtesting-py/` tušti.
 

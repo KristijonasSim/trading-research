@@ -78,3 +78,5 @@ Atmesta: nakties dėžės pusė, Kronos (nepaleistas, laukia vartotojo), day-tra
 - Atmesta (po paskelbimo pranašumo nėra): TSMOM ETF, žemas vol / BAB, PEAD, kripto porų prekyba, kripto valandų sezoniškumas, pre-FOMC, 52 sav. maksimumas, mėnesio sezoniškumas, liekamasis momentum, kripto žemas vol / MAX (funding suvalgo), Larry Williams VB, paprasti trendo filtrai.
 - **Aberration atrinkta** (BTC+ETH 1d): +18,4 %/m., kritimas 28 %, 2018–21 +88 %/m.
 - Potencialūs: Dual Thrust BTC+ETH (+11,7 %/m., kritimas 11 %, kasmet pliuse 2018–26; perp 0,05 % +13,8 %), R-Breaker (+15,2 % su 0,05 %), Turtle (+14 %, kritimas 30 %), volatilumu valdomas QQQ (kritimas 21 % vietoj 35 %).
+
+- 2026-11-13 naktis (antras kompiuteris): straipsniai 25–33 (Connors, dienos vidaus momentum, KAMA/Supertrend/HMA, mėnesio sandūra, Crabel NR4/7, nakties grąžos, CME gap, BTC/altų rotacija) atmesti. **Funding kontrarinis** (BTC+ETH perp, long kai funding žemiau neutralaus) +26,5 %/m., kritimas 22 % – rizikingų sąraše (alts neveikia, 2025–26 silpsta), `FundingContrarian.py`. 1m detalumas: ckNSJT išlaiko, EI3v2 −¼ (~21 %/m.), E0V1E_DCA3 −⅓ (~12 %/m.).
