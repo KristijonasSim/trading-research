@@ -35,3 +35,4 @@ Kripto duomenys: Binance (spot/futures, 1h/1d, visos USDT poros su istorija). Ak
 | 28 | Mėnesio sandūros efektas (Lakonishok, Smidt 1988; McConnell, Xu 2008), ETF ir kripto | ETF / kripto | ❌ atmesta (SPY +7,3 %/m. prieš 14,6; kripto po 2021 minuse) → `28_tom/REZULTATAI.md` |
 | 29 | Toby Crabel NR4/NR7/inside day pramušimas (kripto 1d) | kripto | ❌ atmesta (long ≤ +9 %/m.; long-short NR4 +17,9 % tik su 0,05 %, metai −5…+57, NR7 +5,8) → `29_crabel/REZULTATAI.md` |
 | 30 | Nakties grąžos premija: laikyti tik nakčiai (Cooper, Cliff, Gulen 2008), ETF | ETF | ❌ atmesta (efektas yra, bet su 0,01 % kaštais nelenkia laikymo) → `30_overnight/REZULTATAI.md` |
+| 31 | BTC CME gap'o užpildymas (populiarus teiginys) | kripto | ❌ atmesta (užsipildo 50–70 % per 5 d., bet BTC visi variantai minuse) → `31_cme_gap/REZULTATAI.md` |
