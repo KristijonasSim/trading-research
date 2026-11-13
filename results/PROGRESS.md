@@ -212,3 +212,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - #27 KAMA/Supertrend/HMA/Chandelier kripto 1d ❌ → `papers/27_trend3/`.
 - #28 Mėnesio sandūros efektas ETF/kripto ❌ → `papers/28_tom/`.
 - #29 Crabel NR4/NR7 kripto ❌ (pirma versija turėjo ateities info short pusėje, ištaisyta) → `papers/29_crabel/`.
+- #30 Nakties grąžos ETF ❌ (kaštai suvalgo) → `papers/30_overnight/`.
