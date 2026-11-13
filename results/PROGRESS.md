@@ -170,3 +170,5 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 2026-11-13: savaitgalio planas: kas 2 val. patikra (botas, queue4, straipsniai `papers/EILE.md`), kas 8 val. naujienos `results/SAVAITGALIS.md` į GitHub
 - 2026-11-13: straipsniai 1, 2, 5 (kripto momentum, atšokimas, mažos monetos): visos Binance USDT poros su išregistruotomis (700), `papers/xsec.py` – vyksta
 - 2026-11-13: batchM16–M17 baigtos. FakeoutStrategy (+26 %/m., kritimas 0,1 %) atmesta – argrelextrema per visą masyvą; Precognition (+800 %/m.) atmesta – shift(-8), tiesiogiai žiūri į ateitį. Kitų tinkamų nėra.
+- 2026-11-13: straipsniai 1, 2, 5 atmesti: 2018–21 momentum long-short +29 %/m., bet 2022–26 visi variantai minuse (−15…−85 %/m.) → `papers/01_kripto_momentum/REZULTATAI.md`
+- 2026-11-13: straipsniai 3, 4 (funding carry, cash-and-carry): siunčiama funding istorija 659 kontraktams, `papers/carry.py` paleis automatiškai

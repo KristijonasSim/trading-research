@@ -41,3 +41,5 @@ batchM16 FakeoutStrategy alts10 5m 26.0 0.1 1380 {"2021": 3.4, "2022": 35.6, "20
 batchM16 DONE
 batchM17 Precognition alts10 5m 800.6 1.9 4034 {"2021": 76.8, "2022": 7525.6, "2023": 503.0, "2024": 1228.8, "2025": 300.6, "2026": 36.7}
 batchM17 DONE
+batchM18 DONE
+batchM19 DONE
