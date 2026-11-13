@@ -15,3 +15,5 @@ Kripto duomenys: Binance (spot/futures, 1h/1d, visos USDT poros su istorija). Ak
 | 8 | Pelno anonsų dreifas (PEAD) – reikia nemokamų duomenų, tikrinti ar įmanoma | akcijos | ❌ atmesta (long top 20 % = lygiavertis krepšelis, long-short +1,7 %/m.) → `08_pead/REZULTATAI.md` |
 | 9 | Porų prekyba (kointegracija) kripto, 5m–1h (Fil, Kristoufek 2020) | kripto | ❌ atmesta (minusas net be mokesčių) → `09_poros/REZULTATAI.md` |
 | 10 | Kripto savaitės dienų ir valandų sezoniškumas, walk-forward (ne visos istorijos) | kripto | ❌ atmesta (efektas 1–2 bp/val., mokestis 20 bp) → `10_sezoniskumas/REZULTATAI.md` |
+| 11 | Pre-FOMC dreifas S&P 500 (Lucca, Moench 2015) | akcijos | ❌ atmesta (2012–26 +0,02 % per įvykį, iki 2011 +0,24 %) → `11_fomc/REZULTATAI.md` |
+| 12 | 52 savaičių maksimumo momentum S&P 500 (George, Hwang 2004) | akcijos | vyksta |
