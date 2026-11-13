@@ -15,3 +15,5 @@ Alts10: visos +6…+12 %/m., kritimai 30–55 %.
 
 - Aberration BTC+ETH: 2023 +63, 2024 +49, 2025 +23 %, bet 2022 −15 %, 2026 −5 %. Panašu į Ichimoku sistemas rizikingų sąraše: pelnas ateina bangomis.
 - Kritimas 27–38 %, daug didesnis nei dienos pramušimo sistemų (Dual Thrust 11 %).
+
+**Aberration ant 25 ETF** (akcijos, obligacijos, žaliavos, valiutos; `ab_etf.py`): 2008–15 −0,2…+0,6 %/m., 2016–26 +1,0…+1,5 %/m. (SPY +14,7 %). Kaip ir Dual Thrust, veikia tik kripto rinkoje.
