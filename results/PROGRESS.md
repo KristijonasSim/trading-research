@@ -243,3 +243,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - Passivbot martingale su 2021-11 top 20 (FTT, be LUNA): +26,3 %/m., kritimas 24 % ✅.
 - #40 BTC→altai lead-lag ❌ → `papers/40_leadlag/`.
 - #41 Spot grid botas ❌ → `papers/41_grid/`.
+- #42 Opcionų galiojimo efektas ❌ → `papers/42_expiry/`.
