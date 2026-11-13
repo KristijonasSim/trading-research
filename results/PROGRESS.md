@@ -246,3 +246,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - #42 Opcionų galiojimo efektas ❌ → `papers/42_expiry/`.
 - #43 Halloween ❌ → `papers/43_halloween/`.
 - #44 Apyvartos šuolis kripto ❌ → `papers/44_volume_shock/`.
+- #45 Paired Switching ❌ → `papers/45_paired_switch/`.

@@ -49,3 +49,4 @@ Kripto duomenys: Binance (spot/futures, 1h/1d, visos USDT poros su istorija). Ak
 | 42 | BTC/ETH mėnesinio opcionų galiojimo efektas (Deribit) | kripto | ❌ atmesta (2019–22 veikė, 2023–26 BTC +4 %/m., ETH −2 %) → `42_expiry/REZULTATAI.md` |
 | 43 | Halloween / Sell in May (Bouman, Jacobsen 2002), ETF ir BTC | ETF / kripto | ❌ atmesta (2016–26 perpus mažiau už laikymą, kritimai tie patys) → `43_halloween/REZULTATAI.md` |
 | 44 | Apyvartos šuolio premija kripto (Gervais ir kt. 2001; Liu ir kt. 2022) | kripto | ❌ atmesta (blogiau už krepšelį abiem laikotarpiais) → `44_volume_shock/REZULTATAI.md` |
+| 45 | Paired Switching SPY/TLT, QQQ/IEF, SPY/GLD (Maewal 2017) | ETF | ❌ atmesta (2016–26 nelenkia laikymo) → `45_paired_switch/REZULTATAI.md` |
