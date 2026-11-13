@@ -41,6 +41,7 @@ Patikros:
 Patikros:
 - ✅ `lookahead-analysis`: 0 iš 20 signalų naudoja ateities duomenis.
 - ⚠️ DCA: blogiausiu atveju į vieną porą sudedama keli kartai daugiau pinigų.
+- ⚠️ Su 1m detalumu (2026-11-13, metai atskirai, `config_spot_market.json`): 2022 +12,2 % (vietoj +24,1), 2023 +11,7 (+9,4), 2024 +22,9 (+30,4), 2025 +2,1 (+11,5). Vidurkis ~12 %/m. vietoj ~19 % – 5m testas išpučia ~⅓ (greiti sandoriai, 0,9 val.). Realiai tikėtina **~+11…13 %/m.**, žemiau 14 % ribos.
 
 \* 2021 ir 2026 metai daliniai (lapkr.–gruod. ir saus.–lapkr.).
 
