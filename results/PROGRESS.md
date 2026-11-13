@@ -230,3 +230,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 2026-11-14 – laiškas apie abbas, NASMAO, SMAO išsiųstas (vienas kartas).
 - 2026-11-14 – dry-run papildytas NASOSv5_mod3 ir EI3v2 (alts10 spot); kodas patikrintas (jokių os/subprocess/eval).
 - #34 Volatilumu valdomas kripto ❌ → `papers/34_crypto_volmanaged/`.
+- #35 Noise Breakout kripto ❌ → `papers/35_noise_crypto/`.

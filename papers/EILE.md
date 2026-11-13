@@ -39,3 +39,4 @@ Kripto duomenys: Binance (spot/futures, 1h/1d, visos USDT poros su istorija). Ak
 | 32 | Funding rate kontrarinis signalas: long perp kai funding žemiau neutralaus (BTC/ETH) | kripto futures | ⚠️ BTC+ETH 2021–26 +26 %/m., kritimas 30 %, zona +13…+26; alts10 neveikia → `32_funding_timing/REZULTATAI.md` |
 | 33 | BTC ↔ altcoin'ų rotacija (Altcoin Season Index, dvigubas momentum) | kripto | ❌ atmesta (2021–26 visi −6…−24 %/m.) → `33_altseason/REZULTATAI.md` |
 | 34 | Volatilumu valdomas kripto laikymas (Moreira, Muir metodas), BTC/ETH | kripto | ❌ atmesta (su trendo filtru ≤ +13 %/m., kritimas 36 %) → `34_crypto_volmanaged/REZULTATAI.md` |
+| 35 | Noise Breakout (Zarattini ir kt. 2024) ant BTC/ETH 1h | kripto | ❌ atmesta (visi variantai minuse) → `35_noise_crypto/REZULTATAI.md` |
