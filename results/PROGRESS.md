@@ -226,3 +226,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 ## 2026-11-14 – dry-run paleistas (vartotojo leidimas)
 - EMAPriceCrossoverWithTreshold 5m detalumas: +21,38 % = be detalumo (išlaiko).
 - 4 dry-run botai (Aberration, DualThrust, EMA800, FundingContrarian) Docker'yje, `freqtrade/dryrun/README.md`. Funding botas iškart atidarė ETH long.
+- 2026-11-14 02:20 – abbas, NASMAO, SMAO išlaikė ir 1 min. detalumą (2020) bei 2018 m. top 9 (+51/+28,5/+65 %/m.) → ATRINKTI_BOTAI.md nr. 8–10. ERMD_Strategy_risk atmesta (su 5 min. detalumu 2023–24 +222 % → +8,6 %). queue6 paleista.

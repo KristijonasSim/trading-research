@@ -110,6 +110,26 @@ Patikros:
 - ✅ Su 5m detalumu (2026-11-14): +21,4 %/m. – tas pats. Dry-run nuo 2026-11-14 (`freqtrade/dryrun/`).
 - Šaltinis: erdincyasar/freqtrade_kanaxe. Failas `best_strategies/EMAPriceCrossoverWithThreshold.py`.
 
+## 8. abbas (Freqtrade, altcoin'ai, 5m) – pridėta 2026-11-14
+- 2021–26 (alts10): **+14,2 %/m., kritimas 8,7 %**, 1857 sandoriai; kasmet pliuse, išskyrus 2026 (−0,5 %).
+- Nematytas 2018–21: dabartinis top 10 +63 %/m. (kritimas 12 %), **2018 m. top 9 +51 %/m. (kritimas 18 %)**.
+- Su 1 min. detalumu (2020): +49 % → +39 %. Lookahead 0/20.
+- Šaltinis: thinkong/freqtradestrategies. Failas `best_strategies/abbas.py`.
+
+## 9. NASMAO (Freqtrade, altcoin'ai, 5m) – pridėta 2026-11-14
+- 2021–26 (alts10): **+18,2 %/m., kritimas 16,2 %**, 839 sandoriai (2022 −1,9 %, 2026 −0,2 %).
+- Nematytas 2018–21: top 10 +41 %/m. (kritimas 15 %), 2018 m. top 9 +28,5 %/m. (kritimas 19 %).
+- Su 1 min. detalumu (2020): +34 % → +28 %. Lookahead 0/20.
+- ⚠️ Giminingas NASOSv5_mod3 (nr. 3), signalai gali sutapti.
+- Šaltinis: flessner/freqtrade-stuff. Failas `best_strategies/NASMAO.py`.
+
+## 10. SMAO (Freqtrade, altcoin'ai, 5m) – pridėta 2026-11-14
+- 2021–26 (alts10): +15,1 %/m., **kritimas 31,4 %** (2025 −8,5 %).
+- Nematytas 2018–21: top 10 +100 %/m. (kritimas 36 %), 2018 m. top 9 +65 %/m. (kritimas 32 %).
+- Su 1 min. detalumu (2020): nepakito (+70 %). Lookahead 0/20.
+- ⚠️ Didžiausi kritimai iš šių trijų.
+- Šaltinis: flessner/freqtrade-stuff. Failas `best_strategies/SMAO.py`.
+
 ## Potencialūs, bet rizikingi
 | Strategija | Rinka | %/m | Max kritimas | Kodėl ne pagrindiniame sąraše |
 |---|---|---|---|---|
@@ -126,6 +146,7 @@ Patikros:
 | EI3v2_tag_cofi_green ant 3x ETF, 1d | 18 sintetinių 3x ETF (TQQQ, UPRO, NUGT, JNUG…) | 13,5 | 14,5 % | Žemiau 14 %; grafikas parinktas iš 4 bandytų. Kasmet teigiama. Žr. `etf3x/README.md`. |
 
 ## Atmesti (kad netestuotume iš naujo)
+- ERMD_Strategy_risk (1d): 2023–24 +222 % virsta +8,6 % su 5 min. detalumu – rezultatas tik iš dienos žvakės iliuzijos.
 - TheForce (batch50i, 15m): 0,1 % mokesčiu BTC+ETH +89 %/m., alts10 +362 %/m. (išlaiko ir 1m detalumą, lookahead 0/20), bet ~10 tūkst. sandorių/m. po +0,04 %. Su 0,15 % mokesčiu (realus slippage) BTC+ETH −55 %/m., kritimas 99 %. Netinka.
 - NowoIchimoku1hV2 (batch50h): 1h testas +35 %/m. (alts10), +32 %/m. (BTC+ETH), švari, išlaikė 2018–21, bet su 5m detalumu tik +6,5 / +10,9 %/m., kritimas 29 / 21 %. Rezultatas buvo išpūstas 1h žvakių.
 - NostalgiaForInfinityX8: naudoja ateities duomenis.
