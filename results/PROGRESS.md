@@ -248,3 +248,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - #44 Apyvartos šuolis kripto ❌ → `papers/44_volume_shock/`.
 - #45 Paired Switching ❌ → `papers/45_paired_switch/`.
 - #46 3Commas DCA botas ❌ → `papers/46_dca_bot/`.
+- #47 52 sav. maksimumas kripto ❌ → `papers/47_52wh_crypto/`.
