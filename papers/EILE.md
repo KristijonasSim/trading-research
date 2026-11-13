@@ -23,3 +23,5 @@ Kripto duomenys: Binance (spot/futures, 1h/1d, visos USDT poros su istorija). Ak
 | 16 | Kripto MAX / loterijos efektas (Li ir kt. 2021) | kripto | ❌ atmesta kartu su 15 (2018–21 −13 %/m., short neįgyvendinamas) |
 | 17 | Liekamasis momentum S&P 500 (Blitz, Huij, Martens 2011) | akcijos | ❌ atmesta (2014–26 +13,8 %/m. = SPY, kritimas 39 %) → `17_resmom/REZULTATAI.md` |
 | 18 | Jesse klasika: Turtle, Dual Thrust (kripto, 1d) | kripto | ⚠️ Dual Thrust BTC+ETH +11,9 %/m., kritimas 11 %, kasmet pliuse; Turtle +14 %/m., kritimas 30 % → `18_turtle/REZULTATAI.md` |
+| 19 | Larry Williams volatilumo pramušimas (kripto, 1d) | kripto | ❌ atmesta (2021–26 BTC+ETH −9…+5 %/m.) → `19_larry_vb/REZULTATAI.md` |
+| 20 | R-Breaker (BTC/ETH, 1h) | kripto | ⚠️ tik trendas long +15,2 %/m. (0,05 %), kritimas 13 %; koreliacija su Dual Thrust 0,76 → `20_rbreaker/REZULTATAI.md` |

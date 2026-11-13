@@ -192,3 +192,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 2026-11-13: sources_more5 (56 repo, 172 strategijos) → batchM24–M27, paleista `freqtrade/queue5.sh`. Straipsnius (papers/) tuo pačiu metu tęsia kitas seansas.
 - 2026-11-13: Dual Thrust ant Binance perp BTC/ETH (long, 0,05 %, su funding): 2021-11–26 +13,8 %/m., kritimas 12 %, kasmet pliuse 2020–26; long+short +5,6 %/m. → `papers/18_turtle/REZULTATAI.md`
 - 2026-11-13: straipsniai 15–16 (kripto žemas vol / MAX long-short) atmesti: spot kainomis 2022–26 +85 %/m., bet su tikrais perp ir funding −8,5 %/m., kritimas 80 % (shortų funding ~35 %/m.); 2018–21 minuse → `papers/15_kripto_lowvol/REZULTATAI.md`
+- 2026-11-13: straipsnis 19 (Larry Williams VB kripto) atmestas: 2021–26 BTC+ETH −9 %/m. (k=0,5); 20 (R-Breaker BTC/ETH 1h): tik trendas long +15,2 %/m. su 0,05 % (0,1 %: +10,5), kritimas 13 %, koreliacija su Dual Thrust 0,76 → į potencialių sąrašą
