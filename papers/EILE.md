@@ -37,3 +37,4 @@ Kripto duomenys: Binance (spot/futures, 1h/1d, visos USDT poros su istorija). Ak
 | 30 | Nakties grąžos premija: laikyti tik nakčiai (Cooper, Cliff, Gulen 2008), ETF | ETF | ❌ atmesta (efektas yra, bet su 0,01 % kaštais nelenkia laikymo) → `30_overnight/REZULTATAI.md` |
 | 31 | BTC CME gap'o užpildymas (populiarus teiginys) | kripto | ❌ atmesta (užsipildo 50–70 % per 5 d., bet BTC visi variantai minuse) → `31_cme_gap/REZULTATAI.md` |
 | 32 | Funding rate kontrarinis signalas: long perp kai funding žemiau neutralaus (BTC/ETH) | kripto futures | ⚠️ BTC+ETH 2021–26 +26 %/m., kritimas 30 %, zona +13…+26; alts10 neveikia → `32_funding_timing/REZULTATAI.md` |
+| 33 | BTC ↔ altcoin'ų rotacija (Altcoin Season Index, dvigubas momentum) | kripto | ❌ atmesta (2021–26 visi −6…−24 %/m.) → `33_altseason/REZULTATAI.md` |
