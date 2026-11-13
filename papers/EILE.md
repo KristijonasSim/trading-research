@@ -28,3 +28,4 @@ Kripto duomenys: Binance (spot/futures, 1h/1d, visos USDT poros su istorija). Ak
 | 21 | Pruitt/Hill klasika: Aberration, King Keltner, Bollinger Bandit, DBO II, Thermostat (kripto 1d) | kripto | ⚠️ Aberration BTC+ETH +17,8 %/m., kritimas 27 %; kitos +7…17 %, kritimai 34–42 % → `21_pruitt/REZULTATAI.md` |
 | 22 | Paprasti trendo filtrai (Faber 10 mėn., 50/200, SMA200) kripto | kripto | ❌ atmesta (2021–26 −4…+13 %/m., kritimai 36–65 %) → `22_trend_filters/REZULTATAI.md` |
 | 23 | Klasika II: Darvas, Raschke Holy Grail / Turtle Soup, Parabolic SAR, Alligator, Seykota (kripto 1d) | kripto | ❌ atmesta (2021–26 −19…+7 %/m.) → `23_classics2/REZULTATAI.md` |
+| 24 | BTC ciklo indikatoriai: Mayer daugiklis, Pi Cycle Top, 200 sav. vidurkis | kripto | ❌ atmesta (per mažai signalų, kritimai 53–83 %) → `24_btc_cycle/REZULTATAI.md` |

@@ -199,3 +199,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 2026-11-13: **Aberration atrinkta** (nr. 6, BTC+ETH 1d): freqtrade +18,4 %/m., kritimas 28 %, 40 sandorių, lookahead 0/20; nematytas 2018–21 +88 %/m. → `best_strategies/ATRINKTI_BOTAI.md`
 - 2026-11-13: 23 (Darvas, Raschke Holy Grail/Turtle Soup, PSAR, Alligator, Seykota kripto 1d) atmesti: 2021–26 BTC+ETH −19…+7 %/m.
 - 2026-11-13: Aberration parametrų jautrumas: 2021–26 +1,6…+24,7 %/m. (mediana ~12 %), 35/2 virš vidurkio
+- 2026-11-13: 24 (BTC Mayer daugiklis, Pi Cycle, 200W) atmesti: signalai reti, kritimai 53–83 %
