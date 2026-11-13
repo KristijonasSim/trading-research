@@ -196,3 +196,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 2026-11-13: straipsnis 21 (Pruitt/Hill trendo sistemos kripto 1d): Aberration BTC+ETH +17,8 %/m., kritimas 27 %, 2018–21 +88 %/m. → rizikingų sąrašas; King Keltner +16,7 % (38 %), kitos silpnesnės
 - 2026-11-13: 22 (paprasti trendo filtrai kripto: Faber, 50/200, SMA200) atmesti: 2021–26 BTC+ETH −4…+13 %/m., kritimai 36–65 %
 - 2026-11-13: Dual Thrust perrašyta į freqtrade (`user_data/strategies/papers/DualThrust.py`, 5m): BTC+ETH 2021–26 +11,7 %/m., kritimas 11,5 %, 408 sandoriai, lookahead 0/20 – atitinka pandas testą
+- 2026-11-13: **Aberration atrinkta** (nr. 6, BTC+ETH 1d): freqtrade +18,4 %/m., kritimas 28 %, 40 sandorių, lookahead 0/20; nematytas 2018–21 +88 %/m. → `best_strategies/ATRINKTI_BOTAI.md`

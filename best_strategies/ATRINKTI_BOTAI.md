@@ -90,6 +90,14 @@ Patikros:
 - ✅ Su 5m detalumu (2026-11-13): +15,7 %/m. (be detalumo +16,0 %), balanso kritimas 21 %. `freqtrade/results/validate50/detail_MACDVStrategy_btc_eth_*_full`
 - ⚠️ Kylančioje rinkoje atsilieka nuo „pirkti ir laikyti“ (2018–21 BTC+ETH laikymas +823 %); vertė – maži kritimai. Ant altcoin'ų 2021–26 tik +10,5 %/m.
 
+## 6. Aberration (Keith Fitschen 1993; BTC+ETH, 1d) – pridėta 2026-11-13
+- Failas: `freqtrade/user_data/strategies/papers/Aberration.py`. Šaltinis: K. Fitschen, „Aberration“ (komercinė sistema nuo 1993, aprašyta „Building Winning Algorithmic Trading Systems“).
+- Taisyklė: perka, kai uždarymas > SMA35 + 2σ; parduoda, kai uždarymas < SMA35. Tik long, be stop-loss.
+- 2021-11 – 2026-11, BTC+ETH (freqtrade): **+18,4 %/m., balanso kritimas 28 %**, 40 sandorių. Metai: 2022 −15 %, 2023 +63 %, 2024 +49 %, 2025 +23 %, 2026 −5 %.
+- Nematytas 2018–2021 (pandas, `papers/21_pruitt/`): +88 %/m., kritimas 34 %. Altcoin'ai 2021–26 tik +11,6 %/m. (kritimas 42 %).
+- Lookahead-analysis: 0/20 (`results/validation/Aberration_lookahead.log`). Signalai dienos uždarymu, be stop'ų, todėl detalumas įtakos neturi.
+- ⚠️ Tik ~8 sandoriai per metus, pelnas bangomis (kaip Ichimoku), kritimas didesnis nei MACDVStrategy. Koreliuoja su MACDV (abi BTC+ETH trendo).
+
 ## Potencialūs, bet rizikingi
 | Strategija | Rinka | %/m | Max kritimas | Kodėl ne pagrindiniame sąraše |
 |---|---|---|---|---|
@@ -100,7 +108,6 @@ Patikros:
 | Ichimoku_v8 | BTC+ETH spot, 4h | 15,1 | 30 % (balanso 40 %) | 2022 −9 %, 2023 −15 %, 2018 −45 %. Švari, 2018–21 +63 %/m. `Ichimoku_v8.py` |
 | Dual Thrust (n=4, k=0,7) | BTC+ETH spot, 1d (įėjimas dienos viduje) | 11,9 (perp 0,05 %: 13,8) | 11 % | Žemiau 14 %; bet kasmet pliuse 2018–2026 (perp 2020–26 taip pat). Freqtrade versija `freqtrade/user_data/strategies/papers/DualThrust.py`: +11,7 %/m., kritimas 11,5 %, lookahead 0/20, 2018–21 +30 %/m., 5m vykdymas patvirtina. Jautrus mokesčiui (0,15 % → 7,5 %/m.). `papers/18_turtle/` |
 | R-Breaker (tik trendas, long) | BTC+ETH perp, 1h | 15,2 (0,05 %) / 10,5 (0,1 %) | 13 % | Ta pati idėja kaip Dual Thrust (koreliacija 0,76), 2018–21 +38,5 %/m. (kritimas 9 %). Funding neįskaičiuotas. `papers/20_rbreaker/` |
-| Aberration (SMA35 ± 2σ) | BTC+ETH spot, 1d | 17,8 | 27 % | 2022 −15 %, pelnas bangomis (2023 +63 %); 2018–21 +88 %/m. (kritimas 34 %). `papers/21_pruitt/` |
 | Turtle S2 (55/20) | BTC+ETH spot, 1d | 14,5 | 30 % | 2022 −18 %, 2018–21 +74 %/m. (kritimas 49 %). `papers/18_turtle/` |
 | VolatilitySystem | BTC+ETH futures, 1h | 69,8 | 53,4 % | 2x svertas, be stop-loss; ant altcoin'ų tik +0,6 %/m.; 2026 m. −0,2 %. Lookahead švari. Failas `VolatilitySystem.py`. |
 | EI3v2_tag_cofi_green ant 3x ETF, 1d | 18 sintetinių 3x ETF (TQQQ, UPRO, NUGT, JNUG…) | 13,5 | 14,5 % | Žemiau 14 %; grafikas parinktas iš 4 bandytų. Kasmet teigiama. Žr. `etf3x/README.md`. |
