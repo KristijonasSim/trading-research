@@ -81,6 +81,8 @@ Komandos (paleisti iš `freqtrade/`):
 
 - 2026-11-13 vakaras: **MACDVStrategy atrinkta** (BTC+ETH 1d, +16 %/m., kritimas 15 %, 2018–21 +73 %/m.). Savaitgalio testai: `results/SAVAITGALIS.md`, straipsnių eilė `papers/EILE.md`.
 
+- 2026-11-13 (antras kompiuteris): straipsniai 6–22 `papers/` (dauguma atmesti). **Aberration atrinkta** (nr. 6, BTC+ETH 1d +18,4 %/m., kritimas 28 %). Dual Thrust (BTC+ETH, kasdienis pramušimas, +11,7 %/m., kritimas 11 %, kasmet pliuse) ir R-Breaker – potencialių sąraše; freqtrade versijos `freqtrade/user_data/strategies/papers/`. NASOSv5_mod3 ir MACDV išlaikė detalumo patikrą. Passivbot nepaleistas (reikia leidimo kompiliuoti išorinį kodą).
+
 ## Dar nepradėta
 Aplankai `ib_async/`, `vectorbt/`, `backtesting-py/` tušti.
 

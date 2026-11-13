@@ -73,3 +73,8 @@ Pilna lentelė: `quantconnect_ranking.md`. SPY „pirkti ir laikyti“: 1676 (+1
 ## 2026-11-12: Instagram įrašų patikra
 Atmesta: nakties dėžės pusė, Kronos (nepaleistas, laukia vartotojo), day-trader-skill (ORB), 8 trailing stop būdai, efektyvi riba, absorbcija.
 **CE 50% Model (NQ) išlaikė:** 2016–2026 +0,115 R/sandorį, 10/11 metų pliuse, nematytas 2022–26 +17 %/m. prie 1 % rizikos, bet kritimas 25 %. Žadėta 59 %/m. neatsikartoja. → `tradingview/ce50/REZULTATAI.md`
+
+## 2026-11-13: mokslinių straipsnių ir klasikinių sistemų patikra (`papers/EILE.md`)
+- Atmesta (po paskelbimo pranašumo nėra): TSMOM ETF, žemas vol / BAB, PEAD, kripto porų prekyba, kripto valandų sezoniškumas, pre-FOMC, 52 sav. maksimumas, mėnesio sezoniškumas, liekamasis momentum, kripto žemas vol / MAX (funding suvalgo), Larry Williams VB, paprasti trendo filtrai.
+- **Aberration atrinkta** (BTC+ETH 1d): +18,4 %/m., kritimas 28 %, 2018–21 +88 %/m.
+- Potencialūs: Dual Thrust BTC+ETH (+11,7 %/m., kritimas 11 %, kasmet pliuse 2018–26; perp 0,05 % +13,8 %), R-Breaker (+15,2 % su 0,05 %), Turtle (+14 %, kritimas 30 %), volatilumu valdomas QQQ (kritimas 21 % vietoj 35 %).
