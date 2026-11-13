@@ -18,3 +18,4 @@ Kripto duomenys: Binance (spot/futures, 1h/1d, visos USDT poros su istorija). Ak
 | 11 | Pre-FOMC dreifas S&P 500 (Lucca, Moench 2015) | akcijos | ❌ atmesta (2012–26 +0,02 % per įvykį, iki 2011 +0,24 %) → `11_fomc/REZULTATAI.md` |
 | 12 | 52 savaičių maksimumo momentum S&P 500 (George, Hwang 2004) | akcijos | ❌ atmesta (long +10,5 %/m. < lygiavertis 12,4 %, long-short minuse) → `12_52wh/REZULTATAI.md` |
 | 13 | Volatilumu valdomas portfelis SPY/QQQ (Moreira, Muir 2017) | ETF | ⚠️ rizikos mažinimas: QQQ 2016–26 +17,7 %/m., kritimas 21 % (laikymas +19,1 %, 35 %) → `13_volmanaged/REZULTATAI.md` |
+| 14 | Akcijų kalendorinio mėnesio sezoniškumas S&P 500 (Heston, Sadka 2008) | akcijos | ❌ atmesta (2014–26 long +10,3 %/m., long-short −3,3 %) → `14_seasonality/REZULTATAI.md` |

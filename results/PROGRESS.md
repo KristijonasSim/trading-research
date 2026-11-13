@@ -180,3 +180,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 2026-11-13: straipsnis 11 (pre-FOMC dreifas, 264 sprendimai 1994–2026) atmestas: iki 2011 +0,24 %/įvykį (t 2,3), 2012–26 +0,02 % (t 0,2) → `papers/11_fomc/REZULTATAI.md`
 - 2026-11-13: straipsnis 12 (52 sav. maksimumo momentum, S&P 500) atmestas: 2014–26 long +10,5 %/m. vs lygiavertis +12,4 %, long-short −1,3 %/m. → `papers/12_52wh/REZULTATAI.md`
 - 2026-11-13: straipsnis 13 (volatilumu valdomas portfelis, Moreira-Muir 2017): QQQ tikslinis 15 % vol ≤2x 2016–26 +17,7 %/m., kritimas 21 % (laikymas +19,1 %, 35 %), 1994–2015 +9,1 % vs +5,4 %; rizikos mažinimas, ne pelnas → `papers/13_volmanaged/REZULTATAI.md`
+- 2026-11-13: straipsnis 14 (Heston-Sadka mėnesio sezoniškumas, S&P 500) atmestas: 2014–26 long top 10 % +10,3 %/m. vs lygiavertis 12,4 %, long-short −3,3 % → `papers/14_seasonality/REZULTATAI.md`
