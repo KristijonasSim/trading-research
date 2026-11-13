@@ -187,3 +187,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 2026-11-13: NASOSv5_mod3 su 1m detalumu (alts10, 2022–25 po metus): 2022 +26,4 % (be detalumo +27,9), 2023 +8,5 (+8,7), 2024 +15,6 (+16,5), 2025 +56,9 (+27,3) – išlaikė
 - 2026-11-13: MACDVStrategy su 5m detalumu (BTC+ETH 2021–26): +15,7 %/m. (be detalumo +16,0 %), kritimas 21 % – išlaikė
 - 2026-11-13: straipsnis 17 (liekamasis momentum, FF3, S&P 500) atmestas: 2014–26 +13,8 %/m. = SPY (13,7 %), kritimas 39 % → `papers/17_resmom/REZULTATAI.md`
+- 2026-11-13: straipsnis 18 (Jesse klasika): Dual Thrust BTC+ETH 1d +11,9 %/m., kritimas 11 %, kasmet pliuse 2018–26, 5m vykdymas patvirtina, bet su 0,15 % mokesčiu +7,5 %; Turtle BTC+ETH +14 %/m., kritimas 30–37 % → abu į rizikingų sąrašą, `papers/18_turtle/REZULTATAI.md`
