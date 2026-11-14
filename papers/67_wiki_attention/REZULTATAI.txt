@@ -1,0 +1,27 @@
+periodai: 2016–19 | 2020–22 | 2023–26
+
+BTC laikyti                                  +101.7% kr  -84% |  +33.7% kr  -77% |  +45.6% kr  -53% | rinkoje 100%
+BTC A peržiūros 7d > 28d ir kaina ↑ 7 d.      +49.0% kr  -40% |  +18.1% kr  -56% |  +13.4% kr  -26% | rinkoje  25%
+BTC C peržiūros 7d > 28d                      +54.1% kr  -78% |  +17.2% kr  -71% |   +7.3% kr  -53% | rinkoje  43%
+BTC C peržiūros 7d < 28d (atvirkščiai)        +24.2% kr  -61% |   +9.7% kr  -70% |  +28.5% kr  -32% | rinkoje  57%
+BTC A peržiūros 7d > 90d ir kaina ↑ 7 d.      +24.4% kr  -49% |  +56.7% kr  -41% |  +17.9% kr  -22% | rinkoje  22%
+BTC C peržiūros 7d > 90d                      +29.3% kr  -59% |  +64.7% kr  -56% |  +13.4% kr  -47% | rinkoje  36%
+BTC C peržiūros 7d < 90d (atvirkščiai)        +51.4% kr  -71% |  -20.7% kr  -74% |  +24.2% kr  -39% | rinkoje  62%
+BTC B grynieji kai peržiūrų z(90) > 1.5       +92.0% kr  -82% |  +15.5% kr  -75% |  +31.2% kr  -53% | rinkoje  91%
+BTC B grynieji kai peržiūrų z(90) > 2.0       +70.4% kr  -84% |  +18.4% kr  -80% |  +46.1% kr  -52% | rinkoje  95%
+BTC palyg.: kaina > 100 d. SMA               +117.8% kr  -64% |  +61.1% kr  -38% |  +33.4% kr  -36% | rinkoje  58%
+BTC palyg.: tik kaina ↑ 7 d. (be peržiūrų)    +84.0% kr  -53% |  +26.7% kr  -63% |  +11.5% kr  -47% | rinkoje  54%
+BTC palyg.: kaina ↑ 7 d. ir > 28 d. vid. kainos  +92.3% kr  -46% |  +35.8% kr  -55% |  +26.2% kr  -29% | rinkoje  43%
+
+ETH laikyti                                  +242.3% kr  -94% | +111.7% kr  -79% |  +14.0% kr  -68% | rinkoje 100%
+ETH A peržiūros 7d > 28d ir kaina ↑ 7 d.     +228.7% kr  -45% |  +83.4% kr  -26% |  +16.1% kr  -32% | rinkoje  26%
+ETH C peržiūros 7d > 28d                     +321.7% kr  -58% | +107.5% kr  -47% |   +0.2% kr  -61% | rinkoje  43%
+ETH C peržiūros 7d < 28d (atvirkščiai)        -22.8% kr  -91% |   -2.8% kr  -82% |   +7.2% kr  -53% | rinkoje  56%
+ETH A peržiūros 7d > 90d ir kaina ↑ 7 d.     +293.1% kr  -54% |  +80.2% kr  -30% |  +20.4% kr  -29% | rinkoje  23%
+ETH C peržiūros 7d > 90d                     +360.5% kr  -77% | +128.2% kr  -53% |  +25.9% kr  -43% | rinkoje  37%
+ETH C peržiūros 7d < 90d (atvirkščiai)        -27.8% kr  -90% |   -8.8% kr  -79% |  -12.6% kr  -74% | rinkoje  61%
+ETH B grynieji kai peržiūrų z(90) > 1.5       +91.9% kr  -93% |  +75.4% kr  -79% |   +8.9% kr  -66% | rinkoje  89%
+ETH B grynieji kai peržiūrų z(90) > 2.0      +201.3% kr  -94% |  +63.5% kr  -79% |   +6.9% kr  -69% | rinkoje  94%
+ETH palyg.: kaina > 100 d. SMA               +313.4% kr  -64% |  +48.7% kr  -72% |  +24.8% kr  -47% | rinkoje  56%
+ETH palyg.: tik kaina ↑ 7 d. (be peržiūrų)   +347.2% kr  -61% | +135.2% kr  -46% |   +6.6% kr  -51% | rinkoje  52%
+ETH palyg.: kaina ↑ 7 d. ir > 28 d. vid. kainos +340.3% kr  -50% | +163.4% kr  -27% |   +6.7% kr  -51% | rinkoje  40%
