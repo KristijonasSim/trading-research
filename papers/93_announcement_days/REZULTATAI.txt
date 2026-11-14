@@ -1,0 +1,19 @@
+FOMC sprendimų: 264 [Timestamp('1994-02-04 00:00:00'), Timestamp('1994-03-22 00:00:00')] [Timestamp('2026-09-16 00:00:00'), Timestamp('2026-10-28 00:00:00')]
+
+SPY: vid. dienos grąža bp (1994–2012 | 2013–19 | 2020–26)
+  FOMC dienos              +38.4 (n=105) |  +3.1 (n=56) | +13.6 (n=55)
+  NFP penktadieniai         +4.0 (n=156) | +22.8 (n=84) |  +5.7 (n=83)
+  paskelbimo dienos (abi)  +17.9 (n=261) | +14.9 (n=140) |  +8.8 (n=138)
+  kitos dienos              +0.2 (n=3008) |  +4.9 (n=1622) |  +6.1 (n=1589)
+  laikyti                   +1.7% kr -55% | +14.6% kr -19% | +14.8% kr -34%
+  tik paskelbimo d., 1x     +3.9% kr -17% |  +2.3% kr  -7% |  +2.9% kr  -8% | rinkoje 8%
+  tik paskelbimo d., 3x     +9.7% kr -45% |  +7.7% kr -21% |  +4.7% kr -30% | rinkoje 8%
+
+TLT: vid. dienos grąža bp (1994–2012 | 2013–19 | 2020–26)
+  FOMC dienos               -4.0 (n=85) | +23.8 (n=56) | +19.0 (n=55)
+  NFP penktadieniai         -8.3 (n=125) | -11.2 (n=84) |  -6.1 (n=83)
+  paskelbimo dienos (abi)   -6.6 (n=210) |  +2.8 (n=140) |  +3.9 (n=138)
+  kitos dienos              +4.5 (n=2415) |  +1.9 (n=1622) |  -1.8 (n=1589)
+  laikyti                   +8.4% kr -27% |  +4.3% kr -18% |  -4.6% kr -48%
+  tik paskelbimo d., 1x     -1.2% kr -23% |  -0.2% kr -13% |  +1.9% kr -12% | rinkoje 8%
+  tik paskelbimo d., 3x     -4.9% kr -52% |  +0.0% kr -32% |  +1.9% kr -30% | rinkoje 8%

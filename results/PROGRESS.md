@@ -307,3 +307,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 2026-11-14: #91 apimties indikatoriai atmesta.
 - 2026-11-14: #92 iždo aukcionų ciklas – ⚠️ rizikingų sąraše (TLT 1x +7…+9 %/m. visais periodais, 3x 2013–26 +21 %, kritimas 54 %).
 - 2026-11-14: Passivbot martingale Bybit: 12 poz. +14,6 %/m. (kritimas 14 %, kasmet pliuse), 4 poz. +10,2 % (57 %) → rekomenduojama 12 poz. versija (ATRINKTI nr. 11, passivbot/REZULTATAI.md).
+- 2026-11-14: #93 makro paskelbimų dienų premija atmesta.

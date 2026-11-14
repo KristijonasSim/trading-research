@@ -97,3 +97,4 @@ Kripto duomenys: Binance (spot/futures, 1h/1d, visos USDT poros su istorija). Ak
 | 90 | Kripto skerspjūvio momentum su BTC > SMA filtru (top 50) | kripto | ❌ atmesta (2022–26 −34…−44 %/m.) → `90_xsec_mom_regime/REZULTATAI.md` |
 | 91 | Apimties indikatoriai: OBV, Chaikin MF, MFI, VWAP trendas | kripto | ❌ atmesta (1d CMF +11…+19 % su 51–66 % kritimais; kiti ~0) → `91_volume_indicators/REZULTATAI.md` |
 | 92 | Iždo aukcionų ciklas (Lou, Yan, Zhang 2013), TLT/IEF | ETF | ⚠️ efektas išliko: TLT „po aukciono long, prieš short“ +7…+9 %/m. (kritimas 15–21 %) visais periodais; 3x 2013–26 +21 %, kritimas 54 % → `92_treasury_auctions/REZULTATAI.md` |
+| 93 | Makro paskelbimų dienų premija (Savor, Wilson 2013): FOMC + NFP, SPY/TLT | akcijos, ETF | ❌ atmesta (premija mažėja; strategija +2…+10 %/m.) → `93_announcement_days/REZULTATAI.md` |
