@@ -266,3 +266,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 2026-11-14: #53 MVRV (Coin Metrics) BTC/ETH atmesta – ciklo variantas tik 8 sandoriai, trendo variantas ≈ kainos SMA, ETH neveikia.
 - 2026-11-14: #54 Coinbase premija – ⚠️ rizikingų sąraše (BTC/ETH +19 %/m. 2022–26, kritimas 31–37 %, bet slenksčio smailė ir pelnas 2024 m.).
 - 2026-11-14: #55 stablecoin emisija ir NVT Signal atmesta.
+- 2026-11-14: #56 Kimchi premija atmesta.

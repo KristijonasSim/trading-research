@@ -60,3 +60,4 @@ Kripto duomenys: Binance (spot/futures, 1h/1d, visos USDT poros su istorija). Ak
 | 53 | MVRV ciklas ir MVRV trendas (Mahmudov, Puell 2018), BTC/ETH | kripto | ❌ atmesta (ciklas 8 sandoriai, nuo 2024 grynieji; trendas ≈ kainos SMA, ETH neveikia) → `53_mvrv/REZULTATAI.md` |
 | 54 | Coinbase premija (Coinbase vs Binance kaina), BTC/ETH 1h | kripto | ⚠️ signalas yra (išlieka su 2 h vėlavimu), bet slenksčio smailė, pelnas 2024 m., 2025 −21 % → `54_coinbase_premium/REZULTATAI.md` |
 | 55 | Stablecoin emisija (USDT+USDC pasiūla) ir NVT Signal (Woo 2018), BTC/ETH | kripto | ❌ atmesta (emisija – vienas 2022–23 epizodas ≈ SMA filtras, ETH neveikia; NVT −13…+11 %/m.) → `55_stablecoin_nvt/REZULTATAI.md` |
+| 56 | Kimchi premija (Upbit vs Binance), BTC/ETH/XRP 1d | kripto | ❌ atmesta (kontrarinis veikė tik 2017–18, trendo ženklas keičiasi, kritimai 50–90 %) → `56_kimchi/REZULTATAI.md` |

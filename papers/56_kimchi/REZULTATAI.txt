@@ -1,0 +1,46 @@
+periodai: 2018–21 | 2022–26 | 2024–26
+
+== BTC ==  premija: mediana 1.1 %, max 59 %, 2024–26 mediana 1.1 %
+laikyti                                 +34.3%/m. kr  -81% |   +8.0%/m. kr  -67% |  +16.0%/m. kr  -53% | rinkoje 100%, sandorių 1
+A laikyti kai premija < 3%              +80.9%/m. kr  -63% |   +2.8%/m. kr  -65% |   +9.4%/m. kr  -48% | rinkoje  79%, sandorių 215
+A laikyti kai premija < 5%              +68.4%/m. kr  -69% |   +6.2%/m. kr  -65% |   +9.8%/m. kr  -56% | rinkoje  91%, sandorių 109
+A laikyti kai premija < 8%              +57.7%/m. kr  -73% |   +9.4%/m. kr  -67% |  +18.9%/m. kr  -54% | rinkoje  96%, sandorių 55
+A laikyti kai premija < 10%             +55.7%/m. kr  -72% |  +10.6%/m. kr  -67% |  +20.7%/m. kr  -53% | rinkoje  97%, sandorių 33
+B grynieji kai premija > 30d med. + 1%  +55.3%/m. kr  -53% |   +5.2%/m. kr  -62% |  +23.0%/m. kr  -44% | rinkoje  79%, sandorių 369
+B grynieji kai premija > 30d med. + 2%  +59.1%/m. kr  -72% |   +7.1%/m. kr  -71% |  +21.7%/m. kr  -50% | rinkoje  90%, sandorių 165
+B grynieji kai premija > 30d med. + 4%  +50.0%/m. kr  -76% |   +5.7%/m. kr  -68% |  +14.2%/m. kr  -54% | rinkoje  96%, sandorių 67
+B grynieji kai premija > 90d med. + 1%  +39.1%/m. kr  -65% |   +4.6%/m. kr  -52% |  +17.6%/m. kr  -36% | rinkoje  74%, sandorių 335
+B grynieji kai premija > 90d med. + 2%  +61.7%/m. kr  -74% |   +0.2%/m. kr  -69% |   +9.4%/m. kr  -47% | rinkoje  85%, sandorių 179
+B grynieji kai premija > 90d med. + 4%  +55.2%/m. kr  -73% |  +12.3%/m. kr  -65% |  +19.5%/m. kr  -54% | rinkoje  93%, sandorių 69
+C laikyti kai premija > 7d vid. (trendas)  -16.5%/m. kr  -80% |   -7.4%/m. kr  -64% |   -1.8%/m. kr  -32% | rinkoje  49%, sandorių 971
+C laikyti kai premija > 30d vid. (trendas)   -2.5%/m. kr  -76% |  +19.4%/m. kr  -53% |  +32.4%/m. kr  -40% | rinkoje  47%, sandorių 589
+
+== ETH ==  premija: mediana 1.1 %, max 57 %, 2024–26 mediana 1.1 %
+laikyti                                 +44.9%/m. kr  -94% |  -13.0%/m. kr  -74% |   -6.6%/m. kr  -68% | rinkoje 100%, sandorių 1
+A laikyti kai premija < 3%              +77.6%/m. kr  -83% |   -5.3%/m. kr  -67% |   +8.7%/m. kr  -63% | rinkoje  79%, sandorių 237
+A laikyti kai premija < 5%              +26.8%/m. kr  -92% |  -11.5%/m. kr  -72% |   -6.7%/m. kr  -72% | rinkoje  91%, sandorių 111
+A laikyti kai premija < 8%              +35.5%/m. kr  -93% |  -11.5%/m. kr  -75% |   -2.9%/m. kr  -72% | rinkoje  96%, sandorių 53
+A laikyti kai premija < 10%             +30.1%/m. kr  -93% |  -12.1%/m. kr  -74% |   -4.8%/m. kr  -68% | rinkoje  97%, sandorių 33
+B grynieji kai premija > 30d med. + 1%  +63.3%/m. kr  -80% |  -11.3%/m. kr  -68% |  +12.2%/m. kr  -55% | rinkoje  79%, sandorių 383
+B grynieji kai premija > 30d med. + 2%  +42.6%/m. kr  -91% |   -7.5%/m. kr  -75% |  +11.4%/m. kr  -64% | rinkoje  90%, sandorių 159
+B grynieji kai premija > 30d med. + 4%  +37.3%/m. kr  -94% |  -13.8%/m. kr  -73% |   -4.6%/m. kr  -70% | rinkoje  96%, sandorių 73
+B grynieji kai premija > 90d med. + 1%  +19.1%/m. kr  -88% |  -13.0%/m. kr  -64% |   -2.8%/m. kr  -53% | rinkoje  74%, sandorių 341
+B grynieji kai premija > 90d med. + 2%  +36.7%/m. kr  -92% |  -12.7%/m. kr  -71% |   -0.7%/m. kr  -62% | rinkoje  85%, sandorių 191
+B grynieji kai premija > 90d med. + 4%  +33.9%/m. kr  -93% |   -7.6%/m. kr  -72% |   +0.3%/m. kr  -70% | rinkoje  93%, sandorių 73
+C laikyti kai premija > 7d vid. (trendas)   +3.4%/m. kr  -87% |   -9.8%/m. kr  -67% |   +0.0%/m. kr  -46% | rinkoje  49%, sandorių 965
+C laikyti kai premija > 30d vid. (trendas)   +7.3%/m. kr  -89% |  +16.5%/m. kr  -57% |  +31.9%/m. kr  -55% | rinkoje  47%, sandorių 617
+
+== XRP ==  premija: mediana 1.0 %, max 24 %, 2024–26 mediana 1.1 %
+laikyti                                  -1.6%/m. kr  -85% |   +3.7%/m. kr  -72% |  +18.8%/m. kr  -72% | rinkoje 100%, sandorių 1
+A laikyti kai premija < 3%               +2.7%/m. kr  -80% |  +13.6%/m. kr  -70% |  +34.5%/m. kr  -70% | rinkoje  82%, sandorių 201
+A laikyti kai premija < 5%              -18.2%/m. kr  -84% |   -0.8%/m. kr  -76% |   +6.5%/m. kr  -76% | rinkoje  93%, sandorių 77
+A laikyti kai premija < 8%              -13.9%/m. kr  -85% |   +1.1%/m. kr  -75% |  +17.6%/m. kr  -75% | rinkoje  97%, sandorių 39
+A laikyti kai premija < 10%             -22.8%/m. kr  -85% |   +1.7%/m. kr  -72% |  +15.0%/m. kr  -72% | rinkoje  99%, sandorių 17
+B grynieji kai premija > 30d med. + 1%   +5.9%/m. kr  -78% |   +8.5%/m. kr  -65% |  +20.0%/m. kr  -65% | rinkoje  79%, sandorių 373
+B grynieji kai premija > 30d med. + 2%   +9.0%/m. kr  -78% |   -2.1%/m. kr  -74% |  +19.0%/m. kr  -74% | rinkoje  91%, sandorių 139
+B grynieji kai premija > 30d med. + 4%   -7.4%/m. kr  -79% |   -3.1%/m. kr  -75% |  +11.2%/m. kr  -75% | rinkoje  97%, sandorių 59
+B grynieji kai premija > 90d med. + 1%  +11.1%/m. kr  -80% |   +3.6%/m. kr  -65% |  +20.0%/m. kr  -59% | rinkoje  74%, sandorių 315
+B grynieji kai premija > 90d med. + 2%   +7.5%/m. kr  -78% |   -3.3%/m. kr  -69% |  +11.7%/m. kr  -69% | rinkoje  85%, sandorių 175
+B grynieji kai premija > 90d med. + 4%   -4.3%/m. kr  -77% |   +8.6%/m. kr  -74% |  +24.2%/m. kr  -74% | rinkoje  93%, sandorių 67
+C laikyti kai premija > 7d vid. (trendas)  -10.8%/m. kr  -80% |   -4.1%/m. kr  -63% |   -1.1%/m. kr  -63% | rinkoje  48%, sandorių 949
+C laikyti kai premija > 30d vid. (trendas)  -32.2%/m. kr  -89% |  +27.8%/m. kr  -62% |  +55.9%/m. kr  -47% | rinkoje  47%, sandorių 619
