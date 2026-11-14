@@ -88,3 +88,4 @@ Kripto duomenys: Binance (spot/futures, 1h/1d, visos USDT poros su istorija). Ak
 | 81 | BTC halvingo ciklas (500 d. prieš – 550 d. po halvingo) | kripto | ⚠️ rizikingų sąraše: 2021–26 +54 %/m. (kritimas 53 %), zona +70…+112 %, bet tik 4 ciklai → `81_halving_cycle/REZULTATAI.md` |
 | 82 | Prezidento rinkimų ciklas (S&P 500 1929–2026) | akcijos | ❌ atmesta (priešrinkiminiai metai stiprūs, bet kaip strategija < laikymas) → `82_election_cycle/REZULTATAI.md` |
 | 83 | Aukso rudens efektas (Baur 2013), GLD | ETF | ❌ atmesta (po paskelbimo rugsėjis −1,8 %, lapkritis −1,2 % – apsivertė) → `83_gold_autumn/REZULTATAI.md` |
+| 84 | Pajamingumo kreivės inversija (T10Y2Y/T10Y3M) → S&P 500 | akcijos | ❌ atmesta (1977–99 ir 2013–26 < laikymas; padeda tik 2000–12) → `84_yield_curve/REZULTATAI.md` |

@@ -1,0 +1,14 @@
+periodai: 1977–99 | 2000–12 | 2013–26
+laikyti                                  +11.0% kr -34% |  +1.7% kr -57% | +12.8% kr -34%
+T10Y2Y A grynieji kai < 0                +10.7% kr -34% |  +0.9% kr -58% |  +9.8% kr -34% | rinkoje 84%
+T10Y2Y B grynieji 12 mėn. po atsitiesimo  +6.5% kr -34% |  +2.4% kr -51% | +10.8% kr -20% | rinkoje 73%
+T10Y2Y C inversija + 12 mėn. po           +6.9% kr -34% |  +2.4% kr -51% |  +8.2% kr -20% | rinkoje 66%
+T10Y2Y B grynieji 18 mėn. po atsitiesimo  +6.6% kr -34% |  +7.1% kr -28% |  +9.2% kr -20% | rinkoje 64%
+T10Y2Y C inversija + 18 mėn. po           +6.5% kr -34% |  +7.1% kr -28% |  +7.0% kr -20% | rinkoje 59%
+   T10Y2Y inversijų pabaigos (≥ 20 d. inversijos): [datetime.date(1980, 5, 2), datetime.date(1981, 10, 26), datetime.date(1982, 5, 20), datetime.date(1982, 7, 12), datetime.date(1989, 6, 30), datetime.date(1989, 9, 14), datetime.date(2000, 12, 27), datetime.date(2006, 3, 8), datetime.date(2007, 3, 21), datetime.date(2024, 8, 27)]
+T10Y3M A grynieji kai < 0                +10.7% kr -34% |  +1.3% kr -58% |  +9.2% kr -29% | rinkoje 90%
+T10Y3M B grynieji 12 mėn. po atsitiesimo  +8.8% kr -34% |  +3.5% kr -49% |  +7.6% kr -26% | rinkoje 74%
+T10Y3M C inversija + 12 mėn. po           +8.7% kr -34% |  +3.6% kr -49% |  +4.8% kr -26% | rinkoje 71%
+T10Y3M B grynieji 18 mėn. po atsitiesimo  +7.0% kr -34% |  +9.7% kr -19% |  +5.0% kr -25% | rinkoje 67%
+T10Y3M C inversija + 18 mėn. po           +6.9% kr -34% |  +9.8% kr -19% |  +3.6% kr -25% | rinkoje 65%
+   T10Y3M inversijų pabaigos (≥ 20 d. inversijos): [datetime.date(1989, 7, 5), datetime.date(1989, 8, 17), datetime.date(2001, 1, 22), datetime.date(2007, 5, 30), datetime.date(2019, 7, 23), datetime.date(2019, 10, 11), datetime.date(2024, 12, 13)]
