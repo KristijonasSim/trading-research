@@ -97,3 +97,8 @@ batchM47 Advanced_Ichimoku_4 btc_eth 5m 96.9 1.7 698 {"2021": 10.0, "2022": 232.
 batchM47 Advanced_Ichimoku_4 alts10 5m 302.2 1.6 6809 {"2021": 40.2, "2022": 651.3, "2023": 224.1, "2024": 438.7, "2025": 240.1, "2026": 68.2}
 batchM47 DONE
 batchM48 DONE
+batchM49 BSS2b alts10 5m 21.9 16.3 4312 {"2021": 1.4, "2022": 5.9, "2023": 61.8, "2024": 40.7, "2025": 7.3, "2026": 2.7}
+batchM49 DONE
+batchM50 DONE
+batchM51 DONE
+batchM52 DONE

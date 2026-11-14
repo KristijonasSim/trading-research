@@ -191,6 +191,13 @@ Patikros:
 - Ant 2 monetų – tiesiog „laikyk, kol 14 d. grąža teigiama“; panaši į MACDV/TrendVolTarget.
 - Šaltinis: Kblack0610/freqtrade_trading_attempt. Failas `best_strategies/XSMomentumRotation.py`.
 
+## 18. BSS2b (Freqtrade, altcoin'ai, 5m) – pridėta 2026-11-14
+- 2021–26 (alts10): **+21,9 %/m., kritimas 16,3 %**, 4312 sandorių (2021 +1, 2022 +6, 2023 +62, 2024 +41, 2025 +7, 2026 +3).
+- Nematytas 2018–21: top 10 +224 %/m. (kritimas 29 %), 2018 m. top 9 +130 %/m. – skaičiai išpūsti 2021 m. burbulo.
+- Lookahead 0/20; 1 min. detalumas 2020: +116 % → +80 % (~⅓ mažiau).
+- ⚠️ Balanso kritimas su atvirais sandoriais 38–43 % – rizikingiausia iš altcoin'ų sąrašo.
+- Šaltinis: remiotore/ccxt-freqtrade. Failas `best_strategies/BSS2b.py`.
+
 ## Potencialūs, bet rizikingi
 | Strategija | Rinka | %/m | Max kritimas | Kodėl ne pagrindiniame sąraše |
 |---|---|---|---|---|
@@ -215,6 +222,7 @@ Patikros:
 | TSMomentum | BTC+ETH spot, 1d | 16,8 | 13,4 % | Švari, 2018–21 +68 %/m., bet 2018 −36 %, 2021–22 minuse. Kblack0610 |
 
 ## Atmesti (kad netestuotume iš naujo)
+- Advanced_Ichimoku_4 (batchM47): +300 %/m. su 1,6 % kritimu – perrašo kainas Heikin-Ashi, netikra.
 - lambo2_5m: nematytame 2018–21 kritimas 38 %.
 - DivergenceStrategy (batchM32): argrelextrema per visą masyvą – žiūri į ateitį (kritimas 2,4 % per gerai, kad būtų tiesa).
 - ERMD_Strategy_risk (1d): 2023–24 +222 % virsta +8,6 % su 5 min. detalumu – rezultatas tik iš dienos žvakės iliuzijos.
