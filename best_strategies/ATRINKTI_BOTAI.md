@@ -139,7 +139,8 @@ Patikros:
 - Nematytas 2019-12 – 2021-04 (autorius optimizavo nuo 2021-04): **+69,8 %/m., kritimas 37 %**.
 - Jautrumas: ekspozicija 1,0 → +30,7 %/m. (34 %); 4 / 12 pozicijos → +25 % / +17 %, nematytame +103 % / +51 %.
 - Su 2021-11 top 20 monetų (įskaitant žlugusį FTT, be LUNA – nėra duomenų): +26,3 %/m., kritimas 24 %.
-- ⚠️ **Bybit duomenimis (ta pati konfigūracija, 2021–26): tik +11,3 %/m., kritimas 31 %, 2022 −21 %** (LTC −7,5k, LINK −2,4k vietoj +10,6k/+16,2k). Rezultatas jautrus biržos kainų keliui (dagčiai) – realistiškas lūkestis ~10–20 %/m.
+- **Rekomenduojama versija – 12 pozicijų (`--bot.long.risk.n_positions 12`)**: Binance +16,9 %/m. (kritimas 16 %, nematytas 2019-12 – 2021-04 +51 %), **Bybit +14,6 %/m., kritimas 14 %, kasmet pliuse** (2022 +11 %). Stabiliausia tarp biržų.
+- Bybit duomenimis 7 pozicijos (autoriaus): +11,3 %/m., kritimas 31 %, 2022 −21 %; 4 pozicijos: +10,2 %, kritimas 57 %. ⚠️ 7 poz. skirtumas nuo Binance – LTC −7,5k, LINK −2,4k vietoj +10,6k/+16,2k). Rezultatas jautrus biržos kainų keliui (dagčiai) – realistiškas lūkestis ~10–20 %/m.
 - Funding neįskaičiuotas, įvertis ±1–2 %/m. ⚠️ Martingale: kritimuose didina poziciją; 1,5 ekspozicija duoda +49 %/m., bet kritimas 51–73 %.
 - Aprašas ir skriptai `passivbot/REZULTATAI.md`; paleidimas – Docker `passivbot:stamped`.
 

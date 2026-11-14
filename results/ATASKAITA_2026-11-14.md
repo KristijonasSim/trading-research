@@ -14,7 +14,8 @@ Atmesta (be pranašumo arba neveikia po paskelbimo): MVRV, stablecoin emisija, N
 
 ## Passivbot martingale (nr. 11) – svarbi pataisa
 - Binance duomenimis 2021–26: +21,1 %/m., kritimas 25 %.
-- **Bybit duomenimis ta pati konfigūracija: +11,3 %/m., kritimas 31 %, 2022 −21 %.** Skirtumas – LTC ir LINK (kitokie dagčiai). Martingale rezultatas jautrus konkrečiam kainų keliui; kadangi demo būtų Bybit, realistiškas lūkestis ~10–20 %/m.
+- **Bybit duomenimis ta pati konfigūracija: +11,3 %/m., kritimas 31 %, 2022 −21 %.** Skirtumas – LTC ir LINK (kitokie dagčiai). Martingale rezultatas jautrus konkrečiam kainų keliui.
+- **12 pozicijų versija stabili abiejose biržose: Bybit +14,6 %/m., kritimas 14 %, kasmet pliuse (Binance +16,9 %, 16 %). Ją ir siūloma demo.**
 
 ## Dry-run (šis kompiuteris, 7 botai, `freqtrade/dryrun/`)
 Visi veikia. Per pirmas ~6 val. – 1 sandoris (FundingContrarian −0,89 USDT); rinka krenta (FGI ~20), todėl trendo botai laukia.
