@@ -82,6 +82,7 @@ Patikros:
 - ✅ Nematytas 2018–2021: +89,9 %/m., visi metai pliuse (+37, +30, +52, +341 %), kritimas 39 %.
 - ✅ Su 1m detalumu (2026-11-13, `config_spot_market.json`): 2022 −0,3 % (vietoj −9,5), 2023 +31,2 (+29,2), 2024 +85,3 (+88,8), 2025 +31,1 (+20,4). Nepablogėja.
 - ⚠️ 2022 ir 2026 minuse, didžioji pelno dalis – 2024. Balanso kritimas iki 37 % – didesnis nei EI3v2.
+- ✅ Išgyvenusiųjų patikra (2021-11 top 20 su LUNA, FTT): +19,4 %/m., balanso kritimas 40 %.
 
 ## 5. MACDVStrategy (Freqtrade, BTC+ETH, 1d) – pridėta 2026-11-13
 - Failas: `MACDVStrategy.py`. Šaltinis: github.com/thino-dev/Freqtrade_Strategies.
@@ -115,6 +116,7 @@ Patikros:
 - Nematytas 2018–21: dabartinis top 10 +63 %/m. (kritimas 12 %), **2018 m. top 9 +51 %/m. (kritimas 18 %)**.
 - Su 1 min. detalumu (2020): +49 % → +39 %. Lookahead 0/20.
 - ✅ 1m detalumas 2022–25 (2026-11-14, metai atskirai, none → 1m): 2022 +10,1 → +11,5; 2023 +15,6 → +18,9; 2024 +9,7 → +3,8; 2025 +35,7 → +43,8 %. 2026: −0,6 → −1,0 %.
+- ⚠️ Išgyvenusiųjų patikra (2021-11 top 20 su LUNA, FTT): +10,1 %/m., balanso kritimas 33 % – žemiau 14 % ribos (`freqtrade/results/pit/REZULTATAI.md`).
 - Šaltinis: thinkong/freqtradestrategies. Failas `best_strategies/abbas.py`.
 
 ## 9. NASMAO (Freqtrade, altcoin'ai, 5m) – pridėta 2026-11-14
@@ -123,6 +125,7 @@ Patikros:
 - Su 1 min. detalumu (2020): +34 % → +28 %. Lookahead 0/20.
 - ✅ 1m detalumas 2022–25: 2022 −1,9 → −0,4; 2023 +15,8 → +15,8; 2024 +24,7 → +26,1; 2025 +48,8 → +33,2 %. 2026: −0,3 → −0,3 %.
 - ⚠️ Giminingas NASOSv5_mod3 (nr. 3), signalai gali sutapti.
+- ⚠️ Išgyvenusiųjų patikra (2021-11 top 20): +14,2 %/m., balanso kritimas 39 %.
 - Šaltinis: flessner/freqtrade-stuff. Failas `best_strategies/NASMAO.py`.
 
 ## 10. SMAO (Freqtrade, altcoin'ai, 5m) – pridėta 2026-11-14
@@ -131,6 +134,7 @@ Patikros:
 - Su 1 min. detalumu (2020): nepakito (+70 %). Lookahead 0/20.
 - ✅ 1m detalumas 2022–25: 2022 −2,2 → −1,9; 2023 +54,4 → +54,4; 2024 +27,9 → +27,6; 2025 −8,5 → +36,0 % (kelias jautrus vykdymui).
 - ⚠️ Didžiausi kritimai iš šių trijų.
+- ❌ Išgyvenusiųjų patikra (2021-11 top 20): tik +9,9 %/m., balanso kritimas 40 %.
 - Šaltinis: flessner/freqtrade-stuff. Failas `best_strategies/SMAO.py`.
 
 ## 11. Passivbot trailing martingale (TWEL 0,75; BTC, ETH + alts10, futures) – pridėta 2026-11-14
