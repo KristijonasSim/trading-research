@@ -292,3 +292,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 2026-11-14: #77 YouTube klasika (5 indikatoriai × 3 laiko rėmai) atmesta.
 - 2026-11-14: #78 funding skirtumo arbitražas Binance↔Bybit atmesta.
 - 2026-11-14: #79 BTC ir M2 su vėlavimu atmesta.
+- 2026-11-14: #80 naujų listingų short atmesta (mediana po metų −62 %, bet uodegos sunaikina short); naudinga kaip filtras.

@@ -1,0 +1,18 @@
+  m = ((age >= a) & (age < b)).shift(1).fillna(False)
+  m = ((age >= a) & (age < b)).shift(1).fillna(False)
+  m = ((age >= a) & (age < b)).shift(1).fillna(False)
+  m = ((age >= a) & (age < b)).shift(1).fillna(False)
+listingų: 676
+vid. kumuliatyvi grąža nuo 2-os dienos (mediana per monetas) ir perteklinė prieš BTC:
+    7 d.: mediana   -8.0 %, vid.   -5.4 %, perteklinė mediana   -9.6 %, n=676
+   30 d.: mediana  -18.8 %, vid.   -5.7 %, perteklinė mediana  -19.3 %, n=672
+   90 d.: mediana  -28.9 %, vid.   -5.2 %, perteklinė mediana  -38.0 %, n=644
+  180 d.: mediana  -46.2 %, vid.  +21.3 %, perteklinė mediana  -53.9 %, n=567
+  365 d.: mediana  -62.2 %, vid. +246.7 %, perteklinė mediana  -68.4 %, n=535
+
+periodai: 2019–21 | 2022–23 | 2024–26
+BTC laikyti                      +134.2% kr  -63% |   -2.2% kr  -67% |  +18.5% kr  -53%
+amžius   2– 30 d.: long  -66.3% kr  -99% |  -83.0% kr  -99% |  -88.6% kr -100% | short  -45.6% kr  -96% |  -39.0% kr  -87% |  +95.4% kr  -78% | short+BTC long +115.9% kr  -71% |  -12.8% kr  -90% | +192.8% kr  -73% | vid. monetų 6
+amžius   7– 60 d.: long   +3.0% kr  -80% |  -45.0% kr  -90% |  -72.4% kr  -99% | short  -69.7% kr  -99% |  -52.7% kr  -89% |  +40.9% kr  -69% | short+BTC long  +20.3% kr  -78% |  -29.5% kr  -76% | +113.0% kr  -46% | vid. monetų 12
+amžius   7– 90 d.: long  +21.4% kr  -80% |  -51.8% kr  -92% |  -72.2% kr  -99% | short  -70.8% kr  -99% |  -26.5% kr  -80% |  +56.6% kr  -64% | short+BTC long  +15.4% kr  -76% |   +6.5% kr  -56% | +139.3% kr  -47% | vid. monetų 19
+amžius  30–180 d.: long  +98.5% kr  -76% |  -29.8% kr  -83% |  -60.8% kr  -96% | short  -80.4% kr -100% |  -33.5% kr  -83% |  +27.6% kr  -66% | short+BTC long  -22.4% kr  -89% |   -6.5% kr  -70% |  +96.8% kr  -33% | vid. monetų 32

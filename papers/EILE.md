@@ -84,3 +84,4 @@ Kripto duomenys: Binance (spot/futures, 1h/1d, visos USDT poros su istorija). Ak
 | 77 | YouTube klasika: MACD+200EMA (1,5R), Stoch RSI trendas, Williams Alligator, Heikin Ashi+EMA50, EMA 9/21 | kripto | ❌ atmesta (2022–26 visi −50…+11 %/m.) → `77_youtube_classics/REZULTATAI.md` |
 | 78 | Funding skirtumo arbitražas Binance ↔ Bybit (12 monetų) | kripto | ❌ atmesta (skirtumas 0,5–1 bp/8 h < kaštai; geriausia +0,6 %/m.) → `78_funding_xex/REZULTATAI.md` |
 | 79 | „BTC seka M2 su 10 sav. vėlavimu“ (JAV ir JAV+EZ+JP M2) | kripto | ❌ atmesta (vėlavimas blogina; 2024–26 nelenkia SMA200) → `79_m2_btc/REZULTATAI.md` |
+| 80 | Naujų Binance listingų nuosmukis (short naujų monetų) | kripto | ❌ atmesta kaip strategija (short tik 2024–26, anksčiau −46…−80 %/m.); ⚠️ filtras: vengti monetų < 90–180 d. → `80_new_listings/REZULTATAI.md` |
