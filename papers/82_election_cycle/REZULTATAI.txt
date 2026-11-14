@@ -1,0 +1,12 @@
+vidutinė metų grąža pagal kadencijos metus (1929–1975 | 1976–2003 | 2004–2025):
+  po rinkimų          -0.0% (n=12) |   +8.2% (n=7) |  +19.8% (n=6)
+  vidurio             +3.5% (n=12) |   +3.7% (n=7) |   +2.4% (n=5)
+  priešrinkiminiai   +11.8% (n=12) |  +19.7% (n=7) |  +11.2% (n=5)
+  rinkimų             +5.4% (n=11) |  +10.5% (n=7) |   +5.5% (n=6)
+
+periodai: 1929–75 | 1976–2003 (po Hirsch 1968/Almanac) | 2004–26
+laikyti                                       +2.8% kr -86% |  +9.4% kr -49% |  +8.8% kr -57% | rinkoje 100%
+be vidurio kadencijos metų                    +2.5% kr -82% |  +8.6% kr -37% |  +8.1% kr -57% | rinkoje 75%
+tik priešrinkiminiai metai                    +1.9% kr -65% |  +4.5% kr -34% |  +2.1% kr -20% | rinkoje 24%
+vidurio metų spalis -> priešrinkiminių pabaiga  +3.4% kr -64% |  +6.1% kr -34% |  +2.5% kr -24% | rinkoje 31%
+vidurio spalis -> rinkimų metų pabaiga        +4.6% kr -77% |  +8.3% kr -34% |  +3.6% kr -52% | rinkoje 56%

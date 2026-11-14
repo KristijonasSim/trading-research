@@ -86,3 +86,4 @@ Kripto duomenys: Binance (spot/futures, 1h/1d, visos USDT poros su istorija). Ak
 | 79 | „BTC seka M2 su 10 sav. vėlavimu“ (JAV ir JAV+EZ+JP M2) | kripto | ❌ atmesta (vėlavimas blogina; 2024–26 nelenkia SMA200) → `79_m2_btc/REZULTATAI.md` |
 | 80 | Naujų Binance listingų nuosmukis (short naujų monetų) | kripto | ❌ atmesta kaip strategija (short tik 2024–26, anksčiau −46…−80 %/m.); ⚠️ filtras: vengti monetų < 90–180 d. → `80_new_listings/REZULTATAI.md` |
 | 81 | BTC halvingo ciklas (500 d. prieš – 550 d. po halvingo) | kripto | ⚠️ rizikingų sąraše: 2021–26 +54 %/m. (kritimas 53 %), zona +70…+112 %, bet tik 4 ciklai → `81_halving_cycle/REZULTATAI.md` |
+| 82 | Prezidento rinkimų ciklas (S&P 500 1929–2026) | akcijos | ❌ atmesta (priešrinkiminiai metai stiprūs, bet kaip strategija < laikymas) → `82_election_cycle/REZULTATAI.md` |
