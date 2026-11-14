@@ -324,3 +324,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 2026-11-14: išgyvenusiųjų patikra baigta (2021-11 top 20): EI3v2 +29,2, ckNSJT +19,4, NASOS +15,5, E0V1E +15,3, NASMAO +14,2, abbas +10,1, SMAO +9,9 %/m. → `freqtrade/results/pit/REZULTATAI.md`
 - 2026-11-14: visų atrinktų ir rizikingų strategijų 2026 m. rezultatai → `results/METAI_2026.md`
 - 2026-11-14 13:30 – BSS2b (batchM49) išlaikė patikras (2021–26 +21,9 %/m., 2018–21 top9 +130 %/m., lookahead 0/20, 1m detalumas −⅓), bet balanso kritimas iki 43 % → ATRINKTI_BOTAI.md su įspėjimu. Advanced_Ichimoku_4 atmesta (Heikin-Ashi perrašo OHLC).
+- 2026-11-14 12:53 – laiškas apie BSS2b išsiųstas (vienas kartas).
