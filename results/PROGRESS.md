@@ -327,3 +327,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 2026-11-14 12:53 – laiškas apie BSS2b išsiųstas (vienas kartas).
 - 2026-11-14: testai pristabdyti vartotojo prašymu (antras kompiuteris). Veikia tik 7 dry-run botai. Kitas žingsnis: išgyvenusiųjų patikra naujoms (DS_Green_5m, NS4_dca, NFI7HO2, BearBull3, BSS2b), straipsnis #102.
 - 2026-11-14 14:40 – batchM52–M56: CombinedBinHAndCluc_455 = CombinedBinHAndCluc2 kopija (tie patys skaičiai), DS_Green_5m_Bull – silpnesnė jau atrinktos DS_Green_5m atmaina; papildomai netikrinta.
+- 2026-11-14 16:40 – batchM57–M61 baigtos, kandidatų nėra.

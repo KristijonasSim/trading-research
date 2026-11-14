@@ -108,3 +108,8 @@ batchM54 DS_Green_5m_Bull alts10 5m 14.8 16.3 1079 {"2021": 8.2, "2022": -0.8, "
 batchM54 DONE
 batchM55 DONE
 batchM56 DONE
+batchM57 DONE
+batchM58 DONE
+batchM59 DONE
+batchM60 DONE
+batchM61 DONE
