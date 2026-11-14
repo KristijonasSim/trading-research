@@ -258,3 +258,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - FGI trendas ant alts10: +13…+23 %/m. (laikymas −14 %), kritimai 45–57 % – signalas veikia ir kitur.
 - Passivbot martingale jautrumas ✅: TWEL 1,0 +30,7 %; npos 4 +25,3 % (OOS +103 %); npos 12 +16,9 % (OOS +51 %).
 - #51 S2F / Rainbow ❌ → `papers/51_s2f_rainbow/`. Passivbot forward testui reikia Bybit demo raktų (kitas kompiuteris).
+- #52 Gap fade/go ETF ❌ → `papers/52_gap_fade/`.
