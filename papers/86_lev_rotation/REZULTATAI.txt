@@ -1,0 +1,9 @@
+periodai: 2005–12 | 2013–19 | 2020–26 (mėnesinis)
+TQQQ (sint.) laikyti          +0.8% kr -93% | +55.0% kr -48% | +30.9% kr -78%
+TMF (sint.) laikyti          +14.9% kr -58% |  +6.3% kr -46% | -24.8% kr -93%
+UGL (sint.) laikyti          +29.9% kr -50% |  -7.0% kr -65% | +21.1% kr -50%
+55/45 TQQQ/TMF (mėn.)        +17.5% kr -65% | +36.9% kr -27% |  +7.4% kr -75%
+rotacija 1 mėn.              +25.9% kr -59% |  +3.0% kr -63% | +18.3% kr -65%
+rotacija 3 mėn.              +30.0% kr -47% | +17.4% kr -63% | +19.8% kr -38%
+rotacija 6 mėn.               +6.7% kr -53% | +31.8% kr -45% | +17.5% kr -60%
+rotacija 1-3-6 vid.          +14.5% kr -62% | +27.7% kr -56% | +33.4% kr -32%
