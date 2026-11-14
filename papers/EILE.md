@@ -103,3 +103,4 @@ Kripto duomenys: Binance (spot/futures, 1h/1d, visos USDT poros su istorija). Ak
 | 96 | Amihud nelikvidumo rinkos laikas, BTC/ETH | kripto | ❌ atmesta (nelenkia SMA200, ETH nestabilu) → `96_amihud_timing/REZULTATAI.md` |
 | 97 | Akcijos → BTC vėlavimas (QQQ diena → BTC kitos 24 h) | kripto | ❌ atmesta (koreliacija ~0) → `97_spx_btc_leadlag/REZULTATAI.md` |
 | 98 | Shillerio CAPE / Excess CAPE Yield rinkos laikas (1881–2023) | akcijos | ❌ atmesta (1991–2023 +4…+8 %/m. prieš akcijų +10,5 %) → `98_cape/REZULTATAI.md` |
+| 99 | Dow teorija (DJI + DJT patvirtinimas) → SPY | akcijos | ❌ atmesta (blogiau už paprastą SPY > SMA200) → `99_dow_theory/REZULTATAI.md` |

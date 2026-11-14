@@ -314,3 +314,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 2026-11-14: atrinktų strategijų koreliacija/portfelis (results/portfolio/): 9 lygiais svoriais 2022–25 +23 %/m.; NASOS/NASMAO/abbas koreliacija 0,84–0,88 (ta pati strategija).
 - 2026-11-14: #97 QQQ→BTC vėlavimas atmesta.
 - 2026-11-14: #98 CAPE rinkos laikas atmesta.
+- 2026-11-14: #99 Dow teorija atmesta.
