@@ -325,3 +325,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 2026-11-14: visų atrinktų ir rizikingų strategijų 2026 m. rezultatai → `results/METAI_2026.md`
 - 2026-11-14 13:30 – BSS2b (batchM49) išlaikė patikras (2021–26 +21,9 %/m., 2018–21 top9 +130 %/m., lookahead 0/20, 1m detalumas −⅓), bet balanso kritimas iki 43 % → ATRINKTI_BOTAI.md su įspėjimu. Advanced_Ichimoku_4 atmesta (Heikin-Ashi perrašo OHLC).
 - 2026-11-14 12:53 – laiškas apie BSS2b išsiųstas (vienas kartas).
+- 2026-11-14: testai pristabdyti vartotojo prašymu (antras kompiuteris). Veikia tik 7 dry-run botai. Kitas žingsnis: išgyvenusiųjų patikra naujoms (DS_Green_5m, NS4_dca, NFI7HO2, BearBull3, BSS2b), straipsnis #102.
