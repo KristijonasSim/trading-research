@@ -264,3 +264,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 2026-11-14 04:41 – laiškas apie TrendVolTarget išsiųstas (vienas kartas).
 - 2026-11-14: Passivbot martingale (nr. 11) su Bybit duomenimis: +11,3 %/m., kritimas 31 %, 2022 −21 % (Binance +21,1 %). Jautrus biržos kainų keliui; įrašyta ATRINKTI_BOTAI ir passivbot/REZULTATAI.md.
 - 2026-11-14: #53 MVRV (Coin Metrics) BTC/ETH atmesta – ciklo variantas tik 8 sandoriai, trendo variantas ≈ kainos SMA, ETH neveikia.
+- 2026-11-14: #54 Coinbase premija – ⚠️ rizikingų sąraše (BTC/ETH +19 %/m. 2022–26, kritimas 31–37 %, bet slenksčio smailė ir pelnas 2024 m.).

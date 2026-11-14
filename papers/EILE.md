@@ -58,3 +58,4 @@ Kripto duomenys: Binance (spot/futures, 1h/1d, visos USDT poros su istorija). Ak
 | 51 | PlanB Stock-to-Flow ir Bitcoin Rainbow | kripto | ❌ atmesta (S2F modelis žlugo po 2021; Rainbow ≤ +7,5 %/m., kritimas 64–71 %) → `51_s2f_rainbow/REZULTATAI.md` |
 | 52 | Atidarymo tarpo prekyba ETF (gap fade / gap and go) | ETF | ❌ atmesta (visi variantai −17…+3 %/m.) → `52_gap_fade/REZULTATAI.md` |
 | 53 | MVRV ciklas ir MVRV trendas (Mahmudov, Puell 2018), BTC/ETH | kripto | ❌ atmesta (ciklas 8 sandoriai, nuo 2024 grynieji; trendas ≈ kainos SMA, ETH neveikia) → `53_mvrv/REZULTATAI.md` |
+| 54 | Coinbase premija (Coinbase vs Binance kaina), BTC/ETH 1h | kripto | ⚠️ signalas yra (išlieka su 2 h vėlavimu), bet slenksčio smailė, pelnas 2024 m., 2025 −21 % → `54_coinbase_premium/REZULTATAI.md` |
