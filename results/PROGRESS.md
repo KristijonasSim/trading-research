@@ -318,3 +318,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 2026-11-14: #100 kredito skirtumo rinkos laikas atmesta.
 - 2026-11-14: #101 infliacijos režimo rotacija atmesta.
 - 2026-11-14: išgyvenusiųjų patikra (2021-11 top 20 su LUNA/FTT): EI3v2 +29,2 %/m., NASOS +15,5 %, E0V1E_DCA3 +15,3 % – išlaiko, kritimai didesni (freqtrade/results/pit/REZULTATAI.md).
+- 2026-11-14 11:30 – batchM36/M39: DS_Green_5m, NS4_dca, NFI7HO2, BearBull3 (alts10) ir XSMomentumRotation (BTC+ETH) išlaikė visas patikras (2018–21, 2018 m. top 9, lookahead, 1m detalumas) → ATRINKTI_BOTAI.md. TSMomentum, CombinedBinHAndCluc2 – rizikingi; lambo2_5m atmesta. Logai: freqtrade/results/all_checks_M36*.out.

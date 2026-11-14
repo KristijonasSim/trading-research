@@ -86,3 +86,14 @@ batchM39 TSMomentum btc_eth 1d 16.8 13.4 79 {"2021": -15.4, "2022": -12.4, "2023
 batchM39 XSMomentumRotation btc_eth 1d 14.8 17.3 135 {"2021": -8.7, "2022": -1.3, "2023": 41.8, "2024": 14.2, "2025": 18.6, "2026": 15.0}
 batchM39 DONE
 batchM40 DONE
+batchM41 DONE
+batchM42 DONE
+batchM43 DONE
+batchM44 DONE
+batchM45 DONE
+batchM46 ClucHAnix_5m_7 alts10 5m 16.4 22.4 3325 {"2021": 1.3, "2022": 26.8, "2023": 32.6, "2024": 34.4, "2025": -10.6, "2026": 4.3}
+batchM46 DONE
+batchM47 Advanced_Ichimoku_4 btc_eth 5m 96.9 1.7 698 {"2021": 10.0, "2022": 232.0, "2023": 59.4, "2024": 64.6, "2025": 109.9, "2026": 46.9}
+batchM47 Advanced_Ichimoku_4 alts10 5m 302.2 1.6 6809 {"2021": 40.2, "2022": 651.3, "2023": 224.1, "2024": 438.7, "2025": 240.1, "2026": 68.2}
+batchM47 DONE
+batchM48 DONE

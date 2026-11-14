@@ -1,4 +1,17 @@
-XSMomentumRotation LA: │ XSMomentumRotation.py │ XSMomentumRotation │ No │ 20 │ 0 │ 0 │ │
-TSMomentum LA: │ TSMomentum.py │ TSMomentum │ No │ 20 │ 0 │ 0 │ │
 DS_Green_5m LA: │ DS_Green_5m.py │ DS_Green_5m │ No │ 20 │ 0 │ 0 │ │ 0
 DS_Green_5m 2020 plain: │ CAGR % │ 69.34% │ │ Absolute drawdown │ 263.736 USDT (14.01%) │ │ Absolute drawdown (wallet balance) │ 398.886 USDT (37.91%) │ 
+DS_Green_5m 2020 --timeframe-detail 1m: │ CAGR % │ 50.39% │ │ Absolute drawdown │ 315.824 USDT (17.86%) │ │ Absolute drawdown (wallet balance) │ 402.896 USDT (37.94%) │ 
+DS_Green_5m top9: │ CAGR % │ 55.19% │ │ Absolute drawdown │ 516.15 USDT (8.66%) │ │ Absolute drawdown (wallet balance) │ 1559.404 USDT (31.46%) │ 
+NS4_dca LA: │ NS4_dca.py │ NS4_dca │ No │ 20 │ 0 │ 0 │ │ 0
+NS4_dca 2020 plain: │ CAGR % │ 75.44% │ │ Absolute drawdown │ 111.416 USDT (10.48%) │ │ Absolute drawdown (wallet balance) │ 228.289 USDT (21.44%) │ 
+NS4_dca 2020 --timeframe-detail 1m: │ CAGR % │ 80.05% │ │ Absolute drawdown │ 110.512 USDT (10.41%) │ │ Absolute drawdown (wallet balance) │ 227.741 USDT (21.42%) │ 
+NS4_dca top9: │ CAGR % │ 68.88% │ │ Absolute drawdown │ 293.754 USDT (3.92%) │ │ Absolute drawdown (wallet balance) │ 2194.283 USDT (32.99%) │ 
+NFI7HO2 LA: │ NFI7HO2.py │ NFI7HO2 │ No │ 20 │ 0 │ 0 │ │ 0
+NFI7HO2 2020 plain: │ CAGR % │ 44.03% │ │ Absolute drawdown │ 102.713 USDT (9.81%) │ │ Absolute drawdown (wallet balance) │ 201.645 USDT (19.26%) │ 
+NFI7HO2 2020 --timeframe-detail 1m: │ CAGR % │ 33.84% │ │ Absolute drawdown │ 102.191 USDT (9.81%) │ │ Absolute drawdown (wallet balance) │ 198.482 USDT (19.05%) │ 
+NFI7HO2 top9: │ CAGR % │ 53.30% │ │ Absolute drawdown │ 356.527 USDT (8.39%) │ │ Absolute drawdown (wallet balance) │ 1088.457 USDT (25.68%) │ 
+BearBull3 LA: │ BearBull3.py │ BearBull3 │ No │ 20 │ 0 │ 0 │ │ 0
+BearBull3 2020 plain: │ CAGR % │ 40.82% │ │ Absolute drawdown │ 78.157 USDT (7.59%) │ │ Absolute drawdown (wallet balance) │ 110.414 USDT (7.72%) │ 
+BearBull3 2020 --timeframe-detail 1m: │ CAGR % │ 39.75% │ │ Absolute drawdown │ 106.854 USDT (7.38%) │ │ Absolute drawdown (wallet balance) │ 129.798 USDT (9.08%) │ 
+BearBull3 top9: │ CAGR % │ 56.12% │ │ Absolute drawdown │ 957.102 USDT (19.43%) │ │ Absolute drawdown (wallet balance) │ 1022.079 USDT (21.03%) │ 
+CHECKS_DONE

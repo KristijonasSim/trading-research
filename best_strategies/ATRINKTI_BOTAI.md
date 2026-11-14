@@ -152,6 +152,41 @@ Patikros:
 - ⚠️ Panaši idėja kaip MACDVStrategy ir Aberration (BTC+ETH trendas) – kartu nesudiversifikuoja.
 - Šaltinis: pedraumcosta/strategy-factory. Failas `best_strategies/TrendVolTarget.py`.
 
+## 13. DS_Green_5m (Freqtrade, altcoin'ai, 5m) – pridėta 2026-11-14
+- 2021–26: **+26,6 %/m., kritimas 6,7 % (2021 +7,5, 2022 +44, 2023 +12, 2024 +51, 2025 +24, 2026 +0,8)**.
+- Nematytas 2018–21: top 10 +99 %/m. (kritimas 3,4 %), **2018 m. top 9 +55 %/m.**.
+- Lookahead 0/20; 1 min. detalumas: 2020: +69 % → +50 %.
+- ⚠️ balanso kritimas (su atvirais sandoriais) iki 31–38 %.
+- Šaltinis: remiotore/ccxt-freqtrade. Failas `best_strategies/DS_Green_5m.py`.
+
+## 14. NS4_dca (Freqtrade, altcoin'ai, 5m) – pridėta 2026-11-14
+- 2021–26: **+17,1 %/m., kritimas 5,0 %, kasmet +10–22 %**.
+- Nematytas 2018–21: top 10 +79 %/m. (5,1 %), **2018 m. top 9 +69 %/m.**.
+- Lookahead 0/20; 1 min. detalumas: 2020: +75 % → +80 %.
+- ⚠️ DCA (perka papildomai krentant) – balanso kritimas iki 33 %.
+- Šaltinis: Danson77/Freqtrade_AIO_UI. Failas `best_strategies/NS4_dca.py`.
+
+## 15. NFI7HO2 (Freqtrade, altcoin'ai, 5m) – pridėta 2026-11-14
+- 2021–26: **+15,0 %/m., kritimas 3,8 % (2025 +0,7, 2026 +2,8)**.
+- Nematytas 2018–21: top 10 +73 %/m. (5,2 %), **2018 m. top 9 +53 %/m.**.
+- Lookahead 0/20; 1 min. detalumas: 2020: +44 % → +34 %.
+- ⚠️ NostalgiaForInfinity v7 atmaina; balanso kritimas iki 26 %.
+- Šaltinis: remiotore/ccxt-freqtrade. Failas `best_strategies/NFI7HO2.py`.
+
+## 16. BearBull3 (Freqtrade, altcoin'ai, 5m) – pridėta 2026-11-14
+- 2021–26: **+15,5 %/m., kritimas 9,4 %, kasmet pliuse**.
+- Nematytas 2018–21: top 10 +65 %/m. (21 %), **2018 m. top 9 +56 %/m.** (21 %).
+- Lookahead 0/20; 1 min. detalumas: 2020: +41 % → +40 %.
+- Mažiausias balanso kritimas iš šių (≤21 %).
+- Šaltinis: remiotore/ccxt-freqtrade. Failas `best_strategies/BearBull3.py`.
+
+## 17. XSMomentumRotation (Freqtrade, BTC+ETH, 1d) – pridėta 2026-11-14
+- 2021–26: **+14,8 %/m., kritimas 17,3 % (2022 −1,3 %)**.
+- Nematytas 2018–21: +66 %/m., kritimas 12,4 % (2018 −6 %).
+- Lookahead 0/20; 1 min. detalumas: dienos signalai.
+- Ant 2 monetų – tiesiog „laikyk, kol 14 d. grąža teigiama“; panaši į MACDV/TrendVolTarget.
+- Šaltinis: Kblack0610/freqtrade_trading_attempt. Failas `best_strategies/XSMomentumRotation.py`.
+
 ## Potencialūs, bet rizikingi
 | Strategija | Rinka | %/m | Max kritimas | Kodėl ne pagrindiniame sąraše |
 |---|---|---|---|---|
@@ -173,8 +208,10 @@ Patikros:
 | EI3v2_tag_cofi_green ant 3x ETF, 1d | 18 sintetinių 3x ETF (TQQQ, UPRO, NUGT, JNUG…) | 13,5 | 14,5 % | Žemiau 14 %; grafikas parinktas iš 4 bandytų. Kasmet teigiama. Žr. `etf3x/README.md`. |
 | FlashCrashScalper | alts10 spot, 5m | 19,4 | 28,5 % | Perka po staigaus −5 % kritimo, parduoda po 6 val. Švari (lookahead 0/20), 1m detalumas tas pats, 2018–21 +90 %/m., 2018 m. top 9 +41 %/m., bet kritimas 34–39 %. Autorius pats vadina eksperimentine; tikri užpildymai per griūtis blogesni. hassannazir2536/TrendRider |
 | CrashReversal | alts10 spot, 1h | 16,2 | 17,4 % | Perka po −8 % per 24 val., laiko 24 val. Švari, bet 2018–21 pelnas tik iš 2021 (2018, 2020 minuse), 2018 m. top 9 kritimas 57 %. |
+| TSMomentum | BTC+ETH spot, 1d | 16,8 | 13,4 % | Švari, 2018–21 +68 %/m., bet 2018 −36 %, 2021–22 minuse. Kblack0610 |
 
 ## Atmesti (kad netestuotume iš naujo)
+- lambo2_5m: nematytame 2018–21 kritimas 38 %.
 - DivergenceStrategy (batchM32): argrelextrema per visą masyvą – žiūri į ateitį (kritimas 2,4 % per gerai, kad būtų tiesa).
 - ERMD_Strategy_risk (1d): 2023–24 +222 % virsta +8,6 % su 5 min. detalumu – rezultatas tik iš dienos žvakės iliuzijos.
 - TheForce (batch50i, 15m): 0,1 % mokesčiu BTC+ETH +89 %/m., alts10 +362 %/m. (išlaiko ir 1m detalumą, lookahead 0/20), bet ~10 tūkst. sandorių/m. po +0,04 %. Su 0,15 % mokesčiu (realus slippage) BTC+ETH −55 %/m., kritimas 99 %. Netinka.

@@ -1,0 +1,1039 @@
+2026-11-14 09:18:40,369 - freqtrade - INFO - freqtrade 2026.7
+2026-11-14 09:18:40,506 - numexpr.utils - INFO - Note: NumExpr detected 28 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 16.
+2026-11-14 09:18:40,506 - numexpr.utils - INFO - NumExpr defaulting to 16 threads.
+2026-11-14 09:18:41,347 - freqtrade.configuration.load_config - INFO - Using config: /freqtrade/config.json ...
+2026-11-14 09:18:41,349 - freqtrade.loggers - INFO - Enabling colorized output.
+2026-11-14 09:18:41,349 - freqtrade.loggers - INFO - Logfile configured
+2026-11-14 09:18:41,350 - freqtrade.loggers - INFO - Verbosity set to 0
+2026-11-14 09:18:41,350 - freqtrade.configuration.configuration - INFO - Using additional Strategy lookup path: /freqtrade/user_data/strategies/validate50
+2026-11-14 09:18:41,350 - freqtrade.configuration.configuration - INFO - Parameter -i/--timeframe detected ... Using timeframe: 5m ...
+2026-11-14 09:18:41,350 - freqtrade.configuration.configuration - INFO - Parameter --max-open-trades detected, overriding max_open_trades to: 5 ...
+2026-11-14 09:18:41,351 - freqtrade.configuration.configuration - INFO - Parameter --timerange detected: 20250101-20250701 ...
+sudo: unable to resolve host 9270e879523c: Temporary failure in name resolution
+2026-11-14 09:18:41,420 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2026-11-14 09:18:41,427 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2026-11-14 09:18:41,427 - freqtrade.configuration.configuration - INFO - Using pairs ['XRP/USDT', 'BNB/USDT', 'SOL/USDT', 'DOGE/USDT', 'ADA/USDT', 'TRX/USDT', 'LINK/USDT', 'AVAX/USDT', 'LTC/USDT', 
+'DOT/USDT']
+2026-11-14 09:18:41,428 - freqtrade.configuration.configuration - INFO - Filter trades by timerange: 20250101-20250701
+2026-11-14 09:18:41,428 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2026-11-14 09:18:41,437 - freqtrade.exchange.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2026-11-14 09:18:41,438 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2026-11-14 09:18:41,440 - freqtrade.optimize.analysis.lookahead_helpers - INFO - Forced order_types to market orders.
+2026-11-14 09:18:41,440 - freqtrade.optimize.analysis.lookahead_helpers - INFO - Forced max_open_trades to -1 (same amount as there are pairs)
+2026-11-14 09:18:41,441 - freqtrade.optimize.analysis.lookahead_helpers - INFO - Dry run wallet was not set to 1 billion, pushing it up there just to avoid false positives
+2026-11-14 09:18:41,441 - freqtrade.optimize.analysis.lookahead_helpers - INFO - fixing stake_amount to 10k
+2026-11-14 09:18:41,554 - freqtrade.optimize.analysis.lookahead_helpers - INFO - Bias test of NFI7HO2.py started.
+2026-11-14 09:18:41,555 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2026-11-14 09:18:41,555 - freqtrade.exchange.exchange - INFO - Using CCXT 4.5.68
+2026-11-14 09:18:41,565 - freqtrade.exchange.exchange - INFO - Using Exchange "Binance"
+2026-11-14 09:18:41,841 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange class 'Binance' ...
+2026-11-14 09:18:41,866 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy NFI7HO2 from '/freqtrade/user_data/strategies/validate50/NFI7HO2.py'...
+2026-11-14 09:18:41,866 - freqtrade.strategy.hyper - INFO - Found no parameter file.
+2026-11-14 09:18:41,867 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'sell_profit_only' moved to 'exit_profit_only'.
+2026-11-14 09:18:41,867 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-14 09:18:41,867 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'ignore_roi_if_buy_signal' moved to 'ignore_roi_if_entry_signal'.
+2026-11-14 09:18:41,868 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'timeframe' with value from the configuration: 5m.
+2026-11-14 09:18:41,868 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'order_types' with value from the configuration: {'entry': 'market', 'exit': 'market', 'stoploss': 'market', 
+'stoploss_on_exchange': False}.
+2026-11-14 09:18:41,868 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value from the configuration: USDT.
+2026-11-14 09:18:41,868 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value from the configuration: 10000.
+2026-11-14 09:18:41,868 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'max_open_trades' with value from the configuration: -1.
+2026-11-14 09:18:41,868 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'0': 10}
+2026-11-14 09:18:41,869 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 5m
+2026-11-14 09:18:41,869 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.99
+2026-11-14 09:18:41,869 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2026-11-14 09:18:41,869 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive: 0.01
+2026-11-14 09:18:41,869 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.03
+2026-11-14 09:18:41,869 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: True
+2026-11-14 09:18:41,869 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2026-11-14 09:18:41,869 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2026-11-14 09:18:41,870 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'market', 'exit': 'market', 'stoploss': 'market', 'stoploss_on_exchange': False}
+2026-11-14 09:18:41,870 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'GTC', 'exit': 'GTC'}
+2026-11-14 09:18:41,870 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2026-11-14 09:18:41,870 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: 10000
+2026-11-14 09:18:41,870 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 400
+2026-11-14 09:18:41,870 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2026-11-14 09:18:41,870 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2026-11-14 09:18:41,871 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: True
+2026-11-14 09:18:41,871 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2026-11-14 09:18:41,871 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2026-11-14 09:18:41,871 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2026-11-14 09:18:41,871 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2026-11-14 09:18:41,871 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2026-11-14 09:18:41,871 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_open_trades: -1
+2026-11-14 09:18:41,872 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2026-11-14 09:18:41,874 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist StaticPairList from '/freqtrade/freqtrade/plugins/pairlist/StaticPairList.py'...
+2026-11-14 09:18:41,897 - freqtrade.optimize.backtesting - INFO - Using fee 0.1000% from config.
+2026-11-14 09:18:41,898 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_01_protection__close_above_ema_fast = False
+2026-11-14 09:18:41,898 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_01_protection__close_above_ema_fast_len = 200
+2026-11-14 09:18:41,898 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_01_protection__close_above_ema_slow = False
+2026-11-14 09:18:41,899 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_01_protection__close_above_ema_slow_len = 200
+2026-11-14 09:18:41,899 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_01_protection__ema_fast = False
+2026-11-14 09:18:41,899 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_01_protection__ema_fast_len = 26
+2026-11-14 09:18:41,899 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_01_protection__ema_slow = True
+2026-11-14 09:18:41,899 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_01_protection__ema_slow_len = 50
+2026-11-14 09:18:41,899 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_01_protection__safe_dips = True
+2026-11-14 09:18:41,899 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_01_protection__safe_dips_type = 10
+2026-11-14 09:18:41,900 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_01_protection__safe_pump = True
+2026-11-14 09:18:41,900 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_01_protection__safe_pump_period = 36
+2026-11-14 09:18:41,900 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_01_protection__safe_pump_type = loose
+2026-11-14 09:18:41,900 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_01_protection__sma200_1h_rising = False
+2026-11-14 09:18:41,900 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_01_protection__sma200_1h_rising_val = 20
+2026-11-14 09:18:41,900 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_01_protection__sma200_rising = True
+2026-11-14 09:18:41,900 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_01_protection__sma200_rising_val = 50
+2026-11-14 09:18:41,901 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_02_protection__close_above_ema_fast = False
+2026-11-14 09:18:41,901 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_02_protection__close_above_ema_fast_len = 200
+2026-11-14 09:18:41,901 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_02_protection__close_above_ema_slow = False
+2026-11-14 09:18:41,901 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_02_protection__close_above_ema_slow_len = 15
+2026-11-14 09:18:41,901 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_02_protection__ema_fast = False
+2026-11-14 09:18:41,901 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_02_protection__ema_fast_len = 50
+2026-11-14 09:18:41,901 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_02_protection__ema_slow = True
+2026-11-14 09:18:41,901 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_02_protection__ema_slow_len = 100
+2026-11-14 09:18:41,902 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_02_protection__safe_dips = True
+2026-11-14 09:18:41,902 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_02_protection__safe_dips_type = 100
+2026-11-14 09:18:41,902 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_02_protection__safe_pump = False
+2026-11-14 09:18:41,902 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_02_protection__safe_pump_period = 24
+2026-11-14 09:18:41,902 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_02_protection__safe_pump_type = strict
+2026-11-14 09:18:41,902 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_02_protection__sma200_1h_rising = False
+2026-11-14 09:18:41,902 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_02_protection__sma200_1h_rising_val = 50
+2026-11-14 09:18:41,902 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_02_protection__sma200_rising = False
+2026-11-14 09:18:41,903 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_02_protection__sma200_rising_val = 44
+2026-11-14 09:18:41,903 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_03_protection__close_above_ema_fast = False
+2026-11-14 09:18:41,903 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_03_protection__close_above_ema_fast_len = 200
+2026-11-14 09:18:41,903 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_03_protection__close_above_ema_slow = False
+2026-11-14 09:18:41,903 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_03_protection__close_above_ema_slow_len = 200
+2026-11-14 09:18:41,903 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_03_protection__ema_fast = True
+2026-11-14 09:18:41,903 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_03_protection__ema_fast_len = 100
+2026-11-14 09:18:41,904 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_03_protection__ema_slow = True
+2026-11-14 09:18:41,904 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_03_protection__ema_slow_len = 100
+2026-11-14 09:18:41,904 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_03_protection__safe_dips = False
+2026-11-14 09:18:41,904 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_03_protection__safe_dips_type = 10
+2026-11-14 09:18:41,904 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_03_protection__safe_pump = True
+2026-11-14 09:18:41,904 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_03_protection__safe_pump_period = 36
+2026-11-14 09:18:41,904 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_03_protection__safe_pump_type = loose
+2026-11-14 09:18:41,904 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_03_protection__sma200_1h_rising = False
+2026-11-14 09:18:41,905 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_03_protection__sma200_1h_rising_val = 50
+2026-11-14 09:18:41,905 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_03_protection__sma200_rising = False
+2026-11-14 09:18:41,905 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_03_protection__sma200_rising_val = 50
+2026-11-14 09:18:41,905 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_04_protection__close_above_ema_fast = False
+2026-11-14 09:18:41,905 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_04_protection__close_above_ema_fast_len = 26
+2026-11-14 09:18:41,905 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_04_protection__close_above_ema_slow = False
+2026-11-14 09:18:41,905 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_04_protection__close_above_ema_slow_len = 15
+2026-11-14 09:18:41,905 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_04_protection__ema_fast = False
+2026-11-14 09:18:41,906 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_04_protection__ema_fast_len = 50
+2026-11-14 09:18:41,906 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_04_protection__ema_slow = True
+2026-11-14 09:18:41,906 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_04_protection__ema_slow_len = 26
+2026-11-14 09:18:41,906 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_04_protection__safe_dips = True
+2026-11-14 09:18:41,906 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_04_protection__safe_dips_type = 50
+2026-11-14 09:18:41,906 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_04_protection__safe_pump = True
+2026-11-14 09:18:41,906 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_04_protection__safe_pump_period = 36
+2026-11-14 09:18:41,907 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_04_protection__safe_pump_type = strict
+2026-11-14 09:18:41,907 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_04_protection__sma200_1h_rising = False
+2026-11-14 09:18:41,907 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_04_protection__sma200_1h_rising_val = 44
+2026-11-14 09:18:41,907 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_04_protection__sma200_rising = True
+2026-11-14 09:18:41,907 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_04_protection__sma200_rising_val = 20
+2026-11-14 09:18:41,907 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_05_protection__close_above_ema_fast = False
+2026-11-14 09:18:41,907 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_05_protection__close_above_ema_fast_len = 50
+2026-11-14 09:18:41,907 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_05_protection__close_above_ema_slow = False
+2026-11-14 09:18:41,908 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_05_protection__close_above_ema_slow_len = 200
+2026-11-14 09:18:41,908 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_05_protection__ema_fast = True
+2026-11-14 09:18:41,908 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_05_protection__ema_fast_len = 100
+2026-11-14 09:18:41,908 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_05_protection__ema_slow = False
+2026-11-14 09:18:41,908 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_05_protection__ema_slow_len = 100
+2026-11-14 09:18:41,908 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_05_protection__safe_dips = True
+2026-11-14 09:18:41,908 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_05_protection__safe_dips_type = 50
+2026-11-14 09:18:41,908 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_05_protection__safe_pump = True
+2026-11-14 09:18:41,909 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_05_protection__safe_pump_period = 48
+2026-11-14 09:18:41,909 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_05_protection__safe_pump_type = strict
+2026-11-14 09:18:41,909 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_05_protection__sma200_1h_rising = False
+2026-11-14 09:18:41,909 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_05_protection__sma200_1h_rising_val = 44
+2026-11-14 09:18:41,909 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_05_protection__sma200_rising = False
+2026-11-14 09:18:41,909 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_05_protection__sma200_rising_val = 50
+2026-11-14 09:18:41,909 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_06_protection__close_above_ema_fast = False
+2026-11-14 09:18:41,910 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_06_protection__close_above_ema_fast_len = 200
+2026-11-14 09:18:41,910 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_06_protection__close_above_ema_slow = False
+2026-11-14 09:18:41,910 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_06_protection__close_above_ema_slow_len = 200
+2026-11-14 09:18:41,910 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_06_protection__ema_fast = False
+2026-11-14 09:18:41,910 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_06_protection__ema_fast_len = 50
+2026-11-14 09:18:41,910 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_06_protection__ema_slow = True
+2026-11-14 09:18:41,910 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_06_protection__ema_slow_len = 100
+2026-11-14 09:18:41,910 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_06_protection__safe_dips = True
+2026-11-14 09:18:41,911 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_06_protection__safe_dips_type = 50
+2026-11-14 09:18:41,911 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_06_protection__safe_pump = True
+2026-11-14 09:18:41,911 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_06_protection__safe_pump_period = 36
+2026-11-14 09:18:41,911 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_06_protection__safe_pump_type = strict
+2026-11-14 09:18:41,911 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_06_protection__sma200_1h_rising = False
+2026-11-14 09:18:41,911 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_06_protection__sma200_1h_rising_val = 50
+2026-11-14 09:18:41,911 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_06_protection__sma200_rising = False
+2026-11-14 09:18:41,912 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_06_protection__sma200_rising_val = 50
+2026-11-14 09:18:41,912 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_07_protection__close_above_ema_fast = False
+2026-11-14 09:18:41,912 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_07_protection__close_above_ema_fast_len = 200
+2026-11-14 09:18:41,912 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_07_protection__close_above_ema_slow = False
+2026-11-14 09:18:41,912 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_07_protection__close_above_ema_slow_len = 200
+2026-11-14 09:18:41,912 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_07_protection__ema_fast = True
+2026-11-14 09:18:41,912 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_07_protection__ema_fast_len = 100
+2026-11-14 09:18:41,912 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_07_protection__ema_slow = True
+2026-11-14 09:18:41,913 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_07_protection__ema_slow_len = 15
+2026-11-14 09:18:41,913 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_07_protection__safe_dips = False
+2026-11-14 09:18:41,913 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_07_protection__safe_dips_type = 50
+2026-11-14 09:18:41,913 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_07_protection__safe_pump = False
+2026-11-14 09:18:41,913 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_07_protection__safe_pump_period = 24
+2026-11-14 09:18:41,913 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_07_protection__safe_pump_type = normal
+2026-11-14 09:18:41,913 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_07_protection__sma200_1h_rising = False
+2026-11-14 09:18:41,914 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_07_protection__sma200_1h_rising_val = 50
+2026-11-14 09:18:41,914 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_07_protection__sma200_rising = False
+2026-11-14 09:18:41,914 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_07_protection__sma200_rising_val = 50
+2026-11-14 09:18:41,914 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_08_protection__close_above_ema_fast = False
+2026-11-14 09:18:41,914 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_08_protection__close_above_ema_fast_len = 200
+2026-11-14 09:18:41,914 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_08_protection__close_above_ema_slow = False
+2026-11-14 09:18:41,914 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_08_protection__close_above_ema_slow_len = 200
+2026-11-14 09:18:41,915 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_08_protection__ema_fast = False
+2026-11-14 09:18:41,915 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_08_protection__ema_fast_len = 50
+2026-11-14 09:18:41,915 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_08_protection__ema_slow = True
+2026-11-14 09:18:41,915 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_08_protection__ema_slow_len = 50
+2026-11-14 09:18:41,915 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_08_protection__safe_dips = True
+2026-11-14 09:18:41,915 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_08_protection__safe_dips_type = 100
+2026-11-14 09:18:41,915 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_08_protection__safe_pump = True
+2026-11-14 09:18:41,916 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_08_protection__safe_pump_period = 24
+2026-11-14 09:18:41,916 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_08_protection__safe_pump_type = loose
+2026-11-14 09:18:41,916 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_08_protection__sma200_1h_rising = False
+2026-11-14 09:18:41,916 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_08_protection__sma200_1h_rising_val = 50
+2026-11-14 09:18:41,916 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_08_protection__sma200_rising = False
+2026-11-14 09:18:41,916 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_08_protection__sma200_rising_val = 50
+2026-11-14 09:18:41,916 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_09_protection__close_above_ema_fast = False
+2026-11-14 09:18:41,916 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_09_protection__close_above_ema_fast_len = 200
+2026-11-14 09:18:41,917 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_09_protection__close_above_ema_slow = False
+2026-11-14 09:18:41,917 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_09_protection__close_above_ema_slow_len = 200
+2026-11-14 09:18:41,917 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_09_protection__ema_fast = True
+2026-11-14 09:18:41,917 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_09_protection__ema_fast_len = 100
+2026-11-14 09:18:41,917 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_09_protection__ema_slow = False
+2026-11-14 09:18:41,917 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_09_protection__ema_slow_len = 50
+2026-11-14 09:18:41,917 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_09_protection__safe_dips = False
+2026-11-14 09:18:41,917 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_09_protection__safe_dips_type = 10
+2026-11-14 09:18:41,918 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_09_protection__safe_pump = False
+2026-11-14 09:18:41,918 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_09_protection__safe_pump_period = 24
+2026-11-14 09:18:41,918 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_09_protection__safe_pump_type = normal
+2026-11-14 09:18:41,918 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_09_protection__sma200_1h_rising = False
+2026-11-14 09:18:41,918 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_09_protection__sma200_1h_rising_val = 50
+2026-11-14 09:18:41,918 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_09_protection__sma200_rising = False
+2026-11-14 09:18:41,918 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_09_protection__sma200_rising_val = 50
+2026-11-14 09:18:41,919 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_10_protection__close_above_ema_fast = False
+2026-11-14 09:18:41,919 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_10_protection__close_above_ema_fast_len = 200
+2026-11-14 09:18:41,919 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_10_protection__close_above_ema_slow = False
+2026-11-14 09:18:41,919 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_10_protection__close_above_ema_slow_len = 200
+2026-11-14 09:18:41,919 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_10_protection__ema_fast = False
+2026-11-14 09:18:41,919 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_10_protection__ema_fast_len = 50
+2026-11-14 09:18:41,919 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_10_protection__ema_slow = True
+2026-11-14 09:18:41,919 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_10_protection__ema_slow_len = 50
+2026-11-14 09:18:41,920 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_10_protection__safe_dips = True
+2026-11-14 09:18:41,920 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_10_protection__safe_dips_type = 100
+2026-11-14 09:18:41,920 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_10_protection__safe_pump = False
+2026-11-14 09:18:41,920 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_10_protection__safe_pump_period = 24
+2026-11-14 09:18:41,920 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_10_protection__safe_pump_type = normal
+2026-11-14 09:18:41,920 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_10_protection__sma200_1h_rising = False
+2026-11-14 09:18:41,920 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_10_protection__sma200_1h_rising_val = 24
+2026-11-14 09:18:41,921 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_10_protection__sma200_rising = False
+2026-11-14 09:18:41,921 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_10_protection__sma200_rising_val = 50
+2026-11-14 09:18:41,921 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_11_protection__close_above_ema_fast = False
+2026-11-14 09:18:41,921 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_11_protection__close_above_ema_fast_len = 20
+2026-11-14 09:18:41,921 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_11_protection__close_above_ema_slow = False
+2026-11-14 09:18:41,921 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_11_protection__close_above_ema_slow_len = 50
+2026-11-14 09:18:41,921 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_11_protection__ema_fast = False
+2026-11-14 09:18:41,921 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_11_protection__ema_fast_len = 26
+2026-11-14 09:18:41,922 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_11_protection__ema_slow = False
+2026-11-14 09:18:41,922 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_11_protection__ema_slow_len = 50
+2026-11-14 09:18:41,922 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_11_protection__safe_dips = False
+2026-11-14 09:18:41,922 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_11_protection__safe_dips_type = 50
+2026-11-14 09:18:41,922 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_11_protection__safe_pump = True
+2026-11-14 09:18:41,922 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_11_protection__safe_pump_period = 36
+2026-11-14 09:18:41,922 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_11_protection__safe_pump_type = strict
+2026-11-14 09:18:41,922 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_11_protection__sma200_1h_rising = False
+2026-11-14 09:18:41,923 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_11_protection__sma200_1h_rising_val = 44
+2026-11-14 09:18:41,923 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_11_protection__sma200_rising = False
+2026-11-14 09:18:41,923 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_11_protection__sma200_rising_val = 50
+2026-11-14 09:18:41,923 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_12_protection__close_above_ema_fast = False
+2026-11-14 09:18:41,923 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_12_protection__close_above_ema_fast_len = 200
+2026-11-14 09:18:41,923 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_12_protection__close_above_ema_slow = False
+2026-11-14 09:18:41,923 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_12_protection__close_above_ema_slow_len = 200
+2026-11-14 09:18:41,924 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_12_protection__ema_fast = False
+2026-11-14 09:18:41,924 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_12_protection__ema_fast_len = 50
+2026-11-14 09:18:41,924 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_12_protection__ema_slow = False
+2026-11-14 09:18:41,924 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_12_protection__ema_slow_len = 50
+2026-11-14 09:18:41,924 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_12_protection__safe_dips = False
+2026-11-14 09:18:41,924 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_12_protection__safe_dips_type = 100
+2026-11-14 09:18:41,924 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_12_protection__safe_pump = False
+2026-11-14 09:18:41,924 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_12_protection__safe_pump_period = 24
+2026-11-14 09:18:41,925 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_12_protection__safe_pump_type = normal
+2026-11-14 09:18:41,925 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_12_protection__sma200_1h_rising = True
+2026-11-14 09:18:41,925 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_12_protection__sma200_1h_rising_val = 24
+2026-11-14 09:18:41,925 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_12_protection__sma200_rising = False
+2026-11-14 09:18:41,925 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_12_protection__sma200_rising_val = 50
+2026-11-14 09:18:41,925 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_13_protection__close_above_ema_fast = False
+2026-11-14 09:18:41,925 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_13_protection__close_above_ema_fast_len = 200
+2026-11-14 09:18:41,926 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_13_protection__close_above_ema_slow = False
+2026-11-14 09:18:41,926 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_13_protection__close_above_ema_slow_len = 200
+2026-11-14 09:18:41,926 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_13_protection__ema_fast = False
+2026-11-14 09:18:41,926 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_13_protection__ema_fast_len = 50
+2026-11-14 09:18:41,926 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_13_protection__ema_slow = False
+2026-11-14 09:18:41,926 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_13_protection__ema_slow_len = 50
+2026-11-14 09:18:41,926 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_13_protection__safe_dips = True
+2026-11-14 09:18:41,926 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_13_protection__safe_dips_type = 10
+2026-11-14 09:18:41,927 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_13_protection__safe_pump = False
+2026-11-14 09:18:41,927 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_13_protection__safe_pump_period = 24
+2026-11-14 09:18:41,927 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_13_protection__safe_pump_type = normal
+2026-11-14 09:18:41,927 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_13_protection__sma200_1h_rising = True
+2026-11-14 09:18:41,927 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_13_protection__sma200_1h_rising_val = 24
+2026-11-14 09:18:41,927 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_13_protection__sma200_rising = False
+2026-11-14 09:18:41,927 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_13_protection__sma200_rising_val = 50
+2026-11-14 09:18:41,927 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_14_protection__close_above_ema_fast = False
+2026-11-14 09:18:41,928 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_14_protection__close_above_ema_fast_len = 26
+2026-11-14 09:18:41,928 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_14_protection__close_above_ema_slow = False
+2026-11-14 09:18:41,928 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_14_protection__close_above_ema_slow_len = 50
+2026-11-14 09:18:41,928 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_14_protection__ema_fast = False
+2026-11-14 09:18:41,928 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_14_protection__ema_fast_len = 100
+2026-11-14 09:18:41,928 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_14_protection__ema_slow = False
+2026-11-14 09:18:41,928 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_14_protection__ema_slow_len = 100
+2026-11-14 09:18:41,928 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_14_protection__safe_dips = True
+2026-11-14 09:18:41,929 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_14_protection__safe_dips_type = 50
+2026-11-14 09:18:41,929 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_14_protection__safe_pump = True
+2026-11-14 09:18:41,929 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_14_protection__safe_pump_period = 24
+2026-11-14 09:18:41,929 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_14_protection__safe_pump_type = loose
+2026-11-14 09:18:41,929 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_14_protection__sma200_1h_rising = True
+2026-11-14 09:18:41,929 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_14_protection__sma200_1h_rising_val = 30
+2026-11-14 09:18:41,929 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_14_protection__sma200_rising = True
+2026-11-14 09:18:41,929 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_14_protection__sma200_rising_val = 36
+2026-11-14 09:18:41,930 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_15_protection__close_above_ema_fast = False
+2026-11-14 09:18:41,930 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_15_protection__close_above_ema_fast_len = 50
+2026-11-14 09:18:41,930 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_15_protection__close_above_ema_slow = False
+2026-11-14 09:18:41,930 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_15_protection__close_above_ema_slow_len = 15
+2026-11-14 09:18:41,930 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_15_protection__ema_fast = False
+2026-11-14 09:18:41,930 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_15_protection__ema_fast_len = 200
+2026-11-14 09:18:41,930 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_15_protection__ema_slow = True
+2026-11-14 09:18:41,931 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_15_protection__ema_slow_len = 200
+2026-11-14 09:18:41,931 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_15_protection__safe_dips = True
+2026-11-14 09:18:41,931 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_15_protection__safe_dips_type = 50
+2026-11-14 09:18:41,931 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_15_protection__safe_pump = True
+2026-11-14 09:18:41,931 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_15_protection__safe_pump_period = 48
+2026-11-14 09:18:41,931 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_15_protection__safe_pump_type = loose
+2026-11-14 09:18:41,931 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_15_protection__sma200_1h_rising = False
+2026-11-14 09:18:41,931 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_15_protection__sma200_1h_rising_val = 36
+2026-11-14 09:18:41,932 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_15_protection__sma200_rising = False
+2026-11-14 09:18:41,932 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_15_protection__sma200_rising_val = 36
+2026-11-14 09:18:41,932 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_16_protection__close_above_ema_fast = False
+2026-11-14 09:18:41,932 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_16_protection__close_above_ema_fast_len = 200
+2026-11-14 09:18:41,932 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_16_protection__close_above_ema_slow = False
+2026-11-14 09:18:41,932 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_16_protection__close_above_ema_slow_len = 50
+2026-11-14 09:18:41,932 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_16_protection__ema_fast = False
+2026-11-14 09:18:41,932 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_16_protection__ema_fast_len = 50
+2026-11-14 09:18:41,933 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_16_protection__ema_slow = True
+2026-11-14 09:18:41,933 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_16_protection__ema_slow_len = 50
+2026-11-14 09:18:41,933 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_16_protection__safe_dips = True
+2026-11-14 09:18:41,933 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_16_protection__safe_dips_type = 10
+2026-11-14 09:18:41,933 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_16_protection__safe_pump = True
+2026-11-14 09:18:41,933 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_16_protection__safe_pump_period = 24
+2026-11-14 09:18:41,933 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_16_protection__safe_pump_type = strict
+2026-11-14 09:18:41,934 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_16_protection__sma200_1h_rising = False
+2026-11-14 09:18:41,934 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_16_protection__sma200_1h_rising_val = 50
+2026-11-14 09:18:41,934 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_16_protection__sma200_rising = False
+2026-11-14 09:18:41,934 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_16_protection__sma200_rising_val = 50
+2026-11-14 09:18:41,934 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_17_protection__close_above_ema_fast = False
+2026-11-14 09:18:41,934 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_17_protection__close_above_ema_fast_len = 50
+2026-11-14 09:18:41,934 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_17_protection__close_above_ema_slow = False
+2026-11-14 09:18:41,934 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_17_protection__close_above_ema_slow_len = 15
+2026-11-14 09:18:41,935 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_17_protection__ema_fast = False
+2026-11-14 09:18:41,935 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_17_protection__ema_fast_len = 26
+2026-11-14 09:18:41,935 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_17_protection__ema_slow = False
+2026-11-14 09:18:41,935 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_17_protection__ema_slow_len = 200
+2026-11-14 09:18:41,935 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_17_protection__safe_dips = True
+2026-11-14 09:18:41,936 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_17_protection__safe_dips_type = 100
+2026-11-14 09:18:41,936 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_17_protection__safe_pump = True
+2026-11-14 09:18:41,936 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_17_protection__safe_pump_period = 24
+2026-11-14 09:18:41,936 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_17_protection__safe_pump_type = loose
+2026-11-14 09:18:41,936 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_17_protection__sma200_1h_rising = False
+2026-11-14 09:18:41,936 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_17_protection__sma200_1h_rising_val = 20
+2026-11-14 09:18:41,937 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_17_protection__sma200_rising = False
+2026-11-14 09:18:41,937 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_17_protection__sma200_rising_val = 44
+2026-11-14 09:18:41,937 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_18_protection__close_above_ema_fast = False
+2026-11-14 09:18:41,937 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_18_protection__close_above_ema_fast_len = 200
+2026-11-14 09:18:41,937 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_18_protection__close_above_ema_slow = True
+2026-11-14 09:18:41,937 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_18_protection__close_above_ema_slow_len = 200
+2026-11-14 09:18:41,937 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_18_protection__ema_fast = True
+2026-11-14 09:18:41,937 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_18_protection__ema_fast_len = 100
+2026-11-14 09:18:41,938 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_18_protection__ema_slow = True
+2026-11-14 09:18:41,938 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_18_protection__ema_slow_len = 50
+2026-11-14 09:18:41,938 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_18_protection__safe_dips = True
+2026-11-14 09:18:41,938 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_18_protection__safe_dips_type = 50
+2026-11-14 09:18:41,938 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_18_protection__safe_pump = True
+2026-11-14 09:18:41,938 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_18_protection__safe_pump_period = 24
+2026-11-14 09:18:41,938 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_18_protection__safe_pump_type = strict
+2026-11-14 09:18:41,939 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_18_protection__sma200_1h_rising = True
+2026-11-14 09:18:41,939 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_18_protection__sma200_1h_rising_val = 72
+2026-11-14 09:18:41,939 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_18_protection__sma200_rising = True
+2026-11-14 09:18:41,939 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_18_protection__sma200_rising_val = 44
+2026-11-14 09:18:41,939 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_19_protection__close_above_ema_fast = False
+2026-11-14 09:18:41,939 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_19_protection__close_above_ema_fast_len = 200
+2026-11-14 09:18:41,939 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_19_protection__close_above_ema_slow = False
+2026-11-14 09:18:41,940 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_19_protection__close_above_ema_slow_len = 200
+2026-11-14 09:18:41,940 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_19_protection__ema_fast = False
+2026-11-14 09:18:41,940 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_19_protection__ema_fast_len = 50
+2026-11-14 09:18:41,940 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_19_protection__ema_slow = True
+2026-11-14 09:18:41,940 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_19_protection__ema_slow_len = 100
+2026-11-14 09:18:41,940 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_19_protection__safe_dips = True
+2026-11-14 09:18:41,940 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_19_protection__safe_dips_type = 50
+2026-11-14 09:18:41,940 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_19_protection__safe_pump = True
+2026-11-14 09:18:41,941 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_19_protection__safe_pump_period = 24
+2026-11-14 09:18:41,941 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_19_protection__safe_pump_type = normal
+2026-11-14 09:18:41,941 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_19_protection__sma200_1h_rising = False
+2026-11-14 09:18:41,941 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_19_protection__sma200_1h_rising_val = 50
+2026-11-14 09:18:41,941 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_19_protection__sma200_rising = True
+2026-11-14 09:18:41,941 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_19_protection__sma200_rising_val = 36
+2026-11-14 09:18:41,941 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_20_protection__close_above_ema_fast = False
+2026-11-14 09:18:41,942 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_20_protection__close_above_ema_fast_len = 50
+2026-11-14 09:18:41,942 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_20_protection__close_above_ema_slow = False
+2026-11-14 09:18:41,942 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_20_protection__close_above_ema_slow_len = 200
+2026-11-14 09:18:41,942 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_20_protection__ema_fast = False
+2026-11-14 09:18:41,942 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_20_protection__ema_fast_len = 200
+2026-11-14 09:18:41,942 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_20_protection__ema_slow = True
+2026-11-14 09:18:41,942 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_20_protection__ema_slow_len = 100
+2026-11-14 09:18:41,942 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_20_protection__safe_dips = False
+2026-11-14 09:18:41,943 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_20_protection__safe_dips_type = 50
+2026-11-14 09:18:41,943 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_20_protection__safe_pump = False
+2026-11-14 09:18:41,943 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_20_protection__safe_pump_period = 48
+2026-11-14 09:18:41,943 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_20_protection__safe_pump_type = loose
+2026-11-14 09:18:41,943 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_20_protection__sma200_1h_rising = False
+2026-11-14 09:18:41,943 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_20_protection__sma200_1h_rising_val = 20
+2026-11-14 09:18:41,943 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_20_protection__sma200_rising = False
+2026-11-14 09:18:41,944 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_20_protection__sma200_rising_val = 30
+2026-11-14 09:18:41,944 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_21_protection__close_above_ema_fast = False
+2026-11-14 09:18:41,944 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_21_protection__close_above_ema_fast_len = 100
+2026-11-14 09:18:41,944 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_21_protection__close_above_ema_slow = False
+2026-11-14 09:18:41,944 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_21_protection__close_above_ema_slow_len = 50
+2026-11-14 09:18:41,944 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_21_protection__ema_fast = False
+2026-11-14 09:18:41,944 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_21_protection__ema_fast_len = 200
+2026-11-14 09:18:41,944 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_21_protection__ema_slow = True
+2026-11-14 09:18:41,945 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_21_protection__ema_slow_len = 100
+2026-11-14 09:18:41,945 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_21_protection__safe_dips = True
+2026-11-14 09:18:41,945 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_21_protection__safe_dips_type = 10
+2026-11-14 09:18:41,945 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_21_protection__safe_pump = False
+2026-11-14 09:18:41,945 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_21_protection__safe_pump_period = 36
+2026-11-14 09:18:41,945 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_21_protection__safe_pump_type = loose
+2026-11-14 09:18:41,945 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_21_protection__sma200_1h_rising = False
+2026-11-14 09:18:41,946 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_21_protection__sma200_1h_rising_val = 36
+2026-11-14 09:18:41,946 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_21_protection__sma200_rising = False
+2026-11-14 09:18:41,946 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_21_protection__sma200_rising_val = 44
+2026-11-14 09:18:41,946 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_22_protection__close_above_ema_fast = False
+2026-11-14 09:18:41,946 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_22_protection__close_above_ema_fast_len = 200
+2026-11-14 09:18:41,946 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_22_protection__close_above_ema_slow = False
+2026-11-14 09:18:41,946 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_22_protection__close_above_ema_slow_len = 200
+2026-11-14 09:18:41,946 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_22_protection__ema_fast = False
+2026-11-14 09:18:41,947 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_22_protection__ema_fast_len = 50
+2026-11-14 09:18:41,947 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_22_protection__ema_slow = False
+2026-11-14 09:18:41,947 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_22_protection__ema_slow_len = 50
+2026-11-14 09:18:41,947 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_22_protection__safe_dips = False
+2026-11-14 09:18:41,947 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_22_protection__safe_dips_type = 10
+2026-11-14 09:18:41,947 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_22_protection__safe_pump = False
+2026-11-14 09:18:41,947 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_22_protection__safe_pump_period = 24
+2026-11-14 09:18:41,947 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_22_protection__safe_pump_type = normal
+2026-11-14 09:18:41,948 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_22_protection__sma200_1h_rising = False
+2026-11-14 09:18:41,948 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_22_protection__sma200_1h_rising_val = 50
+2026-11-14 09:18:41,948 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_22_protection__sma200_rising = False
+2026-11-14 09:18:41,948 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_22_protection__sma200_rising_val = 50
+2026-11-14 09:18:41,948 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_23_protection__close_above_ema_fast = True
+2026-11-14 09:18:41,948 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_23_protection__close_above_ema_fast_len = 200
+2026-11-14 09:18:41,948 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_23_protection__close_above_ema_slow = True
+2026-11-14 09:18:41,948 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_23_protection__close_above_ema_slow_len = 50
+2026-11-14 09:18:41,949 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_23_protection__ema_fast = False
+2026-11-14 09:18:41,949 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_23_protection__ema_fast_len = 50
+2026-11-14 09:18:41,949 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_23_protection__ema_slow = False
+2026-11-14 09:18:41,949 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_23_protection__ema_slow_len = 50
+2026-11-14 09:18:41,949 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_23_protection__safe_dips = True
+2026-11-14 09:18:41,949 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_23_protection__safe_dips_type = 100
+2026-11-14 09:18:41,949 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_23_protection__safe_pump = False
+2026-11-14 09:18:41,949 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_23_protection__safe_pump_period = 48
+2026-11-14 09:18:41,950 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_23_protection__safe_pump_type = loose
+2026-11-14 09:18:41,950 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_23_protection__sma200_1h_rising = False
+2026-11-14 09:18:41,950 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_23_protection__sma200_1h_rising_val = 50
+2026-11-14 09:18:41,950 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_23_protection__sma200_rising = False
+2026-11-14 09:18:41,950 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_23_protection__sma200_rising_val = 50
+2026-11-14 09:18:41,950 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_24_protection__close_above_ema_fast = False
+2026-11-14 09:18:41,950 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_24_protection__close_above_ema_fast_len = 100
+2026-11-14 09:18:41,951 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_24_protection__close_above_ema_slow = False
+2026-11-14 09:18:41,951 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_24_protection__close_above_ema_slow_len = 50
+2026-11-14 09:18:41,951 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_24_protection__ema_fast = True
+2026-11-14 09:18:41,951 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_24_protection__ema_fast_len = 200
+2026-11-14 09:18:41,951 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_24_protection__ema_slow = False
+2026-11-14 09:18:41,951 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_24_protection__ema_slow_len = 26
+2026-11-14 09:18:41,951 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_24_protection__safe_dips = True
+2026-11-14 09:18:41,951 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_24_protection__safe_dips_type = 100
+2026-11-14 09:18:41,952 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_24_protection__safe_pump = False
+2026-11-14 09:18:41,952 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_24_protection__safe_pump_period = 36
+2026-11-14 09:18:41,952 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_24_protection__safe_pump_type = strict
+2026-11-14 09:18:41,952 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_24_protection__sma200_1h_rising = True
+2026-11-14 09:18:41,952 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_24_protection__sma200_1h_rising_val = 50
+2026-11-14 09:18:41,952 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_24_protection__sma200_rising = True
+2026-11-14 09:18:41,952 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_24_protection__sma200_rising_val = 30
+2026-11-14 09:18:41,953 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_24_rsi_1h_min = 66.9
+2026-11-14 09:18:41,953 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_24_rsi_max = 60.0
+2026-11-14 09:18:41,953 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_26_dema_low_offset = 0.93
+2026-11-14 09:18:41,953 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_26_protection__close_above_ema_fast = False
+2026-11-14 09:18:41,953 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_26_protection__close_above_ema_fast_len = 200
+2026-11-14 09:18:41,953 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_26_protection__close_above_ema_slow = False
+2026-11-14 09:18:41,953 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_26_protection__close_above_ema_slow_len = 200
+2026-11-14 09:18:41,953 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_26_protection__ema_fast = False
+2026-11-14 09:18:41,954 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_26_protection__ema_fast_len = 50
+2026-11-14 09:18:41,954 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_26_protection__ema_slow = False
+2026-11-14 09:18:41,954 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_26_protection__ema_slow_len = 50
+2026-11-14 09:18:41,954 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_26_protection__safe_dips = False
+2026-11-14 09:18:41,954 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_26_protection__safe_dips_type = 10
+2026-11-14 09:18:41,954 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_26_protection__safe_pump = False
+2026-11-14 09:18:41,954 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_26_protection__safe_pump_period = 24
+2026-11-14 09:18:41,954 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_26_protection__safe_pump_type = normal
+2026-11-14 09:18:41,955 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_26_protection__sma200_1h_rising = False
+2026-11-14 09:18:41,955 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_26_protection__sma200_1h_rising_val = 50
+2026-11-14 09:18:41,955 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_26_protection__sma200_rising = False
+2026-11-14 09:18:41,955 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_26_protection__sma200_rising_val = 50
+2026-11-14 09:18:41,955 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_bb20_close_bblowerband_4 = 0.978
+2026-11-14 09:18:41,955 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_bb20_volume_4 = 10.0
+2026-11-14 09:18:41,955 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_bb40_bbdelta_close_3 = 0.049
+2026-11-14 09:18:41,956 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_bb40_closedelta_close_3 = 0.021
+2026-11-14 09:18:41,956 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_bb40_tail_bbdelta_3 = 0.429
+2026-11-14 09:18:41,956 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_bb_offset_10 = 0.988
+2026-11-14 09:18:41,956 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_bb_offset_14 = 0.988
+2026-11-14 09:18:41,956 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_bb_offset_18 = 0.982
+2026-11-14 09:18:41,956 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_bb_offset_2 = 0.99
+2026-11-14 09:18:41,956 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_bb_offset_22 = 0.98
+2026-11-14 09:18:41,956 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_bb_offset_23 = 0.987
+2026-11-14 09:18:41,957 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_bb_offset_5 = 1.0
+2026-11-14 09:18:41,957 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_bb_offset_6 = 0.996
+2026-11-14 09:18:41,957 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_bb_offset_9 = 0.942
+2026-11-14 09:18:41,957 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_chop_min_19 = 24.1
+2026-11-14 09:18:41,957 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_condition_10_enable = True
+2026-11-14 09:18:41,957 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_condition_11_enable = True
+2026-11-14 09:18:41,957 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_condition_12_enable = True
+2026-11-14 09:18:41,958 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_condition_13_enable = True
+2026-11-14 09:18:41,958 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_condition_14_enable = True
+2026-11-14 09:18:41,958 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_condition_15_enable = True
+2026-11-14 09:18:41,958 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_condition_16_enable = True
+2026-11-14 09:18:41,958 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_condition_17_enable = True
+2026-11-14 09:18:41,958 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_condition_18_enable = True
+2026-11-14 09:18:41,958 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_condition_19_enable = True
+2026-11-14 09:18:41,958 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_condition_1_enable = True
+2026-11-14 09:18:41,959 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_condition_20_enable = True
+2026-11-14 09:18:41,959 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_condition_21_enable = True
+2026-11-14 09:18:41,959 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_condition_22_enable = True
+2026-11-14 09:18:41,959 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_condition_23_enable = True
+2026-11-14 09:18:41,959 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_condition_24_enable = True
+2026-11-14 09:18:41,959 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_condition_26_enable = True
+2026-11-14 09:18:41,959 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_condition_2_enable = True
+2026-11-14 09:18:41,959 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_condition_3_enable = True
+2026-11-14 09:18:41,960 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_condition_4_enable = True
+2026-11-14 09:18:41,960 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_condition_5_enable = True
+2026-11-14 09:18:41,960 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_condition_6_enable = True
+2026-11-14 09:18:41,960 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_condition_7_enable = True
+2026-11-14 09:18:41,960 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_condition_8_enable = True
+2026-11-14 09:18:41,960 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_condition_9_enable = True
+2026-11-14 09:18:41,960 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_dip_threshold_100_1 = 0.026
+2026-11-14 09:18:41,960 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_dip_threshold_100_2 = 0.24
+2026-11-14 09:18:41,961 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_dip_threshold_100_3 = 0.42
+2026-11-14 09:18:41,961 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_dip_threshold_100_4 = 0.8
+2026-11-14 09:18:41,961 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_dip_threshold_10_1 = 0.015
+2026-11-14 09:18:41,961 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_dip_threshold_10_2 = 0.1
+2026-11-14 09:18:41,961 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_dip_threshold_10_3 = 0.24
+2026-11-14 09:18:41,961 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_dip_threshold_10_4 = 0.42
+2026-11-14 09:18:41,961 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_dip_threshold_110_1 = 0.027
+2026-11-14 09:18:41,962 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_dip_threshold_110_2 = 0.26
+2026-11-14 09:18:41,962 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_dip_threshold_110_3 = 0.44
+2026-11-14 09:18:41,962 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_dip_threshold_110_4 = 0.84
+2026-11-14 09:18:41,962 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_dip_threshold_20_1 = 0.016
+2026-11-14 09:18:41,962 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_dip_threshold_20_2 = 0.11
+2026-11-14 09:18:41,962 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_dip_threshold_20_3 = 0.26
+2026-11-14 09:18:41,962 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_dip_threshold_20_4 = 0.44
+2026-11-14 09:18:41,962 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_dip_threshold_30_1 = 0.018
+2026-11-14 09:18:41,963 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_dip_threshold_30_2 = 0.12
+2026-11-14 09:18:41,963 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_dip_threshold_30_3 = 0.28
+2026-11-14 09:18:41,963 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_dip_threshold_30_4 = 0.46
+2026-11-14 09:18:41,963 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_dip_threshold_40_1 = 0.019
+2026-11-14 09:18:41,963 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_dip_threshold_40_2 = 0.13
+2026-11-14 09:18:41,963 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_dip_threshold_40_3 = 0.3
+2026-11-14 09:18:41,963 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_dip_threshold_40_4 = 0.48
+2026-11-14 09:18:41,963 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_dip_threshold_50_1 = 0.02
+2026-11-14 09:18:41,964 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_dip_threshold_50_2 = 0.14
+2026-11-14 09:18:41,964 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_dip_threshold_50_3 = 0.32
+2026-11-14 09:18:41,964 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_dip_threshold_50_4 = 0.5
+2026-11-14 09:18:41,964 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_dip_threshold_60_1 = 0.022
+2026-11-14 09:18:41,964 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_dip_threshold_60_2 = 0.18
+2026-11-14 09:18:41,964 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_dip_threshold_60_3 = 0.34
+2026-11-14 09:18:41,964 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_dip_threshold_60_4 = 0.56
+2026-11-14 09:18:41,964 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_dip_threshold_70_1 = 0.023
+2026-11-14 09:18:41,965 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_dip_threshold_70_2 = 0.2
+2026-11-14 09:18:41,965 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_dip_threshold_70_3 = 0.36
+2026-11-14 09:18:41,965 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_dip_threshold_70_4 = 0.6
+2026-11-14 09:18:41,965 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_dip_threshold_80_1 = 0.024
+2026-11-14 09:18:41,965 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_dip_threshold_80_2 = 0.22
+2026-11-14 09:18:41,965 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_dip_threshold_80_3 = 0.38
+2026-11-14 09:18:41,965 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_dip_threshold_80_4 = 0.66
+2026-11-14 09:18:41,965 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_dip_threshold_90_1 = 0.025
+2026-11-14 09:18:41,966 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_dip_threshold_90_2 = 0.23
+2026-11-14 09:18:41,966 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_dip_threshold_90_3 = 0.4
+2026-11-14 09:18:41,966 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_dip_threshold_90_4 = 0.7
+2026-11-14 09:18:41,966 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_ema_open_mult_14 = 0.014
+2026-11-14 09:18:41,966 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_ema_open_mult_15 = 0.018
+2026-11-14 09:18:41,966 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_ema_open_mult_5 = 0.018
+2026-11-14 09:18:41,966 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_ema_open_mult_6 = 0.02
+2026-11-14 09:18:41,966 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_ema_open_mult_7 = 0.03
+2026-11-14 09:18:41,967 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_ema_rel_15 = 0.988
+2026-11-14 09:18:41,967 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_ema_rel_3 = 0.983
+2026-11-14 09:18:41,967 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_ema_rel_5 = 0.978
+2026-11-14 09:18:41,967 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_ewo_12 = 1.8
+2026-11-14 09:18:41,967 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_ewo_13 = -11.8
+2026-11-14 09:18:41,967 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_ewo_16 = 2.8
+2026-11-14 09:18:41,967 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_ewo_17 = -12.8
+2026-11-14 09:18:41,968 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_ewo_22 = 4.2
+2026-11-14 09:18:41,968 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_ewo_23 = 7.0
+2026-11-14 09:18:41,968 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_ma_offset_10 = 0.942
+2026-11-14 09:18:41,968 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_ma_offset_11 = 0.939
+2026-11-14 09:18:41,968 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_ma_offset_12 = 0.922
+2026-11-14 09:18:41,968 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_ma_offset_13 = 0.99
+2026-11-14 09:18:41,968 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_ma_offset_14 = 0.98
+2026-11-14 09:18:41,968 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_ma_offset_15 = 0.954
+2026-11-14 09:18:41,969 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_ma_offset_16 = 0.952
+2026-11-14 09:18:41,969 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_ma_offset_17 = 0.952
+2026-11-14 09:18:41,969 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_ma_offset_22 = 0.94
+2026-11-14 09:18:41,969 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_ma_offset_9 = 0.922
+2026-11-14 09:18:41,969 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_mfi_1 = 35.1
+2026-11-14 09:18:41,969 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_mfi_11 = 36.0
+2026-11-14 09:18:41,969 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_mfi_2 = 51.3
+2026-11-14 09:18:41,969 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_mfi_9 = 50.0
+2026-11-14 09:18:41,970 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_min_inc_1 = 0.027
+2026-11-14 09:18:41,970 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_min_inc_11 = 0.01
+2026-11-14 09:18:41,970 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_pump_pull_threshold_1 = 1.75
+2026-11-14 09:18:41,970 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_pump_pull_threshold_2 = 1.75
+2026-11-14 09:18:41,970 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_pump_pull_threshold_3 = 1.75
+2026-11-14 09:18:41,970 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_pump_pull_threshold_4 = 2.2
+2026-11-14 09:18:41,970 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_pump_pull_threshold_5 = 2.0
+2026-11-14 09:18:41,970 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_pump_pull_threshold_6 = 2.0
+2026-11-14 09:18:41,971 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_pump_pull_threshold_7 = 1.7
+2026-11-14 09:18:41,971 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_pump_pull_threshold_8 = 1.7
+2026-11-14 09:18:41,971 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_pump_pull_threshold_9 = 1.4
+2026-11-14 09:18:41,971 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_pump_threshold_1 = 0.6
+2026-11-14 09:18:41,971 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_pump_threshold_2 = 0.64
+2026-11-14 09:18:41,971 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_pump_threshold_3 = 0.85
+2026-11-14 09:18:41,971 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_pump_threshold_4 = 0.42
+2026-11-14 09:18:41,971 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_pump_threshold_5 = 0.58
+2026-11-14 09:18:41,972 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_pump_threshold_6 = 0.8
+2026-11-14 09:18:41,972 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_pump_threshold_7 = 0.66
+2026-11-14 09:18:41,972 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_pump_threshold_8 = 0.7
+2026-11-14 09:18:41,972 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_pump_threshold_9 = 1.6
+2026-11-14 09:18:41,972 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_rsi_1 = 36.4
+2026-11-14 09:18:41,972 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_rsi_11 = 48.0
+2026-11-14 09:18:41,972 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_rsi_12 = 30.0
+2026-11-14 09:18:41,972 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_rsi_15 = 28.0
+2026-11-14 09:18:41,973 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_rsi_16 = 31.0
+2026-11-14 09:18:41,973 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_rsi_18 = 26.0
+2026-11-14 09:18:41,973 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_rsi_1h_10 = 40.0
+2026-11-14 09:18:41,973 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_rsi_1h_20 = 20.0
+2026-11-14 09:18:41,973 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_rsi_1h_21 = 24.0
+2026-11-14 09:18:41,973 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_rsi_1h_23 = 70.0
+2026-11-14 09:18:41,973 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_rsi_1h_diff_2 = 44.1
+2026-11-14 09:18:41,973 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_rsi_1h_max_1 = 80.8
+2026-11-14 09:18:41,974 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_rsi_1h_max_11 = 84.0
+2026-11-14 09:18:41,974 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_rsi_1h_max_2 = 70.7
+2026-11-14 09:18:41,974 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_rsi_1h_max_9 = 88.0
+2026-11-14 09:18:41,974 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_rsi_1h_min_1 = 27.1
+2026-11-14 09:18:41,974 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_rsi_1h_min_11 = 56.0
+2026-11-14 09:18:41,974 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_rsi_1h_min_19 = 50.0
+2026-11-14 09:18:41,974 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_rsi_1h_min_2 = 31.2
+2026-11-14 09:18:41,974 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_rsi_1h_min_9 = 30.0
+2026-11-14 09:18:41,975 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_rsi_20 = 27.0
+2026-11-14 09:18:41,975 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_rsi_21 = 23.0
+2026-11-14 09:18:41,975 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_rsi_22 = 37.0
+2026-11-14 09:18:41,975 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_rsi_23 = 30.0
+2026-11-14 09:18:41,975 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_rsi_7 = 36.0
+2026-11-14 09:18:41,975 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_rsi_8 = 30.0
+2026-11-14 09:18:41,975 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_tail_diff_8 = 8.4
+2026-11-14 09:18:41,975 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_volume_22 = 3.0
+2026-11-14 09:18:41,976 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_volume_8 = 6.0
+2026-11-14 09:18:41,976 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_bb_relative_8 = 1.1
+2026-11-14 09:18:41,976 - freqtrade.strategy.hyper - INFO - Strategy Parameter: sell_condition_1_enable = True
+2026-11-14 09:18:41,976 - freqtrade.strategy.hyper - INFO - Strategy Parameter: sell_condition_2_enable = True
+2026-11-14 09:18:41,976 - freqtrade.strategy.hyper - INFO - Strategy Parameter: sell_condition_3_enable = True
+2026-11-14 09:18:41,976 - freqtrade.strategy.hyper - INFO - Strategy Parameter: sell_condition_4_enable = True
+2026-11-14 09:18:41,976 - freqtrade.strategy.hyper - INFO - Strategy Parameter: sell_condition_5_enable = True
+2026-11-14 09:18:41,976 - freqtrade.strategy.hyper - INFO - Strategy Parameter: sell_condition_6_enable = True
+2026-11-14 09:18:41,977 - freqtrade.strategy.hyper - INFO - Strategy Parameter: sell_condition_7_enable = True
+2026-11-14 09:18:41,977 - freqtrade.strategy.hyper - INFO - Strategy Parameter: sell_condition_8_enable = True
+2026-11-14 09:18:41,977 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_dec_profit_max_1 = 0.12
+2026-11-14 09:18:41,977 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_dec_profit_max_2 = 0.16
+2026-11-14 09:18:41,977 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_dec_profit_min_1 = 0.05
+2026-11-14 09:18:41,977 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_dec_profit_min_2 = 0.07
+2026-11-14 09:18:41,977 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_long_duration_min_1 = 900
+2026-11-14 09:18:41,977 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_long_profit_max_1 = 0.04
+2026-11-14 09:18:41,978 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_long_profit_min_1 = 0.03
+2026-11-14 09:18:41,978 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_profit_0 = 0.01
+2026-11-14 09:18:41,978 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_profit_1 = 0.02
+2026-11-14 09:18:41,978 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_profit_10 = 0.12
+2026-11-14 09:18:41,978 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_profit_11 = 0.2
+2026-11-14 09:18:41,978 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_profit_2 = 0.03
+2026-11-14 09:18:41,978 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_profit_3 = 0.04
+2026-11-14 09:18:41,978 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_profit_4 = 0.05
+2026-11-14 09:18:41,979 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_profit_5 = 0.06
+2026-11-14 09:18:41,979 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_profit_6 = 0.07
+2026-11-14 09:18:41,979 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_profit_7 = 0.08
+2026-11-14 09:18:41,979 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_profit_8 = 0.09
+2026-11-14 09:18:41,979 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_profit_9 = 0.1
+2026-11-14 09:18:41,979 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_profit_under_rel_1 = 0.024
+2026-11-14 09:18:41,979 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_profit_under_rsi_diff_1 = 4.4
+2026-11-14 09:18:41,979 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_pump_dec_profit_max_1 = 0.05
+2026-11-14 09:18:41,980 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_pump_dec_profit_max_2 = 0.06
+2026-11-14 09:18:41,980 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_pump_dec_profit_max_3 = 0.09
+2026-11-14 09:18:41,980 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_pump_dec_profit_max_4 = 0.04
+2026-11-14 09:18:41,980 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_pump_dec_profit_min_1 = 0.005
+2026-11-14 09:18:41,980 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_pump_dec_profit_min_2 = 0.04
+2026-11-14 09:18:41,980 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_pump_dec_profit_min_3 = 0.06
+2026-11-14 09:18:41,980 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_pump_dec_profit_min_4 = 0.02
+2026-11-14 09:18:41,980 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_pump_profit_1_1 = 0.01
+2026-11-14 09:18:41,981 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_pump_profit_1_2 = 0.02
+2026-11-14 09:18:41,981 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_pump_profit_1_3 = 0.04
+2026-11-14 09:18:41,981 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_pump_profit_1_4 = 0.1
+2026-11-14 09:18:41,981 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_pump_profit_1_5 = 0.2
+2026-11-14 09:18:41,981 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_pump_profit_2_1 = 0.01
+2026-11-14 09:18:41,981 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_pump_profit_2_2 = 0.02
+2026-11-14 09:18:41,981 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_pump_profit_2_3 = 0.04
+2026-11-14 09:18:41,981 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_pump_profit_2_4 = 0.1
+2026-11-14 09:18:41,982 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_pump_profit_2_5 = 0.2
+2026-11-14 09:18:41,982 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_pump_profit_3_1 = 0.01
+2026-11-14 09:18:41,982 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_pump_profit_3_2 = 0.02
+2026-11-14 09:18:41,982 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_pump_profit_3_3 = 0.04
+2026-11-14 09:18:41,982 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_pump_profit_3_4 = 0.1
+2026-11-14 09:18:41,982 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_pump_profit_3_5 = 0.2
+2026-11-14 09:18:41,982 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_pump_rsi_1_1 = 34.0
+2026-11-14 09:18:41,982 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_pump_rsi_1_2 = 40.0
+2026-11-14 09:18:41,983 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_pump_rsi_1_3 = 42.0
+2026-11-14 09:18:41,983 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_pump_rsi_1_4 = 42.0
+2026-11-14 09:18:41,983 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_pump_rsi_1_5 = 34.0
+2026-11-14 09:18:41,983 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_pump_rsi_2_1 = 34.0
+2026-11-14 09:18:41,983 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_pump_rsi_2_2 = 40.0
+2026-11-14 09:18:41,983 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_pump_rsi_2_3 = 40.0
+2026-11-14 09:18:41,983 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_pump_rsi_2_4 = 42.0
+2026-11-14 09:18:41,983 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_pump_rsi_2_5 = 34.0
+2026-11-14 09:18:41,984 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_pump_rsi_3_1 = 34.0
+2026-11-14 09:18:41,984 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_pump_rsi_3_2 = 40.0
+2026-11-14 09:18:41,984 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_pump_rsi_3_3 = 40.0
+2026-11-14 09:18:41,984 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_pump_rsi_3_4 = 42.0
+2026-11-14 09:18:41,984 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_pump_rsi_3_5 = 34.0
+2026-11-14 09:18:41,984 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_pump_trail_down_1 = 0.05
+2026-11-14 09:18:41,984 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_pump_trail_profit_max_1 = 0.07
+2026-11-14 09:18:41,984 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_pump_trail_profit_min_1 = 0.05
+2026-11-14 09:18:41,985 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_pump_trail_rsi_max_1 = 70.0
+2026-11-14 09:18:41,985 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_pump_trail_rsi_min_1 = 20.0
+2026-11-14 09:18:41,985 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_pump_under_profit_max_1 = 0.09
+2026-11-14 09:18:41,985 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_pump_under_profit_min_1 = 0.04
+2026-11-14 09:18:41,985 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_recover_min_loss_1 = 0.12
+2026-11-14 09:18:41,985 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_recover_min_loss_2 = 0.06
+2026-11-14 09:18:41,985 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_recover_profit_1 = 0.04
+2026-11-14 09:18:41,985 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_recover_profit_max_2 = 0.05
+2026-11-14 09:18:41,986 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_recover_profit_min_2 = 0.01
+2026-11-14 09:18:41,986 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_recover_rsi_2 = 46.0
+2026-11-14 09:18:41,986 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_rsi_0 = 34.0
+2026-11-14 09:18:41,986 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_rsi_1 = 35.0
+2026-11-14 09:18:41,986 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_rsi_10 = 42.0
+2026-11-14 09:18:41,986 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_rsi_11 = 34.0
+2026-11-14 09:18:41,986 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_rsi_2 = 37.0
+2026-11-14 09:18:41,987 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_rsi_3 = 42.0
+2026-11-14 09:18:41,987 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_rsi_4 = 43.0
+2026-11-14 09:18:41,987 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_rsi_5 = 45.0
+2026-11-14 09:18:41,987 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_rsi_6 = 48.0
+2026-11-14 09:18:41,987 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_rsi_7 = 54.0
+2026-11-14 09:18:41,987 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_rsi_8 = 55.0
+2026-11-14 09:18:41,987 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_rsi_9 = 54.0
+2026-11-14 09:18:41,987 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_stoploss_pump_loss_2 = -0.05
+2026-11-14 09:18:41,988 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_stoploss_pump_loss_3 = -0.12
+2026-11-14 09:18:41,988 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_stoploss_pump_ma_offset_1 = 0.94
+2026-11-14 09:18:41,988 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_stoploss_pump_ma_offset_2 = 0.92
+2026-11-14 09:18:41,988 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_stoploss_pump_ma_offset_3 = 0.88
+2026-11-14 09:18:41,988 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_stoploss_pump_max_1 = -0.01
+2026-11-14 09:18:41,988 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_stoploss_pump_max_profit_1 = 0.025
+2026-11-14 09:18:41,988 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_stoploss_pump_max_profit_2 = 0.025
+2026-11-14 09:18:41,988 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_stoploss_pump_max_profit_3 = 0.008
+2026-11-14 09:18:41,989 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_stoploss_pump_min_1 = -0.02
+2026-11-14 09:18:41,989 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_stoploss_under_rel_1 = 0.004
+2026-11-14 09:18:41,989 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_stoploss_under_rsi_diff_1 = 10.0
+2026-11-14 09:18:41,989 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_under_profit_0 = 0.01
+2026-11-14 09:18:41,989 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_under_profit_1 = 0.02
+2026-11-14 09:18:41,989 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_under_profit_10 = 0.12
+2026-11-14 09:18:41,989 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_under_profit_11 = 0.2
+2026-11-14 09:18:41,989 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_under_profit_2 = 0.03
+2026-11-14 09:18:41,990 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_under_profit_3 = 0.04
+2026-11-14 09:18:41,990 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_under_profit_4 = 0.05
+2026-11-14 09:18:41,990 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_under_profit_5 = 0.06
+2026-11-14 09:18:41,990 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_under_profit_6 = 0.07
+2026-11-14 09:18:41,990 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_under_profit_7 = 0.08
+2026-11-14 09:18:41,990 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_under_profit_8 = 0.09
+2026-11-14 09:18:41,990 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_under_profit_9 = 0.1
+2026-11-14 09:18:41,990 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_under_rsi_0 = 35.0
+2026-11-14 09:18:41,991 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_under_rsi_1 = 56.0
+2026-11-14 09:18:41,991 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_under_rsi_10 = 42.0
+2026-11-14 09:18:41,991 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_under_rsi_11 = 34.0
+2026-11-14 09:18:41,991 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_under_rsi_2 = 57.0
+2026-11-14 09:18:41,991 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_under_rsi_3 = 58.0
+2026-11-14 09:18:41,991 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_under_rsi_4 = 59.0
+2026-11-14 09:18:41,991 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_under_rsi_5 = 60.0
+2026-11-14 09:18:41,991 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_under_rsi_6 = 56.0
+2026-11-14 09:18:41,992 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_under_rsi_7 = 54.0
+2026-11-14 09:18:41,992 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_under_rsi_8 = 55.0
+2026-11-14 09:18:41,992 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_custom_under_rsi_9 = 54.0
+2026-11-14 09:18:41,992 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_dual_rsi_rsi_1h_4 = 79.6
+2026-11-14 09:18:41,992 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_dual_rsi_rsi_4 = 73.4
+2026-11-14 09:18:41,992 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_ema_relative_5 = 0.024
+2026-11-14 09:18:41,992 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_pump_threshold_1 = 0.9
+2026-11-14 09:18:41,992 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_pump_threshold_2 = 0.7
+2026-11-14 09:18:41,993 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_pump_threshold_3 = 0.5
+2026-11-14 09:18:41,993 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_pump_threshold_4 = 0.72
+2026-11-14 09:18:41,993 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_pump_threshold_5 = 4.0
+2026-11-14 09:18:41,993 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_pump_threshold_6 = 1.0
+2026-11-14 09:18:41,993 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_pump_threshold_7 = 0.68
+2026-11-14 09:18:41,993 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_pump_threshold_8 = 0.62
+2026-11-14 09:18:41,993 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_pump_threshold_9 = 0.3
+2026-11-14 09:18:41,994 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_rsi_1h_7 = 81.7
+2026-11-14 09:18:41,994 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_rsi_bb_1 = 79.5
+2026-11-14 09:18:41,994 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_rsi_bb_2 = 81
+2026-11-14 09:18:41,994 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_rsi_diff_5 = 4.4
+2026-11-14 09:18:41,994 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_rsi_main_3 = 82
+2026-11-14 09:18:41,994 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_rsi_under_6 = 79.0
+2026-11-14 09:18:41,994 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_trail_down_1 = 0.03
+2026-11-14 09:18:41,994 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_trail_down_2 = 0.03
+2026-11-14 09:18:41,995 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_trail_down_3 = 0.05
+2026-11-14 09:18:41,995 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_trail_profit_max_1 = 0.6
+2026-11-14 09:18:41,995 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_trail_profit_max_2 = 0.4
+2026-11-14 09:18:41,995 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_trail_profit_max_3 = 0.2
+2026-11-14 09:18:41,995 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_trail_profit_min_1 = 0.16
+2026-11-14 09:18:41,995 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_trail_profit_min_2 = 0.1
+2026-11-14 09:18:41,995 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_trail_profit_min_3 = 0.06
+2026-11-14 09:18:41,995 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_trail_rsi_max_1 = 50.0
+2026-11-14 09:18:41,996 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_trail_rsi_max_2 = 50.0
+2026-11-14 09:18:41,996 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_trail_rsi_min_1 = 20.0
+2026-11-14 09:18:41,996 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_trail_rsi_min_2 = 20.0
+2026-11-14 09:18:42,339 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-07-01 00:00:00 (182 days).
+2026-11-14 09:18:44,897 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1h from 2024-12-15 08:00:00 to 2025-07-01 00:00:00
+2026-11-14 09:18:45,065 - freqtrade.data.dataprovider - INFO - Loading data for BNB/USDT 1h from 2024-12-15 08:00:00 to 2025-07-01 00:00:00
+2026-11-14 09:18:45,213 - freqtrade.data.dataprovider - INFO - Loading data for SOL/USDT 1h from 2024-12-15 08:00:00 to 2025-07-01 00:00:00
+2026-11-14 09:18:45,362 - freqtrade.data.dataprovider - INFO - Loading data for DOGE/USDT 1h from 2024-12-15 08:00:00 to 2025-07-01 00:00:00
+2026-11-14 09:18:45,503 - freqtrade.data.dataprovider - INFO - Loading data for ADA/USDT 1h from 2024-12-15 08:00:00 to 2025-07-01 00:00:00
+2026-11-14 09:18:45,650 - freqtrade.data.dataprovider - INFO - Loading data for TRX/USDT 1h from 2024-12-15 08:00:00 to 2025-07-01 00:00:00
+2026-11-14 09:18:45,809 - freqtrade.data.dataprovider - INFO - Loading data for LINK/USDT 1h from 2024-12-15 08:00:00 to 2025-07-01 00:00:00
+2026-11-14 09:18:45,953 - freqtrade.data.dataprovider - INFO - Loading data for AVAX/USDT 1h from 2024-12-15 08:00:00 to 2025-07-01 00:00:00
+2026-11-14 09:18:46,097 - freqtrade.data.dataprovider - INFO - Loading data for LTC/USDT 1h from 2024-12-15 08:00:00 to 2025-07-01 00:00:00
+2026-11-14 09:18:46,242 - freqtrade.data.dataprovider - INFO - Loading data for DOT/USDT 1h from 2024-12-15 08:00:00 to 2025-07-01 00:00:00
+2026-11-14 09:18:52,133 - freqtrade.loggers.set_log_levels - INFO - Reducing verbosity for bias tester.
+2026-11-14 09:18:52,134 - freqtrade.optimize.analysis.lookahead - INFO - Found 52 trades, calculating 20 trades.
+2026-11-14 09:18:52,160 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'sell_profit_only' moved to 'exit_profit_only'.
+2026-11-14 09:18:52,160 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-14 09:18:52,160 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'ignore_roi_if_buy_signal' moved to 'ignore_roi_if_entry_signal'.
+2026-11-14 09:18:52,183 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-04 15:40:00 (5 days).
+2026-11-14 09:18:52,193 - freqtrade.data.dataprovider - INFO - Loading data for DOGE/USDT 1h from 2024-12-15 08:00:00 to 2025-01-04 15:40:00
+2026-11-14 09:18:52,327 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'sell_profit_only' moved to 'exit_profit_only'.
+2026-11-14 09:18:52,327 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-14 09:18:52,327 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'ignore_roi_if_buy_signal' moved to 'ignore_roi_if_entry_signal'.
+2026-11-14 09:18:52,348 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-04 21:35:00 (5 days).
+2026-11-14 09:18:52,358 - freqtrade.data.dataprovider - INFO - Loading data for DOGE/USDT 1h from 2024-12-15 08:00:00 to 2025-01-04 21:35:00
+2026-11-14 09:18:52,564 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'sell_profit_only' moved to 'exit_profit_only'.
+2026-11-14 09:18:52,564 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-14 09:18:52,564 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'ignore_roi_if_buy_signal' moved to 'ignore_roi_if_entry_signal'.
+2026-11-14 09:18:52,587 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-07 20:50:00 (8 days).
+2026-11-14 09:18:52,601 - freqtrade.data.dataprovider - INFO - Loading data for LTC/USDT 1h from 2024-12-15 08:00:00 to 2025-01-07 20:50:00
+2026-11-14 09:18:52,747 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'sell_profit_only' moved to 'exit_profit_only'.
+2026-11-14 09:18:52,747 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-14 09:18:52,747 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'ignore_roi_if_buy_signal' moved to 'ignore_roi_if_entry_signal'.
+2026-11-14 09:18:52,771 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-08 00:40:00 (8 days).
+2026-11-14 09:18:52,787 - freqtrade.data.dataprovider - INFO - Loading data for LTC/USDT 1h from 2024-12-15 08:00:00 to 2025-01-08 00:40:00
+2026-11-14 09:18:53,008 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'sell_profit_only' moved to 'exit_profit_only'.
+2026-11-14 09:18:53,008 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-14 09:18:53,009 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'ignore_roi_if_buy_signal' moved to 'ignore_roi_if_entry_signal'.
+2026-11-14 09:18:53,039 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-08 07:05:00 (8 days).
+2026-11-14 09:18:53,054 - freqtrade.data.dataprovider - INFO - Loading data for AVAX/USDT 1h from 2024-12-15 08:00:00 to 2025-01-08 07:05:00
+2026-11-14 09:18:53,200 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'sell_profit_only' moved to 'exit_profit_only'.
+2026-11-14 09:18:53,200 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-14 09:18:53,201 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'ignore_roi_if_buy_signal' moved to 'ignore_roi_if_entry_signal'.
+2026-11-14 09:18:53,224 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-08 08:20:00 (8 days).
+2026-11-14 09:18:53,240 - freqtrade.data.dataprovider - INFO - Loading data for AVAX/USDT 1h from 2024-12-15 08:00:00 to 2025-01-08 08:20:00
+2026-11-14 09:18:53,444 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'sell_profit_only' moved to 'exit_profit_only'.
+2026-11-14 09:18:53,444 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-14 09:18:53,444 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'ignore_roi_if_buy_signal' moved to 'ignore_roi_if_entry_signal'.
+2026-11-14 09:18:53,466 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-07 16:05:00 (8 days).
+2026-11-14 09:18:53,481 - freqtrade.data.dataprovider - INFO - Loading data for TRX/USDT 1h from 2024-12-15 08:00:00 to 2025-01-07 16:05:00
+2026-11-14 09:18:53,625 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'sell_profit_only' moved to 'exit_profit_only'.
+2026-11-14 09:18:53,625 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-14 09:18:53,625 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'ignore_roi_if_buy_signal' moved to 'ignore_roi_if_entry_signal'.
+2026-11-14 09:18:53,647 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-08 14:10:00 (8 days).
+2026-11-14 09:18:53,664 - freqtrade.data.dataprovider - INFO - Loading data for TRX/USDT 1h from 2024-12-15 08:00:00 to 2025-01-08 14:10:00
+2026-11-14 09:18:53,975 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'sell_profit_only' moved to 'exit_profit_only'.
+2026-11-14 09:18:53,975 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-14 09:18:53,975 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'ignore_roi_if_buy_signal' moved to 'ignore_roi_if_entry_signal'.
+2026-11-14 09:18:53,996 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-08 03:20:00 (8 days).
+2026-11-14 09:18:54,011 - freqtrade.data.dataprovider - INFO - Loading data for SOL/USDT 1h from 2024-12-15 08:00:00 to 2025-01-08 03:20:00
+2026-11-14 09:18:54,152 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'sell_profit_only' moved to 'exit_profit_only'.
+2026-11-14 09:18:54,152 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-14 09:18:54,152 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'ignore_roi_if_buy_signal' moved to 'ignore_roi_if_entry_signal'.
+2026-11-14 09:18:54,173 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-08 22:25:00 (9 days).
+2026-11-14 09:18:54,188 - freqtrade.data.dataprovider - INFO - Loading data for SOL/USDT 1h from 2024-12-15 08:00:00 to 2025-01-08 22:25:00
+2026-11-14 09:18:54,474 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'sell_profit_only' moved to 'exit_profit_only'.
+2026-11-14 09:18:54,474 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-14 09:18:54,474 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'ignore_roi_if_buy_signal' moved to 'ignore_roi_if_entry_signal'.
+2026-11-14 09:18:54,499 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-15 11:30:00 (15 days).
+2026-11-14 09:18:54,522 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1h from 2024-12-15 08:00:00 to 2025-01-15 11:30:00
+2026-11-14 09:18:54,682 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'sell_profit_only' moved to 'exit_profit_only'.
+2026-11-14 09:18:54,682 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-14 09:18:54,682 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'ignore_roi_if_buy_signal' moved to 'ignore_roi_if_entry_signal'.
+2026-11-14 09:18:54,704 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-15 15:20:00 (16 days).
+2026-11-14 09:18:54,728 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1h from 2024-12-15 08:00:00 to 2025-01-15 15:20:00
+2026-11-14 09:18:54,968 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'sell_profit_only' moved to 'exit_profit_only'.
+2026-11-14 09:18:54,969 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-14 09:18:54,969 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'ignore_roi_if_buy_signal' moved to 'ignore_roi_if_entry_signal'.
+2026-11-14 09:18:54,991 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-16 00:45:00 (16 days).
+2026-11-14 09:18:55,015 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1h from 2024-12-15 08:00:00 to 2025-01-16 00:45:00
+2026-11-14 09:18:55,206 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'sell_profit_only' moved to 'exit_profit_only'.
+2026-11-14 09:18:55,206 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-14 09:18:55,206 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'ignore_roi_if_buy_signal' moved to 'ignore_roi_if_entry_signal'.
+2026-11-14 09:18:55,228 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-16 08:30:00 (16 days).
+2026-11-14 09:18:55,253 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1h from 2024-12-15 08:00:00 to 2025-01-16 08:30:00
+2026-11-14 09:18:55,541 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'sell_profit_only' moved to 'exit_profit_only'.
+2026-11-14 09:18:55,542 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-14 09:18:55,542 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'ignore_roi_if_buy_signal' moved to 'ignore_roi_if_entry_signal'.
+2026-11-14 09:18:55,564 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-18 03:50:00 (18 days).
+2026-11-14 09:18:55,592 - freqtrade.data.dataprovider - INFO - Loading data for DOGE/USDT 1h from 2024-12-15 08:00:00 to 2025-01-18 03:50:00
+2026-11-14 09:18:55,790 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'sell_profit_only' moved to 'exit_profit_only'.
+2026-11-14 09:18:55,790 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-14 09:18:55,790 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'ignore_roi_if_buy_signal' moved to 'ignore_roi_if_entry_signal'.
+2026-11-14 09:18:55,812 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-18 20:00:00 (19 days).
+2026-11-14 09:18:55,841 - freqtrade.data.dataprovider - INFO - Loading data for DOGE/USDT 1h from 2024-12-15 08:00:00 to 2025-01-18 20:00:00
+2026-11-14 09:18:56,193 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'sell_profit_only' moved to 'exit_profit_only'.
+2026-11-14 09:18:56,193 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-14 09:18:56,193 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'ignore_roi_if_buy_signal' moved to 'ignore_roi_if_entry_signal'.
+2026-11-14 09:18:56,215 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-19 22:15:00 (20 days).
+2026-11-14 09:18:56,244 - freqtrade.data.dataprovider - INFO - Loading data for SOL/USDT 1h from 2024-12-15 08:00:00 to 2025-01-19 22:15:00
+2026-11-14 09:18:56,522 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'sell_profit_only' moved to 'exit_profit_only'.
+2026-11-14 09:18:56,522 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-14 09:18:56,522 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'ignore_roi_if_buy_signal' moved to 'ignore_roi_if_entry_signal'.
+2026-11-14 09:18:56,544 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-19 22:20:00 (20 days).
+2026-11-14 09:18:56,573 - freqtrade.data.dataprovider - INFO - Loading data for SOL/USDT 1h from 2024-12-15 08:00:00 to 2025-01-19 22:20:00
+2026-11-14 09:18:56,915 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'sell_profit_only' moved to 'exit_profit_only'.
+2026-11-14 09:18:56,915 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-14 09:18:56,915 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'ignore_roi_if_buy_signal' moved to 'ignore_roi_if_entry_signal'.
+2026-11-14 09:18:56,939 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-19 22:05:00 (20 days).
+2026-11-14 09:18:56,969 - freqtrade.data.dataprovider - INFO - Loading data for LINK/USDT 1h from 2024-12-15 08:00:00 to 2025-01-19 22:05:00
+2026-11-14 09:18:57,138 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'sell_profit_only' moved to 'exit_profit_only'.
+2026-11-14 09:18:57,138 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-14 09:18:57,138 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'ignore_roi_if_buy_signal' moved to 'ignore_roi_if_entry_signal'.
+2026-11-14 09:18:57,160 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-19 23:05:00 (20 days).
+2026-11-14 09:18:57,189 - freqtrade.data.dataprovider - INFO - Loading data for LINK/USDT 1h from 2024-12-15 08:00:00 to 2025-01-19 23:05:00
+2026-11-14 09:18:57,435 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'sell_profit_only' moved to 'exit_profit_only'.
+2026-11-14 09:18:57,435 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-14 09:18:57,435 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'ignore_roi_if_buy_signal' moved to 'ignore_roi_if_entry_signal'.
+2026-11-14 09:18:57,459 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-20 17:50:00 (21 days).
+2026-11-14 09:18:57,490 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1h from 2024-12-15 08:00:00 to 2025-01-20 17:50:00
+2026-11-14 09:18:57,722 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'sell_profit_only' moved to 'exit_profit_only'.
+2026-11-14 09:18:57,722 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-14 09:18:57,722 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'ignore_roi_if_buy_signal' moved to 'ignore_roi_if_entry_signal'.
+2026-11-14 09:18:57,745 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-20 17:55:00 (21 days).
+2026-11-14 09:18:57,775 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1h from 2024-12-15 08:00:00 to 2025-01-20 17:55:00
+2026-11-14 09:18:58,244 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'sell_profit_only' moved to 'exit_profit_only'.
+2026-11-14 09:18:58,244 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-14 09:18:58,244 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'ignore_roi_if_buy_signal' moved to 'ignore_roi_if_entry_signal'.
+2026-11-14 09:18:58,273 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-20 17:50:00 (21 days).
+2026-11-14 09:18:58,326 - freqtrade.data.dataprovider - INFO - Loading data for SOL/USDT 1h from 2024-12-15 08:00:00 to 2025-01-20 17:50:00
+2026-11-14 09:18:58,725 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'sell_profit_only' moved to 'exit_profit_only'.
+2026-11-14 09:18:58,726 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-14 09:18:58,726 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'ignore_roi_if_buy_signal' moved to 'ignore_roi_if_entry_signal'.
+2026-11-14 09:18:58,755 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-20 18:00:00 (21 days).
+2026-11-14 09:18:58,808 - freqtrade.data.dataprovider - INFO - Loading data for SOL/USDT 1h from 2024-12-15 08:00:00 to 2025-01-20 18:00:00
+2026-11-14 09:18:59,374 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'sell_profit_only' moved to 'exit_profit_only'.
+2026-11-14 09:18:59,375 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-14 09:18:59,375 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'ignore_roi_if_buy_signal' moved to 'ignore_roi_if_entry_signal'.
+2026-11-14 09:18:59,406 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-27 00:10:00 (27 days).
+2026-11-14 09:18:59,473 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1h from 2024-12-15 08:00:00 to 2025-01-27 00:10:00
+2026-11-14 09:18:59,870 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'sell_profit_only' moved to 'exit_profit_only'.
+2026-11-14 09:18:59,871 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-14 09:18:59,871 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'ignore_roi_if_buy_signal' moved to 'ignore_roi_if_entry_signal'.
+2026-11-14 09:18:59,938 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-27 13:00:00 (27 days).
+2026-11-14 09:19:00,006 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1h from 2024-12-15 08:00:00 to 2025-01-27 13:00:00
+2026-11-14 09:19:00,653 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'sell_profit_only' moved to 'exit_profit_only'.
+2026-11-14 09:19:00,653 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-14 09:19:00,653 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'ignore_roi_if_buy_signal' moved to 'ignore_roi_if_entry_signal'.
+2026-11-14 09:19:00,676 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-27 07:25:00 (27 days).
+2026-11-14 09:19:00,717 - freqtrade.data.dataprovider - INFO - Loading data for LTC/USDT 1h from 2024-12-15 08:00:00 to 2025-01-27 07:25:00
+2026-11-14 09:19:00,950 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'sell_profit_only' moved to 'exit_profit_only'.
+2026-11-14 09:19:00,950 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-14 09:19:00,951 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'ignore_roi_if_buy_signal' moved to 'ignore_roi_if_entry_signal'.
+2026-11-14 09:19:00,981 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-27 13:00:00 (27 days).
+2026-11-14 09:19:01,024 - freqtrade.data.dataprovider - INFO - Loading data for LTC/USDT 1h from 2024-12-15 08:00:00 to 2025-01-27 13:00:00
+2026-11-14 09:19:01,381 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'sell_profit_only' moved to 'exit_profit_only'.
+2026-11-14 09:19:01,381 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-14 09:19:01,381 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'ignore_roi_if_buy_signal' moved to 'ignore_roi_if_entry_signal'.
+2026-11-14 09:19:01,404 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-27 00:05:00 (27 days).
+2026-11-14 09:19:01,445 - freqtrade.data.dataprovider - INFO - Loading data for TRX/USDT 1h from 2024-12-15 08:00:00 to 2025-01-27 00:05:00
+2026-11-14 09:19:01,830 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'sell_profit_only' moved to 'exit_profit_only'.
+2026-11-14 09:19:01,830 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-14 09:19:01,830 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'ignore_roi_if_buy_signal' moved to 'ignore_roi_if_entry_signal'.
+2026-11-14 09:19:01,854 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-27 13:05:00 (27 days).
+2026-11-14 09:19:01,898 - freqtrade.data.dataprovider - INFO - Loading data for TRX/USDT 1h from 2024-12-15 08:00:00 to 2025-01-27 13:05:00
+2026-11-14 09:19:02,445 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'sell_profit_only' moved to 'exit_profit_only'.
+2026-11-14 09:19:02,445 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-14 09:19:02,445 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'ignore_roi_if_buy_signal' moved to 'ignore_roi_if_entry_signal'.
+2026-11-14 09:19:02,469 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-27 00:05:00 (27 days).
+2026-11-14 09:19:02,511 - freqtrade.data.dataprovider - INFO - Loading data for SOL/USDT 1h from 2024-12-15 08:00:00 to 2025-01-27 00:05:00
+2026-11-14 09:19:02,830 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'sell_profit_only' moved to 'exit_profit_only'.
+2026-11-14 09:19:02,830 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-14 09:19:02,830 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'ignore_roi_if_buy_signal' moved to 'ignore_roi_if_entry_signal'.
+2026-11-14 09:19:02,852 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-27 13:20:00 (27 days).
+2026-11-14 09:19:02,891 - freqtrade.data.dataprovider - INFO - Loading data for SOL/USDT 1h from 2024-12-15 08:00:00 to 2025-01-27 13:20:00
+2026-11-14 09:19:03,361 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'sell_profit_only' moved to 'exit_profit_only'.
+2026-11-14 09:19:03,361 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-14 09:19:03,361 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'ignore_roi_if_buy_signal' moved to 'ignore_roi_if_entry_signal'.
+2026-11-14 09:19:03,385 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-02-02 04:05:00 (33 days).
+2026-11-14 09:19:03,430 - freqtrade.data.dataprovider - INFO - Loading data for TRX/USDT 1h from 2024-12-15 08:00:00 to 2025-02-02 04:05:00
+2026-11-14 09:19:03,813 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'sell_profit_only' moved to 'exit_profit_only'.
+2026-11-14 09:19:03,813 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-14 09:19:03,813 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'ignore_roi_if_buy_signal' moved to 'ignore_roi_if_entry_signal'.
+2026-11-14 09:19:03,837 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-02-02 05:25:00 (33 days).
+2026-11-14 09:19:03,884 - freqtrade.data.dataprovider - INFO - Loading data for TRX/USDT 1h from 2024-12-15 08:00:00 to 2025-02-02 05:25:00
+2026-11-14 09:19:04,391 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'sell_profit_only' moved to 'exit_profit_only'.
+2026-11-14 09:19:04,392 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-14 09:19:04,392 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'ignore_roi_if_buy_signal' moved to 'ignore_roi_if_entry_signal'.
+2026-11-14 09:19:04,416 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-02-03 00:50:00 (34 days).
+2026-11-14 09:19:04,465 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1h from 2024-12-15 08:00:00 to 2025-02-03 00:50:00
+2026-11-14 09:19:04,800 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'sell_profit_only' moved to 'exit_profit_only'.
+2026-11-14 09:19:04,800 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-14 09:19:04,800 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'ignore_roi_if_buy_signal' moved to 'ignore_roi_if_entry_signal'.
+2026-11-14 09:19:04,822 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-02-03 00:55:00 (34 days).
+2026-11-14 09:19:04,870 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1h from 2024-12-15 08:00:00 to 2025-02-03 00:55:00
+2026-11-14 09:19:05,321 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'sell_profit_only' moved to 'exit_profit_only'.
+2026-11-14 09:19:05,322 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-14 09:19:05,322 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'ignore_roi_if_buy_signal' moved to 'ignore_roi_if_entry_signal'.
+2026-11-14 09:19:05,344 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-02-03 02:00:00 (34 days).
+2026-11-14 09:19:05,393 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1h from 2024-12-15 08:00:00 to 2025-02-03 02:00:00
+2026-11-14 09:19:05,739 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'sell_profit_only' moved to 'exit_profit_only'.
+2026-11-14 09:19:05,739 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-14 09:19:05,739 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'ignore_roi_if_buy_signal' moved to 'ignore_roi_if_entry_signal'.
+2026-11-14 09:19:05,763 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-02-03 02:25:00 (34 days).
+2026-11-14 09:19:05,809 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1h from 2024-12-15 08:00:00 to 2025-02-03 02:25:00
+2026-11-14 09:19:06,254 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'sell_profit_only' moved to 'exit_profit_only'.
+2026-11-14 09:19:06,254 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-14 09:19:06,254 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'ignore_roi_if_buy_signal' moved to 'ignore_roi_if_entry_signal'.
+2026-11-14 09:19:06,278 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-02-03 02:00:00 (34 days).
+2026-11-14 09:19:06,328 - freqtrade.data.dataprovider - INFO - Loading data for DOGE/USDT 1h from 2024-12-15 08:00:00 to 2025-02-03 02:00:00
+2026-11-14 09:19:06,644 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'sell_profit_only' moved to 'exit_profit_only'.
+2026-11-14 09:19:06,645 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'use_sell_signal' moved to 'use_exit_signal'.
+2026-11-14 09:19:06,645 - freqtrade.resolvers.strategy_resolver - WARNING - DEPRECATED: Using 'ignore_roi_if_buy_signal' moved to 'ignore_roi_if_entry_signal'.
+2026-11-14 09:19:06,669 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-02-03 02:45:00 (34 days).
+2026-11-14 09:19:06,719 - freqtrade.data.dataprovider - INFO - Loading data for DOGE/USDT 1h from 2024-12-15 08:00:00 to 2025-02-03 02:45:00
+2026-11-14 09:19:07,148 - freqtrade.optimize.analysis.lookahead - INFO - Found targeted trade amount = 20 signals.
+2026-11-14 09:19:07,148 - freqtrade.loggers.set_log_levels - INFO - Restoring log verbosity.
+2026-11-14 09:19:07,149 - freqtrade.optimize.analysis.lookahead - INFO - NFI7HO2: no bias detected
+2026-11-14 09:19:07,149 - freqtrade.optimize.analysis.lookahead_helpers - INFO - Checking look ahead bias via backtests of NFI7HO2.py took 26 seconds.
+Analyzing trades ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 20/20 100% • 0:00:15 • 0:00:00
+                                                 Lookahead Analysis                                                  
+┏━━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┓
+┃   filename ┃ strategy ┃ has_bias ┃ total_signals ┃ biased_entry_signals ┃ biased_exit_signals ┃ biased_indicators ┃
+┡━━━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━┩
+│ NFI7HO2.py │  NFI7HO2 │       No │            20 │                    0 │                   0 │                   │
+└────────────┴──────────┴──────────┴───────────────┴──────────────────────┴─────────────────────┴───────────────────┘

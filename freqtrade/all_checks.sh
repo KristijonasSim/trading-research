@@ -3,7 +3,7 @@
 cd "$(dirname "$0")"
 A="XRP/USDT BNB/USDT SOL/USDT DOGE/USDT ADA/USDT TRX/USDT LINK/USDT AVAX/USDT LTC/USDT DOT/USDT"
 dk() { local tag=$1; shift; mkdir -p results/detail/$tag
-  docker run --rm --network none --memory 12g --user "$(id -u):$(id -g)" -v "$PWD/user_data:/freqtrade/user_data:ro" \
+  docker run --rm --network none --memory 20g --user "$(id -u):$(id -g)" -v "$PWD/user_data:/freqtrade/user_data:ro" \
   -v "$PWD/config_spot_market.json:/freqtrade/config.json:ro" -v "$PWD/docker_offline:/offline:ro" -e PYTHONPATH=/offline \
   -v "$PWD/results/detail/$tag:/freqtrade/user_data/backtest_results" freqtrade-research:latest "$@" --userdir /freqtrade/user_data \
   -c /freqtrade/config.json --strategy-path /freqtrade/user_data/strategies/validate50 2>&1 | grep -vE "chown|FutureWarning|import freqtrade.vendor"; }
