@@ -1,0 +1,7 @@
+periodai: 2007–14 | 2015–20 | 2021–26
+SPY laikyti                           +7.0% kr -51% | +12.7% kr -19% | +13.9% kr -24%
+GLD laikyti                           +7.6% kr -37% |  +7.8% kr -18% | +13.5% kr -26%
+YoY kyla -> GLD, kitaip SPY          +11.0% kr -39% |  +9.7% kr -24% | +19.4% kr -14% | infliacijos režime 51%
+YoY kyla -> 50/50 GLD/DBC, kitaip SPY  +5.8% kr -50% |  +6.6% kr -17% | +20.6% kr -13% | infliacijos režime 51%
+YoY > 3 % -> GLD, kitaip SPY         +15.3% kr -26% | +12.7% kr -19% | +10.2% kr -16% | infliacijos režime 33%
+YoY > 3 % -> 50/50 GLD/DBC, kitaip SPY +11.6% kr -44% | +12.7% kr -19% | +11.4% kr -14% | infliacijos režime 33%

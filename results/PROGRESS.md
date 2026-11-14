@@ -316,3 +316,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 2026-11-14: #98 CAPE rinkos laikas atmesta.
 - 2026-11-14: #99 Dow teorija atmesta.
 - 2026-11-14: #100 kredito skirtumo rinkos laikas atmesta.
+- 2026-11-14: #101 infliacijos režimo rotacija atmesta.
