@@ -101,3 +101,4 @@ Kripto duomenys: Binance (spot/futures, 1h/1d, visos USDT poros su istorija). Ak
 | 94 | Jesse pavyzdžiai: KDJ, IFR2, SimpleBollinger | kripto | ❌ KDJ/IFR2; SimpleBollinger alts10 freqtrade +15,3 %/m., bet su 2021-11 top 20 (LUNA, FTT) tik +9,3 % (išgyvenusiųjų iškraipymas) → `94_jesse_examples/REZULTATAI.md` |
 | 95 | Turtle ant altcoin'ų + išgyvenusiųjų patikra (2018 top 10, 2021-11 top 20 su LUNA/FTT) | kripto | ❌ atmesta (su anuometiniu sąrašu +1…+9 %/m.; alts10 rezultatai išpūsti 5–10 p. p.) → `95_turtle_alts/REZULTATAI.md` |
 | 96 | Amihud nelikvidumo rinkos laikas, BTC/ETH | kripto | ❌ atmesta (nelenkia SMA200, ETH nestabilu) → `96_amihud_timing/REZULTATAI.md` |
+| 97 | Akcijos → BTC vėlavimas (QQQ diena → BTC kitos 24 h) | kripto | ❌ atmesta (koreliacija ~0) → `97_spx_btc_leadlag/REZULTATAI.md` |
