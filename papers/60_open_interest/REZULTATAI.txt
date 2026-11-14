@@ -1,0 +1,84 @@
+periodai: 2020-11–21 | 2022–23 | 2024–26
+
+== BTC ==
+ laikyti                           +195.1% kr  -53% |   -3.3% kr  -67% |  +16.0% kr  -53% | rinkoje 100%
+ A  3 d. kaina↑ OI↑                +42.3% kr  -30% |   -9.7% kr  -39% |   -7.4% kr  -45% | rinkoje  29%
+ A  3 d. kaina↑ OI↓                +15.8% kr  -31% |   -1.3% kr  -26% |   +0.2% kr  -36% | rinkoje  24%
+ A  3 d. kaina↓ OI↓ (išvalymas)    -27.2% kr  -41% |   -6.0% kr  -42% |   -8.1% kr  -38% | rinkoje  21%
+ A  3 d. kaina↓ OI↑                +69.1% kr  -41% |  -22.2% kr  -57% |   -6.5% kr  -41% | rinkoje  27%
+ A  7 d. kaina↑ OI↑                +68.3% kr  -30% |  -19.9% kr  -51% |  -20.5% kr  -55% | rinkoje  31%
+ A  7 d. kaina↑ OI↓                +20.4% kr  -42% |  +12.8% kr  -31% |  +13.0% kr  -23% | rinkoje  22%
+ A  7 d. kaina↓ OI↓ (išvalymas)    +26.0% kr  -26% |   +9.0% kr  -23% |   +4.5% kr  -17% | rinkoje  20%
+ A  7 d. kaina↓ OI↑                -10.5% kr  -42% |  -25.7% kr  -65% |   -6.1% kr  -42% | rinkoje  28%
+ A 14 d. kaina↑ OI↑                +82.0% kr  -22% |  -13.8% kr  -49% |   -7.3% kr  -34% | rinkoje  31%
+ A 14 d. kaina↑ OI↓                +62.3% kr  -41% |  +21.4% kr  -20% |  +28.2% kr  -15% | rinkoje  22%
+ A 14 d. kaina↓ OI↓ (išvalymas)    -21.6% kr  -40% |   -2.1% kr  -19% |  -14.2% kr  -45% | rinkoje  18%
+ A 14 d. kaina↓ OI↑                 +5.5% kr  -35% |  -22.5% kr  -54% |   -8.2% kr  -38% | rinkoje  28%
+ B grynieji kai OI z(30) > 1.5         +141.0% kr  -44% |   -5.0% kr  -70% |  +10.5% kr  -50% | rinkoje  82%
+ B grynieji kai OI z(30) > 2.0          +98.6% kr  -52% |   +5.7% kr  -65% |  +21.8% kr  -43% | rinkoje  93%
+ B grynieji kai OI z(90) > 1.5         +179.2% kr  -49% |   +3.9% kr  -52% |  +15.8% kr  -52% | rinkoje  76%
+ B grynieji kai OI z(90) > 2.0         +133.4% kr  -51% |   -3.2% kr  -62% |  +24.8% kr  -50% | rinkoje  87%
+
+== ETH ==
+ laikyti                           +612.9% kr  -57% |  -21.7% kr  -74% |   -6.6% kr  -68% | rinkoje 100%
+ A  3 d. kaina↑ OI↑                +60.1% kr  -37% |  +21.4% kr  -20% |  -20.4% kr  -64% | rinkoje  29%
+ A  3 d. kaina↑ OI↓                +84.1% kr  -31% |  -15.8% kr  -33% |   -5.5% kr  -40% | rinkoje  21%
+ A  3 d. kaina↓ OI↓ (išvalymas)   +117.6% kr  -38% |  -27.3% kr  -66% |   +5.1% kr  -36% | rinkoje  23%
+ A  3 d. kaina↓ OI↑                -21.4% kr  -41% |  -28.6% kr  -59% |  -19.2% kr  -51% | rinkoje  23%
+ A  7 d. kaina↑ OI↑               +160.3% kr  -29% |   -7.4% kr  -38% |   +2.9% kr  -44% | rinkoje  31%
+ A  7 d. kaina↑ OI↓                +64.7% kr  -19% |   +5.9% kr  -18% |   -5.2% kr  -37% | rinkoje  18%
+ A  7 d. kaina↓ OI↓ (išvalymas)    +35.7% kr  -34% |  -25.4% kr  -48% |   +7.2% kr  -38% | rinkoje  23%
+ A  7 d. kaina↓ OI↑                 -5.0% kr  -46% |  -17.2% kr  -53% |  -32.6% kr  -74% | rinkoje  24%
+ A 14 d. kaina↑ OI↑                +41.8% kr  -53% |  +10.7% kr  -34% |   +3.2% kr  -45% | rinkoje  31%
+ A 14 d. kaina↑ OI↓               +185.1% kr  -24% |   -5.5% kr  -27% |   +7.5% kr  -26% | rinkoje  18%
+ A 14 d. kaina↓ OI↓ (išvalymas)    +38.6% kr  -24% |  -29.2% kr  -55% |  -15.0% kr  -44% | rinkoje  21%
+ A 14 d. kaina↓ OI↑                 +2.4% kr  -47% |  -12.1% kr  -58% |  -19.4% kr  -66% | rinkoje  26%
+ B grynieji kai OI z(30) > 1.5         +521.6% kr  -53% |  -31.8% kr  -74% |   -9.8% kr  -69% | rinkoje  80%
+ B grynieji kai OI z(30) > 2.0         +333.1% kr  -67% |  -19.6% kr  -67% |  -21.2% kr  -74% | rinkoje  89%
+ B grynieji kai OI z(90) > 1.5         +174.7% kr  -57% |   -4.6% kr  -70% |  -15.8% kr  -71% | rinkoje  72%
+ B grynieji kai OI z(90) > 2.0         +137.3% kr  -57% |  -11.8% kr  -64% |  -18.2% kr  -74% | rinkoje  82%
+
+== SOL ==
+ laikyti                           +6087.2% kr  -58% |  -21.1% kr  -95% |   -9.6% kr  -76% | rinkoje 100%
+ A  3 d. kaina↑ OI↑               +146.1% kr  -18% |  +21.2% kr  -40% |   -7.6% kr  -48% | rinkoje  24%
+ A  3 d. kaina↑ OI↓                 +1.5% kr  -32% |  +12.9% kr  -55% |  -15.7% kr  -60% | rinkoje  18%
+ A  3 d. kaina↓ OI↓ (išvalymas)    +39.1% kr  -14% |   -7.7% kr  -68% |  -10.7% kr  -61% | rinkoje  22%
+ A  3 d. kaina↓ OI↑                 +7.0% kr  -27% |  -55.0% kr  -84% |  -10.5% kr  -54% | rinkoje  21%
+ A  7 d. kaina↑ OI↑               +132.7% kr  -27% |   -1.6% kr  -62% |   +5.5% kr  -47% | rinkoje  25%
+ A  7 d. kaina↑ OI↓                +47.1% kr  -29% |  +84.7% kr  -21% |   -7.6% kr  -47% | rinkoje  16%
+ A  7 d. kaina↓ OI↓ (išvalymas)    +34.2% kr  -22% |   -3.3% kr  -47% |  +12.4% kr  -46% | rinkoje  23%
+ A  7 d. kaina↓ OI↑                -17.0% kr  -30% |  -65.0% kr  -89% |  -36.1% kr  -73% | rinkoje  21%
+ A 14 d. kaina↑ OI↑               +270.1% kr  -18% |   -1.3% kr  -70% |   +4.8% kr  -54% | rinkoje  24%
+ A 14 d. kaina↑ OI↓                -10.8% kr  -33% |  +50.7% kr  -31% |   -4.6% kr  -52% | rinkoje  17%
+ A 14 d. kaina↓ OI↓ (išvalymas)     +6.3% kr  -27% |  -24.0% kr  -59% |   -5.7% kr  -53% | rinkoje  22%
+ A 14 d. kaina↓ OI↑                +28.6% kr  -25% |  -41.4% kr  -80% |  -20.5% kr  -62% | rinkoje  22%
+ B grynieji kai OI z(30) > 1.5          +63.6% kr  -43% |   +0.3% kr  -83% |   -2.2% kr  -67% | rinkoje  70%
+ B grynieji kai OI z(30) > 2.0         +213.9% kr  -43% |   -6.3% kr  -88% |   -6.9% kr  -73% | rinkoje  77%
+ B grynieji kai OI z(90) > 1.5          +26.8% kr  -40% |   -0.5% kr  -85% |  -12.5% kr  -72% | rinkoje  68%
+ B grynieji kai OI z(90) > 2.0          +26.8% kr  -40% |   +4.4% kr  -87% |   +7.3% kr  -65% | rinkoje  73%
+
+== XRP ==
+ laikyti                           +201.9% kr  -71% |  -14.4% kr  -65% |  +18.8% kr  -72% | rinkoje 100%
+ A  3 d. kaina↑ OI↑                -45.3% kr  -58% |  -43.6% kr  -69% |   -2.1% kr  -59% | rinkoje  28%
+ A  3 d. kaina↑ OI↓                 -1.7% kr  -25% |  +48.5% kr  -26% |   -7.9% kr  -59% | rinkoje  14%
+ A  3 d. kaina↓ OI↓ (išvalymas)     -7.5% kr  -42% |  -26.9% kr  -51% |   +6.1% kr  -39% | rinkoje  25%
+ A  3 d. kaina↓ OI↑                 +5.4% kr  -23% |   -4.3% kr  -40% |  -12.6% kr  -46% | rinkoje  21%
+ A  7 d. kaina↑ OI↑                -14.2% kr  -49% |  -20.5% kr  -52% |   +7.9% kr  -44% | rinkoje  29%
+ A  7 d. kaina↑ OI↓                +13.4% kr   -7% |   +2.4% kr  -25% |   +1.9% kr  -51% | rinkoje  10%
+ A  7 d. kaina↓ OI↓ (išvalymas)     +5.6% kr  -26% |  -31.8% kr  -59% |   +0.8% kr  -50% | rinkoje  26%
+ A  7 d. kaina↓ OI↑                -35.5% kr  -52% |  +18.5% kr  -45% |  -14.8% kr  -42% | rinkoje  23%
+ A 14 d. kaina↑ OI↑                +18.1% kr  -33% |  +44.2% kr  -37% |   +4.8% kr  -61% | rinkoje  28%
+ A 14 d. kaina↑ OI↓                 +9.9% kr  -10% |   -2.0% kr  -16% |  +15.3% kr  -49% | rinkoje   9%
+ A 14 d. kaina↓ OI↓ (išvalymas)     -5.9% kr  -23% |  -21.1% kr  -52% |   +6.0% kr  -40% | rinkoje  27%
+ A 14 d. kaina↓ OI↑                -31.6% kr  -48% |  -35.6% kr  -60% |  -21.7% kr  -51% | rinkoje  23%
+ B grynieji kai OI z(30) > 1.5           -1.0% kr  -40% |  -12.7% kr  -70% |  -30.4% kr  -86% | rinkoje  71%
+ B grynieji kai OI z(30) > 2.0          -11.9% kr  -47% |   +1.1% kr  -69% |  -26.7% kr  -86% | rinkoje  79%
+ B grynieji kai OI z(90) > 1.5          +12.0% kr  -36% |  -24.7% kr  -72% |   -2.1% kr  -75% | rinkoje  66%
+ B grynieji kai OI z(90) > 2.0           -5.1% kr  -39% |  -16.2% kr  -68% |   -3.3% kr  -72% | rinkoje  74%
+
+== C skerspjūvis (30 monetų, kas savaitę, long 20 %) ==
+ OI 7 d. didžiausias OI augimas   +114.1% kr  -54% |  -47.4% kr  -88% |  -32.7% kr  -85%
+ OI 7 d. mažiausias OI augimas     +46.3% kr  -47% |  -26.2% kr  -77% |  -36.1% kr  -86%
+ OI 28 d. didžiausias OI augimas   +411.6% kr  -40% |  -40.4% kr  -83% |  -39.1% kr  -87%
+ OI 28 d. mažiausias OI augimas     +40.5% kr  -38% |  -35.6% kr  -81% |  -14.1% kr  -79%
+ visos lygiais svoriais (kasdien)      +1508.9% kr  -59% |  -32.4% kr  -78% |  -15.4% kr  -75%

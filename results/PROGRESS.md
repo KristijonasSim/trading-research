@@ -270,3 +270,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 2026-11-14: #57 FED grynasis likvidumas atmesta.
 - 2026-11-14: #58 taker buy ratio (laiko eilutė ir skerspjūvis) atmesta.
 - 2026-11-14: #59 IBS atšokimas ETF atmesta (po paskelbimo 2013–19 atsiliko, 2020–26 atgijo tik MOC vykdymu).
+- 2026-11-14: #60 OI signalai (Bybit, 30 monetų) atmesta.
