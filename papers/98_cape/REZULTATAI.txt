@@ -1,0 +1,8 @@
+periodai: 1901–50 | 1951–90 | 1991–2023 (CAPE paskelbtas 1988/1998)
+akcijos (bendra grąža)                +7.9% kr -82% | +11.4% kr -39% | +10.5% kr -49%
+obligacijos (GS10/12)                 +3.4% kr   0% |  +6.8% kr   0% |  +4.2% kr   0%
+CAPE < plečiamo lango mediana         +8.3% kr -63% |  +9.9% kr -31% |  +4.3% kr -13% | akcijose 46%
+CAPE < 20 m. vidurkis                 +8.1% kr -51% |  +8.2% kr -37% |  +6.2% kr -45% | akcijose 50%
+CAPE < 20 m. vidurkis × 1,2           +7.6% kr -56% | +10.2% kr -39% |  +8.4% kr -49% | akcijose 68%
+ECY > 0                               +8.0% kr -80% | +12.7% kr -31% |  +7.6% kr -45% | akcijose 73%
+ECY > 2 %                             +7.8% kr -67% | +10.8% kr -11% |  +7.4% kr -21% | akcijose 47%

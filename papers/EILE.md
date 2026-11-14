@@ -102,3 +102,4 @@ Kripto duomenys: Binance (spot/futures, 1h/1d, visos USDT poros su istorija). Ak
 | 95 | Turtle ant altcoin'ų + išgyvenusiųjų patikra (2018 top 10, 2021-11 top 20 su LUNA/FTT) | kripto | ❌ atmesta (su anuometiniu sąrašu +1…+9 %/m.; alts10 rezultatai išpūsti 5–10 p. p.) → `95_turtle_alts/REZULTATAI.md` |
 | 96 | Amihud nelikvidumo rinkos laikas, BTC/ETH | kripto | ❌ atmesta (nelenkia SMA200, ETH nestabilu) → `96_amihud_timing/REZULTATAI.md` |
 | 97 | Akcijos → BTC vėlavimas (QQQ diena → BTC kitos 24 h) | kripto | ❌ atmesta (koreliacija ~0) → `97_spx_btc_leadlag/REZULTATAI.md` |
+| 98 | Shillerio CAPE / Excess CAPE Yield rinkos laikas (1881–2023) | akcijos | ❌ atmesta (1991–2023 +4…+8 %/m. prieš akcijų +10,5 %) → `98_cape/REZULTATAI.md` |
