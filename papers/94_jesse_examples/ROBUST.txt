@@ -1,0 +1,10 @@
+  yr = (1 + b).groupby(b.index.year).prod() - 1; h = pd.concat([data[c].set_index("date").close.pct_change() for c in ALTS], axis=1).fillna(0).mean(axis=1); hy = (1 + h).groupby(h.index.year).prod() - 1
+BB(n,k) 1d alts10, long: 2018-06–21 | 2022–26 (CAGR / kritimas)
+  n=10 k=1.5: +111.3/-29 | +14.4/-47  k=2.0:  +97.7/-23 | +17.8/-26  k=2.5:  +29.9/-11 |  +0.2/-14
+  n=20 k=1.5: +126.2/-21 | +17.7/-37  k=2.0: +116.5/-20 | +17.0/-31  k=2.5: +104.5/-16 | +13.7/-26
+  n=30 k=1.5: +141.1/-23 | +14.2/-36  k=2.0: +131.1/-18 | +13.0/-34  k=2.5: +104.1/-20 |  +6.3/-35
+  n=50 k=1.5: +155.7/-32 | +12.3/-42  k=2.0: +143.0/-34 | +11.5/-42  k=2.5: +130.2/-23 | +12.9/-36
+mokestis 0,2 %: [np.float64(15.5), -32.2] | išėjimas ties apatine: [np.float64(9.1), -50.1]
+metai (strategija / laikymas): {2017: '+18/+20', 2018: '-3/-34', 2019: '+35/+26', 2020: '+79/+168', 2021: '+639/+1468', 2022: '-27/-71', 2023: '+81/+144', 2024: '+88/+103', 2025: '-4/-35', 2026: '-10/-26'}
+be vienos monetos 2022–26: {'XRP': np.float64(14.3), 'BNB': np.float64(17.4), 'SOL': np.float64(14.4), 'DOGE': np.float64(15.7), 'ADA': np.float64(19.2), 'TRX': np.float64(15.1), 'LINK': np.float64(19.0), 'AVAX': np.float64(16.9), 'LTC': np.float64(19.4), 'DOT': np.float64(17.9)}
+kiekviena moneta atskirai 2022–26: {'XRP': np.float64(34.4), 'BNB': np.float64(8.3), 'SOL': np.float64(32.4), 'DOGE': np.float64(16.7), 'ADA': np.float64(-6.3), 'TRX': np.float64(21.4), 'LINK': np.float64(-7.2), 'AVAX': np.float64(10.0), 'LTC': np.float64(-6.6), 'DOT': np.float64(4.5)}

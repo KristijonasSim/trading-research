@@ -98,3 +98,4 @@ Kripto duomenys: Binance (spot/futures, 1h/1d, visos USDT poros su istorija). Ak
 | 91 | Apimties indikatoriai: OBV, Chaikin MF, MFI, VWAP trendas | kripto | ❌ atmesta (1d CMF +11…+19 % su 51–66 % kritimais; kiti ~0) → `91_volume_indicators/REZULTATAI.md` |
 | 92 | Iždo aukcionų ciklas (Lou, Yan, Zhang 2013), TLT/IEF | ETF | ⚠️ efektas išliko: TLT „po aukciono long, prieš short“ +7…+9 %/m. (kritimas 15–21 %) visais periodais; 3x 2013–26 +21 %, kritimas 54 % → `92_treasury_auctions/REZULTATAI.md` |
 | 93 | Makro paskelbimų dienų premija (Savor, Wilson 2013): FOMC + NFP, SPY/TLT | akcijos, ETF | ❌ atmesta (premija mažėja; strategija +2…+10 %/m.) → `93_announcement_days/REZULTATAI.md` |
+| 94 | Jesse pavyzdžiai: KDJ, IFR2, SimpleBollinger | kripto | KDJ/IFR2 ❌; ⚠️ SimpleBollinger 1d alts10: freqtrade +15,3 %/m., kritimas 35 %, 5m detalumas tas pats, lookahead 0/20, 2018–21 +138 % → `94_jesse_examples/REZULTATAI.md` |

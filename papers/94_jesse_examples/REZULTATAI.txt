@@ -1,0 +1,13 @@
+periodai: 2018-06–21 | 2022–26
+4h KDJ              long: BTC+ETH   -1.3% kr  -10% |   -1.3% kr  -29% || alts10   +1.1% kr   -7% |   -3.6% kr  -23%
+4h KDJ              ls  : BTC+ETH  -12.9% kr  -41% |   -4.0% kr  -38% || alts10   -7.3% kr  -25% |   -7.0% kr  -39%
+4h IFR2             long: BTC+ETH   -0.7% kr  -42% |  -17.1% kr  -63% || alts10  +34.6% kr  -28% |  -11.8% kr  -60%
+4h IFR2             ls  : BTC+ETH   -5.6% kr  -55% |  -23.0% kr  -78% || alts10  +15.0% kr  -47% |   -7.5% kr  -70%
+4h SimpleBollinger  long: BTC+ETH  +73.8% kr  -27% |   +1.5% kr  -47% || alts10  +95.5% kr  -29% |   +2.9% kr  -38%
+4h SimpleBollinger  ls  : BTC+ETH  +84.3% kr  -55% |  +11.5% kr  -48% || alts10  +50.9% kr  -56% |   +0.3% kr  -49%
+1d KDJ              long: BTC+ETH   -3.8% kr  -20% |   -2.5% kr  -14% || alts10   +0.3% kr   -9% |   +1.0% kr  -10%
+1d KDJ              ls  : BTC+ETH  -17.0% kr  -53% |   -6.8% kr  -32% || alts10   -7.5% kr  -32% |   -1.7% kr  -22%
+1d IFR2             long: BTC+ETH  +26.3% kr  -33% |   +6.0% kr  -36% || alts10  +41.4% kr  -39% |   -0.2% kr  -28%
+1d IFR2             ls  : BTC+ETH   +9.0% kr  -44% |   -5.0% kr  -72% || alts10  +10.2% kr  -53% |   -1.1% kr  -56%
+1d SimpleBollinger  long: BTC+ETH  +58.2% kr  -34% |   +3.9% kr  -32% || alts10 +116.5% kr  -20% |  +17.0% kr  -31%
+1d SimpleBollinger  ls  : BTC+ETH  +30.1% kr  -54% |   -1.6% kr  -56% || alts10  +72.2% kr  -43% |   +6.5% kr  -53%
