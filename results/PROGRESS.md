@@ -297,3 +297,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 2026-11-14: #82 rinkimų ciklas atmesta.
 - 2026-11-14: #83 aukso rudens efektas atmesta.
 - 2026-11-14: #84 kreivės inversija atmesta.
+- 2026-11-14: HalvingCycle.py (freqtrade) BTC+ETH: 2018–21 CAGR +151 %, 2021-11–2026-11 +35 %/m., 4 sandoriai; lookahead netaikoma (per mažai sandorių).

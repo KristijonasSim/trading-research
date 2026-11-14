@@ -5,5 +5,6 @@ Fiksuota populiari taisyklė (Rekt Capital ir kt.: dugnas ~1–1,5 m. prieš hal
 - Jautrumas (X 400–600 d. prieš, Y 450–650 d. po): 2016–26 visur +70…+112 %/m. – ne vieno taško sėkmė.
 - ⚠️ Tik 4 ciklai (per 15 m. ~8 sandoriai) – statistiškai silpna; ciklas gali nutrūkti (ETF, institucijos). Kritimas 53 % (2021 gegužė lange).
 - Ta pati taisyklė ETH: 2021–26 +66 %/m. (laikymas +18 %), alts10 krepšelis +110 %/m. (laikymas +47 %), kritimai 64 % – ciklas bendras visai rinkai (`alts.py`, `ALTS.txt`).
+- Freqtrade (`freqtrade/user_data/strategies/papers/HalvingCycle.py`, BTC+ETH po 50 %): 2018–21 CAGR +151 %, 2021-11 – 2026-11 **+35 %/m.** (4 sandoriai). Lookahead analizė netaikoma (per mažai sandorių; signalas priklauso tik nuo datos).
 - Dabar grynieji; kitas įėjimas ~**2026-12-02** (500 d. prieš numatomą 2028-04 halvingą), išėjimas ~2029-10.
 Žr. `REZULTATAI.txt`, `test.py`.

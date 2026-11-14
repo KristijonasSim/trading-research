@@ -1,0 +1,8 @@
+2026-11-14 07:05:45,468 - freqtrade.optimize.analysis.lookahead_helpers - INFO - Checking look ahead bias via backtests of HalvingCycle.py took 2 seconds.
+
+                                                                      Lookahead Analysis                                                                       
+┏━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┓
+┃        filename ┃     strategy ┃                                  has_bias ┃ total_signals ┃ biased_entry_signals ┃ biased_exit_signals ┃ biased_indicators ┃
+┡━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━┩
+│ HalvingCycle.py │ HalvingCycle │ too few trades caught (0/10).Test failed. │               │                      │                     │                   │
+└─────────────────┴──────────────┴───────────────────────────────────────────┴───────────────┴──────────────────────┴─────────────────────┴───────────────────┘
