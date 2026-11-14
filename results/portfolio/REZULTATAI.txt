@@ -1,0 +1,25 @@
+2022–2025 (realizuotas pelnas):
+  E0V1E_DCA3 (alts10)                       +18.5%/m. kr  -4.4%
+  EI3v2_tag_cofi_green (alts10)             +27.3%/m. kr -14.8%
+  EMAPriceCrossoverWithTreshold (btc_eth)   +25.2%/m. kr -22.2%
+  MACDVStrategy (btc_eth)                   +23.2%/m. kr -14.7%
+  NASMAO (alts10)                           +20.5%/m. kr -15.9%
+  NASOSv5_mod3 (alts10)                     +19.8%/m. kr  -3.3%
+  SMAO (alts10)                             +15.3%/m. kr -16.9%
+  abbas (alts10)                            +17.3%/m. kr  -7.5%
+  ckNSJT_morning (alts10)                   +27.8%/m. kr -19.0%
+
+savaitinių grąžų koreliacija:
+                                         E0V1E_DCA3 (alts10)  EI3v2_tag_cofi_green (alts10)  EMAPriceCrossoverWithTreshold (btc_eth)  MACDVStrategy (btc_eth)  NASMAO (alts10)  NASOSv5_mod3 (alts10)  SMAO (alts10)  abbas (alts10)  ckNSJT_morning (alts10)
+E0V1E_DCA3 (alts10)                                     1.00                           0.28                                     0.01                     0.10             0.27                   0.54          -0.02            0.32                    -0.03
+EI3v2_tag_cofi_green (alts10)                           0.28                           1.00                                     0.08                     0.25             0.13                   0.20           0.26            0.17                     0.04
+EMAPriceCrossoverWithTreshold (btc_eth)                 0.01                           0.08                                     1.00                     0.09            -0.02                  -0.05          -0.06           -0.02                     0.08
+MACDVStrategy (btc_eth)                                 0.10                           0.25                                     0.09                     1.00            -0.09                  -0.06           0.24           -0.06                     0.10
+NASMAO (alts10)                                         0.27                           0.13                                    -0.02                    -0.09             1.00                   0.87          -0.29            0.88                     0.36
+NASOSv5_mod3 (alts10)                                   0.54                           0.20                                    -0.05                    -0.06             0.87                   1.00          -0.19            0.84                     0.18
+SMAO (alts10)                                          -0.02                           0.26                                    -0.06                     0.24            -0.29                  -0.19           1.00           -0.21                     0.12
+abbas (alts10)                                          0.32                           0.17                                    -0.02                    -0.06             0.88                   0.84          -0.21            1.00                     0.21
+ckNSJT_morning (alts10)                                -0.03                           0.04                                     0.08                     0.10             0.36                   0.18           0.12            0.21                     1.00
+
+lygiais svoriais (9 strategijos, kasdien perbalansuojant):  +23.2%/m. kr  -3.3%
+tik alts10 (7):  +21.8%/m. kr  -2.6% | tik BTC+ETH (2):  +26.2%/m. kr -17.8%
