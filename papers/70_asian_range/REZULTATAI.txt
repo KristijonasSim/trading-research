@@ -1,0 +1,19 @@
+periodai: 2018–21 | 2022–26
+BTC long  stop range:   +9.5% kr  -60% |  -19.0% kr  -67% | sandorių d. 60%, laimi 42%
+BTC long  stop mid  :  -33.9% kr  -82% |  -39.6% kr  -92% | sandorių d. 60%, laimi 28%
+BTC short stop range:  -32.1% kr  -85% |  -34.4% kr  -88% | sandorių d. 59%, laimi 37%
+BTC short stop mid  :  -54.0% kr  -96% |  -56.5% kr  -98% | sandorių d. 59%, laimi 23%
+BTC both  stop range:   +2.8% kr  -70% |  -24.2% kr  -78% | sandorių d. 93%, laimi 42%
+BTC both  stop mid  :  -52.7% kr  -95% |  -54.6% kr  -98% | sandorių d. 93%, laimi 29%
+ETH long  stop range:  +60.6% kr  -39% |  -31.9% kr  -87% | sandorių d. 59%, laimi 45%
+ETH long  stop mid  :  -20.1% kr  -74% |  -56.0% kr  -98% | sandorių d. 59%, laimi 29%
+ETH short stop range:   -6.0% kr  -71% |   -9.7% kr  -67% | sandorių d. 57%, laimi 44%
+ETH short stop mid  :  -43.7% kr  -91% |  -50.0% kr  -97% | sandorių d. 57%, laimi 28%
+ETH both  stop range:  +80.8% kr  -51% |  -10.4% kr  -78% | sandorių d. 93%, laimi 46%
+ETH both  stop mid  :  -32.4% kr  -81% |  -57.9% kr  -99% | sandorių d. 93%, laimi 32%
+SOL long  stop range:   -4.3% kr  -59% |  -40.2% kr  -93% | sandorių d. 59%, laimi 41%
+SOL long  stop mid  :  -32.3% kr  -67% |  -65.3% kr  -99% | sandorių d. 59%, laimi 28%
+SOL short stop range:  -94.2% kr  -98% |  -32.2% kr  -93% | sandorių d. 58%, laimi 43%
+SOL short stop mid  :  -92.1% kr  -97% |  -62.4% kr  -99% | sandorių d. 58%, laimi 29%
+SOL both  stop range:  -86.5% kr  -96% |  -37.5% kr  -93% | sandorių d. 93%, laimi 44%
+SOL both  stop mid  :  -84.2% kr  -95% |  -68.1% kr -100% | sandorių d. 93%, laimi 32%
