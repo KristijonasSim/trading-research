@@ -1,0 +1,13 @@
+periodai: 2019–21 | 2022–26
+
+BTC laikyti                              +131.4% kr  -63% |   +8.0% kr  -67% | rinkoje 100%
+BTC ILLIQ < 365 d. mediana                +49.6% kr  -69% |  +13.4% kr  -41% | rinkoje 54%
+BTC ILLIQ > 365 d. mediana (atvirkščiai)  +51.2% kr  -15% |   -7.2% kr  -53% | rinkoje 34%
+BTC ILLIQ 30 d. < 90 d. vid. (krenta)     +44.5% kr  -72% |  +15.9% kr  -42% | rinkoje 58%
+BTC palyg.: kaina > 200 d. SMA            +50.5% kr  -64% |  +25.4% kr  -32% | rinkoje 50%
+
+ETH laikyti                              +191.7% kr  -68% |  -13.0% kr  -74% | rinkoje 100%
+ETH ILLIQ < 365 d. mediana               +171.0% kr  -77% |   -7.3% kr  -58% | rinkoje 55%
+ETH ILLIQ > 365 d. mediana (atvirkščiai)   +6.8% kr  -31% |   -9.5% kr  -69% | rinkoje 33%
+ETH ILLIQ 30 d. < 90 d. vid. (krenta)     +98.6% kr  -76% |  +26.2% kr  -56% | rinkoje 58%
+ETH palyg.: kaina > 200 d. SMA           +110.8% kr  -74% |  +10.9% kr  -42% | rinkoje 48%
