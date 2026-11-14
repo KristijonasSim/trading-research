@@ -94,3 +94,4 @@ Kripto duomenys: Binance (spot/futures, 1h/1d, visos USDT poros su istorija). Ak
 | 87 | Prieššventinė diena, algų dienos, pirmadienio efektas (S&P 500 1950–2026) | akcijos | ❌ atmesta (prieššventinis ir pirmadienio išnyko; algų dienos ≈ mėnesio sandūra #28) → `87_calendar_misc/REZULTATAI.md` |
 | 88 | BTC ↔ auksas momentum rotacija (1–12 mėn.) | kripto, ETF | ❌ atmesta (≈ BTC trendo filtras, kritimai 30–60 %) → `88_btc_gold_rotation/REZULTATAI.md` |
 | 89 | Deribit DVOL signalai (baimės pirkimas, VRP, suspaudimas), BTC/ETH | kripto | ❌ atmesta (nelenkia kainos > SMA50 filtro) → `89_dvol/REZULTATAI.md` |
+| 90 | Kripto skerspjūvio momentum su BTC > SMA filtru (top 50) | kripto | ❌ atmesta (2022–26 −34…−44 %/m.) → `90_xsec_mom_regime/REZULTATAI.md` |
