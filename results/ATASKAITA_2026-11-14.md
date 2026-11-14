@@ -1,6 +1,6 @@
 # Rytinė ataskaita 2026-11-14 (antras kompiuteris)
 
-## Naktį patikrinta (straipsniai ir teiginiai 34–92)
+## Naktį patikrinta (straipsniai ir teiginiai 34–96)
 Dauguma atmesti. Išgyveno tik kaip „rizikingi“:
 
 | # | Kas | Rezultatas |
@@ -11,7 +11,10 @@ Dauguma atmesti. Išgyveno tik kaip „rizikingi“:
 | 92 | Iždo aukcionų ciklas (TLT long po aukciono, short prieš) | 1x +7…+9 %/m., kritimas 15–21 %, lenkia TLT visais periodais (ir po 2013 paskelbimo); 3x 2013–26 +21 %, kritimas 54 % |
 | 81 | **BTC halvingo ciklas** (laikyti 500 d. prieš – 550 d. po halvingo) | 2021–26 +54 %/m. (laikymas +14 %), kritimas 53 %; išėjo 2021-11-12 ir 2025-10-22 prie viršūnių; zona +70…+112 %/m.; ETH/alts taip pat. Bet tik 4 ciklai. Kitas įėjimas ~2026-12-02 |
 
-Atmesta (be pranašumo arba neveikia po paskelbimo): MVRV, stablecoin emisija, NVT, Kimchi premija, FED likvidumas, taker buy ratio, IBS, OI signalai, VIX šuolis, sverto ETF nusidėvėjimas, Mėnulio fazės, tinklo augimas (adresai), aukso/sidabro ir vario/aukso santykiai, Wikipedia dėmesys, Bull Market Support Band, Fibonacci 0,618, Azijos diapazonas, Lorentzian Classification (TradingView kNN), 5 TradingView trendo indikatoriai, kripto mėnesių sezoniškumas, OpEx savaitė, 3Sig/9Sig, šalių ETF momentum, YouTube klasika (MACD+200EMA, Stoch RSI, Alligator, Heikin Ashi, EMA 9/21), funding arbitražas tarp biržų, M2 su vėlavimu, naujų listingų short (bet filtras: vengti monetų < 90–180 d.), rinkimų ciklas, aukso rudens efektas, kreivės inversija, DXY, sverto ETF rotacija, smulkūs kalendoriaus efektai, BTC↔auksas, Deribit DVOL, altų momentum su rinkos filtru, apimties indikatoriai, gap prekyba, S2F/Rainbow ir kt. Visi aprašai `papers/EILE.md`.
+Atmesta (be pranašumo arba neveikia po paskelbimo): MVRV, stablecoin emisija, NVT, Kimchi premija, FED likvidumas, taker buy ratio, IBS, OI signalai, VIX šuolis, sverto ETF nusidėvėjimas, Mėnulio fazės, tinklo augimas (adresai), aukso/sidabro ir vario/aukso santykiai, Wikipedia dėmesys, Bull Market Support Band, Fibonacci 0,618, Azijos diapazonas, Lorentzian Classification (TradingView kNN), 5 TradingView trendo indikatoriai, kripto mėnesių sezoniškumas, OpEx savaitė, 3Sig/9Sig, šalių ETF momentum, YouTube klasika (MACD+200EMA, Stoch RSI, Alligator, Heikin Ashi, EMA 9/21), funding arbitražas tarp biržų, M2 su vėlavimu, naujų listingų short (bet filtras: vengti monetų < 90–180 d.), rinkimų ciklas, aukso rudens efektas, kreivės inversija, DXY, sverto ETF rotacija, smulkūs kalendoriaus efektai, BTC↔auksas, Deribit DVOL, altų momentum su rinkos filtru, apimties indikatoriai, makro paskelbimų dienos, Jesse KDJ/IFR2/SimpleBollinger, Turtle ant altų, Amihud nelikvidumas, gap prekyba, S2F/Rainbow ir kt. Visi aprašai `papers/EILE.md`.
+
+## Išgyvenusiųjų iškraipymas alts10 (#95)
+Su tuometiniu 2021-11 top 20 (įskaitant LUNA, FTT) Turtle ir SimpleBollinger duoda +7…+9 %/m. vietoj +14…+17 % su dabartiniais alts10 – dabartinių monetų sąrašas išpučia rezultatus 5–10 p. p. Tikrinamos ir atrinktos alts10 strategijos (EI3v2, NASOS, E0V1E, ckNSJT, abbas, NASMAO, SMAO) – `freqtrade/pit_bt.sh`, rezultatai `freqtrade/results/pit/pit.log`.
 
 ## Passivbot martingale (nr. 11) – svarbi pataisa
 - Binance duomenimis 2021–26: +21,1 %/m., kritimas 25 %.

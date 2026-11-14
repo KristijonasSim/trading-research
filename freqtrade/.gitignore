@@ -1,3 +1,6 @@
 pitdata/
 docker_offline_pit/binance_markets.json
 results/pit/*/
+docker_offline_pit/SimpleStrategy.py
+docker_offline_pit/custom_indicators.py
+docker_offline_pit/utils/
