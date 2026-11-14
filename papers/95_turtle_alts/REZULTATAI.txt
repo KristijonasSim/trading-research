@@ -1,0 +1,19 @@
+periodai: 2018-06–21 | 2022–26
+alts10 (10: XRP BNB SOL DOGE ADA TRX LINK AVAX LTC DOT) laikyti: +169.4% kr  -64% |   -7.2% kr  -72%
+   Turtle 20/10: +106.7% kr  -24% |  +13.6% kr  -40%
+   Turtle 55/20: +122.5% kr  -33% |   +9.3% kr  -42%
+   Turtle 100/50: +102.0% kr  -43% |   +6.5% kr  -38%
+2018 top 10 (be BTC/ETH) (10: XRP BCC EOS LTC ADA XLM IOTA TRX NEO XMR) laikyti:  +25.5% kr  -79% |   -8.3% kr  -62%
+   Turtle 20/10:  +42.3% kr  -40% |   +4.2% kr  -42%
+   Turtle 55/20:  +35.1% kr  -32% |   +4.4% kr  -41%
+   Turtle 100/50:  +16.1% kr  -56% |   +0.9% kr  -41%
+
+SimpleBollinger (#94) išgyvenusiųjų patikra:
+   alts10: +116.3% kr  -20% |  +17.0% kr  -31%
+   2018 top 10 (be BTC/ETH):  +30.2% kr  -35% |   +6.9% kr  -30%
+
+2021-11 top 20 be BTC/ETH (18 monetų, su LUNA/FTT), 2021-11-08 – 2026-11:
+   laikyti:  -21.2% kr  -82%
+   Turtle 20/10:   +8.0% kr  -40%
+   Turtle 55/20:   +6.8% kr  -36%
+   SimpleBollinger 20/2:   +9.3% kr  -34%

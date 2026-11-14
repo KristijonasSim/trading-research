@@ -309,3 +309,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 2026-11-14: Passivbot martingale Bybit: 12 poz. +14,6 %/m. (kritimas 14 %, kasmet pliuse), 4 poz. +10,2 % (57 %) → rekomenduojama 12 poz. versija (ATRINKTI nr. 11, passivbot/REZULTATAI.md).
 - 2026-11-14: #93 makro paskelbimų dienų premija atmesta.
 - 2026-11-14: #94 SimpleBollinger (Jesse) 1d alts10: freqtrade +15,3 %/m., balanso kritimas 35 %, 5m detalumas tas pats, lookahead 0/20, 2018–21 +138 % → rizikingų sąraše (2022 −27 %). KDJ/IFR2 atmesta.
+- 2026-11-14: #95 Turtle ant alts + išgyvenusiųjų patikra: su 2021-11 top 20 (LUNA, FTT) Turtle +7…+8 %, SimpleBollinger +9,3 % → #94 SimpleBollinger išbraukta iš rizikingų.
