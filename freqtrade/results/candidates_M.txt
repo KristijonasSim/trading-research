@@ -102,3 +102,9 @@ batchM49 DONE
 batchM50 DONE
 batchM51 DONE
 batchM52 DONE
+batchM53 CombinedBinHAndCluc_455 alts10 5m 18.1 23.5 1521 {"2021": 4.6, "2022": 12.2, "2023": 35.4, "2024": 31.3, "2025": -3.5, "2026": 14.2}
+batchM53 DONE
+batchM54 DS_Green_5m_Bull alts10 5m 14.8 16.3 1079 {"2021": 8.2, "2022": -0.8, "2023": 14.9, "2024": 31.9, "2025": 17.1, "2026": 4.6}
+batchM54 DONE
+batchM55 DONE
+batchM56 DONE
