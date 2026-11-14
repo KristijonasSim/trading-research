@@ -1,0 +1,17 @@
+periodai: 2018-06–21 | 2022–26 (long+short perp)
+4h BTC filtrai=taip:  -44.0% kr  -93% |  -29.1% kr  -84% | laikyti  +66.2% kr  -67% |  +10.8% kr  -67% | rinkoje 55%
+4h BTC filtrai=ne  :  -66.3% kr  -99% |  -56.2% kr  -98% | laikyti  +66.2% kr  -67% |  +10.8% kr  -67% | rinkoje 96%
+4h ETH filtrai=taip:  -40.4% kr  -94% |  -37.6% kr  -91% | laikyti  +67.6% kr  -87% |   -9.7% kr  -76% | rinkoje 56%
+4h ETH filtrai=ne  :  -50.7% kr  -96% |  -55.0% kr  -98% | laikyti  +67.6% kr  -87% |   -9.7% kr  -76% | rinkoje 96%
+4h SOL filtrai=taip:  -90.9% kr  -97% |  -33.9% kr  -97% | laikyti +1767.7% kr  -75% |  -12.4% kr  -95% | rinkoje 57%
+4h SOL filtrai=ne  :  -87.0% kr  -94% |  -74.4% kr -100% | laikyti +1767.7% kr  -75% |  -12.4% kr  -95% | rinkoje 94%
+4h XRP filtrai=taip:  -70.4% kr  -99% |   -0.3% kr  -78% | laikyti   +8.9% kr  -81% |   +7.2% kr  -73% | rinkoje 54%
+4h XRP filtrai=ne  :  -84.9% kr -100% |  -26.2% kr  -94% | laikyti   +8.9% kr  -81% |   +7.2% kr  -73% | rinkoje 96%
+1d BTC filtrai=taip:  +43.4% kr  -31% |  -23.0% kr  -79% | laikyti  +66.2% kr  -63% |  +10.8% kr  -67% | rinkoje 48%
+1d BTC filtrai=ne  :  +26.9% kr  -65% |  -34.2% kr  -89% | laikyti  +66.2% kr  -63% |  +10.8% kr  -67% | rinkoje 79%
+1d ETH filtrai=taip:  -43.1% kr  -92% |   -1.3% kr  -76% | laikyti  +67.6% kr  -86% |   -9.7% kr  -74% | rinkoje 46%
+1d ETH filtrai=ne  :  -43.7% kr  -95% |   +9.6% kr  -76% | laikyti  +67.6% kr  -86% |   -9.7% kr  -74% | rinkoje 78%
+1d SOL filtrai=taip:   +0.0% kr    0% |  -26.5% kr  -84% | laikyti +1611.7% kr  -75% |  -12.3% kr  -95% | rinkoje 41%
+1d SOL filtrai=ne  :   +0.0% kr    0% |  -30.4% kr  -94% | laikyti +1611.7% kr  -75% |  -12.3% kr  -95% | rinkoje 69%
+1d XRP filtrai=taip:  -17.8% kr  -80% |  -38.7% kr  -98% | laikyti   +8.9% kr  -80% |   +7.5% kr  -72% | rinkoje 44%
+1d XRP filtrai=ne  :  +19.2% kr  -84% |  -11.3% kr  -92% | laikyti   +8.9% kr  -80% |   +7.5% kr  -72% | rinkoje 77%

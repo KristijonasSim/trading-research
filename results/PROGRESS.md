@@ -283,3 +283,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 2026-11-14: #69 Fibonacci golden pocket atmesta.
 - 2026-11-14: #70 Azijos sesijos diapazono pramušimas atmesta.
 - 2026-11-14: #71 OpEx savaitės efektas atmesta.
+- 2026-11-14: #72 Lorentzian Classification (TradingView kNN) atmesta.
