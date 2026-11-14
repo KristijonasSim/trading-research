@@ -1,0 +1,8 @@
+BTC laikyti: +51.2%/m. DD -81% | +1.7%/m. DD -77%
+kaina / S2F modelis: {'2017-08-17': np.float64(0.63), '2018-08-17': np.float64(0.84), '2019-08-17': np.float64(1.14), '2020-08-16': np.float64(0.12), '2021-08-16': np.float64(0.42), '2022-08-16': np.float64(0.21), '2023-08-16': np.float64(0.23), '2024-08-15': np.float64(0.04), '2025-08-15': np.float64(0.09), '2026-08-15': np.float64(0.04)}
+S2F: laikyti kai kaina < 0.5× modelio: +112.5%/m. DD -40% | +11.1%/m. DD -71% | rinkoje 97%
+S2F: laikyti kai kaina < 1.0× modelio: +101.8%/m. DD -59% | +1.7%/m. DD -77% | rinkoje 100%
+S2F: laikyti kai kaina < 2.0× modelio: +56.5%/m. DD -77% | +1.7%/m. DD -77% | rinkoje 100%
+Rainbow: laikyti kai liekana < 30% kvantilio: +11.9%/m. DD -10% | +0.2%/m. DD -64% | rinkoje 45%
+Rainbow: laikyti kai liekana < 50% kvantilio: +4.4%/m. DD -40% | +6.5%/m. DD -67% | rinkoje 65%
+Rainbow: laikyti kai liekana < 70% kvantilio: +31.2%/m. DD -51% | +7.5%/m. DD -71% | rinkoje 86%

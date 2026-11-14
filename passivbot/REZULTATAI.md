@@ -21,3 +21,6 @@ Patikros (TWEL 0,75):
 - Jautrumas (2021–26 / nematytas 2019-12 – 2021-04): TWEL 1,0 → +30,7 %/m. (kritimas 34 %); TWEL 0,75 su 4 pozicijomis → +25,3 % (28 %) / +103 % (37 %); su 12 pozicijų → +16,9 % (16 %) / +51 % (37 %). Visi variantai pliuse kasmet arba beveik (2022 −1 %).
 - Išgyvenusiųjų patikra: 2021-11 top 20 (su FTT, kuris žlugo 2022-11; LUNA futures duomenų Binance nebeturi, todėl 18 monetų): **+26,3 %/m., kritimas 24 %**, kasmet pliuse.
 - Kiti konfigai atmesti: btc_long sunaikina sąskaitą, 5 monetų – kritimai 74–78 %, ema_anchor – 70 %, hsl_npos1 – 45 %.
+
+## Forward testas
+Passivbot neturi popierinės prekybos („fake live“ – tik offline scenarijų testai). Dry-run galimas tik per biržos demo paskyrą (pvz., Bybit demo su `custom_endpoints.json`); raktai – kitame kompiuteryje (`~/trading/bybit_demo/`), reikia vartotojo sprendimo.
