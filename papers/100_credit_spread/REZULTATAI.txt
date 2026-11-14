@@ -1,0 +1,15 @@
+periodai: 2001–12 | 2013–19 | 2020–26
+
+SPY laikyti                         +2.6% kr -55% | +14.6% kr -19% | +14.8% kr -34% | rinkoje 100%
+SPY skirtumas < 50 d. vidurkis      +4.6% kr -32% |  +6.6% kr -12% |  +8.0% kr -36% | rinkoje 56%
+SPY skirtumas < 200 d. vidurkis     +3.2% kr -29% | +11.0% kr -10% | +11.3% kr -12% | rinkoje 59%
+SPY skirtumo 20 d. pokytis < 0      +2.9% kr -27% |  +5.5% kr -11% |  +9.0% kr -35% | rinkoje 52%
+SPY skirtumas < 3 %                 +0.1% kr -38% | +14.4% kr -19% | +11.9% kr -27% | rinkoje 80%
+SPY palyg.: kaina > 200 d. SMA      +3.5% kr -21% | +11.9% kr -11% | +11.5% kr -19% | rinkoje 75%
+
+QQQ laikyti                         +1.4% kr -70% | +19.7% kr -23% | +19.2% kr -35% | rinkoje 100%
+QQQ skirtumas < 50 d. vidurkis      +4.4% kr -40% | +10.5% kr -13% |  +9.6% kr -46% | rinkoje 56%
+QQQ skirtumas < 200 d. vidurkis     +0.5% kr -55% | +14.8% kr -11% | +12.5% kr -22% | rinkoje 59%
+QQQ skirtumo 20 d. pokytis < 0      +3.7% kr -30% | +10.0% kr -12% | +10.2% kr -45% | rinkoje 52%
+QQQ skirtumas < 3 %                 -5.9% kr -74% | +19.4% kr -23% | +15.3% kr -35% | rinkoje 80%
+QQQ palyg.: kaina > 200 d. SMA      +2.3% kr -30% | +14.0% kr -22% | +16.8% kr -22% | rinkoje 74%
