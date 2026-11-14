@@ -1,0 +1,28 @@
+periodai: 2009–15 | 2016–22 | 2023–26 (po išpopuliarinimo)
+
+SPY laikyti                         +14.0% kr  -27% |  +11.5% kr  -34% |  +20.5% kr  -19% | rinkoje 100%
+SPY likv. pokytis 4 sav. > 0        +14.0% kr  -19% |  +10.9% kr  -24% |   +7.9% kr  -16% | rinkoje  58%
+SPY likv. pokytis 8 sav. > 0         +9.5% kr  -22% |  +10.1% kr  -22% |   +7.1% kr  -14% | rinkoje  58%
+SPY likv. pokytis 13 sav. > 0       +12.9% kr  -21% |   +6.1% kr  -34% |  +11.7% kr  -17% | rinkoje  60%
+SPY likv. pokytis 26 sav. > 0       +11.9% kr  -27% |   +8.9% kr  -34% |  +14.3% kr  -14% | rinkoje  66%
+SPY likv. > 13 sav. vidurkis        +10.8% kr  -17% |   +9.4% kr  -23% |   +9.6% kr  -14% | rinkoje  59%
+SPY likv. > 26 sav. vidurkis         +9.8% kr  -27% |  +10.2% kr  -34% |  +10.4% kr  -14% | rinkoje  63%
+SPY kaina > 200 d. SMA (palyg.)      +7.2% kr  -22% |   +8.9% kr  -19% |  +13.9% kr  -12% | rinkoje  77%
+
+QQQ laikyti                         +21.0% kr  -18% |  +14.4% kr  -35% |  +28.1% kr  -23% | rinkoje 100%
+QQQ likv. pokytis 4 sav. > 0        +18.4% kr  -17% |  +11.2% kr  -19% |   +6.7% kr  -20% | rinkoje  58%
+QQQ likv. pokytis 8 sav. > 0        +14.5% kr  -20% |  +11.1% kr  -21% |   +5.3% kr  -16% | rinkoje  58%
+QQQ likv. pokytis 13 sav. > 0       +18.6% kr  -19% |   +9.2% kr  -29% |  +16.6% kr  -21% | rinkoje  60%
+QQQ likv. pokytis 26 sav. > 0       +17.7% kr  -18% |  +12.8% kr  -29% |  +18.1% kr  -17% | rinkoje  66%
+QQQ likv. > 13 sav. vidurkis        +17.2% kr  -16% |  +11.3% kr  -19% |  +12.6% kr  -16% | rinkoje  59%
+QQQ likv. > 26 sav. vidurkis        +17.7% kr  -18% |  +14.2% kr  -29% |  +12.3% kr  -17% | rinkoje  63%
+QQQ kaina > 200 d. SMA (palyg.)     +10.2% kr  -20% |  +12.4% kr  -22% |  +19.3% kr  -15% | rinkoje  78%
+
+BTC laikyti                         -25.7% kr  -81% |  +68.3% kr  -84% |  +43.9% kr  -53% | rinkoje 100%
+BTC likv. pokytis 4 sav. > 0        -17.4% kr  -56% |  +67.1% kr  -67% |  +17.8% kr  -45% | rinkoje  53%
+BTC likv. pokytis 8 sav. > 0        -20.3% kr  -69% |  +57.9% kr  -55% |  +17.7% kr  -43% | rinkoje  50%
+BTC likv. pokytis 13 sav. > 0       -47.4% kr  -85% |  +50.9% kr  -62% |   +8.4% kr  -59% | rinkoje  51%
+BTC likv. pokytis 26 sav. > 0       -41.2% kr  -81% |  +44.0% kr  -69% |  +20.5% kr  -31% | rinkoje  51%
+BTC likv. > 13 sav. vidurkis        -33.3% kr  -74% |  +69.9% kr  -60% |  +15.7% kr  -38% | rinkoje  51%
+BTC likv. > 26 sav. vidurkis        -30.1% kr  -72% |  +79.6% kr  -68% |  +28.8% kr  -29% | rinkoje  50%
+BTC kaina > 200 d. SMA (palyg.)     +17.7% kr  -30% |  +86.4% kr  -65% |  +21.7% kr  -35% | rinkoje  56%

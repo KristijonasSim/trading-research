@@ -61,3 +61,4 @@ Kripto duomenys: Binance (spot/futures, 1h/1d, visos USDT poros su istorija). Ak
 | 54 | Coinbase premija (Coinbase vs Binance kaina), BTC/ETH 1h | kripto | ⚠️ signalas yra (išlieka su 2 h vėlavimu), bet slenksčio smailė, pelnas 2024 m., 2025 −21 % → `54_coinbase_premium/REZULTATAI.md` |
 | 55 | Stablecoin emisija (USDT+USDC pasiūla) ir NVT Signal (Woo 2018), BTC/ETH | kripto | ❌ atmesta (emisija – vienas 2022–23 epizodas ≈ SMA filtras, ETH neveikia; NVT −13…+11 %/m.) → `55_stablecoin_nvt/REZULTATAI.md` |
 | 56 | Kimchi premija (Upbit vs Binance), BTC/ETH/XRP 1d | kripto | ❌ atmesta (kontrarinis veikė tik 2017–18, trendo ženklas keičiasi, kritimai 50–90 %) → `56_kimchi/REZULTATAI.md` |
+| 57 | FED grynasis likvidumas (WALCL − TGA − RRP) → SPY/QQQ/BTC | akcijos, kripto | ❌ atmesta (2023–26 visi variantai gerokai žemiau laikymo) → `57_net_liquidity/REZULTATAI.md` |
