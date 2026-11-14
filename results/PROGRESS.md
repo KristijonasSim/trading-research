@@ -305,3 +305,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 2026-11-14: #89 Deribit DVOL signalai atmesta.
 - 2026-11-14: #90 skerspjūvio momentum su rinkos filtru atmesta.
 - 2026-11-14: #91 apimties indikatoriai atmesta.
+- 2026-11-14: #92 iždo aukcionų ciklas – ⚠️ rizikingų sąraše (TLT 1x +7…+9 %/m. visais periodais, 3x 2013–26 +21 %, kritimas 54 %).
