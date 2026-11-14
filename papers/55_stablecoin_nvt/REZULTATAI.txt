@@ -1,0 +1,37 @@
+periodai: 2019–21 | 2022–26 | 2024–26
+
+== BTC ==
+laikyti                                    +130.2%/m. kr  -61% |   +7.7%/m. kr  -67% |  +16.4%/m. kr  -53%
+A stable augimas 7 d. > 0%                 +124.5%/m. kr  -54% |  +11.4%/m. kr  -51% |  +17.9%/m. kr  -51% | sandorių 268, rinkoje 69%
+A stable augimas 7 d. > 1%                  +67.8%/m. kr  -55% |   +9.5%/m. kr  -32% |  +14.4%/m. kr  -28% | sandorių 242, rinkoje 35%
+A stable augimas 14 d. > 0%                +129.2%/m. kr  -53% |   -0.0%/m. kr  -62% |  +10.7%/m. kr  -48% | sandorių 158, rinkoje 70%
+A stable augimas 14 d. > 1%                 +79.2%/m. kr  -55% |   +3.4%/m. kr  -43% |  +15.5%/m. kr  -25% | sandorių 146, rinkoje 50%
+A stable augimas 30 d. > 0%                +133.2%/m. kr  -54% |  +25.7%/m. kr  -36% |  +23.9%/m. kr  -36% | sandorių 86, rinkoje 74%
+A stable augimas 30 d. > 1%                +107.0%/m. kr  -55% |  +20.6%/m. kr  -35% |  +28.1%/m. kr  -35% | sandorių 102, rinkoje 62%
+A stable augimas 60 d. > 0%                +126.0%/m. kr  -53% |  +24.4%/m. kr  -39% |  +21.1%/m. kr  -39% | sandorių 66, rinkoje 76%
+A stable augimas 60 d. > 1%                +121.3%/m. kr  -53% |  +21.1%/m. kr  -36% |  +29.5%/m. kr  -36% | sandorių 44, rinkoje 70%
+palyginimui: kaina > 100 d. SMA            +133.2%/m. kr  -33% |  +19.8%/m. kr  -36% |  +19.8%/m. kr  -36% | sandorių 152, rinkoje 57%
+
+== ETH ==
+laikyti                                    +198.3%/m. kr  -67% |  -12.9%/m. kr  -74% |   -6.7%/m. kr  -68%
+A stable augimas 7 d. > 0%                 +138.4%/m. kr  -69% |   +1.6%/m. kr  -69% |   +7.5%/m. kr  -69% | sandorių 268, rinkoje 69%
+A stable augimas 7 d. > 1%                  +91.0%/m. kr  -68% |   +4.0%/m. kr  -44% |  +11.2%/m. kr  -44% | sandorių 242, rinkoje 35%
+A stable augimas 14 d. > 0%                +133.3%/m. kr  -71% |  -12.6%/m. kr  -73% |   +3.8%/m. kr  -68% | sandorių 158, rinkoje 70%
+A stable augimas 14 d. > 1%                 +86.5%/m. kr  -69% |   +2.0%/m. kr  -53% |  +22.8%/m. kr  -53% | sandorių 146, rinkoje 50%
+A stable augimas 30 d. > 0%                +164.6%/m. kr  -71% |   +8.5%/m. kr  -65% |   +2.9%/m. kr  -65% | sandorių 86, rinkoje 74%
+A stable augimas 30 d. > 1%                +124.8%/m. kr  -73% |   +4.2%/m. kr  -66% |  +10.5%/m. kr  -66% | sandorių 102, rinkoje 62%
+A stable augimas 60 d. > 0%                +167.2%/m. kr  -69% |   +7.8%/m. kr  -64% |   +0.6%/m. kr  -64% | sandorių 66, rinkoje 76%
+A stable augimas 60 d. > 1%                +169.9%/m. kr  -68% |   +9.6%/m. kr  -64% |   +9.5%/m. kr  -64% | sandorių 44, rinkoje 70%
+palyginimui: kaina > 100 d. SMA            +112.2%/m. kr  -63% |   +5.1%/m. kr  -52% |  +15.8%/m. kr  -47% | sandorių 174, rinkoje 57%
+
+== BTC NVT Signal ==
+B NVTS z(365) < 0.0                         +13.9%/m. kr  -56% |   -2.5%/m. kr  -49% |   +6.0%/m. kr  -49% | sandorių 173, rinkoje 44%
+B NVTS z(365) < 1.0                         +44.0%/m. kr  -60% |  -13.3%/m. kr  -67% |   -2.1%/m. kr  -54% | sandorių 133, rinkoje 75%
+B NVTS z(365) < 2.0                        +131.4%/m. kr  -61% |   +8.2%/m. kr  -67% |  +14.2%/m. kr  -53% | sandorių 111, rinkoje 94%
+B NVTS z(730) < 0.0                         +24.4%/m. kr  -42% |  -12.9%/m. kr  -55% |   -3.4%/m. kr  -44% | sandorių 137, rinkoje 38%
+B NVTS z(730) < 1.0                         +16.1%/m. kr  -61% |  -12.5%/m. kr  -67% |   -1.2%/m. kr  -54% | sandorių 101, rinkoje 74%
+B NVTS z(730) < 2.0                        +105.4%/m. kr  -61% |   +9.8%/m. kr  -67% |  +20.7%/m. kr  -51% | sandorių 113, rinkoje 93%
+B NVTS < jo 30 d. vid.                      +29.6%/m. kr  -57% |   -8.3%/m. kr  -53% |   -4.9%/m. kr  -53% | sandorių 357, rinkoje 47%
+B NVTS > jo 30 d. vid. (atvirkščiai)        +66.6%/m. kr  -59% |  +10.9%/m. kr  -45% |  +15.4%/m. kr  -41% | sandorių 356, rinkoje 53%
+B NVTS < jo 90 d. vid.                       -5.0%/m. kr  -63% |   +1.5%/m. kr  -48% |  +10.2%/m. kr  -44% | sandorių 187, rinkoje 50%
+B NVTS > jo 90 d. vid. (atvirkščiai)       +137.2%/m. kr  -33% |   +2.8%/m. kr  -55% |   +2.3%/m. kr  -39% | sandorių 186, rinkoje 50%

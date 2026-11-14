@@ -59,3 +59,4 @@ Kripto duomenys: Binance (spot/futures, 1h/1d, visos USDT poros su istorija). Ak
 | 52 | Atidarymo tarpo prekyba ETF (gap fade / gap and go) | ETF | ❌ atmesta (visi variantai −17…+3 %/m.) → `52_gap_fade/REZULTATAI.md` |
 | 53 | MVRV ciklas ir MVRV trendas (Mahmudov, Puell 2018), BTC/ETH | kripto | ❌ atmesta (ciklas 8 sandoriai, nuo 2024 grynieji; trendas ≈ kainos SMA, ETH neveikia) → `53_mvrv/REZULTATAI.md` |
 | 54 | Coinbase premija (Coinbase vs Binance kaina), BTC/ETH 1h | kripto | ⚠️ signalas yra (išlieka su 2 h vėlavimu), bet slenksčio smailė, pelnas 2024 m., 2025 −21 % → `54_coinbase_premium/REZULTATAI.md` |
+| 55 | Stablecoin emisija (USDT+USDC pasiūla) ir NVT Signal (Woo 2018), BTC/ETH | kripto | ❌ atmesta (emisija – vienas 2022–23 epizodas ≈ SMA filtras, ETH neveikia; NVT −13…+11 %/m.) → `55_stablecoin_nvt/REZULTATAI.md` |
