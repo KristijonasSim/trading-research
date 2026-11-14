@@ -291,3 +291,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 2026-11-14 07:05 – rytinė ataskaita results/ATASKAITA_2026-11-14.md; CLAUDE.md ir SUVESTINE atnaujinti.
 - 2026-11-14: #77 YouTube klasika (5 indikatoriai × 3 laiko rėmai) atmesta.
 - 2026-11-14: #78 funding skirtumo arbitražas Binance↔Bybit atmesta.
+- 2026-11-14: #79 BTC ir M2 su vėlavimu atmesta.
