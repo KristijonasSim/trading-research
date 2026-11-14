@@ -1,0 +1,25 @@
+periodai: 2011–16 | 2017–21 | 2022–26
+TQQQ/SQQQ ME skolinimasis 0%:  +5.0% kr  -6% |  +7.5% kr -10% |  +4.2% kr -12%
+TQQQ/SQQQ ME skolinimasis 3%:  +1.9% kr -10% |  +4.3% kr -11% |  +1.1% kr -14%
+TQQQ/SQQQ ME skolinimasis 8%:  -3.1% kr -25% |  -0.7% kr -18% |  -3.8% kr -27%
+TQQQ/SQQQ W  skolinimasis 0%:  -0.1% kr  -4% |  +4.5% kr  -5% |  +1.4% kr  -7%
+TQQQ/SQQQ W  skolinimasis 3%:  -3.0% kr -17% |  +1.4% kr -12% |  -1.6% kr -16%
+TQQQ/SQQQ W  skolinimasis 8%:  -7.8% kr -38% |  -3.5% kr -25% |  -6.4% kr -33%
+UPRO/SPXU ME skolinimasis 0%:  +4.7% kr  -6% |  +5.0% kr -12% |  +1.6% kr -10%
+UPRO/SPXU ME skolinimasis 3%:  +1.6% kr  -8% |  +1.9% kr -12% |  -1.4% kr -17%
+UPRO/SPXU ME skolinimasis 8%:  -3.3% kr -24% |  -3.1% kr -23% |  -6.2% kr -30%
+UPRO/SPXU W  skolinimasis 0%:  +0.4% kr  -4% |  +0.5% kr -11% |  -1.1% kr -10%
+UPRO/SPXU W  skolinimasis 3%:  -2.5% kr -16% |  -2.5% kr -20% |  -4.0% kr -21%
+UPRO/SPXU W  skolinimasis 8%:  -7.3% kr -36% |  -7.2% kr -31% |  -8.7% kr -37%
+SOXL/SOXS ME skolinimasis 0%:  +9.7% kr  -9% | +17.6% kr -20% |  +1.8% kr -64%
+SOXL/SOXS ME skolinimasis 3%:  +6.5% kr -10% | +14.2% kr -22% |  -1.3% kr -65%
+SOXL/SOXS ME skolinimasis 8%:  +1.3% kr -18% |  +8.7% kr -24% |  -6.1% kr -67%
+SOXL/SOXS W  skolinimasis 0%:  +0.6% kr  -6% | +12.1% kr -12% | +13.3% kr -12%
+SOXL/SOXS W  skolinimasis 3%:  -2.4% kr -14% |  +8.8% kr -12% | +10.0% kr -12%
+SOXL/SOXS W  skolinimasis 8%:  -7.2% kr -36% |  +3.5% kr -17% |  +4.6% kr -20%
+TNA/TZA ME skolinimasis 0%:  +8.9% kr -12% |  +8.3% kr -30% |  +2.5% kr -15%
+TNA/TZA ME skolinimasis 3%:  +5.7% kr -12% |  +5.1% kr -34% |  -0.5% kr -22%
+TNA/TZA ME skolinimasis 8%:  +0.6% kr -17% |  +0.0% kr -42% |  -5.4% kr -32%
+TNA/TZA W  skolinimasis 0%:  +3.5% kr  -5% |  -0.4% kr -23% |  +0.6% kr -10%
+TNA/TZA W  skolinimasis 3%:  +0.4% kr  -9% |  -3.4% kr -29% |  -2.4% kr -18%
+TNA/TZA W  skolinimasis 8%:  -4.5% kr -29% |  -8.1% kr -39% |  -7.2% kr -34%

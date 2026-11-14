@@ -273,3 +273,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 2026-11-14: #60 OI signalai (Bybit, 30 monetų) atmesta.
 - 2026-11-14: #61 obligacijų mėnesio pabaigos efektas – ⚠️ tikras, TMF 2010–26 +15…+17 %/m. (kritimas 28 %), rizikingų sąraše kaip papildas.
 - 2026-11-14: #62 VIX šuolio pirkimas atmesta.
+- 2026-11-14: #63 sverto ETF nusidėvėjimo sandoris atmesta.
