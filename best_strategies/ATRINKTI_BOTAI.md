@@ -142,6 +142,14 @@ Patikros:
 - Funding neįskaičiuotas, įvertis ±1–2 %/m. ⚠️ Martingale: kritimuose didina poziciją; 1,5 ekspozicija duoda +49 %/m., bet kritimas 51–73 %.
 - Aprašas ir skriptai `passivbot/REZULTATAI.md`; paleidimas – Docker `passivbot:stamped`.
 
+## 12. TrendVolTarget (Freqtrade, BTC+ETH, 1d) – pridėta 2026-11-14
+- Laiko BTC/ETH, kai kaina virš 200 d. vidurkio, 30 d. grąža teigiama ir EMA20 > EMA50; pozicijos dydis mažinamas, kai rinka labai svyruoja.
+- 2021-11 – 2026-11: **+14,8 %/m., kritimas 12,7 %** (su 1 val. detalumu +13,2 %, 12 %). 2022 tik −1,3 % (rinka −65 %).
+- Nematytas 2018–21: **+52 %/m., kritimas 6,5 %** (2018 – nė vieno sandorio, nes rinka krito).
+- Lookahead 0/20 (`results/validation/TrendVolTarget_batchM34.log`).
+- ⚠️ Panaši idėja kaip MACDVStrategy ir Aberration (BTC+ETH trendas) – kartu nesudiversifikuoja.
+- Šaltinis: pedraumcosta/strategy-factory. Failas `best_strategies/TrendVolTarget.py`.
+
 ## Potencialūs, bet rizikingi
 | Strategija | Rinka | %/m | Max kritimas | Kodėl ne pagrindiniame sąraše |
 |---|---|---|---|---|

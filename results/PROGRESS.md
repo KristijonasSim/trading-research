@@ -260,3 +260,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - #51 S2F / Rainbow ❌ → `papers/51_s2f_rainbow/`. Passivbot forward testui reikia Bybit demo raktų (kitas kompiuteris).
 - #52 Gap fade/go ETF ❌ → `papers/52_gap_fade/`.
 - 2026-11-14 03:00 – batchM31–M33: FlashCrashScalper ir CrashReversal švarios, bet kritimai nematytame per dideli (34–57 %) → rizikingų sąrašas. DivergenceStrategy atmesta (argrelextrema, ateities duomenys).
+- 2026-11-14 04:50 – TrendVolTarget (batchM34, BTC+ETH 1d) išlaikė visas patikras: 2021–26 +14,8 %/m. (12,7 %), 2018–21 +52 %/m. (6,5 %), lookahead 0/20 → ATRINKTI_BOTAI.md.
