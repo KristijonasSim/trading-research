@@ -1,0 +1,27 @@
+periodai: 2021-06–22 | 2023–26
+
+BTC laikyti                                 -40.3% kr  -77% |  +44.3% kr  -53% | rinkoje 100%
+BTC A DVOL z(90) > 1.0, laikyti 10 d.        +1.6% kr  -26% |  +11.1% kr  -41% | rinkoje 28%
+BTC A DVOL z(90) > 1.0, laikyti 30 d.       -19.7% kr  -48% |  +26.3% kr  -38% | rinkoje 47%
+BTC A DVOL z(90) > 1.5, laikyti 10 d.       -12.1% kr  -23% |   +8.5% kr  -26% | rinkoje 18%
+BTC A DVOL z(90) > 1.5, laikyti 30 d.       -21.1% kr  -40% |   +8.4% kr  -34% | rinkoje 30%
+BTC A DVOL z(90) > 2.0, laikyti 10 d.       -13.6% kr  -24% |  +10.7% kr  -27% | rinkoje 12%
+BTC A DVOL z(90) > 2.0, laikyti 30 d.       -19.4% kr  -40% |   +3.4% kr  -38% | rinkoje 25%
+BTC B laikyti kai VRP > 0 (DVOL − RV30)     -24.9% kr  -70% |  +21.9% kr  -50% | rinkoje 77%
+BTC B laikyti kai VRP > 10 (DVOL − RV30)    -18.7% kr  -62% |  +26.1% kr  -23% | rinkoje 41%
+BTC B laikyti kai VRP < 0 (atvirkščiai)     -23.1% kr  -44% |  +12.5% kr  -27% | rinkoje 21%
+BTC C žemas DVOL (20 %) ir kaina > SMA50    -25.0% kr  -56% |  +28.4% kr  -35% | rinkoje 42%
+BTC palyg.: kaina > SMA50                   -21.9% kr  -58% |  +52.4% kr  -26% | rinkoje 49%
+
+ETH laikyti                                 -40.2% kr  -79% |  +12.9% kr  -68% | rinkoje 100%
+ETH A DVOL z(90) > 1.0, laikyti 10 d.       -30.5% kr  -55% |   +5.3% kr  -50% | rinkoje 31%
+ETH A DVOL z(90) > 1.0, laikyti 30 d.       -34.5% kr  -71% |   +7.9% kr  -70% | rinkoje 50%
+ETH A DVOL z(90) > 1.5, laikyti 10 d.       -18.1% kr  -37% |   +3.5% kr  -39% | rinkoje 20%
+ETH A DVOL z(90) > 1.5, laikyti 30 d.       -29.3% kr  -65% |   -5.4% kr  -61% | rinkoje 38%
+ETH A DVOL z(90) > 2.0, laikyti 10 d.       -16.3% kr  -36% |   +7.2% kr  -22% | rinkoje 12%
+ETH A DVOL z(90) > 2.0, laikyti 30 d.       -14.7% kr  -54% |   -2.2% kr  -43% | rinkoje 24%
+ETH B laikyti kai VRP > 0 (DVOL − RV30)      +1.4% kr  -62% |  +17.4% kr  -58% | rinkoje 67%
+ETH B laikyti kai VRP > 10 (DVOL − RV30)    -47.0% kr  -82% |  +24.0% kr  -36% | rinkoje 33%
+ETH B laikyti kai VRP < 0 (atvirkščiai)     -44.2% kr  -73% |   -8.6% kr  -63% | rinkoje 31%
+ETH C žemas DVOL (20 %) ir kaina > SMA50    -20.2% kr  -52% |  +29.3% kr  -57% | rinkoje 38%
+ETH palyg.: kaina > SMA50                    -6.3% kr  -54% |  +47.8% kr  -37% | rinkoje 47%

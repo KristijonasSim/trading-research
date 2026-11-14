@@ -302,3 +302,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 2026-11-14: #86 sverto ETF momentum rotacija atmesta.
 - 2026-11-14: #87 smulkūs kalendoriaus efektai atmesta.
 - 2026-11-14: #88 BTC↔auksas rotacija atmesta.
+- 2026-11-14: #89 Deribit DVOL signalai atmesta.
