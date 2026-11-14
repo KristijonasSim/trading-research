@@ -92,3 +92,4 @@ Kripto duomenys: Binance (spot/futures, 1h/1d, visos USDT poros su istorija). Ak
 | 85 | Dolerio indekso (DXY) trendas → BTC/ETH/QQQ | kripto, akcijos | ❌ atmesta (nelenkia laikymo ir SMA200; QQQ tik 2020–26) → `85_dxy_btc/REZULTATAI.md` |
 | 86 | Sverto ETF momentum rotacija (TQQQ/TMF/UGL/BIL, sintetiniai nuo 2005) | ETF | ❌ atmesta (priklauso nuo lango, kritimai 32–63 %) → `86_lev_rotation/REZULTATAI.md` |
 | 87 | Prieššventinė diena, algų dienos, pirmadienio efektas (S&P 500 1950–2026) | akcijos | ❌ atmesta (prieššventinis ir pirmadienio išnyko; algų dienos ≈ mėnesio sandūra #28) → `87_calendar_misc/REZULTATAI.md` |
+| 88 | BTC ↔ auksas momentum rotacija (1–12 mėn.) | kripto, ETF | ❌ atmesta (≈ BTC trendo filtras, kritimai 30–60 %) → `88_btc_gold_rotation/REZULTATAI.md` |

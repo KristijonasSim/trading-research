@@ -1,0 +1,25 @@
+periodai: 2015–19 | 2020–22 | 2023–26
+BTC laikyti                 +86.1% kr -76% |  +32.1% kr -73% |  +43.6% kr -49%
+GLD laikyti                  +4.7% kr -18% |   +5.9% kr -18% |  +20.8% kr -27%
+50/50 BTC/GLD               +50.4% kr -46% |  +27.0% kr -44% |  +35.5% kr -25%
+rotacija 1 mėn.             +72.6% kr -66% |  +39.6% kr -47% |  +69.1% kr -20%
+rotacija 3 mėn.            +120.5% kr -29% |  +42.5% kr -51% |  +29.0% kr -39%
+rotacija 6 mėn.             +74.4% kr -53% |  +47.7% kr -54% |  +20.9% kr -34%
+
+jautrumas ir palyginimas be aukso (BTC arba BIL pagal absoliutų momentum):
+   1 mėn. BTC/GLD/BIL   +71.4% kr -66% |  +39.6% kr -47% |  +69.1% kr -20%
+   1 mėn. BTC/BIL       +68.8% kr -64% |  +32.7% kr -46% |  +42.6% kr -27%
+   2 mėn. BTC/GLD/BIL  +100.0% kr -48% |  +19.2% kr -54% |  +32.6% kr -32%
+   2 mėn. BTC/BIL      +106.3% kr -46% |  +19.8% kr -53% |  +14.9% kr -37%
+   3 mėn. BTC/GLD/BIL  +123.5% kr -29% |  +42.5% kr -51% |  +29.0% kr -39%
+   3 mėn. BTC/BIL       +99.9% kr -52% |  +32.9% kr -48% |  +20.9% kr -39%
+   4 mėn. BTC/GLD/BIL   +99.7% kr -56% |  +49.5% kr -48% |  +25.3% kr -25%
+   4 mėn. BTC/BIL      +125.7% kr -55% |  +49.2% kr -47% |  +21.5% kr -31%
+   5 mėn. BTC/GLD/BIL  +115.2% kr -50% |  +36.1% kr -61% |  +18.2% kr -34%
+   5 mėn. BTC/BIL      +118.3% kr -50% |  +22.6% kr -56% |  +22.5% kr -30%
+   6 mėn. BTC/GLD/BIL   +76.1% kr -53% |  +47.7% kr -54% |  +20.9% kr -34%
+   6 mėn. BTC/BIL       +78.6% kr -52% |  +34.5% kr -62% |  +23.7% kr -30%
+   9 mėn. BTC/GLD/BIL   +81.2% kr -58% |  +71.4% kr -40% |  +42.4% kr -24%
+   9 mėn. BTC/BIL       +81.9% kr -57% |  +58.8% kr -40% |  +30.8% kr -32%
+  12 mėn. BTC/GLD/BIL   +64.8% kr -62% |  +75.5% kr -40% |  +27.6% kr -28%
+  12 mėn. BTC/BIL       +66.9% kr -62% |  +70.0% kr -40% |  +33.9% kr -22%
