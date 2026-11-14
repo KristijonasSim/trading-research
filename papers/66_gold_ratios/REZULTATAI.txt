@@ -1,0 +1,22 @@
+== A Aukso/sidabro santykis (GLD/SLV) ==   periodai: 2007–14 | 2015–20 | 2021–26
+  GLD laikyti:  +5.4% kr -46% |  +6.0% kr -20% | +12.5% kr -28%
+  SLV laikyti:  +0.3% kr -72% |  +5.2% kr -43% | +10.5% kr -58%
+  z(252) > 0.0: SLV, kitaip GLD    -0.5% kr -61% |  +1.7% kr -36% | +12.9% kr -37%
+  z(252) > 1.0: SLV, kitaip GLD    +3.6% kr -51% |  +6.6% kr -34% | +14.4% kr -33%
+  z(504) > 0.0: SLV, kitaip GLD    +4.7% kr -62% |  +5.4% kr -36% | +18.4% kr -32%
+  z(504) > 1.0: SLV, kitaip GLD    +3.2% kr -50% |  +5.1% kr -36% | +19.0% kr -28%
+
+== B Vario/aukso santykis -> SPY/QQQ arba TLT/IEF ==   periodai: 2003–15 | 2016–20 | 2021–26
+  SPY laikyti:  +9.0% kr -55% | +17.3% kr -34% | +14.2% kr -24%
+  QQQ laikyti: +12.8% kr -53% | +24.5% kr -29% | +14.8% kr -35%
+  TLT laikyti:  +6.1% kr -27% |  +5.7% kr -21% |  -8.0% kr -44%
+  santykis > 50 d. vid.: SPY, kitaip TLT  +10.0% kr -25% | +13.5% kr -16% |  -6.7% kr -56%
+  santykis > 50 d. vid.: SPY, kitaip IEF   +8.4% kr -18% | +10.8% kr -11% |  -1.6% kr -41%
+  santykis > 50 d. vid.: QQQ, kitaip IEF  +10.0% kr -20% | +13.4% kr -14% |  -6.0% kr -49%
+  santykis > 100 d. vid.: SPY, kitaip TLT  +12.8% kr -20% | +14.1% kr -18% |  -5.5% kr -48%
+  santykis > 100 d. vid.: SPY, kitaip IEF  +10.6% kr -20% | +12.8% kr -13% |  -0.2% kr -30%
+  santykis > 100 d. vid.: QQQ, kitaip IEF  +12.3% kr -20% | +17.4% kr -16% |  -1.6% kr -36%
+  santykis > 200 d. vid.: SPY, kitaip TLT  +10.0% kr -30% | +17.7% kr -16% |  -3.0% kr -46%
+  santykis > 200 d. vid.: SPY, kitaip IEF   +8.9% kr -21% | +14.1% kr -11% |  +2.8% kr -30%
+  santykis > 200 d. vid.: QQQ, kitaip IEF   +9.9% kr -23% | +16.6% kr -11% |  +2.0% kr -37%
+  60/40 palyg. (50/50 SPY/TLT):  +8.6% kr -23% | +12.4% kr -15% |  +3.1% kr -28%

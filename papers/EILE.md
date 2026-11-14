@@ -70,3 +70,4 @@ Kripto duomenys: Binance (spot/futures, 1h/1d, visos USDT poros su istorija). Ak
 | 63 | Sverto ETF nusidėvėjimo sandoris (short TQQQ+SQQQ ir kt.) | ETF | ❌ atmesta (be skolinimosi +0…+10 %/m., su 3–8 % kaštais ~0 ar minusas) → `63_letf_decay/REZULTATAI.md` |
 | 64 | Mėnulio fazių efektas (Dichev, Janes 2003), SPY ir BTC | akcijos, kripto | ❌ atmesta (t = 0,3–1,0; po paskelbimo SPY apsivertė) → `64_lunar/REZULTATAI.md` |
 | 65 | Tinklo augimas (aktyvūs adresai; Liu, Tsyvinski 2021), BTC/ETH ir 15 monetų skerspjūvis | kripto | ❌ atmesta (laiko eilutė ≤ SMA; skerspjūvio pranašumas dingsta su 7 d. vėlavimu, tik 2025 m.) → `65_network_growth/REZULTATAI.md` |
+| 66 | Aukso/sidabro santykio rotacija; Gundlacho vario/aukso signalas SPY↔TLT | ETF | ❌ atmesta (GSR iki 2020 < GLD; vario/aukso 2021–26 −7…+3 %/m.) → `66_gold_ratios/REZULTATAI.md` |
