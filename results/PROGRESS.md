@@ -336,3 +336,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 ## 2026-11-14 21:00 – patikros
 - **EI3v2_tag_cofi_green_2_4 ir _7 išlaikė** (lookahead 0/20; 1m 2020: +57 % / +29 %; 2018 top 9: +92 % / +68 %/m.; balanso kritimas 2020 ~40 %). → ATRINKTI_BOTAI nr. 19.
 - batchM65–M67: IchisV1 atmesta (Heikin-Ashi perrašo kainas); Ichimoku_v16_1d = Ichimoku_v16 kopija (jau rizikingų sąraše); JT_V04 nematytas 2018–21 +31 %/m. (kritimas 15 %), vyksta lookahead / 1m / top9.
+- 20:45 laiškas išsiųstas: EI3v2 versijos _2_4 ir _7 (nr. 19).
