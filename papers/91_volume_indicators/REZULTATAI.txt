@@ -1,0 +1,17 @@
+periodai: 2018-06–21 | 2022–26
+4h OBV > EMA20     long: BTC+ETH  +47.3% kr  -49% |  -20.7% kr  -73% || alts10  +61.8% kr  -53% |  -17.4% kr  -66%
+4h OBV > EMA20     ls  : BTC+ETH  +30.3% kr  -73% |  -26.2% kr  -87% || alts10   +1.9% kr  -73% |  -17.0% kr  -71%
+4h Chaikin MF      long: BTC+ETH  +80.4% kr  -56% |   +2.7% kr  -56% || alts10 +108.0% kr  -63% |   -3.8% kr  -67%
+4h Chaikin MF      ls  : BTC+ETH  +65.7% kr  -76% |   -0.3% kr  -61% || alts10  +52.3% kr  -71% |   -6.4% kr  -72%
+4h MFI atšokimas   long: BTC+ETH  -20.2% kr  -82% |  -18.2% kr  -68% || alts10  +16.8% kr  -41% |   -6.9% kr  -57%
+4h MFI atšokimas   ls  : BTC+ETH  -72.2% kr  -99% |  -40.0% kr  -92% || alts10  -60.0% kr  -97% |  -17.2% kr  -80%
+4h VWAP20 trendas  long: BTC+ETH  +81.6% kr  -34% |  -12.2% kr  -51% || alts10  +85.4% kr  -35% |  -12.6% kr  -69%
+4h VWAP20 trendas  ls  : BTC+ETH  +76.0% kr  -54% |  -15.6% kr  -63% || alts10  +21.2% kr  -56% |  -13.2% kr  -69%
+1d OBV > EMA20     long: BTC+ETH  +86.7% kr  -45% |   +7.1% kr  -49% || alts10 +108.0% kr  -51% |   +2.1% kr  -59%
+1d OBV > EMA20     ls  : BTC+ETH  +56.1% kr  -46% |   -0.6% kr  -74% || alts10  +28.0% kr  -61% |   -2.0% kr  -64%
+1d Chaikin MF      long: BTC+ETH +104.5% kr  -52% |  +13.2% kr  -51% || alts10 +124.2% kr  -59% |  +12.2% kr  -52%
+1d Chaikin MF      ls  : BTC+ETH +100.9% kr  -57% |  +11.1% kr  -66% || alts10  +70.5% kr  -65% |  +18.8% kr  -51%
+1d MFI atšokimas   long: BTC+ETH   -7.0% kr  -70% |  +19.7% kr  -39% || alts10   +0.0% kr  -36% |   +4.4% kr  -49%
+1d MFI atšokimas   ls  : BTC+ETH  -64.0% kr  -98% |  +20.3% kr  -60% || alts10  -75.6% kr  -99% |   -1.8% kr  -67%
+1d VWAP20 trendas  long: BTC+ETH  +77.2% kr  -44% |   +4.7% kr  -39% || alts10 +133.5% kr  -46% |   +5.1% kr  -67%
+1d VWAP20 trendas  ls  : BTC+ETH  +34.6% kr  -55% |   -5.5% kr  -64% || alts10  +50.0% kr  -52% |   -0.8% kr  -76%
