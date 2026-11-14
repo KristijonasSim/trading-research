@@ -114,12 +114,14 @@ Patikros:
 - 2021–26 (alts10): **+14,2 %/m., kritimas 8,7 %**, 1857 sandoriai; kasmet pliuse, išskyrus 2026 (−0,5 %).
 - Nematytas 2018–21: dabartinis top 10 +63 %/m. (kritimas 12 %), **2018 m. top 9 +51 %/m. (kritimas 18 %)**.
 - Su 1 min. detalumu (2020): +49 % → +39 %. Lookahead 0/20.
+- ✅ 1m detalumas 2022–25 (2026-11-14, metai atskirai, none → 1m): 2022 +10,1 → +11,5; 2023 +15,6 → +18,9; 2024 +9,7 → +3,8; 2025 +35,7 → +43,8 %. 2026: −0,6 → −1,0 %.
 - Šaltinis: thinkong/freqtradestrategies. Failas `best_strategies/abbas.py`.
 
 ## 9. NASMAO (Freqtrade, altcoin'ai, 5m) – pridėta 2026-11-14
 - 2021–26 (alts10): **+18,2 %/m., kritimas 16,2 %**, 839 sandoriai (2022 −1,9 %, 2026 −0,2 %).
 - Nematytas 2018–21: top 10 +41 %/m. (kritimas 15 %), 2018 m. top 9 +28,5 %/m. (kritimas 19 %).
 - Su 1 min. detalumu (2020): +34 % → +28 %. Lookahead 0/20.
+- ✅ 1m detalumas 2022–25: 2022 −1,9 → −0,4; 2023 +15,8 → +15,8; 2024 +24,7 → +26,1; 2025 +48,8 → +33,2 %. 2026: −0,3 → −0,3 %.
 - ⚠️ Giminingas NASOSv5_mod3 (nr. 3), signalai gali sutapti.
 - Šaltinis: flessner/freqtrade-stuff. Failas `best_strategies/NASMAO.py`.
 
@@ -127,6 +129,7 @@ Patikros:
 - 2021–26 (alts10): +15,1 %/m., **kritimas 31,4 %** (2025 −8,5 %).
 - Nematytas 2018–21: top 10 +100 %/m. (kritimas 36 %), 2018 m. top 9 +65 %/m. (kritimas 32 %).
 - Su 1 min. detalumu (2020): nepakito (+70 %). Lookahead 0/20.
+- ✅ 1m detalumas 2022–25: 2022 −2,2 → −1,9; 2023 +54,4 → +54,4; 2024 +27,9 → +27,6; 2025 −8,5 → +36,0 % (kelias jautrus vykdymui).
 - ⚠️ Didžiausi kritimai iš šių trijų.
 - Šaltinis: flessner/freqtrade-stuff. Failas `best_strategies/SMAO.py`.
 

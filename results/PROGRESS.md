@@ -253,3 +253,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - #48 Fear & Greed: kontrarinis ❌, trendas FGI > 60 ⚠️ (+24,5 %/m., kritimas 28 %) → rizikingų sąraše, `papers/48_fear_greed/`.
 - #49 Hash Ribbons ❌ → `papers/49_hash_ribbons/`.
 - #50 Connors RSI2 ETF ❌ → `papers/50_connors_etf/`.
+- abbas, NASMAO, SMAO 1m detalumas 2022–25 ✅ (nepablogėja; abbas 2024 9,7 → 3,8 %, SMAO 2025 −8,5 → +36 %).
