@@ -1,0 +1,22 @@
+periodai: 2015–19 | 2020–22 | 2023–26
+
+BTC laikyti                         +86.8% kr  -84% |  +33.7% kr  -77% |  +43.9% kr  -53% | rinkoje 100%
+BTC doleris < 50 d. vidurkis        +53.7% kr  -65% |   +0.7% kr  -80% |  +28.5% kr  -35% | rinkoje 46%
+BTC doleris < 100 d. vidurkis       +38.5% kr  -61% |  +49.2% kr  -65% |  +17.7% kr  -39% | rinkoje 43%
+BTC doleris < 200 d. vidurkis       +58.7% kr  -61% |  +65.6% kr  -48% |  +25.0% kr  -42% | rinkoje 39%
+BTC dolerio 20 d. pokytis < 0       +38.0% kr  -77% |   -5.4% kr  -81% |  +28.0% kr  -32% | rinkoje 46%
+BTC palyg.: kaina > 200 d. SMA     +101.3% kr  -68% |  +33.0% kr  -62% |  +32.5% kr  -32% | rinkoje 56%
+
+ETH laikyti                        +190.2% kr  -94% | +111.7% kr  -79% |  +12.6% kr  -68% | rinkoje 100%
+ETH doleris < 50 d. vidurkis       +138.6% kr  -64% |  +31.0% kr  -83% |  +20.0% kr  -58% | rinkoje 48%
+ETH doleris < 100 d. vidurkis       +85.3% kr  -80% | +100.1% kr  -64% |  +19.7% kr  -57% | rinkoje 46%
+ETH doleris < 200 d. vidurkis       +41.9% kr  -77% | +139.8% kr  -49% |  +28.9% kr  -62% | rinkoje 45%
+ETH dolerio 20 d. pokytis < 0      +133.0% kr  -84% |  +26.6% kr  -81% |  +20.4% kr  -61% | rinkoje 48%
+ETH palyg.: kaina > 200 d. SMA     +159.2% kr  -67% |  +99.0% kr  -63% |  +19.8% kr  -42% | rinkoje 55%
+
+QQQ laikyti                         +17.5% kr  -23% |   +7.9% kr  -35% |  +28.3% kr  -23% | rinkoje 100%
+QQQ doleris < 50 d. vidurkis        +12.5% kr  -10% |   +8.2% kr  -17% |  +16.6% kr  -23% | rinkoje 38%
+QQQ doleris < 100 d. vidurkis        +8.0% kr  -11% |   +8.4% kr  -19% |  +24.5% kr  -16% | rinkoje 38%
+QQQ doleris < 200 d. vidurkis        +3.8% kr  -11% |  +14.5% kr  -13% |  +22.7% kr   -9% | rinkoje 34%
+QQQ dolerio 20 d. pokytis < 0       +12.1% kr  -14% |   -0.8% kr  -28% |  +13.1% kr  -32% | rinkoje 39%
+QQQ palyg.: kaina > 200 d. SMA       +9.5% kr  -23% |  +12.7% kr  -22% |  +18.9% kr  -16% | rinkoje 72%

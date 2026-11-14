@@ -89,3 +89,4 @@ Kripto duomenys: Binance (spot/futures, 1h/1d, visos USDT poros su istorija). Ak
 | 82 | Prezidento rinkimų ciklas (S&P 500 1929–2026) | akcijos | ❌ atmesta (priešrinkiminiai metai stiprūs, bet kaip strategija < laikymas) → `82_election_cycle/REZULTATAI.md` |
 | 83 | Aukso rudens efektas (Baur 2013), GLD | ETF | ❌ atmesta (po paskelbimo rugsėjis −1,8 %, lapkritis −1,2 % – apsivertė) → `83_gold_autumn/REZULTATAI.md` |
 | 84 | Pajamingumo kreivės inversija (T10Y2Y/T10Y3M) → S&P 500 | akcijos | ❌ atmesta (1977–99 ir 2013–26 < laikymas; padeda tik 2000–12) → `84_yield_curve/REZULTATAI.md` |
+| 85 | Dolerio indekso (DXY) trendas → BTC/ETH/QQQ | kripto, akcijos | ❌ atmesta (nelenkia laikymo ir SMA200; QQQ tik 2020–26) → `85_dxy_btc/REZULTATAI.md` |
