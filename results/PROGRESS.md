@@ -268,3 +268,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 2026-11-14: #55 stablecoin emisija ir NVT Signal atmesta.
 - 2026-11-14: #56 Kimchi premija atmesta.
 - 2026-11-14: #57 FED grynasis likvidumas atmesta.
+- 2026-11-14: #58 taker buy ratio (laiko eilutė ir skerspjūvis) atmesta.

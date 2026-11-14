@@ -1,0 +1,48 @@
+periodai: 2018–21 | 2022–26
+
+BTC laikyti                               +34.3%/m. kr  -81% |   +8.0%/m. kr  -67% | rinkoje 100%
+BTC A TBR 1 d. vid. > 0,5                  -9.6%/m. kr  -70% |   +3.4%/m. kr  -36% | rinkoje  41%
+BTC A TBR 1 d. vid. > 90 d. mediana        -3.8%/m. kr  -71% |  +11.1%/m. kr  -46% | rinkoje  49%
+BTC A TBR 1 d. vid. < 90 d. mediana (kontr.)  +25.0%/m. kr  -61% |  -28.9%/m. kr  -81% | rinkoje  48%
+BTC A TBR 3 d. vid. > 0,5                 +20.6%/m. kr  -58% |   +4.7%/m. kr  -36% | rinkoje  36%
+BTC A TBR 3 d. vid. > 90 d. mediana       +52.8%/m. kr  -52% |  +17.7%/m. kr  -49% | rinkoje  50%
+BTC A TBR 3 d. vid. < 90 d. mediana (kontr.)   -7.8%/m. kr  -64% |  -21.7%/m. kr  -70% | rinkoje  47%
+BTC A TBR 7 d. vid. > 0,5                 +30.7%/m. kr  -59% |   +1.1%/m. kr  -36% | rinkoje  33%
+BTC A TBR 7 d. vid. > 90 d. mediana       +84.2%/m. kr  -41% |   +4.5%/m. kr  -59% | rinkoje  50%
+BTC A TBR 7 d. vid. < 90 d. mediana (kontr.)  -18.0%/m. kr  -73% |   -5.7%/m. kr  -55% | rinkoje  47%
+BTC A TBR 14 d. vid. > 0,5                +13.8%/m. kr  -66% |  +13.1%/m. kr  -24% | rinkoje  30%
+BTC A TBR 14 d. vid. > 90 d. mediana      +48.9%/m. kr  -46% |   +9.4%/m. kr  -49% | rinkoje  51%
+BTC A TBR 14 d. vid. < 90 d. mediana (kontr.)   +3.1%/m. kr  -66% |   -6.9%/m. kr  -55% | rinkoje  46%
+
+ETH laikyti                               +44.9%/m. kr  -94% |  -13.0%/m. kr  -74% | rinkoje 100%
+ETH A TBR 1 d. vid. > 0,5                  -1.0%/m. kr  -87% |  -22.8%/m. kr  -78% | rinkoje  47%
+ETH A TBR 1 d. vid. > 90 d. mediana       -17.3%/m. kr  -90% |  -18.9%/m. kr  -69% | rinkoje  48%
+ETH A TBR 1 d. vid. < 90 d. mediana (kontr.)  +55.7%/m. kr  -67% |  -22.7%/m. kr  -75% | rinkoje  50%
+ETH A TBR 3 d. vid. > 0,5                  +7.5%/m. kr  -81% |   -5.9%/m. kr  -54% | rinkoje  46%
+ETH A TBR 3 d. vid. > 90 d. mediana       +39.3%/m. kr  -63% |   -0.7%/m. kr  -52% | rinkoje  48%
+ETH A TBR 3 d. vid. < 90 d. mediana (kontr.)   +8.2%/m. kr  -87% |  -25.4%/m. kr  -80% | rinkoje  49%
+ETH A TBR 7 d. vid. > 0,5                 +40.2%/m. kr  -82% |   -5.3%/m. kr  -64% | rinkoje  44%
+ETH A TBR 7 d. vid. > 90 d. mediana       +55.9%/m. kr  -66% |   +0.6%/m. kr  -61% | rinkoje  48%
+ETH A TBR 7 d. vid. < 90 d. mediana (kontr.)   +3.7%/m. kr  -87% |  -21.2%/m. kr  -78% | rinkoje  49%
+ETH A TBR 14 d. vid. > 0,5                 -6.3%/m. kr  -85% |   -2.3%/m. kr  -58% | rinkoje  41%
+ETH A TBR 14 d. vid. > 90 d. mediana      +45.1%/m. kr  -78% |   +0.6%/m. kr  -51% | rinkoje  48%
+ETH A TBR 14 d. vid. < 90 d. mediana (kontr.)  +13.7%/m. kr  -72% |  -18.7%/m. kr  -73% | rinkoje  49%
+
+B skerspjūvis (top 50 pagal apyvartą, long 20 % / long-short):
+TBR 1 d., kas 1 d., aukščiausias TBR, long    2018–21   -16.5% kr -90.7% | 2022–26   -72.7% kr -99.8% | {'2022': -92, '2023': 10, '2024': -46, '2025': -88, '2026': -69}
+TBR 1 d., kas 1 d., aukščiausias TBR, ls      2018–21   -27.6% kr -74.4% | 2022–26   -40.2% kr -92.2% | {'2022': -31, '2023': -37, '2024': -44, '2025': -45, '2026': -39}
+TBR 1 d., kas 1 d., žemiausias TBR, long      2018–21   -33.3% kr -93.9% | 2022–26   -73.7% kr -99.8% | {'2022': -95, '2023': 0, '2024': -41, '2025': -86, '2026': -65}
+TBR 1 d., kas 1 d., žemiausias TBR, ls        2018–21   -40.8% kr -88.2% | 2022–26   -41.1% kr -92.7% | {'2022': -49, '2023': -43, '2024': -37, '2025': -37, '2026': -34}
+TBR 1 d., kas 7 d., aukščiausias TBR, long    2018–21   +36.7% kr -79.7% | 2022–26   -48.0% kr -95.9% | {'2022': -85, '2023': 98, '2024': 20, '2025': -68, '2026': -65}
+TBR 1 d., kas 7 d., aukščiausias TBR, ls      2018–21    +0.5% kr -32.6% | 2022–26    -0.8% kr -40.7% | {'2022': -17, '2023': 18, '2024': 29, '2025': -2, '2026': -22}
+TBR 1 d., kas 7 d., žemiausias TBR, long      2018–21    +9.9% kr -83.8% | 2022–26   -58.6% kr -98.8% | {'2022': -86, '2023': 22, '2024': -38, '2025': -75, '2026': -46}
+TBR 1 d., kas 7 d., žemiausias TBR, ls        2018–21   -16.7% kr -57.6% | 2022–26   -18.9% kr -79.9% | {'2022': -4, '2023': -32, '2024': -39, '2025': -16, '2026': 8}
+TBR 7 d., kas 7 d., aukščiausias TBR, long    2018–21   +62.4% kr -79.6% | 2022–26   -49.7% kr -96.5% | {'2022': -78, '2023': 59, '2024': -4, '2025': -72, '2026': -63}
+TBR 7 d., kas 7 d., aukščiausias TBR, ls      2018–21   +18.9% kr -27.3% | 2022–26    -2.9% kr -39.4% | {'2022': 14, '2023': -16, '2024': 18, '2025': -5, '2026': -20}
+TBR 7 d., kas 7 d., žemiausias TBR, long      2018–21    -4.6% kr -90.7% | 2022–26   -57.2% kr -98.4% | {'2022': -88, '2023': 80, '2024': -39, '2025': -76, '2026': -49}
+TBR 7 d., kas 7 d., žemiausias TBR, ls        2018–21   -28.7% kr -77.1% | 2022–26   -13.5% kr -61.0% | {'2022': -26, '2023': 0, '2024': -29, '2025': -11, '2026': 5}
+TBR 28 d., kas 7 d., aukščiausias TBR, long   2018–21   +80.5% kr -75.8% | 2022–26   -41.1% kr -92.7% | {'2022': -78, '2023': 93, '2024': 37, '2025': -71, '2026': -54}
+TBR 28 d., kas 7 d., aukščiausias TBR, ls     2018–21   +18.0% kr -43.9% | 2022–26    -2.3% kr -30.5% | {'2022': 5, '2023': -9, '2024': 10, '2025': -10, '2026': -6}
+TBR 28 d., kas 7 d., žemiausias TBR, long     2018–21    +7.1% kr -84.3% | 2022–26   -51.3% kr -97.0% | {'2022': -87, '2023': 78, '2024': -9, '2025': -70, '2026': -53}
+TBR 28 d., kas 7 d., žemiausias TBR, ls       2018–21   -26.1% kr -73.3% | 2022–26    -9.0% kr -51.7% | {'2022': -16, '2023': -4, '2024': -19, '2025': 0, '2026': -3}
+Top50 lygiais svoriais: 36.7 {'cagr': np.float64(-51.5), 'dd': np.float64(-97.0), 'yearly': {'2022': -86, '2023': 77, '2024': -4, '2025': -72, '2026': -55}}
