@@ -5,7 +5,7 @@ cd "$(dirname "$0")"
 S=$1; DT=${2:-none}; TR=${3:-20211108-20261108}
 P="BNB/USDT SOL/USDT ADA/USDT XRP/USDT DOT/USDT DOGE/USDT AVAX/USDT LUNA/USDT SHIB/USDT MATIC/USDT LTC/USDT LINK/USDT UNI/USDT ALGO/USDT BCH/USDT ATOM/USDT FTT/USDT TRX/USDT"
 d=results/pit/${S}_${DT}; mkdir -p $d
-docker run --rm --network none --memory ${MEM:-12g} --user "$(id -u):$(id -g)" \
+docker run --rm --network none --memory ${MEM:-8g} --user "$(id -u):$(id -g)" \
   -v "$PWD/user_data:/freqtrade/user_data:ro" -v "$PWD/pitdata:/pitdata:ro" -v "$PWD/${CFG:-config_spot.json}:/freqtrade/config.json:ro" \
   -v "$PWD/docker_offline_pit:/offline:ro" -e PYTHONPATH=/offline -v "$PWD/$d:/out" \
   freqtrade-research:latest backtesting --userdir /freqtrade/user_data -c /freqtrade/config.json --datadir /pitdata/binance \

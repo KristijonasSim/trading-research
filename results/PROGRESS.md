@@ -317,3 +317,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 2026-11-14: #99 Dow teorija atmesta.
 - 2026-11-14: #100 kredito skirtumo rinkos laikas atmesta.
 - 2026-11-14: #101 infliacijos režimo rotacija atmesta.
+- 2026-11-14: išgyvenusiųjų patikra (2021-11 top 20 su LUNA/FTT): EI3v2 +29,2 %/m., NASOS +15,5 %, E0V1E_DCA3 +15,3 % – išlaiko, kritimai didesni (freqtrade/results/pit/REZULTATAI.md).
