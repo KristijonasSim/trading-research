@@ -73,3 +73,4 @@ Kripto duomenys: Binance (spot/futures, 1h/1d, visos USDT poros su istorija). Ak
 | 66 | Aukso/sidabro santykio rotacija; Gundlacho vario/aukso signalas SPY↔TLT | ETF | ❌ atmesta (GSR iki 2020 < GLD; vario/aukso 2021–26 −7…+3 %/m.) → `66_gold_ratios/REZULTATAI.md` |
 | 67 | Wikipedia dėmesio signalas (Kristoufek 2013), BTC/ETH | kripto | ❌ atmesta (≈ momentum su filtru, kainos filtrai tokie pat ar geresni) → `67_wiki_attention/REZULTATAI.md` |
 | 68 | Bull Market Support Band (20 sav. SMA + 21 sav. EMA), BTC/ETH/alts10 | kripto | ❌ atmesta (BTC 2022–26 +12,7 %, kritimas 45 %; alts +4,9 %; ≈ SMA filtras) → `68_bmsb/REZULTATAI.md` |
+| 69 | Fibonacci golden pocket (0,618 atatranka), 12 monetų 4h/1d | kripto | ❌ atmesta (visi variantai minuse, laimi 10–30 %) → `69_fib_golden_pocket/REZULTATAI.md` |

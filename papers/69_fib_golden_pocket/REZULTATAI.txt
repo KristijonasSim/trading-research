@@ -1,0 +1,17 @@
+periodai: 2018–21 | 2022–26
+4h k= 5 įėj 0.618 stop 0.786 tikslas 1.0: 12 monetų  -30.8% kr  -77% |  -35.3% kr  -89% | BTC  -41.1% kr  -89% |  -27.2% kr  -80% | sandorių 6644, laimi 13%, vid. -0.63%
+4h k= 5 įėj 0.618 stop 1.0 tikslas 1.0: 12 monetų  -36.2% kr  -84% |  -44.4% kr  -94% | BTC  -45.3% kr  -93% |  -25.9% kr  -77% | sandorių 5530, laimi 26%, vid. -0.95%
+4h k= 5 įėj 0.618 stop 0.786 tikslas 1.272: 12 monetų  -27.5% kr  -73% |  -33.4% kr  -87% | BTC  -40.4% kr  -88% |  -26.2% kr  -79% | sandorių 6333, laimi 10%, vid. -0.58%
+4h k= 5 įėj 0.5 stop 0.786 tikslas 1.0: 12 monetų  -39.1% kr  -87% |  -50.6% kr  -97% | BTC  -52.4% kr  -96% |  -37.6% kr  -90% | sandorių 7149, laimi 23%, vid. -0.87%
+4h k=10 įėj 0.618 stop 0.786 tikslas 1.0: 12 monetų   -9.0% kr  -41% |  -28.7% kr  -82% | BTC  -34.5% kr  -82% |  -13.8% kr  -55% | sandorių 3643, laimi 13%, vid. -0.60%
+4h k=10 įėj 0.618 stop 1.0 tikslas 1.0: 12 monetų  -10.4% kr  -53% |  -34.4% kr  -87% | BTC  -28.1% kr  -80% |  -11.4% kr  -53% | sandorių 2936, laimi 27%, vid. -0.88%
+4h k=10 įėj 0.618 stop 0.786 tikslas 1.272: 12 monetų   -3.4% kr  -35% |  -28.8% kr  -82% | BTC  -34.4% kr  -81% |  -22.9% kr  -72% | sandorių 3449, laimi 10%, vid. -0.50%
+4h k=10 įėj 0.5 stop 0.786 tikslas 1.0: 12 monetų  -23.4% kr  -68% |  -43.5% kr  -94% | BTC  -46.3% kr  -92% |  -31.0% kr  -84% | sandorių 3875, laimi 22%, vid. -1.11%
+1d k= 3 įėj 0.618 stop 0.786 tikslas 1.0: 12 monetų   +3.9% kr  -27% |  -16.5% kr  -61% | BTC  -14.5% kr  -65% |   -3.3% kr  -42% | sandorių 1884, laimi 15%, vid. -0.30%
+1d k= 3 įėj 0.618 stop 1.0 tikslas 1.0: 12 monetų   -0.4% kr  -48% |  -25.1% kr  -77% | BTC  -15.3% kr  -69% |  -15.2% kr  -64% | sandorių 1515, laimi 29%, vid. -0.80%
+1d k= 3 įėj 0.618 stop 0.786 tikslas 1.272: 12 monetų   +8.0% kr  -29% |  -15.8% kr  -61% | BTC  -18.3% kr  -71% |  -14.8% kr  -61% | sandorių 1776, laimi 12%, vid. -0.10%
+1d k= 3 įėj 0.5 stop 0.786 tikslas 1.0: 12 monetų  -10.0% kr  -43% |  -33.6% kr  -86% | BTC  -33.2% kr  -84% |  -13.9% kr  -59% | sandorių 2009, laimi 23%, vid. -1.29%
+1d k= 5 įėj 0.618 stop 0.786 tikslas 1.0: 12 monetų   +3.2% kr  -30% |  -14.1% kr  -55% | BTC  -11.8% kr  -55% |   -4.3% kr  -45% | sandorių 1213, laimi 16%, vid. -0.37%
+1d k= 5 įėj 0.618 stop 1.0 tikslas 1.0: 12 monetų   +9.2% kr  -48% |  -23.5% kr  -76% | BTC  -16.9% kr  -65% |  -15.8% kr  -63% | sandorių 947, laimi 30%, vid. -0.70%
+1d k= 5 įėj 0.618 stop 0.786 tikslas 1.272: 12 monetų   +8.5% kr  -30% |  -13.2% kr  -56% | BTC  -12.3% kr  -64% |  -15.7% kr  -62% | sandorių 1150, laimi 12%, vid. +0.03%
+1d k= 5 įėj 0.5 stop 0.786 tikslas 1.0: 12 monetų   -8.2% kr  -45% |  -30.0% kr  -83% | BTC  -19.8% kr  -84% |  -14.3% kr  -61% | sandorių 1317, laimi 24%, vid. -1.62%

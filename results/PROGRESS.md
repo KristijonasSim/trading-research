@@ -280,3 +280,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 2026-11-14: #66 aukso/sidabro ir vario/aukso santykių signalai atmesta.
 - 2026-11-14: #67 Wikipedia dėmesio signalas atmesta.
 - 2026-11-14: #68 Bull Market Support Band atmesta.
+- 2026-11-14: #69 Fibonacci golden pocket atmesta.
