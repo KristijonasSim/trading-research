@@ -137,6 +137,7 @@ Patikros:
 - Autoriaus konfigas `configs/examples/default_trailing_martingale_long.json` (enarjord/passivbot), tik ekspozicija sumažinta iki 0,75 ir monetos – mūsų standartinės 12.
 - 2021–26: **+21,1 %/m., kritimas 25 %**, kasmet pliuse (2022 +21 %, 2026 +9 %). Su 0,1 % mokesčiu +17,8 %/m.
 - Nematytas 2019-12 – 2021-04 (autorius optimizavo nuo 2021-04): **+69,8 %/m., kritimas 37 %**.
+- Jautrumas: ekspozicija 1,0 → +30,7 %/m. (34 %); 4 / 12 pozicijos → +25 % / +17 %, nematytame +103 % / +51 %.
 - Su 2021-11 top 20 monetų (įskaitant žlugusį FTT, be LUNA – nėra duomenų): +26,3 %/m., kritimas 24 %.
 - Funding neįskaičiuotas, įvertis ±1–2 %/m. ⚠️ Martingale: kritimuose didina poziciją; 1,5 ekspozicija duoda +49 %/m., bet kritimas 51–73 %.
 - Aprašas ir skriptai `passivbot/REZULTATAI.md`; paleidimas – Docker `passivbot:stamped`.

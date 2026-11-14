@@ -256,3 +256,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - abbas, NASMAO, SMAO 1m detalumas 2022–25 ✅ (nepablogėja; abbas 2024 9,7 → 3,8 %, SMAO 2025 −8,5 → +36 %).
 - FearGreedTrend freqtrade: +23,1 %/m., kritimas 13,9 %, lookahead 0/20 → dry-run (7-as botas).
 - FGI trendas ant alts10: +13…+23 %/m. (laikymas −14 %), kritimai 45–57 % – signalas veikia ir kitur.
+- Passivbot martingale jautrumas ✅: TWEL 1,0 +30,7 %; npos 4 +25,3 % (OOS +103 %); npos 12 +16,9 % (OOS +51 %).
