@@ -254,3 +254,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - #49 Hash Ribbons ❌ → `papers/49_hash_ribbons/`.
 - #50 Connors RSI2 ETF ❌ → `papers/50_connors_etf/`.
 - abbas, NASMAO, SMAO 1m detalumas 2022–25 ✅ (nepablogėja; abbas 2024 9,7 → 3,8 %, SMAO 2025 −8,5 → +36 %).
+- FearGreedTrend freqtrade: +23,1 %/m., kritimas 13,9 %, lookahead 0/20 → dry-run (7-as botas).
