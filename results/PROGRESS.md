@@ -322,3 +322,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 2026-11-14 11:27 – laiškas apie DS_Green_5m, NS4_dca, NFI7HO2, BearBull3, XSMomentumRotation išsiųstas (vienas kartas).
 - 2026-11-14 11:35 – ClucHAnix_5m_7 (batchM46): 2018–21 +54,6 %/m., bet kritimas 35,5 % → neatrinkta.
 - 2026-11-14: išgyvenusiųjų patikra baigta (2021-11 top 20): EI3v2 +29,2, ckNSJT +19,4, NASOS +15,5, E0V1E +15,3, NASMAO +14,2, abbas +10,1, SMAO +9,9 %/m. → `freqtrade/results/pit/REZULTATAI.md`
+- 2026-11-14: visų atrinktų ir rizikingų strategijų 2026 m. rezultatai → `results/METAI_2026.md`
