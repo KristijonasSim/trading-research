@@ -1,0 +1,23 @@
+{
+  "strategy": "KeltnerRSI",
+  "mode": "spot",
+  "group": "alts10",
+  "timeframe": "1d",
+  "style": "position",
+  "avg_trade_hours": 405.4,
+  "trades": 206,
+  "trades_per_year": 53.5,
+  "total_return_pct": 1553.8,
+  "cagr_pct": 107.2,
+  "yearly_pct": {
+    "2018": -11.6,
+    "2019": 41.9,
+    "2020": 62.5,
+    "2021": 711.9
+  },
+  "max_drawdown_pct": 9.6,
+  "win_rate_pct": 43.7,
+  "profit_factor": 3.93,
+  "market_change_pct": 3336.9,
+  "timerange": "20180101-20211108"
+}

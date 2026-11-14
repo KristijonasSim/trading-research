@@ -1,0 +1,23 @@
+{
+  "strategy": "EI3v2_tag_cofi_green_7",
+  "mode": "spot",
+  "group": "alts10",
+  "timeframe": "5m",
+  "style": "day trading",
+  "avg_trade_hours": 10.1,
+  "trades": 5730,
+  "trades_per_year": 1487.5,
+  "total_return_pct": 2836.8,
+  "cagr_pct": 140.5,
+  "yearly_pct": {
+    "2018": 12.3,
+    "2019": 30.9,
+    "2020": 56.4,
+    "2021": 1177.8
+  },
+  "max_drawdown_pct": 9.7,
+  "win_rate_pct": 93.7,
+  "profit_factor": 2.24,
+  "market_change_pct": 3171.7,
+  "timerange": "20180101-20211108"
+}

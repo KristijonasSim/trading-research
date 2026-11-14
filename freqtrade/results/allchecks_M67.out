@@ -1,0 +1,5 @@
+JT_V04 LA: │ JT_V04.py │ JT_V04 │ No │ 20 │ 0 │ 0 │ │ 0
+JT_V04 2020 plain: │ CAGR % │ 25.81% │ │ Absolute drawdown │ 90.177 USDT (8.27%) │ │ Absolute drawdown (wallet balance) │ 186.547 USDT (17.10%) │ 
+JT_V04 2020 --timeframe-detail 1m: │ CAGR % │ -0.14% │ │ Absolute drawdown │ 92.754 USDT (9.05%) │ │ Absolute drawdown (wallet balance) │ 288.817 USDT (28.25%) │ 
+JT_V04 top9: │ CAGR % │ 25.91% │ │ Absolute drawdown │ 286.517 USDT (13.33%) │ │ Absolute drawdown (wallet balance) │ 357.916 USDT (16.62%) │ 
+CHECKS_DONE

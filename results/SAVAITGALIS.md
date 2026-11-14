@@ -2,6 +2,13 @@
 
 Atnaujinama kas ~8 val. Naujausias įrašas viršuje.
 
+## 2026-11-15 01:15
+- Nuo praeito karto ištestuota ~600 strategijų (12 partijų).
+- **Rasta 2 naujos geros:** dvi EI3v2 versijos (nr. 19; balansas 2020 m. buvo nukritęs ~40 %) ir KeltnerRSI (nr. 20, altcoin'ai, +18 %/m.). Laiškai išsiųsti.
+- Atmesta: 4 strategijos su netikrais rezultatais (skaičiavo netikromis kainomis arba žiūrėjo į ateitį) ir JT_V04 (patikroje su minutiniais duomenimis pelnas dingo).
+- Dabar: liko 18 partijų (~10 val.), vėliau bus ieškoma naujų rinkinių.
+- Bybit demo botas veikia, sandorių vis dar 0.
+
 ## 2026-11-14 17:15
 - Nuo praeito karto ištestuota ~1000 strategijų (20 partijų po 50).
 - **Rasta 6 geros, išlaikė visas patikras:** DS_Green_5m, NS4_dca, NFI7HO2, BearBull3 (altcoin'ai), XSMomentumRotation (BTC+ETH) ir rizikingesnė BSS2b. Laiškai išsiųsti.

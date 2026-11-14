@@ -1,0 +1,483 @@
+2026-11-14 16:42:49,550 - freqtrade - INFO - freqtrade 2026.7
+2026-11-14 16:42:49,657 - numexpr.utils - INFO - Note: NumExpr detected 28 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 16.
+2026-11-14 16:42:49,657 - numexpr.utils - INFO - NumExpr defaulting to 16 threads.
+2026-11-14 16:42:50,348 - freqtrade.configuration.load_config - INFO - Using config: /freqtrade/config.json ...
+2026-11-14 16:42:50,349 - freqtrade.loggers - INFO - Enabling colorized output.
+2026-11-14 16:42:50,349 - freqtrade.loggers - INFO - Logfile configured
+2026-11-14 16:42:50,349 - freqtrade.loggers - INFO - Verbosity set to 0
+2026-11-14 16:42:50,349 - freqtrade.configuration.configuration - INFO - Using additional Strategy lookup path: /freqtrade/user_data/strategies/validate50
+2026-11-14 16:42:50,349 - freqtrade.configuration.configuration - INFO - Parameter -i/--timeframe detected ... Using timeframe: 5m ...
+2026-11-14 16:42:50,350 - freqtrade.configuration.configuration - INFO - Parameter --max-open-trades detected, overriding max_open_trades to: 5 ...
+2026-11-14 16:42:50,350 - freqtrade.configuration.configuration - INFO - Parameter --timerange detected: 20250101-20250701 ...
+sudo: unable to resolve host 516fccf9ec95: Temporary failure in name resolution
+2026-11-14 16:42:50,373 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2026-11-14 16:42:50,378 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2026-11-14 16:42:50,378 - freqtrade.configuration.configuration - INFO - Using pairs ['XRP/USDT', 'BNB/USDT', 'SOL/USDT', 'DOGE/USDT', 'ADA/USDT', 'TRX/USDT', 'LINK/USDT', 'AVAX/USDT', 'LTC/USDT', 
+'DOT/USDT']
+2026-11-14 16:42:50,378 - freqtrade.configuration.configuration - INFO - Filter trades by timerange: 20250101-20250701
+2026-11-14 16:42:50,379 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2026-11-14 16:42:50,383 - freqtrade.exchange.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2026-11-14 16:42:50,383 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2026-11-14 16:42:50,384 - freqtrade.optimize.analysis.lookahead_helpers - INFO - Forced order_types to market orders.
+2026-11-14 16:42:50,385 - freqtrade.optimize.analysis.lookahead_helpers - INFO - Forced max_open_trades to -1 (same amount as there are pairs)
+2026-11-14 16:42:50,385 - freqtrade.optimize.analysis.lookahead_helpers - INFO - Dry run wallet was not set to 1 billion, pushing it up there just to avoid false positives
+2026-11-14 16:42:50,385 - freqtrade.optimize.analysis.lookahead_helpers - INFO - fixing stake_amount to 10k
+2026-11-14 16:42:50,444 - freqtrade.resolvers.iresolver - WARNING - Could not import /freqtrade/user_data/strategies/validate50/EI3v2_tag_cofi_green_2_4.py due to 'name 'EI3v2_tag_cofi_green' is not 
+defined'
+2026-11-14 16:42:50,448 - freqtrade.resolvers.iresolver - WARNING - Could not import /freqtrade/user_data/strategies/validate50/EI3v2_tag_cofi_green_7.py due to 'name 'EI3v2_tag_cofi_green' is not 
+defined'
+2026-11-14 16:42:50,477 - freqtrade.optimize.analysis.lookahead_helpers - INFO - Bias test of EI3v2_tag_cofi_green_2_4.py started.
+2026-11-14 16:42:50,478 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2026-11-14 16:42:50,478 - freqtrade.exchange.exchange - INFO - Using CCXT 4.5.68
+2026-11-14 16:42:50,485 - freqtrade.exchange.exchange - INFO - Using Exchange "Binance"
+2026-11-14 16:42:50,716 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange class 'Binance' ...
+2026-11-14 16:42:50,719 - freqtrade.resolvers.iresolver - WARNING - Could not import /freqtrade/user_data/strategies/validate50/EI3v2_tag_cofi_green_2_4.py due to 'name 'EI3v2_tag_cofi_green' is not 
+defined'
+2026-11-14 16:42:50,720 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy EI3v2_tag_cofi_green_2_4 from '/freqtrade/user_data/strategies/validate50/EI3v2_tag_cofi_green_2_4.py'...
+2026-11-14 16:42:50,720 - freqtrade.strategy.hyper - INFO - Found no parameter file.
+2026-11-14 16:42:50,720 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'timeframe' with value from the configuration: 5m.
+2026-11-14 16:42:50,720 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'order_types' with value from the configuration: {'entry': 'market', 'exit': 'market', 'stoploss': 'market', 
+'stoploss_on_exchange': False}.
+2026-11-14 16:42:50,721 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value from the configuration: USDT.
+2026-11-14 16:42:50,721 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value from the configuration: 10000.
+2026-11-14 16:42:50,721 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'max_open_trades' with value from the configuration: -1.
+2026-11-14 16:42:50,721 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'0': 0.99}
+2026-11-14 16:42:50,721 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 5m
+2026-11-14 16:42:50,721 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.99
+2026-11-14 16:42:50,721 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: True
+2026-11-14 16:42:50,721 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive: 0.001
+2026-11-14 16:42:50,722 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.012
+2026-11-14 16:42:50,722 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: True
+2026-11-14 16:42:50,722 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2026-11-14 16:42:50,722 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2026-11-14 16:42:50,722 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'market', 'exit': 'market', 'stoploss': 'market', 'stoploss_on_exchange': False}
+2026-11-14 16:42:50,722 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'gtc', 'exit': 'gtc'}
+2026-11-14 16:42:50,722 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2026-11-14 16:42:50,722 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: 10000
+2026-11-14 16:42:50,723 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 400
+2026-11-14 16:42:50,723 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2026-11-14 16:42:50,723 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: True
+2026-11-14 16:42:50,723 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2026-11-14 16:42:50,723 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.01
+2026-11-14 16:42:50,723 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2026-11-14 16:42:50,723 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2026-11-14 16:42:50,723 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2026-11-14 16:42:50,723 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2026-11-14 16:42:50,724 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_open_trades: -1
+2026-11-14 16:42:50,724 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2026-11-14 16:42:50,726 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist StaticPairList from '/freqtrade/freqtrade/plugins/pairlist/StaticPairList.py'...
+2026-11-14 16:42:50,745 - freqtrade.optimize.backtesting - INFO - Using fee 0.1000% from config.
+2026-11-14 16:42:50,746 - freqtrade.strategy.hyper - INFO - Strategy Parameter: base_nb_candles_buy = 12
+2026-11-14 16:42:50,746 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_adx = 20
+2026-11-14 16:42:50,746 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_ema_cofi = 0.98
+2026-11-14 16:42:50,746 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_ewo_high = 4.179
+2026-11-14 16:42:50,746 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_fastd = 20
+2026-11-14 16:42:50,746 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_fastk = 22
+2026-11-14 16:42:50,747 - freqtrade.strategy.hyper - INFO - Strategy Parameter: ewo_high = 3.001
+2026-11-14 16:42:50,747 - freqtrade.strategy.hyper - INFO - Strategy Parameter: ewo_low = -10.289
+2026-11-14 16:42:50,747 - freqtrade.strategy.hyper - INFO - Strategy Parameter: lambo2_ema_14_factor = 0.981
+2026-11-14 16:42:50,747 - freqtrade.strategy.hyper - INFO - Strategy Parameter: lambo2_rsi_14_limit = 39
+2026-11-14 16:42:50,747 - freqtrade.strategy.hyper - INFO - Strategy Parameter: lambo2_rsi_4_limit = 44
+2026-11-14 16:42:50,747 - freqtrade.strategy.hyper - INFO - Strategy Parameter: low_offset = 0.987
+2026-11-14 16:42:50,747 - freqtrade.strategy.hyper - INFO - Strategy Parameter: rsi_buy = 58
+2026-11-14 16:42:50,747 - freqtrade.strategy.hyper - INFO - Strategy Parameter: base_nb_candles_sell = 22
+2026-11-14 16:42:50,747 - freqtrade.strategy.hyper - INFO - Strategy Parameter: high_offset = 1.014
+2026-11-14 16:42:50,748 - freqtrade.strategy.hyper - INFO - Strategy Parameter: high_offset_2 = 1.01
+2026-11-14 16:42:50,975 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-07-01 00:00:00 (182 days).
+2026-11-14 16:42:53,156 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 1h from 2024-12-15 08:00:00 to 2025-07-01 00:00:00
+2026-11-14 16:42:53,156 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 1h found. Use `freqtrade download-data` to download the data
+2026-11-14 16:42:53,157 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 1h, ).
+2026-11-14 16:42:53,160 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 5m from 2024-12-30 14:40:00 to 2025-07-01 00:00:00
+2026-11-14 16:42:53,160 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 5m found. Use `freqtrade download-data` to download the data
+2026-11-14 16:42:53,160 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 5m, ).
+2026-11-14 16:42:53,196 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 1h, ).
+2026-11-14 16:42:53,199 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 5m, ).
+2026-11-14 16:42:53,230 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 1h, ).
+2026-11-14 16:42:53,233 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 5m, ).
+2026-11-14 16:42:53,264 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 1h, ).
+2026-11-14 16:42:53,267 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 5m, ).
+2026-11-14 16:42:53,297 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 1h, ).
+2026-11-14 16:42:53,301 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 5m, ).
+2026-11-14 16:42:53,333 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 1h, ).
+2026-11-14 16:42:53,337 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 5m, ).
+2026-11-14 16:42:53,366 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 1h, ).
+2026-11-14 16:42:53,369 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 5m, ).
+2026-11-14 16:42:53,401 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 1h, ).
+2026-11-14 16:42:53,404 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 5m, ).
+2026-11-14 16:42:53,435 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 1h, ).
+2026-11-14 16:42:53,438 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 5m, ).
+2026-11-14 16:42:53,468 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 1h, ).
+2026-11-14 16:42:53,471 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 5m, ).
+2026-11-14 16:43:00,539 - freqtrade.loggers.set_log_levels - INFO - Reducing verbosity for bias tester.
+2026-11-14 16:43:00,539 - freqtrade.optimize.analysis.lookahead - INFO - Found 271 trades, calculating 20 trades.
+2026-11-14 16:43:00,550 - freqtrade.resolvers.iresolver - WARNING - Could not import /freqtrade/user_data/strategies/validate50/EI3v2_tag_cofi_green_2_4.py due to 'name 'EI3v2_tag_cofi_green' is not 
+defined'
+2026-11-14 16:43:00,589 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-03 13:35:00 (3 days).
+2026-11-14 16:43:00,609 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 1h from 2024-12-15 08:00:00 to 2025-01-03 13:35:00
+2026-11-14 16:43:00,610 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 1h found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:00,610 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 1h, ).
+2026-11-14 16:43:00,615 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 5m from 2024-12-30 14:40:00 to 2025-01-03 13:35:00
+2026-11-14 16:43:00,615 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 5m found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:00,616 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 5m, ).
+2026-11-14 16:43:00,685 - freqtrade.resolvers.iresolver - WARNING - Could not import /freqtrade/user_data/strategies/validate50/EI3v2_tag_cofi_green_2_4.py due to 'name 'EI3v2_tag_cofi_green' is not 
+defined'
+2026-11-14 16:43:00,722 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-03 14:05:00 (3 days).
+2026-11-14 16:43:00,743 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 1h from 2024-12-15 08:00:00 to 2025-01-03 14:05:00
+2026-11-14 16:43:00,743 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 1h found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:00,744 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 1h, ).
+2026-11-14 16:43:00,748 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 5m from 2024-12-30 14:40:00 to 2025-01-03 14:05:00
+2026-11-14 16:43:00,749 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 5m found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:00,749 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 5m, ).
+2026-11-14 16:43:00,840 - freqtrade.resolvers.iresolver - WARNING - Could not import /freqtrade/user_data/strategies/validate50/EI3v2_tag_cofi_green_2_4.py due to 'name 'EI3v2_tag_cofi_green' is not 
+defined'
+2026-11-14 16:43:00,878 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-04 15:45:00 (5 days).
+2026-11-14 16:43:00,902 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 1h from 2024-12-15 08:00:00 to 2025-01-04 15:45:00
+2026-11-14 16:43:00,903 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 1h found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:00,904 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 1h, ).
+2026-11-14 16:43:00,908 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 5m from 2024-12-30 14:40:00 to 2025-01-04 15:45:00
+2026-11-14 16:43:00,909 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 5m found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:00,909 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 5m, ).
+2026-11-14 16:43:01,014 - freqtrade.resolvers.iresolver - WARNING - Could not import /freqtrade/user_data/strategies/validate50/EI3v2_tag_cofi_green_2_4.py due to 'name 'EI3v2_tag_cofi_green' is not 
+defined'
+2026-11-14 16:43:01,049 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-04 20:35:00 (5 days).
+2026-11-14 16:43:01,063 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 1h from 2024-12-15 08:00:00 to 2025-01-04 20:35:00
+2026-11-14 16:43:01,063 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 1h found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:01,064 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 1h, ).
+2026-11-14 16:43:01,066 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 5m from 2024-12-30 14:40:00 to 2025-01-04 20:35:00
+2026-11-14 16:43:01,067 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 5m found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:01,067 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 5m, ).
+2026-11-14 16:43:01,127 - freqtrade.resolvers.iresolver - WARNING - Could not import /freqtrade/user_data/strategies/validate50/EI3v2_tag_cofi_green_2_4.py due to 'name 'EI3v2_tag_cofi_green' is not 
+defined'
+2026-11-14 16:43:01,150 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-07 15:45:00 (8 days).
+2026-11-14 16:43:01,165 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 1h from 2024-12-15 08:00:00 to 2025-01-07 15:45:00
+2026-11-14 16:43:01,165 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 1h found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:01,166 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 1h, ).
+2026-11-14 16:43:01,168 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 5m from 2024-12-30 14:40:00 to 2025-01-07 15:45:00
+2026-11-14 16:43:01,168 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 5m found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:01,169 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 5m, ).
+2026-11-14 16:43:01,211 - freqtrade.resolvers.iresolver - WARNING - Could not import /freqtrade/user_data/strategies/validate50/EI3v2_tag_cofi_green_2_4.py due to 'name 'EI3v2_tag_cofi_green' is not 
+defined'
+2026-11-14 16:43:01,232 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-07 15:55:00 (8 days).
+2026-11-14 16:43:01,248 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 1h from 2024-12-15 08:00:00 to 2025-01-07 15:55:00
+2026-11-14 16:43:01,248 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 1h found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:01,248 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 1h, ).
+2026-11-14 16:43:01,250 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 5m from 2024-12-30 14:40:00 to 2025-01-07 15:55:00
+2026-11-14 16:43:01,251 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 5m found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:01,251 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 5m, ).
+2026-11-14 16:43:01,302 - freqtrade.resolvers.iresolver - WARNING - Could not import /freqtrade/user_data/strategies/validate50/EI3v2_tag_cofi_green_2_4.py due to 'name 'EI3v2_tag_cofi_green' is not 
+defined'
+2026-11-14 16:43:01,322 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-07 18:55:00 (8 days).
+2026-11-14 16:43:01,337 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 1h from 2024-12-15 08:00:00 to 2025-01-07 18:55:00
+2026-11-14 16:43:01,337 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 1h found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:01,337 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 1h, ).
+2026-11-14 16:43:01,339 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 5m from 2024-12-30 14:40:00 to 2025-01-07 18:55:00
+2026-11-14 16:43:01,340 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 5m found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:01,340 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 5m, ).
+2026-11-14 16:43:01,385 - freqtrade.resolvers.iresolver - WARNING - Could not import /freqtrade/user_data/strategies/validate50/EI3v2_tag_cofi_green_2_4.py due to 'name 'EI3v2_tag_cofi_green' is not 
+defined'
+2026-11-14 16:43:01,405 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-07 19:20:00 (8 days).
+2026-11-14 16:43:01,419 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 1h from 2024-12-15 08:00:00 to 2025-01-07 19:20:00
+2026-11-14 16:43:01,420 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 1h found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:01,420 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 1h, ).
+2026-11-14 16:43:01,422 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 5m from 2024-12-30 14:40:00 to 2025-01-07 19:20:00
+2026-11-14 16:43:01,422 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 5m found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:01,422 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 5m, ).
+2026-11-14 16:43:01,478 - freqtrade.resolvers.iresolver - WARNING - Could not import /freqtrade/user_data/strategies/validate50/EI3v2_tag_cofi_green_2_4.py due to 'name 'EI3v2_tag_cofi_green' is not 
+defined'
+2026-11-14 16:43:01,499 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-08 17:30:00 (9 days).
+2026-11-14 16:43:01,514 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 1h from 2024-12-15 08:00:00 to 2025-01-08 17:30:00
+2026-11-14 16:43:01,514 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 1h found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:01,515 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 1h, ).
+2026-11-14 16:43:01,517 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 5m from 2024-12-30 14:40:00 to 2025-01-08 17:30:00
+2026-11-14 16:43:01,517 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 5m found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:01,517 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 5m, ).
+2026-11-14 16:43:01,557 - freqtrade.resolvers.iresolver - WARNING - Could not import /freqtrade/user_data/strategies/validate50/EI3v2_tag_cofi_green_2_4.py due to 'name 'EI3v2_tag_cofi_green' is not 
+defined'
+2026-11-14 16:43:01,577 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-08 17:45:00 (9 days).
+2026-11-14 16:43:01,593 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 1h from 2024-12-15 08:00:00 to 2025-01-08 17:45:00
+2026-11-14 16:43:01,594 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 1h found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:01,594 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 1h, ).
+2026-11-14 16:43:01,596 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 5m from 2024-12-30 14:40:00 to 2025-01-08 17:45:00
+2026-11-14 16:43:01,596 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 5m found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:01,597 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 5m, ).
+2026-11-14 16:43:01,648 - freqtrade.resolvers.iresolver - WARNING - Could not import /freqtrade/user_data/strategies/validate50/EI3v2_tag_cofi_green_2_4.py due to 'name 'EI3v2_tag_cofi_green' is not 
+defined'
+2026-11-14 16:43:01,669 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-08 17:30:00 (9 days).
+2026-11-14 16:43:01,684 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 1h from 2024-12-15 08:00:00 to 2025-01-08 17:30:00
+2026-11-14 16:43:01,684 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 1h found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:01,684 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 1h, ).
+2026-11-14 16:43:01,686 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 5m from 2024-12-30 14:40:00 to 2025-01-08 17:30:00
+2026-11-14 16:43:01,687 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 5m found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:01,687 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 5m, ).
+2026-11-14 16:43:01,727 - freqtrade.resolvers.iresolver - WARNING - Could not import /freqtrade/user_data/strategies/validate50/EI3v2_tag_cofi_green_2_4.py due to 'name 'EI3v2_tag_cofi_green' is not 
+defined'
+2026-11-14 16:43:01,747 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-08 17:45:00 (9 days).
+2026-11-14 16:43:01,763 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 1h from 2024-12-15 08:00:00 to 2025-01-08 17:45:00
+2026-11-14 16:43:01,763 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 1h found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:01,763 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 1h, ).
+2026-11-14 16:43:01,765 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 5m from 2024-12-30 14:40:00 to 2025-01-08 17:45:00
+2026-11-14 16:43:01,766 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 5m found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:01,766 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 5m, ).
+2026-11-14 16:43:01,818 - freqtrade.resolvers.iresolver - WARNING - Could not import /freqtrade/user_data/strategies/validate50/EI3v2_tag_cofi_green_2_4.py due to 'name 'EI3v2_tag_cofi_green' is not 
+defined'
+2026-11-14 16:43:01,839 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-08 17:20:00 (9 days).
+2026-11-14 16:43:01,854 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 1h from 2024-12-15 08:00:00 to 2025-01-08 17:20:00
+2026-11-14 16:43:01,854 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 1h found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:01,855 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 1h, ).
+2026-11-14 16:43:01,857 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 5m from 2024-12-30 14:40:00 to 2025-01-08 17:20:00
+2026-11-14 16:43:01,857 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 5m found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:01,857 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 5m, ).
+2026-11-14 16:43:01,898 - freqtrade.resolvers.iresolver - WARNING - Could not import /freqtrade/user_data/strategies/validate50/EI3v2_tag_cofi_green_2_4.py due to 'name 'EI3v2_tag_cofi_green' is not 
+defined'
+2026-11-14 16:43:01,918 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-08 17:50:00 (9 days).
+2026-11-14 16:43:01,933 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 1h from 2024-12-15 08:00:00 to 2025-01-08 17:50:00
+2026-11-14 16:43:01,933 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 1h found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:01,933 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 1h, ).
+2026-11-14 16:43:01,935 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 5m from 2024-12-30 14:40:00 to 2025-01-08 17:50:00
+2026-11-14 16:43:01,936 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 5m found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:01,936 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 5m, ).
+2026-11-14 16:43:01,986 - freqtrade.resolvers.iresolver - WARNING - Could not import /freqtrade/user_data/strategies/validate50/EI3v2_tag_cofi_green_2_4.py due to 'name 'EI3v2_tag_cofi_green' is not 
+defined'
+2026-11-14 16:43:02,006 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-08 17:30:00 (9 days).
+2026-11-14 16:43:02,021 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 1h from 2024-12-15 08:00:00 to 2025-01-08 17:30:00
+2026-11-14 16:43:02,021 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 1h found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:02,021 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 1h, ).
+2026-11-14 16:43:02,023 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 5m from 2024-12-30 14:40:00 to 2025-01-08 17:30:00
+2026-11-14 16:43:02,023 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 5m found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:02,024 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 5m, ).
+2026-11-14 16:43:02,064 - freqtrade.resolvers.iresolver - WARNING - Could not import /freqtrade/user_data/strategies/validate50/EI3v2_tag_cofi_green_2_4.py due to 'name 'EI3v2_tag_cofi_green' is not 
+defined'
+2026-11-14 16:43:02,083 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-08 17:55:00 (9 days).
+2026-11-14 16:43:02,098 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 1h from 2024-12-15 08:00:00 to 2025-01-08 17:55:00
+2026-11-14 16:43:02,099 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 1h found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:02,099 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 1h, ).
+2026-11-14 16:43:02,101 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 5m from 2024-12-30 14:40:00 to 2025-01-08 17:55:00
+2026-11-14 16:43:02,101 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 5m found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:02,102 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 5m, ).
+2026-11-14 16:43:02,152 - freqtrade.resolvers.iresolver - WARNING - Could not import /freqtrade/user_data/strategies/validate50/EI3v2_tag_cofi_green_2_4.py due to 'name 'EI3v2_tag_cofi_green' is not 
+defined'
+2026-11-14 16:43:02,172 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-08 17:20:00 (9 days).
+2026-11-14 16:43:02,187 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 1h from 2024-12-15 08:00:00 to 2025-01-08 17:20:00
+2026-11-14 16:43:02,187 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 1h found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:02,188 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 1h, ).
+2026-11-14 16:43:02,190 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 5m from 2024-12-30 14:40:00 to 2025-01-08 17:20:00
+2026-11-14 16:43:02,190 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 5m found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:02,190 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 5m, ).
+2026-11-14 16:43:02,231 - freqtrade.resolvers.iresolver - WARNING - Could not import /freqtrade/user_data/strategies/validate50/EI3v2_tag_cofi_green_2_4.py due to 'name 'EI3v2_tag_cofi_green' is not 
+defined'
+2026-11-14 16:43:02,251 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-08 18:00:00 (9 days).
+2026-11-14 16:43:02,267 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 1h from 2024-12-15 08:00:00 to 2025-01-08 18:00:00
+2026-11-14 16:43:02,267 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 1h found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:02,267 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 1h, ).
+2026-11-14 16:43:02,269 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 5m from 2024-12-30 14:40:00 to 2025-01-08 18:00:00
+2026-11-14 16:43:02,270 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 5m found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:02,270 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 5m, ).
+2026-11-14 16:43:02,323 - freqtrade.resolvers.iresolver - WARNING - Could not import /freqtrade/user_data/strategies/validate50/EI3v2_tag_cofi_green_2_4.py due to 'name 'EI3v2_tag_cofi_green' is not 
+defined'
+2026-11-14 16:43:02,343 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-08 17:30:00 (9 days).
+2026-11-14 16:43:02,358 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 1h from 2024-12-15 08:00:00 to 2025-01-08 17:30:00
+2026-11-14 16:43:02,359 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 1h found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:02,359 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 1h, ).
+2026-11-14 16:43:02,361 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 5m from 2024-12-30 14:40:00 to 2025-01-08 17:30:00
+2026-11-14 16:43:02,361 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 5m found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:02,361 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 5m, ).
+2026-11-14 16:43:02,409 - freqtrade.resolvers.iresolver - WARNING - Could not import /freqtrade/user_data/strategies/validate50/EI3v2_tag_cofi_green_2_4.py due to 'name 'EI3v2_tag_cofi_green' is not 
+defined'
+2026-11-14 16:43:02,428 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-08 18:05:00 (9 days).
+2026-11-14 16:43:02,444 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 1h from 2024-12-15 08:00:00 to 2025-01-08 18:05:00
+2026-11-14 16:43:02,444 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 1h found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:02,444 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 1h, ).
+2026-11-14 16:43:02,446 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 5m from 2024-12-30 14:40:00 to 2025-01-08 18:05:00
+2026-11-14 16:43:02,447 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 5m found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:02,447 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 5m, ).
+2026-11-14 16:43:02,507 - freqtrade.resolvers.iresolver - WARNING - Could not import /freqtrade/user_data/strategies/validate50/EI3v2_tag_cofi_green_2_4.py due to 'name 'EI3v2_tag_cofi_green' is not 
+defined'
+2026-11-14 16:43:02,528 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-09 18:00:00 (10 days).
+2026-11-14 16:43:02,545 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 1h from 2024-12-15 08:00:00 to 2025-01-09 18:00:00
+2026-11-14 16:43:02,545 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 1h found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:02,546 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 1h, ).
+2026-11-14 16:43:02,548 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 5m from 2024-12-30 14:40:00 to 2025-01-09 18:00:00
+2026-11-14 16:43:02,548 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 5m found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:02,548 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 5m, ).
+2026-11-14 16:43:02,600 - freqtrade.resolvers.iresolver - WARNING - Could not import /freqtrade/user_data/strategies/validate50/EI3v2_tag_cofi_green_2_4.py due to 'name 'EI3v2_tag_cofi_green' is not 
+defined'
+2026-11-14 16:43:02,620 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-09 18:35:00 (10 days).
+2026-11-14 16:43:02,637 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 1h from 2024-12-15 08:00:00 to 2025-01-09 18:35:00
+2026-11-14 16:43:02,638 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 1h found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:02,638 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 1h, ).
+2026-11-14 16:43:02,640 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 5m from 2024-12-30 14:40:00 to 2025-01-09 18:35:00
+2026-11-14 16:43:02,640 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 5m found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:02,640 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 5m, ).
+2026-11-14 16:43:02,712 - freqtrade.resolvers.iresolver - WARNING - Could not import /freqtrade/user_data/strategies/validate50/EI3v2_tag_cofi_green_2_4.py due to 'name 'EI3v2_tag_cofi_green' is not 
+defined'
+2026-11-14 16:43:02,736 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-07 15:10:00 (8 days).
+2026-11-14 16:43:02,753 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 1h from 2024-12-15 08:00:00 to 2025-01-07 15:10:00
+2026-11-14 16:43:02,753 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 1h found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:02,754 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 1h, ).
+2026-11-14 16:43:02,756 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 5m from 2024-12-30 14:40:00 to 2025-01-07 15:10:00
+2026-11-14 16:43:02,757 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 5m found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:02,757 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 5m, ).
+2026-11-14 16:43:02,811 - freqtrade.resolvers.iresolver - WARNING - Could not import /freqtrade/user_data/strategies/validate50/EI3v2_tag_cofi_green_2_4.py due to 'name 'EI3v2_tag_cofi_green' is not 
+defined'
+2026-11-14 16:43:02,839 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-11 15:10:00 (12 days).
+2026-11-14 16:43:02,866 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 1h from 2024-12-15 08:00:00 to 2025-01-11 15:10:00
+2026-11-14 16:43:02,867 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 1h found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:02,867 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 1h, ).
+2026-11-14 16:43:02,870 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 5m from 2024-12-30 14:40:00 to 2025-01-11 15:10:00
+2026-11-14 16:43:02,871 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 5m found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:02,871 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 5m, ).
+2026-11-14 16:43:03,097 - freqtrade.resolvers.iresolver - WARNING - Could not import /freqtrade/user_data/strategies/validate50/EI3v2_tag_cofi_green_2_4.py due to 'name 'EI3v2_tag_cofi_green' is not 
+defined'
+2026-11-14 16:43:03,125 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-07 15:45:00 (8 days).
+2026-11-14 16:43:03,144 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 1h from 2024-12-15 08:00:00 to 2025-01-07 15:45:00
+2026-11-14 16:43:03,145 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 1h found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:03,145 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 1h, ).
+2026-11-14 16:43:03,148 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 5m from 2024-12-30 14:40:00 to 2025-01-07 15:45:00
+2026-11-14 16:43:03,149 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 5m found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:03,149 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 5m, ).
+2026-11-14 16:43:03,205 - freqtrade.resolvers.iresolver - WARNING - Could not import /freqtrade/user_data/strategies/validate50/EI3v2_tag_cofi_green_2_4.py due to 'name 'EI3v2_tag_cofi_green' is not 
+defined'
+2026-11-14 16:43:03,234 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-13 02:45:00 (13 days).
+2026-11-14 16:43:03,264 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 1h from 2024-12-15 08:00:00 to 2025-01-13 02:45:00
+2026-11-14 16:43:03,264 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 1h found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:03,265 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 1h, ).
+2026-11-14 16:43:03,268 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 5m from 2024-12-30 14:40:00 to 2025-01-13 02:45:00
+2026-11-14 16:43:03,268 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 5m found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:03,268 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 5m, ).
+2026-11-14 16:43:03,499 - freqtrade.resolvers.iresolver - WARNING - Could not import /freqtrade/user_data/strategies/validate50/EI3v2_tag_cofi_green_2_4.py due to 'name 'EI3v2_tag_cofi_green' is not 
+defined'
+2026-11-14 16:43:03,527 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-13 11:45:00 (13 days).
+2026-11-14 16:43:03,557 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 1h from 2024-12-15 08:00:00 to 2025-01-13 11:45:00
+2026-11-14 16:43:03,557 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 1h found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:03,558 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 1h, ).
+2026-11-14 16:43:03,561 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 5m from 2024-12-30 14:40:00 to 2025-01-13 11:45:00
+2026-11-14 16:43:03,561 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 5m found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:03,561 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 5m, ).
+2026-11-14 16:43:03,631 - freqtrade.resolvers.iresolver - WARNING - Could not import /freqtrade/user_data/strategies/validate50/EI3v2_tag_cofi_green_2_4.py due to 'name 'EI3v2_tag_cofi_green' is not 
+defined'
+2026-11-14 16:43:03,661 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-13 13:10:00 (13 days).
+2026-11-14 16:43:03,691 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 1h from 2024-12-15 08:00:00 to 2025-01-13 13:10:00
+2026-11-14 16:43:03,692 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 1h found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:03,692 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 1h, ).
+2026-11-14 16:43:03,695 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 5m from 2024-12-30 14:40:00 to 2025-01-13 13:10:00
+2026-11-14 16:43:03,696 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 5m found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:03,696 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 5m, ).
+2026-11-14 16:43:03,791 - freqtrade.resolvers.iresolver - WARNING - Could not import /freqtrade/user_data/strategies/validate50/EI3v2_tag_cofi_green_2_4.py due to 'name 'EI3v2_tag_cofi_green' is not 
+defined'
+2026-11-14 16:43:03,859 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-15 11:25:00 (15 days).
+2026-11-14 16:43:03,931 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 1h from 2024-12-15 08:00:00 to 2025-01-15 11:25:00
+2026-11-14 16:43:03,932 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 1h found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:03,932 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 1h, ).
+2026-11-14 16:43:03,936 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 5m from 2024-12-30 14:40:00 to 2025-01-15 11:25:00
+2026-11-14 16:43:03,937 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 5m found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:03,938 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 5m, ).
+2026-11-14 16:43:04,041 - freqtrade.resolvers.iresolver - WARNING - Could not import /freqtrade/user_data/strategies/validate50/EI3v2_tag_cofi_green_2_4.py due to 'name 'EI3v2_tag_cofi_green' is not 
+defined'
+2026-11-14 16:43:04,073 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-15 12:45:00 (15 days).
+2026-11-14 16:43:04,110 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 1h from 2024-12-15 08:00:00 to 2025-01-15 12:45:00
+2026-11-14 16:43:04,110 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 1h found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:04,111 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 1h, ).
+2026-11-14 16:43:04,114 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 5m from 2024-12-30 14:40:00 to 2025-01-15 12:45:00
+2026-11-14 16:43:04,114 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 5m found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:04,115 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 5m, ).
+2026-11-14 16:43:04,221 - freqtrade.resolvers.iresolver - WARNING - Could not import /freqtrade/user_data/strategies/validate50/EI3v2_tag_cofi_green_2_4.py due to 'name 'EI3v2_tag_cofi_green' is not 
+defined'
+2026-11-14 16:43:04,249 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-16 14:55:00 (17 days).
+2026-11-14 16:43:04,287 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 1h from 2024-12-15 08:00:00 to 2025-01-16 14:55:00
+2026-11-14 16:43:04,288 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 1h found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:04,288 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 1h, ).
+2026-11-14 16:43:04,291 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 5m from 2024-12-30 14:40:00 to 2025-01-16 14:55:00
+2026-11-14 16:43:04,291 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 5m found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:04,292 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 5m, ).
+2026-11-14 16:43:04,385 - freqtrade.resolvers.iresolver - WARNING - Could not import /freqtrade/user_data/strategies/validate50/EI3v2_tag_cofi_green_2_4.py due to 'name 'EI3v2_tag_cofi_green' is not 
+defined'
+2026-11-14 16:43:04,413 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-16 14:55:00 (17 days).
+2026-11-14 16:43:04,450 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 1h from 2024-12-15 08:00:00 to 2025-01-16 14:55:00
+2026-11-14 16:43:04,451 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 1h found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:04,451 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 1h, ).
+2026-11-14 16:43:04,454 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 5m from 2024-12-30 14:40:00 to 2025-01-16 14:55:00
+2026-11-14 16:43:04,455 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 5m found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:04,455 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 5m, ).
+2026-11-14 16:43:04,567 - freqtrade.resolvers.iresolver - WARNING - Could not import /freqtrade/user_data/strategies/validate50/EI3v2_tag_cofi_green_2_4.py due to 'name 'EI3v2_tag_cofi_green' is not 
+defined'
+2026-11-14 16:43:04,597 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-16 14:55:00 (17 days).
+2026-11-14 16:43:04,635 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 1h from 2024-12-15 08:00:00 to 2025-01-16 14:55:00
+2026-11-14 16:43:04,635 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 1h found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:04,636 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 1h, ).
+2026-11-14 16:43:04,639 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 5m from 2024-12-30 14:40:00 to 2025-01-16 14:55:00
+2026-11-14 16:43:04,639 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 5m found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:04,640 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 5m, ).
+2026-11-14 16:43:04,945 - freqtrade.resolvers.iresolver - WARNING - Could not import /freqtrade/user_data/strategies/validate50/EI3v2_tag_cofi_green_2_4.py due to 'name 'EI3v2_tag_cofi_green' is not 
+defined'
+2026-11-14 16:43:05,003 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-16 14:55:00 (17 days).
+2026-11-14 16:43:05,050 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 1h from 2024-12-15 08:00:00 to 2025-01-16 14:55:00
+2026-11-14 16:43:05,051 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 1h found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:05,052 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 1h, ).
+2026-11-14 16:43:05,055 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 5m from 2024-12-30 14:40:00 to 2025-01-16 14:55:00
+2026-11-14 16:43:05,056 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 5m found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:05,057 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 5m, ).
+2026-11-14 16:43:05,291 - freqtrade.resolvers.iresolver - WARNING - Could not import /freqtrade/user_data/strategies/validate50/EI3v2_tag_cofi_green_2_4.py due to 'name 'EI3v2_tag_cofi_green' is not 
+defined'
+2026-11-14 16:43:05,320 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-16 14:55:00 (17 days).
+2026-11-14 16:43:05,356 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 1h from 2024-12-15 08:00:00 to 2025-01-16 14:55:00
+2026-11-14 16:43:05,357 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 1h found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:05,357 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 1h, ).
+2026-11-14 16:43:05,360 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 5m from 2024-12-30 14:40:00 to 2025-01-16 14:55:00
+2026-11-14 16:43:05,361 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 5m found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:05,361 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 5m, ).
+2026-11-14 16:43:05,444 - freqtrade.resolvers.iresolver - WARNING - Could not import /freqtrade/user_data/strategies/validate50/EI3v2_tag_cofi_green_2_4.py due to 'name 'EI3v2_tag_cofi_green' is not 
+defined'
+2026-11-14 16:43:05,472 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-16 14:55:00 (17 days).
+2026-11-14 16:43:05,515 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 1h from 2024-12-15 08:00:00 to 2025-01-16 14:55:00
+2026-11-14 16:43:05,516 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 1h found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:05,516 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 1h, ).
+2026-11-14 16:43:05,520 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 5m from 2024-12-30 14:40:00 to 2025-01-16 14:55:00
+2026-11-14 16:43:05,520 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 5m found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:05,521 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 5m, ).
+2026-11-14 16:43:05,629 - freqtrade.resolvers.iresolver - WARNING - Could not import /freqtrade/user_data/strategies/validate50/EI3v2_tag_cofi_green_2_4.py due to 'name 'EI3v2_tag_cofi_green' is not 
+defined'
+2026-11-14 16:43:05,657 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-16 14:55:00 (17 days).
+2026-11-14 16:43:05,695 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 1h from 2024-12-15 08:00:00 to 2025-01-16 14:55:00
+2026-11-14 16:43:05,696 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 1h found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:05,696 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 1h, ).
+2026-11-14 16:43:05,699 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 5m from 2024-12-30 14:40:00 to 2025-01-16 14:55:00
+2026-11-14 16:43:05,700 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 5m found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:05,700 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 5m, ).
+2026-11-14 16:43:05,784 - freqtrade.resolvers.iresolver - WARNING - Could not import /freqtrade/user_data/strategies/validate50/EI3v2_tag_cofi_green_2_4.py due to 'name 'EI3v2_tag_cofi_green' is not 
+defined'
+2026-11-14 16:43:05,812 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-16 14:55:00 (17 days).
+2026-11-14 16:43:05,849 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 1h from 2024-12-15 08:00:00 to 2025-01-16 14:55:00
+2026-11-14 16:43:05,850 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 1h found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:05,850 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 1h, ).
+2026-11-14 16:43:05,853 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 5m from 2024-12-30 14:40:00 to 2025-01-16 14:55:00
+2026-11-14 16:43:05,854 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 5m found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:05,854 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 5m, ).
+2026-11-14 16:43:05,967 - freqtrade.resolvers.iresolver - WARNING - Could not import /freqtrade/user_data/strategies/validate50/EI3v2_tag_cofi_green_2_4.py due to 'name 'EI3v2_tag_cofi_green' is not 
+defined'
+2026-11-14 16:43:05,997 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-16 14:55:00 (17 days).
+2026-11-14 16:43:06,036 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 1h from 2024-12-15 08:00:00 to 2025-01-16 14:55:00
+2026-11-14 16:43:06,036 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 1h found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:06,037 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 1h, ).
+2026-11-14 16:43:06,040 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 5m from 2024-12-30 14:40:00 to 2025-01-16 14:55:00
+2026-11-14 16:43:06,041 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 5m found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:06,041 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 5m, ).
+2026-11-14 16:43:06,122 - freqtrade.resolvers.iresolver - WARNING - Could not import /freqtrade/user_data/strategies/validate50/EI3v2_tag_cofi_green_2_4.py due to 'name 'EI3v2_tag_cofi_green' is not 
+defined'
+2026-11-14 16:43:06,150 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 14:40:00 up to 2025-01-16 14:55:00 (17 days).
+2026-11-14 16:43:06,185 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 1h from 2024-12-15 08:00:00 to 2025-01-16 14:55:00
+2026-11-14 16:43:06,186 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 1h found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:06,186 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 1h, ).
+2026-11-14 16:43:06,189 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDC 5m from 2024-12-30 14:40:00 to 2025-01-16 14:55:00
+2026-11-14 16:43:06,190 - freqtrade.data.history.datahandlers.idatahandler - WARNING - No history for BTC/USDC, spot, 5m found. Use `freqtrade download-data` to download the data
+2026-11-14 16:43:06,190 - freqtrade.data.dataprovider - WARNING - No data found for (BTC/USDC, 5m, ).
+2026-11-14 16:43:06,284 - freqtrade.optimize.analysis.lookahead - INFO - Found targeted trade amount = 20 signals.
+2026-11-14 16:43:06,284 - freqtrade.loggers.set_log_levels - INFO - Restoring log verbosity.
+2026-11-14 16:43:06,284 - freqtrade.optimize.analysis.lookahead - INFO - EI3v2_tag_cofi_green_2_4: no bias detected
+2026-11-14 16:43:06,285 - freqtrade.optimize.analysis.lookahead_helpers - INFO - Checking look ahead bias via backtests of EI3v2_tag_cofi_green_2_4.py took 16 seconds.
+Analyzing trades ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 20/20 100% • 0:00:05 • 0:00:00
+                                                                  Lookahead Analysis                                                                  
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┓
+┃                    filename ┃                 strategy ┃ has_bias ┃ total_signals ┃ biased_entry_signals ┃ biased_exit_signals ┃ biased_indicators ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━┩
+│ EI3v2_tag_cofi_green_2_4.py │ EI3v2_tag_cofi_green_2_4 │       No │            20 │                    0 │                   0 │                   │
+└─────────────────────────────┴──────────────────────────┴──────────┴───────────────┴──────────────────────┴─────────────────────┴───────────────────┘

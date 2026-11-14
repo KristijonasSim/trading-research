@@ -1,0 +1,9 @@
+EI3v2_tag_cofi_green_2_4 LA: │ EI3v2_tag_cofi_green_2_4.py │ EI3v2_tag_cofi_green_2_4 │ No │ 20 │ 0 │ 0 │ │ 0
+EI3v2_tag_cofi_green_2_4 2020 plain: │ CAGR % │ 78.97% │ │ Absolute drawdown │ 237.939 USDT (21.94%) │ │ Absolute drawdown (wallet balance) │ 423.368 USDT (39.62%) │ 
+EI3v2_tag_cofi_green_2_4 2020 --timeframe-detail 1m: │ CAGR % │ 56.70% │ │ Absolute drawdown │ 237.661 USDT (21.82%) │ │ Absolute drawdown (wallet balance) │ 424.646 USDT (39.56%) │ 
+EI3v2_tag_cofi_green_2_4 top9: │ CAGR % │ 92.37% │ │ Absolute drawdown │ 3135.277 USDT (28.94%) │ │ Absolute drawdown (wallet balance) │ 4724.226 USDT (44.42%) │ 
+EI3v2_tag_cofi_green_7 LA: │ EI3v2_tag_cofi_green_7.py │ EI3v2_tag_cofi_green_7 │ No │ 20 │ 0 │ 0 │ │ 0
+EI3v2_tag_cofi_green_7 2020 plain: │ CAGR % │ 44.43% │ │ Absolute drawdown │ 281.165 USDT (26.01%) │ │ Absolute drawdown (wallet balance) │ 428.98 USDT (40.02%) │ 
+EI3v2_tag_cofi_green_7 2020 --timeframe-detail 1m: │ CAGR % │ 29.22% │ │ Absolute drawdown │ 281.888 USDT (26.27%) │ │ Absolute drawdown (wallet balance) │ 424.873 USDT (39.93%) │ 
+EI3v2_tag_cofi_green_7 top9: │ CAGR % │ 68.03% │ │ Absolute drawdown │ 1340.304 USDT (17.25%) │ │ Absolute drawdown (wallet balance) │ 2166.82 USDT (36.82%) │ 
+CHECKS_DONE
