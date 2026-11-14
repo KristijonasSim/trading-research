@@ -1,0 +1,38 @@
+periodai: 2015–18 | 2019–21 | 2022–26
+BTC (CM)  laikyti  +85.1% kr  -84% | +130.2% kr  -61% |   +7.7% kr  -67%
+          BMSB    +103.2% kr  -73% | +103.0% kr  -44% |  +12.7% kr  -45% | rinkoje 58%
+          20sSMA  +105.0% kr  -73% | +121.9% kr  -44% |   +6.7% kr  -38%
+ETH       laikyti  -45.5% kr  -94% | +198.1% kr  -68% |  -12.7% kr  -74%
+          BMSB     -22.7% kr  -63% | +135.5% kr  -62% |   -1.8% kr  -59% | rinkoje 50%
+          20sSMA    -7.6% kr  -56% | +162.5% kr  -62% |   -4.0% kr  -53%
+XRP       laikyti  -75.8% kr  -71% |  +32.0% kr  -72% |   +3.9% kr  -72%
+          BMSB     -61.3% kr  -48% |   -6.7% kr  -71% |   +4.9% kr  -59% | rinkoje 41%
+          20sSMA   -55.4% kr  -43% |   -6.7% kr  -71% |   +8.6% kr  -63%
+BNB       laikyti +225.9% kr  -80% | +340.8% kr  -76% |   +3.9% kr  -63%
+          BMSB     -17.5% kr  -40% | +182.0% kr  -78% |   -2.3% kr  -50% | rinkoje 51%
+          20sSMA   -17.5% kr  -40% | +238.8% kr  -69% |   +0.8% kr  -50%
+SOL       laikyti      – | +1611.7% kr  -75% |  -15.3% kr  -95%
+          BMSB         – | +1283.7% kr  -56% |  +13.2% kr  -67% | rinkoje 50%
+          20sSMA       – | +1283.7% kr  -56% |  +14.4% kr  -67%
+DOGE      laikyti      – | +356.7% kr  -77% |  -18.1% kr  -86%
+          BMSB         – | +346.8% kr  -82% |   -1.6% kr  -65% | rinkoje 40%
+          20sSMA       – | +318.2% kr  -84% |   -2.8% kr  -66%
+ADA       laikyti  -92.1% kr  -92% | +214.9% kr  -76% |  -34.9% kr  -91%
+          BMSB      +0.0% kr    0% | +167.9% kr  -50% |  -18.8% kr  -80% | rinkoje 38%
+          20sSMA    +0.0% kr    0% | +197.7% kr  -50% |  -15.3% kr  -77%
+TRX       laikyti  -82.0% kr  -76% |  +57.6% kr  -78% |  +33.6% kr  -51%
+          BMSB      +0.0% kr    0% |  +24.3% kr  -66% |  +20.7% kr  -54% | rinkoje 62%
+          20sSMA    +0.0% kr    0% |  +30.1% kr  -66% |  +19.9% kr  -54%
+LINK      laikyti      – | +247.8% kr  -74% |  -14.0% kr  -82%
+          BMSB         – |  +98.0% kr  -71% |   -1.6% kr  -60% | rinkoje 48%
+          20sSMA       – |  +75.3% kr  -78% |   -2.4% kr  -62%
+AVAX      laikyti      – | +975.4% kr  -82% |  -41.5% kr  -95%
+          BMSB         – |  +47.9% kr  -76% |  -11.4% kr  -75% | rinkoje 35%
+          20sSMA       – |  +47.9% kr  -76% |   -6.9% kr  -73%
+LTC       laikyti  -88.5% kr  -93% |  +66.9% kr  -79% |  -20.4% kr  -73%
+          BMSB      +0.0% kr    0% |  +32.3% kr  -75% |  -14.8% kr  -70% | rinkoje 38%
+          20sSMA    +0.0% kr    0% |  +33.0% kr  -74% |  -14.5% kr  -69%
+DOT       laikyti      – | +381.6% kr  -77% |  -51.7% kr  -98%
+          BMSB         – |  +53.7% kr  -68% |   -6.2% kr  -73% | rinkoje 29%
+          20sSMA       – |  +53.7% kr  -68% |   -7.9% kr  -78%
+alts10 BMSB krepšelis (kasdien lygiai):   -5.4% kr  -10% | +148.5% kr  -55% |   +4.9% kr  -47%

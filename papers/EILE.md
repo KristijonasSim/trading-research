@@ -72,3 +72,4 @@ Kripto duomenys: Binance (spot/futures, 1h/1d, visos USDT poros su istorija). Ak
 | 65 | Tinklo augimas (aktyvūs adresai; Liu, Tsyvinski 2021), BTC/ETH ir 15 monetų skerspjūvis | kripto | ❌ atmesta (laiko eilutė ≤ SMA; skerspjūvio pranašumas dingsta su 7 d. vėlavimu, tik 2025 m.) → `65_network_growth/REZULTATAI.md` |
 | 66 | Aukso/sidabro santykio rotacija; Gundlacho vario/aukso signalas SPY↔TLT | ETF | ❌ atmesta (GSR iki 2020 < GLD; vario/aukso 2021–26 −7…+3 %/m.) → `66_gold_ratios/REZULTATAI.md` |
 | 67 | Wikipedia dėmesio signalas (Kristoufek 2013), BTC/ETH | kripto | ❌ atmesta (≈ momentum su filtru, kainos filtrai tokie pat ar geresni) → `67_wiki_attention/REZULTATAI.md` |
+| 68 | Bull Market Support Band (20 sav. SMA + 21 sav. EMA), BTC/ETH/alts10 | kripto | ❌ atmesta (BTC 2022–26 +12,7 %, kritimas 45 %; alts +4,9 %; ≈ SMA filtras) → `68_bmsb/REZULTATAI.md` |
