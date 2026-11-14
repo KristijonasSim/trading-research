@@ -328,3 +328,7 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 2026-11-14: testai pristabdyti vartotojo prašymu (antras kompiuteris). Veikia tik 7 dry-run botai. Kitas žingsnis: išgyvenusiųjų patikra naujoms (DS_Green_5m, NS4_dca, NFI7HO2, BearBull3, BSS2b), straipsnis #102.
 - 2026-11-14 14:40 – batchM52–M56: CombinedBinHAndCluc_455 = CombinedBinHAndCluc2 kopija (tie patys skaičiai), DS_Green_5m_Bull – silpnesnė jau atrinktos DS_Green_5m atmaina; papildomai netikrinta.
 - 2026-11-14 16:40 – batchM57–M61 baigtos, kandidatų nėra.
+
+## 2026-11-14 18:45 – batchM62–M64
+- M62, M64: kandidatų nėra. M63: 14 EI3v2 kopijų; dauguma identiškos jau atrinktai (25,1 %/m., 14,9 %). Skiriasi 2: _2_4 (27,1 %/m., kritimas 8,6 %) ir _7 (25,6 %/m., 15 %).
+- Kodas švarus; nematytas 2018–21 (alts10): _2_4 +174 %/m. (kritimas 34,7 %), _7 +140 %/m. (9,7 %). Paleistos lookahead / 1m / top9 patikros (all_checks.sh).
