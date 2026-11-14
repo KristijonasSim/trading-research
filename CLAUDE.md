@@ -87,6 +87,8 @@ Komandos (paleisti iš `freqtrade/`):
 
 - 2026-11-14 naktis (antras kompiuteris): **Passivbot trailing martingale atrinkta (nr. 11)**: 12 monetų futures, ekspozicija 0,75 – 2021–26 +21 %/m., kritimas 25 %, nematytas 2019-12 – 2021-04 +70 %/m.; jautrumas ir 2021 top 20 (su FTT) patikros praeina (`passivbot/REZULTATAI.md`). **Dry-run (šis kompiuteris, 7 botai, `freqtrade/dryrun/`)**: Aberration, DualThrust, EMA800, FundingContrarian, NASOSv5_mod3, EI3v2, FearGreedTrend. Fear & Greed trendas (FGI > 60) +23 %/m. – rizikingų sąraše. Straipsniai 34–51 atmesti. abbas/NASMAO/SMAO išlaiko 1m detalumą.
 
+
+- 2026-11-14 rytas (antras kompiuteris): Passivbot martingale su **Bybit** duomenimis tik +11,3 %/m. (kritimas 31 %, 2022 −21 %) – jautrus biržos kainų keliui. Straipsniai 52–76 (MVRV, stablecoin, NVT, Kimchi/Coinbase premija, FED likvidumas, OI, IBS, VIX, Lorentzian, TradingView trendai ir kt.) – beveik visi atmesti; rizikingų sąraše **Coinbase premija** (+19 %/m., nestabilu) ir **TMF mėnesio pabaiga** (2010–26 +15…+17 %/m.). Ataskaita `results/ATASKAITA_2026-11-14.md`.
 ## Dar nepradėta
 Aplankai `ib_async/`, `vectorbt/`, `backtesting-py/` tušti.
 

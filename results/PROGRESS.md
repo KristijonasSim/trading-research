@@ -288,3 +288,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 2026-11-14: #74 kripto mėnesių sezoniškumas atmesta.
 - 2026-11-14: #75 3Sig/9Sig atmesta.
 - 2026-11-14: #76 šalių ETF momentum atmesta.
+- 2026-11-14 07:05 – rytinė ataskaita results/ATASKAITA_2026-11-14.md; CLAUDE.md ir SUVESTINE atnaujinti.
