@@ -1,0 +1,25 @@
+periodai: 2018-06–21 | 2022–26
+
+4h laikyti: BTC+ETH  +72.9% kr  -76% |   +1.6% kr  -70% || alts10 +155.7% kr  -65% |   -7.7% kr  -72%
+4h Range Filter     long: BTC+ETH  +34.9% kr  -50% |   -1.5% kr  -49% || alts10  +62.8% kr  -49% |   -4.0% kr  -58%
+4h Range Filter     ls  : BTC+ETH  -17.4% kr  -87% |  -12.5% kr  -65% || alts10  -16.8% kr  -72% |  -14.6% kr  -74%
+4h HalfTrend        long: BTC+ETH  +87.7% kr  -32% |   +6.8% kr  -52% || alts10  +99.1% kr  -39% |  -11.7% kr  -61%
+4h HalfTrend        ls  : BTC+ETH  +63.1% kr  -56% |   +6.5% kr  -67% || alts10  +27.6% kr  -49% |  -23.8% kr  -80%
+4h Coral Trend      long: BTC+ETH  +90.3% kr  -33% |   +1.6% kr  -52% || alts10 +142.1% kr  -37% |   +5.4% kr  -60%
+4h Coral Trend      ls  : BTC+ETH  +67.9% kr  -60% |   -3.7% kr  -58% || alts10  +86.4% kr  -45% |   +6.6% kr  -62%
+4h Pivot Reversal   long: BTC+ETH  +80.5% kr  -45% |   +0.2% kr  -52% || alts10 +121.6% kr  -34% |   +4.1% kr  -56%
+4h Pivot Reversal   ls  : BTC+ETH  +53.5% kr  -82% |   -5.4% kr  -70% || alts10  +54.8% kr  -57% |   +5.8% kr  -57%
+4h Donchian Ribbon  long: BTC+ETH  +61.8% kr  -46% |   +4.0% kr  -49% || alts10 +117.4% kr  -50% |   -0.6% kr  -60%
+4h Donchian Ribbon  ls  : BTC+ETH  +16.4% kr  -77% |   -4.8% kr  -67% || alts10  +48.2% kr  -64% |   -9.6% kr  -66%
+
+1d laikyti: BTC+ETH  +73.7% kr  -76% |   +1.7% kr  -68% || alts10 +166.8% kr  -64% |   -7.2% kr  -72%
+1d Range Filter     long: BTC+ETH  +87.5% kr  -45% |   +1.0% kr  -50% || alts10  +95.5% kr  -42% |   -1.4% kr  -48%
+1d Range Filter     ls  : BTC+ETH  +39.9% kr  -64% |  -16.1% kr  -79% || alts10   -0.2% kr  -64% |  -19.1% kr  -84%
+1d HalfTrend        long: BTC+ETH  +42.8% kr  -47% |   +3.0% kr  -50% || alts10 +117.3% kr  -46% |   +0.2% kr  -58%
+1d HalfTrend        ls  : BTC+ETH  -11.9% kr  -76% |  -10.8% kr  -78% || alts10  +33.8% kr  -49% |   -9.5% kr  -66%
+1d Coral Trend      long: BTC+ETH +101.1% kr  -42% |   +4.8% kr  -44% || alts10 +166.3% kr  -26% |   +7.2% kr  -51%
+1d Coral Trend      ls  : BTC+ETH  +72.0% kr  -56% |   -7.8% kr  -72% || alts10  +98.5% kr  -43% |   +2.4% kr  -54%
+1d Pivot Reversal   long: BTC+ETH  +72.4% kr  -52% |  +11.2% kr  -39% || alts10 +137.3% kr  -36% |   +3.6% kr  -59%
+1d Pivot Reversal   ls  : BTC+ETH  +25.1% kr  -58% |   +4.7% kr  -70% || alts10  +59.3% kr  -45% |   -3.9% kr  -67%
+1d Donchian Ribbon  long: BTC+ETH +106.4% kr  -42% |   +4.3% kr  -50% || alts10 +168.9% kr  -40% |   +1.1% kr  -53%
+1d Donchian Ribbon  ls  : BTC+ETH  +80.3% kr  -50% |   -8.1% kr  -76% || alts10 +124.0% kr  -43% |   -9.0% kr  -59%
