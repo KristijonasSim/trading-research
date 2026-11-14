@@ -82,3 +82,4 @@ Kripto duomenys: Binance (spot/futures, 1h/1d, visos USDT poros su istorija). Ak
 | 75 | Jason Kelly 3Sig / 9Sig (ketvirtinis tikslinis perbalansavimas) | ETF | ❌ atmesta (3Sig < laikymas; 9Sig 2000–09 −100 %) → `75_3sig/REZULTATAI.md` |
 | 76 | Šalių ETF momentum / žemas volatilumas / reversalas (20 iShares) | ETF | ❌ atmesta (2013–19 −1…+2 %/m., ≈ lygūs svoriai) → `76_country_momentum/REZULTATAI.md` |
 | 77 | YouTube klasika: MACD+200EMA (1,5R), Stoch RSI trendas, Williams Alligator, Heikin Ashi+EMA50, EMA 9/21 | kripto | ❌ atmesta (2022–26 visi −50…+11 %/m.) → `77_youtube_classics/REZULTATAI.md` |
+| 78 | Funding skirtumo arbitražas Binance ↔ Bybit (12 monetų) | kripto | ❌ atmesta (skirtumas 0,5–1 bp/8 h < kaštai; geriausia +0,6 %/m.) → `78_funding_xex/REZULTATAI.md` |
