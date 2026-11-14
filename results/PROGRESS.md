@@ -276,3 +276,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 2026-11-14: #63 sverto ETF nusidėvėjimo sandoris atmesta.
 - 2026-11-14: #64 Mėnulio fazių efektas atmesta.
 - 2026-11-14 06:50 – queue6 baigta (batchM28–M35): atrinkta TrendVolTarget, 2 rizikingos, Divergence atmesta. sources_more7: 161 naujas repo, 2761 strategija (2281 iš remiotore/ccxt-freqtrade rinkinio – eilės gale) → batchM36–M91, `freqtrade/queue7.sh` (-j 3) paleista.
+- 2026-11-14: #65 tinklo augimas (aktyvūs adresai) atmesta.

@@ -1,0 +1,23 @@
+periodai: 2017–19 | 2020–22 | 2023–26 (straipsnio duomenys iki 2018)
+
+BTC laikyti                             +91.9% kr  -84% |  +33.7% kr  -77% |  +43.9% kr  -53% | rinkoje 100%
+BTC adresų 7 d. vid. > 30 d. vid.       +72.7% kr  -70% |  +29.1% kr  -64% |  +15.9% kr  -38% | rinkoje  52%
+BTC adresų 30 d. vid. > 90 d. vid.      +61.7% kr  -80% |  +27.4% kr  -59% |  +22.9% kr  -41% | rinkoje  56%
+BTC adresų 30 d. vid. > 180 d. vid.     +57.7% kr  -82% |  +31.4% kr  -68% |  +31.4% kr  -21% | rinkoje  54%
+BTC adresų 4 sav. augimas > 0           +41.9% kr  -71% |  +19.6% kr  -60% |  +38.8% kr  -33% | rinkoje  54%
+BTC palyg.: kaina > 100 d. SMA         +138.0% kr  -64% |  +61.1% kr  -38% |  +33.4% kr  -36% | rinkoje  57%
+
+ETH laikyti                            +149.8% kr  -94% | +111.7% kr  -79% |  +12.6% kr  -68% | rinkoje 100%
+ETH adresų 7 d. vid. > 30 d. vid.      +210.5% kr  -77% |  +60.6% kr  -60% |   -5.3% kr  -63% | rinkoje  53%
+ETH adresų 30 d. vid. > 90 d. vid.     +224.5% kr  -84% |  +67.7% kr  -63% |  +23.7% kr  -60% | rinkoje  55%
+ETH adresų 30 d. vid. > 180 d. vid.     +77.5% kr  -60% |  +64.9% kr  -72% |   +2.6% kr  -71% | rinkoje  53%
+ETH adresų 4 sav. augimas > 0          +267.8% kr  -77% |  +11.4% kr  -71% |  -18.3% kr  -78% | rinkoje  55%
+ETH palyg.: kaina > 100 d. SMA         +233.8% kr  -60% |  +48.7% kr  -72% |  +24.8% kr  -47% | rinkoje  56%
+
+B skerspjūvis (15 monetų, kas 7 d.)
+  7 d. didžiausias augimas    +787.5% kr  -88% |  +85.2% kr  -76% |  +65.4% kr  -55%
+  7 d. mažiausias augimas     +112.3% kr  -91% |  +65.2% kr  -89% |  +11.4% kr  -66%
+  7 d. visos lygiai           +336.3% kr  -88% |  +87.8% kr  -82% |  +37.7% kr  -51%
+ 28 d. didžiausias augimas    +425.2% kr  -90% |  +63.1% kr  -82% |  +70.6% kr  -59%
+ 28 d. mažiausias augimas      +99.2% kr  -92% | +121.3% kr  -86% |  +15.4% kr  -55%
+ 28 d. visos lygiai           +256.2% kr  -88% |  +87.8% kr  -82% |  +37.7% kr  -51%
