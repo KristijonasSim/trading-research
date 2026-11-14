@@ -1,0 +1,23 @@
+{
+  "strategy": "NS4_dca",
+  "mode": "spot",
+  "group": "alts10",
+  "timeframe": "5m",
+  "style": "day trading",
+  "avg_trade_hours": 3.4,
+  "trades": 730,
+  "trades_per_year": 189.5,
+  "total_return_pct": 848.3,
+  "cagr_pct": 79.3,
+  "yearly_pct": {
+    "2018": 29.3,
+    "2019": 13.5,
+    "2020": 62.4,
+    "2021": 297.8
+  },
+  "max_drawdown_pct": 5.1,
+  "win_rate_pct": 92.7,
+  "profit_factor": 4.82,
+  "market_change_pct": 3171.7,
+  "timerange": "20180101-20211108"
+}

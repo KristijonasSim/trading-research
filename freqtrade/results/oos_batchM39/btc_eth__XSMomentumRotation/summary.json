@@ -1,0 +1,23 @@
+{
+  "strategy": "XSMomentumRotation",
+  "mode": "spot",
+  "group": "btc_eth",
+  "timeframe": "1d",
+  "style": "swing",
+  "avg_trade_hours": 183.3,
+  "trades": 105,
+  "trades_per_year": 27.3,
+  "total_return_pct": 601.5,
+  "cagr_pct": 65.8,
+  "yearly_pct": {
+    "2018": -5.9,
+    "2019": 55.5,
+    "2020": 144.8,
+    "2021": 95.7
+  },
+  "max_drawdown_pct": 12.4,
+  "win_rate_pct": 51.4,
+  "profit_factor": 2.79,
+  "market_change_pct": 470.8,
+  "timerange": "20180101-20211108"
+}

@@ -1,0 +1,607 @@
+2026-11-14 07:01:22,350 - freqtrade - INFO - freqtrade 2026.7
+2026-11-14 07:01:22,483 - numexpr.utils - INFO - Note: NumExpr detected 28 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 16.
+2026-11-14 07:01:22,483 - numexpr.utils - INFO - NumExpr defaulting to 16 threads.
+2026-11-14 07:01:23,290 - freqtrade.configuration.load_config - INFO - Using config: /freqtrade/config.json ...
+2026-11-14 07:01:23,292 - freqtrade.loggers - INFO - Enabling colorized output.
+2026-11-14 07:01:23,292 - freqtrade.loggers - INFO - Logfile configured
+2026-11-14 07:01:23,292 - freqtrade.loggers - INFO - Verbosity set to 0
+2026-11-14 07:01:23,292 - freqtrade.configuration.configuration - INFO - Using additional Strategy lookup path: /freqtrade/user_data/strategies/validate50
+2026-11-14 07:01:23,292 - freqtrade.configuration.configuration - INFO - Parameter -i/--timeframe detected ... Using timeframe: 1d ...
+2026-11-14 07:01:23,293 - freqtrade.configuration.configuration - INFO - Parameter --max-open-trades detected, overriding max_open_trades to: 2 ...
+2026-11-14 07:01:23,293 - freqtrade.configuration.configuration - INFO - Parameter --timerange detected: 20220101-20260101 ...
+sudo: unable to resolve host f97f6f5d3df8: Temporary failure in name resolution
+2026-11-14 07:01:23,326 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2026-11-14 07:01:23,331 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2026-11-14 07:01:23,331 - freqtrade.configuration.configuration - INFO - Using pairs ['BTC/USDT', 'ETH/USDT']
+2026-11-14 07:01:23,331 - freqtrade.configuration.configuration - INFO - Filter trades by timerange: 20220101-20260101
+2026-11-14 07:01:23,332 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2026-11-14 07:01:23,339 - freqtrade.exchange.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2026-11-14 07:01:23,340 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2026-11-14 07:01:23,341 - freqtrade.optimize.analysis.lookahead_helpers - INFO - Forced order_types to market orders.
+2026-11-14 07:01:23,341 - freqtrade.optimize.analysis.lookahead_helpers - INFO - Forced max_open_trades to -1 (same amount as there are pairs)
+2026-11-14 07:01:23,342 - freqtrade.optimize.analysis.lookahead_helpers - INFO - Dry run wallet was not set to 1 billion, pushing it up there just to avoid false positives
+2026-11-14 07:01:23,342 - freqtrade.optimize.analysis.lookahead_helpers - INFO - fixing stake_amount to 10k
+2026-11-14 07:01:23,489 - freqtrade.optimize.analysis.lookahead_helpers - INFO - Bias test of XSMomentumRotation.py started.
+2026-11-14 07:01:23,490 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2026-11-14 07:01:23,491 - freqtrade.exchange.exchange - INFO - Using CCXT 4.5.68
+2026-11-14 07:01:23,506 - freqtrade.exchange.exchange - INFO - Using Exchange "Binance"
+2026-11-14 07:01:23,937 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange class 'Binance' ...
+2026-11-14 07:01:23,940 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy XSMomentumRotation from '/freqtrade/user_data/strategies/validate50/XSMomentumRotation.py'...
+2026-11-14 07:01:23,940 - freqtrade.strategy.hyper - INFO - Found no parameter file.
+2026-11-14 07:01:23,941 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'timeframe' with value from the configuration: 1d.
+2026-11-14 07:01:23,941 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'order_types' with value from the configuration: {'entry': 'market', 'exit': 'market', 'stoploss': 'market', 
+'stoploss_on_exchange': False}.
+2026-11-14 07:01:23,941 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value from the configuration: USDT.
+2026-11-14 07:01:23,942 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value from the configuration: 10000.
+2026-11-14 07:01:23,942 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'max_open_trades' with value from the configuration: -1.
+2026-11-14 07:01:23,942 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'0': 100}
+2026-11-14 07:01:23,942 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 1d
+2026-11-14 07:01:23,942 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.3
+2026-11-14 07:01:23,943 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2026-11-14 07:01:23,943 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2026-11-14 07:01:23,943 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2026-11-14 07:01:23,943 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2026-11-14 07:01:23,943 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2026-11-14 07:01:23,944 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'market', 'exit': 'market', 'stoploss': 'market', 'stoploss_on_exchange': False}
+2026-11-14 07:01:23,944 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'GTC', 'exit': 'GTC'}
+2026-11-14 07:01:23,944 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2026-11-14 07:01:23,944 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: 10000
+2026-11-14 07:01:23,945 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 30
+2026-11-14 07:01:23,945 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2026-11-14 07:01:23,945 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2026-11-14 07:01:23,945 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2026-11-14 07:01:23,945 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2026-11-14 07:01:23,946 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2026-11-14 07:01:23,946 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2026-11-14 07:01:23,946 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2026-11-14 07:01:23,946 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2026-11-14 07:01:23,946 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_open_trades: -1
+2026-11-14 07:01:23,947 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2026-11-14 07:01:23,950 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist StaticPairList from '/freqtrade/freqtrade/plugins/pairlist/StaticPairList.py'...
+2026-11-14 07:01:23,962 - freqtrade.optimize.backtesting - INFO - Using fee 0.1000% from config.
+2026-11-14 07:01:24,004 - freqtrade.optimize.backtesting - INFO - Loading data from 2021-12-02 00:00:00 up to 2026-01-01 00:00:00 (1491 days).
+2026-11-14 07:01:24,032 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 1d from 2021-12-02 00:00:00 to 2026-01-01 00:00:00
+2026-11-14 07:01:24,044 - freqtrade.data.dataprovider - INFO - Loading data for ETH/USDT 1d from 2021-12-02 00:00:00 to 2026-01-01 00:00:00
+2026-11-14 07:01:24,056 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1d from 2021-12-02 00:00:00 to 2026-01-01 00:00:00
+2026-11-14 07:01:24,067 - freqtrade.data.dataprovider - INFO - Loading data for BNB/USDT 1d from 2021-12-02 00:00:00 to 2026-01-01 00:00:00
+2026-11-14 07:01:24,083 - freqtrade.data.dataprovider - INFO - Loading data for SOL/USDT 1d from 2021-12-02 00:00:00 to 2026-01-01 00:00:00
+2026-11-14 07:01:24,096 - freqtrade.data.dataprovider - INFO - Loading data for DOGE/USDT 1d from 2021-12-02 00:00:00 to 2026-01-01 00:00:00
+2026-11-14 07:01:24,108 - freqtrade.data.dataprovider - INFO - Loading data for ADA/USDT 1d from 2021-12-02 00:00:00 to 2026-01-01 00:00:00
+2026-11-14 07:01:24,121 - freqtrade.data.dataprovider - INFO - Loading data for TRX/USDT 1d from 2021-12-02 00:00:00 to 2026-01-01 00:00:00
+2026-11-14 07:01:24,134 - freqtrade.data.dataprovider - INFO - Loading data for LINK/USDT 1d from 2021-12-02 00:00:00 to 2026-01-01 00:00:00
+2026-11-14 07:01:24,147 - freqtrade.data.dataprovider - INFO - Loading data for AVAX/USDT 1d from 2021-12-02 00:00:00 to 2026-01-01 00:00:00
+2026-11-14 07:01:24,160 - freqtrade.data.dataprovider - INFO - Loading data for LTC/USDT 1d from 2021-12-02 00:00:00 to 2026-01-01 00:00:00
+2026-11-14 07:01:24,173 - freqtrade.data.dataprovider - INFO - Loading data for DOT/USDT 1d from 2021-12-02 00:00:00 to 2026-01-01 00:00:00
+2026-11-14 07:01:24,379 - freqtrade.loggers.set_log_levels - INFO - Reducing verbosity for bias tester.
+2026-11-14 07:01:24,380 - freqtrade.optimize.analysis.lookahead - INFO - Found 112 trades, calculating 20 trades.
+2026-11-14 07:01:24,410 - freqtrade.optimize.backtesting - INFO - Loading data from 2021-12-02 00:00:00 up to 2022-02-06 00:00:00 (66 days).
+2026-11-14 07:01:24,416 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 1d from 2021-12-02 00:00:00 to 2022-02-06 00:00:00
+2026-11-14 07:01:24,428 - freqtrade.data.dataprovider - INFO - Loading data for ETH/USDT 1d from 2021-12-02 00:00:00 to 2022-02-06 00:00:00
+2026-11-14 07:01:24,440 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1d from 2021-12-02 00:00:00 to 2022-02-06 00:00:00
+2026-11-14 07:01:24,452 - freqtrade.data.dataprovider - INFO - Loading data for BNB/USDT 1d from 2021-12-02 00:00:00 to 2022-02-06 00:00:00
+2026-11-14 07:01:24,464 - freqtrade.data.dataprovider - INFO - Loading data for SOL/USDT 1d from 2021-12-02 00:00:00 to 2022-02-06 00:00:00
+2026-11-14 07:01:24,475 - freqtrade.data.dataprovider - INFO - Loading data for DOGE/USDT 1d from 2021-12-02 00:00:00 to 2022-02-06 00:00:00
+2026-11-14 07:01:24,488 - freqtrade.data.dataprovider - INFO - Loading data for ADA/USDT 1d from 2021-12-02 00:00:00 to 2022-02-06 00:00:00
+2026-11-14 07:01:24,499 - freqtrade.data.dataprovider - INFO - Loading data for TRX/USDT 1d from 2021-12-02 00:00:00 to 2022-02-06 00:00:00
+2026-11-14 07:01:24,511 - freqtrade.data.dataprovider - INFO - Loading data for LINK/USDT 1d from 2021-12-02 00:00:00 to 2022-02-06 00:00:00
+2026-11-14 07:01:24,523 - freqtrade.data.dataprovider - INFO - Loading data for AVAX/USDT 1d from 2021-12-02 00:00:00 to 2022-02-06 00:00:00
+2026-11-14 07:01:24,535 - freqtrade.data.dataprovider - INFO - Loading data for LTC/USDT 1d from 2021-12-02 00:00:00 to 2022-02-06 00:00:00
+2026-11-14 07:01:24,547 - freqtrade.data.dataprovider - INFO - Loading data for DOT/USDT 1d from 2021-12-02 00:00:00 to 2022-02-06 00:00:00
+2026-11-14 07:01:24,599 - freqtrade.optimize.backtesting - INFO - Loading data from 2021-12-02 00:00:00 up to 2022-02-09 00:00:00 (69 days).
+2026-11-14 07:01:24,605 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 1d from 2021-12-02 00:00:00 to 2022-02-09 00:00:00
+2026-11-14 07:01:24,617 - freqtrade.data.dataprovider - INFO - Loading data for ETH/USDT 1d from 2021-12-02 00:00:00 to 2022-02-09 00:00:00
+2026-11-14 07:01:24,629 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1d from 2021-12-02 00:00:00 to 2022-02-09 00:00:00
+2026-11-14 07:01:24,641 - freqtrade.data.dataprovider - INFO - Loading data for BNB/USDT 1d from 2021-12-02 00:00:00 to 2022-02-09 00:00:00
+2026-11-14 07:01:24,653 - freqtrade.data.dataprovider - INFO - Loading data for SOL/USDT 1d from 2021-12-02 00:00:00 to 2022-02-09 00:00:00
+2026-11-14 07:01:24,664 - freqtrade.data.dataprovider - INFO - Loading data for DOGE/USDT 1d from 2021-12-02 00:00:00 to 2022-02-09 00:00:00
+2026-11-14 07:01:24,676 - freqtrade.data.dataprovider - INFO - Loading data for ADA/USDT 1d from 2021-12-02 00:00:00 to 2022-02-09 00:00:00
+2026-11-14 07:01:24,688 - freqtrade.data.dataprovider - INFO - Loading data for TRX/USDT 1d from 2021-12-02 00:00:00 to 2022-02-09 00:00:00
+2026-11-14 07:01:24,700 - freqtrade.data.dataprovider - INFO - Loading data for LINK/USDT 1d from 2021-12-02 00:00:00 to 2022-02-09 00:00:00
+2026-11-14 07:01:24,711 - freqtrade.data.dataprovider - INFO - Loading data for AVAX/USDT 1d from 2021-12-02 00:00:00 to 2022-02-09 00:00:00
+2026-11-14 07:01:24,721 - freqtrade.data.dataprovider - INFO - Loading data for LTC/USDT 1d from 2021-12-02 00:00:00 to 2022-02-09 00:00:00
+2026-11-14 07:01:24,731 - freqtrade.data.dataprovider - INFO - Loading data for DOT/USDT 1d from 2021-12-02 00:00:00 to 2022-02-09 00:00:00
+2026-11-14 07:01:24,791 - freqtrade.optimize.backtesting - INFO - Loading data from 2021-12-02 00:00:00 up to 2022-02-06 00:00:00 (66 days).
+2026-11-14 07:01:24,797 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 1d from 2021-12-02 00:00:00 to 2022-02-06 00:00:00
+2026-11-14 07:01:24,808 - freqtrade.data.dataprovider - INFO - Loading data for ETH/USDT 1d from 2021-12-02 00:00:00 to 2022-02-06 00:00:00
+2026-11-14 07:01:24,820 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1d from 2021-12-02 00:00:00 to 2022-02-06 00:00:00
+2026-11-14 07:01:24,832 - freqtrade.data.dataprovider - INFO - Loading data for BNB/USDT 1d from 2021-12-02 00:00:00 to 2022-02-06 00:00:00
+2026-11-14 07:01:24,844 - freqtrade.data.dataprovider - INFO - Loading data for SOL/USDT 1d from 2021-12-02 00:00:00 to 2022-02-06 00:00:00
+2026-11-14 07:01:24,856 - freqtrade.data.dataprovider - INFO - Loading data for DOGE/USDT 1d from 2021-12-02 00:00:00 to 2022-02-06 00:00:00
+2026-11-14 07:01:24,869 - freqtrade.data.dataprovider - INFO - Loading data for ADA/USDT 1d from 2021-12-02 00:00:00 to 2022-02-06 00:00:00
+2026-11-14 07:01:24,881 - freqtrade.data.dataprovider - INFO - Loading data for TRX/USDT 1d from 2021-12-02 00:00:00 to 2022-02-06 00:00:00
+2026-11-14 07:01:24,894 - freqtrade.data.dataprovider - INFO - Loading data for LINK/USDT 1d from 2021-12-02 00:00:00 to 2022-02-06 00:00:00
+2026-11-14 07:01:24,907 - freqtrade.data.dataprovider - INFO - Loading data for AVAX/USDT 1d from 2021-12-02 00:00:00 to 2022-02-06 00:00:00
+2026-11-14 07:01:24,920 - freqtrade.data.dataprovider - INFO - Loading data for LTC/USDT 1d from 2021-12-02 00:00:00 to 2022-02-06 00:00:00
+2026-11-14 07:01:24,933 - freqtrade.data.dataprovider - INFO - Loading data for DOT/USDT 1d from 2021-12-02 00:00:00 to 2022-02-06 00:00:00
+2026-11-14 07:01:24,991 - freqtrade.optimize.backtesting - INFO - Loading data from 2021-12-02 00:00:00 up to 2022-02-15 00:00:00 (75 days).
+2026-11-14 07:01:24,997 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 1d from 2021-12-02 00:00:00 to 2022-02-15 00:00:00
+2026-11-14 07:01:25,010 - freqtrade.data.dataprovider - INFO - Loading data for ETH/USDT 1d from 2021-12-02 00:00:00 to 2022-02-15 00:00:00
+2026-11-14 07:01:25,023 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1d from 2021-12-02 00:00:00 to 2022-02-15 00:00:00
+2026-11-14 07:01:25,035 - freqtrade.data.dataprovider - INFO - Loading data for BNB/USDT 1d from 2021-12-02 00:00:00 to 2022-02-15 00:00:00
+2026-11-14 07:01:25,048 - freqtrade.data.dataprovider - INFO - Loading data for SOL/USDT 1d from 2021-12-02 00:00:00 to 2022-02-15 00:00:00
+2026-11-14 07:01:25,060 - freqtrade.data.dataprovider - INFO - Loading data for DOGE/USDT 1d from 2021-12-02 00:00:00 to 2022-02-15 00:00:00
+2026-11-14 07:01:25,072 - freqtrade.data.dataprovider - INFO - Loading data for ADA/USDT 1d from 2021-12-02 00:00:00 to 2022-02-15 00:00:00
+2026-11-14 07:01:25,086 - freqtrade.data.dataprovider - INFO - Loading data for TRX/USDT 1d from 2021-12-02 00:00:00 to 2022-02-15 00:00:00
+2026-11-14 07:01:25,099 - freqtrade.data.dataprovider - INFO - Loading data for LINK/USDT 1d from 2021-12-02 00:00:00 to 2022-02-15 00:00:00
+2026-11-14 07:01:25,113 - freqtrade.data.dataprovider - INFO - Loading data for AVAX/USDT 1d from 2021-12-02 00:00:00 to 2022-02-15 00:00:00
+2026-11-14 07:01:25,126 - freqtrade.data.dataprovider - INFO - Loading data for LTC/USDT 1d from 2021-12-02 00:00:00 to 2022-02-15 00:00:00
+2026-11-14 07:01:25,139 - freqtrade.data.dataprovider - INFO - Loading data for DOT/USDT 1d from 2021-12-02 00:00:00 to 2022-02-15 00:00:00
+2026-11-14 07:01:25,210 - freqtrade.optimize.backtesting - INFO - Loading data from 2021-12-02 00:00:00 up to 2022-02-17 00:00:00 (77 days).
+2026-11-14 07:01:25,217 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 1d from 2021-12-02 00:00:00 to 2022-02-17 00:00:00
+2026-11-14 07:01:25,230 - freqtrade.data.dataprovider - INFO - Loading data for ETH/USDT 1d from 2021-12-02 00:00:00 to 2022-02-17 00:00:00
+2026-11-14 07:01:25,244 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1d from 2021-12-02 00:00:00 to 2022-02-17 00:00:00
+2026-11-14 07:01:25,257 - freqtrade.data.dataprovider - INFO - Loading data for BNB/USDT 1d from 2021-12-02 00:00:00 to 2022-02-17 00:00:00
+2026-11-14 07:01:25,270 - freqtrade.data.dataprovider - INFO - Loading data for SOL/USDT 1d from 2021-12-02 00:00:00 to 2022-02-17 00:00:00
+2026-11-14 07:01:25,283 - freqtrade.data.dataprovider - INFO - Loading data for DOGE/USDT 1d from 2021-12-02 00:00:00 to 2022-02-17 00:00:00
+2026-11-14 07:01:25,296 - freqtrade.data.dataprovider - INFO - Loading data for ADA/USDT 1d from 2021-12-02 00:00:00 to 2022-02-17 00:00:00
+2026-11-14 07:01:25,308 - freqtrade.data.dataprovider - INFO - Loading data for TRX/USDT 1d from 2021-12-02 00:00:00 to 2022-02-17 00:00:00
+2026-11-14 07:01:25,320 - freqtrade.data.dataprovider - INFO - Loading data for LINK/USDT 1d from 2021-12-02 00:00:00 to 2022-02-17 00:00:00
+2026-11-14 07:01:25,332 - freqtrade.data.dataprovider - INFO - Loading data for AVAX/USDT 1d from 2021-12-02 00:00:00 to 2022-02-17 00:00:00
+2026-11-14 07:01:25,344 - freqtrade.data.dataprovider - INFO - Loading data for LTC/USDT 1d from 2021-12-02 00:00:00 to 2022-02-17 00:00:00
+2026-11-14 07:01:25,356 - freqtrade.data.dataprovider - INFO - Loading data for DOT/USDT 1d from 2021-12-02 00:00:00 to 2022-02-17 00:00:00
+2026-11-14 07:01:25,409 - freqtrade.optimize.backtesting - INFO - Loading data from 2021-12-02 00:00:00 up to 2022-02-20 00:00:00 (80 days).
+2026-11-14 07:01:25,413 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 1d from 2021-12-02 00:00:00 to 2022-02-20 00:00:00
+2026-11-14 07:01:25,424 - freqtrade.data.dataprovider - INFO - Loading data for ETH/USDT 1d from 2021-12-02 00:00:00 to 2022-02-20 00:00:00
+2026-11-14 07:01:25,434 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1d from 2021-12-02 00:00:00 to 2022-02-20 00:00:00
+2026-11-14 07:01:25,444 - freqtrade.data.dataprovider - INFO - Loading data for BNB/USDT 1d from 2021-12-02 00:00:00 to 2022-02-20 00:00:00
+2026-11-14 07:01:25,454 - freqtrade.data.dataprovider - INFO - Loading data for SOL/USDT 1d from 2021-12-02 00:00:00 to 2022-02-20 00:00:00
+2026-11-14 07:01:25,466 - freqtrade.data.dataprovider - INFO - Loading data for DOGE/USDT 1d from 2021-12-02 00:00:00 to 2022-02-20 00:00:00
+2026-11-14 07:01:25,477 - freqtrade.data.dataprovider - INFO - Loading data for ADA/USDT 1d from 2021-12-02 00:00:00 to 2022-02-20 00:00:00
+2026-11-14 07:01:25,490 - freqtrade.data.dataprovider - INFO - Loading data for TRX/USDT 1d from 2021-12-02 00:00:00 to 2022-02-20 00:00:00
+2026-11-14 07:01:25,503 - freqtrade.data.dataprovider - INFO - Loading data for LINK/USDT 1d from 2021-12-02 00:00:00 to 2022-02-20 00:00:00
+2026-11-14 07:01:25,514 - freqtrade.data.dataprovider - INFO - Loading data for AVAX/USDT 1d from 2021-12-02 00:00:00 to 2022-02-20 00:00:00
+2026-11-14 07:01:25,527 - freqtrade.data.dataprovider - INFO - Loading data for LTC/USDT 1d from 2021-12-02 00:00:00 to 2022-02-20 00:00:00
+2026-11-14 07:01:25,539 - freqtrade.data.dataprovider - INFO - Loading data for DOT/USDT 1d from 2021-12-02 00:00:00 to 2022-02-20 00:00:00
+2026-11-14 07:01:25,604 - freqtrade.optimize.backtesting - INFO - Loading data from 2021-12-02 00:00:00 up to 2022-03-02 00:00:00 (90 days).
+2026-11-14 07:01:25,610 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 1d from 2021-12-02 00:00:00 to 2022-03-02 00:00:00
+2026-11-14 07:01:25,622 - freqtrade.data.dataprovider - INFO - Loading data for ETH/USDT 1d from 2021-12-02 00:00:00 to 2022-03-02 00:00:00
+2026-11-14 07:01:25,633 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1d from 2021-12-02 00:00:00 to 2022-03-02 00:00:00
+2026-11-14 07:01:25,645 - freqtrade.data.dataprovider - INFO - Loading data for BNB/USDT 1d from 2021-12-02 00:00:00 to 2022-03-02 00:00:00
+2026-11-14 07:01:25,657 - freqtrade.data.dataprovider - INFO - Loading data for SOL/USDT 1d from 2021-12-02 00:00:00 to 2022-03-02 00:00:00
+2026-11-14 07:01:25,668 - freqtrade.data.dataprovider - INFO - Loading data for DOGE/USDT 1d from 2021-12-02 00:00:00 to 2022-03-02 00:00:00
+2026-11-14 07:01:25,680 - freqtrade.data.dataprovider - INFO - Loading data for ADA/USDT 1d from 2021-12-02 00:00:00 to 2022-03-02 00:00:00
+2026-11-14 07:01:25,691 - freqtrade.data.dataprovider - INFO - Loading data for TRX/USDT 1d from 2021-12-02 00:00:00 to 2022-03-02 00:00:00
+2026-11-14 07:01:25,703 - freqtrade.data.dataprovider - INFO - Loading data for LINK/USDT 1d from 2021-12-02 00:00:00 to 2022-03-02 00:00:00
+2026-11-14 07:01:25,715 - freqtrade.data.dataprovider - INFO - Loading data for AVAX/USDT 1d from 2021-12-02 00:00:00 to 2022-03-02 00:00:00
+2026-11-14 07:01:25,727 - freqtrade.data.dataprovider - INFO - Loading data for LTC/USDT 1d from 2021-12-02 00:00:00 to 2022-03-02 00:00:00
+2026-11-14 07:01:25,738 - freqtrade.data.dataprovider - INFO - Loading data for DOT/USDT 1d from 2021-12-02 00:00:00 to 2022-03-02 00:00:00
+2026-11-14 07:01:25,792 - freqtrade.optimize.backtesting - INFO - Loading data from 2021-12-02 00:00:00 up to 2022-03-03 00:00:00 (91 days).
+2026-11-14 07:01:25,798 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 1d from 2021-12-02 00:00:00 to 2022-03-03 00:00:00
+2026-11-14 07:01:25,809 - freqtrade.data.dataprovider - INFO - Loading data for ETH/USDT 1d from 2021-12-02 00:00:00 to 2022-03-03 00:00:00
+2026-11-14 07:01:25,821 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1d from 2021-12-02 00:00:00 to 2022-03-03 00:00:00
+2026-11-14 07:01:25,833 - freqtrade.data.dataprovider - INFO - Loading data for BNB/USDT 1d from 2021-12-02 00:00:00 to 2022-03-03 00:00:00
+2026-11-14 07:01:25,845 - freqtrade.data.dataprovider - INFO - Loading data for SOL/USDT 1d from 2021-12-02 00:00:00 to 2022-03-03 00:00:00
+2026-11-14 07:01:25,857 - freqtrade.data.dataprovider - INFO - Loading data for DOGE/USDT 1d from 2021-12-02 00:00:00 to 2022-03-03 00:00:00
+2026-11-14 07:01:25,869 - freqtrade.data.dataprovider - INFO - Loading data for ADA/USDT 1d from 2021-12-02 00:00:00 to 2022-03-03 00:00:00
+2026-11-14 07:01:25,881 - freqtrade.data.dataprovider - INFO - Loading data for TRX/USDT 1d from 2021-12-02 00:00:00 to 2022-03-03 00:00:00
+2026-11-14 07:01:25,892 - freqtrade.data.dataprovider - INFO - Loading data for LINK/USDT 1d from 2021-12-02 00:00:00 to 2022-03-03 00:00:00
+2026-11-14 07:01:25,904 - freqtrade.data.dataprovider - INFO - Loading data for AVAX/USDT 1d from 2021-12-02 00:00:00 to 2022-03-03 00:00:00
+2026-11-14 07:01:25,916 - freqtrade.data.dataprovider - INFO - Loading data for LTC/USDT 1d from 2021-12-02 00:00:00 to 2022-03-03 00:00:00
+2026-11-14 07:01:25,927 - freqtrade.data.dataprovider - INFO - Loading data for DOT/USDT 1d from 2021-12-02 00:00:00 to 2022-03-03 00:00:00
+2026-11-14 07:01:25,993 - freqtrade.optimize.backtesting - INFO - Loading data from 2021-12-02 00:00:00 up to 2022-03-04 00:00:00 (92 days).
+2026-11-14 07:01:25,999 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 1d from 2021-12-02 00:00:00 to 2022-03-04 00:00:00
+2026-11-14 07:01:26,011 - freqtrade.data.dataprovider - INFO - Loading data for ETH/USDT 1d from 2021-12-02 00:00:00 to 2022-03-04 00:00:00
+2026-11-14 07:01:26,023 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1d from 2021-12-02 00:00:00 to 2022-03-04 00:00:00
+2026-11-14 07:01:26,035 - freqtrade.data.dataprovider - INFO - Loading data for BNB/USDT 1d from 2021-12-02 00:00:00 to 2022-03-04 00:00:00
+2026-11-14 07:01:26,047 - freqtrade.data.dataprovider - INFO - Loading data for SOL/USDT 1d from 2021-12-02 00:00:00 to 2022-03-04 00:00:00
+2026-11-14 07:01:26,058 - freqtrade.data.dataprovider - INFO - Loading data for DOGE/USDT 1d from 2021-12-02 00:00:00 to 2022-03-04 00:00:00
+2026-11-14 07:01:26,070 - freqtrade.data.dataprovider - INFO - Loading data for ADA/USDT 1d from 2021-12-02 00:00:00 to 2022-03-04 00:00:00
+2026-11-14 07:01:26,081 - freqtrade.data.dataprovider - INFO - Loading data for TRX/USDT 1d from 2021-12-02 00:00:00 to 2022-03-04 00:00:00
+2026-11-14 07:01:26,093 - freqtrade.data.dataprovider - INFO - Loading data for LINK/USDT 1d from 2021-12-02 00:00:00 to 2022-03-04 00:00:00
+2026-11-14 07:01:26,105 - freqtrade.data.dataprovider - INFO - Loading data for AVAX/USDT 1d from 2021-12-02 00:00:00 to 2022-03-04 00:00:00
+2026-11-14 07:01:26,116 - freqtrade.data.dataprovider - INFO - Loading data for LTC/USDT 1d from 2021-12-02 00:00:00 to 2022-03-04 00:00:00
+2026-11-14 07:01:26,126 - freqtrade.data.dataprovider - INFO - Loading data for DOT/USDT 1d from 2021-12-02 00:00:00 to 2022-03-04 00:00:00
+2026-11-14 07:01:26,169 - freqtrade.optimize.backtesting - INFO - Loading data from 2021-12-02 00:00:00 up to 2022-03-06 00:00:00 (94 days).
+2026-11-14 07:01:26,173 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 1d from 2021-12-02 00:00:00 to 2022-03-06 00:00:00
+2026-11-14 07:01:26,182 - freqtrade.data.dataprovider - INFO - Loading data for ETH/USDT 1d from 2021-12-02 00:00:00 to 2022-03-06 00:00:00
+2026-11-14 07:01:26,191 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1d from 2021-12-02 00:00:00 to 2022-03-06 00:00:00
+2026-11-14 07:01:26,200 - freqtrade.data.dataprovider - INFO - Loading data for BNB/USDT 1d from 2021-12-02 00:00:00 to 2022-03-06 00:00:00
+2026-11-14 07:01:26,209 - freqtrade.data.dataprovider - INFO - Loading data for SOL/USDT 1d from 2021-12-02 00:00:00 to 2022-03-06 00:00:00
+2026-11-14 07:01:26,218 - freqtrade.data.dataprovider - INFO - Loading data for DOGE/USDT 1d from 2021-12-02 00:00:00 to 2022-03-06 00:00:00
+2026-11-14 07:01:26,226 - freqtrade.data.dataprovider - INFO - Loading data for ADA/USDT 1d from 2021-12-02 00:00:00 to 2022-03-06 00:00:00
+2026-11-14 07:01:26,234 - freqtrade.data.dataprovider - INFO - Loading data for TRX/USDT 1d from 2021-12-02 00:00:00 to 2022-03-06 00:00:00
+2026-11-14 07:01:26,243 - freqtrade.data.dataprovider - INFO - Loading data for LINK/USDT 1d from 2021-12-02 00:00:00 to 2022-03-06 00:00:00
+2026-11-14 07:01:26,252 - freqtrade.data.dataprovider - INFO - Loading data for AVAX/USDT 1d from 2021-12-02 00:00:00 to 2022-03-06 00:00:00
+2026-11-14 07:01:26,260 - freqtrade.data.dataprovider - INFO - Loading data for LTC/USDT 1d from 2021-12-02 00:00:00 to 2022-03-06 00:00:00
+2026-11-14 07:01:26,268 - freqtrade.data.dataprovider - INFO - Loading data for DOT/USDT 1d from 2021-12-02 00:00:00 to 2022-03-06 00:00:00
+2026-11-14 07:01:26,312 - freqtrade.optimize.backtesting - INFO - Loading data from 2021-12-02 00:00:00 up to 2022-03-08 00:00:00 (96 days).
+2026-11-14 07:01:26,316 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 1d from 2021-12-02 00:00:00 to 2022-03-08 00:00:00
+2026-11-14 07:01:26,324 - freqtrade.data.dataprovider - INFO - Loading data for ETH/USDT 1d from 2021-12-02 00:00:00 to 2022-03-08 00:00:00
+2026-11-14 07:01:26,332 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1d from 2021-12-02 00:00:00 to 2022-03-08 00:00:00
+2026-11-14 07:01:26,341 - freqtrade.data.dataprovider - INFO - Loading data for BNB/USDT 1d from 2021-12-02 00:00:00 to 2022-03-08 00:00:00
+2026-11-14 07:01:26,349 - freqtrade.data.dataprovider - INFO - Loading data for SOL/USDT 1d from 2021-12-02 00:00:00 to 2022-03-08 00:00:00
+2026-11-14 07:01:26,357 - freqtrade.data.dataprovider - INFO - Loading data for DOGE/USDT 1d from 2021-12-02 00:00:00 to 2022-03-08 00:00:00
+2026-11-14 07:01:26,366 - freqtrade.data.dataprovider - INFO - Loading data for ADA/USDT 1d from 2021-12-02 00:00:00 to 2022-03-08 00:00:00
+2026-11-14 07:01:26,375 - freqtrade.data.dataprovider - INFO - Loading data for TRX/USDT 1d from 2021-12-02 00:00:00 to 2022-03-08 00:00:00
+2026-11-14 07:01:26,383 - freqtrade.data.dataprovider - INFO - Loading data for LINK/USDT 1d from 2021-12-02 00:00:00 to 2022-03-08 00:00:00
+2026-11-14 07:01:26,391 - freqtrade.data.dataprovider - INFO - Loading data for AVAX/USDT 1d from 2021-12-02 00:00:00 to 2022-03-08 00:00:00
+2026-11-14 07:01:26,399 - freqtrade.data.dataprovider - INFO - Loading data for LTC/USDT 1d from 2021-12-02 00:00:00 to 2022-03-08 00:00:00
+2026-11-14 07:01:26,408 - freqtrade.data.dataprovider - INFO - Loading data for DOT/USDT 1d from 2021-12-02 00:00:00 to 2022-03-08 00:00:00
+2026-11-14 07:01:26,445 - freqtrade.optimize.backtesting - INFO - Loading data from 2021-12-02 00:00:00 up to 2022-03-13 00:00:00 (101 days).
+2026-11-14 07:01:26,449 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 1d from 2021-12-02 00:00:00 to 2022-03-13 00:00:00
+2026-11-14 07:01:26,457 - freqtrade.data.dataprovider - INFO - Loading data for ETH/USDT 1d from 2021-12-02 00:00:00 to 2022-03-13 00:00:00
+2026-11-14 07:01:26,466 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1d from 2021-12-02 00:00:00 to 2022-03-13 00:00:00
+2026-11-14 07:01:26,475 - freqtrade.data.dataprovider - INFO - Loading data for BNB/USDT 1d from 2021-12-02 00:00:00 to 2022-03-13 00:00:00
+2026-11-14 07:01:26,484 - freqtrade.data.dataprovider - INFO - Loading data for SOL/USDT 1d from 2021-12-02 00:00:00 to 2022-03-13 00:00:00
+2026-11-14 07:01:26,492 - freqtrade.data.dataprovider - INFO - Loading data for DOGE/USDT 1d from 2021-12-02 00:00:00 to 2022-03-13 00:00:00
+2026-11-14 07:01:26,501 - freqtrade.data.dataprovider - INFO - Loading data for ADA/USDT 1d from 2021-12-02 00:00:00 to 2022-03-13 00:00:00
+2026-11-14 07:01:26,510 - freqtrade.data.dataprovider - INFO - Loading data for TRX/USDT 1d from 2021-12-02 00:00:00 to 2022-03-13 00:00:00
+2026-11-14 07:01:26,518 - freqtrade.data.dataprovider - INFO - Loading data for LINK/USDT 1d from 2021-12-02 00:00:00 to 2022-03-13 00:00:00
+2026-11-14 07:01:26,527 - freqtrade.data.dataprovider - INFO - Loading data for AVAX/USDT 1d from 2021-12-02 00:00:00 to 2022-03-13 00:00:00
+2026-11-14 07:01:26,536 - freqtrade.data.dataprovider - INFO - Loading data for LTC/USDT 1d from 2021-12-02 00:00:00 to 2022-03-13 00:00:00
+2026-11-14 07:01:26,544 - freqtrade.data.dataprovider - INFO - Loading data for DOT/USDT 1d from 2021-12-02 00:00:00 to 2022-03-13 00:00:00
+2026-11-14 07:01:26,589 - freqtrade.optimize.backtesting - INFO - Loading data from 2021-12-02 00:00:00 up to 2022-03-20 00:00:00 (108 days).
+2026-11-14 07:01:26,593 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 1d from 2021-12-02 00:00:00 to 2022-03-20 00:00:00
+2026-11-14 07:01:26,601 - freqtrade.data.dataprovider - INFO - Loading data for ETH/USDT 1d from 2021-12-02 00:00:00 to 2022-03-20 00:00:00
+2026-11-14 07:01:26,610 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1d from 2021-12-02 00:00:00 to 2022-03-20 00:00:00
+2026-11-14 07:01:26,619 - freqtrade.data.dataprovider - INFO - Loading data for BNB/USDT 1d from 2021-12-02 00:00:00 to 2022-03-20 00:00:00
+2026-11-14 07:01:26,627 - freqtrade.data.dataprovider - INFO - Loading data for SOL/USDT 1d from 2021-12-02 00:00:00 to 2022-03-20 00:00:00
+2026-11-14 07:01:26,636 - freqtrade.data.dataprovider - INFO - Loading data for DOGE/USDT 1d from 2021-12-02 00:00:00 to 2022-03-20 00:00:00
+2026-11-14 07:01:26,644 - freqtrade.data.dataprovider - INFO - Loading data for ADA/USDT 1d from 2021-12-02 00:00:00 to 2022-03-20 00:00:00
+2026-11-14 07:01:26,653 - freqtrade.data.dataprovider - INFO - Loading data for TRX/USDT 1d from 2021-12-02 00:00:00 to 2022-03-20 00:00:00
+2026-11-14 07:01:26,661 - freqtrade.data.dataprovider - INFO - Loading data for LINK/USDT 1d from 2021-12-02 00:00:00 to 2022-03-20 00:00:00
+2026-11-14 07:01:26,669 - freqtrade.data.dataprovider - INFO - Loading data for AVAX/USDT 1d from 2021-12-02 00:00:00 to 2022-03-20 00:00:00
+2026-11-14 07:01:26,678 - freqtrade.data.dataprovider - INFO - Loading data for LTC/USDT 1d from 2021-12-02 00:00:00 to 2022-03-20 00:00:00
+2026-11-14 07:01:26,687 - freqtrade.data.dataprovider - INFO - Loading data for DOT/USDT 1d from 2021-12-02 00:00:00 to 2022-03-20 00:00:00
+2026-11-14 07:01:26,723 - freqtrade.optimize.backtesting - INFO - Loading data from 2021-12-02 00:00:00 up to 2022-03-23 00:00:00 (111 days).
+2026-11-14 07:01:26,727 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 1d from 2021-12-02 00:00:00 to 2022-03-23 00:00:00
+2026-11-14 07:01:26,735 - freqtrade.data.dataprovider - INFO - Loading data for ETH/USDT 1d from 2021-12-02 00:00:00 to 2022-03-23 00:00:00
+2026-11-14 07:01:26,743 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1d from 2021-12-02 00:00:00 to 2022-03-23 00:00:00
+2026-11-14 07:01:26,751 - freqtrade.data.dataprovider - INFO - Loading data for BNB/USDT 1d from 2021-12-02 00:00:00 to 2022-03-23 00:00:00
+2026-11-14 07:01:26,759 - freqtrade.data.dataprovider - INFO - Loading data for SOL/USDT 1d from 2021-12-02 00:00:00 to 2022-03-23 00:00:00
+2026-11-14 07:01:26,768 - freqtrade.data.dataprovider - INFO - Loading data for DOGE/USDT 1d from 2021-12-02 00:00:00 to 2022-03-23 00:00:00
+2026-11-14 07:01:26,776 - freqtrade.data.dataprovider - INFO - Loading data for ADA/USDT 1d from 2021-12-02 00:00:00 to 2022-03-23 00:00:00
+2026-11-14 07:01:26,784 - freqtrade.data.dataprovider - INFO - Loading data for TRX/USDT 1d from 2021-12-02 00:00:00 to 2022-03-23 00:00:00
+2026-11-14 07:01:26,792 - freqtrade.data.dataprovider - INFO - Loading data for LINK/USDT 1d from 2021-12-02 00:00:00 to 2022-03-23 00:00:00
+2026-11-14 07:01:26,800 - freqtrade.data.dataprovider - INFO - Loading data for AVAX/USDT 1d from 2021-12-02 00:00:00 to 2022-03-23 00:00:00
+2026-11-14 07:01:26,808 - freqtrade.data.dataprovider - INFO - Loading data for LTC/USDT 1d from 2021-12-02 00:00:00 to 2022-03-23 00:00:00
+2026-11-14 07:01:26,816 - freqtrade.data.dataprovider - INFO - Loading data for DOT/USDT 1d from 2021-12-02 00:00:00 to 2022-03-23 00:00:00
+2026-11-14 07:01:26,859 - freqtrade.optimize.backtesting - INFO - Loading data from 2021-12-02 00:00:00 up to 2022-03-27 00:00:00 (115 days).
+2026-11-14 07:01:26,863 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 1d from 2021-12-02 00:00:00 to 2022-03-27 00:00:00
+2026-11-14 07:01:26,872 - freqtrade.data.dataprovider - INFO - Loading data for ETH/USDT 1d from 2021-12-02 00:00:00 to 2022-03-27 00:00:00
+2026-11-14 07:01:26,880 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1d from 2021-12-02 00:00:00 to 2022-03-27 00:00:00
+2026-11-14 07:01:26,888 - freqtrade.data.dataprovider - INFO - Loading data for BNB/USDT 1d from 2021-12-02 00:00:00 to 2022-03-27 00:00:00
+2026-11-14 07:01:26,895 - freqtrade.data.dataprovider - INFO - Loading data for SOL/USDT 1d from 2021-12-02 00:00:00 to 2022-03-27 00:00:00
+2026-11-14 07:01:26,903 - freqtrade.data.dataprovider - INFO - Loading data for DOGE/USDT 1d from 2021-12-02 00:00:00 to 2022-03-27 00:00:00
+2026-11-14 07:01:26,912 - freqtrade.data.dataprovider - INFO - Loading data for ADA/USDT 1d from 2021-12-02 00:00:00 to 2022-03-27 00:00:00
+2026-11-14 07:01:26,919 - freqtrade.data.dataprovider - INFO - Loading data for TRX/USDT 1d from 2021-12-02 00:00:00 to 2022-03-27 00:00:00
+2026-11-14 07:01:26,928 - freqtrade.data.dataprovider - INFO - Loading data for LINK/USDT 1d from 2021-12-02 00:00:00 to 2022-03-27 00:00:00
+2026-11-14 07:01:26,936 - freqtrade.data.dataprovider - INFO - Loading data for AVAX/USDT 1d from 2021-12-02 00:00:00 to 2022-03-27 00:00:00
+2026-11-14 07:01:26,944 - freqtrade.data.dataprovider - INFO - Loading data for LTC/USDT 1d from 2021-12-02 00:00:00 to 2022-03-27 00:00:00
+2026-11-14 07:01:26,952 - freqtrade.data.dataprovider - INFO - Loading data for DOT/USDT 1d from 2021-12-02 00:00:00 to 2022-03-27 00:00:00
+2026-11-14 07:01:26,988 - freqtrade.optimize.backtesting - INFO - Loading data from 2021-12-02 00:00:00 up to 2022-03-29 00:00:00 (117 days).
+2026-11-14 07:01:26,991 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 1d from 2021-12-02 00:00:00 to 2022-03-29 00:00:00
+2026-11-14 07:01:27,000 - freqtrade.data.dataprovider - INFO - Loading data for ETH/USDT 1d from 2021-12-02 00:00:00 to 2022-03-29 00:00:00
+2026-11-14 07:01:27,008 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1d from 2021-12-02 00:00:00 to 2022-03-29 00:00:00
+2026-11-14 07:01:27,016 - freqtrade.data.dataprovider - INFO - Loading data for BNB/USDT 1d from 2021-12-02 00:00:00 to 2022-03-29 00:00:00
+2026-11-14 07:01:27,024 - freqtrade.data.dataprovider - INFO - Loading data for SOL/USDT 1d from 2021-12-02 00:00:00 to 2022-03-29 00:00:00
+2026-11-14 07:01:27,032 - freqtrade.data.dataprovider - INFO - Loading data for DOGE/USDT 1d from 2021-12-02 00:00:00 to 2022-03-29 00:00:00
+2026-11-14 07:01:27,040 - freqtrade.data.dataprovider - INFO - Loading data for ADA/USDT 1d from 2021-12-02 00:00:00 to 2022-03-29 00:00:00
+2026-11-14 07:01:27,048 - freqtrade.data.dataprovider - INFO - Loading data for TRX/USDT 1d from 2021-12-02 00:00:00 to 2022-03-29 00:00:00
+2026-11-14 07:01:27,056 - freqtrade.data.dataprovider - INFO - Loading data for LINK/USDT 1d from 2021-12-02 00:00:00 to 2022-03-29 00:00:00
+2026-11-14 07:01:27,064 - freqtrade.data.dataprovider - INFO - Loading data for AVAX/USDT 1d from 2021-12-02 00:00:00 to 2022-03-29 00:00:00
+2026-11-14 07:01:27,072 - freqtrade.data.dataprovider - INFO - Loading data for LTC/USDT 1d from 2021-12-02 00:00:00 to 2022-03-29 00:00:00
+2026-11-14 07:01:27,080 - freqtrade.data.dataprovider - INFO - Loading data for DOT/USDT 1d from 2021-12-02 00:00:00 to 2022-03-29 00:00:00
+2026-11-14 07:01:27,123 - freqtrade.optimize.backtesting - INFO - Loading data from 2021-12-02 00:00:00 up to 2022-04-08 00:00:00 (127 days).
+2026-11-14 07:01:27,127 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 1d from 2021-12-02 00:00:00 to 2022-04-08 00:00:00
+2026-11-14 07:01:27,135 - freqtrade.data.dataprovider - INFO - Loading data for ETH/USDT 1d from 2021-12-02 00:00:00 to 2022-04-08 00:00:00
+2026-11-14 07:01:27,143 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1d from 2021-12-02 00:00:00 to 2022-04-08 00:00:00
+2026-11-14 07:01:27,151 - freqtrade.data.dataprovider - INFO - Loading data for BNB/USDT 1d from 2021-12-02 00:00:00 to 2022-04-08 00:00:00
+2026-11-14 07:01:27,159 - freqtrade.data.dataprovider - INFO - Loading data for SOL/USDT 1d from 2021-12-02 00:00:00 to 2022-04-08 00:00:00
+2026-11-14 07:01:27,167 - freqtrade.data.dataprovider - INFO - Loading data for DOGE/USDT 1d from 2021-12-02 00:00:00 to 2022-04-08 00:00:00
+2026-11-14 07:01:27,175 - freqtrade.data.dataprovider - INFO - Loading data for ADA/USDT 1d from 2021-12-02 00:00:00 to 2022-04-08 00:00:00
+2026-11-14 07:01:27,183 - freqtrade.data.dataprovider - INFO - Loading data for TRX/USDT 1d from 2021-12-02 00:00:00 to 2022-04-08 00:00:00
+2026-11-14 07:01:27,191 - freqtrade.data.dataprovider - INFO - Loading data for LINK/USDT 1d from 2021-12-02 00:00:00 to 2022-04-08 00:00:00
+2026-11-14 07:01:27,199 - freqtrade.data.dataprovider - INFO - Loading data for AVAX/USDT 1d from 2021-12-02 00:00:00 to 2022-04-08 00:00:00
+2026-11-14 07:01:27,207 - freqtrade.data.dataprovider - INFO - Loading data for LTC/USDT 1d from 2021-12-02 00:00:00 to 2022-04-08 00:00:00
+2026-11-14 07:01:27,215 - freqtrade.data.dataprovider - INFO - Loading data for DOT/USDT 1d from 2021-12-02 00:00:00 to 2022-04-08 00:00:00
+2026-11-14 07:01:27,251 - freqtrade.optimize.backtesting - INFO - Loading data from 2021-12-02 00:00:00 up to 2022-04-12 00:00:00 (131 days).
+2026-11-14 07:01:27,255 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 1d from 2021-12-02 00:00:00 to 2022-04-12 00:00:00
+2026-11-14 07:01:27,263 - freqtrade.data.dataprovider - INFO - Loading data for ETH/USDT 1d from 2021-12-02 00:00:00 to 2022-04-12 00:00:00
+2026-11-14 07:01:27,271 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1d from 2021-12-02 00:00:00 to 2022-04-12 00:00:00
+2026-11-14 07:01:27,280 - freqtrade.data.dataprovider - INFO - Loading data for BNB/USDT 1d from 2021-12-02 00:00:00 to 2022-04-12 00:00:00
+2026-11-14 07:01:27,288 - freqtrade.data.dataprovider - INFO - Loading data for SOL/USDT 1d from 2021-12-02 00:00:00 to 2022-04-12 00:00:00
+2026-11-14 07:01:27,295 - freqtrade.data.dataprovider - INFO - Loading data for DOGE/USDT 1d from 2021-12-02 00:00:00 to 2022-04-12 00:00:00
+2026-11-14 07:01:27,303 - freqtrade.data.dataprovider - INFO - Loading data for ADA/USDT 1d from 2021-12-02 00:00:00 to 2022-04-12 00:00:00
+2026-11-14 07:01:27,311 - freqtrade.data.dataprovider - INFO - Loading data for TRX/USDT 1d from 2021-12-02 00:00:00 to 2022-04-12 00:00:00
+2026-11-14 07:01:27,320 - freqtrade.data.dataprovider - INFO - Loading data for LINK/USDT 1d from 2021-12-02 00:00:00 to 2022-04-12 00:00:00
+2026-11-14 07:01:27,328 - freqtrade.data.dataprovider - INFO - Loading data for AVAX/USDT 1d from 2021-12-02 00:00:00 to 2022-04-12 00:00:00
+2026-11-14 07:01:27,336 - freqtrade.data.dataprovider - INFO - Loading data for LTC/USDT 1d from 2021-12-02 00:00:00 to 2022-04-12 00:00:00
+2026-11-14 07:01:27,344 - freqtrade.data.dataprovider - INFO - Loading data for DOT/USDT 1d from 2021-12-02 00:00:00 to 2022-04-12 00:00:00
+2026-11-14 07:01:27,388 - freqtrade.optimize.backtesting - INFO - Loading data from 2021-12-02 00:00:00 up to 2022-06-01 00:00:00 (181 days).
+2026-11-14 07:01:27,392 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 1d from 2021-12-02 00:00:00 to 2022-06-01 00:00:00
+2026-11-14 07:01:27,401 - freqtrade.data.dataprovider - INFO - Loading data for ETH/USDT 1d from 2021-12-02 00:00:00 to 2022-06-01 00:00:00
+2026-11-14 07:01:27,409 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1d from 2021-12-02 00:00:00 to 2022-06-01 00:00:00
+2026-11-14 07:01:27,418 - freqtrade.data.dataprovider - INFO - Loading data for BNB/USDT 1d from 2021-12-02 00:00:00 to 2022-06-01 00:00:00
+2026-11-14 07:01:27,426 - freqtrade.data.dataprovider - INFO - Loading data for SOL/USDT 1d from 2021-12-02 00:00:00 to 2022-06-01 00:00:00
+2026-11-14 07:01:27,435 - freqtrade.data.dataprovider - INFO - Loading data for DOGE/USDT 1d from 2021-12-02 00:00:00 to 2022-06-01 00:00:00
+2026-11-14 07:01:27,443 - freqtrade.data.dataprovider - INFO - Loading data for ADA/USDT 1d from 2021-12-02 00:00:00 to 2022-06-01 00:00:00
+2026-11-14 07:01:27,452 - freqtrade.data.dataprovider - INFO - Loading data for TRX/USDT 1d from 2021-12-02 00:00:00 to 2022-06-01 00:00:00
+2026-11-14 07:01:27,460 - freqtrade.data.dataprovider - INFO - Loading data for LINK/USDT 1d from 2021-12-02 00:00:00 to 2022-06-01 00:00:00
+2026-11-14 07:01:27,468 - freqtrade.data.dataprovider - INFO - Loading data for AVAX/USDT 1d from 2021-12-02 00:00:00 to 2022-06-01 00:00:00
+2026-11-14 07:01:27,476 - freqtrade.data.dataprovider - INFO - Loading data for LTC/USDT 1d from 2021-12-02 00:00:00 to 2022-06-01 00:00:00
+2026-11-14 07:01:27,484 - freqtrade.data.dataprovider - INFO - Loading data for DOT/USDT 1d from 2021-12-02 00:00:00 to 2022-06-01 00:00:00
+2026-11-14 07:01:27,524 - freqtrade.optimize.backtesting - INFO - Loading data from 2021-12-02 00:00:00 up to 2022-06-07 00:00:00 (187 days).
+2026-11-14 07:01:27,528 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 1d from 2021-12-02 00:00:00 to 2022-06-07 00:00:00
+2026-11-14 07:01:27,537 - freqtrade.data.dataprovider - INFO - Loading data for ETH/USDT 1d from 2021-12-02 00:00:00 to 2022-06-07 00:00:00
+2026-11-14 07:01:27,545 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1d from 2021-12-02 00:00:00 to 2022-06-07 00:00:00
+2026-11-14 07:01:27,554 - freqtrade.data.dataprovider - INFO - Loading data for BNB/USDT 1d from 2021-12-02 00:00:00 to 2022-06-07 00:00:00
+2026-11-14 07:01:27,562 - freqtrade.data.dataprovider - INFO - Loading data for SOL/USDT 1d from 2021-12-02 00:00:00 to 2022-06-07 00:00:00
+2026-11-14 07:01:27,570 - freqtrade.data.dataprovider - INFO - Loading data for DOGE/USDT 1d from 2021-12-02 00:00:00 to 2022-06-07 00:00:00
+2026-11-14 07:01:27,579 - freqtrade.data.dataprovider - INFO - Loading data for ADA/USDT 1d from 2021-12-02 00:00:00 to 2022-06-07 00:00:00
+2026-11-14 07:01:27,587 - freqtrade.data.dataprovider - INFO - Loading data for TRX/USDT 1d from 2021-12-02 00:00:00 to 2022-06-07 00:00:00
+2026-11-14 07:01:27,595 - freqtrade.data.dataprovider - INFO - Loading data for LINK/USDT 1d from 2021-12-02 00:00:00 to 2022-06-07 00:00:00
+2026-11-14 07:01:27,603 - freqtrade.data.dataprovider - INFO - Loading data for AVAX/USDT 1d from 2021-12-02 00:00:00 to 2022-06-07 00:00:00
+2026-11-14 07:01:27,611 - freqtrade.data.dataprovider - INFO - Loading data for LTC/USDT 1d from 2021-12-02 00:00:00 to 2022-06-07 00:00:00
+2026-11-14 07:01:27,619 - freqtrade.data.dataprovider - INFO - Loading data for DOT/USDT 1d from 2021-12-02 00:00:00 to 2022-06-07 00:00:00
+2026-11-14 07:01:27,667 - freqtrade.optimize.backtesting - INFO - Loading data from 2021-12-02 00:00:00 up to 2022-06-08 00:00:00 (188 days).
+2026-11-14 07:01:27,671 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 1d from 2021-12-02 00:00:00 to 2022-06-08 00:00:00
+2026-11-14 07:01:27,679 - freqtrade.data.dataprovider - INFO - Loading data for ETH/USDT 1d from 2021-12-02 00:00:00 to 2022-06-08 00:00:00
+2026-11-14 07:01:27,688 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1d from 2021-12-02 00:00:00 to 2022-06-08 00:00:00
+2026-11-14 07:01:27,696 - freqtrade.data.dataprovider - INFO - Loading data for BNB/USDT 1d from 2021-12-02 00:00:00 to 2022-06-08 00:00:00
+2026-11-14 07:01:27,705 - freqtrade.data.dataprovider - INFO - Loading data for SOL/USDT 1d from 2021-12-02 00:00:00 to 2022-06-08 00:00:00
+2026-11-14 07:01:27,712 - freqtrade.data.dataprovider - INFO - Loading data for DOGE/USDT 1d from 2021-12-02 00:00:00 to 2022-06-08 00:00:00
+2026-11-14 07:01:27,720 - freqtrade.data.dataprovider - INFO - Loading data for ADA/USDT 1d from 2021-12-02 00:00:00 to 2022-06-08 00:00:00
+2026-11-14 07:01:27,728 - freqtrade.data.dataprovider - INFO - Loading data for TRX/USDT 1d from 2021-12-02 00:00:00 to 2022-06-08 00:00:00
+2026-11-14 07:01:27,736 - freqtrade.data.dataprovider - INFO - Loading data for LINK/USDT 1d from 2021-12-02 00:00:00 to 2022-06-08 00:00:00
+2026-11-14 07:01:27,744 - freqtrade.data.dataprovider - INFO - Loading data for AVAX/USDT 1d from 2021-12-02 00:00:00 to 2022-06-08 00:00:00
+2026-11-14 07:01:27,752 - freqtrade.data.dataprovider - INFO - Loading data for LTC/USDT 1d from 2021-12-02 00:00:00 to 2022-06-08 00:00:00
+2026-11-14 07:01:27,760 - freqtrade.data.dataprovider - INFO - Loading data for DOT/USDT 1d from 2021-12-02 00:00:00 to 2022-06-08 00:00:00
+2026-11-14 07:01:27,810 - freqtrade.optimize.backtesting - INFO - Loading data from 2021-12-02 00:00:00 up to 2022-06-13 00:00:00 (193 days).
+2026-11-14 07:01:27,815 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 1d from 2021-12-02 00:00:00 to 2022-06-13 00:00:00
+2026-11-14 07:01:27,824 - freqtrade.data.dataprovider - INFO - Loading data for ETH/USDT 1d from 2021-12-02 00:00:00 to 2022-06-13 00:00:00
+2026-11-14 07:01:27,832 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1d from 2021-12-02 00:00:00 to 2022-06-13 00:00:00
+2026-11-14 07:01:27,840 - freqtrade.data.dataprovider - INFO - Loading data for BNB/USDT 1d from 2021-12-02 00:00:00 to 2022-06-13 00:00:00
+2026-11-14 07:01:27,848 - freqtrade.data.dataprovider - INFO - Loading data for SOL/USDT 1d from 2021-12-02 00:00:00 to 2022-06-13 00:00:00
+2026-11-14 07:01:27,856 - freqtrade.data.dataprovider - INFO - Loading data for DOGE/USDT 1d from 2021-12-02 00:00:00 to 2022-06-13 00:00:00
+2026-11-14 07:01:27,864 - freqtrade.data.dataprovider - INFO - Loading data for ADA/USDT 1d from 2021-12-02 00:00:00 to 2022-06-13 00:00:00
+2026-11-14 07:01:27,873 - freqtrade.data.dataprovider - INFO - Loading data for TRX/USDT 1d from 2021-12-02 00:00:00 to 2022-06-13 00:00:00
+2026-11-14 07:01:27,881 - freqtrade.data.dataprovider - INFO - Loading data for LINK/USDT 1d from 2021-12-02 00:00:00 to 2022-06-13 00:00:00
+2026-11-14 07:01:27,890 - freqtrade.data.dataprovider - INFO - Loading data for AVAX/USDT 1d from 2021-12-02 00:00:00 to 2022-06-13 00:00:00
+2026-11-14 07:01:27,898 - freqtrade.data.dataprovider - INFO - Loading data for LTC/USDT 1d from 2021-12-02 00:00:00 to 2022-06-13 00:00:00
+2026-11-14 07:01:27,907 - freqtrade.data.dataprovider - INFO - Loading data for DOT/USDT 1d from 2021-12-02 00:00:00 to 2022-06-13 00:00:00
+2026-11-14 07:01:27,954 - freqtrade.optimize.backtesting - INFO - Loading data from 2021-12-02 00:00:00 up to 2022-07-08 00:00:00 (218 days).
+2026-11-14 07:01:27,958 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 1d from 2021-12-02 00:00:00 to 2022-07-08 00:00:00
+2026-11-14 07:01:27,967 - freqtrade.data.dataprovider - INFO - Loading data for ETH/USDT 1d from 2021-12-02 00:00:00 to 2022-07-08 00:00:00
+2026-11-14 07:01:27,976 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1d from 2021-12-02 00:00:00 to 2022-07-08 00:00:00
+2026-11-14 07:01:27,984 - freqtrade.data.dataprovider - INFO - Loading data for BNB/USDT 1d from 2021-12-02 00:00:00 to 2022-07-08 00:00:00
+2026-11-14 07:01:27,992 - freqtrade.data.dataprovider - INFO - Loading data for SOL/USDT 1d from 2021-12-02 00:00:00 to 2022-07-08 00:00:00
+2026-11-14 07:01:28,000 - freqtrade.data.dataprovider - INFO - Loading data for DOGE/USDT 1d from 2021-12-02 00:00:00 to 2022-07-08 00:00:00
+2026-11-14 07:01:28,009 - freqtrade.data.dataprovider - INFO - Loading data for ADA/USDT 1d from 2021-12-02 00:00:00 to 2022-07-08 00:00:00
+2026-11-14 07:01:28,017 - freqtrade.data.dataprovider - INFO - Loading data for TRX/USDT 1d from 2021-12-02 00:00:00 to 2022-07-08 00:00:00
+2026-11-14 07:01:28,026 - freqtrade.data.dataprovider - INFO - Loading data for LINK/USDT 1d from 2021-12-02 00:00:00 to 2022-07-08 00:00:00
+2026-11-14 07:01:28,035 - freqtrade.data.dataprovider - INFO - Loading data for AVAX/USDT 1d from 2021-12-02 00:00:00 to 2022-07-08 00:00:00
+2026-11-14 07:01:28,043 - freqtrade.data.dataprovider - INFO - Loading data for LTC/USDT 1d from 2021-12-02 00:00:00 to 2022-07-08 00:00:00
+2026-11-14 07:01:28,051 - freqtrade.data.dataprovider - INFO - Loading data for DOT/USDT 1d from 2021-12-02 00:00:00 to 2022-07-08 00:00:00
+2026-11-14 07:01:28,090 - freqtrade.optimize.backtesting - INFO - Loading data from 2021-12-02 00:00:00 up to 2022-07-10 00:00:00 (220 days).
+2026-11-14 07:01:28,094 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 1d from 2021-12-02 00:00:00 to 2022-07-10 00:00:00
+2026-11-14 07:01:28,103 - freqtrade.data.dataprovider - INFO - Loading data for ETH/USDT 1d from 2021-12-02 00:00:00 to 2022-07-10 00:00:00
+2026-11-14 07:01:28,111 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1d from 2021-12-02 00:00:00 to 2022-07-10 00:00:00
+2026-11-14 07:01:28,119 - freqtrade.data.dataprovider - INFO - Loading data for BNB/USDT 1d from 2021-12-02 00:00:00 to 2022-07-10 00:00:00
+2026-11-14 07:01:28,128 - freqtrade.data.dataprovider - INFO - Loading data for SOL/USDT 1d from 2021-12-02 00:00:00 to 2022-07-10 00:00:00
+2026-11-14 07:01:28,136 - freqtrade.data.dataprovider - INFO - Loading data for DOGE/USDT 1d from 2021-12-02 00:00:00 to 2022-07-10 00:00:00
+2026-11-14 07:01:28,144 - freqtrade.data.dataprovider - INFO - Loading data for ADA/USDT 1d from 2021-12-02 00:00:00 to 2022-07-10 00:00:00
+2026-11-14 07:01:28,152 - freqtrade.data.dataprovider - INFO - Loading data for TRX/USDT 1d from 2021-12-02 00:00:00 to 2022-07-10 00:00:00
+2026-11-14 07:01:28,161 - freqtrade.data.dataprovider - INFO - Loading data for LINK/USDT 1d from 2021-12-02 00:00:00 to 2022-07-10 00:00:00
+2026-11-14 07:01:28,170 - freqtrade.data.dataprovider - INFO - Loading data for AVAX/USDT 1d from 2021-12-02 00:00:00 to 2022-07-10 00:00:00
+2026-11-14 07:01:28,177 - freqtrade.data.dataprovider - INFO - Loading data for LTC/USDT 1d from 2021-12-02 00:00:00 to 2022-07-10 00:00:00
+2026-11-14 07:01:28,185 - freqtrade.data.dataprovider - INFO - Loading data for DOT/USDT 1d from 2021-12-02 00:00:00 to 2022-07-10 00:00:00
+2026-11-14 07:01:28,231 - freqtrade.optimize.backtesting - INFO - Loading data from 2021-12-02 00:00:00 up to 2022-07-10 00:00:00 (220 days).
+2026-11-14 07:01:28,235 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 1d from 2021-12-02 00:00:00 to 2022-07-10 00:00:00
+2026-11-14 07:01:28,243 - freqtrade.data.dataprovider - INFO - Loading data for ETH/USDT 1d from 2021-12-02 00:00:00 to 2022-07-10 00:00:00
+2026-11-14 07:01:28,251 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1d from 2021-12-02 00:00:00 to 2022-07-10 00:00:00
+2026-11-14 07:01:28,260 - freqtrade.data.dataprovider - INFO - Loading data for BNB/USDT 1d from 2021-12-02 00:00:00 to 2022-07-10 00:00:00
+2026-11-14 07:01:28,268 - freqtrade.data.dataprovider - INFO - Loading data for SOL/USDT 1d from 2021-12-02 00:00:00 to 2022-07-10 00:00:00
+2026-11-14 07:01:28,276 - freqtrade.data.dataprovider - INFO - Loading data for DOGE/USDT 1d from 2021-12-02 00:00:00 to 2022-07-10 00:00:00
+2026-11-14 07:01:28,285 - freqtrade.data.dataprovider - INFO - Loading data for ADA/USDT 1d from 2021-12-02 00:00:00 to 2022-07-10 00:00:00
+2026-11-14 07:01:28,293 - freqtrade.data.dataprovider - INFO - Loading data for TRX/USDT 1d from 2021-12-02 00:00:00 to 2022-07-10 00:00:00
+2026-11-14 07:01:28,302 - freqtrade.data.dataprovider - INFO - Loading data for LINK/USDT 1d from 2021-12-02 00:00:00 to 2022-07-10 00:00:00
+2026-11-14 07:01:28,311 - freqtrade.data.dataprovider - INFO - Loading data for AVAX/USDT 1d from 2021-12-02 00:00:00 to 2022-07-10 00:00:00
+2026-11-14 07:01:28,319 - freqtrade.data.dataprovider - INFO - Loading data for LTC/USDT 1d from 2021-12-02 00:00:00 to 2022-07-10 00:00:00
+2026-11-14 07:01:28,327 - freqtrade.data.dataprovider - INFO - Loading data for DOT/USDT 1d from 2021-12-02 00:00:00 to 2022-07-10 00:00:00
+2026-11-14 07:01:28,367 - freqtrade.optimize.backtesting - INFO - Loading data from 2021-12-02 00:00:00 up to 2022-07-12 00:00:00 (222 days).
+2026-11-14 07:01:28,372 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 1d from 2021-12-02 00:00:00 to 2022-07-12 00:00:00
+2026-11-14 07:01:28,380 - freqtrade.data.dataprovider - INFO - Loading data for ETH/USDT 1d from 2021-12-02 00:00:00 to 2022-07-12 00:00:00
+2026-11-14 07:01:28,389 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1d from 2021-12-02 00:00:00 to 2022-07-12 00:00:00
+2026-11-14 07:01:28,397 - freqtrade.data.dataprovider - INFO - Loading data for BNB/USDT 1d from 2021-12-02 00:00:00 to 2022-07-12 00:00:00
+2026-11-14 07:01:28,405 - freqtrade.data.dataprovider - INFO - Loading data for SOL/USDT 1d from 2021-12-02 00:00:00 to 2022-07-12 00:00:00
+2026-11-14 07:01:28,414 - freqtrade.data.dataprovider - INFO - Loading data for DOGE/USDT 1d from 2021-12-02 00:00:00 to 2022-07-12 00:00:00
+2026-11-14 07:01:28,422 - freqtrade.data.dataprovider - INFO - Loading data for ADA/USDT 1d from 2021-12-02 00:00:00 to 2022-07-12 00:00:00
+2026-11-14 07:01:28,431 - freqtrade.data.dataprovider - INFO - Loading data for TRX/USDT 1d from 2021-12-02 00:00:00 to 2022-07-12 00:00:00
+2026-11-14 07:01:28,439 - freqtrade.data.dataprovider - INFO - Loading data for LINK/USDT 1d from 2021-12-02 00:00:00 to 2022-07-12 00:00:00
+2026-11-14 07:01:28,447 - freqtrade.data.dataprovider - INFO - Loading data for AVAX/USDT 1d from 2021-12-02 00:00:00 to 2022-07-12 00:00:00
+2026-11-14 07:01:28,455 - freqtrade.data.dataprovider - INFO - Loading data for LTC/USDT 1d from 2021-12-02 00:00:00 to 2022-07-12 00:00:00
+2026-11-14 07:01:28,463 - freqtrade.data.dataprovider - INFO - Loading data for DOT/USDT 1d from 2021-12-02 00:00:00 to 2022-07-12 00:00:00
+2026-11-14 07:01:28,511 - freqtrade.optimize.backtesting - INFO - Loading data from 2021-12-02 00:00:00 up to 2022-07-16 00:00:00 (226 days).
+2026-11-14 07:01:28,515 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 1d from 2021-12-02 00:00:00 to 2022-07-16 00:00:00
+2026-11-14 07:01:28,524 - freqtrade.data.dataprovider - INFO - Loading data for ETH/USDT 1d from 2021-12-02 00:00:00 to 2022-07-16 00:00:00
+2026-11-14 07:01:28,532 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1d from 2021-12-02 00:00:00 to 2022-07-16 00:00:00
+2026-11-14 07:01:28,541 - freqtrade.data.dataprovider - INFO - Loading data for BNB/USDT 1d from 2021-12-02 00:00:00 to 2022-07-16 00:00:00
+2026-11-14 07:01:28,549 - freqtrade.data.dataprovider - INFO - Loading data for SOL/USDT 1d from 2021-12-02 00:00:00 to 2022-07-16 00:00:00
+2026-11-14 07:01:28,557 - freqtrade.data.dataprovider - INFO - Loading data for DOGE/USDT 1d from 2021-12-02 00:00:00 to 2022-07-16 00:00:00
+2026-11-14 07:01:28,565 - freqtrade.data.dataprovider - INFO - Loading data for ADA/USDT 1d from 2021-12-02 00:00:00 to 2022-07-16 00:00:00
+2026-11-14 07:01:28,573 - freqtrade.data.dataprovider - INFO - Loading data for TRX/USDT 1d from 2021-12-02 00:00:00 to 2022-07-16 00:00:00
+2026-11-14 07:01:28,581 - freqtrade.data.dataprovider - INFO - Loading data for LINK/USDT 1d from 2021-12-02 00:00:00 to 2022-07-16 00:00:00
+2026-11-14 07:01:28,590 - freqtrade.data.dataprovider - INFO - Loading data for AVAX/USDT 1d from 2021-12-02 00:00:00 to 2022-07-16 00:00:00
+2026-11-14 07:01:28,598 - freqtrade.data.dataprovider - INFO - Loading data for LTC/USDT 1d from 2021-12-02 00:00:00 to 2022-07-16 00:00:00
+2026-11-14 07:01:28,606 - freqtrade.data.dataprovider - INFO - Loading data for DOT/USDT 1d from 2021-12-02 00:00:00 to 2022-07-16 00:00:00
+2026-11-14 07:01:28,645 - freqtrade.optimize.backtesting - INFO - Loading data from 2021-12-02 00:00:00 up to 2022-08-03 00:00:00 (244 days).
+2026-11-14 07:01:28,649 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 1d from 2021-12-02 00:00:00 to 2022-08-03 00:00:00
+2026-11-14 07:01:28,658 - freqtrade.data.dataprovider - INFO - Loading data for ETH/USDT 1d from 2021-12-02 00:00:00 to 2022-08-03 00:00:00
+2026-11-14 07:01:28,666 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1d from 2021-12-02 00:00:00 to 2022-08-03 00:00:00
+2026-11-14 07:01:28,675 - freqtrade.data.dataprovider - INFO - Loading data for BNB/USDT 1d from 2021-12-02 00:00:00 to 2022-08-03 00:00:00
+2026-11-14 07:01:28,683 - freqtrade.data.dataprovider - INFO - Loading data for SOL/USDT 1d from 2021-12-02 00:00:00 to 2022-08-03 00:00:00
+2026-11-14 07:01:28,692 - freqtrade.data.dataprovider - INFO - Loading data for DOGE/USDT 1d from 2021-12-02 00:00:00 to 2022-08-03 00:00:00
+2026-11-14 07:01:28,700 - freqtrade.data.dataprovider - INFO - Loading data for ADA/USDT 1d from 2021-12-02 00:00:00 to 2022-08-03 00:00:00
+2026-11-14 07:01:28,709 - freqtrade.data.dataprovider - INFO - Loading data for TRX/USDT 1d from 2021-12-02 00:00:00 to 2022-08-03 00:00:00
+2026-11-14 07:01:28,718 - freqtrade.data.dataprovider - INFO - Loading data for LINK/USDT 1d from 2021-12-02 00:00:00 to 2022-08-03 00:00:00
+2026-11-14 07:01:28,726 - freqtrade.data.dataprovider - INFO - Loading data for AVAX/USDT 1d from 2021-12-02 00:00:00 to 2022-08-03 00:00:00
+2026-11-14 07:01:28,735 - freqtrade.data.dataprovider - INFO - Loading data for LTC/USDT 1d from 2021-12-02 00:00:00 to 2022-08-03 00:00:00
+2026-11-14 07:01:28,743 - freqtrade.data.dataprovider - INFO - Loading data for DOT/USDT 1d from 2021-12-02 00:00:00 to 2022-08-03 00:00:00
+2026-11-14 07:01:28,790 - freqtrade.optimize.backtesting - INFO - Loading data from 2021-12-02 00:00:00 up to 2022-08-04 00:00:00 (245 days).
+2026-11-14 07:01:28,795 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 1d from 2021-12-02 00:00:00 to 2022-08-04 00:00:00
+2026-11-14 07:01:28,804 - freqtrade.data.dataprovider - INFO - Loading data for ETH/USDT 1d from 2021-12-02 00:00:00 to 2022-08-04 00:00:00
+2026-11-14 07:01:28,812 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1d from 2021-12-02 00:00:00 to 2022-08-04 00:00:00
+2026-11-14 07:01:28,821 - freqtrade.data.dataprovider - INFO - Loading data for BNB/USDT 1d from 2021-12-02 00:00:00 to 2022-08-04 00:00:00
+2026-11-14 07:01:28,829 - freqtrade.data.dataprovider - INFO - Loading data for SOL/USDT 1d from 2021-12-02 00:00:00 to 2022-08-04 00:00:00
+2026-11-14 07:01:28,837 - freqtrade.data.dataprovider - INFO - Loading data for DOGE/USDT 1d from 2021-12-02 00:00:00 to 2022-08-04 00:00:00
+2026-11-14 07:01:28,846 - freqtrade.data.dataprovider - INFO - Loading data for ADA/USDT 1d from 2021-12-02 00:00:00 to 2022-08-04 00:00:00
+2026-11-14 07:01:28,855 - freqtrade.data.dataprovider - INFO - Loading data for TRX/USDT 1d from 2021-12-02 00:00:00 to 2022-08-04 00:00:00
+2026-11-14 07:01:28,864 - freqtrade.data.dataprovider - INFO - Loading data for LINK/USDT 1d from 2021-12-02 00:00:00 to 2022-08-04 00:00:00
+2026-11-14 07:01:28,873 - freqtrade.data.dataprovider - INFO - Loading data for AVAX/USDT 1d from 2021-12-02 00:00:00 to 2022-08-04 00:00:00
+2026-11-14 07:01:28,882 - freqtrade.data.dataprovider - INFO - Loading data for LTC/USDT 1d from 2021-12-02 00:00:00 to 2022-08-04 00:00:00
+2026-11-14 07:01:28,890 - freqtrade.data.dataprovider - INFO - Loading data for DOT/USDT 1d from 2021-12-02 00:00:00 to 2022-08-04 00:00:00
+2026-11-14 07:01:28,931 - freqtrade.optimize.backtesting - INFO - Loading data from 2021-12-02 00:00:00 up to 2022-08-06 00:00:00 (247 days).
+2026-11-14 07:01:28,935 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 1d from 2021-12-02 00:00:00 to 2022-08-06 00:00:00
+2026-11-14 07:01:28,944 - freqtrade.data.dataprovider - INFO - Loading data for ETH/USDT 1d from 2021-12-02 00:00:00 to 2022-08-06 00:00:00
+2026-11-14 07:01:28,953 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1d from 2021-12-02 00:00:00 to 2022-08-06 00:00:00
+2026-11-14 07:01:28,961 - freqtrade.data.dataprovider - INFO - Loading data for BNB/USDT 1d from 2021-12-02 00:00:00 to 2022-08-06 00:00:00
+2026-11-14 07:01:28,970 - freqtrade.data.dataprovider - INFO - Loading data for SOL/USDT 1d from 2021-12-02 00:00:00 to 2022-08-06 00:00:00
+2026-11-14 07:01:28,978 - freqtrade.data.dataprovider - INFO - Loading data for DOGE/USDT 1d from 2021-12-02 00:00:00 to 2022-08-06 00:00:00
+2026-11-14 07:01:28,987 - freqtrade.data.dataprovider - INFO - Loading data for ADA/USDT 1d from 2021-12-02 00:00:00 to 2022-08-06 00:00:00
+2026-11-14 07:01:28,995 - freqtrade.data.dataprovider - INFO - Loading data for TRX/USDT 1d from 2021-12-02 00:00:00 to 2022-08-06 00:00:00
+2026-11-14 07:01:29,004 - freqtrade.data.dataprovider - INFO - Loading data for LINK/USDT 1d from 2021-12-02 00:00:00 to 2022-08-06 00:00:00
+2026-11-14 07:01:29,012 - freqtrade.data.dataprovider - INFO - Loading data for AVAX/USDT 1d from 2021-12-02 00:00:00 to 2022-08-06 00:00:00
+2026-11-14 07:01:29,021 - freqtrade.data.dataprovider - INFO - Loading data for LTC/USDT 1d from 2021-12-02 00:00:00 to 2022-08-06 00:00:00
+2026-11-14 07:01:29,029 - freqtrade.data.dataprovider - INFO - Loading data for DOT/USDT 1d from 2021-12-02 00:00:00 to 2022-08-06 00:00:00
+2026-11-14 07:01:29,080 - freqtrade.optimize.backtesting - INFO - Loading data from 2021-12-02 00:00:00 up to 2022-08-15 00:00:00 (256 days).
+2026-11-14 07:01:29,085 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 1d from 2021-12-02 00:00:00 to 2022-08-15 00:00:00
+2026-11-14 07:01:29,094 - freqtrade.data.dataprovider - INFO - Loading data for ETH/USDT 1d from 2021-12-02 00:00:00 to 2022-08-15 00:00:00
+2026-11-14 07:01:29,103 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1d from 2021-12-02 00:00:00 to 2022-08-15 00:00:00
+2026-11-14 07:01:29,112 - freqtrade.data.dataprovider - INFO - Loading data for BNB/USDT 1d from 2021-12-02 00:00:00 to 2022-08-15 00:00:00
+2026-11-14 07:01:29,120 - freqtrade.data.dataprovider - INFO - Loading data for SOL/USDT 1d from 2021-12-02 00:00:00 to 2022-08-15 00:00:00
+2026-11-14 07:01:29,129 - freqtrade.data.dataprovider - INFO - Loading data for DOGE/USDT 1d from 2021-12-02 00:00:00 to 2022-08-15 00:00:00
+2026-11-14 07:01:29,138 - freqtrade.data.dataprovider - INFO - Loading data for ADA/USDT 1d from 2021-12-02 00:00:00 to 2022-08-15 00:00:00
+2026-11-14 07:01:29,146 - freqtrade.data.dataprovider - INFO - Loading data for TRX/USDT 1d from 2021-12-02 00:00:00 to 2022-08-15 00:00:00
+2026-11-14 07:01:29,155 - freqtrade.data.dataprovider - INFO - Loading data for LINK/USDT 1d from 2021-12-02 00:00:00 to 2022-08-15 00:00:00
+2026-11-14 07:01:29,163 - freqtrade.data.dataprovider - INFO - Loading data for AVAX/USDT 1d from 2021-12-02 00:00:00 to 2022-08-15 00:00:00
+2026-11-14 07:01:29,172 - freqtrade.data.dataprovider - INFO - Loading data for LTC/USDT 1d from 2021-12-02 00:00:00 to 2022-08-15 00:00:00
+2026-11-14 07:01:29,180 - freqtrade.data.dataprovider - INFO - Loading data for DOT/USDT 1d from 2021-12-02 00:00:00 to 2022-08-15 00:00:00
+2026-11-14 07:01:29,222 - freqtrade.optimize.backtesting - INFO - Loading data from 2021-12-02 00:00:00 up to 2022-08-21 00:00:00 (262 days).
+2026-11-14 07:01:29,226 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 1d from 2021-12-02 00:00:00 to 2022-08-21 00:00:00
+2026-11-14 07:01:29,235 - freqtrade.data.dataprovider - INFO - Loading data for ETH/USDT 1d from 2021-12-02 00:00:00 to 2022-08-21 00:00:00
+2026-11-14 07:01:29,243 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1d from 2021-12-02 00:00:00 to 2022-08-21 00:00:00
+2026-11-14 07:01:29,252 - freqtrade.data.dataprovider - INFO - Loading data for BNB/USDT 1d from 2021-12-02 00:00:00 to 2022-08-21 00:00:00
+2026-11-14 07:01:29,261 - freqtrade.data.dataprovider - INFO - Loading data for SOL/USDT 1d from 2021-12-02 00:00:00 to 2022-08-21 00:00:00
+2026-11-14 07:01:29,269 - freqtrade.data.dataprovider - INFO - Loading data for DOGE/USDT 1d from 2021-12-02 00:00:00 to 2022-08-21 00:00:00
+2026-11-14 07:01:29,278 - freqtrade.data.dataprovider - INFO - Loading data for ADA/USDT 1d from 2021-12-02 00:00:00 to 2022-08-21 00:00:00
+2026-11-14 07:01:29,287 - freqtrade.data.dataprovider - INFO - Loading data for TRX/USDT 1d from 2021-12-02 00:00:00 to 2022-08-21 00:00:00
+2026-11-14 07:01:29,295 - freqtrade.data.dataprovider - INFO - Loading data for LINK/USDT 1d from 2021-12-02 00:00:00 to 2022-08-21 00:00:00
+2026-11-14 07:01:29,304 - freqtrade.data.dataprovider - INFO - Loading data for AVAX/USDT 1d from 2021-12-02 00:00:00 to 2022-08-21 00:00:00
+2026-11-14 07:01:29,313 - freqtrade.data.dataprovider - INFO - Loading data for LTC/USDT 1d from 2021-12-02 00:00:00 to 2022-08-21 00:00:00
+2026-11-14 07:01:29,321 - freqtrade.data.dataprovider - INFO - Loading data for DOT/USDT 1d from 2021-12-02 00:00:00 to 2022-08-21 00:00:00
+2026-11-14 07:01:29,375 - freqtrade.optimize.backtesting - INFO - Loading data from 2021-12-02 00:00:00 up to 2022-09-12 00:00:00 (284 days).
+2026-11-14 07:01:29,381 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 1d from 2021-12-02 00:00:00 to 2022-09-12 00:00:00
+2026-11-14 07:01:29,390 - freqtrade.data.dataprovider - INFO - Loading data for ETH/USDT 1d from 2021-12-02 00:00:00 to 2022-09-12 00:00:00
+2026-11-14 07:01:29,400 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1d from 2021-12-02 00:00:00 to 2022-09-12 00:00:00
+2026-11-14 07:01:29,409 - freqtrade.data.dataprovider - INFO - Loading data for BNB/USDT 1d from 2021-12-02 00:00:00 to 2022-09-12 00:00:00
+2026-11-14 07:01:29,418 - freqtrade.data.dataprovider - INFO - Loading data for SOL/USDT 1d from 2021-12-02 00:00:00 to 2022-09-12 00:00:00
+2026-11-14 07:01:29,427 - freqtrade.data.dataprovider - INFO - Loading data for DOGE/USDT 1d from 2021-12-02 00:00:00 to 2022-09-12 00:00:00
+2026-11-14 07:01:29,437 - freqtrade.data.dataprovider - INFO - Loading data for ADA/USDT 1d from 2021-12-02 00:00:00 to 2022-09-12 00:00:00
+2026-11-14 07:01:29,446 - freqtrade.data.dataprovider - INFO - Loading data for TRX/USDT 1d from 2021-12-02 00:00:00 to 2022-09-12 00:00:00
+2026-11-14 07:01:29,456 - freqtrade.data.dataprovider - INFO - Loading data for LINK/USDT 1d from 2021-12-02 00:00:00 to 2022-09-12 00:00:00
+2026-11-14 07:01:29,465 - freqtrade.data.dataprovider - INFO - Loading data for AVAX/USDT 1d from 2021-12-02 00:00:00 to 2022-09-12 00:00:00
+2026-11-14 07:01:29,474 - freqtrade.data.dataprovider - INFO - Loading data for LTC/USDT 1d from 2021-12-02 00:00:00 to 2022-09-12 00:00:00
+2026-11-14 07:01:29,483 - freqtrade.data.dataprovider - INFO - Loading data for DOT/USDT 1d from 2021-12-02 00:00:00 to 2022-09-12 00:00:00
+2026-11-14 07:01:29,530 - freqtrade.optimize.backtesting - INFO - Loading data from 2021-12-02 00:00:00 up to 2022-09-14 00:00:00 (286 days).
+2026-11-14 07:01:29,535 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 1d from 2021-12-02 00:00:00 to 2022-09-14 00:00:00
+2026-11-14 07:01:29,545 - freqtrade.data.dataprovider - INFO - Loading data for ETH/USDT 1d from 2021-12-02 00:00:00 to 2022-09-14 00:00:00
+2026-11-14 07:01:29,554 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1d from 2021-12-02 00:00:00 to 2022-09-14 00:00:00
+2026-11-14 07:01:29,563 - freqtrade.data.dataprovider - INFO - Loading data for BNB/USDT 1d from 2021-12-02 00:00:00 to 2022-09-14 00:00:00
+2026-11-14 07:01:29,573 - freqtrade.data.dataprovider - INFO - Loading data for SOL/USDT 1d from 2021-12-02 00:00:00 to 2022-09-14 00:00:00
+2026-11-14 07:01:29,582 - freqtrade.data.dataprovider - INFO - Loading data for DOGE/USDT 1d from 2021-12-02 00:00:00 to 2022-09-14 00:00:00
+2026-11-14 07:01:29,591 - freqtrade.data.dataprovider - INFO - Loading data for ADA/USDT 1d from 2021-12-02 00:00:00 to 2022-09-14 00:00:00
+2026-11-14 07:01:29,600 - freqtrade.data.dataprovider - INFO - Loading data for TRX/USDT 1d from 2021-12-02 00:00:00 to 2022-09-14 00:00:00
+2026-11-14 07:01:29,609 - freqtrade.data.dataprovider - INFO - Loading data for LINK/USDT 1d from 2021-12-02 00:00:00 to 2022-09-14 00:00:00
+2026-11-14 07:01:29,618 - freqtrade.data.dataprovider - INFO - Loading data for AVAX/USDT 1d from 2021-12-02 00:00:00 to 2022-09-14 00:00:00
+2026-11-14 07:01:29,627 - freqtrade.data.dataprovider - INFO - Loading data for LTC/USDT 1d from 2021-12-02 00:00:00 to 2022-09-14 00:00:00
+2026-11-14 07:01:29,636 - freqtrade.data.dataprovider - INFO - Loading data for DOT/USDT 1d from 2021-12-02 00:00:00 to 2022-09-14 00:00:00
+2026-11-14 07:01:29,689 - freqtrade.optimize.backtesting - INFO - Loading data from 2021-12-02 00:00:00 up to 2022-09-24 00:00:00 (296 days).
+2026-11-14 07:01:29,694 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 1d from 2021-12-02 00:00:00 to 2022-09-24 00:00:00
+2026-11-14 07:01:29,704 - freqtrade.data.dataprovider - INFO - Loading data for ETH/USDT 1d from 2021-12-02 00:00:00 to 2022-09-24 00:00:00
+2026-11-14 07:01:29,712 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1d from 2021-12-02 00:00:00 to 2022-09-24 00:00:00
+2026-11-14 07:01:29,721 - freqtrade.data.dataprovider - INFO - Loading data for BNB/USDT 1d from 2021-12-02 00:00:00 to 2022-09-24 00:00:00
+2026-11-14 07:01:29,730 - freqtrade.data.dataprovider - INFO - Loading data for SOL/USDT 1d from 2021-12-02 00:00:00 to 2022-09-24 00:00:00
+2026-11-14 07:01:29,739 - freqtrade.data.dataprovider - INFO - Loading data for DOGE/USDT 1d from 2021-12-02 00:00:00 to 2022-09-24 00:00:00
+2026-11-14 07:01:29,748 - freqtrade.data.dataprovider - INFO - Loading data for ADA/USDT 1d from 2021-12-02 00:00:00 to 2022-09-24 00:00:00
+2026-11-14 07:01:29,757 - freqtrade.data.dataprovider - INFO - Loading data for TRX/USDT 1d from 2021-12-02 00:00:00 to 2022-09-24 00:00:00
+2026-11-14 07:01:29,766 - freqtrade.data.dataprovider - INFO - Loading data for LINK/USDT 1d from 2021-12-02 00:00:00 to 2022-09-24 00:00:00
+2026-11-14 07:01:29,776 - freqtrade.data.dataprovider - INFO - Loading data for AVAX/USDT 1d from 2021-12-02 00:00:00 to 2022-09-24 00:00:00
+2026-11-14 07:01:29,785 - freqtrade.data.dataprovider - INFO - Loading data for LTC/USDT 1d from 2021-12-02 00:00:00 to 2022-09-24 00:00:00
+2026-11-14 07:01:29,794 - freqtrade.data.dataprovider - INFO - Loading data for DOT/USDT 1d from 2021-12-02 00:00:00 to 2022-09-24 00:00:00
+2026-11-14 07:01:29,840 - freqtrade.optimize.backtesting - INFO - Loading data from 2021-12-02 00:00:00 up to 2022-09-25 00:00:00 (297 days).
+2026-11-14 07:01:29,845 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 1d from 2021-12-02 00:00:00 to 2022-09-25 00:00:00
+2026-11-14 07:01:29,854 - freqtrade.data.dataprovider - INFO - Loading data for ETH/USDT 1d from 2021-12-02 00:00:00 to 2022-09-25 00:00:00
+2026-11-14 07:01:29,864 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1d from 2021-12-02 00:00:00 to 2022-09-25 00:00:00
+2026-11-14 07:01:29,873 - freqtrade.data.dataprovider - INFO - Loading data for BNB/USDT 1d from 2021-12-02 00:00:00 to 2022-09-25 00:00:00
+2026-11-14 07:01:29,882 - freqtrade.data.dataprovider - INFO - Loading data for SOL/USDT 1d from 2021-12-02 00:00:00 to 2022-09-25 00:00:00
+2026-11-14 07:01:29,891 - freqtrade.data.dataprovider - INFO - Loading data for DOGE/USDT 1d from 2021-12-02 00:00:00 to 2022-09-25 00:00:00
+2026-11-14 07:01:29,900 - freqtrade.data.dataprovider - INFO - Loading data for ADA/USDT 1d from 2021-12-02 00:00:00 to 2022-09-25 00:00:00
+2026-11-14 07:01:29,910 - freqtrade.data.dataprovider - INFO - Loading data for TRX/USDT 1d from 2021-12-02 00:00:00 to 2022-09-25 00:00:00
+2026-11-14 07:01:29,919 - freqtrade.data.dataprovider - INFO - Loading data for LINK/USDT 1d from 2021-12-02 00:00:00 to 2022-09-25 00:00:00
+2026-11-14 07:01:29,928 - freqtrade.data.dataprovider - INFO - Loading data for AVAX/USDT 1d from 2021-12-02 00:00:00 to 2022-09-25 00:00:00
+2026-11-14 07:01:29,938 - freqtrade.data.dataprovider - INFO - Loading data for LTC/USDT 1d from 2021-12-02 00:00:00 to 2022-09-25 00:00:00
+2026-11-14 07:01:29,947 - freqtrade.data.dataprovider - INFO - Loading data for DOT/USDT 1d from 2021-12-02 00:00:00 to 2022-09-25 00:00:00
+2026-11-14 07:01:30,005 - freqtrade.optimize.backtesting - INFO - Loading data from 2021-12-02 00:00:00 up to 2022-10-10 00:00:00 (312 days).
+2026-11-14 07:01:30,011 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 1d from 2021-12-02 00:00:00 to 2022-10-10 00:00:00
+2026-11-14 07:01:30,021 - freqtrade.data.dataprovider - INFO - Loading data for ETH/USDT 1d from 2021-12-02 00:00:00 to 2022-10-10 00:00:00
+2026-11-14 07:01:30,030 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1d from 2021-12-02 00:00:00 to 2022-10-10 00:00:00
+2026-11-14 07:01:30,040 - freqtrade.data.dataprovider - INFO - Loading data for BNB/USDT 1d from 2021-12-02 00:00:00 to 2022-10-10 00:00:00
+2026-11-14 07:01:30,050 - freqtrade.data.dataprovider - INFO - Loading data for SOL/USDT 1d from 2021-12-02 00:00:00 to 2022-10-10 00:00:00
+2026-11-14 07:01:30,060 - freqtrade.data.dataprovider - INFO - Loading data for DOGE/USDT 1d from 2021-12-02 00:00:00 to 2022-10-10 00:00:00
+2026-11-14 07:01:30,071 - freqtrade.data.dataprovider - INFO - Loading data for ADA/USDT 1d from 2021-12-02 00:00:00 to 2022-10-10 00:00:00
+2026-11-14 07:01:30,081 - freqtrade.data.dataprovider - INFO - Loading data for TRX/USDT 1d from 2021-12-02 00:00:00 to 2022-10-10 00:00:00
+2026-11-14 07:01:30,091 - freqtrade.data.dataprovider - INFO - Loading data for LINK/USDT 1d from 2021-12-02 00:00:00 to 2022-10-10 00:00:00
+2026-11-14 07:01:30,101 - freqtrade.data.dataprovider - INFO - Loading data for AVAX/USDT 1d from 2021-12-02 00:00:00 to 2022-10-10 00:00:00
+2026-11-14 07:01:30,111 - freqtrade.data.dataprovider - INFO - Loading data for LTC/USDT 1d from 2021-12-02 00:00:00 to 2022-10-10 00:00:00
+2026-11-14 07:01:30,120 - freqtrade.data.dataprovider - INFO - Loading data for DOT/USDT 1d from 2021-12-02 00:00:00 to 2022-10-10 00:00:00
+2026-11-14 07:01:30,166 - freqtrade.optimize.backtesting - INFO - Loading data from 2021-12-02 00:00:00 up to 2022-10-12 00:00:00 (314 days).
+2026-11-14 07:01:30,171 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 1d from 2021-12-02 00:00:00 to 2022-10-12 00:00:00
+2026-11-14 07:01:30,180 - freqtrade.data.dataprovider - INFO - Loading data for ETH/USDT 1d from 2021-12-02 00:00:00 to 2022-10-12 00:00:00
+2026-11-14 07:01:30,190 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1d from 2021-12-02 00:00:00 to 2022-10-12 00:00:00
+2026-11-14 07:01:30,199 - freqtrade.data.dataprovider - INFO - Loading data for BNB/USDT 1d from 2021-12-02 00:00:00 to 2022-10-12 00:00:00
+2026-11-14 07:01:30,208 - freqtrade.data.dataprovider - INFO - Loading data for SOL/USDT 1d from 2021-12-02 00:00:00 to 2022-10-12 00:00:00
+2026-11-14 07:01:30,218 - freqtrade.data.dataprovider - INFO - Loading data for DOGE/USDT 1d from 2021-12-02 00:00:00 to 2022-10-12 00:00:00
+2026-11-14 07:01:30,234 - freqtrade.data.dataprovider - INFO - Loading data for ADA/USDT 1d from 2021-12-02 00:00:00 to 2022-10-12 00:00:00
+2026-11-14 07:01:30,246 - freqtrade.data.dataprovider - INFO - Loading data for TRX/USDT 1d from 2021-12-02 00:00:00 to 2022-10-12 00:00:00
+2026-11-14 07:01:30,267 - freqtrade.data.dataprovider - INFO - Loading data for LINK/USDT 1d from 2021-12-02 00:00:00 to 2022-10-12 00:00:00
+2026-11-14 07:01:30,285 - freqtrade.data.dataprovider - INFO - Loading data for AVAX/USDT 1d from 2021-12-02 00:00:00 to 2022-10-12 00:00:00
+2026-11-14 07:01:30,313 - freqtrade.data.dataprovider - INFO - Loading data for LTC/USDT 1d from 2021-12-02 00:00:00 to 2022-10-12 00:00:00
+2026-11-14 07:01:30,335 - freqtrade.data.dataprovider - INFO - Loading data for DOT/USDT 1d from 2021-12-02 00:00:00 to 2022-10-12 00:00:00
+2026-11-14 07:01:30,403 - freqtrade.optimize.backtesting - INFO - Loading data from 2021-12-02 00:00:00 up to 2022-10-18 00:00:00 (320 days).
+2026-11-14 07:01:30,409 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 1d from 2021-12-02 00:00:00 to 2022-10-18 00:00:00
+2026-11-14 07:01:30,419 - freqtrade.data.dataprovider - INFO - Loading data for ETH/USDT 1d from 2021-12-02 00:00:00 to 2022-10-18 00:00:00
+2026-11-14 07:01:30,429 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1d from 2021-12-02 00:00:00 to 2022-10-18 00:00:00
+2026-11-14 07:01:30,438 - freqtrade.data.dataprovider - INFO - Loading data for BNB/USDT 1d from 2021-12-02 00:00:00 to 2022-10-18 00:00:00
+2026-11-14 07:01:30,447 - freqtrade.data.dataprovider - INFO - Loading data for SOL/USDT 1d from 2021-12-02 00:00:00 to 2022-10-18 00:00:00
+2026-11-14 07:01:30,456 - freqtrade.data.dataprovider - INFO - Loading data for DOGE/USDT 1d from 2021-12-02 00:00:00 to 2022-10-18 00:00:00
+2026-11-14 07:01:30,471 - freqtrade.data.dataprovider - INFO - Loading data for ADA/USDT 1d from 2021-12-02 00:00:00 to 2022-10-18 00:00:00
+2026-11-14 07:01:30,484 - freqtrade.data.dataprovider - INFO - Loading data for TRX/USDT 1d from 2021-12-02 00:00:00 to 2022-10-18 00:00:00
+2026-11-14 07:01:30,493 - freqtrade.data.dataprovider - INFO - Loading data for LINK/USDT 1d from 2021-12-02 00:00:00 to 2022-10-18 00:00:00
+2026-11-14 07:01:30,502 - freqtrade.data.dataprovider - INFO - Loading data for AVAX/USDT 1d from 2021-12-02 00:00:00 to 2022-10-18 00:00:00
+2026-11-14 07:01:30,511 - freqtrade.data.dataprovider - INFO - Loading data for LTC/USDT 1d from 2021-12-02 00:00:00 to 2022-10-18 00:00:00
+2026-11-14 07:01:30,520 - freqtrade.data.dataprovider - INFO - Loading data for DOT/USDT 1d from 2021-12-02 00:00:00 to 2022-10-18 00:00:00
+2026-11-14 07:01:30,564 - freqtrade.optimize.backtesting - INFO - Loading data from 2021-12-02 00:00:00 up to 2022-10-20 00:00:00 (322 days).
+2026-11-14 07:01:30,570 - freqtrade.data.dataprovider - INFO - Loading data for BTC/USDT 1d from 2021-12-02 00:00:00 to 2022-10-20 00:00:00
+2026-11-14 07:01:30,579 - freqtrade.data.dataprovider - INFO - Loading data for ETH/USDT 1d from 2021-12-02 00:00:00 to 2022-10-20 00:00:00
+2026-11-14 07:01:30,588 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1d from 2021-12-02 00:00:00 to 2022-10-20 00:00:00
+2026-11-14 07:01:30,597 - freqtrade.data.dataprovider - INFO - Loading data for BNB/USDT 1d from 2021-12-02 00:00:00 to 2022-10-20 00:00:00
+2026-11-14 07:01:30,606 - freqtrade.data.dataprovider - INFO - Loading data for SOL/USDT 1d from 2021-12-02 00:00:00 to 2022-10-20 00:00:00
+2026-11-14 07:01:30,614 - freqtrade.data.dataprovider - INFO - Loading data for DOGE/USDT 1d from 2021-12-02 00:00:00 to 2022-10-20 00:00:00
+2026-11-14 07:01:30,624 - freqtrade.data.dataprovider - INFO - Loading data for ADA/USDT 1d from 2021-12-02 00:00:00 to 2022-10-20 00:00:00
+2026-11-14 07:01:30,632 - freqtrade.data.dataprovider - INFO - Loading data for TRX/USDT 1d from 2021-12-02 00:00:00 to 2022-10-20 00:00:00
+2026-11-14 07:01:30,641 - freqtrade.data.dataprovider - INFO - Loading data for LINK/USDT 1d from 2021-12-02 00:00:00 to 2022-10-20 00:00:00
+2026-11-14 07:01:30,650 - freqtrade.data.dataprovider - INFO - Loading data for AVAX/USDT 1d from 2021-12-02 00:00:00 to 2022-10-20 00:00:00
+2026-11-14 07:01:30,659 - freqtrade.data.dataprovider - INFO - Loading data for LTC/USDT 1d from 2021-12-02 00:00:00 to 2022-10-20 00:00:00
+2026-11-14 07:01:30,668 - freqtrade.data.dataprovider - INFO - Loading data for DOT/USDT 1d from 2021-12-02 00:00:00 to 2022-10-20 00:00:00
+2026-11-14 07:01:30,701 - freqtrade.optimize.analysis.lookahead - INFO - Found targeted trade amount = 20 signals.
+2026-11-14 07:01:30,702 - freqtrade.loggers.set_log_levels - INFO - Restoring log verbosity.
+2026-11-14 07:01:30,702 - freqtrade.optimize.analysis.lookahead - INFO - XSMomentumRotation: no bias detected
+2026-11-14 07:01:30,702 - freqtrade.optimize.analysis.lookahead_helpers - INFO - Checking look ahead bias via backtests of XSMomentumRotation.py took 7 seconds.
+Analyzing trades ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 20/20 100% • 0:00:06 • 0:00:00
+                                                            Lookahead Analysis                                                            
+┏━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┓
+┃              filename ┃           strategy ┃ has_bias ┃ total_signals ┃ biased_entry_signals ┃ biased_exit_signals ┃ biased_indicators ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━┩
+│ XSMomentumRotation.py │ XSMomentumRotation │       No │            20 │                    0 │                   0 │                   │
+└───────────────────────┴────────────────────┴──────────┴───────────────┴──────────────────────┴─────────────────────┴───────────────────┘

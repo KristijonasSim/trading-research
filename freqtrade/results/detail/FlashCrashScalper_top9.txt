@@ -1,0 +1,5 @@
+│ Total profit %                         │ 277.61%                                   │
+│ CAGR %                                 │ 41.15%                                    │
+│ Market change                          │ 944.75%                                   │
+│ Absolute drawdown                      │ 1328.007 USDT (34.12%)                    │
+│ Absolute drawdown (wallet balance)     │ 1537.13 USDT (38.78%)                     │

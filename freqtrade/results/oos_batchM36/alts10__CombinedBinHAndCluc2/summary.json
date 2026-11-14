@@ -1,0 +1,23 @@
+{
+  "strategy": "CombinedBinHAndCluc2",
+  "mode": "spot",
+  "group": "alts10",
+  "timeframe": "5m",
+  "style": "day trading",
+  "avg_trade_hours": 8.8,
+  "trades": 2778,
+  "trades_per_year": 721.2,
+  "total_return_pct": 331.0,
+  "cagr_pct": 46.1,
+  "yearly_pct": {
+    "2018": -1.9,
+    "2019": 2.8,
+    "2020": 55.3,
+    "2021": 175.2
+  },
+  "max_drawdown_pct": 31.7,
+  "win_rate_pct": 90.2,
+  "profit_factor": 1.43,
+  "market_change_pct": 3171.7,
+  "timerange": "20180101-20211108"
+}

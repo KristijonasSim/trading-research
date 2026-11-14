@@ -1,0 +1,22 @@
+{
+  "strategy": "TrendVolTarget",
+  "mode": "spot",
+  "group": "btc_eth",
+  "timeframe": "1d",
+  "style": "position",
+  "avg_trade_hours": 558.9,
+  "trades": 45,
+  "trades_per_year": 11.7,
+  "total_return_pct": 404.8,
+  "cagr_pct": 52.2,
+  "yearly_pct": {
+    "2019": 34.4,
+    "2020": 48.5,
+    "2021": 153.0
+  },
+  "max_drawdown_pct": 6.5,
+  "win_rate_pct": 44.4,
+  "profit_factor": 5.21,
+  "market_change_pct": 745.6,
+  "timerange": "20180101-20211108"
+}

@@ -1,0 +1,23 @@
+{
+  "strategy": "DS_Green_5m",
+  "mode": "spot",
+  "group": "alts10",
+  "timeframe": "5m",
+  "style": "swing",
+  "avg_trade_hours": 64.7,
+  "trades": 2298,
+  "trades_per_year": 596.5,
+  "total_return_pct": 1324.9,
+  "cagr_pct": 99.3,
+  "yearly_pct": {
+    "2018": 21.3,
+    "2019": 27.1,
+    "2020": 60.1,
+    "2021": 477.1
+  },
+  "max_drawdown_pct": 3.4,
+  "win_rate_pct": 99.9,
+  "profit_factor": 20.92,
+  "market_change_pct": 3171.7,
+  "timerange": "20180101-20211108"
+}

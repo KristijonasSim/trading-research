@@ -1,0 +1,23 @@
+{
+  "strategy": "TSMomentum",
+  "mode": "spot",
+  "group": "btc_eth",
+  "timeframe": "1d",
+  "style": "position",
+  "avg_trade_hours": 505.6,
+  "trades": 59,
+  "trades_per_year": 15.3,
+  "total_return_pct": 646.5,
+  "cagr_pct": 68.5,
+  "yearly_pct": {
+    "2018": -36.0,
+    "2019": 42.8,
+    "2020": 110.3,
+    "2021": 288.2
+  },
+  "max_drawdown_pct": 12.0,
+  "win_rate_pct": 39.0,
+  "profit_factor": 3.53,
+  "market_change_pct": 320.7,
+  "timerange": "20180101-20211108"
+}

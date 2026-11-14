@@ -1,0 +1,23 @@
+{
+  "strategy": "CrashReversal",
+  "mode": "spot",
+  "group": "alts10",
+  "timeframe": "1h",
+  "style": "day trading",
+  "avg_trade_hours": 23.4,
+  "trades": 1499,
+  "trades_per_year": 389.1,
+  "total_return_pct": 386.5,
+  "cagr_pct": 50.8,
+  "yearly_pct": {
+    "2018": -1.9,
+    "2019": 27.1,
+    "2020": -0.8,
+    "2021": 293.2
+  },
+  "max_drawdown_pct": 31.5,
+  "win_rate_pct": 60.4,
+  "profit_factor": 1.41,
+  "market_change_pct": 3295.6,
+  "timerange": "20180101-20211108"
+}

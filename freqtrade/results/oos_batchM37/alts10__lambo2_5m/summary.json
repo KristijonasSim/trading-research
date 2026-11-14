@@ -1,0 +1,23 @@
+{
+  "strategy": "lambo2_5m",
+  "mode": "spot",
+  "group": "alts10",
+  "timeframe": "5m",
+  "style": "day trading",
+  "avg_trade_hours": 1.9,
+  "trades": 6483,
+  "trades_per_year": 1683.0,
+  "total_return_pct": 703.6,
+  "cagr_pct": 71.8,
+  "yearly_pct": {
+    "2018": 32.1,
+    "2019": 21.0,
+    "2020": 39.2,
+    "2021": 261.1
+  },
+  "max_drawdown_pct": 38.4,
+  "win_rate_pct": 67.4,
+  "profit_factor": 1.45,
+  "market_change_pct": 3171.7,
+  "timerange": "20180101-20211108"
+}

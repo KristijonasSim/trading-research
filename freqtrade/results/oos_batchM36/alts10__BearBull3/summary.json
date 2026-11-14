@@ -1,0 +1,23 @@
+{
+  "strategy": "BearBull3",
+  "mode": "spot",
+  "group": "alts10",
+  "timeframe": "5m",
+  "style": "day trading",
+  "avg_trade_hours": 4.8,
+  "trades": 2411,
+  "trades_per_year": 625.9,
+  "total_return_pct": 586.6,
+  "cagr_pct": 64.9,
+  "yearly_pct": {
+    "2018": 47.2,
+    "2019": 21.3,
+    "2020": 38.5,
+    "2021": 177.6
+  },
+  "max_drawdown_pct": 21.2,
+  "win_rate_pct": 98.3,
+  "profit_factor": 2.68,
+  "market_change_pct": 3171.7,
+  "timerange": "20180101-20211108"
+}
