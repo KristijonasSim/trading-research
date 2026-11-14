@@ -66,3 +66,4 @@ Kripto duomenys: Binance (spot/futures, 1h/1d, visos USDT poros su istorija). Ak
 | 59 | IBS atšokimas (Pagonidis 2013), SPY/QQQ/IWM/DIA/EFA/TLT/GLD | ETF | ❌ atmesta (2013–19 gerokai žemiau laikymo; 2020–26 QQQ +27 % tik su MOC vykdymu) → `59_ibs/REZULTATAI.md` |
 | 60 | Atvirų pozicijų (OI) signalai: kainos/OI kvadrantai, OI šuolis, skerspjūvis (Bybit) | kripto | ❌ atmesta (nėra pastovaus dėsningumo tarp monetų ir periodų) → `60_open_interest/REZULTATAI.md` |
 | 61 | Obligacijų mėnesio pabaigos efektas (TLT/IEF/TMF) | ETF | ⚠️ efektas pastovus 2003–26, bet 1x +4…+6 %/m.; TMF 2010–26 +15…+17 % (2020–26 +8…+11 %), kritimas 28 % → `61_bond_month_end/REZULTATAI.md` |
+| 62 | VIX šuolio pirkimas (Connors VIX Stretches, VIX > 30/40, VIX/SMA10) SPY/QQQ | ETF | ❌ atmesta (+1…+15 %/m., nelenkia laikymo; 2008 m. kritimas 41–46 %) → `62_vix_spike/REZULTATAI.md` |
