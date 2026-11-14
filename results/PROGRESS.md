@@ -289,3 +289,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 2026-11-14: #75 3Sig/9Sig atmesta.
 - 2026-11-14: #76 šalių ETF momentum atmesta.
 - 2026-11-14 07:05 – rytinė ataskaita results/ATASKAITA_2026-11-14.md; CLAUDE.md ir SUVESTINE atnaujinti.
+- 2026-11-14: #77 YouTube klasika (5 indikatoriai × 3 laiko rėmai) atmesta.

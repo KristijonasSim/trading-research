@@ -81,3 +81,4 @@ Kripto duomenys: Binance (spot/futures, 1h/1d, visos USDT poros su istorija). Ak
 | 74 | Kripto mėnesių sezoniškumas („Uptober“, be rugsėjo, IV ketv.), BTC/ETH | kripto | ❌ atmesta (walk-forward 2020–26 BTC +3,5 %/m. prieš laikymo +38,5 %) → `74_crypto_months/REZULTATAI.md` |
 | 75 | Jason Kelly 3Sig / 9Sig (ketvirtinis tikslinis perbalansavimas) | ETF | ❌ atmesta (3Sig < laikymas; 9Sig 2000–09 −100 %) → `75_3sig/REZULTATAI.md` |
 | 76 | Šalių ETF momentum / žemas volatilumas / reversalas (20 iShares) | ETF | ❌ atmesta (2013–19 −1…+2 %/m., ≈ lygūs svoriai) → `76_country_momentum/REZULTATAI.md` |
+| 77 | YouTube klasika: MACD+200EMA (1,5R), Stoch RSI trendas, Williams Alligator, Heikin Ashi+EMA50, EMA 9/21 | kripto | ❌ atmesta (2022–26 visi −50…+11 %/m.) → `77_youtube_classics/REZULTATAI.md` |
