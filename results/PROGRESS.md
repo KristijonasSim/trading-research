@@ -300,3 +300,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 2026-11-14: HalvingCycle.py (freqtrade) BTC+ETH: 2018–21 CAGR +151 %, 2021-11–2026-11 +35 %/m., 4 sandoriai; lookahead netaikoma (per mažai sandorių).
 - 2026-11-14: #85 dolerio indekso trendas atmesta.
 - 2026-11-14: #86 sverto ETF momentum rotacija atmesta.
+- 2026-11-14: #87 smulkūs kalendoriaus efektai atmesta.
