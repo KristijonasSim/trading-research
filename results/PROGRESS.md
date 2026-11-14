@@ -341,3 +341,7 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 ## 2026-11-14 22:50 – patikros
 - JT_V04 atmesta: 1 min. detalumas 2020 +26 % → −0,1 %.
 - batchM68–M70: MergedStrategy (Heikin-Ashi perrašo kainas) ir NOTankAi_15_2 (argrelextrema – žiūri į ateitį) atmestos. KeltnerRSI (alts10 1d, +18,4 %/m., kritimas 26 %): nematytas 2018–21 +107 %/m. (2018 −12 %), vyksta lookahead / top9.
+
+## 2026-11-15 01:00 – patikros
+- **KeltnerRSI išlaikė**: lookahead 0/20, 1 val. detalumas nekeičia (+142 % 2022–26 abiem atvejais), 2018 top 9 (1d) +64 %/m. (all_checks klaidingai leido 5m – perleista 1d). → ATRINKTI_BOTAI nr. 20.
+- batchM71–M73: NimmV20 atmesta (Heikin-Ashi perrašo kainas).

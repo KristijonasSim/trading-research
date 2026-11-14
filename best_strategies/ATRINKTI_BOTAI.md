@@ -205,6 +205,13 @@ Patikros:
 - ⚠️ 2020 m. kovo kritime balansas su atvirais sandoriais krito ~40 %. Rinktis vieną versiją, ne abi kartu su originalu (tie patys sandoriai).
 - Šaltinis: remiotore/ccxt-freqtrade. Failai `best_strategies/EI3v2_tag_cofi_green_2_4.py`, `..._7.py`.
 
+## 20. KeltnerRSI (Freqtrade, altcoin'ai, 1d) – pridėta 2026-11-15
+- 2021–26 (alts10): **+18,4 %/m., kritimas 26 %**, 378 sandoriai (2021 −1, 2022 −20, 2023 +55, 2024 +122, 2025 −12, 2026 −3).
+- Nematytas 2018–21: 2018 m. top 9 +64 %/m. (kritimas 14 %, balanso 33 %); alts10 2018 −12 %, 2019 +42 %, 2020 +63 %.
+- Lookahead 0/20; 1 val. detalumas rezultato nekeičia (išeina tik pagal signalą).
+- ⚠️ Pelnas sukoncentruotas kilimo metais (2023–24, 2021), kritimo metais minuse. Paprasta trendo strategija: pirk, kai kaina pramuša Keltnerio kanalo viršų ir RSI aukštas.
+- Failas `best_strategies/KeltnerRSI.py`.
+
 ## Potencialūs, bet rizikingi
 | Strategija | Rinka | %/m | Max kritimas | Kodėl ne pagrindiniame sąraše |
 |---|---|---|---|---|
@@ -229,6 +236,7 @@ Patikros:
 | TSMomentum | BTC+ETH spot, 1d | 16,8 | 13,4 % | Švari, 2018–21 +68 %/m., bet 2018 −36 %, 2021–22 minuse. Kblack0610 |
 
 ## Atmesti (kad netestuotume iš naujo)
+- JT_V04 (1 min. detalumas: pelnas dingsta); MergedStrategy, NimmV20 (Heikin-Ashi perrašo kainas); NOTankAi_15_2 (argrelextrema).
 - IchisV1 / IchisV1_2 (+498 %/m., kritimas 1 %) – perrašo kainas Heikin-Ashi reikšmėmis, rezultatas netikras.
 - Advanced_Ichimoku_4 (batchM47): +300 %/m. su 1,6 % kritimu – perrašo kainas Heikin-Ashi, netikra.
 - lambo2_5m: nematytame 2018–21 kritimas 38 %.
