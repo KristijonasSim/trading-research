@@ -259,3 +259,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - Passivbot martingale jautrumas ✅: TWEL 1,0 +30,7 %; npos 4 +25,3 % (OOS +103 %); npos 12 +16,9 % (OOS +51 %).
 - #51 S2F / Rainbow ❌ → `papers/51_s2f_rainbow/`. Passivbot forward testui reikia Bybit demo raktų (kitas kompiuteris).
 - #52 Gap fade/go ETF ❌ → `papers/52_gap_fade/`.
+- 2026-11-14 03:00 – batchM31–M33: FlashCrashScalper ir CrashReversal švarios, bet kritimai nematytame per dideli (34–57 %) → rizikingų sąrašas. DivergenceStrategy atmesta (argrelextrema, ateities duomenys).

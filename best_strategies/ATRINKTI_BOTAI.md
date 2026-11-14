@@ -157,8 +157,11 @@ Patikros:
 | Turtle S2 (55/20) | BTC+ETH spot, 1d | 14,5 | 30 % | 2022 −18 %, 2018–21 +74 %/m. (kritimas 49 %). `papers/18_turtle/` |
 | VolatilitySystem | BTC+ETH futures, 1h | 69,8 | 53,4 % | 2x svertas, be stop-loss; ant altcoin'ų tik +0,6 %/m.; 2026 m. −0,2 %. Lookahead švari. Failas `VolatilitySystem.py`. |
 | EI3v2_tag_cofi_green ant 3x ETF, 1d | 18 sintetinių 3x ETF (TQQQ, UPRO, NUGT, JNUG…) | 13,5 | 14,5 % | Žemiau 14 %; grafikas parinktas iš 4 bandytų. Kasmet teigiama. Žr. `etf3x/README.md`. |
+| FlashCrashScalper | alts10 spot, 5m | 19,4 | 28,5 % | Perka po staigaus −5 % kritimo, parduoda po 6 val. Švari (lookahead 0/20), 1m detalumas tas pats, 2018–21 +90 %/m., 2018 m. top 9 +41 %/m., bet kritimas 34–39 %. Autorius pats vadina eksperimentine; tikri užpildymai per griūtis blogesni. hassannazir2536/TrendRider |
+| CrashReversal | alts10 spot, 1h | 16,2 | 17,4 % | Perka po −8 % per 24 val., laiko 24 val. Švari, bet 2018–21 pelnas tik iš 2021 (2018, 2020 minuse), 2018 m. top 9 kritimas 57 %. |
 
 ## Atmesti (kad netestuotume iš naujo)
+- DivergenceStrategy (batchM32): argrelextrema per visą masyvą – žiūri į ateitį (kritimas 2,4 % per gerai, kad būtų tiesa).
 - ERMD_Strategy_risk (1d): 2023–24 +222 % virsta +8,6 % su 5 min. detalumu – rezultatas tik iš dienos žvakės iliuzijos.
 - TheForce (batch50i, 15m): 0,1 % mokesčiu BTC+ETH +89 %/m., alts10 +362 %/m. (išlaiko ir 1m detalumą, lookahead 0/20), bet ~10 tūkst. sandorių/m. po +0,04 %. Su 0,15 % mokesčiu (realus slippage) BTC+ETH −55 %/m., kritimas 99 %. Netinka.
 - NowoIchimoku1hV2 (batch50h): 1h testas +35 %/m. (alts10), +32 %/m. (BTC+ETH), švari, išlaikė 2018–21, bet su 5m detalumu tik +6,5 / +10,9 %/m., kritimas 29 / 21 %. Rezultatas buvo išpūstas 1h žvakių.
