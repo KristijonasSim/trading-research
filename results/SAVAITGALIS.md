@@ -2,6 +2,13 @@
 
 Atnaujinama kas ~8 val. Naujausias įrašas viršuje.
 
+## 2026-11-14 17:15
+- Nuo praeito karto ištestuota ~1000 strategijų (20 partijų po 50).
+- **Rasta 6 geros, išlaikė visas patikras:** DS_Green_5m, NS4_dca, NFI7HO2, BearBull3 (altcoin'ai), XSMomentumRotation (BTC+ETH) ir rizikingesnė BSS2b. Laiškai išsiųsti.
+- Atmesta: Advanced_Ichimoku_4 (+300 % per metus, bet skaičiavo netikromis kainomis), keletas su per dideliais kritimais, kitos – jau rastų kopijos.
+- Dabar: liko ~30 partijų (daugiausia vieno didelio rinkinio, tikėtina daug kopijų).
+- Bybit demo botas veikia, sandorių vis dar 0.
+
 ## 2026-11-14 09:15
 - Nuo praeito karto ištestuota ~670 strategijų (baigta 387 strategijų eilė ir 5 partijos iš naujos).
 - **Rasta 1 gera:** TrendVolTarget (BTC+ETH, +15 % per metus, kritimas 13 %), laiškas išsiųstas. 2 rizikingos (perka po staigaus kritimo) – tik atskirame sąraše.

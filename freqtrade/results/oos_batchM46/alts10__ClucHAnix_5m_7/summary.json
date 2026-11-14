@@ -1,0 +1,23 @@
+{
+  "strategy": "ClucHAnix_5m_7",
+  "mode": "spot",
+  "group": "alts10",
+  "timeframe": "5m",
+  "style": "day trading",
+  "avg_trade_hours": 3.0,
+  "trades": 5213,
+  "trades_per_year": 1353.3,
+  "total_return_pct": 435.4,
+  "cagr_pct": 54.6,
+  "yearly_pct": {
+    "2018": 22.6,
+    "2019": 30.7,
+    "2020": 20.5,
+    "2021": 177.3
+  },
+  "max_drawdown_pct": 35.5,
+  "win_rate_pct": 69.1,
+  "profit_factor": 1.31,
+  "market_change_pct": 3171.7,
+  "timerange": "20180101-20211108"
+}

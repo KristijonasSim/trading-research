@@ -1,0 +1,11 @@
+strategy,mode,group,timeframe,style,avg_trade_hours,trades,trades_per_year,total_return_pct,cagr_pct,max_drawdown_pct,win_rate_pct,profit_factor,market_change_pct,timerange,avg_year_pct,2021,2022,2023,2024,2025,2026
+DoubleEMACrossoverWithTrend_158,spot,btc_eth,1h,day trading,21.1,813,162.6,4.2,0.8,24.4,23.7,1.01,-17.8,20211108-20261108,1.0,-6.4,-8.2,4.7,10.9,-6.5,11.7
+DoubleEMACrossoverWithTrend_37,spot,btc_eth,1h,day trading,21.1,813,162.6,4.2,0.8,24.4,23.7,1.01,-17.8,20211108-20261108,1.0,-6.4,-8.2,4.7,10.9,-6.5,11.7
+DoubleBollingerStrategy,spot,btc_eth,1d,swing,96.0,1,0.2,-2.5,-0.5,2.5,0.0,0.0,-22.5,20211108-20261108,-2.5,,-2.5,,,,
+DoubleBollingerStrategy,spot,alts10,1d,day trading,13.7,7,1.4,-3.4,-0.7,3.4,0.0,0.0,-38.8,20211108-20261108,-1.2,,-1.5,-1.5,,,-0.5
+DoubleEMACrossoverWithTrend_37,spot,alts10,1h,day trading,19.7,3703,740.7,-22.1,-4.9,45.2,25.8,0.95,-35.3,20211108-20261108,-1.6,3.3,-18.7,11.4,39.8,-25.8,-19.7
+DoubleEMACrossoverWithTrend_158,spot,alts10,1h,day trading,19.7,3703,740.7,-22.1,-4.9,45.2,25.8,0.95,-35.3,20211108-20261108,-1.6,3.3,-18.7,11.4,39.8,-25.8,-19.7
+DoubleEMACrossoverWithTrend_197,spot,btc_eth,1h,day trading,2.5,813,162.6,-67.3,-20.0,67.7,38.6,0.17,-17.8,20211108-20261108,-16.5,1.0,-15.7,-25.3,-24.0,-24.2,-10.7
+DoubleEMACrossoverWithTrend_197,spot,alts10,1h,day trading,2.0,3703,740.7,-68.4,-20.6,68.4,45.3,0.26,-35.3,20211108-20261108,-17.1,-0.7,-17.9,-23.2,-23.2,-22.8,-14.8
+DuperFivish,spot,alts10,5m,day trading,5.8,15051,3010.6,-96.4,-48.5,96.4,73.5,0.63,-34.9,20211108-20261108,-40.2,-25.3,-54.5,-53.3,-57.6,-40.2,-10.1
+DuperFivish,spot,btc_eth,5m,day trading,8.6,3632,726.5,-97.5,-52.2,97.5,67.9,0.61,-15.9,20211108-20261108,-44.5,-24.8,-50.7,-37.9,-49.7,-64.6,-39.2

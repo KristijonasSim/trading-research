@@ -1,0 +1,23 @@
+{
+  "strategy": "BSS2b",
+  "mode": "spot",
+  "group": "alts10",
+  "timeframe": "5m",
+  "style": "day trading",
+  "avg_trade_hours": 6.3,
+  "trades": 7167,
+  "trades_per_year": 1860.5,
+  "total_return_pct": 9166.7,
+  "cagr_pct": 224.0,
+  "yearly_pct": {
+    "2018": 50.5,
+    "2019": 65.4,
+    "2020": 126.8,
+    "2021": 1541.2
+  },
+  "max_drawdown_pct": 29.0,
+  "win_rate_pct": 92.9,
+  "profit_factor": 1.75,
+  "market_change_pct": 3171.7,
+  "timerange": "20180101-20211108"
+}
