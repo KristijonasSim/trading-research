@@ -1,0 +1,21 @@
+periodai: 2001–12 | 2013–19 | 2020–26
+
+SPY laikyti:  +2.6% kr -55% | +14.6% kr -19% | +14.8% kr -34%
+  vid. d. grąža bp: OpEx sav.  +1.4 |  +9.8 |  -4.4   kitos:  +2.1 |  +4.5 |  +9.5
+  tik OpEx savaitė        -0.2% kr -29% |  +5.5% kr -10% |  -1.6% kr -33% | rinkoje 23%
+  visos išskyrus OpEx     +1.7% kr -50% |  +7.7% kr -14% | +18.2% kr -26% | rinkoje 77%
+
+QQQ laikyti:  +1.4% kr -70% | +19.7% kr -23% | +19.2% kr -35%
+  vid. d. grąža bp: OpEx sav.  +0.7 | +10.5 |  -2.1   kitos:  +2.6 |  +6.8 | +11.3
+  tik OpEx savaitė        -1.0% kr -41% |  +5.8% kr -14% |  -0.5% kr -26% | rinkoje 23%
+  visos išskyrus OpEx     +1.3% kr -60% | +12.2% kr -17% | +21.4% kr -25% | rinkoje 77%
+
+UPRO laikyti: +37.5% kr -52% | +38.4% kr -50% | +22.8% kr -77%
+  vid. d. grąža bp: OpEx sav. +13.6 | +27.9 | -17.0   kitos: +20.0 | +12.2 | +25.2
+  tik OpEx savaitė        +4.7% kr -36% | +15.7% kr -29% | -12.0% kr -74% | rinkoje 23%
+  visos išskyrus OpEx    +29.4% kr -50% | +18.6% kr -42% | +41.3% kr -63% | rinkoje 77%
+
+TQQQ laikyti: +37.3% kr -44% | +53.6% kr -58% | +28.4% kr -82%
+  vid. d. grąža bp: OpEx sav. -12.8 | +30.5 | -10.7   kitos: +29.3 | +18.9 | +30.3
+  tik OpEx savaitė       -10.9% kr -50% | +16.4% kr -39% | -10.4% kr -68% | rinkoje 23%
+  visos išskyrus OpEx    +51.8% kr -40% | +30.8% kr -44% | +45.1% kr -63% | rinkoje 77%
