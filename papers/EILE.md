@@ -78,3 +78,4 @@ Kripto duomenys: Binance (spot/futures, 1h/1d, visos USDT poros su istorija). Ak
 | 71 | Opcionų galiojimo savaitės efektas (Stivers, Sun 2013), SPY/QQQ/UPRO/TQQQ | akcijos | ❌ atmesta (veikė tik 2013–19, 2020–26 apsivertė) → `71_opex_week/REZULTATAI.md` |
 | 72 | TradingView „Lorentzian Classification“ (kNN, jdehorty), BTC/ETH/SOL/XRP 4h/1d | kripto | ❌ atmesta (2022–26 −74…+10 %/m.) → `72_lorentzian/REZULTATAI.md` |
 | 73 | TradingView populiarieji II: Range Filter, HalfTrend, Coral Trend, Pivot Reversal, Donchian Ribbon | kripto | ❌ atmesta (2022–26 visi −24…+11 %/m.) → `73_tv_trend2/REZULTATAI.md` |
+| 74 | Kripto mėnesių sezoniškumas („Uptober“, be rugsėjo, IV ketv.), BTC/ETH | kripto | ❌ atmesta (walk-forward 2020–26 BTC +3,5 %/m. prieš laikymo +38,5 %) → `74_crypto_months/REZULTATAI.md` |

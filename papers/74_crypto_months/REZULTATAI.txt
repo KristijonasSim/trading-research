@@ -1,0 +1,16 @@
+
+== BTC 2014–2026 mėnesių grąžos (%) ==
+ 1: -1.2/ 42%  2: +7.3/ 69%  3: -0.9/ 46%  4: +9.4/ 62%  5:+10.3/ 54%  6: +0.1/ 54%  7: +7.7/ 69%  8: +0.5/ 31%  9: -2.5/ 46% 10:+14.7/ 69% 11: +5.8/ 54% 12: +7.2/ 42%
+  laikyti                            visas  +41.3%/m. kr  -76% | iki 2019  +44.7 | 2020–26  +38.5 | rinkoje 100%
+  be rugsėjo                         visas  +45.3%/m. kr  -74% | iki 2019  +55.0 | 2020–26  +37.5 | rinkoje 92%
+  tik spalis–gruodis                 visas  +21.9%/m. kr  -52% | iki 2019  +24.5 | 2020–26  +19.7 | rinkoje 25%
+  lapkritis–balandis                 visas  +15.6%/m. kr  -64% | iki 2019   +0.5 | 2020–26  +30.5 | rinkoje 49%
+  walk-forward 6 geriausi mėn.       visas  +21.7%/m. kr  -66% | iki 2019  +47.1 | 2020–26   +3.5 | rinkoje 62%
+
+== ETH 2015–2026 mėnesių grąžos (%) ==
+ 1:+27.4/ 64%  2:+24.4/ 73%  3:+24.5/ 73%  4:+17.7/ 64%  5:+30.1/ 55%  6: -8.7/ 27%  7:+11.2/ 45%  8: +9.6/ 45%  9: -8.6/ 42% 10: +3.8/ 58% 11: +2.9/ 42% 12: +5.9/ 45%
+  laikyti                            visas  +91.2%/m. kr  -90% | iki 2019 +188.2 | 2020–26  +47.9 | rinkoje 100%
+  be rugsėjo                         visas +114.0%/m. kr  -88% | iki 2019 +252.4 | 2020–26  +56.6 | rinkoje 91%
+  tik spalis–gruodis                 visas   +4.3%/m. kr  -60% | iki 2019   -5.0 | 2020–26  +10.6 | rinkoje 26%
+  lapkritis–balandis                 visas  +72.6%/m. kr  -76% | iki 2019 +182.6 | 2020–26  +26.7 | rinkoje 50%
+  walk-forward 6 geriausi mėn.       visas  +82.3%/m. kr  -81% | iki 2019 +283.9 | 2020–26  +14.4 | rinkoje 61%

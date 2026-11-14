@@ -285,3 +285,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 2026-11-14: #71 OpEx savaitės efektas atmesta.
 - 2026-11-14: #72 Lorentzian Classification (TradingView kNN) atmesta.
 - 2026-11-14: #73 TradingView trendo indikatoriai II (5 vnt.) atmesta.
+- 2026-11-14: #74 kripto mėnesių sezoniškumas atmesta.
