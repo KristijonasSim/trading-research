@@ -198,6 +198,13 @@ Patikros:
 - ⚠️ Balanso kritimas su atvirais sandoriais 38–43 % – rizikingiausia iš altcoin'ų sąrašo.
 - Šaltinis: remiotore/ccxt-freqtrade. Failas `best_strategies/BSS2b.py`.
 
+## 19. EI3v2_tag_cofi_green_2_4 ir _7 (Freqtrade, altcoin'ai, 5m) – pridėta 2026-11-14
+- Tai nr. 1 (EI3v2) versijos su kitais nustatymais. 2021–26 (alts10): **_2_4 +27,1 %/m., kritimas 8,6 %**; _7 +25,6 %/m., kritimas 15 % (originalas +25,1 %, 14,9 %).
+- Nematytas 2018–21: 2018 m. top 9 _2_4 +92 %/m., _7 +68 %/m.
+- Lookahead 0/20; 1 min. detalumas 2020: _2_4 +79 % → +57 %, _7 +44 % → +29 %.
+- ⚠️ 2020 m. kovo kritime balansas su atvirais sandoriais krito ~40 %. Rinktis vieną versiją, ne abi kartu su originalu (tie patys sandoriai).
+- Šaltinis: remiotore/ccxt-freqtrade. Failai `best_strategies/EI3v2_tag_cofi_green_2_4.py`, `..._7.py`.
+
 ## Potencialūs, bet rizikingi
 | Strategija | Rinka | %/m | Max kritimas | Kodėl ne pagrindiniame sąraše |
 |---|---|---|---|---|
@@ -222,6 +229,7 @@ Patikros:
 | TSMomentum | BTC+ETH spot, 1d | 16,8 | 13,4 % | Švari, 2018–21 +68 %/m., bet 2018 −36 %, 2021–22 minuse. Kblack0610 |
 
 ## Atmesti (kad netestuotume iš naujo)
+- IchisV1 / IchisV1_2 (+498 %/m., kritimas 1 %) – perrašo kainas Heikin-Ashi reikšmėmis, rezultatas netikras.
 - Advanced_Ichimoku_4 (batchM47): +300 %/m. su 1,6 % kritimu – perrašo kainas Heikin-Ashi, netikra.
 - lambo2_5m: nematytame 2018–21 kritimas 38 %.
 - DivergenceStrategy (batchM32): argrelextrema per visą masyvą – žiūri į ateitį (kritimas 2,4 % per gerai, kad būtų tiesa).
