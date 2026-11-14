@@ -63,3 +63,4 @@ Kripto duomenys: Binance (spot/futures, 1h/1d, visos USDT poros su istorija). Ak
 | 56 | Kimchi premija (Upbit vs Binance), BTC/ETH/XRP 1d | kripto | ❌ atmesta (kontrarinis veikė tik 2017–18, trendo ženklas keičiasi, kritimai 50–90 %) → `56_kimchi/REZULTATAI.md` |
 | 57 | FED grynasis likvidumas (WALCL − TGA − RRP) → SPY/QQQ/BTC | akcijos, kripto | ❌ atmesta (2023–26 visi variantai gerokai žemiau laikymo) → `57_net_liquidity/REZULTATAI.md` |
 | 58 | Taker buy ratio (order imbalance), BTC/ETH ir top 50 skerspjūvis, 1d | kripto | ❌ atmesta (laiko eilutė nestabili, skerspjūvis −41…−1 %/m.) → `58_taker_imbalance/REZULTATAI.md` |
+| 59 | IBS atšokimas (Pagonidis 2013), SPY/QQQ/IWM/DIA/EFA/TLT/GLD | ETF | ❌ atmesta (2013–19 gerokai žemiau laikymo; 2020–26 QQQ +27 % tik su MOC vykdymu) → `59_ibs/REZULTATAI.md` |
