@@ -20,6 +20,7 @@ Patikros (TWEL 0,75):
 - ⚠️ Martingale rizika: kritimuose dvigubina pozicijas (iki 0,75 balanso, be sverto virš 1x nėra likvidacijos). Kritimas nematytame periode 37 %.
 - Jautrumas (2021–26 / nematytas 2019-12 – 2021-04): TWEL 1,0 → +30,7 %/m. (kritimas 34 %); TWEL 0,75 su 4 pozicijomis → +25,3 % (28 %) / +103 % (37 %); su 12 pozicijų → +16,9 % (16 %) / +51 % (37 %). Visi variantai pliuse kasmet arba beveik (2022 −1 %).
 - Išgyvenusiųjų patikra: 2021-11 top 20 (su FTT, kuris žlugo 2022-11; LUNA futures duomenų Binance nebeturi, todėl 18 monetų): **+26,3 %/m., kritimas 24 %**, kasmet pliuse.
+- ⚠️ **Kitos biržos duomenys (Bybit 1m, 2021-11 – 2026-11, ta pati konfigūracija): +11,3 %/m., kritimas 31 %** (2021 −3, 2022 −21, 2023 +38, 2024 +30, 2025 +14, 2026 +9). Skirtumas daugiausia LTC (−7,5k vs +10,6k) ir LINK (−2,4k vs +16,2k): martingale rezultatas priklauso nuo konkrečių dagčių ir kainų kelio. Kadangi forward testas būtų Bybit, šis skaičius svarbesnis. `run_bt8.sh`.
 - Kiti konfigai atmesti: btc_long sunaikina sąskaitą, 5 monetų – kritimai 74–78 %, ema_anchor – 70 %, hsl_npos1 – 45 %.
 
 ## Forward testas

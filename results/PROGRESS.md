@@ -262,3 +262,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 2026-11-14 03:00 – batchM31–M33: FlashCrashScalper ir CrashReversal švarios, bet kritimai nematytame per dideli (34–57 %) → rizikingų sąrašas. DivergenceStrategy atmesta (argrelextrema, ateities duomenys).
 - 2026-11-14 04:50 – TrendVolTarget (batchM34, BTC+ETH 1d) išlaikė visas patikras: 2021–26 +14,8 %/m. (12,7 %), 2018–21 +52 %/m. (6,5 %), lookahead 0/20 → ATRINKTI_BOTAI.md.
 - 2026-11-14 04:41 – laiškas apie TrendVolTarget išsiųstas (vienas kartas).
+- 2026-11-14: Passivbot martingale (nr. 11) su Bybit duomenimis: +11,3 %/m., kritimas 31 %, 2022 −21 % (Binance +21,1 %). Jautrus biržos kainų keliui; įrašyta ATRINKTI_BOTAI ir passivbot/REZULTATAI.md.

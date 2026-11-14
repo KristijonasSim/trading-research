@@ -1,7 +1,7 @@
 """Passivbot backtestų suvestinė iš balance_and_equity.csv.gz: CAGR, max kritimas (equity), metai. python3 passivbot/summary.py"""
 import glob, os, json, pandas as pd
 D = os.path.dirname(os.path.abspath(__file__))
-for d in sorted(glob.glob(f"{D}/backtests/binance/*/")):
+for d in sorted(glob.glob(f"{D}/backtests/*/*/")):
     e = pd.read_csv(d + "balance_and_equity.csv.gz")
     tcol = [c for c in e.columns if "time" in c.lower() or c in ("ts", "timestamp", "minute")]
     eqc = [c for c in e.columns if "equity" in c.lower() and "usd" in c.lower()] or [c for c in e.columns if "equity" in c.lower()]
