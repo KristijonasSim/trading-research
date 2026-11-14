@@ -287,3 +287,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 2026-11-14: #73 TradingView trendo indikatoriai II (5 vnt.) atmesta.
 - 2026-11-14: #74 kripto mėnesių sezoniškumas atmesta.
 - 2026-11-14: #75 3Sig/9Sig atmesta.
+- 2026-11-14: #76 šalių ETF momentum atmesta.

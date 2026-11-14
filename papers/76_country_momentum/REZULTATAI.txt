@@ -1,0 +1,10 @@
+periodai: 2001–12 | 2013–19 | 2020–26
+EFA laikyti                     +5.0% kr -57% |  +6.0% kr -19% |  +9.1% kr -28%
+SPY laikyti                     +2.6% kr -51% | +14.6% kr -14% | +14.7% kr -24%
+20 šalių lygiai                 +7.9% kr -60% |  +4.9% kr -24% | +10.8% kr -28%
+momentum 12-1, top 4            +7.5% kr -65% |  -0.6% kr -32% | +12.0% kr -26%
+  + absoliutus filtras          +7.6% kr -34% |  -2.8% kr -37% | +10.1% kr -17%
+momentum 12-1, top 5            +7.5% kr -64% |  +1.7% kr -28% | +11.9% kr -28%
+  + absoliutus filtras          +7.9% kr -35% |  -1.2% kr -33% |  +9.6% kr -19%
+žemas volatilumas top 5         +8.2% kr -55% |  +5.0% kr -20% |  +8.3% kr -26%
+1 mėn. reversalas top 5         +9.7% kr -60% |  +6.3% kr -24% |  +8.9% kr -31%

@@ -80,3 +80,4 @@ Kripto duomenys: Binance (spot/futures, 1h/1d, visos USDT poros su istorija). Ak
 | 73 | TradingView populiarieji II: Range Filter, HalfTrend, Coral Trend, Pivot Reversal, Donchian Ribbon | kripto | ❌ atmesta (2022–26 visi −24…+11 %/m.) → `73_tv_trend2/REZULTATAI.md` |
 | 74 | Kripto mėnesių sezoniškumas („Uptober“, be rugsėjo, IV ketv.), BTC/ETH | kripto | ❌ atmesta (walk-forward 2020–26 BTC +3,5 %/m. prieš laikymo +38,5 %) → `74_crypto_months/REZULTATAI.md` |
 | 75 | Jason Kelly 3Sig / 9Sig (ketvirtinis tikslinis perbalansavimas) | ETF | ❌ atmesta (3Sig < laikymas; 9Sig 2000–09 −100 %) → `75_3sig/REZULTATAI.md` |
+| 76 | Šalių ETF momentum / žemas volatilumas / reversalas (20 iShares) | ETF | ❌ atmesta (2013–19 −1…+2 %/m., ≈ lygūs svoriai) → `76_country_momentum/REZULTATAI.md` |
