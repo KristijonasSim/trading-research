@@ -57,3 +57,4 @@ Kripto duomenys: Binance (spot/futures, 1h/1d, visos USDT poros su istorija). Ak
 | 50 | Connors RSI(2) ant SPY/QQQ/IWM ir 3x ETF | ETF | ❌ atmesta (1x +2…+6 %/m.; 3x ≤ +14 %, 2010–15 +5 %) → `50_connors_etf/REZULTATAI.md` |
 | 51 | PlanB Stock-to-Flow ir Bitcoin Rainbow | kripto | ❌ atmesta (S2F modelis žlugo po 2021; Rainbow ≤ +7,5 %/m., kritimas 64–71 %) → `51_s2f_rainbow/REZULTATAI.md` |
 | 52 | Atidarymo tarpo prekyba ETF (gap fade / gap and go) | ETF | ❌ atmesta (visi variantai −17…+3 %/m.) → `52_gap_fade/REZULTATAI.md` |
+| 53 | MVRV ciklas ir MVRV trendas (Mahmudov, Puell 2018), BTC/ETH | kripto | ❌ atmesta (ciklas 8 sandoriai, nuo 2024 grynieji; trendas ≈ kainos SMA, ETH neveikia) → `53_mvrv/REZULTATAI.md` |
