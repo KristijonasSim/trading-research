@@ -116,3 +116,5 @@ Kripto duomenys: Binance (spot/futures, 1h/1d, visos USDT poros su istorija). Ak
 | 111 | Moreira-Muir volatilumo taikymas su svertu (QQQ/SPY, tikslas 30–45 %, iki 3–4x, ± SMA200) | ETF | ❌ atmesta (2010–26 +25…+43 %/m., bet 1999–2009 ~0, kritimai 68–86 %) → `13_volmanaged/REZULTATAI.md` |
 | 112 | Noise Breakout ant 9 labai judančių JAV akcijų (TSLA, NVDA, AMD, PLTR ir kt.), 5m | akcijos | ❌ atmesta (portfelis 2021–24 +2…+6 %/m., 2025–26 minuse; gerai tik TSLA) → `tradingview/scalp_test/REZULTATAI.md` |
 | 113 | Atšokimas po didelio dienos kritimo/šuolio kripto top 10 (Caporale, Plastun 2019 „one-day price jumps“) | kripto | ❌ atmesta (2021–26 max +12 %/m.) |
+| 114 | Kripto žemos beta prieš BTC (betting-against-beta), top 50, savaitinis | kripto | ❌ atmesta (2021–26 minuse) |
+| 115 | Kripto grąžų asimetrija (skewness): pirkti mažiausios asimetrijos monetas, top 50 | kripto | ❌ atmesta (2021–26 +23 %, bet 2018–21 −8 %) |

@@ -401,3 +401,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 2026-11-15 18:41: HEAD_SHOULDER (futures alts10 15m, +21,7 %/m., kritimas 25 %) – lookahead švarus, bet 2020–21 −18,9 %/m., kritimas 55 % → atmesta.
 - 2026-11-15 18:41: Straipsnis 103 (JAV atidarymo ORB BTC/ETH 5m) atmestas: 2021–26 ETH iki +28 %/m., bet 2018–21 visi 24 variantai minuse. papers/103_us_open_orb/.
 - 2026-11-15 18:43: Straipsnis 113 (kainų šuoliai top 10) atmestas: 2018–21 +34 %/m., 2021–26 max +11,9 %/m. Eilė papildyta tik 113 (kitos idėjos jau buvo išbandytos).
+- 2026-11-15 20:41: Straipsniai 114 (žema beta) ir 115 (asimetrija) atmesti. 115 long-short 2021–26 +22,8 %/m., bet 2018–21 −8,3 %/m. queue9: užstrigęs HedgingGrid (batchM22) sustabdytas, eilė tęsiasi (batchM23).
