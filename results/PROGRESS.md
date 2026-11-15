@@ -363,3 +363,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - **abbasPublic išlaikė**: lookahead 0/20, 1m 2020 +68 → +69 %, 2018 top 9 +71 %/m. (kritimas 29–31 %). → ATRINKTI_BOTAI nr. 21.
 - abbas94: švari, bet 2018–21 kritimas 38–39 % → rizikingų sąraše.
 - batchM82–M86: ~20 ichi* versijų (Heikin-Ashi perrašo kainas), lookahead_strategy, mp – atmesta; keltnerchannelrsi (=KeltnerRSI), lafuria (=EI3v2) – kopijos. eddies (alts10 +16,8 %/m., kritimas 9 %): 2018–21 +48 %/m. (kritimas 25 %), vyksta lookahead / 1m / top9.
+- 08:42 laiškas išsiųstas: abbasPublic (nr. 21).
