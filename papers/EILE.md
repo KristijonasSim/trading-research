@@ -115,3 +115,4 @@ Kripto duomenys: Binance (spot/futures, 1h/1d, visos USDT poros su istorija). Ak
 | 110 | Hedgefundie UPRO/TMF 55/45 ir Gayed „Leverage for the Long Run“ (3x kai > SMA200), sintetiniai nuo 1999 | ETF | ❌ atmesta (HFEA 2020–26 +7 %, kritimas 70 %; LRR 2020–26 +23…+32 %, bet 2000–09 ~0, kritimai 57–89 %) → `110_hfea_lrr/REZULTATAI.md` |
 | 111 | Moreira-Muir volatilumo taikymas su svertu (QQQ/SPY, tikslas 30–45 %, iki 3–4x, ± SMA200) | ETF | ❌ atmesta (2010–26 +25…+43 %/m., bet 1999–2009 ~0, kritimai 68–86 %) → `13_volmanaged/REZULTATAI.md` |
 | 112 | Noise Breakout ant 9 labai judančių JAV akcijų (TSLA, NVDA, AMD, PLTR ir kt.), 5m | akcijos | ❌ atmesta (portfelis 2021–24 +2…+6 %/m., 2025–26 minuse; gerai tik TSLA) → `tradingview/scalp_test/REZULTATAI.md` |
+| 113 | Atšokimas po didelio dienos kritimo/šuolio kripto top 10 (Caporale, Plastun 2019 „one-day price jumps“) | kripto | ❌ atmesta (2021–26 max +12 %/m.) |
