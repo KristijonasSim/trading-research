@@ -19,6 +19,7 @@ Freqtrade 2021-11-08 – 2026-11-08, 5m, be detalumo, max 18 pozicijų; MATIC du
 | KeltnerRSI (1d iš 1h) | +18,4 %, 26 % | +14,0 %, balanso 40,3 % | ⚠️ silpsta |
 | abbasPublic | +20,0 %, 9,3 % | +13,2 %, balanso 34,7 % | ⚠️ silpsta −7 p. p. |
 | eddies | +16,8 %, 9 % | +7,0 %, balanso 45 % | ❌ neišlaiko |
-| NS4_dca, NFI7HO2 | | laukia (pritrūko atminties, kartojama) | |
+| NS4_dca | +17,1 %, 5,0 % | +12,6 %, balanso 23 % | ⚠️ silpsta −4,5 p. p. |
+| NFI7HO2 | +15,0 %, 3,8 % | +9,7 %, balanso 27 % | ❌ neišlaiko |
 
 Išvada: tvirčiausios EI3v2 (ir _2_4, _7), NASOS, E0V1E, ckNSJT, DS_Green_5m, BearBull3, BSS2b (su dideliu kritimu). abbas ir SMAO rezultatus išpūtė dabartinių monetų sąrašas.

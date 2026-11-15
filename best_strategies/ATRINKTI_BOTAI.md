@@ -169,6 +169,7 @@ Patikros:
 - Nematytas 2018–21: top 10 +79 %/m. (5,1 %), **2018 m. top 9 +69 %/m.**.
 - Lookahead 0/20; 1 min. detalumas: 2020: +75 % → +80 %.
 - ⚠️ DCA (perka papildomai krentant) – balanso kritimas iki 33 %.
+- ⚠️ Išgyvenusiųjų patikra (2021-11 top 20): +12,6 %/m., balanso kritimas 23 %.
 - Šaltinis: Danson77/Freqtrade_AIO_UI. Failas `best_strategies/NS4_dca.py`.
 
 ## 15. NFI7HO2 (Freqtrade, altcoin'ai, 5m) – pridėta 2026-11-14
@@ -176,6 +177,7 @@ Patikros:
 - Nematytas 2018–21: top 10 +73 %/m. (5,2 %), **2018 m. top 9 +53 %/m.**.
 - Lookahead 0/20; 1 min. detalumas: 2020: +44 % → +34 %.
 - ⚠️ NostalgiaForInfinity v7 atmaina; balanso kritimas iki 26 %.
+- ❌ Išgyvenusiųjų patikra (2021-11 top 20): tik +9,7 %/m., balanso kritimas 27 %.
 - Šaltinis: remiotore/ccxt-freqtrade. Failas `best_strategies/NFI7HO2.py`.
 
 ## 16. BearBull3 (Freqtrade, altcoin'ai, 5m) – pridėta 2026-11-14

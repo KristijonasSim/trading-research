@@ -14,7 +14,7 @@
 
 ## Išgyvenusiųjų patikra naujoms kripto strategijoms (2021-11 top 20 su LUNA, FTT)
 ✅ EI3v2_2_4 +36,0 %/m. (balanso kritimas 30 %), BSS2b +30,9 % (45 %), EI3v2_7 +29,3 % (34 %), DS_Green_5m +19,8 % (27 %), BearBull3 +15,3 % (10 %).
-⚠️ KeltnerRSI +14,0 %, abbasPublic +13,2 %. ❌ eddies +7,0 %. NS4_dca, NFI7HO2 – kartojama (pritrūko atminties).
+⚠️ KeltnerRSI +14,0 %, abbasPublic +13,2 %. ❌ eddies +7,0 %. ⚠️ NS4_dca +12,6 %. ❌ NFI7HO2 +9,7 %.
 
 ## Dry-run
 7 botai sveiki, 0 sandorių per 1,5 paros. Backtestas su naujausiais duomenimis per tą laiką irgi nieko nepirktų – rinka signalų neduoda.
