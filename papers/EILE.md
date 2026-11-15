@@ -121,3 +121,4 @@ Kripto duomenys: Binance (spot/futures, 1h/1d, visos USDT poros su istorija). Ak
 | 116 | NASDAQ-100 ↔ BTC taktinė rotacija (Quantpedia 2026 „Silicon vs. Satoshi“) | kripto, akcijos | ❌ atmesta (2021–26 kritimas ≥52 %) |
 | 117 | BTC prieššventinis dreifas (JAV šventės; Quantpedia 2025) | kripto | ❌ atmesta (≤ +12 %/m., 2018–21 nėra efekto) |
 | 118 | BTC kelių laikotarpių MACD trendas (Quantpedia 2025, 1d + 1w filtras) | kripto | ❌ atmesta (2021–26 ≤ +10 %/m.) |
+| 119 | BTC dienos vidaus slenkančių vidurkių strategija su walk-forward (Mroziewicz, Ślepaczuk 2026, arXiv 2602.10785), perkelta į ETH/BNB | kripto | ❌ atmesta (kritimai 45–80 %) |
