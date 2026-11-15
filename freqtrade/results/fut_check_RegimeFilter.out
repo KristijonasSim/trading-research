@@ -1,0 +1,13 @@
+== LOOKAHEAD
+2026-11-15 14:43:07,594 - freqtrade.optimize.analysis.lookahead_helpers - INFO - Bias test of RegimeFilterStrategy.py started.
+2026-11-15 14:43:07,859 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy RegimeFilterStrategy from '/freqtrade/user_data/strategies/validate50/RegimeFilterStrategy.py'...
+== OOS 2020-2021
+│ Total profit %                         │ 104.16%                                   │
+│ CAGR %                                 │ 48.31%                                    │
+│ Absolute drawdown                      │ 371.663 USDT (16.04%)                     │
+│ Absolute drawdown (wallet balance)     │ 371.663 USDT (16.04%)                     │
+== DETAIL 2020-2021 5m
+│ CAGR %                                 │ 52.70%                                    │
+│ Absolute drawdown                      │ 399.505 USDT (16.35%)                     │
+│ Absolute drawdown (wallet balance)     │ 399.505 USDT (16.35%)                     │
+FUT_CHECK_DONE

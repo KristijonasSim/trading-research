@@ -2,6 +2,13 @@
 
 Atnaujinama kas ~8 val. Naujausias įrašas viršuje.
 
+## 2026-11-15 17:15
+- Nuo praeito karto ištestuota ~400 strategijų (paskutinės senos eilės partijos ir 117 naujų iš 41 naujo GitHub rinkinio).
+- Rasta spraga: ~660 strategijų anksčiau nebuvo ištestuotos, nes joms reikia futures rinkos (kad galėtų uždirbti ir krentant). Dabar jos testuojamos futures režimu.
+- **Rasta 1 nauja gera:** RegimeFilterStrategy (nr. 23, altcoin'ų futures, +16 %/m., kritimas 33,5 %). Laiškas išsiųstas.
+- Straipsniai 102, 104, 105 atmesti. Dabar: liko ~62 senos partijos futures perleidimui (užtruks parą ar daugiau).
+- Bybit demo botas veikia, sandorių vis dar 0.
+
 ## 2026-11-15 09:15
 - Nuo praeito karto ištestuota ~700 strategijų (14 partijų).
 - **Rasta 2 naujos geros:** abbasPublic (nr. 21, +20 %/m., kritimas 9 %) ir eddies (nr. 22, +17 %/m., kritimas 9 %, kasmet pliuse). Laiškai išsiųsti.
