@@ -212,3 +212,7 @@ batchM89 DONE
 batchM90 Usdcmbespot alts10 5m 312.1 12.5 6972 {"2021": 36.3, "2022": 438.6, "2023": 338.9, "2024": 562.2, "2025": 234.0, "2026": 66.7}
 batchM90 Usdcmbespot btc_eth 5m 113.3 13.5 732 {"2021": 12.0, "2022": 223.9, "2023": 80.7, "2024": 89.6, "2025": 120.2, "2026": 61.1}
 batchM90 DONE
+batchM91 DONE
+batchM92 DONE
+batchM93 DONE
+batchM94 DONE

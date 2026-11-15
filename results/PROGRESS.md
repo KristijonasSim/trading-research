@@ -371,3 +371,8 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 
 ## 2026-11-15 11:00 – batchM88–M90
 - Tik Usdcmbespot (= UsdcmbeSpot2403, Heikin-Ashi perrašo kainas) – atmesta. Liko M91, tada queue8 (M92–M94).
+
+## 2026-11-15 13:00 – queue7 ir queue8 baigtos
+- batchM91–M94 (sources_more8): kandidatų nėra, bet 87 iš 117 strategijų buvo „short“ (futures) ir spot režime nepasileido.
+- `run_batch.py` papildytas: jei strategija nori short – automatiškai perleidžiama futures režimu (`config_futures.json`, mokestis 0,05 %, 12 porų). Futures duomenys tik 5m/15m/1h – strategijos su 4h informacija gali duoti 0 sandorių.
+- Paleista `queue8b.sh` (M91–M94 perleidimas).

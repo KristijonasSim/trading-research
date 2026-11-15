@@ -1,0 +1,7 @@
+strategy,mode,group,timeframe,style,avg_trade_hours,trades,trades_per_year,total_return_pct,cagr_pct,max_drawdown_pct,win_rate_pct,profit_factor,market_change_pct,timerange,avg_year_pct,2021,2024,2025,2026
+yoyo,spot,alts10,5m,-,,0,0.0,0.0,0.0,0.0,0.0,0.0,-35.9,20211108-20261108,0.0,,,,
+yoyo,spot,btc_eth,5m,-,,0,0.0,0.0,0.0,0.0,0.0,0.0,-18.8,20211108-20261108,0.0,,,,
+yabar_bbrsi,spot,alts10,15m,position,7456.7,47,9.4,-17.6,-3.8,44.4,83.0,0.73,-34.8,20211108-20261108,-0.5,10.6,21.7,10.2,-44.4
+yabar_bbrsi,spot,btc_eth,15m,position,12513.6,7,1.4,-19.2,-4.2,37.8,71.4,0.61,-16.4,20211108-20261108,-3.0,,23.8,5.0,-37.8
+yabar_bbrsi0,spot,btc_eth,15m,position,7947.0,11,2.2,-22.7,-5.0,39.5,81.8,0.55,-16.4,20211108-20261108,-4.4,,18.7,7.5,-39.5
+yabar_bbrsi0,spot,alts10,15m,position,6127.4,57,11.4,-30.0,-6.9,46.4,84.2,0.5,-34.8,20211108-20261108,-4.6,6.6,12.7,8.7,-46.4

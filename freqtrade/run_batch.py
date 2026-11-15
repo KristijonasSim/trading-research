@@ -38,7 +38,7 @@ def run(strategy, group, cfg="config_spot.json"):
            "-v", f"{d}:/out", IMAGE, "backtesting",
            "--userdir", "/freqtrade/user_data", "-c", "/freqtrade/config.json",
            "--strategy-path", f"/freqtrade/user_data/strategies/{BATCH}", "--strategy", strategy,
-           "--timerange", ra.TIMERANGE, "--timeframe", TF[strategy], "--pairs", *ra.GROUPS[group],
+           "--timerange", ra.TIMERANGE, "--timeframe", TF[strategy], "--pairs", *([x + ":USDT" for x in ra.GROUPS[group]] if "futures" in cfg else ra.GROUPS[group]),
            "--max-open-trades", str(len(ra.GROUPS[group])),
            "--export", "trades", "--backtest-directory", "/out", "--cache", "none"]
     # stream the log to a file (a strategy erroring on every candle can print >10 GB);
@@ -66,11 +66,14 @@ def run(strategy, group, cfg="config_spot.json"):
     if "price_side = \"other\"" in out and cfg == "config_spot.json":
         # strategy uses market orders: same test with entry/exit price_side = other
         return run(strategy, group, "config_spot_market.json")
+    if "Short strategies cannot run in spot" in out and cfg != "config_futures.json":
+        # strategy shorts: rerun as futures (0.05 % fee, 12 pairs have futures data)
+        return run(strategy, group, "config_futures.json")
     if rc != 0:
         (d / "error.txt").write_text("\n".join(subprocess.run(["tail", "-20", str(log)], capture_output=True, text=True).stdout.splitlines()))
         return name, "error"
     try:
-        s = ra.summarize(d, strategy, "spot", group)
+        s = ra.summarize(d, strategy, "futures" if "futures" in cfg else "spot", group)
     except Exception as e:  # no trades / unreadable result
         (d / "error.txt").write_text(f"summary failed: {e!r}")
         return name, "error"
