@@ -346,3 +346,7 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - **KeltnerRSI išlaikė**: lookahead 0/20, 1 val. detalumas nekeičia (+142 % 2022–26 abiem atvejais), 2018 top 9 (1d) +64 %/m. (all_checks klaidingai leido 5m – perleista 1d). → ATRINKTI_BOTAI nr. 20.
 - batchM71–M73: NimmV20 atmesta (Heikin-Ashi perrašo kainas).
 - 01:20 laiškas išsiųstas: KeltnerRSI (nr. 20).
+
+## 2026-11-15 03:00 – batchM74–M75
+- RsiquiV5_2 atmesta: np.gradient naudoja kitą žvakę (ateities duomenys); be to, 5x svertas su short.
+- SMAOffset_2/_3/_4 – ta pati logika kaip atrinktos SMAO (nr. 10), skiriasi tik stop-loss (−25…−50 %); nauda neaiški, netestuojama atskirai.
