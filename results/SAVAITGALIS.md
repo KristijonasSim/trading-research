@@ -2,6 +2,13 @@
 
 Atnaujinama kas ~8 val. Naujausias įrašas viršuje.
 
+## 2026-11-16 01:15
+- Nuo praeito karto perleista ~17 senų strategijų partijų futures režimu (~1 700 strategijų bandymų), patikrinta 13 įtartinai gerų – visos netikros (žiūri į ateitį arba testo klaida).
+- Ištestuoti 9 nauji straipsniai (103, 113–119) – visi atmesti: arba veikė tik iki 2021 m., arba per dideli kritimai.
+- **Naujų gerų strategijų nerasta.**
+- Dabar: futures eilė tęsiasi (liko ~35 partijos), straipsnių ieškoma toliau.
+- Bybit demo botas veikia, sandorių vis dar 0.
+
 ## 2026-11-15 17:15
 - Nuo praeito karto ištestuota ~400 strategijų (paskutinės senos eilės partijos ir 117 naujų iš 41 naujo GitHub rinkinio).
 - Rasta spraga: ~660 strategijų anksčiau nebuvo ištestuotos, nes joms reikia futures rinkos (kad galėtų uždirbti ir krentant). Dabar jos testuojamos futures režimu.

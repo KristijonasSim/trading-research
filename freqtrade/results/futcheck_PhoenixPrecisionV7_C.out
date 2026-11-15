@@ -1,0 +1,10 @@
+== LOOKAHEAD
+2026-11-15 20:41:02,033 - freqtrade.optimize.analysis.lookahead - INFO - PhoenixPrecisionV7_C: no bias detected
+│ PhoenixPrecisionV7_C.py │ PhoenixPrecisionV7_C │       No │            20 │                    0 │                   0 │                   │
+== OOS 2020-2021
+│ Total profit %                         │ 18259233.06%                              │
+│ CAGR %                                 │ 69225.10%                                 │
+│ Absolute drawdown                      │ 7357354.33 USDT (4.90%)                   │
+│ Absolute drawdown (wallet balance)     │ 7357354.33 USDT (4.90%)                   │
+== DETAIL 2020-2021 5m
+FUT_CHECK_DONE

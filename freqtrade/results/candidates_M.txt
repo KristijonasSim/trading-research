@@ -237,3 +237,37 @@ batchM14 FUT_DONE
 batchM15 FUT_DONE
 batchM16 FUT_DONE
 batchM17 FUT_DONE
+batchM18 FUT_DONE
+batchM19 FUT_DONE
+batchM20 HEAD_SHOULDER alts10 15m 21.7 25.2 387 {"2021": 4.9, "2022": 40.3, "2023": 5.7, "2024": 21.0, "2025": 61.1, "2026": -11.9} FUTURES
+batchM20 FUT_DONE
+batchM21 FUT_DONE
+batchM22 FUT_DONE
+batchM23 FUT_DONE
+batchM24 FUT_DONE
+batchM26 FUT_DONE
+batchM27 FUT_DONE
+batchM28 FUT_DONE
+batchM29 FUT_DONE
+batchM30 PhoenixPrecisionV7_B btc_eth 5m 166.4 22.9 16400 {"2021": 51.3, "2022": 1096.8, "2023": 65.3, "2024": 146.3, "2025": 77.4, "2026": 2.6} FUTURES
+batchM30 PhoenixPrecision btc_eth 5m 761.9 21.6 21551 {"2021": 144.4, "2022": 11123.3, "2023": 236.2, "2024": 1299.1, "2025": 203.0, "2026": 21.5} FUTURES
+batchM30 PhoenixPrecisionV6_B btc_eth 5m 167.7 22.7 16356 {"2021": 56.3, "2022": 1093.4, "2023": 65.2, "2024": 144.7, "2025": 77.2, "2026": 2.8} FUTURES
+batchM30 PhoenixPrecisionV6_A alts10 5m 437.4 9.4 13048 {"2021": 40.3, "2022": 1224.5, "2023": 499.7, "2024": 292.0, "2025": 285.9, "2026": 165.6} FUTURES
+batchM30 PhoenixPrecisionV6_C btc_eth 5m 95.2 17.0 11977 {"2021": 41.0, "2022": 369.0, "2023": 72.0, "2024": 67.0, "2025": 46.0, "2026": 2.0} FUTURES
+batchM30 PhoenixPrecisionV6 btc_eth 5m 167.7 22.7 16356 {"2021": 56.3, "2022": 1093.4, "2023": 65.2, "2024": 144.7, "2025": 77.2, "2026": 2.8} FUTURES
+batchM30 PhoenixPrecisionV7_C btc_eth 5m 794.7 26.0 23967 {"2021": 172.2, "2022": 41450.1, "2023": 238.4, "2024": 838.3, "2025": 53.8, "2026": 3.6} FUTURES
+batchM30 FUT_DONE
+batchM31 FUT_DONE
+batchM32 FUT_DONE
+batchM33 FractalStrategyV3 btc_eth 15m 929.0 8.9 3484 {"2021": 110.6, "2022": 14037.6, "2023": 514.3, "2024": 1257.8, "2025": 325.5, "2026": 9.0} FUTURES
+batchM33 FractalStrategyV1 btc_eth 15m 911.1 8.9 3510 {"2021": 109.7, "2022": 9365.3, "2023": 499.7, "2024": 1329.9, "2025": 442.5, "2026": 14.3} FUTURES
+batchM33 FractalStrategyV2 btc_eth 15m 80.5 3.5 3487 {"2021": 18.5, "2022": 185.7, "2023": 41.3, "2024": 74.7, "2025": 81.8, "2026": 26.0} FUTURES
+batchM33 FractalStrategyV5 btc_eth 15m 931.0 12.1 3472 {"2021": 121.6, "2022": 12707.4, "2023": 506.5, "2024": 1252.6, "2025": 387.9, "2026": 2.4} FUTURES
+batchM33 FractalStrategyV4 btc_eth 15m 929.0 8.9 3484 {"2021": 110.6, "2022": 14037.6, "2023": 514.3, "2024": 1257.8, "2025": 325.5, "2026": 9.0} FUTURES
+batchM33 FUT_DONE
+batchM34 FUT_DONE
+batchM35 FUT_DONE
+batchM36 FUT_DONE
+batchM37 FUT_DONE
+batchM38 FUT_DONE
+batchM40 FUT_DONE
