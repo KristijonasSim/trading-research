@@ -1,0 +1,5 @@
+eddies LA: │ eddies.py │ eddies │ No │ 20 │ 0 │ 0 │ │ 0
+eddies 2020 plain: │ CAGR % │ 36.12% │ │ Absolute drawdown │ 156.779 USDT (15.38%) │ │ Absolute drawdown (wallet balance) │ 260.118 USDT (24.91%) │ 
+eddies 2020 --timeframe-detail 1m: │ CAGR % │ 35.80% │ │ Absolute drawdown │ 165.192 USDT (16.20%) │ │ Absolute drawdown (wallet balance) │ 265.735 USDT (25.45%) │ 
+eddies top9: │ CAGR % │ 44.89% │ │ Absolute drawdown │ 773.919 USDT (22.98%) │ │ Absolute drawdown (wallet balance) │ 963.519 USDT (28.42%) │ 
+CHECKS_DONE

@@ -1,0 +1,189 @@
+2026-11-15 04:48:15,493 - freqtrade - INFO - freqtrade 2026.7
+2026-11-15 04:48:15,616 - numexpr.utils - INFO - Note: NumExpr detected 28 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 16.
+2026-11-15 04:48:15,616 - numexpr.utils - INFO - NumExpr defaulting to 16 threads.
+2026-11-15 04:48:16,395 - freqtrade.configuration.load_config - INFO - Using config: /freqtrade/config.json ...
+2026-11-15 04:48:16,396 - freqtrade.loggers - INFO - Enabling colorized output.
+2026-11-15 04:48:16,397 - freqtrade.loggers - INFO - Logfile configured
+2026-11-15 04:48:16,397 - freqtrade.loggers - INFO - Verbosity set to 0
+2026-11-15 04:48:16,397 - freqtrade.configuration.configuration - INFO - Using additional Strategy lookup path: /freqtrade/user_data/strategies/validate50
+2026-11-15 04:48:16,397 - freqtrade.configuration.configuration - INFO - Parameter -i/--timeframe detected ... Using timeframe: 5m ...
+2026-11-15 04:48:16,397 - freqtrade.configuration.configuration - INFO - Parameter --max-open-trades detected, overriding max_open_trades to: 5 ...
+2026-11-15 04:48:16,397 - freqtrade.configuration.configuration - INFO - Parameter --timerange detected: 20250101-20250701 ...
+sudo: unable to resolve host 3706d202b2d1: Temporary failure in name resolution
+2026-11-15 04:48:16,426 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2026-11-15 04:48:16,431 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2026-11-15 04:48:16,431 - freqtrade.configuration.configuration - INFO - Using pairs ['XRP/USDT', 'BNB/USDT', 'SOL/USDT', 'DOGE/USDT', 'ADA/USDT', 'TRX/USDT', 'LINK/USDT', 'AVAX/USDT', 'LTC/USDT', 
+'DOT/USDT']
+2026-11-15 04:48:16,432 - freqtrade.configuration.configuration - INFO - Filter trades by timerange: 20250101-20250701
+2026-11-15 04:48:16,432 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2026-11-15 04:48:16,437 - freqtrade.exchange.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2026-11-15 04:48:16,437 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2026-11-15 04:48:16,439 - freqtrade.optimize.analysis.lookahead_helpers - INFO - Forced order_types to market orders.
+2026-11-15 04:48:16,439 - freqtrade.optimize.analysis.lookahead_helpers - INFO - Forced max_open_trades to -1 (same amount as there are pairs)
+2026-11-15 04:48:16,439 - freqtrade.optimize.analysis.lookahead_helpers - INFO - Dry run wallet was not set to 1 billion, pushing it up there just to avoid false positives
+2026-11-15 04:48:16,439 - freqtrade.optimize.analysis.lookahead_helpers - INFO - fixing stake_amount to 10k
+2026-11-15 04:48:16,507 - freqtrade.resolvers.iresolver - WARNING - Could not import /freqtrade/user_data/strategies/validate50/EI3v2_tag_cofi_green_2_4.py due to 'name 'EI3v2_tag_cofi_green' is not 
+defined'
+2026-11-15 04:48:16,510 - freqtrade.resolvers.iresolver - WARNING - Could not import /freqtrade/user_data/strategies/validate50/EI3v2_tag_cofi_green_7.py due to 'name 'EI3v2_tag_cofi_green' is not 
+defined'
+2026-11-15 04:48:16,545 - freqtrade.optimize.analysis.lookahead_helpers - INFO - Bias test of abbas94.py started.
+2026-11-15 04:48:16,545 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2026-11-15 04:48:16,545 - freqtrade.exchange.exchange - INFO - Using CCXT 4.5.68
+2026-11-15 04:48:16,554 - freqtrade.exchange.exchange - INFO - Using Exchange "Binance"
+2026-11-15 04:48:16,809 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange class 'Binance' ...
+2026-11-15 04:48:16,813 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy abbas94 from '/freqtrade/user_data/strategies/validate50/abbas94.py'...
+2026-11-15 04:48:16,813 - freqtrade.strategy.hyper - INFO - Found no parameter file.
+2026-11-15 04:48:16,814 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'timeframe' with value from the configuration: 5m.
+2026-11-15 04:48:16,814 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'order_types' with value from the configuration: {'entry': 'market', 'exit': 'market', 'stoploss': 'market', 
+'stoploss_on_exchange': False}.
+2026-11-15 04:48:16,814 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value from the configuration: USDT.
+2026-11-15 04:48:16,814 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value from the configuration: 10000.
+2026-11-15 04:48:16,814 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'max_open_trades' with value from the configuration: -1.
+2026-11-15 04:48:16,814 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'106': 0, '189': -0.02, '224': -0.04}
+2026-11-15 04:48:16,815 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 5m
+2026-11-15 04:48:16,815 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.067
+2026-11-15 04:48:16,815 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: True
+2026-11-15 04:48:16,815 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive: 0.0003
+2026-11-15 04:48:16,815 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0146
+2026-11-15 04:48:16,815 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: True
+2026-11-15 04:48:16,815 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2026-11-15 04:48:16,815 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2026-11-15 04:48:16,816 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'market', 'exit': 'market', 'stoploss': 'market', 'stoploss_on_exchange': False}
+2026-11-15 04:48:16,816 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'gtc', 'exit': 'ioc'}
+2026-11-15 04:48:16,816 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2026-11-15 04:48:16,816 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: 10000
+2026-11-15 04:48:16,816 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 449
+2026-11-15 04:48:16,816 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: False
+2026-11-15 04:48:16,816 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2026-11-15 04:48:16,816 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2026-11-15 04:48:16,817 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2026-11-15 04:48:16,817 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2026-11-15 04:48:16,817 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2026-11-15 04:48:16,817 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2026-11-15 04:48:16,817 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2026-11-15 04:48:16,817 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_open_trades: -1
+2026-11-15 04:48:16,817 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2026-11-15 04:48:16,820 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist StaticPairList from '/freqtrade/freqtrade/plugins/pairlist/StaticPairList.py'...
+2026-11-15 04:48:16,841 - freqtrade.optimize.backtesting - INFO - Using fee 0.1000% from config.
+2026-11-15 04:48:16,841 - freqtrade.strategy.hyper - INFO - No params for buy found, using default values.
+2026-11-15 04:48:16,841 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): base_nb_candles_buy = 12
+2026-11-15 04:48:16,842 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): ewo_high = 7.54
+2026-11-15 04:48:16,842 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): ewo_high_2 = 9.88
+2026-11-15 04:48:16,842 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): ewo_low = -5.53
+2026-11-15 04:48:16,842 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): fast_ewo = 9
+2026-11-15 04:48:16,842 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): low_offset = 1.18
+2026-11-15 04:48:16,842 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): low_offset_2 = 0.97
+2026-11-15 04:48:16,842 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): pump_factor = 1.59
+2026-11-15 04:48:16,842 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): pump_rolling = 80
+2026-11-15 04:48:16,843 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): rsi_buy = 55
+2026-11-15 04:48:16,843 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): rsi_ewo2 = 38
+2026-11-15 04:48:16,843 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): rsi_fast_ewo1 = 52
+2026-11-15 04:48:16,843 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): slow_ewo = 168
+2026-11-15 04:48:16,843 - freqtrade.strategy.hyper - INFO - No params for sell found, using default values.
+2026-11-15 04:48:16,843 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): base_nb_candles_sell = 21
+2026-11-15 04:48:16,843 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): high_offset = 1.01
+2026-11-15 04:48:16,843 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): min_profit = 0.96
+2026-11-15 04:48:17,082 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 10:35:00 up to 2025-07-01 00:00:00 (182 days).
+2026-11-15 04:48:19,439 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1h from 2024-12-13 07:00:00 to 2025-07-01 00:00:00
+2026-11-15 04:48:19,471 - freqtrade.data.dataprovider - INFO - Loading data for BNB/USDT 1h from 2024-12-13 07:00:00 to 2025-07-01 00:00:00
+2026-11-15 04:48:19,499 - freqtrade.data.dataprovider - INFO - Loading data for SOL/USDT 1h from 2024-12-13 07:00:00 to 2025-07-01 00:00:00
+2026-11-15 04:48:19,527 - freqtrade.data.dataprovider - INFO - Loading data for DOGE/USDT 1h from 2024-12-13 07:00:00 to 2025-07-01 00:00:00
+2026-11-15 04:48:19,555 - freqtrade.data.dataprovider - INFO - Loading data for ADA/USDT 1h from 2024-12-13 07:00:00 to 2025-07-01 00:00:00
+2026-11-15 04:48:19,582 - freqtrade.data.dataprovider - INFO - Loading data for TRX/USDT 1h from 2024-12-13 07:00:00 to 2025-07-01 00:00:00
+2026-11-15 04:48:19,610 - freqtrade.data.dataprovider - INFO - Loading data for LINK/USDT 1h from 2024-12-13 07:00:00 to 2025-07-01 00:00:00
+2026-11-15 04:48:19,638 - freqtrade.data.dataprovider - INFO - Loading data for AVAX/USDT 1h from 2024-12-13 07:00:00 to 2025-07-01 00:00:00
+2026-11-15 04:48:19,666 - freqtrade.data.dataprovider - INFO - Loading data for LTC/USDT 1h from 2024-12-13 07:00:00 to 2025-07-01 00:00:00
+2026-11-15 04:48:19,694 - freqtrade.data.dataprovider - INFO - Loading data for DOT/USDT 1h from 2024-12-13 07:00:00 to 2025-07-01 00:00:00
+2026-11-15 04:48:21,947 - freqtrade.loggers.set_log_levels - INFO - Reducing verbosity for bias tester.
+2026-11-15 04:48:21,948 - freqtrade.optimize.analysis.lookahead - INFO - Found 294 trades, calculating 20 trades.
+2026-11-15 04:48:21,980 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 10:35:00 up to 2025-01-07 16:20:00 (8 days).
+2026-11-15 04:48:21,999 - freqtrade.data.dataprovider - INFO - Loading data for ADA/USDT 1h from 2024-12-13 07:00:00 to 2025-01-07 16:20:00
+2026-11-15 04:48:22,066 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 10:35:00 up to 2025-01-07 16:35:00 (8 days).
+2026-11-15 04:48:22,081 - freqtrade.data.dataprovider - INFO - Loading data for ADA/USDT 1h from 2024-12-13 07:00:00 to 2025-01-07 16:35:00
+2026-11-15 04:48:22,154 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 10:35:00 up to 2025-01-07 17:55:00 (8 days).
+2026-11-15 04:48:22,170 - freqtrade.data.dataprovider - INFO - Loading data for ADA/USDT 1h from 2024-12-13 07:00:00 to 2025-01-07 17:55:00
+2026-11-15 04:48:22,237 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 10:35:00 up to 2025-01-07 21:10:00 (8 days).
+2026-11-15 04:48:22,253 - freqtrade.data.dataprovider - INFO - Loading data for ADA/USDT 1h from 2024-12-13 07:00:00 to 2025-01-07 21:10:00
+2026-11-15 04:48:22,329 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 10:35:00 up to 2025-01-07 18:55:00 (8 days).
+2026-11-15 04:48:22,344 - freqtrade.data.dataprovider - INFO - Loading data for DOT/USDT 1h from 2024-12-13 07:00:00 to 2025-01-07 18:55:00
+2026-11-15 04:48:22,409 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 10:35:00 up to 2025-01-07 21:15:00 (8 days).
+2026-11-15 04:48:22,424 - freqtrade.data.dataprovider - INFO - Loading data for DOT/USDT 1h from 2024-12-13 07:00:00 to 2025-01-07 21:15:00
+2026-11-15 04:48:22,500 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 10:35:00 up to 2025-01-07 18:50:00 (8 days).
+2026-11-15 04:48:22,516 - freqtrade.data.dataprovider - INFO - Loading data for DOGE/USDT 1h from 2024-12-13 07:00:00 to 2025-01-07 18:50:00
+2026-11-15 04:48:22,587 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 10:35:00 up to 2025-01-07 21:20:00 (8 days).
+2026-11-15 04:48:22,606 - freqtrade.data.dataprovider - INFO - Loading data for DOGE/USDT 1h from 2024-12-13 07:00:00 to 2025-01-07 21:20:00
+2026-11-15 04:48:22,695 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 10:35:00 up to 2025-01-07 22:05:00 (8 days).
+2026-11-15 04:48:22,712 - freqtrade.data.dataprovider - INFO - Loading data for ADA/USDT 1h from 2024-12-13 07:00:00 to 2025-01-07 22:05:00
+2026-11-15 04:48:22,782 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 10:35:00 up to 2025-01-07 22:45:00 (8 days).
+2026-11-15 04:48:22,798 - freqtrade.data.dataprovider - INFO - Loading data for ADA/USDT 1h from 2024-12-13 07:00:00 to 2025-01-07 22:45:00
+2026-11-15 04:48:22,879 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 10:35:00 up to 2025-01-08 17:45:00 (9 days).
+2026-11-15 04:48:22,896 - freqtrade.data.dataprovider - INFO - Loading data for ADA/USDT 1h from 2024-12-13 07:00:00 to 2025-01-08 17:45:00
+2026-11-15 04:48:22,971 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 10:35:00 up to 2025-01-08 17:45:00 (9 days).
+2026-11-15 04:48:22,988 - freqtrade.data.dataprovider - INFO - Loading data for ADA/USDT 1h from 2024-12-13 07:00:00 to 2025-01-08 17:45:00
+2026-11-15 04:48:23,073 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 10:35:00 up to 2025-01-16 00:45:00 (16 days).
+2026-11-15 04:48:23,100 - freqtrade.data.dataprovider - INFO - Loading data for LTC/USDT 1h from 2024-12-13 07:00:00 to 2025-01-16 00:45:00
+2026-11-15 04:48:23,183 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 10:35:00 up to 2025-01-16 01:10:00 (16 days).
+2026-11-15 04:48:23,210 - freqtrade.data.dataprovider - INFO - Loading data for LTC/USDT 1h from 2024-12-13 07:00:00 to 2025-01-16 01:10:00
+2026-11-15 04:48:23,302 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 10:35:00 up to 2025-01-18 06:10:00 (18 days).
+2026-11-15 04:48:23,344 - freqtrade.data.dataprovider - INFO - Loading data for LTC/USDT 1h from 2024-12-13 07:00:00 to 2025-01-18 06:10:00
+2026-11-15 04:48:23,477 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 10:35:00 up to 2025-01-18 06:40:00 (18 days).
+2026-11-15 04:48:23,506 - freqtrade.data.dataprovider - INFO - Loading data for LTC/USDT 1h from 2024-12-13 07:00:00 to 2025-01-18 06:40:00
+2026-11-15 04:48:23,604 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 10:35:00 up to 2025-01-19 09:35:00 (19 days).
+2026-11-15 04:48:23,634 - freqtrade.data.dataprovider - INFO - Loading data for DOT/USDT 1h from 2024-12-13 07:00:00 to 2025-01-19 09:35:00
+2026-11-15 04:48:23,725 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 10:35:00 up to 2025-01-19 09:50:00 (19 days).
+2026-11-15 04:48:23,755 - freqtrade.data.dataprovider - INFO - Loading data for DOT/USDT 1h from 2024-12-13 07:00:00 to 2025-01-19 09:50:00
+2026-11-15 04:48:23,856 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 10:35:00 up to 2025-01-19 11:50:00 (20 days).
+2026-11-15 04:48:23,886 - freqtrade.data.dataprovider - INFO - Loading data for DOGE/USDT 1h from 2024-12-13 07:00:00 to 2025-01-19 11:50:00
+2026-11-15 04:48:23,977 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 10:35:00 up to 2025-01-19 12:10:00 (20 days).
+2026-11-15 04:48:24,022 - freqtrade.data.dataprovider - INFO - Loading data for DOGE/USDT 1h from 2024-12-13 07:00:00 to 2025-01-19 12:10:00
+2026-11-15 04:48:24,170 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 10:35:00 up to 2025-01-19 22:45:00 (20 days).
+2026-11-15 04:48:24,201 - freqtrade.data.dataprovider - INFO - Loading data for SOL/USDT 1h from 2024-12-13 07:00:00 to 2025-01-19 22:45:00
+2026-11-15 04:48:24,291 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 10:35:00 up to 2025-01-19 23:00:00 (20 days).
+2026-11-15 04:48:24,322 - freqtrade.data.dataprovider - INFO - Loading data for SOL/USDT 1h from 2024-12-13 07:00:00 to 2025-01-19 23:00:00
+2026-11-15 04:48:24,428 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 10:35:00 up to 2025-01-19 23:35:00 (20 days).
+2026-11-15 04:48:24,460 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1h from 2024-12-13 07:00:00 to 2025-01-19 23:35:00
+2026-11-15 04:48:24,553 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 10:35:00 up to 2025-01-19 23:35:00 (20 days).
+2026-11-15 04:48:24,585 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1h from 2024-12-13 07:00:00 to 2025-01-19 23:35:00
+2026-11-15 04:48:24,687 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 10:35:00 up to 2025-01-19 23:35:00 (20 days).
+2026-11-15 04:48:24,718 - freqtrade.data.dataprovider - INFO - Loading data for LTC/USDT 1h from 2024-12-13 07:00:00 to 2025-01-19 23:35:00
+2026-11-15 04:48:24,816 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 10:35:00 up to 2025-01-19 23:35:00 (20 days).
+2026-11-15 04:48:24,859 - freqtrade.data.dataprovider - INFO - Loading data for LTC/USDT 1h from 2024-12-13 07:00:00 to 2025-01-19 23:35:00
+2026-11-15 04:48:25,015 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 10:35:00 up to 2025-01-19 23:45:00 (20 days).
+2026-11-15 04:48:25,069 - freqtrade.data.dataprovider - INFO - Loading data for LTC/USDT 1h from 2024-12-13 07:00:00 to 2025-01-19 23:45:00
+2026-11-15 04:48:25,212 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 10:35:00 up to 2025-01-19 23:45:00 (20 days).
+2026-11-15 04:48:25,266 - freqtrade.data.dataprovider - INFO - Loading data for LTC/USDT 1h from 2024-12-13 07:00:00 to 2025-01-19 23:45:00
+2026-11-15 04:48:25,423 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 10:35:00 up to 2025-01-19 23:35:00 (20 days).
+2026-11-15 04:48:25,476 - freqtrade.data.dataprovider - INFO - Loading data for AVAX/USDT 1h from 2024-12-13 07:00:00 to 2025-01-19 23:35:00
+2026-11-15 04:48:25,581 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 10:35:00 up to 2025-01-19 23:50:00 (20 days).
+2026-11-15 04:48:25,634 - freqtrade.data.dataprovider - INFO - Loading data for AVAX/USDT 1h from 2024-12-13 07:00:00 to 2025-01-19 23:50:00
+2026-11-15 04:48:25,780 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 10:35:00 up to 2025-01-19 23:10:00 (20 days).
+2026-11-15 04:48:25,833 - freqtrade.data.dataprovider - INFO - Loading data for SOL/USDT 1h from 2024-12-13 07:00:00 to 2025-01-19 23:10:00
+2026-11-15 04:48:25,965 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 10:35:00 up to 2025-01-19 23:55:00 (20 days).
+2026-11-15 04:48:26,018 - freqtrade.data.dataprovider - INFO - Loading data for SOL/USDT 1h from 2024-12-13 07:00:00 to 2025-01-19 23:55:00
+2026-11-15 04:48:26,168 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 10:35:00 up to 2025-01-19 23:40:00 (20 days).
+2026-11-15 04:48:26,220 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1h from 2024-12-13 07:00:00 to 2025-01-19 23:40:00
+2026-11-15 04:48:26,339 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 10:35:00 up to 2025-01-20 00:25:00 (20 days).
+2026-11-15 04:48:26,392 - freqtrade.data.dataprovider - INFO - Loading data for XRP/USDT 1h from 2024-12-13 07:00:00 to 2025-01-20 00:25:00
+2026-11-15 04:48:26,544 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 10:35:00 up to 2025-01-19 23:30:00 (20 days).
+2026-11-15 04:48:26,598 - freqtrade.data.dataprovider - INFO - Loading data for ADA/USDT 1h from 2024-12-13 07:00:00 to 2025-01-19 23:30:00
+2026-11-15 04:48:26,738 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 10:35:00 up to 2025-01-20 02:05:00 (20 days).
+2026-11-15 04:48:26,791 - freqtrade.data.dataprovider - INFO - Loading data for ADA/USDT 1h from 2024-12-13 07:00:00 to 2025-01-20 02:05:00
+2026-11-15 04:48:26,949 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 10:35:00 up to 2025-01-19 23:00:00 (20 days).
+2026-11-15 04:48:26,998 - freqtrade.data.dataprovider - INFO - Loading data for DOT/USDT 1h from 2024-12-13 07:00:00 to 2025-01-19 23:00:00
+2026-11-15 04:48:27,133 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 10:35:00 up to 2025-01-20 02:10:00 (20 days).
+2026-11-15 04:48:27,185 - freqtrade.data.dataprovider - INFO - Loading data for DOT/USDT 1h from 2024-12-13 07:00:00 to 2025-01-20 02:10:00
+2026-11-15 04:48:27,340 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 10:35:00 up to 2025-01-19 23:20:00 (20 days).
+2026-11-15 04:48:27,393 - freqtrade.data.dataprovider - INFO - Loading data for DOGE/USDT 1h from 2024-12-13 07:00:00 to 2025-01-19 23:20:00
+2026-11-15 04:48:27,529 - freqtrade.optimize.backtesting - INFO - Loading data from 2024-12-30 10:35:00 up to 2025-01-20 02:10:00 (20 days).
+2026-11-15 04:48:27,583 - freqtrade.data.dataprovider - INFO - Loading data for DOGE/USDT 1h from 2024-12-13 07:00:00 to 2025-01-20 02:10:00
+2026-11-15 04:48:27,675 - freqtrade.optimize.analysis.lookahead - INFO - Found targeted trade amount = 20 signals.
+2026-11-15 04:48:27,675 - freqtrade.loggers.set_log_levels - INFO - Restoring log verbosity.
+2026-11-15 04:48:27,675 - freqtrade.optimize.analysis.lookahead - INFO - abbas94: no bias detected
+2026-11-15 04:48:27,675 - freqtrade.optimize.analysis.lookahead_helpers - INFO - Checking look ahead bias via backtests of abbas94.py took 11 seconds.
+Analyzing trades ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 20/20 100% • 0:00:05 • 0:00:00
+                                                 Lookahead Analysis                                                  
+┏━━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┓
+┃   filename ┃ strategy ┃ has_bias ┃ total_signals ┃ biased_entry_signals ┃ biased_exit_signals ┃ biased_indicators ┃
+┡━━━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━┩
+│ abbas94.py │  abbas94 │       No │            20 │                    0 │                   0 │                   │
+└────────────┴──────────┴──────────┴───────────────┴──────────────────────┴─────────────────────┴───────────────────┘

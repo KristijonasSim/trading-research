@@ -1,0 +1,9 @@
+abbasPublic LA: │ abbasPublic.py │ abbasPublic │ No │ 20 │ 0 │ 0 │ │ 0
+abbasPublic 2020 plain: │ CAGR % │ 67.92% │ │ Absolute drawdown │ 103.51 USDT (9.56%) │ │ Absolute drawdown (wallet balance) │ 129.692 USDT (7.97%) │ 
+abbasPublic 2020 --timeframe-detail 1m: │ CAGR % │ 69.43% │ │ Absolute drawdown │ 123.957 USDT (11.69%) │ │ Absolute drawdown (wallet balance) │ 133.053 USDT (12.50%) │ 
+abbasPublic top9: │ CAGR % │ 70.72% │ │ Absolute drawdown │ 2136.781 USDT (28.73%) │ │ Absolute drawdown (wallet balance) │ 2321.584 USDT (31.16%) │ 
+abbas94 LA: │ abbas94.py │ abbas94 │ No │ 20 │ 0 │ 0 │ │ 0
+abbas94 2020 plain: │ CAGR % │ 61.81% │ │ Absolute drawdown │ 172.676 USDT (15.55%) │ │ Absolute drawdown (wallet balance) │ 180.624 USDT (16.26%) │ 
+abbas94 2020 --timeframe-detail 1m: │ CAGR % │ 52.11% │ │ Absolute drawdown │ 196.552 USDT (17.94%) │ │ Absolute drawdown (wallet balance) │ 202.113 USDT (18.45%) │ 
+abbas94 top9: │ CAGR % │ 67.06% │ │ Absolute drawdown │ 3504.436 USDT (37.74%) │ │ Absolute drawdown (wallet balance) │ 3562.302 USDT (38.43%) │ 
+CHECKS_DONE

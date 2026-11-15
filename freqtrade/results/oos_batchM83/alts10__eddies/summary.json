@@ -1,0 +1,23 @@
+{
+  "strategy": "eddies",
+  "mode": "spot",
+  "group": "alts10",
+  "timeframe": "5m",
+  "style": "day trading",
+  "avg_trade_hours": 3.0,
+  "trades": 921,
+  "trades_per_year": 239.1,
+  "total_return_pct": 351.6,
+  "cagr_pct": 47.9,
+  "yearly_pct": {
+    "2018": 23.9,
+    "2019": 8.6,
+    "2020": 32.6,
+    "2021": 153.0
+  },
+  "max_drawdown_pct": 24.9,
+  "win_rate_pct": 64.8,
+  "profit_factor": 1.91,
+  "market_change_pct": 3171.7,
+  "timerange": "20180101-20211108"
+}

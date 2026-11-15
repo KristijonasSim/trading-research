@@ -2,6 +2,13 @@
 
 Atnaujinama kas ~8 val. Naujausias įrašas viršuje.
 
+## 2026-11-15 09:15
+- Nuo praeito karto ištestuota ~700 strategijų (14 partijų).
+- **Rasta 2 naujos geros:** abbasPublic (nr. 21, +20 %/m., kritimas 9 %) ir eddies (nr. 22, +17 %/m., kritimas 9 %, kasmet pliuse). Laiškai išsiųsti.
+- Atmesta ~25 strategijos su netikrais rezultatais (daugiausia vienos šeimos „ichi“ versijos) ir kelios jau rastų kopijos.
+- Dabar: liko 4 partijos, po jų automatiškai prasidės 117 naujų strategijų iš 41 naujo GitHub rinkinio.
+- Bybit demo botas veikia, sandorių vis dar 0.
+
 ## 2026-11-15 01:15
 - Nuo praeito karto ištestuota ~600 strategijų (12 partijų).
 - **Rasta 2 naujos geros:** dvi EI3v2 versijos (nr. 19; balansas 2020 m. buvo nukritęs ~40 %) ir KeltnerRSI (nr. 20, altcoin'ai, +18 %/m.). Laiškai išsiųsti.

@@ -1,0 +1,23 @@
+{
+  "strategy": "abbas94",
+  "mode": "spot",
+  "group": "alts10",
+  "timeframe": "5m",
+  "style": "scalping",
+  "avg_trade_hours": 0.7,
+  "trades": 5898,
+  "trades_per_year": 1531.1,
+  "total_return_pct": 588.4,
+  "cagr_pct": 65.0,
+  "yearly_pct": {
+    "2018": 63.3,
+    "2019": 39.8,
+    "2020": 55.6,
+    "2021": 93.8
+  },
+  "max_drawdown_pct": 38.7,
+  "win_rate_pct": 79.5,
+  "profit_factor": 1.22,
+  "market_change_pct": 3171.7,
+  "timerange": "20180101-20211108"
+}

@@ -219,6 +219,12 @@ Patikros:
 - ⚠️ Su originaliu abbas nedera leisti kartu – panašūs sandoriai.
 - Failas `best_strategies/abbasPublic.py`.
 
+## 22. eddies (Freqtrade, altcoin'ai, 5m) – pridėta 2026-11-15
+- 2021–26 (alts10): **+16,8 %/m., kritimas 9 %**, tik 276 sandoriai (2021 +12, 2022 +2, 2023 +5, 2024 +24, 2025 +43, 2026 +2) – kasmet pliuse.
+- Nematytas 2018–21: 2018 m. top 9 +45 %/m. (kritimas 23 %, balanso 28 %); alts10 kasmet pliuse (2018 +24 %, 2019 +9 %, 2020 +33 %).
+- Lookahead 0/20; 1 min. detalumas 2020: +36,1 % → +35,8 % (nesikeičia).
+- Šaltinis: remiotore/ccxt-freqtrade. Failas `best_strategies/eddies.py`.
+
 ## Potencialūs, bet rizikingi
 | Strategija | Rinka | %/m | Max kritimas | Kodėl ne pagrindiniame sąraše |
 |---|---|---|---|---|
