@@ -161,6 +161,7 @@ Patikros:
 - Nematytas 2018–21: top 10 +99 %/m. (kritimas 3,4 %), **2018 m. top 9 +55 %/m.**.
 - Lookahead 0/20; 1 min. detalumas: 2020: +69 % → +50 %.
 - ⚠️ balanso kritimas (su atvirais sandoriais) iki 31–38 %.
+- ✅ Išgyvenusiųjų patikra (2021-11 top 20 su LUNA, FTT): +19,8 %/m., balanso kritimas 27 %.
 - Šaltinis: remiotore/ccxt-freqtrade. Failas `best_strategies/DS_Green_5m.py`.
 
 ## 14. NS4_dca (Freqtrade, altcoin'ai, 5m) – pridėta 2026-11-14
@@ -182,6 +183,7 @@ Patikros:
 - Nematytas 2018–21: top 10 +65 %/m. (21 %), **2018 m. top 9 +56 %/m.** (21 %).
 - Lookahead 0/20; 1 min. detalumas: 2020: +41 % → +40 %.
 - Mažiausias balanso kritimas iš šių (≤21 %).
+- ✅ Išgyvenusiųjų patikra (2021-11 top 20): +15,3 %/m., balanso kritimas tik 10 %.
 - Šaltinis: remiotore/ccxt-freqtrade. Failas `best_strategies/BearBull3.py`.
 
 ## 17. XSMomentumRotation (Freqtrade, BTC+ETH, 1d) – pridėta 2026-11-14
@@ -196,6 +198,7 @@ Patikros:
 - Nematytas 2018–21: top 10 +224 %/m. (kritimas 29 %), 2018 m. top 9 +130 %/m. – skaičiai išpūsti 2021 m. burbulo.
 - Lookahead 0/20; 1 min. detalumas 2020: +116 % → +80 % (~⅓ mažiau).
 - ⚠️ Balanso kritimas su atvirais sandoriais 38–43 % – rizikingiausia iš altcoin'ų sąrašo.
+- ✅/⚠️ Išgyvenusiųjų patikra (2021-11 top 20): +30,9 %/m., bet balanso kritimas 45 %.
 - Šaltinis: remiotore/ccxt-freqtrade. Failas `best_strategies/BSS2b.py`.
 
 ## 19. EI3v2_tag_cofi_green_2_4 ir _7 (Freqtrade, altcoin'ai, 5m) – pridėta 2026-11-14
@@ -203,12 +206,14 @@ Patikros:
 - Nematytas 2018–21: 2018 m. top 9 _2_4 +92 %/m., _7 +68 %/m.
 - Lookahead 0/20; 1 min. detalumas 2020: _2_4 +79 % → +57 %, _7 +44 % → +29 %.
 - ⚠️ 2020 m. kovo kritime balansas su atvirais sandoriais krito ~40 %. Rinktis vieną versiją, ne abi kartu su originalu (tie patys sandoriai).
+- ✅ Išgyvenusiųjų patikra (2021-11 top 20): **_2_4 +36,0 %/m.** (balanso kritimas 30 %), _7 +29,3 % (34 %).
 - Šaltinis: remiotore/ccxt-freqtrade. Failai `best_strategies/EI3v2_tag_cofi_green_2_4.py`, `..._7.py`.
 
 ## 20. KeltnerRSI (Freqtrade, altcoin'ai, 1d) – pridėta 2026-11-15
 - 2021–26 (alts10): **+18,4 %/m., kritimas 26 %**, 378 sandoriai (2021 −1, 2022 −20, 2023 +55, 2024 +122, 2025 −12, 2026 −3).
 - Nematytas 2018–21: 2018 m. top 9 +64 %/m. (kritimas 14 %, balanso 33 %); alts10 2018 −12 %, 2019 +42 %, 2020 +63 %.
 - Lookahead 0/20; 1 val. detalumas rezultato nekeičia (išeina tik pagal signalą).
+- ⚠️ Išgyvenusiųjų patikra (2021-11 top 20): +14,0 %/m., balanso kritimas 40 %.
 - ⚠️ Pelnas sukoncentruotas kilimo metais (2023–24, 2021), kritimo metais minuse. Paprasta trendo strategija: pirk, kai kaina pramuša Keltnerio kanalo viršų ir RSI aukštas.
 - Failas `best_strategies/KeltnerRSI.py`.
 
@@ -217,12 +222,14 @@ Patikros:
 - Nematytas 2018–21: 2018 m. top 9 +71 %/m. (kritimas 29 %, balanso 31 %); alts10 kasmet pliuse (2018 +36 %, 2019 +30 %, 2020 +61 %).
 - Lookahead 0/20; 1 min. detalumas 2020: +68 % → +69 % (nesikeičia).
 - ⚠️ Su originaliu abbas nedera leisti kartu – panašūs sandoriai.
+- ⚠️ Išgyvenusiųjų patikra (2021-11 top 20): +13,2 %/m., balanso kritimas 35 %.
 - Failas `best_strategies/abbasPublic.py`.
 
 ## 22. eddies (Freqtrade, altcoin'ai, 5m) – pridėta 2026-11-15
 - 2021–26 (alts10): **+16,8 %/m., kritimas 9 %**, tik 276 sandoriai (2021 +12, 2022 +2, 2023 +5, 2024 +24, 2025 +43, 2026 +2) – kasmet pliuse.
 - Nematytas 2018–21: 2018 m. top 9 +45 %/m. (kritimas 23 %, balanso 28 %); alts10 kasmet pliuse (2018 +24 %, 2019 +9 %, 2020 +33 %).
 - Lookahead 0/20; 1 min. detalumas 2020: +36,1 % → +35,8 % (nesikeičia).
+- ❌ Išgyvenusiųjų patikra (2021-11 top 20): tik +7,0 %/m., balanso kritimas 45 % – rezultatą išpūtė dabartinių monetų sąrašas.
 - Šaltinis: remiotore/ccxt-freqtrade. Failas `best_strategies/eddies.py`.
 
 ## Potencialūs, bet rizikingi
