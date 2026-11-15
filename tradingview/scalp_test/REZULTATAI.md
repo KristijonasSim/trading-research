@@ -59,3 +59,9 @@ Sverto kaina 6 %/m. nuo skolintos dalies. 40–50 %/m. pasiekiama tik su 4x ir d
 | 3x | +11,8 %, 24 % | 16 0, 17 +6, **18 +86**, 19 −11, 20 +5 | **~+20 %/m.**, kritimas ~27 % |
 | 4x | +12,9 %, 32 % | 16 −2, 17 +6, **18 +121**, 19 −16, 20 +4 | **~+24 %/m.**, kritimas ~36 % |
 Pelnas ateina neramiais metais (2018, 2022 – rinka krenta ir labai svyruoja), ramiais (2016–17, 2019, 2024, 2026) ~0. 40–50 %/m. – ne vidurkis, o geri metai. Gali papildyti kripto botus (2022 m. kripto krito, šis +92…+130 %).
+
+## Noise Breakout ant pavienių akcijų (`stocks.py`, `stocks.txt`, 2026-11-15) – ❌
+9 akcijos (TSLA, NVDA, AMD, PLTR, NFLX, AMZN, AAPL, MSFT, GOOGL), Dukascopy CFD 5m 2021–26, kaštai 0,01 / 0,02 % į pusę.
+- Portfelis lygiomis dalimis: 2021–24 +2…+6 %/m., 2025–26 −4…−1 % (2x dar blogiau).
+- Gerai tik TSLA (kas 30 min. 2021–24 +33…+40 %/m., 2025–26 +6…+12 %, kritimas ~25 %) ir AMD (+14…+24 %, 2025–26 ~0…+10). AAPL, MSFT, GOOGL, AMZN, PLTR – minuse.
+- Rinktis TSLA iš 9 = atrankos sėkmė; indeksas (NAS100) lieka geriausia rinka šiai strategijai.

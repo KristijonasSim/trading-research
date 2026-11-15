@@ -385,3 +385,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 2026-11-15: išgyvenusiųjų patikra naujoms: EI3v2_2_4 +36,0, BSS2b +30,9, EI3v2_7 +29,3, DS_Green +19,8, BearBull3 +15,3 ✅; KeltnerRSI +14,0, abbasPublic +13,2 ⚠️; eddies +7,0 ❌. NS4_dca/NFI7HO2 kartojama (atmintis).
 - 2026-11-15: #111 volatilumo taikymas su svertu (QQQ 3–4x) ❌ – 2010–26 +25…+43 %, bet 1999–2009 ~0, kritimai iki 86 %.
 - 2026-11-15: Noise Breakout 3–4x patikra 2016–21: tik +12…+13 %/m.; visas 2016–26 ~+20…+24 %/m., kritimas 27–36 %; pelnas 2018 ir 2022 m.
+- 2026-11-15: #112 Noise Breakout ant 9 akcijų ❌ (portfelis +2…+6 %, gerai tik TSLA/AMD).
