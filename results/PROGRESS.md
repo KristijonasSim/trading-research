@@ -383,3 +383,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 2026-11-15: #106 akcijų atšokimas S&P 500 (Connors RSI2, dienos kritimas) ❌; #107 Connors 7 ETF sistemos ant 3x ETF ❌ (portfelis 2020–26 +20…+34 %, bet 2010–19 silpnai, kritimai 40–80 %). Vartotojas ieško rizikingos akcijų strategijos 40–50 %/m.
 - 2026-11-15: #110 HFEA/LRR ❌. Noise Breakout NAS100 su svertu (tradingview/scalp_test/lev.py): 3x 2021–24 +37 %/m. (kritimas 23 %), 4x +48 % (30 %), bet 2025–26 tik +11 % → rizikingų sąraše.
 - 2026-11-15: išgyvenusiųjų patikra naujoms: EI3v2_2_4 +36,0, BSS2b +30,9, EI3v2_7 +29,3, DS_Green +19,8, BearBull3 +15,3 ✅; KeltnerRSI +14,0, abbasPublic +13,2 ⚠️; eddies +7,0 ❌. NS4_dca/NFI7HO2 kartojama (atmintis).
+- 2026-11-15: #111 volatilumo taikymas su svertu (QQQ 3–4x) ❌ – 2010–26 +25…+43 %, bet 1999–2009 ~0, kritimai iki 86 %.

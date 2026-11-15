@@ -13,3 +13,6 @@ Kas mėnesį indekso dalis = tikslinis volatilumas (15 %) / praeito mėnesio vol
 - Po paskelbimo (2016–26) veikia, kaip žadėta: grąža panaši į laikymą arba šiek tiek mažesnė, o kritimas ~40 % mažesnis. 2000–03 m. QQQ −21 %/m. → −2 %/m.
 - Grąža laikymo nelenkia (išskyrus 5 m. langą), todėl į atrinktus (≥14 %/m.) nepatenka. Tai **rizikos valdymo taisyklė**, kurią galima uždėti ant QQQ/SPY pozicijos (QLD su svertu iki 2x).
 - 1/dispersija (originali formulė) per daug sumažina poziciją po krizių, todėl praranda atšokimą (2020 m. −2 % vs SPY +18 %).
+
+## Agresyvus variantas (2026-11-15, `lev.py`, `REZULTATAI_lev.txt`)
+QQQ tikslinis volatilumas 30–45 %, iki 3–4x: 2010–19 +30…+43 %/m., 2020–26 +25…+35 %, **bet 1999–2009 −2…+4 %, kritimai 68–86 %**. Su SMA200 filtru 1999–2009 vis tiek ~0 (kritimai 46–69 %), o 2010–19 tik +18…+22 %. SPY silpniau. 40–50 %/m. tik geruose dešimtmečiuose.
