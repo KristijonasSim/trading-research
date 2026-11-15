@@ -118,3 +118,6 @@ Kripto duomenys: Binance (spot/futures, 1h/1d, visos USDT poros su istorija). Ak
 | 113 | Atšokimas po didelio dienos kritimo/šuolio kripto top 10 (Caporale, Plastun 2019 „one-day price jumps“) | kripto | ❌ atmesta (2021–26 max +12 %/m.) |
 | 114 | Kripto žemos beta prieš BTC (betting-against-beta), top 50, savaitinis | kripto | ❌ atmesta (2021–26 minuse) |
 | 115 | Kripto grąžų asimetrija (skewness): pirkti mažiausios asimetrijos monetas, top 50 | kripto | ❌ atmesta (2021–26 +23 %, bet 2018–21 −8 %) |
+| 116 | NASDAQ-100 ↔ BTC taktinė rotacija (Quantpedia 2026 „Silicon vs. Satoshi“) | kripto, akcijos | ❌ atmesta (2021–26 kritimas ≥52 %) |
+| 117 | BTC prieššventinis dreifas (JAV šventės; Quantpedia 2025) | kripto | ❌ atmesta (≤ +12 %/m., 2018–21 nėra efekto) |
+| 118 | BTC kelių laikotarpių MACD trendas (Quantpedia 2025, 1d + 1w filtras) | kripto | laukia |
