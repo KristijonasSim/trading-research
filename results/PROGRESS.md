@@ -381,3 +381,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 15:30 straipsnis 102 (funding atsiskaitymo efektas) atmestas; eilė papildyta 103–105 (kita sesija neaktyvi 31 val.).
 - 16:00 straipsnis 104 (trendo ansamblis) atmestas: 2021–26 +6…+8 %/m.
 - 2026-11-15: #106 akcijų atšokimas S&P 500 (Connors RSI2, dienos kritimas) ❌; #107 Connors 7 ETF sistemos ant 3x ETF ❌ (portfelis 2020–26 +20…+34 %, bet 2010–19 silpnai, kritimai 40–80 %). Vartotojas ieško rizikingos akcijų strategijos 40–50 %/m.
+- 2026-11-15: #110 HFEA/LRR ❌. Noise Breakout NAS100 su svertu (tradingview/scalp_test/lev.py): 3x 2021–24 +37 %/m. (kritimas 23 %), 4x +48 % (30 %), bet 2025–26 tik +11 % → rizikingų sąraše.

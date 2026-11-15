@@ -41,3 +41,13 @@ Išvada: indeksuose dažnai laiminčios scalping strategijos po kaštų pralaimi
 | GER40 (9:00–17:30 Berlyno) | +4,5 %, 8,3 % | +4,2 %, 6,7 % | silpna |
 | XAUUSD (NY 8:20–13:30 / Londonas 8:00–16:30) | ~0 % | ~0 % arba − | netinka |
 Pozicijos dydis pagal svyravimą (tikslas 1–2 %/d., iki 1x/2x): rizikos ir grąžos santykio nepagerino.
+
+## Su svertu (`lev.py`, 2026-11-15, Dukascopy NAS100 5m iki 2026-11-13)
+| Svertas | 2021-03 – 2024 | 2025 – 2026-11 | Metai |
+|---|---|---|---|
+| 1x | +15,0 %/m., kritimas 5,6 % | +7,6 %, 6,5 % | 21 +10, 22 +30, 23 +11, 24 +5, 25 +11, 26 +3 |
+| 2x | +25,8 %, 14 % | +9,8 %, 17 % | 22 +59, 26 +1 |
+| 3x | +36,8 %, 23 % | +11,1 %, 27 % | 22 +92, 24 +6, 25 +23, 26 −1 |
+| 4x | +47,6 %, 30 % | +11,5 %, 36 % | 22 +130, 24 +5, 25 +27, 26 −3 |
+| Autorių dinaminis (2 %/d., iki 4x) | +18,6 %, 15 % | +5,6 %, 18 % | |
+Sverto kaina 6 %/m. nuo skolintos dalies. 40–50 %/m. pasiekiama tik su 4x ir daugiausia dėl 2022 m. (+130 %); 2024 ir 2026 ~0. Praktiškai: 1 MNQ (mikro Nasdaq ateities sandoris, ~45–50 tūkst. $ vertės) su ~15 tūkst. € sąskaita ≈ 3x; kaštai mažesni nei CFD spread'as.
