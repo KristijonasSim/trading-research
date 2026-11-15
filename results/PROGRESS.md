@@ -358,3 +358,8 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 ## 2026-11-15 07:30 – batchM77–M81
 - UsdcmbeSpot2403 (Heikin-Ashi perrašo kainas) ir asd (argrelextrema) atmestos.
 - abbasPublic (alts10 +20 %/m., kritimas 9 %) ir abbas94 (+25,9 %/m., 11 %) – atrinktos abbas (nr. 8) giminaičiai. Nematytas 2018–21: abbasPublic +79 %/m. (kritimas 26,5 %), abbas94 +65 %/m. (kritimas 38,7 % – per didelis). Vyksta lookahead / 1m / top9.
+
+## 2026-11-15 09:00 – patikros
+- **abbasPublic išlaikė**: lookahead 0/20, 1m 2020 +68 → +69 %, 2018 top 9 +71 %/m. (kritimas 29–31 %). → ATRINKTI_BOTAI nr. 21.
+- abbas94: švari, bet 2018–21 kritimas 38–39 % → rizikingų sąraše.
+- batchM82–M86: ~20 ichi* versijų (Heikin-Ashi perrašo kainas), lookahead_strategy, mp – atmesta; keltnerchannelrsi (=KeltnerRSI), lafuria (=EI3v2) – kopijos. eddies (alts10 +16,8 %/m., kritimas 9 %): 2018–21 +48 %/m. (kritimas 25 %), vyksta lookahead / 1m / top9.

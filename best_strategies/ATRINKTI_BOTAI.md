@@ -212,6 +212,13 @@ Patikros:
 - ⚠️ Pelnas sukoncentruotas kilimo metais (2023–24, 2021), kritimo metais minuse. Paprasta trendo strategija: pirk, kai kaina pramuša Keltnerio kanalo viršų ir RSI aukštas.
 - Failas `best_strategies/KeltnerRSI.py`.
 
+## 21. abbasPublic (Freqtrade, altcoin'ai, 5m) – pridėta 2026-11-15
+- abbas (nr. 8) versija. 2021–26 (alts10): **+20 %/m., kritimas 9,3 %**, 3117 sandorių (2021 +2, 2022 +6, 2023 +15, 2024 +26, 2025 +62, 2026 −2).
+- Nematytas 2018–21: 2018 m. top 9 +71 %/m. (kritimas 29 %, balanso 31 %); alts10 kasmet pliuse (2018 +36 %, 2019 +30 %, 2020 +61 %).
+- Lookahead 0/20; 1 min. detalumas 2020: +68 % → +69 % (nesikeičia).
+- ⚠️ Su originaliu abbas nedera leisti kartu – panašūs sandoriai.
+- Failas `best_strategies/abbasPublic.py`.
+
 ## Potencialūs, bet rizikingi
 | Strategija | Rinka | %/m | Max kritimas | Kodėl ne pagrindiniame sąraše |
 |---|---|---|---|---|
@@ -231,11 +238,13 @@ Patikros:
 | Turtle S2 (55/20) | BTC+ETH spot, 1d | 14,5 | 30 % | 2022 −18 %, 2018–21 +74 %/m. (kritimas 49 %). `papers/18_turtle/` |
 | VolatilitySystem | BTC+ETH futures, 1h | 69,8 | 53,4 % | 2x svertas, be stop-loss; ant altcoin'ų tik +0,6 %/m.; 2026 m. −0,2 %. Lookahead švari. Failas `VolatilitySystem.py`. |
 | EI3v2_tag_cofi_green ant 3x ETF, 1d | 18 sintetinių 3x ETF (TQQQ, UPRO, NUGT, JNUG…) | 13,5 | 14,5 % | Žemiau 14 %; grafikas parinktas iš 4 bandytų. Kasmet teigiama. Žr. `etf3x/README.md`. |
+| abbas94 | alts10 spot, 5m | 25,9 | 11 % | abbas versija. Švari (lookahead 0/20), 1m 2020 +62 → +52 %, bet nematytame 2018–21 kritimas 38–39 % (2018 m. top 9 +67 %/m.). |
 | FlashCrashScalper | alts10 spot, 5m | 19,4 | 28,5 % | Perka po staigaus −5 % kritimo, parduoda po 6 val. Švari (lookahead 0/20), 1m detalumas tas pats, 2018–21 +90 %/m., 2018 m. top 9 +41 %/m., bet kritimas 34–39 %. Autorius pats vadina eksperimentine; tikri užpildymai per griūtis blogesni. hassannazir2536/TrendRider |
 | CrashReversal | alts10 spot, 1h | 16,2 | 17,4 % | Perka po −8 % per 24 val., laiko 24 val. Švari, bet 2018–21 pelnas tik iš 2021 (2018, 2020 minuse), 2018 m. top 9 kritimas 57 %. |
 | TSMomentum | BTC+ETH spot, 1d | 16,8 | 13,4 % | Švari, 2018–21 +68 %/m., bet 2018 −36 %, 2021–22 minuse. Kblack0610 |
 
 ## Atmesti (kad netestuotume iš naujo)
+- ichi*/ichiV* šeima, lookahead_strategy, mp (Heikin-Ashi / ateities duomenys); keltnerchannelrsi = KeltnerRSI, lafuria = EI3v2 kopijos.
 - UsdcmbeSpot2403 (Heikin-Ashi), asd (argrelextrema); RsiquiV5_2 (np.gradient – ateities duomenys); JT_V04 (1 min. detalumas: pelnas dingsta); MergedStrategy, NimmV20 (Heikin-Ashi perrašo kainas); NOTankAi_15_2 (argrelextrema).
 - IchisV1 / IchisV1_2 (+498 %/m., kritimas 1 %) – perrašo kainas Heikin-Ashi reikšmėmis, rezultatas netikras.
 - Advanced_Ichimoku_4 (batchM47): +300 %/m. su 1,6 % kritimu – perrašo kainas Heikin-Ashi, netikra.
