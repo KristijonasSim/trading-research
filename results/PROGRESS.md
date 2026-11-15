@@ -350,3 +350,7 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 ## 2026-11-15 03:00 – batchM74–M75
 - RsiquiV5_2 atmesta: np.gradient naudoja kitą žvakę (ateities duomenys); be to, 5x svertas su short.
 - SMAOffset_2/_3/_4 – ta pati logika kaip atrinktos SMAO (nr. 10), skiriasi tik stop-loss (−25…−50 %); nauda neaiški, netestuojama atskirai.
+
+## 2026-11-15 05:10 – nauji šaltiniai
+- batchM76: kandidatų nėra.
+- GitHub paieška (24 užklausos): 41 naujas repo → `freqtrade/sources_more8` (gitignored), 117 dar netestuotų strategijų → batchM92–M94. `queue8.sh` paleidžiama automatiškai, kai baigsis queue7 (`queue_next.sh`).
