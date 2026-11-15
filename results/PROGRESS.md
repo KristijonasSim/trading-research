@@ -368,3 +368,6 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 ## 2026-11-15 09:15
 - **eddies išlaikė**: lookahead 0/20, 1m 2020 +36,1 → +35,8 %, 2018 top 9 +45 %/m. (kritimas 23–28 %). → ATRINKTI_BOTAI nr. 22.
 - 09:14 laiškas išsiųstas: eddies (nr. 22).
+
+## 2026-11-15 11:00 – batchM88–M90
+- Tik Usdcmbespot (= UsdcmbeSpot2403, Heikin-Ashi perrašo kainas) – atmesta. Liko M91, tada queue8 (M92–M94).
