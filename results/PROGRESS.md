@@ -388,3 +388,10 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 2026-11-15: #112 Noise Breakout ant 9 akcijų ❌ (portfelis +2…+6 %, gerai tik TSLA/AMD).
 - 2026-11-15: Noise Breakout NAS100 3x + EI3v2 50/50: +25,7 %/m., mėn. kritimas 9 %, koreliacija 0,11 (combo_ei3.py).
 - 2026-11-15: išgyvenusiųjų patikra: NS4_dca +12,6 % ⚠️, NFI7HO2 +9,7 % ❌.
+
+## 2026-11-15 17:30
+- queue8b (M91–M94 futures perleidimas): kandidatų nėra. queue9 (senos partijos futures) eina – M10, M11, M14 baigtos.
+- Futures kandidatai atmesti: NOTankAi_Futures, el_extrema, el_extrema_rsiqui (argrelextrema), HurstCycleV5 (center=True + Heikin-Ashi), VVRPStrategyBETA0_1, IchiVwapAdx (bfill, +600–900 %/m. – netikra), NoTankAiV15D20241230 (NoTankAi šeima, +1600 %/m.).
+- **RegimeFilterStrategy** (alts10 futures 1h, +19,1 %/m., kritimas 31 %, long/short pramušimas): kodas švarus, vyksta lookahead / 2020–21 / 5m detalumas (`results/fut_check.sh`).
+- Straipsnis 105 (savaitgalio diapazono pramušimas) atmestas.
+- Pastaba: `futures/*-1h-funding_rate.feather` turi 2 stulpelius – freqtrade jų neperskaito (funding = 0 futures testuose).

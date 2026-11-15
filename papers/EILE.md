@@ -109,7 +109,7 @@ Kripto duomenys: Binance (spot/futures, 1h/1d, visos USDT poros su istorija). Ak
 | 102 | Funding atsiskaitymo efektas (kaina prieš/po 00/08/16 UTC), 12 perp 5m | kripto | ❌ atmesta (±1 bp, mokestis 10 bp; šablonas neatsikartoja) → `102_funding_settlement/REZULTATAI.md` |
 | 103 | JAV rinkos atidarymo (13:30 UTC) diapazono pramušimas, BTC/ETH 5m | kripto | laukia |
 | 104 | Trendo ansamblis (Hurst, Ooi, Pedersen 2017 „A Century of Evidence“): 1/3/12 mėn. signalų vidurkis, volatilumo taikymas, alts + 2018 top 9 | kripto | ❌ atmesta (2021–26 +6…+8 %/m., lenkia laikymą, kritimai 20–31 %) → `104_trend_ensemble/REZULTATAI.md` |
-| 105 | Savaitgalio diapazono pramušimas pirmadienį (BTC/ETH 1h) | kripto | laukia |
+| 105 | Savaitgalio diapazono pramušimas pirmadienį (BTC/ETH 1h) | kripto | ❌ atmesta (2021–26 neigiama arba +7 %/m. su 46 % kritimu) → `105_weekend_range/REZULTATAI.md` |
 | 106 | Akcijų atšokimas S&P 500: Connors RSI(2) < 5/2, didelis dienos kritimas (istorinė sudėtis) | akcijos | ❌ atmesta (2015–26 −4…+8,5 %/m. < SPY 13,5 %) → `106_stock_pullback/REZULTATAI.md` |
 | 107 | Connors „High Probability ETF Trading“ 7 sistemos ant 3x ETF (TQQQ, UPRO, TNA, SOXL, TECL), po vieną ir portfelis | ETF | ❌ atmesta (≤ +15 %/m. pavieniai; portfelis 2020–26 +20…+34 %, bet 2010–19 +5…+20 %, kritimai 40–80 %) → `107_connors_letf/REZULTATAI.md` |
 | 110 | Hedgefundie UPRO/TMF 55/45 ir Gayed „Leverage for the Long Run“ (3x kai > SMA200), sintetiniai nuo 1999 | ETF | ❌ atmesta (HFEA 2020–26 +7 %, kritimas 70 %; LRR 2020–26 +23…+32 %, bet 2000–09 ~0, kritimai 57–89 %) → `110_hfea_lrr/REZULTATAI.md` |
