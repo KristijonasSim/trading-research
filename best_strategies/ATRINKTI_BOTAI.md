@@ -255,7 +255,7 @@ Patikros:
 | FlashCrashScalper | alts10 spot, 5m | 19,4 | 28,5 % | Perka po staigaus −5 % kritimo, parduoda po 6 val. Švari (lookahead 0/20), 1m detalumas tas pats, 2018–21 +90 %/m., 2018 m. top 9 +41 %/m., bet kritimas 34–39 %. Autorius pats vadina eksperimentine; tikri užpildymai per griūtis blogesni. hassannazir2536/TrendRider |
 | CrashReversal | alts10 spot, 1h | 16,2 | 17,4 % | Perka po −8 % per 24 val., laiko 24 val. Švari, bet 2018–21 pelnas tik iš 2021 (2018, 2020 minuse), 2018 m. top 9 kritimas 57 %. |
 | TSMomentum | BTC+ETH spot, 1d | 16,8 | 13,4 % | Švari, 2018–21 +68 %/m., bet 2018 −36 %, 2021–22 minuse. Kblack0610 |
-| Noise Breakout NAS100 su 3–4x svertu (Zarattini, Aziz, Barbon 2024) | NAS100 / MNQ, dienos vidaus 5m | 37–48 (2021–24), 11 (2025–26) | 23–36 % | Vienintelis akcijų variantas arti 40–50 %/m., bet pelnas sukoncentruotas 2022 (+92…+130 %), 2024 ir 2026 ~0. Per naktį nelaiko. Jautru spread'ui. `tradingview/scalp_test/REZULTATAI.md` (lev.py) |
+| Noise Breakout NAS100 su 3–4x svertu (Zarattini, Aziz, Barbon 2024) | NAS100 / MNQ, dienos vidaus 5m | 20–24 (2016–26 vid.); 37–48 (2021–24), 11–13 (2016–21, 2025–26) | 27–36 % | Vienintelis akcijų variantas arti 40–50 %/m., bet tik neramiais metais: 2018 +86…+121 %, 2022 +92…+130 %; ramiais (2016–17, 2019, 2024, 2026) ~0. Per naktį nelaiko. Jautru spread'ui. `tradingview/scalp_test/REZULTATAI.md` (lev.py) |
 
 ## Atmesti (kad netestuotume iš naujo)
 - ichi*/ichiV* šeima, lookahead_strategy, mp (Heikin-Ashi / ateities duomenys); keltnerchannelrsi = KeltnerRSI, lafuria = EI3v2 kopijos.

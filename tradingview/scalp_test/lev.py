@@ -10,7 +10,7 @@ Dd, closes = noise2.prep(ny)
 orig = noise2.st; noise2.st = lambda t, a, b: t
 r = noise2.run_cfg((Dd, closes, 1.0, 0, "paper", 60, False)); noise2.st = orig
 t = r["tr"]; vol = closes.pct_change().rolling(14).std().shift(1); vol.index = pd.to_datetime(vol.index)
-P = (("2021-03-01", "2025-01-01"), ("2025-01-01", "2026-11-15"))
+P = (("2016-01-01", "2021-03-01"), ("2021-03-01", "2025-01-01"), ("2025-01-01", "2026-11-15"))
 def show(lab, tt):
     out = []
     for a, b in P:

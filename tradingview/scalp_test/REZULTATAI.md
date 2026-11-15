@@ -51,3 +51,11 @@ Pozicijos dydis pagal svyravimą (tikslas 1–2 %/d., iki 1x/2x): rizikos ir gr�
 | 4x | +47,6 %, 30 % | +11,5 %, 36 % | 22 +130, 24 +5, 25 +27, 26 −3 |
 | Autorių dinaminis (2 %/d., iki 4x) | +18,6 %, 15 % | +5,6 %, 18 % | |
 Sverto kaina 6 %/m. nuo skolintos dalies. 40–50 %/m. pasiekiama tik su 4x ir daugiausia dėl 2022 m. (+130 %); 2024 ir 2026 ~0. Praktiškai: 1 MNQ (mikro Nasdaq ateities sandoris, ~45–50 tūkst. $ vertės) su ~15 tūkst. € sąskaita ≈ 3x; kaštai mažesni nei CFD spread'as.
+
+### Patikra 2016–2021 (nematyta, Dukascopy NAS100 5m, `lev_2016.txt`)
+| Svertas | 2016 – 2021-03 | Metai | Visas 2016–26 (apytiksl.) |
+|---|---|---|---|
+| 1x | +7,4 %/m., kritimas 6 % | 16 +4, 17 +5, 18 +28, 19 −1, 20 +6 | ~+9 % |
+| 3x | +11,8 %, 24 % | 16 0, 17 +6, **18 +86**, 19 −11, 20 +5 | **~+20 %/m.**, kritimas ~27 % |
+| 4x | +12,9 %, 32 % | 16 −2, 17 +6, **18 +121**, 19 −16, 20 +4 | **~+24 %/m.**, kritimas ~36 % |
+Pelnas ateina neramiais metais (2018, 2022 – rinka krenta ir labai svyruoja), ramiais (2016–17, 2019, 2024, 2026) ~0. 40–50 %/m. – ne vidurkis, o geri metai. Gali papildyti kripto botus (2022 m. kripto krito, šis +92…+130 %).
