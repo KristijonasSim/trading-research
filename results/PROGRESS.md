@@ -354,3 +354,7 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 ## 2026-11-15 05:10 – nauji šaltiniai
 - batchM76: kandidatų nėra.
 - GitHub paieška (24 užklausos): 41 naujas repo → `freqtrade/sources_more8` (gitignored), 117 dar netestuotų strategijų → batchM92–M94. `queue8.sh` paleidžiama automatiškai, kai baigsis queue7 (`queue_next.sh`).
+
+## 2026-11-15 07:30 – batchM77–M81
+- UsdcmbeSpot2403 (Heikin-Ashi perrašo kainas) ir asd (argrelextrema) atmestos.
+- abbasPublic (alts10 +20 %/m., kritimas 9 %) ir abbas94 (+25,9 %/m., 11 %) – atrinktos abbas (nr. 8) giminaičiai. Nematytas 2018–21: abbasPublic +79 %/m. (kritimas 26,5 %), abbas94 +65 %/m. (kritimas 38,7 % – per didelis). Vyksta lookahead / 1m / top9.

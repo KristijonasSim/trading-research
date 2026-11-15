@@ -236,7 +236,7 @@ Patikros:
 | TSMomentum | BTC+ETH spot, 1d | 16,8 | 13,4 % | Švari, 2018–21 +68 %/m., bet 2018 −36 %, 2021–22 minuse. Kblack0610 |
 
 ## Atmesti (kad netestuotume iš naujo)
-- RsiquiV5_2 (np.gradient – ateities duomenys); JT_V04 (1 min. detalumas: pelnas dingsta); MergedStrategy, NimmV20 (Heikin-Ashi perrašo kainas); NOTankAi_15_2 (argrelextrema).
+- UsdcmbeSpot2403 (Heikin-Ashi), asd (argrelextrema); RsiquiV5_2 (np.gradient – ateities duomenys); JT_V04 (1 min. detalumas: pelnas dingsta); MergedStrategy, NimmV20 (Heikin-Ashi perrašo kainas); NOTankAi_15_2 (argrelextrema).
 - IchisV1 / IchisV1_2 (+498 %/m., kritimas 1 %) – perrašo kainas Heikin-Ashi reikšmėmis, rezultatas netikras.
 - Advanced_Ichimoku_4 (batchM47): +300 %/m. su 1,6 % kritimu – perrašo kainas Heikin-Ashi, netikra.
 - lambo2_5m: nematytame 2018–21 kritimas 38 %.
