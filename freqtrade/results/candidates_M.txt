@@ -234,3 +234,4 @@ batchM11 IchiVwapAdx btc_eth 15m 368.9 4.2 3742 {"2021": 18.1, "2022": 530.4, "2
 batchM11 FUT_DONE
 batchM14 RegimeFilterStrategy alts10 1h 19.1 31.4 2569 {"2021": -1.3, "2022": 67.3, "2023": 6.1, "2024": 43.0, "2025": -4.7, "2026": 0.5} FUTURES
 batchM14 FUT_DONE
+batchM15 FUT_DONE

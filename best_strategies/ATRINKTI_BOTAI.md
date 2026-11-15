@@ -234,6 +234,14 @@ Patikros:
 - ❌ Išgyvenusiųjų patikra (2021-11 top 20): tik +7,0 %/m., balanso kritimas 45 % – rezultatą išpūtė dabartinių monetų sąrašas.
 - Šaltinis: remiotore/ccxt-freqtrade. Failas `best_strategies/eddies.py`.
 
+## 23. RegimeFilterStrategy (Freqtrade, altcoin'ai futures, 1h, long + short, be sverto) – pridėta 2026-11-15
+- Taisyklė: trendas (EMA50 > EMA100) → long, kai kaina pramuša 20 val. maksimumą su 2,3x apimtimi; krentant – short simetriškai. TP 12 %, SL 5 %.
+- 2021–26 (alts10 perp, su funding mokesčiais): **+15,7 %/m., kritimas 33,5 %** (be funding +19,1 %). ~510 sandorių/m., laimi tik 32 %.
+- Nematytas 2020-01 – 2021-11 (futures duomenys nuo 2020): +40 %/m., kritimas 16 %; su 5 min. detalumu +44 %.
+- Lookahead 0/20.
+- ⚠️ Kritimas arti 35 % ribos. 2018 m. patikra negalima (nėra futures duomenų). Short pelnas didesnis nei long – priklauso nuo kritimo rinkų.
+- Šaltinis: Bananajoexxc_RegimeFilterStrategy-Freqtrade. Failas `best_strategies/RegimeFilterStrategy.py`.
+
 ## Potencialūs, bet rizikingi
 | Strategija | Rinka | %/m | Max kritimas | Kodėl ne pagrindiniame sąraše |
 |---|---|---|---|---|

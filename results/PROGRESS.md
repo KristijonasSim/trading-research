@@ -395,3 +395,5 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - **RegimeFilterStrategy** (alts10 futures 1h, +19,1 %/m., kritimas 31 %, long/short pramušimas): kodas švarus, vyksta lookahead / 2020–21 / 5m detalumas (`results/fut_check.sh`).
 - Straipsnis 105 (savaitgalio diapazono pramušimas) atmestas.
 - Pastaba: `futures/*-1h-funding_rate.feather` turi 2 stulpelius – freqtrade jų neperskaito (funding = 0 futures testuose).
+- **RegimeFilterStrategy išlaikė** (futures): lookahead 0/20; 2021–26 su funding +15,7 %/m. (kritimas 33,5 %); 2020–21 +40 %/m. (16 %), 5m detalumas +44 %. → ATRINKTI_BOTAI nr. 23.
+- Futures patikroms: `freqtrade/fut_data/` (funding failai perrašyti freqtrade formatu, 1h ir 8h), `config_futures_market.json` (lookahead), `results/fut_check.sh`. queue9 futures testai buvo be funding (atranka šiek tiek optimistinė).
