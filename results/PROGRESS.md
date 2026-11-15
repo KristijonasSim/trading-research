@@ -379,3 +379,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 574 senesnės short strategijos (69 partijos, M1–M90) irgi nebuvo ištestuotos → `queue9.sh` (futures perleidimas) prasidės po queue8b.
 - 2026-11-15 (antras kompiuteris): dry-run botai sveiki, 0 sandorių – backtestas su naujausiais duomenimis (11-08 – 11-15) EI3v2 duotų tik 3 sandorius 11-10 (prieš paleidimą), NASOS 2 per 2 mėn. – rinka signalų neduoda. EI3v2 klaida `sell_reason` setter – kosmetinė (confirm_trade_exit tik pervadina priežastį). Paleista išgyvenusiųjų patikra (2021-11 top 20) naujoms: `pit_queue4.sh` (EI3v2_2_4/_7, abbasPublic, eddies, DS_Green_5m, NS4_dca, NFI7HO2, BearBull3, BSS2b) ir KeltnerRSI (1d iš 1h).
 - 15:30 straipsnis 102 (funding atsiskaitymo efektas) atmestas; eilė papildyta 103–105 (kita sesija neaktyvi 31 val.).
+- 16:00 straipsnis 104 (trendo ansamblis) atmestas: 2021–26 +6…+8 %/m.
