@@ -120,4 +120,4 @@ Kripto duomenys: Binance (spot/futures, 1h/1d, visos USDT poros su istorija). Ak
 | 115 | Kripto grąžų asimetrija (skewness): pirkti mažiausios asimetrijos monetas, top 50 | kripto | ❌ atmesta (2021–26 +23 %, bet 2018–21 −8 %) |
 | 116 | NASDAQ-100 ↔ BTC taktinė rotacija (Quantpedia 2026 „Silicon vs. Satoshi“) | kripto, akcijos | ❌ atmesta (2021–26 kritimas ≥52 %) |
 | 117 | BTC prieššventinis dreifas (JAV šventės; Quantpedia 2025) | kripto | ❌ atmesta (≤ +12 %/m., 2018–21 nėra efekto) |
-| 118 | BTC kelių laikotarpių MACD trendas (Quantpedia 2025, 1d + 1w filtras) | kripto | laukia |
+| 118 | BTC kelių laikotarpių MACD trendas (Quantpedia 2025, 1d + 1w filtras) | kripto | ❌ atmesta (2021–26 ≤ +10 %/m.) |

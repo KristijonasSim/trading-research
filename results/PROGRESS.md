@@ -404,3 +404,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 2026-11-15 20:41: Straipsniai 114 (žema beta) ir 115 (asimetrija) atmesti. 115 long-short 2021–26 +22,8 %/m., bet 2018–21 −8,3 %/m. queue9: užstrigęs HedgingGrid (batchM22) sustabdytas, eilė tęsiasi (batchM23).
 - 2026-11-15 22:41: Straipsniai 116 (QQQ↔BTC rotacija, 2021–26 kritimas ≥52 %) ir 117 (BTC prieš šventes, ≤ +12 %/m.) atmesti. Pridėtas 118. FractalStrategyV1–V5 atmestos: fraktalai naudoja būsimas žvakes (be poslinkio).
 - 2026-11-15 22:43: PhoenixPrecision* (futures BTC/ETH 5m, 10x) atmestos. 2020–21 +69 000 %/m. – tai testo klaida: 10 795 sandorių po ~5 min, 99,9 % baigiasi slenkančiu stop toje pačioje žvakėje, o be 1m duomenų freqtrade laiko, kad kaina pirma kilo. Lookahead švarus, bet rezultatas netikras.
+- 2026-11-16 00:40: Straipsnis 118 (BTC/ETH MACD 1d+1w) atmestas: 2021–26 BTC ≤ +10 %/m., ETH ~0. queue9 ties batchM34.
