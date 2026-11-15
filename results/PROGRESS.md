@@ -376,3 +376,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - batchM91–M94 (sources_more8): kandidatų nėra, bet 87 iš 117 strategijų buvo „short“ (futures) ir spot režime nepasileido.
 - `run_batch.py` papildytas: jei strategija nori short – automatiškai perleidžiama futures režimu (`config_futures.json`, mokestis 0,05 %, 12 porų). Futures duomenys tik 5m/15m/1h – strategijos su 4h informacija gali duoti 0 sandorių.
 - Paleista `queue8b.sh` (M91–M94 perleidimas).
+- 574 senesnės short strategijos (69 partijos, M1–M90) irgi nebuvo ištestuotos → `queue9.sh` (futures perleidimas) prasidės po queue8b.
