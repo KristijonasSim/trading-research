@@ -4,7 +4,7 @@ cd "$(dirname "$0")"
 for k in $(seq 91 94); do b=batchM$k
   [ -d user_data/strategies/$b ] || continue
   BATCH=$b .venv/bin/python run_batch.py -j 3 > results/${b}_run.log 2>&1
-  .venv/bin/python - "$b" >> results/candidates_M.txt  # futures rerun <<'P'
+  .venv/bin/python - "$b" >> results/candidates_M.txt <<'P'
 import json,glob,sys
 b=sys.argv[1]
 for f in glob.glob(f"results/{b}/*/summary.json"):
