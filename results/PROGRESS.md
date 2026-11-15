@@ -386,3 +386,4 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - 2026-11-15: #111 volatilumo taikymas su svertu (QQQ 3–4x) ❌ – 2010–26 +25…+43 %, bet 1999–2009 ~0, kritimai iki 86 %.
 - 2026-11-15: Noise Breakout 3–4x patikra 2016–21: tik +12…+13 %/m.; visas 2016–26 ~+20…+24 %/m., kritimas 27–36 %; pelnas 2018 ir 2022 m.
 - 2026-11-15: #112 Noise Breakout ant 9 akcijų ❌ (portfelis +2…+6 %, gerai tik TSLA/AMD).
+- 2026-11-15: Noise Breakout NAS100 3x + EI3v2 50/50: +25,7 %/m., mėn. kritimas 9 %, koreliacija 0,11 (combo_ei3.py).

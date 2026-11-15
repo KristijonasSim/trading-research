@@ -65,3 +65,11 @@ Pelnas ateina neramiais metais (2018, 2022 – rinka krenta ir labai svyruoja), 
 - Portfelis lygiomis dalimis: 2021–24 +2…+6 %/m., 2025–26 −4…−1 % (2x dar blogiau).
 - Gerai tik TSLA (kas 30 min. 2021–24 +33…+40 %/m., 2025–26 +6…+12 %, kritimas ~25 %) ir AMD (+14…+24 %, 2025–26 ~0…+10). AAPL, MSFT, GOOGL, AMZN, PLTR – minuse.
 - Rinktis TSLA iš 9 = atrankos sėkmė; indeksas (NAS100) lieka geriausia rinka šiai strategijai.
+
+## Derinys su kripto: Noise Breakout NAS100 3x + EI3v2 (`combo_ei3.py`, 2021-11 – 2026-10, mėnesinės grąžos)
+| | %/m. | Kritimas (mėn.) | Blogiausias mėn. | 2022 | 2023 | 2024 | 2025 | 2026 |
+|---|---|---|---|---|---|---|---|---|
+| Noise Breakout 3x | +24,3 | 23 % | −14 % | +92 | +23 | +6 | +23 | −6 |
+| EI3v2 (alts10) | +25,1 | 13 % | −9 % | +15 | +27 | +55 | +16 | +8 |
+| **50/50, kas mėn. perbalansuoti** | **+25,7** | **9 %** | **−7 %** | +51 | +26 | +29 | +20 | +1 |
+Koreliacija 0,11: Noise Breakout uždirba neramiais metais (2022), EI3v2 – kai altai svyruoja (2024). Pastaba: EI3v2 be 1m detalumo (realiai ~−¼), kritimas skaičiuotas iš mėnesinių grąžų (dienos kritimai didesni).
