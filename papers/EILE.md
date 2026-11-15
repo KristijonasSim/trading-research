@@ -107,7 +107,7 @@ Kripto duomenys: Binance (spot/futures, 1h/1d, visos USDT poros su istorija). Ak
 | 100 | Kredito skirtumo (Baa − 10 m.) rinkos laikas → SPY/QQQ | akcijos | ❌ atmesta (≈ SPY > SMA200, < laikymas) → `100_credit_spread/REZULTATAI.md` |
 | 101 | Infliacijos režimo rotacija (CPI YoY → GLD/DBC arba SPY) | ETF | ❌ atmesta (laimi skirtingais periodais, nestabilu) → `101_inflation_regime/REZULTATAI.md` |
 | 102 | Funding atsiskaitymo efektas (kaina prieš/po 00/08/16 UTC), 12 perp 5m | kripto | ❌ atmesta (±1 bp, mokestis 10 bp; šablonas neatsikartoja) → `102_funding_settlement/REZULTATAI.md` |
-| 103 | JAV rinkos atidarymo (13:30 UTC) diapazono pramušimas, BTC/ETH 5m | kripto | laukia |
+| 103 | JAV rinkos atidarymo (13:30 UTC) diapazono pramušimas, BTC/ETH 5m | kripto | atmesta (2018–21 visi variantai minuse) |
 | 104 | Trendo ansamblis (Hurst, Ooi, Pedersen 2017 „A Century of Evidence“): 1/3/12 mėn. signalų vidurkis, volatilumo taikymas, alts + 2018 top 9 | kripto | ❌ atmesta (2021–26 +6…+8 %/m., lenkia laikymą, kritimai 20–31 %) → `104_trend_ensemble/REZULTATAI.md` |
 | 105 | Savaitgalio diapazono pramušimas pirmadienį (BTC/ETH 1h) | kripto | ❌ atmesta (2021–26 neigiama arba +7 %/m. su 46 % kritimu) → `105_weekend_range/REZULTATAI.md` |
 | 106 | Akcijų atšokimas S&P 500: Connors RSI(2) < 5/2, didelis dienos kritimas (istorinė sudėtis) | akcijos | ❌ atmesta (2015–26 −4…+8,5 %/m. < SPY 13,5 %) → `106_stock_pullback/REZULTATAI.md` |

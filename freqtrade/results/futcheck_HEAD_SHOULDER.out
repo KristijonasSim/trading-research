@@ -1,0 +1,13 @@
+== LOOKAHEAD
+2026-11-15 16:40:45,458 - freqtrade.optimize.analysis.lookahead - INFO - HEAD_SHOULDER: no bias detected
+│ HEAD_SHOULDER.py │ HEAD_SHOULDER │       No │            20 │                    0 │                   0 │                   │
+== OOS 2020-2021
+│ Total profit %                         │ -31.88%                                   │
+│ CAGR %                                 │ -18.85%                                   │
+│ Absolute drawdown                      │ 586.434 USDT (55.06%)                     │
+│ Absolute drawdown (wallet balance)     │ 586.434 USDT (55.06%)                     │
+== DETAIL 2020-2021 5m
+│ CAGR %                                 │ -18.85%                                   │
+│ Absolute drawdown                      │ 586.434 USDT (55.06%)                     │
+│ Absolute drawdown (wallet balance)     │ 586.434 USDT (55.06%)                     │
+FUT_CHECK_DONE

@@ -398,3 +398,5 @@ Jei kompiuteris išsijungė: visi rezultatai išsaugoti šiame aplanke. Skriptai
 - **RegimeFilterStrategy išlaikė** (futures): lookahead 0/20; 2021–26 su funding +15,7 %/m. (kritimas 33,5 %); 2020–21 +40 %/m. (16 %), 5m detalumas +44 %. → ATRINKTI_BOTAI nr. 23.
 - Futures patikroms: `freqtrade/fut_data/` (funding failai perrašyti freqtrade formatu, 1h ir 8h), `config_futures_market.json` (lookahead), `results/fut_check.sh`. queue9 futures testai buvo be funding (atranka šiek tiek optimistinė).
 - 16:49 laiškas išsiųstas: RegimeFilterStrategy (nr. 23).
+- 2026-11-15 18:41: HEAD_SHOULDER (futures alts10 15m, +21,7 %/m., kritimas 25 %) – lookahead švarus, bet 2020–21 −18,9 %/m., kritimas 55 % → atmesta.
+- 2026-11-15 18:41: Straipsnis 103 (JAV atidarymo ORB BTC/ETH 5m) atmestas: 2021–26 ETH iki +28 %/m., bet 2018–21 visi 24 variantai minuse. papers/103_us_open_orb/.
