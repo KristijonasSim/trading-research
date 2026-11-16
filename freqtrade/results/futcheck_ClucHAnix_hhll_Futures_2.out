@@ -1,0 +1,28 @@
+== LOOKAHEAD
+2026-11-16 02:50:15,208 - freqtrade.strategy.strategy_wrapper - ERROR - Unexpected error AttributeError("'ClucHAnix_hhll_Futures_2' object has no attribute 'leverage_num'") calling <bound method 
+AttributeError: 'ClucHAnix_hhll_Futures_2' object has no attribute 'leverage_num'
+2026-11-16 02:50:15,222 - freqtrade.strategy.strategy_wrapper - ERROR - Unexpected error AttributeError("'ClucHAnix_hhll_Futures_2' object has no attribute 'leverage_num'") calling <bound method 
+AttributeError: 'ClucHAnix_hhll_Futures_2' object has no attribute 'leverage_num'
+2026-11-16 02:50:15,249 - freqtrade.optimize.analysis.lookahead - INFO - ClucHAnix_hhll_Futures_2: no bias detected
+│ ClucHAnix_hhll_Futures_2.py │ ClucHAnix_hhll_Futures_2 │       No │            20 │                    0 │                   0 │                   │
+== OOS 2020-2021
+2026-11-16 02:50:41,895 - freqtrade.strategy.strategy_wrapper - ERROR - Unexpected error AttributeError("'ClucHAnix_hhll_Futures_2' object has no attribute 'leverage_num'") calling <bound method 
+AttributeError: 'ClucHAnix_hhll_Futures_2' object has no attribute 'leverage_num'
+2026-11-16 02:50:41,905 - freqtrade.strategy.strategy_wrapper - ERROR - Unexpected error AttributeError("'ClucHAnix_hhll_Futures_2' object has no attribute 'leverage_num'") calling <bound method 
+AttributeError: 'ClucHAnix_hhll_Futures_2' object has no attribute 'leverage_num'
+2026-11-16 02:50:42,034 - freqtrade.strategy.strategy_wrapper - ERROR - Unexpected error AttributeError("'ClucHAnix_hhll_Futures_2' object has no attribute 'leverage_num'") calling <bound method 
+AttributeError: 'ClucHAnix_hhll_Futures_2' object has no attribute 'leverage_num'
+2026-11-16 02:50:42,055 - freqtrade.strategy.strategy_wrapper - ERROR - Unexpected error AttributeError("'ClucHAnix_hhll_Futures_2' object has no attribute 'leverage_num'") calling <bound method 
+AttributeError: 'ClucHAnix_hhll_Futures_2' object has no attribute 'leverage_num'
+2026-11-16 02:50:42,058 - freqtrade.strategy.strategy_wrapper - ERROR - Unexpected error AttributeError("'ClucHAnix_hhll_Futures_2' object has no attribute 'leverage_num'") calling <bound method 
+AttributeError: 'ClucHAnix_hhll_Futures_2' object has no attribute 'leverage_num'
+2026-11-16 02:50:42,063 - freqtrade.strategy.strategy_wrapper - ERROR - Unexpected error AttributeError("'ClucHAnix_hhll_Futures_2' object has no attribute 'leverage_num'") calling <bound method 
+AttributeError: 'ClucHAnix_hhll_Futures_2' object has no attribute 'leverage_num'
+2026-11-16 02:50:42,074 - freqtrade.strategy.strategy_wrapper - ERROR - Unexpected error AttributeError("'ClucHAnix_hhll_Futures_2' object has no attribute 'leverage_num'") calling <bound method 
+AttributeError: 'ClucHAnix_hhll_Futures_2' object has no attribute 'leverage_num'
+== DETAIL 2020-2021 1m
+2026-11-16 02:51:11,165 - freqtrade.strategy.strategy_wrapper - ERROR - Unexpected error AttributeError("'ClucHAnix_hhll_Futures_2' object has no attribute 'leverage_num'") calling <bound method 
+AttributeError: 'ClucHAnix_hhll_Futures_2' object has no attribute 'leverage_num'
+2026-11-16 02:51:11,177 - freqtrade.strategy.strategy_wrapper - ERROR - Unexpected error AttributeError("'ClucHAnix_hhll_Futures_2' object has no attribute 'leverage_num'") calling <bound method 
+AttributeError: 'ClucHAnix_hhll_Futures_2' object has no attribute 'leverage_num'
+FUT_CHECK_DONE

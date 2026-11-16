@@ -1,0 +1,13 @@
+== LOOKAHEAD
+2026-11-16 02:43:58,109 - freqtrade.optimize.analysis.lookahead - INFO - EI3v2_tag_cofi_green_Future_Long_3: no bias detected
+│ EI3v2_tag_cofi_green_Future_Long_3.py │ EI3v2_tag_cofi_green_Future_Long_3 │       No │            20 │                    0 │                   0 │                   │
+== OOS 2020-2021
+│ Total profit %                         │ 1412.81%                                  │
+│ CAGR %                                 │ 339.26%                                   │
+│ Absolute drawdown                      │ 896.79 USDT (9.88%)                       │
+│ Absolute drawdown (wallet balance)     │ 896.79 USDT (9.88%)                       │
+== DETAIL 2020-2021 1m
+│ CAGR %                                 │ 235.25%                                   │
+│ Absolute drawdown                      │ 574.632 USDT (9.68%)                      │
+│ Absolute drawdown (wallet balance)     │ 574.632 USDT (9.68%)                      │
+FUT_CHECK_DONE

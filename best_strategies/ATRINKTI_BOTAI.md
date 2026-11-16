@@ -210,6 +210,7 @@ Patikros:
 - ⚠️ 2020 m. kovo kritime balansas su atvirais sandoriais krito ~40 %. Rinktis vieną versiją, ne abi kartu su originalu (tie patys sandoriai).
 - ✅ Išgyvenusiųjų patikra (2021-11 top 20): **_2_4 +36,0 %/m.** (balanso kritimas 30 %), _7 +29,3 % (34 %).
 - Šaltinis: remiotore/ccxt-freqtrade. Failai `best_strategies/EI3v2_tag_cofi_green_2_4.py`, `..._7.py`.
+- ➕ 2026-11-16: futures versija `EI3v2_tag_cofi_green_Future_Long_3` (ta pati logika, 1x, futures rinka) su tikrais funding mokesčiais: 2021–26 alts10 **+24,2 %/m., kritimas 4,6 %**; 2020–21 +339 %/m., su 1 min. detalumu +235 %/m. (kritimas 10 %); lookahead švarus. Futures rinkoje veikia beveik taip pat kaip spot. `best_strategies/EI3v2_tag_cofi_green_Future_Long_3.py`
 
 ## 20. KeltnerRSI (Freqtrade, altcoin'ai, 1d) – pridėta 2026-11-15
 - 2021–26 (alts10): **+18,4 %/m., kritimas 26 %**, 378 sandoriai (2021 −1, 2022 −20, 2023 +55, 2024 +122, 2025 −12, 2026 −3).
