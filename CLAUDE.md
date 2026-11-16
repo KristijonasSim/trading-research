@@ -69,7 +69,7 @@ Komandos (paleisti iš `freqtrade/`):
 
 - Akcijos (Industry Trends, S&P 500 momentum, Clenow, VIX/SVXY, Connors): nė viena patikimai nelenkia SPY 2015–26 → `industry-trends/AKCIJOS_REZULTATAI.md`. Kripto trendai (Concretum) netinka → `crypto-trend/REZULTATAI.md`.
 
-- **E0V1E_DCA3 su svertu:** 3x +42 %/m., 10x +53 %/m., bet kritimai 52–71 % (2025-10-10 likvidacijos) → `freqtrade/results/lev/REZULTATAI.md`. Bybit demo botas paruoštas `~/trading/bybit_demo/` (raktai tik ten, ne repo; paleisti `./start.sh <svertas>`), 2026-11-10 paleistas E0V1E_DCA3 15x (demo, 49 % balanso); EI3v2 reikia atskiro Bybit subaccount rakto.
+- **E0V1E_DCA3 su svertu:** 3x +42 %/m., 10x +53 %/m., bet kritimai 52–71 % (2025-10-10 likvidacijos) → `freqtrade/results/lev/REZULTATAI.md`. Bybit demo botas paruoštas `~/trading/bybit_demo/` (raktai tik ten, ne repo; paleisti `./start.sh <svertas>`), 2026-11-10 paleistas E0V1E_DCA3 15x (demo, 49 % balanso); **2026-11-16 pakeista į EI3v2 futures 3x** (`./start.sh 3`); EI3v2 reikia atskiro Bybit subaccount rakto.
 
 - 2026-11-11: `extra/` partijos iki batch50g (~350 iš 469). **NASOSv5_mod3 atrinkta** (alts10 +18,3 %/m., kritimas 3,3 %, išlaikė 2018–21). Kitą partiją: `freqtrade/make_batch.py batch50h`; 1m strategijos ant alts10 netelpa į RAM, praleidžiamos.
 
