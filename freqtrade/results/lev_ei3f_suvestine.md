@@ -7,3 +7,10 @@
 | 3x | +294 | 18 % | +360 % | +17309 % | +124 % | +53 % | +140 % | +63 % | +10 % | +74 |
 | 4x | +404 | 38 % | +399 % | +52999 % | +131 % | +88 % | +215 % | +63 % | +7 % | +92 |
 | 5x | +472 | 36 % | +680 % | +123406 % | +128 % | +86 % | +149 % | +44 % | +3 % | +76 |
+
+## Tikslesnis 1 min. testas, 2020-01 – 2021-11 (blogiausias kritimas su atvirais sandoriais)
+| Svertas | 1x | 2x | 3x | 4x | 5x |
+|---|---|---|---|---|---|
+| Kritimas | 14 % | 24 % | 33 % | 37 % | 32 % |
+
+Išvada: 2x saugiausias (kritimas 24 %), 3x ties riba (33 %), 4x+ per rizikinga. 10x 2026 m. −6,5 %, kritimas 34 %.
