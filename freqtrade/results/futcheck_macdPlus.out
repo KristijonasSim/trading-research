@@ -1,0 +1,13 @@
+== LOOKAHEAD
+2026-11-16 06:40:56,499 - freqtrade.optimize.analysis.lookahead - INFO - macdPlus: no bias detected
+│ macdPlus.py │ macdPlus │       No │            20 │                    0 │                   0 │                   │
+== OOS 2020-2021
+│ Total profit %                         │ 14726340.60%                              │
+│ CAGR %                                 │ 67216.18%                                 │
+│ Absolute drawdown                      │ 28868336.115 USDT (19.53%)                │
+│ Absolute drawdown (wallet balance)     │ 28868336.115 USDT (19.53%)                │
+== DETAIL 2020-2021 5m
+│ CAGR %                                 │ 521.25%                                   │
+│ Absolute drawdown                      │ 60489.421 USDT (70.40%)                   │
+│ Absolute drawdown (wallet balance)     │ 60489.421 USDT (70.40%)                   │
+FUT_CHECK_DONE
