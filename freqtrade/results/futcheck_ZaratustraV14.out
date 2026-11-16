@@ -1,0 +1,10 @@
+== LOOKAHEAD
+2026-11-16 00:44:44,336 - freqtrade.optimize.analysis.lookahead - INFO - ZaratustraV14: no bias detected
+│ ZaratustraV14.py │ ZaratustraV14 │       No │            20 │                    0 │                   0 │                   │
+== OOS 2020-2021
+│ Total profit %                         │ 5589077.65%                               │
+│ CAGR %                                 │ 36166.09%                                 │
+│ Absolute drawdown                      │ 14634101.045 USDT (29.68%)                │
+│ Absolute drawdown (wallet balance)     │ 14634101.045 USDT (29.68%)                │
+== DETAIL 2020-2021 5m
+FUT_CHECK_DONE

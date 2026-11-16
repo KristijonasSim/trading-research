@@ -1,0 +1,10 @@
+== LOOKAHEAD
+2026-11-16 00:41:17,503 - freqtrade.optimize.analysis.lookahead - INFO -  => RsiquiV2 : bias detected!
+│ RsiquiV2.py │ RsiquiV2 │      Yes │            20 │                    0 │                   0 │ rsi_gra, enter_long, exit_short, enter_short │
+== OOS 2020-2021
+│ Total profit %                         │ 66878595.12%                              │
+│ CAGR %                                 │ 138149.88%                                │
+│ Absolute drawdown                      │ 12500928.064 USDT (4.51%)                 │
+│ Absolute drawdown (wallet balance)     │ 12500928.064 USDT (4.51%)                 │
+== DETAIL 2020-2021 5m
+FUT_CHECK_DONE
