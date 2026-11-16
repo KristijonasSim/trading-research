@@ -245,6 +245,7 @@ Patikros:
 ## Potencialūs, bet rizikingi
 | Strategija | Rinka | %/m | Max kritimas | Kodėl ne pagrindiniame sąraše |
 |---|---|---|---|---|
+| CTREND (straipsnis 120) | top 50 kripto perp, long-short, kas sav. | 31,5 | 34 % | 2025 +91 % sudaro didžiąją pelno dalį, 2023 +5 %, jautru krašto parametrui (10 % → 2019–21 +2 %/m.), su 0,2 % mokesčiu kritimas >35 %. 2019–21 +21 %/m. Portfelis, ne Freqtrade botas. `papers/120_ctrend/` |
 | Ichimoku_v37 | BTC+ETH spot, 4h | 15,9 | 16,1 % | 2022–2024 visi metai minuse, laimi 16 % sandorių, ~19 sandorių/m. (tik trendo bangos). Švari; nematytame 2018–21 +89 %/m. |
 | Ichimoku_v2 | BTC+ETH spot, 4h | 17,3 | 27 % (balanso 42 %) | 2022 −24 %, ~14 sandorių/m., beveik visas pelnas 2024–25. Švari (lookahead 0/20), 5m detalumas tas pats, nematytame 2018–21 +89 %/m. (2018 −24 %). `Ichimoku_v2.py` |
 | Ichimoku_v16 | BTC+ETH spot, 1d | 22,4 | 29 % (balanso 44 %) | tik ~6 sandoriai/m., 2025 +98 % sudaro didžiąją pelno dalį. Švari, 2018–21 +91 %/m., bet 2018 −33 %. `Ichimoku_v16_1d.py` |
