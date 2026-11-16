@@ -123,3 +123,4 @@ Kripto duomenys: Binance (spot/futures, 1h/1d, visos USDT poros su istorija). Ak
 | 118 | BTC kelių laikotarpių MACD trendas (Quantpedia 2025, 1d + 1w filtras) | kripto | ❌ atmesta (2021–26 ≤ +10 %/m.) |
 | 119 | BTC dienos vidaus slenkančių vidurkių strategija su walk-forward (Mroziewicz, Ślepaczuk 2026, arXiv 2602.10785), perkelta į ETH/BNB | kripto | ❌ atmesta (kritimai 45–80 %) |
 | 120 | CTREND kripto trendo faktorius (Fieberg ir kt., JFQA 2024): kainos ir apyvartos signalų derinys, top 50 | kripto | ⚠️ rizikinga (perp+funding 2019–21 +21 %, 2021–26 +32 %, kritimas 34 %, jautru nustatymams) |
+| 121 | Hougaard ketvirtadienio taisyklė (Instagram, Kris): treč. uždarymas < pirm. aukšč. → ketv. žemiau treč. žemiausios | indeksai, kripto | ❌ atmesta (52–55 %, ne 96 %; short minuse) |
